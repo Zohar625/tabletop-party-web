@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "outrageous-long-cards",
   "title": "真事比瞎编离谱",
-  "description": "20 道离谱真事长卡，混合直白词与陌生词；当前题量适合 3–4 人一圈。",
-  "version": "1.0.0",
+  "description": "90 道离谱真事长卡，混合直白词与陌生词；总题量支持 3–9 人一圈，默认读卡 5 秒。",
+  "version": "1.1.0",
   "recommendedReadSeconds": 5,
   "questions": [
     {
@@ -383,6 +383,1563 @@
           "title": "Gloucestershire Archives：Here we are now, entertain us",
           "url": "https://www.gloucestershire.gov.uk/archives/learning-for-all/online-exhibitions/here-we-are-now-entertain-us/",
           "checkedAt": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-portable-baby-cage",
+      "conceptId": "outrageous-objects-portable-baby-cage",
+      "term": "窗外挂婴笼",
+      "aliases": [],
+      "explanation": "有人为住公寓的婴儿设计过一种悬在窗外的笼子，想让没有花园的家庭也能把孩子放到室外呼吸空气。原始专利不只画了一个铁丝框：里面预留玩玩具的空间，一角还能铺被褥睡觉；孩子睡着时可放下帘子，设计者希望它既挡穿堂风，又保留通气。笼体分成可以拆卸、折叠的墙面和屋顶，还专门设计窗台支架与斜撑。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US1448235A/en",
+          "title": "US1448235A - Portable baby cage",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description及Definitions：公寓新鲜空气诉求、玩具空间、被褥、帘子、可折叠分段及窗台支承。",
+          "section": "Description及Definitions"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-nose-shaping-frame",
+      "conceptId": "outrageous-objects-nose-shaping-frame",
+      "term": "整鼻面罩",
+      "aliases": [],
+      "explanation": "一份整鼻器专利把鼻子当成可以长期套模具的部位：外面包着按理想鼻形弯成的薄框，边缘加有弹性金属丝，里面还能衬柔软织物。固定方式也很讲究，除了绕到耳后的挂件，还有近似眼镜架的版本，目的包括让人侧躺时装置不容易移位。专利又提出在鼻孔处加入短管或卷圈，并宣称持续轻压能改变外形、改善呼吸。离谱之处是连睡姿和固定都认真考虑了，但这些是申请人的疗效主张，不能当作已经证实的整形办法。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US1100991A/en",
+          "title": "US1100991A - Device for shaping noses.",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：透气薄框、弹性边缘、衬里、耳挂/眼镜架、侧卧、鼻孔短管及申请人效果主张。",
+          "section": "Description"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-water-walking-shoes",
+      "conceptId": "outrageous-objects-water-walking-shoes",
+      "term": "水上步行鞋",
+      "aliases": [],
+      "explanation": "一种水上鞋专利把每只鞋都做成长条浮体，脚放进上面的凹口，底下却不是普通鞋底，而是能进水、排水的推进腔。设计者希望踩住的一只鞋灌入水后增加阻力，抬起另一只时又能迅速排水，交替迈步向前。浮体可以采用泡沫或中空结构，后端还有向两侧分开的版本，以免转弯时左右鞋尾互相打架。申请人甚至设想，船主可以穿它往返游艇，不必拖着一只接驳小艇，也不用等人开船来接。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US3808622A/en",
+          "title": "US3808622A - Shoes for walking on water",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：固定容积水腔、进排水与通气、泡沫或中空材料、分叉鞋尾及游艇接送设想。",
+          "section": "Description"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-automatic-hat-saluter",
+      "conceptId": "outrageous-objects-automatic-hat-saluter",
+      "term": "自动脱帽致意器",
+      "aliases": [],
+      "explanation": "为了让人鞠躬时不用伸手摘帽，有人把一套上发条的机械机构塞进帽子。装置用弯曲的弹性支脚抱住头，另一组夹子抓住帽子内侧的汗带；低头会使配重摆动，触发齿轮与升降机构，让帽子抬起、转动，再回到头上。原始专利还考虑了限制升起幅度的改型。设计者不仅想替绅士完成礼貌动作，也建议在帽子上放广告牌，靠帽子仿佛自己会动来吸引街上行人。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US556248A/en",
+          "title": "US556248A - Saluting Device（扫描正文；网页OCR标题为ijoyle）",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：头部弹性支脚、汗带夹、配重低头触发、发条升转回落、可作广告媒介。",
+          "section": "Description"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-time-alarm-tipping-bed",
+      "conceptId": "outrageous-objects-time-alarm-tipping-bed",
+      "term": "翻床闹钟",
+      "aliases": [],
+      "explanation": "一种闹床专利认为，闹钟的问题并非叫得不够响，而是醒来的人还赖在床上。它把床底的一部分做成铰接活动板，靠下面带滚轮的腿撑平；到点后，普通闹钟牵动释放机构，支腿向内滑，活动板向下转，设计目标就是把睡着的人倒到地板上。双人床还可以只安排一边翻落，让另一位继续睡；怕一个钟停摆，申请人又提出接上两个闹钟。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US479307A/en",
+          "title": "US479307A - Time-alarm bed",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：滚轮活动腿、铰接床底、普通闹钟触发、倒人到地板、半床独立及双钟冗余。",
+          "section": "Description"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-self-kicking-amusement",
+      "conceptId": "outrageous-objects-self-kicking-amusement",
+      "term": "自己踢自己机",
+      "aliases": [],
+      "explanation": "有一项娱乐装置专利，动力来源和被踢对象是同一个人。使用者站在两根立柱之间，弯腰转动前方的手柄，传动轴和皮带便带动身后的一组旋转臂，让末端的软鞋或柔性拍板轮流碰到自己的屁股。申请书把节奏和力度可由本人控制列为特点，也认真考虑了赶集展出的需求：底座能折起来，拆下的立柱和零件可收进内部空间，换场地再装。它被描述成供个人和旁观者取乐的器械，并没有必须由别人来启动的环节。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US6293874B1/en",
+          "title": "US6293874B1 - User-operated amusement apparatus for kicking the user’s buttocks",
+          "checkedAt": "2026-10-22",
+          "evidence": "Summary及Detailed Description：手柄、双立柱、旋转臂软鞋、本人控制、底座储藏折叠及展会用途。",
+          "section": "Summary及Detailed Description"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-puzzle-jug",
+      "conceptId": "outrageous-objects-puzzle-jug",
+      "term": "漏水谜壶",
+      "aliases": [],
+      "explanation": "这种酒壶看着能喝，脖子上却故意镂出一圈洞，直接往嘴里倒就容易漏得到处都是。博物馆介绍，它曾用于酒馆的饮酒游戏，壶身还常写着挑衅饮客的话，挑战对方不洒一滴地喝到里面的东西。秘密并不在把漏洞修补好，而在隐藏的孔和通道。维多利亚与艾尔伯特博物馆请陶艺家重制馆藏款式时，就在把手下方做出暗孔与通路；遮住其他壶嘴、留下一个，再利用吸力才能喝。眼前的陶器因此同时是一把酒壶和一道操作谜题。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.vam.ac.uk/articles/how-was-it-made-a-puzzle-jug/",
+          "title": "How was it made? A puzzle jug",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文：酒馆游戏、壶颈镂孔与挑衅铭文；Erickson重制品把手暗孔/通路及遮嘴吸饮。",
+          "section": "正文"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-bourdalou-chamber-pot",
+      "conceptId": "outrageous-objects-bourdalou-chamber-pot",
+      "term": "女士便壶",
+      "aliases": [],
+      "explanation": "有一种外形很像餐桌酱汁船的精致小器皿，实际装的东西却完全不适合上桌。它是供女性使用的便壶，适应层层裙装又大又难整理的穿着环境，使用者可以自己或由女仆帮忙，把容器放到裙子下面，减少为了如厕摆弄衣服的麻烦。库珀休伊特博物馆还提到，它可能方便随行，也可与带陶瓷内胆的家具联系起来。至于女士为了不漏听冗长布道而在教堂座位上使用、名字因此来自传教士的故事，馆方明确说真假不清，不能把这个传说当成确定来历。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.cooperhewitt.org/2016/02/01/not-a-gravy-boat/",
+          "title": "Not a Gravy Boat",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文第1–4段：女用便壶、裙下使用与女仆、携带/家具解释；布道命名故事未获证实。",
+          "section": "正文第1–4段"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-shoe-fitting-fluoroscope",
+      "conceptId": "outrageous-objects-shoe-fitting-fluoroscope",
+      "term": "X光试鞋机",
+      "aliases": [],
+      "explanation": "过去有些鞋店会让顾客把穿着新鞋的脚伸进机器，店员不用脱鞋，就能和顾客一起看脚骨的透视影像。机器底部装着射线管，上方荧光屏通常留出三个观察口，分别照顾试鞋者、店员和陪孩子来的家长。它既号称帮助判断鞋是否合脚，也成了一项吸引人的店内体验。后来人们担忧顾客反复照射及店员接触散射辐射，而每个人照过多少次又没有记录。英国曾要求贴出反复暴露可能有害的提示，医学研究机构也希望这种试鞋用途退出。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://blog.sciencemuseum.org.uk/if-the-shoe-fits/",
+          "title": "If The Shoe Fits…",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文：穿鞋成像、荧光屏三个观察口、顾客及店员辐射风险、无曝光记录、警示及MRC立场。",
+          "section": "正文"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-chandelier-perm-machine",
+      "conceptId": "outrageous-objects-chandelier-perm-machine",
+      "term": "吊灯式烫发机",
+      "aliases": [],
+      "explanation": "老式烫发机可以把客人的头发接到一整套悬在头顶的装置上，看着像头顶挂了许多电线的吊灯。博物馆介绍这类机器时，直接把上方部分称作吊灯：头发先接触碱性药剂，再分束绕上金属卷件、夹住，由机器加热来定出持久波浪。药剂配方还会随着美发师的经验、发质和想要的造型而变化，并非全国统一的一瓶水。馆藏实例来自纽约厂商，配有当年公开演示的记录。卷发因此曾是一项要把许多发束同时连到设备上的理发店工程。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://hennepinhistory.org/collection-item-of-the-week-perm-machine/",
+          "title": "Collection Item of the Week: Perm Machine",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文43–51行：chandelier、碱性药剂、经验/发质/造型配方、金属卷件夹持加热、纽约厂商及演示。",
+          "section": "正文43–51行"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-vigorzone-electric-belt",
+      "conceptId": "outrageous-objects-vigorzone-electric-belt",
+      "term": "电疗胸带",
+      "aliases": [],
+      "explanation": "看起来是一条织物带的器物，曾作为电疗商品绕在胸口出售，包装还附着声称能治很多病的宣传单。澳大利亚动力博物馆保存的这款叫维戈尔宗，历史售价约四十五先令，销售方是墨尔本一家商号。它的广告把失眠、便秘、消化问题、风湿乃至瘫痪都装进同一份治愈清单，名字不同的毛病仿佛只要同一条带子就能解决。器物确实按让电流通过身体的思路设计，但馆藏留下的是商品和宣传史，不能因此把这张包治清单看成治疗效果得到证实。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.powerhouse.com.au/object/172938",
+          "title": "'Vigorzone Electric Belt' with packaging and pamphlet",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文、Physical Description及Production：胸带、织物/红盒/宣传页、墨尔本商号、45先令、广告病症列表。",
+          "section": "正文、Physical Description及Production"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-revigator-radioactive-water-jar",
+      "conceptId": "outrageous-objects-revigator-radioactive-water-jar",
+      "term": "镭矿活力水罐",
+      "aliases": [],
+      "explanation": "有一种曾被当成健康用品出售的水罐，设计目标竟包括不让水里的放射性氡气跑掉。辐射博物馆收藏的后期版本，在罐口做出一圈槽，盖子向下的边缘伸进槽中，专利设想靠槽里的水形成密封，减少所谓镭化水中的氡逸散。这个白色罐子把腿与罐身做成一体，使用说明还印在盖子底下。改款专利最终获批时，相关公司已经关门。馆方同时引述当时医学协会对其理论与治疗价值的批评，因此不能把保存放射性说成改善健康。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.orau.org/health-physics-museum/collection/radioactive-quack-cures/jars/revigator-1927-1930.html",
+          "title": "Revigator (ca. 1927-1930)",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文：白色一体罐腿、罐口水封减少氡逸散、盖底说明、批准时公司已停业、JAMA批评。",
+          "section": "正文"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-violet-ray-apparatus",
+      "conceptId": "outrageous-objects-violet-ray-apparatus",
+      "term": "紫光电疗箱",
+      "aliases": [],
+      "explanation": "一套曾流行于家庭的电疗箱，接上市电后，可以用玻璃真空电极在身体附近产生紫、红或蓝色电火花。科学博物馆的拉迪奥勒克斯藏品介绍说，人们曾相信拿电极按摩皮肤，能够缓解肌肉、内脏和神经的疼痛，还把它用在其他病症上。它不只停留在展示柜里的奇想，在二十世纪前半叶很受欢迎，后来还常从老人家阁楼里被翻出来。电极确实可能使皮肤有刺麻感，但馆方特别指出医疗价值可疑；看得见颜色、感觉得到刺激，都不能证明那些治疗宣传成立。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8064980/radiolux-high-frequency-apparatus-europe-1920-1940",
+          "title": "'Radiolux' high frequency apparatus, Europe, 1920-1940",
+          "checkedAt": "2026-10-22",
+          "evidence": "藏品说明65–67行：市电、真空电极、火花颜色、当时疼痛主张、家庭流行和阁楼、刺麻与价值可疑。",
+          "section": "藏品说明65–67行"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-macaura-blood-circulator",
+      "conceptId": "outrageous-objects-macaura-blood-circulator",
+      "term": "血液循环手摇机",
+      "aliases": [],
+      "explanation": "一种镀铬外壳的手摇按摩器，曾被冠上血液循环器的响亮名字。内部其实是齿轮和凸轮机构，发明者却声称它每分钟能震动六千次，激活内脏、改善循环，继而把耳聋、瘫痪、结核甚至癌症都列进宣传。它还靠公开演示和报纸上的神奇痊愈故事招揽关注，后来一次演出遭医学生起哄并投放臭气弹。馆方介绍也提醒，所谓这类机器曾是医生常规治疗女性歇斯底里的工具，是证据不足的流行故事；真实的器械和夸张的治病故事需要分开看。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://oldoperatingtheatre.com/doctor-gerald-macauras-blood-circulator/",
+          "title": "Doctor Gerald Macaura’s Blood Circulator",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文11–20、22–26行：机构/外壳、6000次为发明人宣称、病症清单、公开秀及臭气弹、歇斯底里传说受质疑。",
+          "section": "正文11–20、22–26行"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-phrenological-skull-head",
+      "conceptId": "outrageous-objects-phrenological-skull-head",
+      "term": "性格分区头骨",
+      "aliases": [],
+      "explanation": "曾有人把真人头骨做成一张立体性格地图，在表面划分区域、贴上标签，试图通过测量头颅来判断人的品性。科学博物馆保存的这一件采用斯普尔茨海姆的三十五分区体系，标签是法语，旁边却附着意大利语摘要。它属于当时颅相学的器物：这一学说传播很快，同时也招来嘲讽，而且创立者与合作者还会调整所谓器官的数目、修改区域名字。馆方认为头骨可能来自一名二十多岁去世的女性，但这只是身份推测；器物存在不表示人的性格真能从这些格子读出来。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co134175/phrenological-head-made-from-a-skull",
+          "title": "Phrenological head made from a skull",
+          "checkedAt": "2026-10-22",
+          "evidence": "藏品正文41–44行：35分区、法文/意文、Gall与Spurzheim调整体系、受嘲讽、年轻女性为推测。",
+          "section": "藏品正文41–44行"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-beerbrella",
+      "conceptId": "outrageous-objects-beerbrella",
+      "term": "啤酒遮阳伞",
+      "aliases": [],
+      "explanation": "有项专利专门给饮料配一把伞，想让啤酒瓶、罐或杯子避开直射阳光，也可以挡雨、当装饰。伞面大约五到七英寸，固定方案却相当丰富，既有夹子、束带，也有连着杯套或杯垫的版本。申请人甚至考虑到喝的时候伞会挡脸，提出加上转轴与配重：举起容器时伞先让开，放回直立状态再靠重力回位。伞面还可印广告，杯垫则能装饰成带棕榈树的小岛。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US6637447B2/en",
+          "title": "US6637447B2 - Beerbrella",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：5–7英寸、夹/带/杯套/杯垫、遮阳挡雨、重力配重让位、广告及棕榈树装饰。",
+          "section": "Description"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-three-section-combover",
+      "conceptId": "outrageous-objects-three-section-combover",
+      "term": "三向遮秃梳法",
+      "aliases": [],
+      "explanation": "一项曾获专利的方法不依靠生发药或假发，而是把剩余头发分区折过头顶的方法。方案要求把两侧和后方的头发留长，一般分成三份，交替铺到缺发位置，用定型喷剂固定，最上层再按个人喜好整理。申请人解释，所需长度还得随着秃发位置和覆盖范围变化，前后都缺发的人要留得更长。文件把买发片、织发及后续维护的成本作为比较理由，希望使用者靠自己的头发完成遮盖。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US4022227A/en",
+          "title": "US4022227A - Method of concealing partial baldness",
+          "checkedAt": "2026-10-22",
+          "evidence": "Definitions及Description：侧后长发三分、交替折叠、喷剂、上层造型、长度随秃区变化及与发片成本比较。",
+          "section": "Definitions及Description"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-rocking-bathtub",
+      "conceptId": "outrageous-objects-rocking-bathtub",
+      "term": "摇晃浴缸",
+      "aliases": [],
+      "explanation": "有人嫌泡澡时水太安静，便申请了一种装在支架轴承上的浴缸，让整个缸体来回摇，借晃动把水冲到洗澡者身上。它不是简单给普通浴缸加两条摇椅腿：弹簧用来维持平衡，锁扣能把缸固定在水平位置，排水管也采用可弯曲连接。为了不把水泼满地，缸口还盖上防水罩，只给人的脖子留开口；罩子又伸出带手套的袖管，让里面的人能摸到外部阀门。专利将它设想用于疗养机构和住宅，这些结构记录不等于所宣称的水疗效果得到验证。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US643094A/en",
+          "title": "US643094A - Rocking or oscillating bath-tub.",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：摇动缸体、支承/弹簧/水平锁、柔性排水、防水罩颈口和带手套袖管、机构住宅设想。",
+          "section": "Description"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-fan-and-uv-spoon",
+      "conceptId": "outrageous-objects-fan-and-uv-spoon",
+      "term": "风扇消毒汤匙",
+      "aliases": [],
+      "explanation": "一把汤匙也有人想升级成带电的吹凉设备：专利把小风扇塞进匙柄，让气流朝装着热汤的凹部吹，再给气流安排一个紫外线照射区。申请人的理由是，直接用嘴吹食物可能带来污染，因此希望先处理空气，再送到食物表面。匙柄外罩还要开通气口，内部包括电机和供电装置，汤匙形状则仍要保留盛液体的部分。于是，平常随口一吹的动作，被申请人拆成了风扇、空气通道和紫外线照射这一套带电系统。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US10004349B2/en",
+          "title": "US10004349B2 - Cooling and sterilizing spoon",
+          "checkedAt": "2026-10-22",
+          "evidence": "Abstract及Description249–260：柄内风扇朝食物、UV照空气、嘴吹污染为申请人理由、通气罩电机电源。",
+          "section": "Abstract及Description249–260"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-high-five-simulator",
+      "conceptId": "outrageous-objects-high-five-simulator",
+      "term": "独自击掌机",
+      "aliases": [],
+      "explanation": "有人在专利里认真提出一个问题：独自看球的观众遇到精彩进球，找不到第二个人来击掌庆祝。解决办法是一只装在支架上的假手，连着上臂、前臂和能转动的肘关节；拍上去后前臂退让，再被弹簧推回原位，继续等下一掌。假手可以拆换，甚至做成某个球员手掌的复制品，手臂外还能套上代表球队的衣袖。申请人还设计了触发声音的版本，拍一下就响起欢呼或球员声音。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US5356330A/en",
+          "title": "US5356330A - Apparatus for simulating a “high five”",
+          "checkedAt": "2026-10-22",
+          "evidence": "Background及Summary：孤独球迷场景、肘与弹簧复位、换手及球员复制、球队袖、声音。",
+          "section": "Background及Summary"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-pat-on-back-apparatus",
+      "conceptId": "outrageous-objects-pat-on-back-apparatus",
+      "term": "自我拍背鼓励器",
+      "aliases": [],
+      "explanation": "想得到一句干得好却没人拍背时，一项专利建议把假手架在自己的肩上。假手连着活动杆，肩托负责支撑，使用者拉动绳子或缎带，便能让手掌摆过来拍拍自己的背，随后靠重力或弹簧回到待命位置。它还能拆开携带，申请人甚至把方便藏起来、等送礼时再揭晓列作娱乐优点。用途既包括派对玩笑礼物，也包括给自己即时鼓励，文件举了节食后拒绝甜点等例子。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US4608967A/en",
+          "title": "US4608967A - Pat on the back apparatus",
+          "checkedAt": "2026-10-22",
+          "evidence": "Abstract、Background及Definitions：肩托假手、绳带、重力/弹簧、拆装藏礼、派对礼物与鼓励设想。",
+          "section": "Abstract、Background及Definitions"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-motorized-ice-cream-cone",
+      "conceptId": "outrageous-objects-motorized-ice-cream-cone",
+      "term": "电动冰淇淋托",
+      "aliases": [],
+      "explanation": "有项专利不满足于让人拿着甜筒转圈，改让小电机带动冰淇淋自己转到舌头前面。握柄里放电池、开关和传动机构，上方的杯子可盛柔软食物，也有把普通可食甜筒嵌进托杯的版本。申请人还把舌头当成雕刻工具：保持不动可以在表面舔出横沟，慢慢上下移动则能形成螺旋纹。杯子能拆下清洗或换成别的口味，边缘又加了挡滴结构，防止融化物进入机壳。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US5971829A/en",
+          "title": "US5971829A - Motorized ice cream cone",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：电池电机齿轮旋杯、可食筒版本、舌头横沟/螺旋、拆洗换杯与挡滴。",
+          "section": "Description"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-anti-eating-face-mask",
+      "conceptId": "outrageous-objects-anti-eating-face-mask",
+      "term": "防进食面罩",
+      "aliases": [],
+      "explanation": "一项名叫防进食面罩的专利，打算用贴在嘴和下巴外面的杯形金属丝框，让食物进不了嘴。它并不包住鼻子，网格间隙被设计为仍能让人说话，头顶、脸侧和下巴周围另有环架与带子固定。更离谱的是，申请人还加入可上锁的连接，既想防止自行摘下，又提出紧急情况下能够移除的目标。文件把控制进食、某些术前禁食乃至阻止抽烟都列作设想，具体效果则只是发明人的主张。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US4344424A/en",
+          "title": "US4344424A - Anti-eating face mask",
+          "checkedAt": "2026-10-22",
+          "evidence": "Definitions及Description：鼻下杯形丝框、说话间隙、头环带、锁及紧急移除目标、禁食/防烟设想。",
+          "section": "Definitions及Description"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-wearable-table",
+      "conceptId": "outrageous-objects-wearable-table",
+      "term": "穿在身上的桌子",
+      "aliases": [],
+      "explanation": "一份可穿戴桌子专利，把桌脚换成了人的肩膀。支架像挂钩一样绕过双肩，硬质托盘在胸前展开，再由下面的支撑杆组成三角结构，目标是让人站着也能写字、放食物或做其他需要桌面的事。肩钩可以伸缩，托盘高度也能滑动调整；不用时松开下方支撑，桌面便能转到接近竖直的位置收起。托盘还可更换，表面能做出适合盘子、杯子、绘画工具的不同凹形。它不只是一条接饭渣的围兜，而是认真把可调桌面和折叠支架一起挂在身上的方案。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US5421499A/en",
+          "title": "US5421499A - Wearable table",
+          "checkedAt": "2026-10-22",
+          "evidence": "Definitions及Description：肩钩、硬盘与三角支承、站立书写食用、伸缩高度、竖向收纳、更换/造型托盘。",
+          "section": "Definitions及Description"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-vampire-squid",
+      "conceptId": "nature-vampire-squid",
+      "term": "吸血鬼乌贼",
+      "aliases": [],
+      "explanation": "这位深海居民长着暗红身体和披风般的腕膜，名字像会扑上来吸血，常吃的却是从上方沉下来的海雪，其中混着浮游生物尸体、粪便和黏液。它把两根细长黏丝伸到水中收集碎屑，再拉过腕部，用吸盘产生的黏液把颗粒集中，交给细小突起送进口中。这样的省力吃法适合缺氧海层。遇到危险，它还会把腕膜翻过来改变外形，腕尖闪蓝光；没有常见乌贼的墨汁，却能释放发光液体分散敌人注意。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.mbari.org/animal/vampire-squid/",
+          "title": "MBARI: Vampire squid",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文About明确记载海雪组成、两条黏丝收集及腕部转运、低氧生活和发光防御。",
+          "section": "About"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-osedax",
+      "conceptId": "nature-osedax",
+      "term": "食骨蠕虫",
+      "aliases": [],
+      "explanation": "鲸的肉被吃完后，海底骨架还能养活一群没有嘴、也没有肠子的蠕虫。它们把根状组织伸进骨头，分解周围材料，获取其中的胶原和脂类，根里还住着参与营养过程的共生细菌。许多种类的雄虫小到要用显微镜看，寄居在雌虫身体外的胶质管里，不负责啃骨头。有些大雌虫身边曾发现六百多只雄虫。也有例外种，雄虫能自己吃骨头，体型接近雌虫，因此不能把整个食骨虫属都说成同一套夫妻配置。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.mbari.org/project/osedax-studies/",
+          "title": "MBARI: Osedax Studies",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读Overview与图注：无口无肠的根系营养、共生菌、微小雄虫及Osedax priapus例外。",
+          "section": "Overview / root-system caption"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-barreleye",
+      "conceptId": "nature-barreleye",
+      "term": "大鳍后肛鱼",
+      "aliases": [
+        "管眼鱼",
+        "Macropinna microstoma"
+      ],
+      "explanation": "正面看这条鱼，嘴巴上方有两个像眼睛的黑点，其实是嗅觉器官。真正的眼睛藏在透明、充满液体的头罩里，顶端带着绿色透镜，像两根朝天竖起的望远镜。它在六百至八百米深处常悬停不动，向上寻找猎物的微弱轮廓；进食时，眼睛又能在罩内转向前方。以前拖网捞上的标本常丢掉脆弱头罩，让人误以为眼睛固定不动。水下机器人和短暂存活的活体，才让研究者看清这套会转动的透明驾驶舱。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.mbari.org/news/researchers-solve-mystery-of-deep-sea-fish-with-tubular-eyes-and-transparent-head/",
+          "title": "MBARI: Researchers solve mystery of deep-sea fish with tubular eyes and transparent head",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读研究新闻正文及图注：头罩、嗅觉器官、管眼转动、观察深度和旧标本破损。未采用偷取管水母食物的假说。",
+          "section": "正文及2004/2006图注"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-bloody-belly-comb-jelly",
+      "conceptId": "nature-bloody-belly-comb-jelly",
+      "term": "血腹栉水母",
+      "aliases": [],
+      "explanation": "在深海，吃下一口会发光的食物，可能等于把一盏灯吞进透明肚子里，向更大的捕食者暴露位置。血腹栉水母的胃呈浓重血红色，正好能遮住胃里猎物的光。红光在它生活的深度很难到达，因此在灯下十分鲜艳的颜色，回到深海却是隐蔽装。它属于栉水母，靠一排排细小纤毛摆动游水，并非通常所说的真正水母。研究机构记录它可出现在二百五十到一千五百米深的水层，具体食谱仍有待了解。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.mbari.org/animal/bloody-belly-comb-jelly/",
+          "title": "MBARI: Bloody-belly comb jelly",
+          "checkedAt": "2026-10-22",
+          "evidence": "About明确红胃遮住发光猎物、深海红色隐蔽及纤毛游泳；资料栏标明深度和Diet Unknown。",
+          "section": "About / Depth / Diet"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-nudibranch-stolen-stings",
+      "conceptId": "nature-nudibranch-stolen-stings",
+      "term": "盗刺海蛞蝓",
+      "aliases": [],
+      "explanation": "某些蓑海牛类海蛞蝓吃海葵等刺胞动物时，会把对方尚能使用的刺丝囊留下，不按普通食物消化。它们的消化道前部有几丁质保护层，能减轻猎物反击带来的伤害，再把缴获的武器送进背上的指状突起储存。等自己受到威胁，这些从食物里拆下来的刺丝囊还能再次发射。背上的突起同时参与呼吸，并不只是装饰。蓝龙海蛞蝓还会取食僧帽水母，并挑选其中较大的刺丝囊留下，随身武器的原厂其实是上一顿饭。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.nhm.ac.uk/discover/nudibranchs-psychedelic-thieves-of-the-sea.html",
+          "title": "Natural History Museum: Nudibranchs: How sea slugs steal venom",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读Stealing stings和The blue dragon sea slug：几丁质保护、盗用刺丝囊、背突呼吸与蓝龙选择大刺丝囊。",
+          "section": "Stealing stings / The blue dragon sea slug"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-nepenthes-lowii",
+      "conceptId": "nature-nepenthes-lowii",
+      "term": "劳氏猪笼草",
+      "aliases": [
+        "Nepenthes lowii"
+      ],
+      "explanation": "在婆罗洲少数山地，劳氏猪笼草的捕虫笼宽阔结实，形状像一个敞口马桶。树鼩跨在笼口上，伸头舔食盖子上的花蜜，屁股便对着下方的容器，排出的粪便直接掉进去。植物借此收到已经被动物消化过、仍含有养分的材料，树鼩则得到食物。多数食虫植物靠诱捕小动物补充贫瘠环境里的营养，这种猪笼草却把活着的访客留在外面，收走它的排泄物。那个看似等待猎物落水的笼子，也能成为送餐和施肥同时进行的位置。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.nhm.ac.uk/discover/carnivorous-plants-meat-eaters-of-the-plant-world.html",
+          "title": "Natural History Museum: Carnivorous plants: the meat-eaters of the plant world",
+          "checkedAt": "2026-10-22",
+          "evidence": "Unusual alliances记载lowii的结实宽笼与树鼩站姿、舔蜜时排便；开篇解释食虫植物补充养分。",
+          "section": "Unusual alliances / What are carnivorous plants?"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-nepenthes-hemsleyana",
+      "conceptId": "nature-nepenthes-hemsleyana",
+      "term": "赫姆斯利猪笼草",
+      "aliases": [
+        "Nepenthes hemsleyana"
+      ],
+      "explanation": "婆罗洲有种猪笼草给绒蝠提供住处，蝙蝠白天钻进捕虫笼休息，植物收下它留下的粪便作为营养。笼中有便于蝙蝠攀附的明显棱脊，扩大的开口还会反射超声波，让飞在茂密植物之间的房客更容易靠回声找到它。一般人看到猪笼草里有动物，会想到猎物滑进消化液的画面，这里却出现了持续提供栖身处的关系。蝙蝠把原本用于捕食的叶片当临时卧室，猪笼草得到富含养分的粪便肥料，双方交换的是房间与排泄物。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.nhm.ac.uk/discover/carnivorous-plants-meat-eaters-of-the-plant-world.html",
+          "title": "Natural History Museum: Carnivorous plants: the meat-eaters of the plant world",
+          "checkedAt": "2026-10-22",
+          "evidence": "Unusual alliances明确hemsleyana与绒蝠互利，棱脊、反射超声的扩大开口和蝙蝠粪营养。",
+          "section": "Unusual alliances"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-velvet-worm",
+      "conceptId": "nature-velvet-worm",
+      "term": "天鹅绒虫",
+      "aliases": [
+        "有爪动物"
+      ],
+      "explanation": "这种身体柔软、长着许多短腿的小动物，会从嘴旁的管状器官喷出黏液，把白蚁、潮虫或小蜘蛛缠住，再咬开猎物，送入消化唾液使组织变软，最后吸食。它也能朝敌人的脸喷胶，趁对方忙着处理黏液时逃开。看起来像随身带着双管胶枪，生活环境却很挑剔：体表遍布呼吸小孔，水分容易流失，所以常躲在湿木头、石下和落叶层里，也避开光亮。柔软身体既没有厚甲，又很怕干，喷胶是它在潮湿暗处捕食和脱身的本领。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://australian.museum/learn/animals/worms/velvet-worm/",
+          "title": "Australian Museum: Velvet worm",
+          "checkedAt": "2026-10-22",
+          "evidence": "Feeding and diet与Other behaviours说明喷黏液、体外消化吸食、防御、避光及失水限制。",
+          "section": "What do Velvet Worms eat? / adaptations"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-coconut-octopus",
+      "conceptId": "nature-coconut-octopus",
+      "term": "椰子章鱼",
+      "aliases": [
+        "纹蛸",
+        "Amphioctopus marginatus"
+      ],
+      "explanation": "印度尼西亚的研究观察里，纹蛸会从海底挖出丢弃的椰子壳，先用水流冲洗，再带着壳换地方，等需要掩体时才把它们拼起来藏身。运输途中，它把壳压在身下，用腕足撑着走，姿势像踩高跷，速度和灵活性都受影响。壳在这段路上并没有包住它，反而让柔软身体更加暴露；实际好处要到后来躲进去才出现。研究者因此把这种先搬运、后启用的行为视为防御性工具使用，随身行李里面装的是将来需要的避难所。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.nhm.ac.uk/discover/octopuses-keep-surprising-us-here-are-eight-examples-how.html",
+          "title": "Natural History Museum: Octopuses keep surprising us – here are eight examples how",
+          "checkedAt": "2026-10-22",
+          "evidence": "第3节记载纹蛸挖壳、冲洗、搬运、高跷步态、后用作庇护，明确工具使用为研究者解释。",
+          "section": "3. They can use tools"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-sacculina",
+      "conceptId": "nature-sacculina",
+      "term": "蟹奴",
+      "aliases": [
+        "Sacculina"
+      ],
+      "explanation": "这种藤壶的成年模样不像海边硬壳里的小动物。它在螃蟹体内铺开根状结构，从宿主身上获取营养，身体的一部分又从腹部下方长出来，位置恰好像螃蟹原本携带卵的地方。螃蟹接下来会把这个寄生者当作自己的卵团照料，保护它、清理它，还用含氧的水流冲洗。于是，外面看起来像一只认真护卵的蟹，腹下被呵护的却属于另一个动物。寄生者不仅获得吃饭的渠道，还让供养自己的宿主兼任清洁和保护工作。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://ocean.si.edu/ocean-life/invertebrates/invading-barnacles",
+          "title": "Smithsonian Ocean: Invading Barnacles",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读完整正文：根状体内吸收，腹面外体位置，宿主保护梳理及含氧水流照护。未加入该页未讲的阉割/雄性雌化细节。",
+          "section": "正文"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-texas-horned-lizard",
+      "conceptId": "nature-texas-horned-lizard",
+      "term": "得州角蜥",
+      "aliases": [
+        "Phrynosoma cornutum"
+      ],
+      "explanation": "得州角蜥身体矮胖，后脑长着几根大角，头部和身体覆盖带尖的鳞片，干燥地面的褐灰色能让它融进背景。遇到捕食者，它可以把身体鼓起来显得更大，也能从两眼内角射出少量自己的血，让对手措手不及。它主要吃蚂蚁，尤其是收获蚁，偶尔也吃甲虫、蚱蜢或蜘蛛。别以为它还留着普通壁虎那一招：受到抓捕时，得州角蜥不能靠自行折断尾巴逃生。防御画面里最出格的部分，来自眼角真正流出的血。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://mdc.mo.gov/discover-nature/field-guide/texas-horned-lizard",
+          "title": "Missouri Department of Conservation: Texas Horned Lizard",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description记载眼角喷血与鼓身，Food记载蚂蚁为主，后文说明不能断尾。",
+          "section": "Description / Food / Ecosystem Connections"
+        }
+      ]
+    },
+    {
+      "id": "cw-wombat",
+      "conceptId": "wildlife-wombat",
+      "term": "袋熊",
+      "aliases": [],
+      "explanation": "裸鼻袋熊会拉出像炭块一样的方形粪便，形状由下段肠道的特殊结构塑成。它们常把粪便留在石块、木头等显眼位置，形成多只动物使用的厕所，方块也不容易滚远。研究者分析出粪便带有不同个体的化学气味，又把远处厕所的粪便搬来，架相机观察。袋熊在掺入陌生粪便的地点花了更多时间嗅查，说明能察觉新来者的痕迹。粪便究竟还传递年龄、性别或繁殖状态等什么信息，则是研究者继续探索的问题。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://news.uga.edu/why-do-wombats-have-square-poop/",
+          "title": "University of Georgia: Why do wombats have square poop?",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读2025研究新闻：肠道塑形、共同粪坑、个体化学签名及移入外来粪便实验；年龄性别信息仍假说。",
+          "section": "Why square poop? / What are wombats saying?"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-bombardier-beetle",
+      "conceptId": "nature-bombardier-beetle",
+      "term": "射弹步甲",
+      "aliases": [
+        "放屁虫",
+        "Bombardier beetle"
+      ],
+      "explanation": "受到攻击时，射弹步甲能从腹部射出接近沸点的刺激性液体，而且喷射是一阵阵脉冲。它没有一直把一锅热液体背在身上，而是在使用时让两种前体进入受保护的反应室，混合反应放热，同时产生压力。研究者用高速同步辐射射线看活虫体内，发现压力升高会使柔性膜鼓起、阀门关闭；液体排出、压力下降后，通道又重新打开，开始下一次。它腹部的膜和阀配合工作，使一只小甲虫能连续向敌人发射滚烫的化学喷雾。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://news.mit.edu/2015/how-bombardier-beetles-produce-defensive-spray-0430",
+          "title": "MIT News: How some beetles produce a scalding defensive spray",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读合成前体、近沸点喷雾、高速X射线观察及膜阀驱动脉冲机制。未写成强酸。",
+          "section": "Seeing inside a living beetle / 正文"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-bolas-spider",
+      "conceptId": "nature-bolas-spider",
+      "term": "华丽投索蛛",
+      "aliases": [
+        "Ordgarius magnificus"
+      ],
+      "explanation": "这种澳大利亚蜘蛛夜里不铺开一张完整捕虫网，而是放下一条短丝，末端挂着黏球。飞蛾翅膀的振动接近时，它会转动丝线，让黏球击中并粘住飞蛾，再把猎物拉上来咬住，立即吃掉或裹丝储存。博物馆介绍指出，黏球可能带着模仿某种雌夜蛾的气味，使雄蛾靠过来。它对振动也相当敏感，拨动吉他弦都能诱发反应。白天，这位甩黏球的猎手藏在用丝绑起的叶片里，附近还可能挂着纺锤形的卵囊。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://australian.museum/learn/animals/spiders/magnificent-spider/",
+          "title": "Australian Museum: Magnificent Spider",
+          "checkedAt": "2026-10-22",
+          "evidence": "Feeding and diet描述短丝黏球、振动触发甩动、拉回猎物、吉他反应；气味用may故保留可能。",
+          "section": "Feeding and diet / Habitat"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-hammer-orchid",
+      "conceptId": "nature-hammer-orchid",
+      "term": "锤兰",
+      "aliases": [
+        "Drakaea"
+      ],
+      "explanation": "西澳大利亚的锤兰把一片唇瓣做成近似雌蜂的外形，还散发相似气味，引来寻找配偶的雄蜂。雄蜂抱住这位假对象，想带着它飞走，唇瓣却与花朵通过可活动的结构相连，于是飞行的动作反而把雄蜂带向花柱，身上沾上花粉，或把上次沾的花粉留在那里。它以为要带走伴侣，结果成了搬运花粉的劳动力。当地保护计划还记录了人工授粉以获得种子的需要：有这样精巧的机关，也不能保证每朵花都能顺利完成繁殖。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.dcceew.gov.au/environment/biodiversity/threatened/recovery-plans/interim-recovery-plan-late-hammer-orchid-2001-2003",
+          "title": "Environment Australia: The Interim Recovery Plan for the Late Hammer Orchid (Drakaea confluens ms.) 2001–2003",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读1.5 Biology and ecology：雌蜂形味拟态、铰链唇瓣使雄蜂接触花柱及人工授粉建议。",
+          "section": "1.5 Biology and ecology"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-surinam-toad",
+      "conceptId": "nature-surinam-toad",
+      "term": "负子蟾",
+      "aliases": [
+        "Pipa pipa",
+        "苏里南负子蟾"
+      ],
+      "explanation": "负子蟾交配时，雄性把受精卵推到雌性的背上，卵先粘住皮肤，接下来几天母亲的皮肤逐渐围住它们，形成一片蜂窝状小室，最后把卵包在里面。幼体在母亲背部皮下继续发育几个月，等长成小蛙，才扭动身体把小室撑开。那时母亲背上会露出一只只小脑袋和挥动的脚，随后幼蛙从洞里钻出来，游向水面呼吸。母亲再蜕去这层皮。它扁平的褐色身体本来像水底落叶，到了繁殖期，却成了背着蜂窝育儿房的动物。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://animals.sandiegozoo.org/animals/surinam-toad",
+          "title": "San Diego Zoo: Surinam Toad",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读Family life：雄性放卵于背、皮肤包卵蜂窝、幼蛙皮下发育和钻出、母体蜕皮。",
+          "section": "Family Life"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-anglerfish-sexual-parasitism",
+      "conceptId": "nature-anglerfish-sexual-parasitism",
+      "term": "深海鮟鱇的融合婚姻",
+      "aliases": [],
+      "explanation": "某些深海鮟鱇的雄鱼比雌鱼小得多，没有雌鱼头顶那套发光诱饵，却善于循着气味寻找伴侣。找到以后，它用小尖牙咬住雌鱼，接下来逐渐与她融合，连血液循环也接通，营养依靠雌鱼供应，自己的视觉能力则退化。雄鱼留在她身上提供精子；有雌鱼曾被发现挂着八条雄鱼。这种永久相连的交配方式只适用于部分深海种类，浅水的其他鮟鱇雄鱼仍会独立捕食和游泳，不能把海鲜市场里每条鮟鱇都想成一对连体夫妻。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.nhm.ac.uk/discover/bizarre-love-life-of-the-anglerfish.html",
+          "title": "Natural History Museum: The bizarre love life of the anglerfish",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读Love is blind与Deep-sea dwellers only，保留某些种类范围、血流融合、嗅觉及八雄实例。",
+          "section": "Love is blind / Deep-sea dwellers only"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-diving-bell-spider",
+      "conceptId": "nature-diving-bell-spider",
+      "term": "水蛛的潜水钟",
+      "aliases": [
+        "Argyroneta aquatica"
+      ],
+      "explanation": "水蛛需要空气里的氧气，却能把吃饭、活动和繁殖的大部分生活放在水下。它用蛛丝在水草等物体之间织出一个小容器，再游上水面，让空气附着在多毛腹部的下方，带回水下放进丝制房间。如此形成的气泡房像一口小潜水钟，蜘蛛在里面呼吸。研究者将它视为几乎整生都住在水下的特殊蜘蛛，能够长时间不浮上来，却仍要依靠气体交换，不能像鱼那样直接用鳃呼吸。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://onlineentomology.ifas.ufl.edu/about/articles/entomology/from-here-to-there-different-forms-of-spider-travel/",
+          "title": "University of Florida: How Do Spiders Travel? From Ballooning to Underwater Living",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读How Do Diving Bell Spiders Live and Travel Underwater，丝钟固定、腹部运气及水下生活；未写永久无需补气。",
+          "section": "How Do Diving Bell Spiders Live and Travel Underwater?"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-immortal-jellyfish",
+      "conceptId": "nature-immortal-jellyfish",
+      "term": "灯塔水母的返老还童",
+      "aliases": [
+        "Turritopsis dohrnii"
+      ],
+      "explanation": "小到只有几毫米的多赫尼灯塔水母受到损伤或饥饿压力时，可以把成年水母的身体缩回去，吸收触手，失去游泳能力，沉到底部变成囊状小团。接下来约一天到一天半，它能发育成先前生命阶段的水螅体，再从那里产生新的小水母。这个过程涉及细胞重新改变用途，身体结构也随之重建，而且生命阶段的倒转可以反复发生。所谓不死指这种特殊能力，海龟、鱼类照样能把它吃掉，水螅体也会被海蛞蝓或甲壳动物捕食。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.nhm.ac.uk/discover/immortal-jellyfish-secret-to-cheating-death.html",
+          "title": "Natural History Museum: Immortal jellyfish: The secret to cheating death",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读How does...与Can immortal jellyfish die，24–36小时水螅化、重复逆转及捕食死亡限制。",
+          "section": "How does the immortal jellyfish live forever? / Can immortal jellyfish die?"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-squirting-cucumber",
+      "conceptId": "nature-squirting-cucumber",
+      "term": "喷瓜",
+      "aliases": [
+        "Ecballium elaterium"
+      ],
+      "explanation": "喷瓜成熟的果实会从果柄处脱开，在大约三十毫秒内用高压黏液把种子喷出去，速度约每秒二十米，最远可到十米左右。发射前几天，部分液体还会从果实转移到柄里，让果柄变长、变粗、变硬，把原本接近垂直的果实调整到约四十五度。开喷后果实反向转动，压力也不断下降，因此先出来的种子飞得远，后出来的落得近。不同果实朝四周发射，种子便分布在母株周围一圈，像一排会预先调角度的小水炮。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.ox.ac.uk/news/2024-11-26-new-study-reveals-explosive-secret-squirting-cucumber",
+          "title": "University of Oxford: New study reveals the explosive secret of the squirting cucumber",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读全文机制四点：30毫秒、20米秒、10米、液体回流入柄与45度调整，前后种子速度角度不同。",
+          "section": "正文 / four components of dispersal strategy"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-icefish",
+      "conceptId": "nature-icefish",
+      "term": "南极白血冰鱼",
+      "aliases": [
+        "Channichthyidae"
+      ],
+      "explanation": "南极有一群冰鱼，血液里没有通常让脊椎动物的血显红的血红蛋白。它们仍然需要氧气，只是氧气以溶解在血浆中的方式运输，血液因而不像常见鱼类那样红。英国南极调查局把它们列为脊椎动物里独特的一群；其中鲭冰鱼还是南极毛皮海狮的重要食物，也受到商业捕捞管理。南极鱼的特别之处不止颜色，当地接近海冰生活的许多南极鱼还在体液里具有抗冻糖蛋白，帮助身体避免结冰，冰鱼这个名字并不表示它们已经冻住了。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://legacy.bas.ac.uk/about_antarctica/wildlife/fish/index.php",
+          "title": "British Antarctic Survey: Fish and Squid",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读Fish正文：Channichthyidae无血红蛋白、血浆溶氧、鲭冰鱼捕食关系；另段为南极notothenioid抗冻糖蛋白，正文明确未泛化全部鱼。",
+          "section": "Fish"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-wood-frog",
+      "conceptId": "nature-wood-frog",
+      "term": "林蛙的冬季停机",
+      "aliases": [
+        "木蛙",
+        "Lithobates sylvaticus"
+      ],
+      "explanation": "阿拉斯加的林蛙过冬时，身体能发生冻结，呼吸停止，心脏也停跳。最初出现冻结迹象后，肝脏把储存的糖原转成葡萄糖，送到细胞里，减轻失水和冰冻带来的伤害。眼球和四肢先受到低温影响，心脏、肝脏等核心器官则较晚冻结、较早解冻，让重要功能尽量多维持一段时间。春天气温回升，蛙解冻后又去找池塘繁殖。它们在秋天钻入森林地面的腐叶中越冬，春天在季节性水塘繁殖，响亮的蛙鸣也成为当地春天的信号。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.nps.gov/dena/learn/nature/amphibians.htm",
+          "title": "National Park Service: Amphibians — Denali National Park & Preserve",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读正文：冻态不呼吸无心搏、肝糖原葡萄糖保护、核心器官冻结解冻次序与春季繁殖。",
+          "section": "正文 wood frog freezing"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-sea-spider",
+      "conceptId": "nature-sea-spider",
+      "term": "海蜘蛛的腿肠",
+      "aliases": [
+        "皆足虫",
+        "Pycnogonida"
+      ],
+      "explanation": "海蜘蛛身体细小，腿却又长又显眼，许多原本以为该放在躯干里的工作，都挤进了腿里。消化道延伸到腿中，肠道运动还能推动周围体液，帮助把氧气送往身体各处；它的小心脏不足以独自把循环推到那些长腿末端。氧气通过体表扩散进入，腿提供了很大的交换面积。生殖器官也伸进腿里，雄性则用专门的抱卵肢照料受精卵。名字像住在海里的蜘蛛，实际上属于海蜘蛛纲，身体布置也像把消化、呼吸和育儿装备分散挂在腿上。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://ecology.wa.gov/es-es/blog/october-2017/things-that-go-bump-in-the-night-the-sea-spiders-l",
+          "title": "Washington State Department of Ecology: Things that go bump in the night: the sea spiders look a fright",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读Blood and guts与Father knows best：腿内肠道促进体液循环、体表扩散、生殖与抱卵。未沿用唯一动物绝对说法。",
+          "section": "Blood and guts / Father knows best"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-nature-rafflesia-arnoldii",
+      "conceptId": "nature-rafflesia-arnoldii",
+      "term": "阿诺德大王花",
+      "aliases": [
+        "Rafflesia arnoldii"
+      ],
+      "explanation": "这种能开出直径约一米、重达七公斤单花的植物，平时竟然看不到茎、叶或根。除了露出的花，它的身体主要是穿行在宿主细胞之间的细丝状组织，水和营养都从葡萄科藤本宿主那里取得，不靠晒太阳制造食物。硕大的红花也不卖花香，而是散发腐肉气味，把原本寻找动物尸体产卵的腐肉蝇引来。雨林中雄花和雌花可能相隔较远，苍蝇便替它把花粉运过去。一朵像肉块的巨花下面，藏着寄生在另一株植物体内的生活。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.amnh.org/explore/ology/ology-cards/369-rafflesia-arnoldii",
+          "title": "American Museum of Natural History: Rafflesia arnoldii",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读完整OLogy正文与问答：无茎叶根的宿主体内丝状组织、依赖宿主营养、水、花大小重量及腐肉蝇传粉。",
+          "section": "正文 / Stats / Stumper / Fact or Fiction"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-customs-namahage",
+      "conceptId": "outrageous-customs-namahage",
+      "term": "生剥鬼",
+      "aliases": [
+        "Namahage"
+      ],
+      "explanation": "秋田县男鹿半岛的一些村落会在除夕迎来长相凶恶的访客：当地男子戴上鬼面具，拿着木制刀具挨家敲门，大声追问有没有爱哭或不听话的孩子。居民把这些访客视为神的使者，他们既驱邪，也训诫懒惰的人。名字还联系着一种说法：总围着炉火偷懒的人会烤出红斑，访客要把这种懒惰印记剥掉。不过各村装束并不统一，真山的面具就没有常见的角，也不拿那些吓人的工具。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://jpsearch.go.jp/en/gallery/ndl-9D41MqBl2Va",
+          "title": "Namahage - Japan Search",
+          "checkedAt": "2026-10-22",
+          "section": "正文及Shogatsu段",
+          "evidence": "除夕访家、鬼面具木刀、训诫懒惰及名称解释均有说明；装束差异另由观光厅核对。"
+        },
+        {
+          "url": "https://www.mlit.go.jp/tagengo-db/en/R1-01076.html",
+          "title": "Namahage Museum: Exhibit Outline - Japan Tourism Agency",
+          "checkedAt": "2026-10-22",
+          "section": "English正文",
+          "evidence": "各村面具和道具不同，真山无角也不携工具，馆藏体现约六十村落的变化。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-customs-scissors-dance",
+      "conceptId": "outrageous-customs-scissors-dance",
+      "term": "剪刀舞",
+      "aliases": [],
+      "explanation": "秘鲁中南部安第斯山区的一些克丘亚社区，会让舞者一边表演越来越难的步法和杂技，一边在右手碰击两根磨亮的铁条，发出像剪刀交击的声音。舞者加上小提琴手和竖琴手组成代表村落的队伍，彼此展开可能持续十小时的较量。评判还要看乐器质量和伴奏水平。服装缀着金色流苏、亮片和小镜子；当地有关于舞者与魔鬼订约的传说，因此穿着表演服时不能进教堂，舞蹈却又出现在天主教庆典中。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.unesco.org/archives/multimedia/document-1683",
+          "title": "The Scissors Dance - UNESCO Multimedia Archives",
+          "checkedAt": "2026-10-22",
+          "section": "正文第1—4段",
+          "evidence": "铁条、三人队伍、最长十小时、评判项目、教堂禁忌与节庆关联均见正文。"
+        }
+      ]
+    },
+    {
+      "id": "wc-echternach-hopping",
+      "conceptId": "custom-echternach-hopping",
+      "term": "埃希特纳赫跳跃巡游",
+      "aliases": [],
+      "explanation": "卢森堡的埃希特纳赫会在圣灵降临节后的星期二，用一路蹦跳的方式纪念圣威利布罗德。参加者穿白色上衣和深色下装，五六人排成一行，手持白手帕，随着乐队反复演奏的同一段旋律，一步向左、一步向右地跳过街道。巡游前先在教堂举行弥撒，整段跳跃行程通常约一小时。队伍最后回到大教堂，依次经过圣人的墓前，再用感恩礼结束；跳动整个身体，在这里本身就是参与祈祷的方法。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://luxembourg.public.lu/en/society-and-culture/festivals-and-traditions/echternach-hopping-procession.html",
+          "title": "Echternach Hopping Procession – a musical pilgrimage and UNESCO heritage",
+          "checkedAt": "2026-10-22",
+          "section": "A pilgrimage with its own special tune",
+          "evidence": "五六人一排、手帕、左右跳步、乐曲、约一小时及墓前仪式见政府正文。"
+        }
+      ]
+    },
+    {
+      "id": "wc-mesir-macunu",
+      "conceptId": "custom-mesir-macunu",
+      "term": "梅西尔马居努节",
+      "aliases": [],
+      "explanation": "土耳其马尼萨的这场节庆，会把包好的香料膏从苏丹清真寺的圆顶和宣礼塔高处撒向人群，下面的人争着接。膏由主厨和学徒按传统方式调制，配方含四十一种香料与草药，再由十四名女性组成的小组分装进纸包。庆典纪念哈夫莎苏丹因这种膏恢复健康的故事，但接到纸包的人还可能向它寄托婚姻、工作或生育愿望。制作与庆祝期间有穿传统服饰的军乐队演奏，抢膏只是整套仪式中最热闹的一幕。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://unesco.org.tr/Pages/126/19",
+          "title": "UNESCO Türkiye Millî Komisyonu — Somut Olmayan Kültürel Miras İhtisas Komitesi",
+          "checkedAt": "2026-10-22",
+          "section": "9. Mesir Macunu Festivali",
+          "evidence": "该节包含四十一味原料、十四人包装、清真寺撒膏、民间愿望及乐队。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-customs-air-guitar",
+      "conceptId": "outrageous-customs-air-guitar",
+      "term": "空气吉他大赛",
+      "aliases": [],
+      "explanation": "芬兰奥卢举办的空气吉他世界赛，规定参赛乐器必须看不见，选手可以假装弹电吉他，也能改弹木吉他。决赛分两轮，每轮表演恰好六十秒：先用自己剪好的曲子，晋级后再听主办方临场公布的指定曲。评委除了看技术、舞台表现和原创性，还会评判一种叫空气感的项目。比赛只准一人演出，可以带专属的空气器材助手，却不能带真实或想象中的伴奏乐队；遇到平分，还要换歌再来一轮对决。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://airguitarworldchampionships.com/en/entry/air-guitar-world-championship-world-final-rules/",
+          "title": "Air Guitar World Championship World Final Rules",
+          "checkedAt": "2026-10-22",
+          "section": "Rules 1—5",
+          "evidence": "隐形乐器、两轮六十秒、自选与指定曲、评分及助手和乐队限制见规则。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-customs-bog-snorkelling",
+      "conceptId": "outrageous-customs-bog-snorkelling",
+      "term": "泥沼浮潜赛",
+      "aliases": [],
+      "explanation": "威尔士兰蒂德韦尔斯附近的泥炭沼泽里，有人戴着面镜、呼吸管和脚蹼，钻进人工挖出的浑水沟里抢时间。世界赛的全程是一百二十码，手臂只能留在水下做狗刨动作，脚蹼则负责推进身体。清澈海水和漂亮珊瑚在这里完全派不上用场，参赛者面对的是泥沼水道。现场还有专门的变装趣味，过去有人扮成舞台戏服里的马，也有人带着熨衣板下水；观众可以在岸边听音乐，看这群人在泥水里努力前进。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.green-events.co.uk/world-bog-snorkelling-championships",
+          "title": "Chapel World Bog Snorkelling Champs - Green Events",
+          "checkedAt": "2026-10-22",
+          "section": "赛事正文与规则简介",
+          "evidence": "主办方明确一百二十码、面镜呼吸管脚蹼、手臂水下狗刨及变装；具体变装案例见Visit Wales。"
+        },
+        {
+          "url": "https://www.visitwales.com/things-do/events/sport/can-you-beat-bog",
+          "title": "Bogsnorkelling in Mid Wales - Visit Wales",
+          "checkedAt": "2026-10-22",
+          "section": "Best dressed bogsnorkellers",
+          "evidence": "官方旅游局记载戏服马与携带熨衣板潜泥的变装实例。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-customs-pancake-race",
+      "conceptId": "outrageous-customs-pancake-race",
+      "term": "煎饼赛跑",
+      "aliases": [],
+      "explanation": "英国奥尔尼的煎饼赛跑，要求参赛者带一张煎饼来报到，主办方再发平底锅、围裙和头巾。选手是在当地居住或工作的成年女性，大家穿裙子拿锅跑，发令前先把煎饼抛起来，冲过终点后还得再抛一次。工作人员甚至会为摄影记者安排一次假起跑，让镜头先拍个够。正式比赛响的是煎饼钟，赛后跑者要到教堂参加礼拜，领奖后归还锅和服装；冠军晚上还要与美国利伯勒的跑者视频连线，比对两地成绩。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://olneypancakerace.org/reminders-for-running-the-race/",
+          "title": "Reminders for Runners - Olney Pancake Race",
+          "checkedAt": "2026-10-22",
+          "section": "How to take part; The Race; After the race",
+          "evidence": "资格、带饼发锅、两次抛饼、媒体假起跑、礼拜和跨洋比成绩均见参赛提醒。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-customs-woolsack-race",
+      "conceptId": "outrageous-customs-woolsack-race",
+      "term": "扛羊毛袋赛跑",
+      "aliases": [],
+      "explanation": "英国泰特伯里的比赛，会让选手把一大袋羊毛扛在身上，在甘姆斯图尔山坡来回奔跑。这里的坡度约为四比一，也就是水平走四份距离就升高一份；袋子最重可达六十磅，约二十七公斤。参赛形式还分个人、团队和少年组，并不是普通的钻进麻袋蹦跳。赛道两边是小镇街道，整天同时安排市集、食物摊和娱乐节目。它把当地与羊毛有关的历史变成了体力竞赛，观众看到的是大包羊毛跟着人一起在陡坡上冲刺。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://tetburywoolsack.co.uk/",
+          "title": "Tetbury Woolsack Races",
+          "checkedAt": "2026-10-22",
+          "section": "The Race; Compete; Market Quarter; Entertainment Quarter",
+          "evidence": "山坡名称、四比一坡度、最高六十磅及个人团队少年比赛和市集均见主办方。"
+        },
+        {
+          "url": "https://www.visitbritain.com/en/things-to-do/britains-alternative-sports",
+          "title": "Britain’s alternative sports - VisitBritain",
+          "checkedAt": "2026-10-22",
+          "section": "Tetbury Woolsack Races",
+          "evidence": "旅游局把扛羊毛袋比赛与当地羊毛生产历史联系起来。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-customs-conker-championship",
+      "conceptId": "outrageous-customs-conker-championship",
+      "term": "马栗对打赛",
+      "aliases": [],
+      "explanation": "世界马栗对打锦标赛里，选手拿着穿在鞋带上的马栗种子，轮流甩向对手垂着的那一颗，目标是把它打碎。种子和鞋带全部由主办方提供，选手从袋子里盲抽，可以拒绝最多三颗，不能自己偷偷带一颗特别硬的上场。拳头到种子之间至少要留二十厘米，每次轮到一方可打三下。若双方种子同时碎掉，就重新抽；鞋带缠绕也会被裁判记下，造成三次便会失格，五分钟还没分出胜负则启动加赛规则。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://worldconkerchampionships.com/compete/rules/",
+          "title": "Championship Rules - World Conker Championships",
+          "checkedAt": "2026-10-22",
+          "section": "Rules 1—10",
+          "evidence": "装备统一、盲抽拒绝三次、二十厘米、三击轮流、同时破碎和缠线处罚见原始规则。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-customs-gravy-wrestling",
+      "conceptId": "outrageous-customs-gravy-wrestling",
+      "term": "肉汁摔跤",
+      "aliases": [],
+      "explanation": "英国兰开夏的肉汁摔跤赛，会把擂台变成一个装满肉汁的池子，让选手在里面摔上两分钟。裁判看重的除了对抗场面，还有奇装异服、喜剧效果和能不能逗乐观众，因此把自己打扮成荒唐角色也是正式得分的一部分。选手会拉赞助，为慈善筹款，主办方也把活动当作社区同乐日。更离谱的是，消防队会来帮忙，在每场对抗之间冲洗满身肉汁的选手；赛场旁照样有蛋糕摊、食物饮料和儿童活动。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://worldgravywrestling.com/",
+          "title": "World Gravy Wrestling Championships",
+          "checkedAt": "2026-10-22",
+          "section": "赛事介绍正文",
+          "evidence": "肉汁池、两分钟、服装喜剧娱乐评分、慈善赞助及消防队冲洗见主办方。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-customs-kirkpinar-oil-wrestling",
+      "conceptId": "outrageous-customs-kirkpinar-oil-wrestling",
+      "term": "涂油摔跤节",
+      "aliases": [],
+      "explanation": "土耳其埃迪尔内的柯尔克普纳尔摔跤节，选手上场前会先由专人往身上抹油，旁边还有拿毛巾的人协助。他们穿的不是普通运动短裤，而是用水牛皮或牛皮做的厚皮裤。正式交手前，司仪要用诗句报出选手姓名、称号和本事，鼓与唢呐类乐器则在比赛时演奏特定曲目。参赛者争夺金腰带和首席摔跤手的称号；腰带本身也先在城里巡游，再在清真寺祈祷，整场赛事从开幕起就与仪式连在一起。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.unesco.org.tr/Home/Page/1980?slug=List-of-the-Intangible-Cultural-Heritage-of-T%C3%BCrkiye",
+          "title": "List of the Intangible Cultural Heritage of Türkiye - Turkish National Commission for UNESCO",
+          "checkedAt": "2026-10-22",
+          "section": "8. Kırkpınar Oil Wrestling Festival",
+          "evidence": "抹油人与毛巾助手、厚皮裤、诗体介绍、乐器、金腰带与巡游见官方条目。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-science-oobleck",
+      "conceptId": "outrageous-science-oobleck",
+      "term": "淀粉水跑步",
+      "aliases": [
+        "Oobleck",
+        "玉米淀粉悬浮液"
+      ],
+      "explanation": "玉米淀粉和水调成的浓浆，慢慢搅动时能流，越用力搅却越费劲。足够猛烈地敲击，它会在短时间内硬得像固体，甚至能被打裂；在装满这种浆的池子里，快速奔跑的人也可能踩着它前进。它并不是遇到拳头就发生冻结，而是细小固体颗粒悬浮在液体中，受强烈剪切时形成抵抗流动的接触。研究人员还会突然反转搅动方向，测量阻力怎样消失，用这种办法区分颗粒摩擦与周围液体的作用。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://news.cornell.edu/stories/2015/11/secret-oobleck-revealed-last",
+          "title": "The secret of Oobleck revealed at last - Cornell Chronicle",
+          "checkedAt": "2026-10-22",
+          "section": "正文第2—12段",
+          "evidence": "淀粉水、剪切增稠、敲击打裂、奔跑及剪切反转实验直接见大学报道。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-science-supercooled-water",
+      "conceptId": "outrageous-science-supercooled-water",
+      "term": "过冷水",
+      "aliases": [],
+      "explanation": "一瓶看上去仍能晃动的清水，可能其实已经冷到零摄氏度以下。若缺少能让冰晶起头的灰尘、霜粒或瓶壁缺陷，水会暂时卡在液态；打开瓶盖落进一小片霜，或者受到扰动后，冰晶就可能迅速蔓延，让整瓶突然变成冰沙。但这并不意味着水会瞬间冻成一块硬冰，因为结冰本身释放的热量会把剩余的水重新暖到零度左右。常见的结果是冰和水混在一起，想让它彻底冻硬，仍要继续把热量带走。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://van.physics.illinois.edu/ask/listing/19505",
+          "title": "Supercooled Water in the Freezer - Physics Van, Illinois",
+          "checkedAt": "2026-10-22",
+          "section": "首答及Follow-Up #16",
+          "evidence": "缺乏晶核可过冷、微尘霜片诱导结晶、结冰放热导致冰沙及继续冷却见专家回复。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-science-hot-ice",
+      "conceptId": "outrageous-science-hot-ice",
+      "term": "热冰",
+      "aliases": [
+        "醋酸钠结晶放热"
+      ],
+      "explanation": "有些可重复使用的暖手袋，常温下装着透明液体，里面只要把小金属片掰一下，白色结晶就会从那里向外扩展，整个袋子变硬并发热。这种看起来像结冰的东西是醋酸钠体系，原先处于可以结晶却暂时仍保持液态的状态。金属片帮助结晶起头，放出的潜热把手也暖起来。把袋子放进很热的水里，让晶体重新化开，再冷却，又能恢复等待触发的液态；不过反复使用后，袋中材料也可能越来越难维持这种状态。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.sfu.ca/physics/demos/demos-experiments/heatpackburnaby.html",
+          "title": "4C20.60 Heat Pack - Simon Fraser University",
+          "checkedAt": "2026-10-22",
+          "section": "Overview; Script; Technicals",
+          "evidence": "金属片触发醋酸钠结晶放热、热水复位和反复使用退化见物理演示。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-science-magnetic-liquid-oxygen",
+      "conceptId": "outrageous-science-magnetic-liquid-oxygen",
+      "term": "磁铁留住液氧",
+      "aliases": [],
+      "explanation": "氧气冷到极低温会变成液体，把它倒过强磁铁的两极之间，一部分液体竟会停在那里，像搭了一座会蒸发的小桥。用磁铁还可以让滴落的液氧水流偏转，换成液氮却看不到同样的吸附效果。原因在于氧分子含有两个未成对电子，会受外加磁场吸引，属于顺磁性物质。演示中可先在装着液氮的金属锥外凝结液氧，再让它滴到磁极间；液氧的沸点约为零下一百八十三摄氏度，停住的那部分最终也会蒸发离开。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www2.oberlin.edu/physics/catalog/demonstrations/em/lo2.html",
+          "title": "Paramagnetism of Liquid Oxygen - Oberlin College",
+          "checkedAt": "2026-10-22",
+          "section": "Description; Notes",
+          "evidence": "液氧凝结滴落、磁极间停留及偏转、液氮对照、两个未成对电子和沸点见大学演示。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-science-superfluid-helium",
+      "conceptId": "outrageous-science-superfluid-helium",
+      "term": "爬墙的超流氦",
+      "aliases": [],
+      "explanation": "把氦四冷到大约二点二开尔文以下，液体会进入超流状态，出现沿容器壁爬升、甚至越过边缘流出去的怪事。它还可以几乎不受摩擦地通过很窄的通道，看起来像容器突然不再可靠。这个温度附近的变化有一个叫拉姆达点的名字，因为比热随温度变化画出的曲线形状像希腊字母。点上方与下方的两种液态分别叫氦一和氦二；研究者比较它们通过狭缝的流量，发现冷下来之后，原本很难流过的液体竟一下变得极易流动。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.aps.org/apsnews/2006/01/discovery-superfluidit-1938",
+          "title": "January 1938: Discovery of Superfluidity - American Physical Society",
+          "checkedAt": "2026-10-22",
+          "section": "正文178—190行所述发现和性质",
+          "evidence": "氦四约二点二K、爬墙、窄通道流动、拉姆达点及两液相和缝隙实验见APS正文。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-science-ferrofluid",
+      "conceptId": "outrageous-science-ferrofluid",
+      "term": "磁流体尖刺",
+      "aliases": [],
+      "explanation": "一滴黑色磁流体看起来像墨水，靠磁场却能长出整齐的尖刺。它实际上是水或油等载液里分散着极小磁性颗粒，颗粒外还有一层表面活性剂，帮助它们保持分散。麻省理工的实验把液滴夹在两片平行玻璃之间，先加垂直磁场，黑色边缘出现刺状花纹，再叠加旋转磁场，形状就慢慢扭成螺旋。更换两个磁场施加的先后顺序，图案还会完全不同；因此同一滴液体不用雕刻，也能随着磁场安排改换轮廓。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://news.mit.edu/2003/ferrofluid-0205",
+          "title": "Fluid morphs into startling designs, surprising MIT researchers - MIT News",
+          "checkedAt": "2026-10-22",
+          "section": "正文95—103行",
+          "evidence": "载液纳米颗粒和表面活性剂、平行玻璃、垂直和旋转场导致尖刺与螺旋及顺序差异见原文。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-science-triboluminescence",
+      "conceptId": "outrageous-science-triboluminescence",
+      "term": "碎糖闪光",
+      "aliases": [],
+      "explanation": "某些糖果在黑暗中被咬碎时，会闪出极微弱的光，糖块被刮擦、研磨或压裂也可能出现类似现象。发光不是糖先烧起来，而是晶体破裂时产生静电放电，过程有一点像缩小版的闪电。伊利诺伊大学的研究者还把糖和其他有机晶体混成液体中的浆料，用高强度超声让晶体不断受力破碎，做出了比普通研磨强得多的发光。研究展示中也会把晶体排成图案，夹在透明窗之间压碎，让原本不起眼的裂纹变成能被拍下的亮光。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://mrl.illinois.edu/news/suslick-breaks-sugar-sound-get-light",
+          "title": "Suslick Breaks Sugar With Sound to Get Light - Illinois Materials Research Laboratory",
+          "checkedAt": "2026-10-22",
+          "section": "正文144—145行及图注",
+          "evidence": "咬碎冬青糖、研磨等机械作用、静电放电、超声晶体浆增强发光和透明窗实验图注均已阅读。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-science-gallium-melting",
+      "conceptId": "outrageous-science-gallium-melting",
+      "term": "手心熔化的镓",
+      "aliases": [],
+      "explanation": "一块银亮的金属镓，在二十摄氏度时可以是固体，熔点却只有约二十九点八摄氏度，所以遇到足够暖的手或炎热天气，就可能软化成流动的金属。它还有另一层反常：熔化时体积缩小，固态镓反而能浮在液态镓上，和冰浮在水面的情况相似。低熔点并不等于很容易烧开，镓要到两千多摄氏度才沸腾，因此液态可存在的温度范围很宽。它也容易与多种金属形成合金，有些合金的熔点还能压得更低。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://periodic-table.rsc.org/element/31/Ga",
+          "title": "Gallium - Element information, properties and uses - Royal Society of Chemistry",
+          "checkedAt": "2026-10-22",
+          "section": "Fact box; Uses and properties; Podcast transcript",
+          "evidence": "熔点、20度固态、较高沸点、合金、熔化收缩和固体漂浮见数据及播客正文。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-science-boiling-freezing",
+      "conceptId": "outrageous-science-boiling-freezing",
+      "term": "沸腾着结冰",
+      "aliases": [],
+      "explanation": "把少量水放进真空容器并持续抽气，水不必加热到一百度，也会开始沸腾。俄勒冈大学的课堂演示把水放在表面皿上，下面另放吸收水蒸气的材料；抽气几分钟后，仍在冒泡的水竟逐渐结成冰，有时还能看到气泡被困在冰里。这与压力下降后水更容易变成蒸气有关，蒸发又会带走热量。水的固、液、气三相还存在特定的共存点，约为零点零一摄氏度和极低气压；所以冒泡和出现冰，并不总是互相排斥的画面。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pages.uoregon.edu/stanm/Demo/Thermodynamics/Matter/Triple.html",
+          "title": "Triple Point - University of Oregon",
+          "checkedAt": "2026-10-22",
+          "section": "演示说明正文",
+          "evidence": "抽真空水先沸腾后冻结、表面皿吸水蒸气设置和冰内气泡见大学演示；三相点数值由Purdue补证。"
+        },
+        {
+          "url": "https://www.chem.purdue.edu/gchelp/liquids/psolid.html",
+          "title": "Phase Diagrams - Purdue University",
+          "checkedAt": "2026-10-22",
+          "section": "三相点段",
+          "evidence": "水在0.01摄氏度、4.6托时固液气三相可平衡共存。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-science-bz-reaction",
+      "conceptId": "outrageous-science-bz-reaction",
+      "term": "自己变色的药水",
+      "aliases": [
+        "BZ反应",
+        "贝洛乌索夫—扎博廷斯基反应"
+      ],
+      "explanation": "有一类贝洛乌索夫—扎博廷斯基反应，调好的溶液无需人不停添加不同颜料，就会在红色和蓝色之间反复切换。常用的显色催化剂在氧化状态显蓝色，还原状态显红色，随着反应体系里的过程交替占优势，颜色便像有节拍一样改变。把体系铺进培养皿，还能看见一圈圈向外展开的同心图案。大学演示中，这种变化在合适条件下可以持续数小时；它是远离平衡的化学振荡，不是两瓶颜色不同的液体被偷偷轮流倒进去。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.physics.colostate.edu/physics-demos/belousov-zhabotinsky-reaction/",
+          "title": "Belousov-Zhabotinsky Reaction - Colorado State University",
+          "checkedAt": "2026-10-22",
+          "section": "Description",
+          "evidence": "大学演示确认红蓝交替、可达数小时、培养皿同心圆；显色剂氧化还原解释见Michigan课程。"
+        },
+        {
+          "url": "https://kinetics.engin.umich.edu/web_mod/oscil/intro.htm",
+          "title": "Oscillating Reactions Web Module - University of Michigan",
+          "checkedAt": "2026-10-22",
+          "section": "正文两段",
+          "evidence": "常用显色催化剂氧化状态蓝、还原状态红，氧化还原变化对应变色。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-science-acoustic-levitation",
+      "conceptId": "outrageous-science-acoustic-levitation",
+      "term": "声音托住水滴",
+      "aliases": [],
+      "explanation": "足够强的声波可以把小颗粒或液滴推住，让它们悬在空气里。布里斯托大学的研究团队做过一种可用停车传感器、控制电路和打印部件组装的装置，使用人耳听不到的超声波，从不同方向施力，把样品困在空中。悬起来的东西不必是能被磁铁吸住的材料，液体也能成为对象。这样做还有实验上的理由：通常样品要放在玻片上接受光线或其他辐射检测，玻片自己会干扰测量，悬浮就能让研究者减少这层接触带来的影响。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.bristol.ac.uk/news/2017/august/acoustic-levitation.html",
+          "title": "Now you can levitate liquids and insects at home - University of Bristol",
+          "checkedAt": "2026-10-22",
+          "section": "正文57—62行",
+          "evidence": "超声从各方施力、停车传感器电路打印部件、适用液体及消除玻片干扰见研究机构正文。"
         }
       ]
     }

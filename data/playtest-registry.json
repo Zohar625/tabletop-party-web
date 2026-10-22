@@ -5,13 +5,13 @@
       "id": "outrageous-long-cards",
       "title": "真事比瞎编离谱",
       "file": "playtest/outrageous-long-cards.json",
-      "version": "1.0.0",
-      "verifiedCount": 20,
+      "version": "1.1.0",
+      "verifiedCount": 90,
       "draftCount": 0,
-      "conceptCount": 20,
+      "conceptCount": 90,
       "status": "playtest",
       "playtestStatus": "pending",
-      "reviewFile": "../docs/2026-10-22-long-card-samples.md"
+      "reviewFile": "editorial/long-card-expansion-review.md"
     }
   ]
 }

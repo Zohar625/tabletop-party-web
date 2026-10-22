@@ -1,0 +1,509 @@
+[
+  {
+    "id": "outrageous-customs-namahage",
+    "conceptId": "outrageous-customs-namahage",
+    "term": "生剥鬼",
+    "aliases": [
+      "Namahage"
+    ],
+    "explanation": "秋田县男鹿半岛的一些村落会在除夕迎来长相凶恶的访客：当地男子戴上鬼面具，拿着木制刀具挨家敲门，大声追问有没有爱哭或不听话的孩子。居民把这些访客视为神的使者，他们既驱邪，也训诫懒惰的人。名字还联系着一种说法：总围着炉火偷懒的人会烤出红斑，访客要把这种懒惰印记剥掉。不过各村装束并不统一，真山的面具就没有常见的角，也不拿那些吓人的工具。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://jpsearch.go.jp/en/gallery/ndl-9D41MqBl2Va",
+        "title": "Namahage - Japan Search",
+        "checkedAt": "2026-10-22",
+        "section": "正文及Shogatsu段",
+        "evidence": "除夕访家、鬼面具木刀、训诫懒惰及名称解释均有说明；装束差异另由观光厅核对。"
+      },
+      {
+        "url": "https://www.mlit.go.jp/tagengo-db/en/R1-01076.html",
+        "title": "Namahage Museum: Exhibit Outline - Japan Tourism Agency",
+        "checkedAt": "2026-10-22",
+        "section": "English正文",
+        "evidence": "各村面具和道具不同，真山无角也不携工具，馆藏体现约六十村落的变化。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-customs-scissors-dance",
+    "conceptId": "outrageous-customs-scissors-dance",
+    "term": "剪刀舞",
+    "aliases": [],
+    "explanation": "秘鲁中南部安第斯山区的一些克丘亚社区，会让舞者一边表演越来越难的步法和杂技，一边在右手碰击两根磨亮的铁条，发出像剪刀交击的声音。舞者加上小提琴手和竖琴手组成代表村落的队伍，彼此展开可能持续十小时的较量。评判还要看乐器质量和伴奏水平。服装缀着金色流苏、亮片和小镜子；当地有关于舞者与魔鬼订约的传说，因此穿着表演服时不能进教堂，舞蹈却又出现在天主教庆典中。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.unesco.org/archives/multimedia/document-1683",
+        "title": "The Scissors Dance - UNESCO Multimedia Archives",
+        "checkedAt": "2026-10-22",
+        "section": "正文第1—4段",
+        "evidence": "铁条、三人队伍、最长十小时、评判项目、教堂禁忌与节庆关联均见正文。"
+      }
+    ]
+  },
+  {
+    "id": "wc-echternach-hopping",
+    "conceptId": "custom-echternach-hopping",
+    "term": "埃希特纳赫跳跃巡游",
+    "aliases": [],
+    "explanation": "卢森堡的埃希特纳赫会在圣灵降临节后的星期二，用一路蹦跳的方式纪念圣威利布罗德。参加者穿白色上衣和深色下装，五六人排成一行，手持白手帕，随着乐队反复演奏的同一段旋律，一步向左、一步向右地跳过街道。巡游前先在教堂举行弥撒，整段跳跃行程通常约一小时。队伍最后回到大教堂，依次经过圣人的墓前，再用感恩礼结束；跳动整个身体，在这里本身就是参与祈祷的方法。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://luxembourg.public.lu/en/society-and-culture/festivals-and-traditions/echternach-hopping-procession.html",
+        "title": "Echternach Hopping Procession – a musical pilgrimage and UNESCO heritage",
+        "checkedAt": "2026-10-22",
+        "section": "A pilgrimage with its own special tune",
+        "evidence": "五六人一排、手帕、左右跳步、乐曲、约一小时及墓前仪式见政府正文。"
+      }
+    ]
+  },
+  {
+    "id": "wc-mesir-macunu",
+    "conceptId": "custom-mesir-macunu",
+    "term": "梅西尔马居努节",
+    "aliases": [],
+    "explanation": "土耳其马尼萨的这场节庆，会把包好的香料膏从苏丹清真寺的圆顶和宣礼塔高处撒向人群，下面的人争着接。膏由主厨和学徒按传统方式调制，配方含四十一种香料与草药，再由十四名女性组成的小组分装进纸包。庆典纪念哈夫莎苏丹因这种膏恢复健康的故事，但接到纸包的人还可能向它寄托婚姻、工作或生育愿望。制作与庆祝期间有穿传统服饰的军乐队演奏，抢膏只是整套仪式中最热闹的一幕。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://unesco.org.tr/Pages/126/19",
+        "title": "UNESCO Türkiye Millî Komisyonu — Somut Olmayan Kültürel Miras İhtisas Komitesi",
+        "checkedAt": "2026-10-22",
+        "section": "9. Mesir Macunu Festivali",
+        "evidence": "该节包含四十一味原料、十四人包装、清真寺撒膏、民间愿望及乐队。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-customs-air-guitar",
+    "conceptId": "outrageous-customs-air-guitar",
+    "term": "空气吉他大赛",
+    "aliases": [],
+    "explanation": "芬兰奥卢举办的空气吉他世界赛，规定参赛乐器必须看不见，选手可以假装弹电吉他，也能改弹木吉他。决赛分两轮，每轮表演恰好六十秒：先用自己剪好的曲子，晋级后再听主办方临场公布的指定曲。评委除了看技术、舞台表现和原创性，还会评判一种叫空气感的项目。比赛只准一人演出，可以带专属的空气器材助手，却不能带真实或想象中的伴奏乐队；遇到平分，还要换歌再来一轮对决。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://airguitarworldchampionships.com/en/entry/air-guitar-world-championship-world-final-rules/",
+        "title": "Air Guitar World Championship World Final Rules",
+        "checkedAt": "2026-10-22",
+        "section": "Rules 1—5",
+        "evidence": "隐形乐器、两轮六十秒、自选与指定曲、评分及助手和乐队限制见规则。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-customs-bog-snorkelling",
+    "conceptId": "outrageous-customs-bog-snorkelling",
+    "term": "泥沼浮潜赛",
+    "aliases": [],
+    "explanation": "威尔士兰蒂德韦尔斯附近的泥炭沼泽里，有人戴着面镜、呼吸管和脚蹼，钻进人工挖出的浑水沟里抢时间。世界赛的全程是一百二十码，手臂只能留在水下做狗刨动作，脚蹼则负责推进身体。清澈海水和漂亮珊瑚在这里完全派不上用场，参赛者面对的是泥沼水道。现场还有专门的变装趣味，过去有人扮成舞台戏服里的马，也有人带着熨衣板下水；观众可以在岸边听音乐，看这群人在泥水里努力前进。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.green-events.co.uk/world-bog-snorkelling-championships",
+        "title": "Chapel World Bog Snorkelling Champs - Green Events",
+        "checkedAt": "2026-10-22",
+        "section": "赛事正文与规则简介",
+        "evidence": "主办方明确一百二十码、面镜呼吸管脚蹼、手臂水下狗刨及变装；具体变装案例见Visit Wales。"
+      },
+      {
+        "url": "https://www.visitwales.com/things-do/events/sport/can-you-beat-bog",
+        "title": "Bogsnorkelling in Mid Wales - Visit Wales",
+        "checkedAt": "2026-10-22",
+        "section": "Best dressed bogsnorkellers",
+        "evidence": "官方旅游局记载戏服马与携带熨衣板潜泥的变装实例。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-customs-pancake-race",
+    "conceptId": "outrageous-customs-pancake-race",
+    "term": "煎饼赛跑",
+    "aliases": [],
+    "explanation": "英国奥尔尼的煎饼赛跑，要求参赛者带一张煎饼来报到，主办方再发平底锅、围裙和头巾。选手是在当地居住或工作的成年女性，大家穿裙子拿锅跑，发令前先把煎饼抛起来，冲过终点后还得再抛一次。工作人员甚至会为摄影记者安排一次假起跑，让镜头先拍个够。正式比赛响的是煎饼钟，赛后跑者要到教堂参加礼拜，领奖后归还锅和服装；冠军晚上还要与美国利伯勒的跑者视频连线，比对两地成绩。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://olneypancakerace.org/reminders-for-running-the-race/",
+        "title": "Reminders for Runners - Olney Pancake Race",
+        "checkedAt": "2026-10-22",
+        "section": "How to take part; The Race; After the race",
+        "evidence": "资格、带饼发锅、两次抛饼、媒体假起跑、礼拜和跨洋比成绩均见参赛提醒。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-customs-woolsack-race",
+    "conceptId": "outrageous-customs-woolsack-race",
+    "term": "扛羊毛袋赛跑",
+    "aliases": [],
+    "explanation": "英国泰特伯里的比赛，会让选手把一大袋羊毛扛在身上，在甘姆斯图尔山坡来回奔跑。这里的坡度约为四比一，也就是水平走四份距离就升高一份；袋子最重可达六十磅，约二十七公斤。参赛形式还分个人、团队和少年组，并不是普通的钻进麻袋蹦跳。赛道两边是小镇街道，整天同时安排市集、食物摊和娱乐节目。它把当地与羊毛有关的历史变成了体力竞赛，观众看到的是大包羊毛跟着人一起在陡坡上冲刺。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://tetburywoolsack.co.uk/",
+        "title": "Tetbury Woolsack Races",
+        "checkedAt": "2026-10-22",
+        "section": "The Race; Compete; Market Quarter; Entertainment Quarter",
+        "evidence": "山坡名称、四比一坡度、最高六十磅及个人团队少年比赛和市集均见主办方。"
+      },
+      {
+        "url": "https://www.visitbritain.com/en/things-to-do/britains-alternative-sports",
+        "title": "Britain’s alternative sports - VisitBritain",
+        "checkedAt": "2026-10-22",
+        "section": "Tetbury Woolsack Races",
+        "evidence": "旅游局把扛羊毛袋比赛与当地羊毛生产历史联系起来。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-customs-conker-championship",
+    "conceptId": "outrageous-customs-conker-championship",
+    "term": "马栗对打赛",
+    "aliases": [],
+    "explanation": "世界马栗对打锦标赛里，选手拿着穿在鞋带上的马栗种子，轮流甩向对手垂着的那一颗，目标是把它打碎。种子和鞋带全部由主办方提供，选手从袋子里盲抽，可以拒绝最多三颗，不能自己偷偷带一颗特别硬的上场。拳头到种子之间至少要留二十厘米，每次轮到一方可打三下。若双方种子同时碎掉，就重新抽；鞋带缠绕也会被裁判记下，造成三次便会失格，五分钟还没分出胜负则启动加赛规则。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://worldconkerchampionships.com/compete/rules/",
+        "title": "Championship Rules - World Conker Championships",
+        "checkedAt": "2026-10-22",
+        "section": "Rules 1—10",
+        "evidence": "装备统一、盲抽拒绝三次、二十厘米、三击轮流、同时破碎和缠线处罚见原始规则。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-customs-gravy-wrestling",
+    "conceptId": "outrageous-customs-gravy-wrestling",
+    "term": "肉汁摔跤",
+    "aliases": [],
+    "explanation": "英国兰开夏的肉汁摔跤赛，会把擂台变成一个装满肉汁的池子，让选手在里面摔上两分钟。裁判看重的除了对抗场面，还有奇装异服、喜剧效果和能不能逗乐观众，因此把自己打扮成荒唐角色也是正式得分的一部分。选手会拉赞助，为慈善筹款，主办方也把活动当作社区同乐日。更离谱的是，消防队会来帮忙，在每场对抗之间冲洗满身肉汁的选手；赛场旁照样有蛋糕摊、食物饮料和儿童活动。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://worldgravywrestling.com/",
+        "title": "World Gravy Wrestling Championships",
+        "checkedAt": "2026-10-22",
+        "section": "赛事介绍正文",
+        "evidence": "肉汁池、两分钟、服装喜剧娱乐评分、慈善赞助及消防队冲洗见主办方。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-customs-kirkpinar-oil-wrestling",
+    "conceptId": "outrageous-customs-kirkpinar-oil-wrestling",
+    "term": "涂油摔跤节",
+    "aliases": [],
+    "explanation": "土耳其埃迪尔内的柯尔克普纳尔摔跤节，选手上场前会先由专人往身上抹油，旁边还有拿毛巾的人协助。他们穿的不是普通运动短裤，而是用水牛皮或牛皮做的厚皮裤。正式交手前，司仪要用诗句报出选手姓名、称号和本事，鼓与唢呐类乐器则在比赛时演奏特定曲目。参赛者争夺金腰带和首席摔跤手的称号；腰带本身也先在城里巡游，再在清真寺祈祷，整场赛事从开幕起就与仪式连在一起。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.unesco.org.tr/Home/Page/1980?slug=List-of-the-Intangible-Cultural-Heritage-of-T%C3%BCrkiye",
+        "title": "List of the Intangible Cultural Heritage of Türkiye - Turkish National Commission for UNESCO",
+        "checkedAt": "2026-10-22",
+        "section": "8. Kırkpınar Oil Wrestling Festival",
+        "evidence": "抹油人与毛巾助手、厚皮裤、诗体介绍、乐器、金腰带与巡游见官方条目。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-science-oobleck",
+    "conceptId": "outrageous-science-oobleck",
+    "term": "淀粉水跑步",
+    "aliases": [
+      "Oobleck",
+      "玉米淀粉悬浮液"
+    ],
+    "explanation": "玉米淀粉和水调成的浓浆，慢慢搅动时能流，越用力搅却越费劲。足够猛烈地敲击，它会在短时间内硬得像固体，甚至能被打裂；在装满这种浆的池子里，快速奔跑的人也可能踩着它前进。它并不是遇到拳头就发生冻结，而是细小固体颗粒悬浮在液体中，受强烈剪切时形成抵抗流动的接触。研究人员还会突然反转搅动方向，测量阻力怎样消失，用这种办法区分颗粒摩擦与周围液体的作用。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://news.cornell.edu/stories/2015/11/secret-oobleck-revealed-last",
+        "title": "The secret of Oobleck revealed at last - Cornell Chronicle",
+        "checkedAt": "2026-10-22",
+        "section": "正文第2—12段",
+        "evidence": "淀粉水、剪切增稠、敲击打裂、奔跑及剪切反转实验直接见大学报道。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-science-supercooled-water",
+    "conceptId": "outrageous-science-supercooled-water",
+    "term": "过冷水",
+    "aliases": [],
+    "explanation": "一瓶看上去仍能晃动的清水，可能其实已经冷到零摄氏度以下。若缺少能让冰晶起头的灰尘、霜粒或瓶壁缺陷，水会暂时卡在液态；打开瓶盖落进一小片霜，或者受到扰动后，冰晶就可能迅速蔓延，让整瓶突然变成冰沙。但这并不意味着水会瞬间冻成一块硬冰，因为结冰本身释放的热量会把剩余的水重新暖到零度左右。常见的结果是冰和水混在一起，想让它彻底冻硬，仍要继续把热量带走。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://van.physics.illinois.edu/ask/listing/19505",
+        "title": "Supercooled Water in the Freezer - Physics Van, Illinois",
+        "checkedAt": "2026-10-22",
+        "section": "首答及Follow-Up #16",
+        "evidence": "缺乏晶核可过冷、微尘霜片诱导结晶、结冰放热导致冰沙及继续冷却见专家回复。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-science-hot-ice",
+    "conceptId": "outrageous-science-hot-ice",
+    "term": "热冰",
+    "aliases": [
+      "醋酸钠结晶放热"
+    ],
+    "explanation": "有些可重复使用的暖手袋，常温下装着透明液体，里面只要把小金属片掰一下，白色结晶就会从那里向外扩展，整个袋子变硬并发热。这种看起来像结冰的东西是醋酸钠体系，原先处于可以结晶却暂时仍保持液态的状态。金属片帮助结晶起头，放出的潜热把手也暖起来。把袋子放进很热的水里，让晶体重新化开，再冷却，又能恢复等待触发的液态；不过反复使用后，袋中材料也可能越来越难维持这种状态。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.sfu.ca/physics/demos/demos-experiments/heatpackburnaby.html",
+        "title": "4C20.60 Heat Pack - Simon Fraser University",
+        "checkedAt": "2026-10-22",
+        "section": "Overview; Script; Technicals",
+        "evidence": "金属片触发醋酸钠结晶放热、热水复位和反复使用退化见物理演示。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-science-magnetic-liquid-oxygen",
+    "conceptId": "outrageous-science-magnetic-liquid-oxygen",
+    "term": "磁铁留住液氧",
+    "aliases": [],
+    "explanation": "氧气冷到极低温会变成液体，把它倒过强磁铁的两极之间，一部分液体竟会停在那里，像搭了一座会蒸发的小桥。用磁铁还可以让滴落的液氧水流偏转，换成液氮却看不到同样的吸附效果。原因在于氧分子含有两个未成对电子，会受外加磁场吸引，属于顺磁性物质。演示中可先在装着液氮的金属锥外凝结液氧，再让它滴到磁极间；液氧的沸点约为零下一百八十三摄氏度，停住的那部分最终也会蒸发离开。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www2.oberlin.edu/physics/catalog/demonstrations/em/lo2.html",
+        "title": "Paramagnetism of Liquid Oxygen - Oberlin College",
+        "checkedAt": "2026-10-22",
+        "section": "Description; Notes",
+        "evidence": "液氧凝结滴落、磁极间停留及偏转、液氮对照、两个未成对电子和沸点见大学演示。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-science-superfluid-helium",
+    "conceptId": "outrageous-science-superfluid-helium",
+    "term": "爬墙的超流氦",
+    "aliases": [],
+    "explanation": "把氦四冷到大约二点二开尔文以下，液体会进入超流状态，出现沿容器壁爬升、甚至越过边缘流出去的怪事。它还可以几乎不受摩擦地通过很窄的通道，看起来像容器突然不再可靠。这个温度附近的变化有一个叫拉姆达点的名字，因为比热随温度变化画出的曲线形状像希腊字母。点上方与下方的两种液态分别叫氦一和氦二；研究者比较它们通过狭缝的流量，发现冷下来之后，原本很难流过的液体竟一下变得极易流动。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.aps.org/apsnews/2006/01/discovery-superfluidit-1938",
+        "title": "January 1938: Discovery of Superfluidity - American Physical Society",
+        "checkedAt": "2026-10-22",
+        "section": "正文178—190行所述发现和性质",
+        "evidence": "氦四约二点二K、爬墙、窄通道流动、拉姆达点及两液相和缝隙实验见APS正文。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-science-ferrofluid",
+    "conceptId": "outrageous-science-ferrofluid",
+    "term": "磁流体尖刺",
+    "aliases": [],
+    "explanation": "一滴黑色磁流体看起来像墨水，靠磁场却能长出整齐的尖刺。它实际上是水或油等载液里分散着极小磁性颗粒，颗粒外还有一层表面活性剂，帮助它们保持分散。麻省理工的实验把液滴夹在两片平行玻璃之间，先加垂直磁场，黑色边缘出现刺状花纹，再叠加旋转磁场，形状就慢慢扭成螺旋。更换两个磁场施加的先后顺序，图案还会完全不同；因此同一滴液体不用雕刻，也能随着磁场安排改换轮廓。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://news.mit.edu/2003/ferrofluid-0205",
+        "title": "Fluid morphs into startling designs, surprising MIT researchers - MIT News",
+        "checkedAt": "2026-10-22",
+        "section": "正文95—103行",
+        "evidence": "载液纳米颗粒和表面活性剂、平行玻璃、垂直和旋转场导致尖刺与螺旋及顺序差异见原文。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-science-triboluminescence",
+    "conceptId": "outrageous-science-triboluminescence",
+    "term": "碎糖闪光",
+    "aliases": [],
+    "explanation": "某些糖果在黑暗中被咬碎时，会闪出极微弱的光，糖块被刮擦、研磨或压裂也可能出现类似现象。发光不是糖先烧起来，而是晶体破裂时产生静电放电，过程有一点像缩小版的闪电。伊利诺伊大学的研究者还把糖和其他有机晶体混成液体中的浆料，用高强度超声让晶体不断受力破碎，做出了比普通研磨强得多的发光。研究展示中也会把晶体排成图案，夹在透明窗之间压碎，让原本不起眼的裂纹变成能被拍下的亮光。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://mrl.illinois.edu/news/suslick-breaks-sugar-sound-get-light",
+        "title": "Suslick Breaks Sugar With Sound to Get Light - Illinois Materials Research Laboratory",
+        "checkedAt": "2026-10-22",
+        "section": "正文144—145行及图注",
+        "evidence": "咬碎冬青糖、研磨等机械作用、静电放电、超声晶体浆增强发光和透明窗实验图注均已阅读。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-science-gallium-melting",
+    "conceptId": "outrageous-science-gallium-melting",
+    "term": "手心熔化的镓",
+    "aliases": [],
+    "explanation": "一块银亮的金属镓，在二十摄氏度时可以是固体，熔点却只有约二十九点八摄氏度，所以遇到足够暖的手或炎热天气，就可能软化成流动的金属。它还有另一层反常：熔化时体积缩小，固态镓反而能浮在液态镓上，和冰浮在水面的情况相似。低熔点并不等于很容易烧开，镓要到两千多摄氏度才沸腾，因此液态可存在的温度范围很宽。它也容易与多种金属形成合金，有些合金的熔点还能压得更低。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://periodic-table.rsc.org/element/31/Ga",
+        "title": "Gallium - Element information, properties and uses - Royal Society of Chemistry",
+        "checkedAt": "2026-10-22",
+        "section": "Fact box; Uses and properties; Podcast transcript",
+        "evidence": "熔点、20度固态、较高沸点、合金、熔化收缩和固体漂浮见数据及播客正文。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-science-boiling-freezing",
+    "conceptId": "outrageous-science-boiling-freezing",
+    "term": "沸腾着结冰",
+    "aliases": [],
+    "explanation": "把少量水放进真空容器并持续抽气，水不必加热到一百度，也会开始沸腾。俄勒冈大学的课堂演示把水放在表面皿上，下面另放吸收水蒸气的材料；抽气几分钟后，仍在冒泡的水竟逐渐结成冰，有时还能看到气泡被困在冰里。这与压力下降后水更容易变成蒸气有关，蒸发又会带走热量。水的固、液、气三相还存在特定的共存点，约为零点零一摄氏度和极低气压；所以冒泡和出现冰，并不总是互相排斥的画面。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://pages.uoregon.edu/stanm/Demo/Thermodynamics/Matter/Triple.html",
+        "title": "Triple Point - University of Oregon",
+        "checkedAt": "2026-10-22",
+        "section": "演示说明正文",
+        "evidence": "抽真空水先沸腾后冻结、表面皿吸水蒸气设置和冰内气泡见大学演示；三相点数值由Purdue补证。"
+      },
+      {
+        "url": "https://www.chem.purdue.edu/gchelp/liquids/psolid.html",
+        "title": "Phase Diagrams - Purdue University",
+        "checkedAt": "2026-10-22",
+        "section": "三相点段",
+        "evidence": "水在0.01摄氏度、4.6托时固液气三相可平衡共存。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-science-bz-reaction",
+    "conceptId": "outrageous-science-bz-reaction",
+    "term": "自己变色的药水",
+    "aliases": [
+      "BZ反应",
+      "贝洛乌索夫—扎博廷斯基反应"
+    ],
+    "explanation": "有一类贝洛乌索夫—扎博廷斯基反应，调好的溶液无需人不停添加不同颜料，就会在红色和蓝色之间反复切换。常用的显色催化剂在氧化状态显蓝色，还原状态显红色，随着反应体系里的过程交替占优势，颜色便像有节拍一样改变。把体系铺进培养皿，还能看见一圈圈向外展开的同心图案。大学演示中，这种变化在合适条件下可以持续数小时；它是远离平衡的化学振荡，不是两瓶颜色不同的液体被偷偷轮流倒进去。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.physics.colostate.edu/physics-demos/belousov-zhabotinsky-reaction/",
+        "title": "Belousov-Zhabotinsky Reaction - Colorado State University",
+        "checkedAt": "2026-10-22",
+        "section": "Description",
+        "evidence": "大学演示确认红蓝交替、可达数小时、培养皿同心圆；显色剂氧化还原解释见Michigan课程。"
+      },
+      {
+        "url": "https://kinetics.engin.umich.edu/web_mod/oscil/intro.htm",
+        "title": "Oscillating Reactions Web Module - University of Michigan",
+        "checkedAt": "2026-10-22",
+        "section": "正文两段",
+        "evidence": "常用显色催化剂氧化状态蓝、还原状态红，氧化还原变化对应变色。"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-science-acoustic-levitation",
+    "conceptId": "outrageous-science-acoustic-levitation",
+    "term": "声音托住水滴",
+    "aliases": [],
+    "explanation": "足够强的声波可以把小颗粒或液滴推住，让它们悬在空气里。布里斯托大学的研究团队做过一种可用停车传感器、控制电路和打印部件组装的装置，使用人耳听不到的超声波，从不同方向施力，把样品困在空中。悬起来的东西不必是能被磁铁吸住的材料，液体也能成为对象。这样做还有实验上的理由：通常样品要放在玻片上接受光线或其他辐射检测，玻片自己会干扰测量，悬浮就能让研究者减少这层接触带来的影响。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.bristol.ac.uk/news/2017/august/acoustic-levitation.html",
+        "title": "Now you can levitate liquids and insects at home - University of Bristol",
+        "checkedAt": "2026-10-22",
+        "section": "正文57—62行",
+        "evidence": "超声从各方施力、停车传感器电路打印部件、适用液体及消除玻片干扰见研究机构正文。"
+      }
+    ]
+  }
+]

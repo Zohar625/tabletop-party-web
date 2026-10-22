@@ -1,0 +1,548 @@
+[
+  {
+    "id": "outrageous-nature-vampire-squid",
+    "conceptId": "nature-vampire-squid",
+    "term": "吸血鬼乌贼",
+    "aliases": [],
+    "explanation": "这位深海居民长着暗红身体和披风般的腕膜，名字像会扑上来吸血，常吃的却是从上方沉下来的海雪，其中混着浮游生物尸体、粪便和黏液。它把两根细长黏丝伸到水中收集碎屑，再拉过腕部，用吸盘产生的黏液把颗粒集中，交给细小突起送进口中。这样的省力吃法适合缺氧海层。遇到危险，它还会把腕膜翻过来改变外形，腕尖闪蓝光；没有常见乌贼的墨汁，却能释放发光液体分散敌人注意。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.mbari.org/animal/vampire-squid/",
+        "title": "MBARI: Vampire squid",
+        "checkedAt": "2026-10-22",
+        "evidence": "正文About明确记载海雪组成、两条黏丝收集及腕部转运、低氧生活和发光防御。",
+        "section": "About"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-osedax",
+    "conceptId": "nature-osedax",
+    "term": "食骨蠕虫",
+    "aliases": [],
+    "explanation": "鲸的肉被吃完后，海底骨架还能养活一群没有嘴、也没有肠子的蠕虫。它们把根状组织伸进骨头，分解周围材料，获取其中的胶原和脂类，根里还住着参与营养过程的共生细菌。许多种类的雄虫小到要用显微镜看，寄居在雌虫身体外的胶质管里，不负责啃骨头。有些大雌虫身边曾发现六百多只雄虫。也有例外种，雄虫能自己吃骨头，体型接近雌虫，因此不能把整个食骨虫属都说成同一套夫妻配置。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.mbari.org/project/osedax-studies/",
+        "title": "MBARI: Osedax Studies",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读Overview与图注：无口无肠的根系营养、共生菌、微小雄虫及Osedax priapus例外。",
+        "section": "Overview / root-system caption"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-barreleye",
+    "conceptId": "nature-barreleye",
+    "term": "大鳍后肛鱼",
+    "aliases": [
+      "管眼鱼",
+      "Macropinna microstoma"
+    ],
+    "explanation": "正面看这条鱼，嘴巴上方有两个像眼睛的黑点，其实是嗅觉器官。真正的眼睛藏在透明、充满液体的头罩里，顶端带着绿色透镜，像两根朝天竖起的望远镜。它在六百至八百米深处常悬停不动，向上寻找猎物的微弱轮廓；进食时，眼睛又能在罩内转向前方。以前拖网捞上的标本常丢掉脆弱头罩，让人误以为眼睛固定不动。水下机器人和短暂存活的活体，才让研究者看清这套会转动的透明驾驶舱。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.mbari.org/news/researchers-solve-mystery-of-deep-sea-fish-with-tubular-eyes-and-transparent-head/",
+        "title": "MBARI: Researchers solve mystery of deep-sea fish with tubular eyes and transparent head",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读研究新闻正文及图注：头罩、嗅觉器官、管眼转动、观察深度和旧标本破损。未采用偷取管水母食物的假说。",
+        "section": "正文及2004/2006图注"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-bloody-belly-comb-jelly",
+    "conceptId": "nature-bloody-belly-comb-jelly",
+    "term": "血腹栉水母",
+    "aliases": [],
+    "explanation": "在深海，吃下一口会发光的食物，可能等于把一盏灯吞进透明肚子里，向更大的捕食者暴露位置。血腹栉水母的胃呈浓重血红色，正好能遮住胃里猎物的光。红光在它生活的深度很难到达，因此在灯下十分鲜艳的颜色，回到深海却是隐蔽装。它属于栉水母，靠一排排细小纤毛摆动游水，并非通常所说的真正水母。研究机构记录它可出现在二百五十到一千五百米深的水层，具体食谱仍有待了解。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.mbari.org/animal/bloody-belly-comb-jelly/",
+        "title": "MBARI: Bloody-belly comb jelly",
+        "checkedAt": "2026-10-22",
+        "evidence": "About明确红胃遮住发光猎物、深海红色隐蔽及纤毛游泳；资料栏标明深度和Diet Unknown。",
+        "section": "About / Depth / Diet"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-nudibranch-stolen-stings",
+    "conceptId": "nature-nudibranch-stolen-stings",
+    "term": "盗刺海蛞蝓",
+    "aliases": [],
+    "explanation": "某些蓑海牛类海蛞蝓吃海葵等刺胞动物时，会把对方尚能使用的刺丝囊留下，不按普通食物消化。它们的消化道前部有几丁质保护层，能减轻猎物反击带来的伤害，再把缴获的武器送进背上的指状突起储存。等自己受到威胁，这些从食物里拆下来的刺丝囊还能再次发射。背上的突起同时参与呼吸，并不只是装饰。蓝龙海蛞蝓还会取食僧帽水母，并挑选其中较大的刺丝囊留下，随身武器的原厂其实是上一顿饭。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.nhm.ac.uk/discover/nudibranchs-psychedelic-thieves-of-the-sea.html",
+        "title": "Natural History Museum: Nudibranchs: How sea slugs steal venom",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读Stealing stings和The blue dragon sea slug：几丁质保护、盗用刺丝囊、背突呼吸与蓝龙选择大刺丝囊。",
+        "section": "Stealing stings / The blue dragon sea slug"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-nepenthes-lowii",
+    "conceptId": "nature-nepenthes-lowii",
+    "term": "劳氏猪笼草",
+    "aliases": [
+      "Nepenthes lowii"
+    ],
+    "explanation": "在婆罗洲少数山地，劳氏猪笼草的捕虫笼宽阔结实，形状像一个敞口马桶。树鼩跨在笼口上，伸头舔食盖子上的花蜜，屁股便对着下方的容器，排出的粪便直接掉进去。植物借此收到已经被动物消化过、仍含有养分的材料，树鼩则得到食物。多数食虫植物靠诱捕小动物补充贫瘠环境里的营养，这种猪笼草却把活着的访客留在外面，收走它的排泄物。那个看似等待猎物落水的笼子，也能成为送餐和施肥同时进行的位置。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.nhm.ac.uk/discover/carnivorous-plants-meat-eaters-of-the-plant-world.html",
+        "title": "Natural History Museum: Carnivorous plants: the meat-eaters of the plant world",
+        "checkedAt": "2026-10-22",
+        "evidence": "Unusual alliances记载lowii的结实宽笼与树鼩站姿、舔蜜时排便；开篇解释食虫植物补充养分。",
+        "section": "Unusual alliances / What are carnivorous plants?"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-nepenthes-hemsleyana",
+    "conceptId": "nature-nepenthes-hemsleyana",
+    "term": "赫姆斯利猪笼草",
+    "aliases": [
+      "Nepenthes hemsleyana"
+    ],
+    "explanation": "婆罗洲有种猪笼草给绒蝠提供住处，蝙蝠白天钻进捕虫笼休息，植物收下它留下的粪便作为营养。笼中有便于蝙蝠攀附的明显棱脊，扩大的开口还会反射超声波，让飞在茂密植物之间的房客更容易靠回声找到它。一般人看到猪笼草里有动物，会想到猎物滑进消化液的画面，这里却出现了持续提供栖身处的关系。蝙蝠把原本用于捕食的叶片当临时卧室，猪笼草得到富含养分的粪便肥料，双方交换的是房间与排泄物。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.nhm.ac.uk/discover/carnivorous-plants-meat-eaters-of-the-plant-world.html",
+        "title": "Natural History Museum: Carnivorous plants: the meat-eaters of the plant world",
+        "checkedAt": "2026-10-22",
+        "evidence": "Unusual alliances明确hemsleyana与绒蝠互利，棱脊、反射超声的扩大开口和蝙蝠粪营养。",
+        "section": "Unusual alliances"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-velvet-worm",
+    "conceptId": "nature-velvet-worm",
+    "term": "天鹅绒虫",
+    "aliases": [
+      "有爪动物"
+    ],
+    "explanation": "这种身体柔软、长着许多短腿的小动物，会从嘴旁的管状器官喷出黏液，把白蚁、潮虫或小蜘蛛缠住，再咬开猎物，送入消化唾液使组织变软，最后吸食。它也能朝敌人的脸喷胶，趁对方忙着处理黏液时逃开。看起来像随身带着双管胶枪，生活环境却很挑剔：体表遍布呼吸小孔，水分容易流失，所以常躲在湿木头、石下和落叶层里，也避开光亮。柔软身体既没有厚甲，又很怕干，喷胶是它在潮湿暗处捕食和脱身的本领。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://australian.museum/learn/animals/worms/velvet-worm/",
+        "title": "Australian Museum: Velvet worm",
+        "checkedAt": "2026-10-22",
+        "evidence": "Feeding and diet与Other behaviours说明喷黏液、体外消化吸食、防御、避光及失水限制。",
+        "section": "What do Velvet Worms eat? / adaptations"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-coconut-octopus",
+    "conceptId": "nature-coconut-octopus",
+    "term": "椰子章鱼",
+    "aliases": [
+      "纹蛸",
+      "Amphioctopus marginatus"
+    ],
+    "explanation": "印度尼西亚的研究观察里，纹蛸会从海底挖出丢弃的椰子壳，先用水流冲洗，再带着壳换地方，等需要掩体时才把它们拼起来藏身。运输途中，它把壳压在身下，用腕足撑着走，姿势像踩高跷，速度和灵活性都受影响。壳在这段路上并没有包住它，反而让柔软身体更加暴露；实际好处要到后来躲进去才出现。研究者因此把这种先搬运、后启用的行为视为防御性工具使用，随身行李里面装的是将来需要的避难所。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.nhm.ac.uk/discover/octopuses-keep-surprising-us-here-are-eight-examples-how.html",
+        "title": "Natural History Museum: Octopuses keep surprising us – here are eight examples how",
+        "checkedAt": "2026-10-22",
+        "evidence": "第3节记载纹蛸挖壳、冲洗、搬运、高跷步态、后用作庇护，明确工具使用为研究者解释。",
+        "section": "3. They can use tools"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-sacculina",
+    "conceptId": "nature-sacculina",
+    "term": "蟹奴",
+    "aliases": [
+      "Sacculina"
+    ],
+    "explanation": "这种藤壶的成年模样不像海边硬壳里的小动物。它在螃蟹体内铺开根状结构，从宿主身上获取营养，身体的一部分又从腹部下方长出来，位置恰好像螃蟹原本携带卵的地方。螃蟹接下来会把这个寄生者当作自己的卵团照料，保护它、清理它，还用含氧的水流冲洗。于是，外面看起来像一只认真护卵的蟹，腹下被呵护的却属于另一个动物。寄生者不仅获得吃饭的渠道，还让供养自己的宿主兼任清洁和保护工作。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://ocean.si.edu/ocean-life/invertebrates/invading-barnacles",
+        "title": "Smithsonian Ocean: Invading Barnacles",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读完整正文：根状体内吸收，腹面外体位置，宿主保护梳理及含氧水流照护。未加入该页未讲的阉割/雄性雌化细节。",
+        "section": "正文"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-texas-horned-lizard",
+    "conceptId": "nature-texas-horned-lizard",
+    "term": "得州角蜥",
+    "aliases": [
+      "Phrynosoma cornutum"
+    ],
+    "explanation": "得州角蜥身体矮胖，后脑长着几根大角，头部和身体覆盖带尖的鳞片，干燥地面的褐灰色能让它融进背景。遇到捕食者，它可以把身体鼓起来显得更大，也能从两眼内角射出少量自己的血，让对手措手不及。它主要吃蚂蚁，尤其是收获蚁，偶尔也吃甲虫、蚱蜢或蜘蛛。别以为它还留着普通壁虎那一招：受到抓捕时，得州角蜥不能靠自行折断尾巴逃生。防御画面里最出格的部分，来自眼角真正流出的血。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://mdc.mo.gov/discover-nature/field-guide/texas-horned-lizard",
+        "title": "Missouri Department of Conservation: Texas Horned Lizard",
+        "checkedAt": "2026-10-22",
+        "evidence": "Description记载眼角喷血与鼓身，Food记载蚂蚁为主，后文说明不能断尾。",
+        "section": "Description / Food / Ecosystem Connections"
+      }
+    ]
+  },
+  {
+    "id": "cw-wombat",
+    "conceptId": "wildlife-wombat",
+    "term": "袋熊",
+    "aliases": [],
+    "explanation": "裸鼻袋熊会拉出像炭块一样的方形粪便，形状由下段肠道的特殊结构塑成。它们常把粪便留在石块、木头等显眼位置，形成多只动物使用的厕所，方块也不容易滚远。研究者分析出粪便带有不同个体的化学气味，又把远处厕所的粪便搬来，架相机观察。袋熊在掺入陌生粪便的地点花了更多时间嗅查，说明能察觉新来者的痕迹。粪便究竟还传递年龄、性别或繁殖状态等什么信息，则是研究者继续探索的问题。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://news.uga.edu/why-do-wombats-have-square-poop/",
+        "title": "University of Georgia: Why do wombats have square poop?",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读2025研究新闻：肠道塑形、共同粪坑、个体化学签名及移入外来粪便实验；年龄性别信息仍假说。",
+        "section": "Why square poop? / What are wombats saying?"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-bombardier-beetle",
+    "conceptId": "nature-bombardier-beetle",
+    "term": "射弹步甲",
+    "aliases": [
+      "放屁虫",
+      "Bombardier beetle"
+    ],
+    "explanation": "受到攻击时，射弹步甲能从腹部射出接近沸点的刺激性液体，而且喷射是一阵阵脉冲。它没有一直把一锅热液体背在身上，而是在使用时让两种前体进入受保护的反应室，混合反应放热，同时产生压力。研究者用高速同步辐射射线看活虫体内，发现压力升高会使柔性膜鼓起、阀门关闭；液体排出、压力下降后，通道又重新打开，开始下一次。它腹部的膜和阀配合工作，使一只小甲虫能连续向敌人发射滚烫的化学喷雾。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://news.mit.edu/2015/how-bombardier-beetles-produce-defensive-spray-0430",
+        "title": "MIT News: How some beetles produce a scalding defensive spray",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读合成前体、近沸点喷雾、高速X射线观察及膜阀驱动脉冲机制。未写成强酸。",
+        "section": "Seeing inside a living beetle / 正文"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-bolas-spider",
+    "conceptId": "nature-bolas-spider",
+    "term": "华丽投索蛛",
+    "aliases": [
+      "Ordgarius magnificus"
+    ],
+    "explanation": "这种澳大利亚蜘蛛夜里不铺开一张完整捕虫网，而是放下一条短丝，末端挂着黏球。飞蛾翅膀的振动接近时，它会转动丝线，让黏球击中并粘住飞蛾，再把猎物拉上来咬住，立即吃掉或裹丝储存。博物馆介绍指出，黏球可能带着模仿某种雌夜蛾的气味，使雄蛾靠过来。它对振动也相当敏感，拨动吉他弦都能诱发反应。白天，这位甩黏球的猎手藏在用丝绑起的叶片里，附近还可能挂着纺锤形的卵囊。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://australian.museum/learn/animals/spiders/magnificent-spider/",
+        "title": "Australian Museum: Magnificent Spider",
+        "checkedAt": "2026-10-22",
+        "evidence": "Feeding and diet描述短丝黏球、振动触发甩动、拉回猎物、吉他反应；气味用may故保留可能。",
+        "section": "Feeding and diet / Habitat"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-hammer-orchid",
+    "conceptId": "nature-hammer-orchid",
+    "term": "锤兰",
+    "aliases": [
+      "Drakaea"
+    ],
+    "explanation": "西澳大利亚的锤兰把一片唇瓣做成近似雌蜂的外形，还散发相似气味，引来寻找配偶的雄蜂。雄蜂抱住这位假对象，想带着它飞走，唇瓣却与花朵通过可活动的结构相连，于是飞行的动作反而把雄蜂带向花柱，身上沾上花粉，或把上次沾的花粉留在那里。它以为要带走伴侣，结果成了搬运花粉的劳动力。当地保护计划还记录了人工授粉以获得种子的需要：有这样精巧的机关，也不能保证每朵花都能顺利完成繁殖。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.dcceew.gov.au/environment/biodiversity/threatened/recovery-plans/interim-recovery-plan-late-hammer-orchid-2001-2003",
+        "title": "Environment Australia: The Interim Recovery Plan for the Late Hammer Orchid (Drakaea confluens ms.) 2001–2003",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读1.5 Biology and ecology：雌蜂形味拟态、铰链唇瓣使雄蜂接触花柱及人工授粉建议。",
+        "section": "1.5 Biology and ecology"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-surinam-toad",
+    "conceptId": "nature-surinam-toad",
+    "term": "负子蟾",
+    "aliases": [
+      "Pipa pipa",
+      "苏里南负子蟾"
+    ],
+    "explanation": "负子蟾交配时，雄性把受精卵推到雌性的背上，卵先粘住皮肤，接下来几天母亲的皮肤逐渐围住它们，形成一片蜂窝状小室，最后把卵包在里面。幼体在母亲背部皮下继续发育几个月，等长成小蛙，才扭动身体把小室撑开。那时母亲背上会露出一只只小脑袋和挥动的脚，随后幼蛙从洞里钻出来，游向水面呼吸。母亲再蜕去这层皮。它扁平的褐色身体本来像水底落叶，到了繁殖期，却成了背着蜂窝育儿房的动物。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://animals.sandiegozoo.org/animals/surinam-toad",
+        "title": "San Diego Zoo: Surinam Toad",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读Family life：雄性放卵于背、皮肤包卵蜂窝、幼蛙皮下发育和钻出、母体蜕皮。",
+        "section": "Family Life"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-anglerfish-sexual-parasitism",
+    "conceptId": "nature-anglerfish-sexual-parasitism",
+    "term": "深海鮟鱇的融合婚姻",
+    "aliases": [],
+    "explanation": "某些深海鮟鱇的雄鱼比雌鱼小得多，没有雌鱼头顶那套发光诱饵，却善于循着气味寻找伴侣。找到以后，它用小尖牙咬住雌鱼，接下来逐渐与她融合，连血液循环也接通，营养依靠雌鱼供应，自己的视觉能力则退化。雄鱼留在她身上提供精子；有雌鱼曾被发现挂着八条雄鱼。这种永久相连的交配方式只适用于部分深海种类，浅水的其他鮟鱇雄鱼仍会独立捕食和游泳，不能把海鲜市场里每条鮟鱇都想成一对连体夫妻。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.nhm.ac.uk/discover/bizarre-love-life-of-the-anglerfish.html",
+        "title": "Natural History Museum: The bizarre love life of the anglerfish",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读Love is blind与Deep-sea dwellers only，保留某些种类范围、血流融合、嗅觉及八雄实例。",
+        "section": "Love is blind / Deep-sea dwellers only"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-diving-bell-spider",
+    "conceptId": "nature-diving-bell-spider",
+    "term": "水蛛的潜水钟",
+    "aliases": [
+      "Argyroneta aquatica"
+    ],
+    "explanation": "水蛛需要空气里的氧气，却能把吃饭、活动和繁殖的大部分生活放在水下。它用蛛丝在水草等物体之间织出一个小容器，再游上水面，让空气附着在多毛腹部的下方，带回水下放进丝制房间。如此形成的气泡房像一口小潜水钟，蜘蛛在里面呼吸。研究者将它视为几乎整生都住在水下的特殊蜘蛛，能够长时间不浮上来，却仍要依靠气体交换，不能像鱼那样直接用鳃呼吸。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://onlineentomology.ifas.ufl.edu/about/articles/entomology/from-here-to-there-different-forms-of-spider-travel/",
+        "title": "University of Florida: How Do Spiders Travel? From Ballooning to Underwater Living",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读How Do Diving Bell Spiders Live and Travel Underwater，丝钟固定、腹部运气及水下生活；未写永久无需补气。",
+        "section": "How Do Diving Bell Spiders Live and Travel Underwater?"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-immortal-jellyfish",
+    "conceptId": "nature-immortal-jellyfish",
+    "term": "灯塔水母的返老还童",
+    "aliases": [
+      "Turritopsis dohrnii"
+    ],
+    "explanation": "小到只有几毫米的多赫尼灯塔水母受到损伤或饥饿压力时，可以把成年水母的身体缩回去，吸收触手，失去游泳能力，沉到底部变成囊状小团。接下来约一天到一天半，它能发育成先前生命阶段的水螅体，再从那里产生新的小水母。这个过程涉及细胞重新改变用途，身体结构也随之重建，而且生命阶段的倒转可以反复发生。所谓不死指这种特殊能力，海龟、鱼类照样能把它吃掉，水螅体也会被海蛞蝓或甲壳动物捕食。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.nhm.ac.uk/discover/immortal-jellyfish-secret-to-cheating-death.html",
+        "title": "Natural History Museum: Immortal jellyfish: The secret to cheating death",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读How does...与Can immortal jellyfish die，24–36小时水螅化、重复逆转及捕食死亡限制。",
+        "section": "How does the immortal jellyfish live forever? / Can immortal jellyfish die?"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-squirting-cucumber",
+    "conceptId": "nature-squirting-cucumber",
+    "term": "喷瓜",
+    "aliases": [
+      "Ecballium elaterium"
+    ],
+    "explanation": "喷瓜成熟的果实会从果柄处脱开，在大约三十毫秒内用高压黏液把种子喷出去，速度约每秒二十米，最远可到十米左右。发射前几天，部分液体还会从果实转移到柄里，让果柄变长、变粗、变硬，把原本接近垂直的果实调整到约四十五度。开喷后果实反向转动，压力也不断下降，因此先出来的种子飞得远，后出来的落得近。不同果实朝四周发射，种子便分布在母株周围一圈，像一排会预先调角度的小水炮。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.ox.ac.uk/news/2024-11-26-new-study-reveals-explosive-secret-squirting-cucumber",
+        "title": "University of Oxford: New study reveals the explosive secret of the squirting cucumber",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读全文机制四点：30毫秒、20米秒、10米、液体回流入柄与45度调整，前后种子速度角度不同。",
+        "section": "正文 / four components of dispersal strategy"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-icefish",
+    "conceptId": "nature-icefish",
+    "term": "南极白血冰鱼",
+    "aliases": [
+      "Channichthyidae"
+    ],
+    "explanation": "南极有一群冰鱼，血液里没有通常让脊椎动物的血显红的血红蛋白。它们仍然需要氧气，只是氧气以溶解在血浆中的方式运输，血液因而不像常见鱼类那样红。英国南极调查局把它们列为脊椎动物里独特的一群；其中鲭冰鱼还是南极毛皮海狮的重要食物，也受到商业捕捞管理。南极鱼的特别之处不止颜色，当地接近海冰生活的许多南极鱼还在体液里具有抗冻糖蛋白，帮助身体避免结冰，冰鱼这个名字并不表示它们已经冻住了。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://legacy.bas.ac.uk/about_antarctica/wildlife/fish/index.php",
+        "title": "British Antarctic Survey: Fish and Squid",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读Fish正文：Channichthyidae无血红蛋白、血浆溶氧、鲭冰鱼捕食关系；另段为南极notothenioid抗冻糖蛋白，正文明确未泛化全部鱼。",
+        "section": "Fish"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-wood-frog",
+    "conceptId": "nature-wood-frog",
+    "term": "林蛙的冬季停机",
+    "aliases": [
+      "木蛙",
+      "Lithobates sylvaticus"
+    ],
+    "explanation": "阿拉斯加的林蛙过冬时，身体能发生冻结，呼吸停止，心脏也停跳。最初出现冻结迹象后，肝脏把储存的糖原转成葡萄糖，送到细胞里，减轻失水和冰冻带来的伤害。眼球和四肢先受到低温影响，心脏、肝脏等核心器官则较晚冻结、较早解冻，让重要功能尽量多维持一段时间。春天气温回升，蛙解冻后又去找池塘繁殖。它们在秋天钻入森林地面的腐叶中越冬，春天在季节性水塘繁殖，响亮的蛙鸣也成为当地春天的信号。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.nps.gov/dena/learn/nature/amphibians.htm",
+        "title": "National Park Service: Amphibians — Denali National Park & Preserve",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读正文：冻态不呼吸无心搏、肝糖原葡萄糖保护、核心器官冻结解冻次序与春季繁殖。",
+        "section": "正文 wood frog freezing"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-sea-spider",
+    "conceptId": "nature-sea-spider",
+    "term": "海蜘蛛的腿肠",
+    "aliases": [
+      "皆足虫",
+      "Pycnogonida"
+    ],
+    "explanation": "海蜘蛛身体细小，腿却又长又显眼，许多原本以为该放在躯干里的工作，都挤进了腿里。消化道延伸到腿中，肠道运动还能推动周围体液，帮助把氧气送往身体各处；它的小心脏不足以独自把循环推到那些长腿末端。氧气通过体表扩散进入，腿提供了很大的交换面积。生殖器官也伸进腿里，雄性则用专门的抱卵肢照料受精卵。名字像住在海里的蜘蛛，实际上属于海蜘蛛纲，身体布置也像把消化、呼吸和育儿装备分散挂在腿上。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://ecology.wa.gov/es-es/blog/october-2017/things-that-go-bump-in-the-night-the-sea-spiders-l",
+        "title": "Washington State Department of Ecology: Things that go bump in the night: the sea spiders look a fright",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读Blood and guts与Father knows best：腿内肠道促进体液循环、体表扩散、生殖与抱卵。未沿用唯一动物绝对说法。",
+        "section": "Blood and guts / Father knows best"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-nature-rafflesia-arnoldii",
+    "conceptId": "nature-rafflesia-arnoldii",
+    "term": "阿诺德大王花",
+    "aliases": [
+      "Rafflesia arnoldii"
+    ],
+    "explanation": "这种能开出直径约一米、重达七公斤单花的植物，平时竟然看不到茎、叶或根。除了露出的花，它的身体主要是穿行在宿主细胞之间的细丝状组织，水和营养都从葡萄科藤本宿主那里取得，不靠晒太阳制造食物。硕大的红花也不卖花香，而是散发腐肉气味，把原本寻找动物尸体产卵的腐肉蝇引来。雨林中雄花和雌花可能相隔较远，苍蝇便替它把花粉运过去。一朵像肉块的巨花下面，藏着寄生在另一株植物体内的生活。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.amnh.org/explore/ology/ology-cards/369-rafflesia-arnoldii",
+        "title": "American Museum of Natural History: Rafflesia arnoldii",
+        "checkedAt": "2026-10-22",
+        "evidence": "已读完整OLogy正文与问答：无茎叶根的宿主体内丝状组织、依赖宿主营养、水、花大小重量及腐肉蝇传粉。",
+        "section": "正文 / Stats / Stumper / Fact or Fiction"
+      }
+    ]
+  }
+]

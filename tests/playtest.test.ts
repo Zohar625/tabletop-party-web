@@ -15,18 +15,18 @@ import type { Question } from "../src/games/bluff/types.ts";
 function readJson(path: string) {
   return JSON.parse(readFileSync(new URL(path, import.meta.url), "utf8"));
 }
-test("新开局默认5秒，默认人数能用20题完成一圈", () => {
+test("新开局保持5秒和4人默认值", () => {
   const config = createDefaultConfig(["outrageous-long-cards"]);
   assert.equal(config.readSeconds, 5);
   assert.equal(config.playerCount, 4);
   assert.deepEqual(READ_PRESETS, [5, 10, 20, 30]);
 });
-test("当前可玩目录只登记20道长卡，旧450题不会混入", () => {
+test("可玩题库扩为90道长卡，保留旧题标识并支持9人一圈", () => {
   const registry = readJson("../data/playtest-registry.json");
   assert.equal(registry.packs.length, 1);
   const pack = readJson(`../data/${registry.packs[0].file}`);
-  assert.equal(pack.questions.length, 20);
-  assert.equal(registry.packs[0].verifiedCount, 20);
+  assert.equal(pack.questions.length, 90);
+  assert.equal(registry.packs[0].verifiedCount, 90);
   const config = createDefaultConfig([pack.id]);
   const questions = pack.questions as Question[];
   for (const q of questions) {
@@ -39,8 +39,19 @@ test("当前可玩目录只登记20道长卡，旧450题不会混入", () => {
   }
   assert.ok(questions.some((q) => q.term === "便器侍从"));
   const pool = buildQuestionPool(config, questions, new Set());
-  assert.equal(pool.length, 20);
-  assert.equal(new Set(pool.map((q) => q.conceptId)).size, 20);
+  assert.equal(pool.length, 90);
+  assert.equal(new Set(pool.map((q) => q.conceptId)).size, 90);
+  for (const conceptId of [
+    "groom-of-stool",
+    "pearlfish-sea-cucumber",
+    "prince-ruperts-drop",
+    "eukonkanto",
+  ]) {
+    assert.equal(
+      questions.find((q) => q.conceptId === conceptId)?.id,
+      `outrageous-${conceptId}`,
+    );
+  }
   let s = createGame(config, pool, 123);
   s = reduceGame(
     s,
@@ -50,14 +61,18 @@ test("当前可玩目录只登记20道长卡，旧450题不会混入", () => {
   assert.equal(s.deadline, 6000);
   assert.ok(privateView(s, "p1", 5999));
   assert.equal(privateView(s, "p1", 6000), null);
+  assert.equal(
+    createGame({ ...config, playerCount: 9 }, pool, 123).config.playerCount,
+    9,
+  );
   assert.throws(
-    () => createGame({ ...config, playerCount: 5 }, pool, 123),
-    /25.*20/,
+    () => createGame({ ...config, playerCount: 9 }, pool.slice(0, 80), 123),
+    /81.*80/,
   );
   assert.equal(
     buildQuestionPool(config, questions, new Set([questions[0]!.conceptId]))
       .length,
-    19,
+    89,
   );
   const archive = readJson("../data/pack-registry.json");
   assert.equal(archive.packs.length, 5);
@@ -69,4 +84,12 @@ test("当前可玩目录只登记20道长卡，旧450题不会混入", () => {
     ),
     450,
   );
+  const archivedCards: Question[] = archive.packs.flatMap(
+    (p: { file: string }) => readJson(`../data/${p.file}`).questions,
+  );
+  for (const question of questions) {
+    const old = archivedCards.find((q) => q.conceptId === question.conceptId);
+    if (old)
+      assert.equal(question.id, old.id, `扩写${question.term}不能重建历史标识`);
+  }
 });

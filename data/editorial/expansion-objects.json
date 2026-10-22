@@ -1,0 +1,506 @@
+[
+  {
+    "id": "outrageous-objects-portable-baby-cage",
+    "conceptId": "outrageous-objects-portable-baby-cage",
+    "term": "窗外挂婴笼",
+    "aliases": [],
+    "explanation": "有人为住公寓的婴儿设计过一种悬在窗外的笼子，想让没有花园的家庭也能把孩子放到室外呼吸空气。原始专利不只画了一个铁丝框：里面预留玩玩具的空间，一角还能铺被褥睡觉；孩子睡着时可放下帘子，设计者希望它既挡穿堂风，又保留通气。笼体分成可以拆卸、折叠的墙面和屋顶，还专门设计窗台支架与斜撑。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US1448235A/en",
+        "title": "US1448235A - Portable baby cage",
+        "checkedAt": "2026-10-22",
+        "evidence": "Description及Definitions：公寓新鲜空气诉求、玩具空间、被褥、帘子、可折叠分段及窗台支承。",
+        "section": "Description及Definitions"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-nose-shaping-frame",
+    "conceptId": "outrageous-objects-nose-shaping-frame",
+    "term": "整鼻面罩",
+    "aliases": [],
+    "explanation": "一份整鼻器专利把鼻子当成可以长期套模具的部位：外面包着按理想鼻形弯成的薄框，边缘加有弹性金属丝，里面还能衬柔软织物。固定方式也很讲究，除了绕到耳后的挂件，还有近似眼镜架的版本，目的包括让人侧躺时装置不容易移位。专利又提出在鼻孔处加入短管或卷圈，并宣称持续轻压能改变外形、改善呼吸。离谱之处是连睡姿和固定都认真考虑了，但这些是申请人的疗效主张，不能当作已经证实的整形办法。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US1100991A/en",
+        "title": "US1100991A - Device for shaping noses.",
+        "checkedAt": "2026-10-22",
+        "evidence": "Description：透气薄框、弹性边缘、衬里、耳挂/眼镜架、侧卧、鼻孔短管及申请人效果主张。",
+        "section": "Description"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-water-walking-shoes",
+    "conceptId": "outrageous-objects-water-walking-shoes",
+    "term": "水上步行鞋",
+    "aliases": [],
+    "explanation": "一种水上鞋专利把每只鞋都做成长条浮体，脚放进上面的凹口，底下却不是普通鞋底，而是能进水、排水的推进腔。设计者希望踩住的一只鞋灌入水后增加阻力，抬起另一只时又能迅速排水，交替迈步向前。浮体可以采用泡沫或中空结构，后端还有向两侧分开的版本，以免转弯时左右鞋尾互相打架。申请人甚至设想，船主可以穿它往返游艇，不必拖着一只接驳小艇，也不用等人开船来接。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US3808622A/en",
+        "title": "US3808622A - Shoes for walking on water",
+        "checkedAt": "2026-10-22",
+        "evidence": "Description：固定容积水腔、进排水与通气、泡沫或中空材料、分叉鞋尾及游艇接送设想。",
+        "section": "Description"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-automatic-hat-saluter",
+    "conceptId": "outrageous-objects-automatic-hat-saluter",
+    "term": "自动脱帽致意器",
+    "aliases": [],
+    "explanation": "为了让人鞠躬时不用伸手摘帽，有人把一套上发条的机械机构塞进帽子。装置用弯曲的弹性支脚抱住头，另一组夹子抓住帽子内侧的汗带；低头会使配重摆动，触发齿轮与升降机构，让帽子抬起、转动，再回到头上。原始专利还考虑了限制升起幅度的改型。设计者不仅想替绅士完成礼貌动作，也建议在帽子上放广告牌，靠帽子仿佛自己会动来吸引街上行人。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US556248A/en",
+        "title": "US556248A - Saluting Device（扫描正文；网页OCR标题为ijoyle）",
+        "checkedAt": "2026-10-22",
+        "evidence": "Description：头部弹性支脚、汗带夹、配重低头触发、发条升转回落、可作广告媒介。",
+        "section": "Description"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-time-alarm-tipping-bed",
+    "conceptId": "outrageous-objects-time-alarm-tipping-bed",
+    "term": "翻床闹钟",
+    "aliases": [],
+    "explanation": "一种闹床专利认为，闹钟的问题并非叫得不够响，而是醒来的人还赖在床上。它把床底的一部分做成铰接活动板，靠下面带滚轮的腿撑平；到点后，普通闹钟牵动释放机构，支腿向内滑，活动板向下转，设计目标就是把睡着的人倒到地板上。双人床还可以只安排一边翻落，让另一位继续睡；怕一个钟停摆，申请人又提出接上两个闹钟。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US479307A/en",
+        "title": "US479307A - Time-alarm bed",
+        "checkedAt": "2026-10-22",
+        "evidence": "Description：滚轮活动腿、铰接床底、普通闹钟触发、倒人到地板、半床独立及双钟冗余。",
+        "section": "Description"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-self-kicking-amusement",
+    "conceptId": "outrageous-objects-self-kicking-amusement",
+    "term": "自己踢自己机",
+    "aliases": [],
+    "explanation": "有一项娱乐装置专利，动力来源和被踢对象是同一个人。使用者站在两根立柱之间，弯腰转动前方的手柄，传动轴和皮带便带动身后的一组旋转臂，让末端的软鞋或柔性拍板轮流碰到自己的屁股。申请书把节奏和力度可由本人控制列为特点，也认真考虑了赶集展出的需求：底座能折起来，拆下的立柱和零件可收进内部空间，换场地再装。它被描述成供个人和旁观者取乐的器械，并没有必须由别人来启动的环节。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US6293874B1/en",
+        "title": "US6293874B1 - User-operated amusement apparatus for kicking the user’s buttocks",
+        "checkedAt": "2026-10-22",
+        "evidence": "Summary及Detailed Description：手柄、双立柱、旋转臂软鞋、本人控制、底座储藏折叠及展会用途。",
+        "section": "Summary及Detailed Description"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-puzzle-jug",
+    "conceptId": "outrageous-objects-puzzle-jug",
+    "term": "漏水谜壶",
+    "aliases": [],
+    "explanation": "这种酒壶看着能喝，脖子上却故意镂出一圈洞，直接往嘴里倒就容易漏得到处都是。博物馆介绍，它曾用于酒馆的饮酒游戏，壶身还常写着挑衅饮客的话，挑战对方不洒一滴地喝到里面的东西。秘密并不在把漏洞修补好，而在隐藏的孔和通道。维多利亚与艾尔伯特博物馆请陶艺家重制馆藏款式时，就在把手下方做出暗孔与通路；遮住其他壶嘴、留下一个，再利用吸力才能喝。眼前的陶器因此同时是一把酒壶和一道操作谜题。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.vam.ac.uk/articles/how-was-it-made-a-puzzle-jug/",
+        "title": "How was it made? A puzzle jug",
+        "checkedAt": "2026-10-22",
+        "evidence": "正文：酒馆游戏、壶颈镂孔与挑衅铭文；Erickson重制品把手暗孔/通路及遮嘴吸饮。",
+        "section": "正文"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-bourdalou-chamber-pot",
+    "conceptId": "outrageous-objects-bourdalou-chamber-pot",
+    "term": "女士便壶",
+    "aliases": [],
+    "explanation": "有一种外形很像餐桌酱汁船的精致小器皿，实际装的东西却完全不适合上桌。它是供女性使用的便壶，适应层层裙装又大又难整理的穿着环境，使用者可以自己或由女仆帮忙，把容器放到裙子下面，减少为了如厕摆弄衣服的麻烦。库珀休伊特博物馆还提到，它可能方便随行，也可与带陶瓷内胆的家具联系起来。至于女士为了不漏听冗长布道而在教堂座位上使用、名字因此来自传教士的故事，馆方明确说真假不清，不能把这个传说当成确定来历。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.cooperhewitt.org/2016/02/01/not-a-gravy-boat/",
+        "title": "Not a Gravy Boat",
+        "checkedAt": "2026-10-22",
+        "evidence": "正文第1–4段：女用便壶、裙下使用与女仆、携带/家具解释；布道命名故事未获证实。",
+        "section": "正文第1–4段"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-shoe-fitting-fluoroscope",
+    "conceptId": "outrageous-objects-shoe-fitting-fluoroscope",
+    "term": "X光试鞋机",
+    "aliases": [],
+    "explanation": "过去有些鞋店会让顾客把穿着新鞋的脚伸进机器，店员不用脱鞋，就能和顾客一起看脚骨的透视影像。机器底部装着射线管，上方荧光屏通常留出三个观察口，分别照顾试鞋者、店员和陪孩子来的家长。它既号称帮助判断鞋是否合脚，也成了一项吸引人的店内体验。后来人们担忧顾客反复照射及店员接触散射辐射，而每个人照过多少次又没有记录。英国曾要求贴出反复暴露可能有害的提示，医学研究机构也希望这种试鞋用途退出。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://blog.sciencemuseum.org.uk/if-the-shoe-fits/",
+        "title": "If The Shoe Fits…",
+        "checkedAt": "2026-10-22",
+        "evidence": "正文：穿鞋成像、荧光屏三个观察口、顾客及店员辐射风险、无曝光记录、警示及MRC立场。",
+        "section": "正文"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-chandelier-perm-machine",
+    "conceptId": "outrageous-objects-chandelier-perm-machine",
+    "term": "吊灯式烫发机",
+    "aliases": [],
+    "explanation": "老式烫发机可以把客人的头发接到一整套悬在头顶的装置上，看着像头顶挂了许多电线的吊灯。博物馆介绍这类机器时，直接把上方部分称作吊灯：头发先接触碱性药剂，再分束绕上金属卷件、夹住，由机器加热来定出持久波浪。药剂配方还会随着美发师的经验、发质和想要的造型而变化，并非全国统一的一瓶水。馆藏实例来自纽约厂商，配有当年公开演示的记录。卷发因此曾是一项要把许多发束同时连到设备上的理发店工程。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://hennepinhistory.org/collection-item-of-the-week-perm-machine/",
+        "title": "Collection Item of the Week: Perm Machine",
+        "checkedAt": "2026-10-22",
+        "evidence": "正文43–51行：chandelier、碱性药剂、经验/发质/造型配方、金属卷件夹持加热、纽约厂商及演示。",
+        "section": "正文43–51行"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-vigorzone-electric-belt",
+    "conceptId": "outrageous-objects-vigorzone-electric-belt",
+    "term": "电疗胸带",
+    "aliases": [],
+    "explanation": "看起来是一条织物带的器物，曾作为电疗商品绕在胸口出售，包装还附着声称能治很多病的宣传单。澳大利亚动力博物馆保存的这款叫维戈尔宗，历史售价约四十五先令，销售方是墨尔本一家商号。它的广告把失眠、便秘、消化问题、风湿乃至瘫痪都装进同一份治愈清单，名字不同的毛病仿佛只要同一条带子就能解决。器物确实按让电流通过身体的思路设计，但馆藏留下的是商品和宣传史，不能因此把这张包治清单看成治疗效果得到证实。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://collection.powerhouse.com.au/object/172938",
+        "title": "'Vigorzone Electric Belt' with packaging and pamphlet",
+        "checkedAt": "2026-10-22",
+        "evidence": "正文、Physical Description及Production：胸带、织物/红盒/宣传页、墨尔本商号、45先令、广告病症列表。",
+        "section": "正文、Physical Description及Production"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-revigator-radioactive-water-jar",
+    "conceptId": "outrageous-objects-revigator-radioactive-water-jar",
+    "term": "镭矿活力水罐",
+    "aliases": [],
+    "explanation": "有一种曾被当成健康用品出售的水罐，设计目标竟包括不让水里的放射性氡气跑掉。辐射博物馆收藏的后期版本，在罐口做出一圈槽，盖子向下的边缘伸进槽中，专利设想靠槽里的水形成密封，减少所谓镭化水中的氡逸散。这个白色罐子把腿与罐身做成一体，使用说明还印在盖子底下。改款专利最终获批时，相关公司已经关门。馆方同时引述当时医学协会对其理论与治疗价值的批评，因此不能把保存放射性说成改善健康。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://www.orau.org/health-physics-museum/collection/radioactive-quack-cures/jars/revigator-1927-1930.html",
+        "title": "Revigator (ca. 1927-1930)",
+        "checkedAt": "2026-10-22",
+        "evidence": "正文：白色一体罐腿、罐口水封减少氡逸散、盖底说明、批准时公司已停业、JAMA批评。",
+        "section": "正文"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-violet-ray-apparatus",
+    "conceptId": "outrageous-objects-violet-ray-apparatus",
+    "term": "紫光电疗箱",
+    "aliases": [],
+    "explanation": "一套曾流行于家庭的电疗箱，接上市电后，可以用玻璃真空电极在身体附近产生紫、红或蓝色电火花。科学博物馆的拉迪奥勒克斯藏品介绍说，人们曾相信拿电极按摩皮肤，能够缓解肌肉、内脏和神经的疼痛，还把它用在其他病症上。它不只停留在展示柜里的奇想，在二十世纪前半叶很受欢迎，后来还常从老人家阁楼里被翻出来。电极确实可能使皮肤有刺麻感，但馆方特别指出医疗价值可疑；看得见颜色、感觉得到刺激，都不能证明那些治疗宣传成立。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8064980/radiolux-high-frequency-apparatus-europe-1920-1940",
+        "title": "'Radiolux' high frequency apparatus, Europe, 1920-1940",
+        "checkedAt": "2026-10-22",
+        "evidence": "藏品说明65–67行：市电、真空电极、火花颜色、当时疼痛主张、家庭流行和阁楼、刺麻与价值可疑。",
+        "section": "藏品说明65–67行"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-macaura-blood-circulator",
+    "conceptId": "outrageous-objects-macaura-blood-circulator",
+    "term": "血液循环手摇机",
+    "aliases": [],
+    "explanation": "一种镀铬外壳的手摇按摩器，曾被冠上血液循环器的响亮名字。内部其实是齿轮和凸轮机构，发明者却声称它每分钟能震动六千次，激活内脏、改善循环，继而把耳聋、瘫痪、结核甚至癌症都列进宣传。它还靠公开演示和报纸上的神奇痊愈故事招揽关注，后来一次演出遭医学生起哄并投放臭气弹。馆方介绍也提醒，所谓这类机器曾是医生常规治疗女性歇斯底里的工具，是证据不足的流行故事；真实的器械和夸张的治病故事需要分开看。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://oldoperatingtheatre.com/doctor-gerald-macauras-blood-circulator/",
+        "title": "Doctor Gerald Macaura’s Blood Circulator",
+        "checkedAt": "2026-10-22",
+        "evidence": "正文11–20、22–26行：机构/外壳、6000次为发明人宣称、病症清单、公开秀及臭气弹、歇斯底里传说受质疑。",
+        "section": "正文11–20、22–26行"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-phrenological-skull-head",
+    "conceptId": "outrageous-objects-phrenological-skull-head",
+    "term": "性格分区头骨",
+    "aliases": [],
+    "explanation": "曾有人把真人头骨做成一张立体性格地图，在表面划分区域、贴上标签，试图通过测量头颅来判断人的品性。科学博物馆保存的这一件采用斯普尔茨海姆的三十五分区体系，标签是法语，旁边却附着意大利语摘要。它属于当时颅相学的器物：这一学说传播很快，同时也招来嘲讽，而且创立者与合作者还会调整所谓器官的数目、修改区域名字。馆方认为头骨可能来自一名二十多岁去世的女性，但这只是身份推测；器物存在不表示人的性格真能从这些格子读出来。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co134175/phrenological-head-made-from-a-skull",
+        "title": "Phrenological head made from a skull",
+        "checkedAt": "2026-10-22",
+        "evidence": "藏品正文41–44行：35分区、法文/意文、Gall与Spurzheim调整体系、受嘲讽、年轻女性为推测。",
+        "section": "藏品正文41–44行"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-beerbrella",
+    "conceptId": "outrageous-objects-beerbrella",
+    "term": "啤酒遮阳伞",
+    "aliases": [],
+    "explanation": "有项专利专门给饮料配一把伞，想让啤酒瓶、罐或杯子避开直射阳光，也可以挡雨、当装饰。伞面大约五到七英寸，固定方案却相当丰富，既有夹子、束带，也有连着杯套或杯垫的版本。申请人甚至考虑到喝的时候伞会挡脸，提出加上转轴与配重：举起容器时伞先让开，放回直立状态再靠重力回位。伞面还可印广告，杯垫则能装饰成带棕榈树的小岛。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US6637447B2/en",
+        "title": "US6637447B2 - Beerbrella",
+        "checkedAt": "2026-10-22",
+        "evidence": "Description：5–7英寸、夹/带/杯套/杯垫、遮阳挡雨、重力配重让位、广告及棕榈树装饰。",
+        "section": "Description"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-three-section-combover",
+    "conceptId": "outrageous-objects-three-section-combover",
+    "term": "三向遮秃梳法",
+    "aliases": [],
+    "explanation": "一项曾获专利的方法不依靠生发药或假发，而是把剩余头发分区折过头顶的方法。方案要求把两侧和后方的头发留长，一般分成三份，交替铺到缺发位置，用定型喷剂固定，最上层再按个人喜好整理。申请人解释，所需长度还得随着秃发位置和覆盖范围变化，前后都缺发的人要留得更长。文件把买发片、织发及后续维护的成本作为比较理由，希望使用者靠自己的头发完成遮盖。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US4022227A/en",
+        "title": "US4022227A - Method of concealing partial baldness",
+        "checkedAt": "2026-10-22",
+        "evidence": "Definitions及Description：侧后长发三分、交替折叠、喷剂、上层造型、长度随秃区变化及与发片成本比较。",
+        "section": "Definitions及Description"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-rocking-bathtub",
+    "conceptId": "outrageous-objects-rocking-bathtub",
+    "term": "摇晃浴缸",
+    "aliases": [],
+    "explanation": "有人嫌泡澡时水太安静，便申请了一种装在支架轴承上的浴缸，让整个缸体来回摇，借晃动把水冲到洗澡者身上。它不是简单给普通浴缸加两条摇椅腿：弹簧用来维持平衡，锁扣能把缸固定在水平位置，排水管也采用可弯曲连接。为了不把水泼满地，缸口还盖上防水罩，只给人的脖子留开口；罩子又伸出带手套的袖管，让里面的人能摸到外部阀门。专利将它设想用于疗养机构和住宅，这些结构记录不等于所宣称的水疗效果得到验证。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US643094A/en",
+        "title": "US643094A - Rocking or oscillating bath-tub.",
+        "checkedAt": "2026-10-22",
+        "evidence": "Description：摇动缸体、支承/弹簧/水平锁、柔性排水、防水罩颈口和带手套袖管、机构住宅设想。",
+        "section": "Description"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-fan-and-uv-spoon",
+    "conceptId": "outrageous-objects-fan-and-uv-spoon",
+    "term": "风扇消毒汤匙",
+    "aliases": [],
+    "explanation": "一把汤匙也有人想升级成带电的吹凉设备：专利把小风扇塞进匙柄，让气流朝装着热汤的凹部吹，再给气流安排一个紫外线照射区。申请人的理由是，直接用嘴吹食物可能带来污染，因此希望先处理空气，再送到食物表面。匙柄外罩还要开通气口，内部包括电机和供电装置，汤匙形状则仍要保留盛液体的部分。于是，平常随口一吹的动作，被申请人拆成了风扇、空气通道和紫外线照射这一套带电系统。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US10004349B2/en",
+        "title": "US10004349B2 - Cooling and sterilizing spoon",
+        "checkedAt": "2026-10-22",
+        "evidence": "Abstract及Description249–260：柄内风扇朝食物、UV照空气、嘴吹污染为申请人理由、通气罩电机电源。",
+        "section": "Abstract及Description249–260"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-high-five-simulator",
+    "conceptId": "outrageous-objects-high-five-simulator",
+    "term": "独自击掌机",
+    "aliases": [],
+    "explanation": "有人在专利里认真提出一个问题：独自看球的观众遇到精彩进球，找不到第二个人来击掌庆祝。解决办法是一只装在支架上的假手，连着上臂、前臂和能转动的肘关节；拍上去后前臂退让，再被弹簧推回原位，继续等下一掌。假手可以拆换，甚至做成某个球员手掌的复制品，手臂外还能套上代表球队的衣袖。申请人还设计了触发声音的版本，拍一下就响起欢呼或球员声音。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US5356330A/en",
+        "title": "US5356330A - Apparatus for simulating a “high five”",
+        "checkedAt": "2026-10-22",
+        "evidence": "Background及Summary：孤独球迷场景、肘与弹簧复位、换手及球员复制、球队袖、声音。",
+        "section": "Background及Summary"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-pat-on-back-apparatus",
+    "conceptId": "outrageous-objects-pat-on-back-apparatus",
+    "term": "自我拍背鼓励器",
+    "aliases": [],
+    "explanation": "想得到一句干得好却没人拍背时，一项专利建议把假手架在自己的肩上。假手连着活动杆，肩托负责支撑，使用者拉动绳子或缎带，便能让手掌摆过来拍拍自己的背，随后靠重力或弹簧回到待命位置。它还能拆开携带，申请人甚至把方便藏起来、等送礼时再揭晓列作娱乐优点。用途既包括派对玩笑礼物，也包括给自己即时鼓励，文件举了节食后拒绝甜点等例子。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US4608967A/en",
+        "title": "US4608967A - Pat on the back apparatus",
+        "checkedAt": "2026-10-22",
+        "evidence": "Abstract、Background及Definitions：肩托假手、绳带、重力/弹簧、拆装藏礼、派对礼物与鼓励设想。",
+        "section": "Abstract、Background及Definitions"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-motorized-ice-cream-cone",
+    "conceptId": "outrageous-objects-motorized-ice-cream-cone",
+    "term": "电动冰淇淋托",
+    "aliases": [],
+    "explanation": "有项专利不满足于让人拿着甜筒转圈，改让小电机带动冰淇淋自己转到舌头前面。握柄里放电池、开关和传动机构，上方的杯子可盛柔软食物，也有把普通可食甜筒嵌进托杯的版本。申请人还把舌头当成雕刻工具：保持不动可以在表面舔出横沟，慢慢上下移动则能形成螺旋纹。杯子能拆下清洗或换成别的口味，边缘又加了挡滴结构，防止融化物进入机壳。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US5971829A/en",
+        "title": "US5971829A - Motorized ice cream cone",
+        "checkedAt": "2026-10-22",
+        "evidence": "Description：电池电机齿轮旋杯、可食筒版本、舌头横沟/螺旋、拆洗换杯与挡滴。",
+        "section": "Description"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-anti-eating-face-mask",
+    "conceptId": "outrageous-objects-anti-eating-face-mask",
+    "term": "防进食面罩",
+    "aliases": [],
+    "explanation": "一项名叫防进食面罩的专利，打算用贴在嘴和下巴外面的杯形金属丝框，让食物进不了嘴。它并不包住鼻子，网格间隙被设计为仍能让人说话，头顶、脸侧和下巴周围另有环架与带子固定。更离谱的是，申请人还加入可上锁的连接，既想防止自行摘下，又提出紧急情况下能够移除的目标。文件把控制进食、某些术前禁食乃至阻止抽烟都列作设想，具体效果则只是发明人的主张。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US4344424A/en",
+        "title": "US4344424A - Anti-eating face mask",
+        "checkedAt": "2026-10-22",
+        "evidence": "Definitions及Description：鼻下杯形丝框、说话间隙、头环带、锁及紧急移除目标、禁食/防烟设想。",
+        "section": "Definitions及Description"
+      }
+    ]
+  },
+  {
+    "id": "outrageous-objects-wearable-table",
+    "conceptId": "outrageous-objects-wearable-table",
+    "term": "穿在身上的桌子",
+    "aliases": [],
+    "explanation": "一份可穿戴桌子专利，把桌脚换成了人的肩膀。支架像挂钩一样绕过双肩，硬质托盘在胸前展开，再由下面的支撑杆组成三角结构，目标是让人站着也能写字、放食物或做其他需要桌面的事。肩钩可以伸缩，托盘高度也能滑动调整；不用时松开下方支撑，桌面便能转到接近竖直的位置收起。托盘还可更换，表面能做出适合盘子、杯子、绘画工具的不同凹形。它不只是一条接饭渣的围兜，而是认真把可调桌面和折叠支架一起挂在身上的方案。",
+    "packIds": [
+      "outrageous-long-cards"
+    ],
+    "difficulty": 2,
+    "status": "verified",
+    "sources": [
+      {
+        "url": "https://patents.google.com/patent/US5421499A/en",
+        "title": "US5421499A - Wearable table",
+        "checkedAt": "2026-10-22",
+        "evidence": "Definitions及Description：肩钩、硬盘与三角支承、站立书写食用、伸缩高度、竖向收纳、更换/造型托盘。",
+        "section": "Definitions及Description"
+      }
+    ]
+  }
+]

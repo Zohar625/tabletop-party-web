@@ -526,8 +526,8 @@ export default function App() {
                     </button>
                   </div>
                   <p className="helper pack-intro">
-                    当前换上 20 道离谱真事长卡，适合 3–4
-                    人一圈。原题库已保留归档。
+                    当前有 {allQuestions.length}{" "}
+                    道离谱真事长卡，混合直白词与陌生词。原题库已保留归档。
                   </p>
                   <div className="pack-list">
                     {packs.map((p, i) => {
