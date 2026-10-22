@@ -1,5 +1,11 @@
 # GitHub Pages 试玩发布
 
+## 最新题库更新：270题
+
+活跃包1.3.0，源码提交 `e5fb3fd`，默认仍为4人、读卡5秒。本地23项检查、结构校验、构建及本地单文件语法检查通过；[GitHub部署39781917074](https://github.com/Zohar625/tabletop-party-web/actions/runs/39781917074)成功。上线后首页、JS、CSS实际HTTP返回200，脚本 `index-D28ETWPi.js` 中270个词均可检出。新词需刷新页面并重新开桌后进入题池，旧存档与历史不清空。
+
+以下为最初90题发布的历史记录。
+
 用户已授权将当前单手机版本发布到 GitHub，并希望后续把超级井字棋并入同一桌游大厅。本次不增加联机功能，不修改超级井字棋的现有仓库或入口。
 
 - 试玩：https://zohar625.github.io/tabletop-party-web/
