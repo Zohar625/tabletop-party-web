@@ -1,0 +1,911 @@
+{
+  "questions": [
+    {
+      "id": "outrageous-270-customs-worm-charming",
+      "conceptId": "outrageous-customs-worm-charming",
+      "term": "蚯蚓召唤赛",
+      "aliases": [
+        "Worm Charming"
+      ],
+      "explanation": "英国威拉斯顿的参赛者各守着一块三米见方的土地，半小时内设法让地下的蚯蚓自己出来。规则允许演奏任何音乐，也允许把园艺叉插入土中，用手或木条制造振动，却不许直接挖虫；连浇水都被列为使用刺激物。怕摸蚯蚓的人可以指定助手代抓，只能收集自家地块的虫。最终按数量决胜，平手再召唤五分钟；被召出来的蚯蚓要等当天鸟儿归巢后再放生。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The Official Rules — Willaston World Worm Charming Championships",
+          "url": "https://fwsawillaston.wixsite.com/wormcharming/the-rules",
+          "checkedAt": "2026-10-22",
+          "evidence": "规则1–18：地块、时间、仅振动、水禁令、助手、平局与夜间放生。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-snail-racing",
+      "conceptId": "outrageous-customs-snail-racing",
+      "term": "蜗牛赛跑",
+      "aliases": [
+        "Snail Racing"
+      ],
+      "explanation": "英国诺福克郡康厄姆的世界蜗牛赛，把铺着白布的桌子当赛场，让蜗牛从内圈爬向相距十三英寸的外圈。裁判不是喊快跑，而是喊准备、就绪、慢！他还负责给赛道补水，保持蜗牛喜欢的湿润环境。选手能自带蜗牛，也能租用主办方的参赛蜗牛；体形巨大的外国蜗牛不准参赛。这里的纪录是名叫阿奇的蜗牛在一九九五年用两分钟走完赛程，赛事收入用于当地教堂。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Snail Racing World Championships",
+          "url": "https://snailracing.world/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Racing Background与History：白布圆圈13英寸、口令、浇水、禁巨型蜗牛、Archie纪录及募款。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-orange-battle",
+      "conceptId": "outrageous-customs-orange-battle",
+      "term": "橙子大战",
+      "aliases": [
+        "Battle of the Oranges"
+      ],
+      "explanation": "意大利伊夫雷亚的嘉年华会把广场变成水果战场：九支步行队伍各占固定地盘，向轮流驶入的马车投掷橙子，车上的投手也还击。这场战斗从星期日持续到忏悔星期二，表现的是城市反抗暴君的故事，步行者代表起义民众，马车队代表封建军队。各队有自己的名字和历史，其中黑桃王牌队创立于一九四七年。投掷不是随意朝整个城市乱打，而是围绕固定队伍和广场展开。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Battle of the Oranges — Fondazione dello Storico Carnevale di Ivrea",
+          "url": "https://storicocarnevaleivrea.it/en/chi-siamo/il-carnevale/battaglia-delle-arance/",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文：三天、九步行队、马车投手、叛乱象征与固定广场。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-sardine-burial",
+      "conceptId": "outrageous-customs-sardine-burial",
+      "term": "沙丁鱼葬礼",
+      "aliases": [
+        "Burial of the Sardine"
+      ],
+      "explanation": "特内里费岛圣克鲁斯的狂欢节，会为一条鱼组织热闹的送葬队伍。成千上万的人扮成寡妇和哀悼者，跟着装扮成教会人物、鬼魂或其他精灵的人穿行街道。他们为狂欢节拟人化的遗体送别，寡妇们夸张地痛哭，甚至沿路表演昏倒。沙丁鱼或当地标志性的竹荚鱼成了这场告别的主角，仪式用越轨、讽刺和玩闹的方式表现哀伤，整个城市像在替刚结束的欢乐办一场闹哄哄的葬礼。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Sardine Burial — Tenerife Tourism",
+          "url": "https://www.webtenerife.co.uk/what-to-do/carnival/events/sardine-burial/",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文283–285：鱼、寡妇送葬、鬼魂装扮、哭泣昏倒及讽刺告别。"
+        }
+      ]
+    },
+    {
+      "id": "wc-oostduinkerke-horse-shrimp",
+      "conceptId": "custom-oostduinkerke-horse-shrimp",
+      "term": "骑马捕虾",
+      "aliases": [
+        "Horseback Shrimp Fishing"
+      ],
+      "explanation": "比利时奥斯特敦刻尔克的捕虾人会跨上挽马，把北海虾从海边拖回来。开工时机要看潮汐表，身后约七米宽的尼龙网由两块侧板撑开，底部的链条拖过沙地，浮子则托起上沿。渔民和马的搭档关系沿着家庭传承，当地海岸的弯曲形状、交替的沙洲和较暖潟湖，也为虾提供了合适环境。过去厚重的油布外套如今多换成轻便黄衣，传统油布帽仍会在示范活动中出现。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Shrimp fishing on horseback: a UNESCO World Heritage Site — Focus on Belgium",
+          "url": "https://focusonbelgium.be/en/lifestyle/shrimp-fishing-horseback-unesco-world-heritage-site",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文29、35–39：马捕虾、潮汐、7米网、链条浮子、衣着及地貌。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-sailing-stones",
+      "conceptId": "outrageous-science-sailing-stones",
+      "term": "会走路的石头",
+      "aliases": [
+        "Sailing Stones"
+      ],
+      "explanation": "死亡谷一片干涸湖床上，石头会留下长长的拖痕，有些轨迹还互相平行。研究人员给外运来的石块装上定位器，等到浅水在冬夜结成薄冰：白天冰片破裂，轻风推动浮冰，浮冰再推着露出水面的石头滑过软泥。现场观测的冰层不到五毫米厚，石头每分钟只走几米，远看很难发现正在移动。一次观察中，相隔数个足球场的石头同时启程，等水退去，泥地就保存了这场集体散步的路线。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The Racetrack — Death Valley National Park",
+          "url": "https://www.nps.gov/deva/planyourvisit/the-racetrack.htm",
+          "checkedAt": "2026-10-22",
+          "evidence": "Moving Rocks更新段33–44：GPS、薄冰推动、速度、同步移动。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-blood-falls",
+      "conceptId": "outrageous-science-blood-falls",
+      "term": "血瀑",
+      "aliases": [
+        "Blood Falls"
+      ],
+      "explanation": "南极泰勒冰川末端会间歇流出富含铁的卤水，遇到空气中的氧后形成铁氧化物，把白色冰崖和冻住的水流染成红橙色。看上去像冰川伤口的地方，其实连着冰下和冰内的盐水系统。研究人员用雷达寻找通路，提出受压的冰下卤水通过裂隙注入冰体，再从表面裂缝释放。高盐度降低冻结温度，部分水冻结时释放的热也能温暖附近冰体，使这条冰川在严寒环境中仍保有会流动的液态盐水。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "An englacial hydrologic system of brine within a cold glacier: Blood Falls, McMurdo Dry Valleys, Antarctica — Journal of Glaciology",
+          "url": "https://www.cambridge.org/core/journals/journal-of-glaciology/article/an-englacial-hydrologic-system-of-brine-within-a-cold-glacier-blood-falls-mcmurdo-dry-valleys-antarctica/B5C197906AD54619AEA26068AD92989A",
+          "checkedAt": "2026-10-22",
+          "evidence": "Abstract及Introduction、Conclusions：富铁卤水接触氧后氧化物沉淀；RES裂隙模型、盐浓缩与潜热保持液态。已阅读论文正文，机制模型保留提出措辞。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-underwater-waterfall",
+      "conceptId": "outrageous-science-underwater-waterfall",
+      "term": "海底瀑布",
+      "aliases": [
+        "Denmark Strait Cataract"
+      ],
+      "explanation": "冰岛与格陵兰岛之间的丹麦海峡，水面下藏着一道规模惊人的瀑布。来自北方海域的寒冷海水遇上更暖的海水，因为密度较大而沉入下方，再越过海底地形的陡坎，形成巨大的下倾水流。美国海洋与大气管理局给出的流量估计约为每秒三百五十万立方米，庞大的水流却整个发生在海面以下。这样的冷水下沉还参与全球海洋输送水和热量的环流，把表层与深层的海水连接起来，也影响营养物质的循环。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Where is Earth’s Largest Waterfall? — NOAA",
+          "url": "https://oceanservice.noaa.gov/facts/largest-waterfall.html",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文及Infographic：丹麦海峡冷水密度下沉、海底落差、海面不可见、全球环流。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-mars-blue-sunset",
+      "conceptId": "outrageous-science-mars-blue-sunset",
+      "term": "火星蓝日落",
+      "aliases": [
+        "Martian Blue Sunset"
+      ],
+      "explanation": "红色星球的日落却常在太阳附近泛出蓝色。火星空气里的细尘会以特殊方式影响不同颜色的光，让蓝光比波长更长的颜色更有效地穿过大气。毅力号在二〇二一年十一月九日拍过一次日落，画面却比典型的蓝色日落柔和，因为当时大气中尘埃较少。那张照片经过色彩校准和白平衡处理，以去除相机本身的影响；换一天、换一种尘埃状况，同一颗行星的傍晚也会换副颜色。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Mastcam-Z’s First Martian Sunset — NASA",
+          "url": "https://science.nasa.gov/resource/mastcam-zs-first-martian-sunset/",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文246–247：蓝色日落、细尘光传播、2021拍摄、尘少颜色较弱及校准。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-ijen-blue-fire",
+      "conceptId": "outrageous-science-ijen-blue-fire",
+      "term": "伊真蓝火",
+      "aliases": [
+        "Ijen Blue Fire"
+      ],
+      "explanation": "印度尼西亚东爪哇的伊真火山口，黑夜里会出现像电光一样的蓝色火焰。热的含硫气体从地面裂隙逸出，接触空气中的氧气后燃烧，才形成这种颜色；看见的是燃烧发光的气体。蓝火在黑暗中显眼，天亮后便难以辨认，附近又有一片碧绿的强酸性火口湖。当地还保留人工采硫作业，矿工在崎岖的火口地形中开采并搬运硫磺，让同一片火山地景同时出现蓝焰、彩色湖水和肩挑矿石的人。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The Magic of Kawah Ijen: A Journey to Indonesia’s Blue Fire — Indonesia Ministry of Tourism",
+          "url": "https://www.indonesia.travel/sg/en/travel-ideas/adventure/the-magic-of-kawah-ijen-a-journey-to-indonesias-blue-fire",
+          "checkedAt": "2026-10-22",
+          "evidence": "138–163：含硫气体燃烧、夜间、酸湖及人工采硫；不用页面可疑面积与全球仅两处说法。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-singing-sand",
+      "conceptId": "outrageous-science-singing-sand",
+      "term": "鸣沙",
+      "aliases": [
+        "Singing Sand"
+      ],
+      "explanation": "沙丘上有时会响起管风琴低音或远处飞机般的嗡鸣。死亡谷尤里卡沙丘的沙完全干燥时，沙粒从陡峭坡面成片滑落，就可能让整座沙丘像低沉乐器一样发声。哪怕湿气低到手摸不出来，沙丘也可能安静下来。美国国家公园的介绍把声音与沙粒平滑表面、彼此滑动摩擦联系起来，同时保留机制尚未完全理解的说明。这片沙丘虽然面积不大，最高处却比西侧干湖床高出约二百米。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Eureka Dunes — Death Valley National Park",
+          "url": "https://www.nps.gov/deva/planyourvisit/eureka-dunes.htm",
+          "checkedAt": "2026-10-22",
+          "evidence": "Highest Dunes及Singing Sand：680英尺、干沙滑落声如管风琴飞机、湿润沉默、机制不完全确定。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-lake-nyos",
+      "conceptId": "outrageous-science-lake-nyos",
+      "term": "湖水喷气",
+      "aliases": [
+        "Lake Nyos Gas Eruption"
+      ],
+      "explanation": "喀麦隆的尼奥斯湖坐在火山口里，湖底会慢慢积蓄来自地下的二氧化碳。气体长期溶在深水中，达到危险状况后能突然大量逸出，变成顺山谷蔓延的窒息气云。一九八六年的灾难就以这种方式夺走了大量居民和牲畜的生命，湖水没有喷出常见的炽热熔岩。后来科学家给湖安装排气管，让深层气体以较稳定的速度通过管道和喷泉释放；二〇〇一年启用后，又在二〇一一年增加了两根管。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Lake Nyos, Cameroon — NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/lake-nyos-cameroon-86244/",
+          "checkedAt": "2026-10-22",
+          "evidence": "267–273：1986CO2、岩浆来源经地下水积累、2001排气及2011增管。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-penitentes",
+      "conceptId": "outrageous-science-penitentes",
+      "term": "忏悔者冰塔",
+      "aliases": [
+        "Penitentes"
+      ],
+      "explanation": "安第斯高原上会出现一整片薄而尖的冰雪刀片，被称作忏悔者冰塔。它们由水冰构成，可以长到几米高，升华过程参与塑造这种奇怪表面：冰直接变成水汽，不必先化成流水。新视野号后来在冥王星赤道附近拍到更巨大的刀刃状地形，材质主要是甲烷冰，巨大尖刃会在地面投下醒目的阴影。科学家把两种环境中的升华雕刻作比较，地球上的矮冰刃便成了理解遥远冰世界的线索。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Pluto’s Bladed Terrain — NASA Astronomy Picture of the Day",
+          "url": "https://apod.nasa.gov/apod/ap171005.html",
+          "checkedAt": "2026-10-22",
+          "evidence": "Explanation：安第斯水冰、数米、升华、冥王星甲烷冰刀刃；使用比较而非认定细节完全相同。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-snow-rollers",
+      "conceptId": "outrageous-science-snow-rollers",
+      "term": "天然雪卷",
+      "aliases": [
+        "Snow Rollers"
+      ],
+      "explanation": "雪地里偶尔会出现一卷卷小草捆似的圆筒，旁边没有人的脚印，却拖着一道扫开积雪的路线。它们是风制造的雪卷：地面先有冰层或硬雪壳，上面再落下足够湿的新雪，阵风把一小块雪推动，沿途不断卷进更多雪。风太弱推不动，太强又难以成形，合适的条件必须凑在一起。雪卷会一直长到过重，或遇到风再也推不过的坡度才停下，较大的卷体长度能达到一米多。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Snow rollers in Wiltshire — Royal Meteorological Society",
+          "url": "https://www.rmets.org/news/snow-rollers-wiltshire",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文11–17：地表冰壳、湿雪阵风、滚动卷雪、停止条件、最大约1.5米。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-hair-ice",
+      "conceptId": "outrageous-science-hair-ice",
+      "term": "冰头发",
+      "aliases": [
+        "Hair Ice"
+      ],
+      "explanation": "潮湿腐木在略低于零度的空气中，可能长出细软的白色冰丝，看起来像木头戴了棉花糖假发。这种冰需要湿润阔叶树腐木、潮湿空气和特定真菌共同出现，条件相当挑剔。早在一九一八年，提出大陆漂移学说的魏格纳就注意到冰丝只长在湿死木上，并猜测背后有真菌帮忙；到二〇一五年，研究者才把这一现象与一种名为Exidiopsis effusa的真菌联系起来，确认了那条早年的线索。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "What is frost and ice? — Met Office",
+          "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/frost-and-ice",
+          "checkedAt": "2026-10-22",
+          "evidence": "Hair ice段305–307：腐木冰丝、条件、1918猜测、2015真菌确定。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-shin-kicking",
+      "conceptId": "outrageous-customs-shin-kicking",
+      "term": "踢胫骨赛",
+      "aliases": [
+        "Shin-kicking"
+      ],
+      "explanation": "英国多佛山的传统运动会里，最激烈的项目之一是两个人抓住对方肩膀，反复踢对手小腿前侧，设法让他倒地。选手穿着过去牧羊人样式的白色罩衫，可以往裤腿里塞稻草保护胫骨。裁判还得确认倒地之前确实发生了踢胫动作，不能光靠把人摔下去冒充胜利。这项比赛可追溯至十七世纪初，和拔河、跑步、摔跤同场举行；活动最后又以篝火、烟花和火把队伍收尾。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The Cotswold Olimpicks at Dover’s Hill — National Trust",
+          "url": "https://www.nationaltrust.org.uk/visit/gloucestershire-cotswolds/dovers-hill/the-cotswold-olimpicks-at-dovers-hill",
+          "checkedAt": "2026-10-22",
+          "evidence": "119–129：抓肩踢胫、裁判先踢后摔、白罩衫稻草防护、17世纪、其他活动及结尾。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-nettle-eating",
+      "conceptId": "outrageous-customs-nettle-eating",
+      "term": "生吃荨麻赛",
+      "aliases": [
+        "World Stinging Nettle Eating Championship"
+      ],
+      "explanation": "英国多塞特的一场世界锦标赛，让参赛者在一小时里尽量吃下更多生荨麻叶。主办方把荨麻剪成约六十厘米的长段，前一天采好泡在浴缸中清洗保鲜；选手要把一根茎上的叶子全部吃光，裁判最后检查、累计剩下的光杆长度。参赛时可以喝水或把叶片卷紧、揉成团、蘸饮料再吃，但呕吐会被取消资格。于是冠军成绩不是一盘菜的重量，而可能是二十多米长的一串荨麻茎。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Unstung hero: steely-mouthed Brit wins the nettle-eating crown two years straight — Guinness World Records",
+          "url": "https://www.guinnessworldrecords.com/news/2026/8/unstung-hero-steely-mouthed-brit-wins-the-nettle-eating-crown-two-years-straight",
+          "checkedAt": "2026-10-22",
+          "evidence": "69–88：一小时生叶、2英尺茎、浴缸、检查裸茎、允许饮料、呕吐淘汰及2025实测长度。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-peashooting",
+      "conceptId": "outrageous-customs-peashooting",
+      "term": "吹豌豆锦标赛",
+      "aliases": [
+        "Peashooting"
+      ],
+      "explanation": "英国威彻姆的世界吹豌豆赛，要求选手用嘴把豌豆吹出管子，打中十二英尺外的靶。吹管最长十二英寸，不能共用，弹药也只能用主办方当天出售的豌豆，裁判会抽查；靶上的内、中、外圈分别计五、三、一分。传统组只准普通管子，公开组却允许低功率激光瞄准装置。淘汰赛遇到平手，还要追加突然死亡式的豌豆对决，直到双方发射数量相等且分数出现明确胜负。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The World Peashooting Championship Rules",
+          "url": "https://worldpeashoot.com/peashoot-rules/",
+          "checkedAt": "2026-10-22",
+          "evidence": "General rules1–5、11–24与Category rules：口吹、尺寸专用弹药、靶距计分、传统和激光公开组、pea-off。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-stone-skimming",
+      "conceptId": "outrageous-customs-stone-skimming",
+      "term": "打水漂世界赛",
+      "aliases": [
+        "World Stone Skimming Championships"
+      ],
+      "explanation": "苏格兰伊斯代尔岛把旧采石场里的水面变成打水漂世界赛的赛场。参赛石必须是岛上天然形成的板岩，最宽处不能超过三英寸；每个人只投三次，出手时双脚还必须留在平台上，不能助跑。石头至少在水上弹跳两次才算有效，但决定冠军的不是弹跳次数，而是石头沉没前走了多远。裁判会举红绿圆牌表示无效或有效，这种随手玩的水边游戏因此有了选石、站姿、测距和判罚的一整套程序。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "About — World Stone Skimming Championships",
+          "url": "https://www.stoneskimming.com/about/",
+          "checkedAt": "2026-10-22",
+          "evidence": "History、Rules Stones/Attempts/Judging/Signals：采石场、天然岛板岩、3英寸三投、至少二跳测距、双脚站台、红绿牌。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-egg-throwing",
+      "conceptId": "outrageous-customs-egg-throwing",
+      "term": "扔鸡蛋冠军赛",
+      "aliases": [
+        "World Egg Throwing Championships"
+      ],
+      "explanation": "英国斯沃顿的扔鸡蛋世界赛要两人搭档，一个投、一个接，先相隔十米站好，每成功接住一次就继续拉开距离；鸡蛋掉地或破裂即被淘汰。赛事还安排十人静态接力，让十二枚鸡蛋依次沿每人相隔十米的队列传递，拼速度同时计算破蛋罚时。同一天另有重力投石机扔蛋，甚至举行鸡蛋轮盘：两人面对六枚鸡蛋，其中五枚熟、一枚生，把一颗普通鸡蛋变成了整天比赛的主角。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Egg Roulette and Egg Throwing Competition — Swaton Vintage Day",
+          "url": "https://swatonvintageday.com/egg-throwing/",
+          "checkedAt": "2026-10-22",
+          "evidence": "官方节目13:00–15:30：轮盘6中1生、搭档10米加距破蛋淘汰、接力、投石机。未加入正文未说明的轮盘敲头步骤。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-el-colacho",
+      "conceptId": "outrageous-customs-el-colacho",
+      "term": "跨婴儿节",
+      "aliases": [
+        "El Colacho"
+      ],
+      "explanation": "西班牙卡斯特里略德穆尔西亚的科拉乔节，会把过去一年出生的婴儿放在街上的床垫上，让一个戴黄色面具、穿鲜艳服装的人从他们上方跃过。这个人物代表邪恶，走在宗教队伍前面，跳跃象征邪恶逃离善，从而远离孩子。当地家庭把孩子带来接受祝福，整周还有人物在村中巡行、居民向他叫阵的活动。这个已有四百多年历史的角色，连面具脸都出现在村庄的纹章上。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "La fiesta de un pueblo de Burgos en la que saltan por encima de bebés — RTVE",
+          "url": "https://www.rtve.es/play/noticias/20251026/fiesta-colacho-pueblo-burgos-saltan-bebes/16781145.shtml",
+          "checkedAt": "2026-10-22",
+          "evidence": "25–34：四色服黄面、上年婴儿床垫、跳跃宗教善恶象征、巡行、400年及村徽。未把仪式象征写为实际医疗效果。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-tomatina",
+      "conceptId": "outrageous-customs-tomatina",
+      "term": "番茄大战",
+      "aliases": [
+        "La Tomatina"
+      ],
+      "explanation": "西班牙布尼奥尔每年八月最后一个星期三，会让大批人挤进街道互扔番茄。大战前先有另一场挑战：广场立起涂满肥皂的高杆，顶端挂着火腿，勇者试着往上爬，阳台上的人还会向下泼水。发令声响起后，运着番茄的卡车陆续驶入，先由车上人开投，再卸下整车弹药供人群取用，街面很快变红。第二次发令声宣布战斗结束，接下来便轮到水管给满身番茄汁的参与者冲洗。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "La Tomatina tomato festival — Spain.info",
+          "url": "https://www.spain.info/en/calendar/la-tomatina/",
+          "checkedAt": "2026-10-22",
+          "evidence": "70–74：八月末周三、肥皂杆火腿、阳台泼水、卡车弹药两次发令及水管清洗；不使用每年无中断说法。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-gurning",
+      "conceptId": "outrageous-customs-gurning",
+      "term": "鬼脸世界赛",
+      "aliases": [
+        "Gurning"
+      ],
+      "explanation": "英国埃格勒蒙特的传统集市会举行一场认真评出冠军的扮丑脸比赛，选手靠扭曲面部表情争胜。如今有男子、女子和少年组，成年组赢家获得世界鬼脸冠军头衔。这场赛事甚至闹过颁奖乌龙：一九九七年，裁判把冠军给了叫彼得·克利福德的演员，赛后才说原本想颁给另一位彼得，也就是彼得·杰克曼。最后隔了几个月，奖杯在一档电视节目上交给了真正被选中的那个人。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Egremont Crab Fair — Hall of Fame",
+          "url": "https://egremontcrabfair.com/halloffame/index.html",
+          "checkedAt": "2026-10-22",
+          "evidence": "官方荣誉榜Notes第164行直接说明1997误颁与数月后电视节目纠正。"
+        },
+        {
+          "title": "Gurning Festival (Egremont Crab Fair) — Visit Lake District",
+          "url": "https://www.visitlakedistrict.com/whats-on/challenge-events/gurning-festival-egremont-crab-fair",
+          "checkedAt": "2026-10-22",
+          "evidence": "226–227正文：扮怪脸、男女少年组及成年世界冠军头衔。"
+        }
+      ]
+    },
+    {
+      "id": "wc-qeswachaka-renewal",
+      "conceptId": "custom-qeswachaka-renewal",
+      "term": "克斯瓦查卡桥更新",
+      "aliases": [
+        "Q’eswachaka"
+      ],
+      "explanation": "秘鲁阿普里马克河上有一座用草纤维编成的吊桥，四个社区每年一起把它重做。第一天一边举行仪式，一边收集当地草材，妇女把它们搓编成细绳，由熟悉技术的人指导；第二天拆去旧桥结构，装上组成新桥骨架的四根大绳，第三天完成扶手和走路的桥面。最后一天才是跳舞和吃传统食物的庆祝。这座长约二十八米、宽一米多的桥，靠共同劳动把草一层层变成可以跨越河流的道路。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Puente Colgante De Q’Eswachaka — MINCETUR",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=935",
+          "checkedAt": "2026-10-22",
+          "evidence": "Descripción22–26及Estado34：四社区年度更新、四日流程、妇女编草、四根主绳、28x1.2米。"
+        }
+      ]
+    },
+    {
+      "id": "wc-voladores",
+      "conceptId": "custom-voladores",
+      "term": "飞人仪式",
+      "aliases": [
+        "Voladores"
+      ],
+      "explanation": "墨西哥一些族群的仪式会先挑树制成十八到四十米高的木杆，四个人爬上去，另一人在杆顶平台吹笛敲鼓，向太阳、四方和风致意。祈请结束后，四名舞者把身体抛向空中，靠连在顶部的长绳悬挂，随着绳索逐渐解开，一圈圈旋转下降，模仿鸟的飞行。这种与丰饶相关的舞蹈在韦拉克鲁斯的托托纳克人中尤其重要，各种版本借动作重述宇宙起源，也表达社区对自然和精神世界的理解。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "La ceremonia ritual de los Voladores — Secretaría de Cultura, México",
+          "url": "https://sic.gob.mx/ficha.php?table=otra_declaratoria&table_id=18",
+          "checkedAt": "2026-10-22",
+          "evidence": "Descripción290–294：18–40米木杆、四人下降第五人吹笛鼓、四方太阳、丰饶与社区世界观。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-toe-wrestling",
+      "conceptId": "outrageous-customs-toe-wrestling",
+      "term": "脚趾摔跤",
+      "aliases": [
+        "Toe Wrestling"
+      ],
+      "explanation": "英国德比郡有一场以脚趾交锋的世界锦标赛，选手会在名为Toedium的赛台上扭动、互扣脚趾，争夺控制权。这项运动发源于韦顿村的酒馆传统，后来吸引了从澳大利亚赶来的选手；比赛也发展出入场音乐、现场屏幕和完整的观赛场面。二〇二五年主办方特意在赛台上方加了大屏幕，让原本只有挤在前排的人才能看清的细小扭转、表情变化和脚趾锁扣，都能展示给整场观众。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The 2025 World Toe Wrestling Championship — World Toe Wrestling Federation",
+          "url": "https://www.wtwf.co.uk/news/2025-world-toe-wrestling-championship",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文28–40：酒馆传统、Toedium、toe-lock与控制、2025屏幕入场曲、Perth选手。现行标准规则尚在制定，不擅写未读规则细节。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-mercury-double-sunrise",
+      "conceptId": "outrageous-science-mercury-double-sunrise",
+      "term": "水星双重日出",
+      "aliases": [
+        "Mercury Double Sunrise"
+      ],
+      "explanation": "在水星某些地方，清晨的太阳会先升起来一点，又退回地平线下，随后再次升起。这颗行星绕日轨道很扁，靠近太阳时公转会加快，而自身转得相当慢，两种运动叠加，便让太阳在天空中的路径短暂反转。水星自转一圈约需五十九个地球日，绕太阳一圈只需八十八天；若按一次完整昼夜来算，却要等一百七十六天，相当于水星上约两年。傍晚的某些地方，也能遇到相反版本的重复日落。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Mercury: Facts — NASA",
+          "url": "https://science.nasa.gov/mercury/facts/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Orbit and Rotation287–290：椭圆轨道近日加速、59日自转、88日公转、176太阳日及双日出日落。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-saturn-hexagon",
+      "conceptId": "outrageous-science-saturn-hexagon",
+      "term": "土星六边形风暴",
+      "aliases": [
+        "Saturn Hexagon"
+      ],
+      "explanation": "土星北极的大气里有一个近乎规整的六边形，六条长边把整个极区圈住，跨度约二万五千公里。它像把地球上绕极旋转的风带拉成了蜂巢单元，内部的云沿边缘快速绕行。旅行者探测器早年看见过它，二十多年后卡西尼又拍到同样的几何图案，显示它能维持很久。卡西尼还用热红外穿过极夜观察，发现结构向云顶下方延伸约一百公里，并不只是薄薄一层云画出的六条线。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Cassini Images Bizarre Hexagon on Saturn — NASA",
+          "url": "https://science.nasa.gov/missions/cassini/cassini-images-bizarre-hexagon-on-saturn/",
+          "checkedAt": "2026-10-22",
+          "evidence": "257–278：25,000公里六边形、云沿其绕行、Voyager和Cassini长寿、极夜热红外及100公里深。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-titan-methane-rain",
+      "conceptId": "outrageous-science-titan-methane-rain",
+      "term": "天然气下雨",
+      "aliases": [
+        "Titan Methane Rain"
+      ],
+      "explanation": "土卫六也会蒸发、成云、下雨，再把液体送进河湖海，只是参与循环的主要是甲烷和乙烷。这些在地球上常被装进罐子、作为气体使用的物质，在土卫六的低温下能像普通液体一样流动。卡西尼最后一次飞掠时，雷达还发现北半球一些小湖坐在山丘与高原上，深度超过一百米，里面主要装着液态甲烷。研究者认为部分湖盆可能由冰和固态有机物溶解、塌陷而成，像用另一套材料造出的地球岩溶湖。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "NASA’s Cassini Reveals Surprises with Titan’s Lakes",
+          "url": "https://www.nasa.gov/missions/cassini/nasas-cassini-reveals-surprises-with-titans-lakes/",
+          "checkedAt": "2026-10-22",
+          "evidence": "257–266：甲烷乙烷循环、极寒液态、2017雷达小湖深100米在高地、溶蚀塌陷假说。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-enceladus-geysers",
+      "conceptId": "outrageous-science-enceladus-geysers",
+      "term": "土卫二虎纹喷泉",
+      "aliases": [
+        "Enceladus Tiger Stripes"
+      ],
+      "explanation": "土卫二南极有四道被称为虎纹的巨大裂隙，会朝太空喷出水汽和细小冰粒。卡西尼长期拍摄后，研究者绘出了包含一百零一个喷泉的地图，发现喷流沿着裂隙分布，而且与一小片一小片的热区对应。这些热斑只有几十米尺度，研究认为它们更像水汽在近地表裂缝壁上凝结留下的热。小小的冰封卫星由此露出一条线索：地下海洋中的物质，可能一路穿过外面的冰壳，来到能被探测器观察的地方。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Cassini Spacecraft Reveals 101 Geysers and More on Icy Saturn Moon — NASA JPL",
+          "url": "https://www.jpl.nasa.gov/news/cassini-spacecraft-reveals-101-geysers-and-more-on-icy-saturn-moon/",
+          "checkedAt": "2026-10-22",
+          "evidence": "21–31：101喷泉、四虎纹、冰汽、热斑几十米与凝结热；地下海到表面保留可能。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-brocken-spectre",
+      "conceptId": "outrageous-science-brocken-spectre",
+      "term": "布罗肯幽灵",
+      "aliases": [
+        "Brocken Spectre",
+        "山中巨影"
+      ],
+      "explanation": "登山者背对低处的太阳，望向山下雾层时，可能突然看见一个远处巨人的影子，头边还围着彩色光环。那其实是自己的影子投在云雾水滴上，雾又遮去了熟悉的参照物，让人误判大小和距离。围着头的光环叫宝光，与水滴对光的散射和衍射有关，飞机乘客也常能在下方云层上看见围着飞机影子的类似光圈。这个幽灵以德国布罗肯山得名，每个人看到的光环中心都对应自己的反太阳方向。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The Brocken Spectre — University of Alaska Fairbanks Geophysical Institute",
+          "url": "https://www.gi.alaska.edu/alaska-science-forum/brocken-spectre",
+          "checkedAt": "2026-10-22",
+          "evidence": "60–65：自己影子和宝光、反太阳方向、水滴、飞机影与衍射；配Met Office巨影知觉。"
+        },
+        {
+          "title": "Optical effects: nature’s light show — Met Office",
+          "url": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects",
+          "checkedAt": "2026-10-22",
+          "evidence": "Brocken spectre段284：背后太阳、影投雾、巨大遥远人形是光学幻觉。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-light-pillars",
+      "conceptId": "outrageous-science-light-pillars",
+      "term": "城市光柱",
+      "aliases": [
+        "Light Pillars"
+      ],
+      "explanation": "寒冷天气里，城市灯火上方可能出现一根根笔直的彩色光柱，像有人从地面把探照灯一直打进天际。形成它们的却是空气中的冰晶：许多晶体把灯光反射向观察者，视线里才拼出垂直亮带，并非那根位置上真的立着一束实体的光。光源可以是路灯等人工照明，也可以是太阳、月亮，甚至金星。不同的灯光颜色经冰晶反射后，让同一片夜空里出现一排颜色不一的光柱。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Light Pillars — MetService",
+          "url": "https://about.metservice.com/learning/light-pillars",
+          "checkedAt": "2026-10-22",
+          "evidence": "71–72：冰晶反射、日月金星及城市人工光源；纯视线光路与颜色补由Atmospheric Optics原文。"
+        },
+        {
+          "title": "Light pillars — Atmospheric Optics",
+          "url": "https://www.atoptics.org.uk/halo/lpil.htm",
+          "checkedAt": "2026-10-22",
+          "evidence": "已实际打开正文38–46：多色、板状冰晶水平面反射；光柱没有物理固定位置，只是进入眼睛的光。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-fallstreak-hole",
+      "conceptId": "outrageous-science-fallstreak-hole",
+      "term": "穿洞云",
+      "aliases": [
+        "Fallstreak Hole",
+        "Hole-punch Cloud"
+      ],
+      "explanation": "一层看似完整的云有时会突然缺掉一大块，留下一口洞，下面还拖着一束下落的冰晶。这类穿洞云常从过冷水滴云里形成：水滴虽然低于零度，却还没有冻住，需要合适的微粒或更低温度才开始结冰。飞机穿过时，机翼或螺旋桨附近的空气膨胀冷却，就可能触发冰晶生成。冰晶长到足够大后从云层落出，原来满是小水滴的地方便像被打孔器挖走，露出一块天空。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Fallstreak hole — Met Office",
+          "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/clouds/unusual-cloud-formations/fallstreak-hole",
+          "checkedAt": "2026-10-22",
+          "evidence": "269–272：过冷液滴、结冰核、飞机膨胀冷却、冰晶增大落出形成孔洞。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-green-flash",
+      "conceptId": "outrageous-science-green-flash",
+      "term": "绿闪",
+      "aliases": [
+        "Green Flash"
+      ],
+      "explanation": "太阳刚要落进地平线，或刚从地平线冒出时，最上缘有时会短促地闪成绿色，常见的持续时间只有一两秒。需要地平线清楚可见，海上比陆地上更容易观察；它也不只属于太阳，月亮和某些行星的上缘也可能出现。不同温度的空气层会制造不同形式的蜃景，影响绿闪的形状与位置。在格外清澈的空气中，偶尔还会带出蓝色或紫色，极罕见的版本甚至像一道绿光从边缘向上伸出。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Green Flash — WMO International Cloud Atlas",
+          "url": "https://cloudatlas.wmo.int/en/green-flash.html",
+          "checkedAt": "2026-10-22",
+          "evidence": "Definition32–38：日月行星、地平线、海上多、一两秒、两种蜃景与蓝紫/绿射线罕见类型。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-red-sprites",
+      "conceptId": "outrageous-science-red-sprites",
+      "term": "红色精灵",
+      "aliases": [
+        "Red Sprites"
+      ],
+      "explanation": "强雷暴上方的高空，有时会闪过一团像巨大红水母的东西，亮起又立即消失。它被称为红色精灵，是强闪电之后出现的大尺度放电，常在离地约八十公里的高度发生，远高于下面的雷云。形状可以是朦胧的红色羽状光，也能带上明亮、尖细、向下伸出的触须，有时几团依次明灭。虽然飞行员和其他目击者早有报告，它直到一九八九年才首次被拍摄下来，拍摄者通常还得在远离雷暴的位置寻找合适视角。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Sprites Over Château de Beynac — NASA",
+          "url": "https://www.nasa.gov/image-article/sprites-over-chateau-de-beynac/",
+          "checkedAt": "2026-10-22",
+          "evidence": "260–262：80公里、雷电后、羽状触须、连续明灭；早期记录及远观由Goddard transcript补。"
+        },
+        {
+          "title": "Goddard Glossary: Sprites — NASA",
+          "url": "https://svs.gsfc.nasa.gov/vis/a010000/a014100/a014142/script_33611_00.html",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读台本18–98：强闪电后的大尺度放电、水母、远距观测、1989首次影像及近百年前报告。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-brine-lakes",
+      "conceptId": "outrageous-science-brine-lakes",
+      "term": "海底咸水湖",
+      "aliases": [
+        "Brine Pools",
+        "Brine Lakes"
+      ],
+      "explanation": "潜到海底，有时还会遇到另一片有湖面、有岸边、受扰动会起波纹的湖。那是极咸的卤水，密度大到能积在海床低处，与上面的普通海水形成肉眼可见的界面。墨西哥湾一些卤水池的盐，来自远古海洋蒸发留下、后来被沉积物埋住的盐层，重新与渗入海水混合才回到表面。动物跌入高盐水中可能死亡，湖边却能围着另一群生命，靠利用甲烷的细菌提供食物，在危险湖岸旁形成特殊社区。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The Deep Sea — Smithsonian Ocean",
+          "url": "https://ocean.si.edu/ecosystems/deep-sea/deep-sea",
+          "checkedAt": "2026-10-22",
+          "evidence": "Brine Lakes191–203：高盐高密度湖面波纹、侏罗纪蒸发盐层、盐水上涌、动物死亡与岸边甲烷食物网。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-black-smokers",
+      "conceptId": "outrageous-science-black-smokers",
+      "term": "海底黑烟囱",
+      "aliases": [
+        "Black Smokers"
+      ],
+      "explanation": "深海里一些高高的烟囱，会往冰冷海水中喷出像黑烟的东西。海水先沿岩石裂缝钻入地下，被岩浆热源加热并与岩石反应，再带着溶解矿物冲出来；热水遇到周围冷海水，硫化物等矿物沉淀，既形成黑色羽流，也逐渐堆出烟囱。流体可热到数百摄氏度，却因深海压力很高而不沸腾。附近的微生物用化学反应获取能量，支持管虫、虾和贝类组成的食物网，即使这里终年见不到阳光。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Hydrothermal vents — Woods Hole Oceanographic Institution",
+          "url": "https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/seafloor-below/hydrothermal-vents/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Key Takeaways及What are Hydrothermal Vents45–65：冷水入裂隙、岩浆加热、矿物黑烟沉淀、压力不沸、化学食物网。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-devils-kettle",
+      "conceptId": "outrageous-science-devils-kettle",
+      "term": "魔鬼水壶",
+      "aliases": [
+        "Devil’s Kettle"
+      ],
+      "explanation": "美国明尼苏达州的布鲁尔河在瀑布上方分成两股，一股正常流下，另一股却灌进岩洞般的深坑，像被一只看不见底的水壶吞掉。消失的水究竟去了哪里，长期让游客和研究者好奇。水文学家后来在上下游测量流量，发现瀑布上方和下方的数值几乎相同，差别处在测量容许误差内，说明水很快又从地下回到同一条河。这个瀑布的戏法因此主要藏在短短一段看不见的通道中，河水并没有凭空失踪。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Hydrologists solve mystery of Devil’s Kettle waterfall — Minnesota DNR",
+          "url": "https://content.govdelivery.com/accounts/MNDNR/bulletins/18a428c",
+          "checkedAt": "2026-10-22",
+          "evidence": "2017官方正文9–12：双股河一股入深坑、流量上下几乎一致、误差内、地下很快回河；不写仍计划中的染色实验已完成。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-mars-spiders",
+      "conceptId": "outrageous-science-mars-spiders",
+      "term": "火星蜘蛛",
+      "aliases": [
+        "Araneiform Terrain"
+      ],
+      "explanation": "火星南极附近，春天会在地表露出一片片辐射状的黑色蜘蛛图案。冬季覆盖地面的二氧化碳冰受热后直接变成气体，气体却暂时被困在冰层下，压力不断累积，最后顶破冰面向外喷发，把深色尘土也一起带出来。尘埃可落在喷口周围，也会被风吹成长条。冰消退后，气流刻出的枝状通道留在地面，像许多长腿蜘蛛趴在荒地上；这是随季节活动的地貌，图里的腿是气体侵蚀的路线。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Jamming with the ‘Spiders’ from Mars — NASA JPL",
+          "url": "https://www.jpl.nasa.gov/images/pia22587-jamming-with-the-spiders-from-mars/",
+          "checkedAt": "2026-10-22",
+          "evidence": "9–11：南极冬冰春显、CO2升华压力喷流、尘埃沉积风条带、蚀刻蜘蛛地貌。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-dry-ice-snow",
+      "conceptId": "outrageous-science-dry-ice-snow",
+      "term": "干冰降雪",
+      "aliases": [
+        "Carbon-dioxide Snowfall"
+      ],
+      "explanation": "火星冬季的南极天空，会出现由二氧化碳冰构成的云，云里的颗粒还能落到地表，形成干冰雪。二氧化碳要在约零下一百二十五摄氏度才会冻结，低温把一种空气成分变成了能下落的固体。研究人员用火星气候探测仪从头顶和侧面观察云，结合红外光谱辨认颗粒，并判断颗粒足够大、云存续足够久，能够把雪送到地面。火星北部也观测过水冰降雪，因此这颗星球的雪并不全是同一种材料。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "NASA Observations Point to ‘Dry Ice’ Snowfall on Mars — NASA JPL",
+          "url": "https://www.jpl.nasa.gov/news/nasa-observations-point-to-dry-ice-snowfall-on-mars/",
+          "checkedAt": "2026-10-22",
+          "evidence": "17–24：-125℃干冰、南极冬云、顶视侧视与红外证据、足够大颗粒及2008北部水冰雪。"
+        }
+      ]
+    }
+  ]
+}

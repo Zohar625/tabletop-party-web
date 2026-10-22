@@ -1,0 +1,904 @@
+{
+  "questions": [
+    {
+      "id": "outrageous-270-objects-mudlark",
+      "conceptId": "objects-mudlark",
+      "term": "泥滩拾荒人",
+      "aliases": [
+        "Mudlark"
+      ],
+      "explanation": "泰晤士河退潮时，一群人就弯腰钻进停船之间的烂泥里，寻找煤块、旧铁、绳子、骨头和从船上掉下的铜钉。十九世纪的泥滩拾荒人中有不少孩子，东西找到后还得分头卖：煤卖给附近穷人，废料交给旧货店，捡到工具则可向水手换饼干和肉。他们常赤脚工作，钉子和碎玻璃会伤人；梅休记录过一名孩子被铜钉扎伤后，整整三个月走路不便，母亲每天背他去看医生。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.rmg.co.uk/stories/maritime-history/library-archive/mudlarks-murky-world-londons-river-scavengers",
+          "title": "Mudlarks: the murky world of London’s river scavengers",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文记载退潮工作、拾获品、不同出售对象及铜钉伤脚三个月的具体案例。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-cucumber-straightener",
+      "conceptId": "objects-cucumber-straightener",
+      "term": "黄瓜矫直器",
+      "aliases": [],
+      "explanation": "一根尚未长大的黄瓜，要先套进细长的玻璃漏斗，之后的生长方向便受管壁约束。工程师乔治·斯蒂芬森很在意自己种出的黄瓜是否笔直，曾让纽卡斯尔蒸汽机工厂替他的花园制作吹制玻璃圆筒。花园博物馆收藏的十九世纪矫直器，就是这种把蔬菜送进透明模具的园艺工具。它追求的是外形整齐，玻璃管不负责削皮，也不是收获后把弯黄瓜硬掰直；要在果实生长早期就把它套好。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.gardenmuseum.org.uk/collection/cucumber-straightener/",
+          "title": "Cucumber Straightener - Garden Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文首段记载Stephenson定制吹制玻璃圆筒，幼果期套入长漏斗以促直；第二段明确是审美目的。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-mortsafe",
+      "conceptId": "objects-mortsafe",
+      "term": "尸体防盗笼",
+      "aliases": [
+        "Mortsafe",
+        "护棺铁笼"
+      ],
+      "explanation": "新坟上扣住的沉重铁笼，曾经是用来保护棺内尸体的防盗设备。十九世纪初，解剖教学对遗体的需求催生盗尸生意，家属便用铁制护棺罩和重盖增加挖掘难度。有些教区买下一两套，按需要出租给不同家庭：等遗体腐败到解剖者不想要了，护罩便可移走再租。科学博物馆的一件藏品，单是盖子就重二百二十公斤；有的老护罩后来甚至被改作给牲畜喝水的槽。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://wellcomecollection.org/stories/beating-the-bodysnatchers",
+          "title": "Beating the bodysnatchers - Wellcome Collection",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文说明铁罩护棺、临时出租与腐败后失去解剖价值，末段说明改为饮水槽。220公斤另由SMG A600162馆藏正文与尺寸栏确证。"
+        },
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co77094/iron-mortsafe-base-and-lid",
+          "title": "Iron mortsafe base and lid - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文及尺寸栏：盖子重220公斤，护棺防盗尸。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-waterloo-teeth",
+      "conceptId": "objects-waterloo-teeth",
+      "term": "滑铁卢假牙",
+      "aliases": [
+        "Waterloo teeth"
+      ],
+      "explanation": "一副十九世纪的假牙，牙床可能是河马象牙，露出来的门牙却真是从别人嘴里取下来的。当时制作假牙的人大量需要人牙，愿意出售牙齿的活人无法满足市场，欧洲战场的死者便成了令人不安的来源，滑铁卢牙也因此成为沿用多年的称呼。科学博物馆收藏的一副英国下颌假牙，就把真人前牙嵌在河马象牙基座上。昂贵象牙使它属于富人的消费品，嘴里的一排牙，却可能来自完全不认识的人。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co102388/lower-denture-with-human-teeth-england-1800-1870",
+          "title": "Lower denture with human teeth, England, 1800-1870 - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文确证人牙需求、活人供给不足、欧洲战场来源与Waterloo teeth名称；藏品是河马象牙下颌基座加人门牙，未声称该具体藏品来自滑铁卢。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-scolds-bridle",
+      "conceptId": "objects-scolds-bridle",
+      "term": "骂妇铁笼",
+      "aliases": [
+        "Scold’s bridle",
+        "Branks"
+      ],
+      "explanation": "把铁框锁在头上，嘴里再塞进压住舌头的部件，有时头顶还悬一只铃铛，让受罚者走到哪里都引人围观。这类面具曾用于惩罚被指扰乱公共安宁、争吵或诽谤的人，女性尤其容易成为目标，器具也常故意做出可笑的动物特征。科学博物馆的一件德国产藏品，就有夸张鼻片、锯齿状嘴部和颈环。它既要让人难以说话，又要公开羞辱；史料也记录男性遭到使用，并非只在女人身上出现。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co155218/scolds-bridle-scolds-bridle",
+          "title": "Scold's Bridle Mask which partially covers face - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文86—90行包含器具结构、法律词义、性别差异与男性使用；不把该个别藏品来历写成已知。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-dental-key",
+      "conceptId": "objects-dental-key",
+      "term": "拔牙钥匙",
+      "aliases": [
+        "Tooth key"
+      ],
+      "explanation": "十九世纪的拔牙工具里，有一种很像开门钥匙：手柄下面伸出金属杆，末端装着可以扣住牙齿的爪。操作者把它送进口中，收紧爪子，再转动整把工具，将坏牙松动拔出。英国国家陆军博物馆收藏的一把双爪牙钥匙，原本与另外六十三件医疗器械一同装在桃花心木箱中，约制于一八五〇年。这种旋转拔牙的过程极为痛苦，牙还可能在操作中折断，即使牙齿没有完整拔出，患者也已经承受了旋转器械的折磨。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.nam.ac.uk/detail.php?acc=1973-12-90-38",
+          "title": "Tooth key with two claws, 1850 (c) - National Army Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "馆藏正文21—24行：64件器械之一、桃花心木箱、爪紧牙齿后旋转、痛苦且常折牙。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-climbing-boys",
+      "conceptId": "objects-climbing-boys",
+      "term": "烟囱童工",
+      "aliases": [
+        "Climbing boys"
+      ],
+      "explanation": "烟囱窄到刷子难以清理时，过去的清扫师傅会让体形小的学徒直接爬进去，把容易着火的煤烟垢清掉。十八、十九世纪伦敦大量烧煤，这门生意也利用起童工。孩子可能卡住、受伤甚至死在烟道中，多次立法仍未能真正阻止。一八七五年，乔治·布鲁斯特因这项工作死亡，推动了要求清扫者领证并由警察执行规则的法律。同一种清扫生意还会卖掉收集的煤烟，转手供农民与园丁作肥料。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.londonmuseum.org.uk/collections/london-stories/chimney-sweeps-soot-stained-past/",
+          "title": "Chimney sweeps’ soot-stained past - London Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文说明体形小入窄烟囱、童工、历次失败法律和1875事件；212—214行煤烟卖作肥料。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-resurrection-men",
+      "conceptId": "objects-resurrection-men",
+      "term": "复活人",
+      "aliases": [
+        "Resurrectionists",
+        "掘墓盗尸人"
+      ],
+      "explanation": "这个名字听起来像能让死者醒来，真正的工作却是把新葬者从坟里偷走，再卖给解剖教学者。苏格兰医学校扩大时，合法遗体供应不足，盗尸成了有利可图的地下生意。有些人会打听葬礼，甚至混进送葬队伍，入夜再回来挖坟。家属为了拖慢他们，曾把坚韧的石楠混进填土、加高墓园围墙，或在棺盖上压重石。防守的目标是争取时间，让尸体过了适合解剖的时期，盗贼便不再感兴趣。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.westhighlandmuseum.org.uk/2021/03/07/the-sinister-history-of-mort-safes/",
+          "title": "The Sinister History of Mort Safes - West Highland Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文64—71行：解剖需求与遗体供给、resurrectionists名号、葬礼侦察、夜盗、六周窗口、石楠与围墙重石。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-turnspit-dog-wheel",
+      "conceptId": "objects-turnspit-dog-wheel",
+      "term": "狗力烤肉轮",
+      "aliases": [
+        "Dog wheel",
+        "转烤狗轮"
+      ],
+      "explanation": "酒馆壁炉旁装一只大木轮，里面跑的狗一迈腿，火上的肉串就跟着转。烤大块肉需要长时间不断翻面，这件苦差事原来交给低阶厨房佣人，后来有专门的短腿转烤狗在轮里奔跑，通过链条带动烤叉。英国国民信托保留的十七世纪例子，仍装在拉科克乔治旅店的烟囱墙面上。到十九世纪中叶，廉价机械转烤器逐渐取代狗轮，厨房不再需要这类四腿动力来源，那种为转轮培育的狗也消失了。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.nationaltrustcollections.org.uk/object/149377",
+          "title": "Dog wheel 149377 - National Trust Collections",
+          "checkedAt": "2026-10-22",
+          "evidence": "馆藏649—655行明确木轮位置、狗跑链条传动、原由佣人操作、机械替代与品种消失。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-human-hair-jewellery",
+      "conceptId": "objects-human-hair-jewellery",
+      "term": "人发手链",
+      "aliases": [
+        "Hairwork jewellery"
+      ],
+      "explanation": "维多利亚时代的人，会把亲友的头发编成手链随身佩戴，既能纪念亡者，也能表达对活人的牵挂。南丁格尔的一条手链，就由父亲、母亲、姐姐和表亲的头发制成，还配着绿色珐琅心形坠与镶珍珠的蛇头搭扣；她在克里米亚期间一直把它藏在袖子下面。头发首饰也有专门图样书，顾客还能付钱请珠宝匠制作。生意兴旺之后，人们又开始担心，匠人到底用了交去的亲人头发，还是偷偷换成批量买来的便宜货。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.florence-nightingale.co.uk/victorian-hair-jewellery/",
+          "title": "Victorian Hair Jewellery - Florence Nightingale Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "143—156行记述哀悼与在世亲友纪念、南丁格尔四人头发手链具体结构和袖下佩戴、图样书及调包疑虑。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-pure-finder",
+      "conceptId": "objects-pure-finder",
+      "term": "狗粪收集人",
+      "aliases": [
+        "Pure-finder"
+      ],
+      "explanation": "十九世纪伦敦街头，有人提着带盖篮子专门找狗粪，收够后按桶卖给伯蒙德西的皮革作坊，用来加工书皮、手套和其他皮件。买方还会挑品质，有的喜欢干燥发白的，有的偏爱深色湿润的；梅休甚至记下掺入旧墙灰泥冒充好货的把戏。收集者常在右手戴黑皮手套，也有人嫌手套难洗，干脆徒手。能包下犬舍清理生意的人收入较好，大多数人仍得沿街寻找，和不断增加的同行争一桶货。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.gutenberg.org/files/60440/60440-h/60440-h.htm",
+          "title": "London Labour and the London Poor, Volume II - Henry Mayhew",
+          "checkedAt": "2026-10-22",
+          "evidence": "原著Of the Pure-Finders（2961—2986行）列桶售皮革、质量偏好、灰泥掺假、盖篮手套与犬舍渠道；仅叙述历史工艺。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-sewer-hunter",
+      "conceptId": "objects-sewer-hunter",
+      "term": "下水道寻宝人",
+      "aliases": [
+        "Tosher",
+        "Sewer-hunter"
+      ],
+      "explanation": "背上口袋、拿着一根七八英尺长的铁锄杆，十九世纪伦敦的寻宝人会钻进下水道，翻找漏进排水系统的钱币、银餐具和首饰。锄杆既用来探查脚下是否可靠，也能在陷进淤泥时钩住东西帮助脱身。他们会结伴行动，找到贵重物品也不忘装走旧绳、骨头和各种金属，出洞出售后再把收入平分。排水口加上铁门并禁止进入以后，这门营生仍有人偷偷继续；来源记录的是真正冒险谋生者，并非市政清洁工。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.gutenberg.org/files/60440/60440-h/60440-h.htm",
+          "title": "London Labour and the London Poor, Volume II - Henry Mayhew",
+          "checkedAt": "2026-10-22",
+          "evidence": "原著Of the Sewer-Hunters，3111—3145行：铁门禁令、背袋长锄杆用途、拾银餐具首饰、售废物平分；未采用原著老鼠吃人等传说。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-cigar-end-finder",
+      "conceptId": "objects-cigar-end-finder",
+      "term": "雪茄头拾荒人",
+      "aliases": [
+        "Cigar-end finder"
+      ],
+      "explanation": "街上别人丢掉的半截雪茄，也曾被收集起来重新变成商品。梅休调查的伦敦拾荒者，会把烟头放在专门的口袋里，攒到两三磅重再卖给中间人，价格随长度和品质变化。较长的烟头更值钱，因为里面有较多没被嘴里水分浸坏的烟草。孩子则会沿吸烟者散步的街道寻找，有时一上午只能卖半便士或一便士。原著特别说明，几乎没人仅靠捡雪茄头独立谋生，这通常与其他拾荒活动混在一起。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.gutenberg.org/files/60440/60440-h/60440-h.htm",
+          "title": "London Labour and the London Poor, Volume II - Henry Mayhew",
+          "checkedAt": "2026-10-22",
+          "evidence": "原著Of the Cigar-end Finders 3019—3031行：无专职独立谋生者、专袋攒重、中间商、长度品质差异、儿童微薄收入。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-drunkards-cloak",
+      "conceptId": "objects-drunkards-cloak",
+      "term": "酒鬼木桶衣",
+      "aliases": [
+        "Drunkard’s cloak",
+        "Spanish coat"
+      ],
+      "explanation": "受罚者把一只大木桶穿在身上，在看守押送下沿镇里规定的路线走一圈，这件笨重外衣便成了公开示众的惩罚。巴伐利亚国家博物馆保存的一件例子制于一七七五年，来自韦尔廷根，高一百零七厘米，用橡木制作并涂有彩绘。桶身上还画出了可能招来这种处罚的过失，等于让刑具自己解释使用范围。馆方称它为酒鬼披风或西班牙外衣，反映的是十八世纪法院用公开丢脸惩戒轻微违法行为的做法。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.bayerisches-nationalmuseum.de/en/collection/highlights/00040108",
+          "title": "Drunkard´s cloak, also known as ‘Spanish Coat’ - Bayerisches Nationalmuseum",
+          "checkedAt": "2026-10-22",
+          "evidence": "日期1775、橡木彩绘、高107厘米；正文明确在看守下规定路线游街、桶身图示可罚行为。未断言仅罚酗酒。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-punishment-crank",
+      "conceptId": "objects-punishment-crank",
+      "term": "空转苦役轮",
+      "aliases": [
+        "Punishment crank"
+      ],
+      "explanation": "牢房墙上装一只必须转动的轮子，走廊外还接着计数表，囚犯得完成规定转数才有资格领食物。苏格兰斯通黑文的一件旧惩罚轮，在一九八四年翻修警察局牢房时被发现，后来进入托尔布斯博物馆。它的难度还能人为调节：往鼓内加煤尘和铁屑，转起来就更费力。轮子所要求的不是把人送到哪里，而是让人不断付出体力；做完多少次，由牢门外的表盘记录，日常吃饭也和这项重复劳动绑在一起。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.stonehaventolbooth.co.uk/news-events/54-victorian-punishment.html",
+          "title": "Victorian Punishment - Stonehaven Tolbooth Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "33—36行：1984发现，墙装、走廊表盘、规定转数换食物，煤尘铁屑增加阻力。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-sundial-cannon",
+      "conceptId": "objects-sundial-cannon",
+      "term": "太阳报时炮",
+      "aliases": [
+        "Sundial cannon",
+        "Noon cannon"
+      ],
+      "explanation": "看太阳辨时间的仪器，也可以突然开炮。十九世纪一种水平日晷，把小炮、透镜、罗盘和刻度盘装在同一个底座上；透镜的位置经过调节，正午的阳光便会聚到炮的火门上，点燃装药，以响声报时。维多利亚博物馆收藏的一件约制于一八五〇年，底座还有三个调平螺丝和两个水准器，连镜片支架也可调。它一面靠影子显示时间，一面让太阳亲自完成点火，整个装置的圆盘直径只有约九厘米。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collections.museumsvictoria.com.au/items/413356",
+          "title": "Sundial - Horizontal Cannon, circa 1850 - Museums Victoria",
+          "checkedAt": "2026-10-22",
+          "evidence": "68—72行结构、正午聚焦点火；尺寸栏9厘米；水平日晷的影子功能由同类RMG正文可补源。"
+        },
+        {
+          "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-10594",
+          "title": "Cannon dial - Royal Museums Greenwich",
+          "checkedAt": "2026-10-22",
+          "evidence": "162—164行：刻度盘与三角晷针、正午透镜聚焦点燃小炮引信报时。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-bathing-machine",
+      "conceptId": "objects-bathing-machine",
+      "term": "下海更衣车",
+      "aliases": [
+        "Bathing machine"
+      ],
+      "explanation": "维多利亚女王去海里游泳时，曾把一间带轮子的更衣房直接推入水中。奥斯本庄园这台浴车有平铁轮胎，里面能换衣服，还装着接管的厕所；车轮沿带导槽的混凝土坡道下去，回来时用绞盘和钢丝绳拉上岸。穿着宽大浴衣的女王先走到有帘子的门廊，再沿台阶进入海里，从更衣到下水都能保持私密。看起来像一栋小房子搬家，实际是一件把海岸线也纳入更衣流程的器具。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.english-heritage.org.uk/visit/inspire-me/blog/blog-posts/five-ways-beach-fun-like-queen-victoria/",
+          "title": "5 Ways to do Beach Fun like Queen Victoria - English Heritage",
+          "checkedAt": "2026-10-22",
+          "evidence": "233—240行逐项确证铁轮、厕所、更衣、混凝土导槽、绞盘钢绳、帘廊与台阶。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-monowheel",
+      "conceptId": "objects-monowheel",
+      "term": "轮内摩托车",
+      "aliases": [
+        "Monowheel"
+      ],
+      "explanation": "一只大轮子把发动机和骑手整个圈在里面，这就是轮内摩托车。骑手并非坐在轮胎上方，而是待在圆周内部的小车架上，依靠身体倾斜转弯，低速时还容易不稳。莱恩汽车博物馆收藏的一辆麦克莱恩车型，用五马力发动机和离心离合器驱动，标称最高时速约六十四公里。设计者从上世纪七十年代就开始试验；馆方提示，骑到约二十四公里时速才可把脚放上脚踏，学会驾驭它需要耐心练习。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.lanemotormuseum.org/collection/motorcycles/item/mclean-monowheel-1998/",
+          "title": "McLean Monowheel – 1998 - Lane Motor Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "141—151行结构、倾斜转弯、低速不稳、15mph脚上踏、5hp和40mph。速度为近似换算。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-fuddling-cup",
+      "conceptId": "objects-fuddling-cup",
+      "term": "三连迷酒杯",
+      "aliases": [
+        "Fuddling cup"
+      ],
+      "explanation": "三只小杯连成一件器皿，端起来喝时，挑战却是把三个隔间的酒一起喝空，还不能洒出来。达拉斯艺术博物馆收藏的一件十七世纪锡釉陶器，就把这种酒席游戏藏在了杯体结构里。各隔间之间设有孔道，手指放在正确位置，酒才会流入正在饮用的那个隔间；拿法不对，三个杯口就会让事情变得麻烦。它的英文名字同时有使人困惑和使人喝醉的意思，酒杯既是盛酒用具，也是给同桌人出的操作难题。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://artsandculture.google.com/asset/fuddling-cup/WwFNHLoey4tf3A?hl=en",
+          "title": "Fuddling cup - Dallas Museum of Art, Google Arts & Culture",
+          "checkedAt": "2026-10-22",
+          "evidence": "馆方正文52行：三隔间同时清空不洒、指位和孔道，双关语；日期1650—1700，锡釉陶。与漏水谜壶孔洞阻饮结构不同。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-self-enema-syringe",
+      "conceptId": "objects-self-enema-syringe",
+      "term": "自助灌肠针筒",
+      "aliases": [
+        "Self-administering enema syringe"
+      ],
+      "explanation": "十九世纪的英国人，曾把一支弯得便于自己操作的金属针筒装进木盒，用来从直肠输入药液或泻剂。科学博物馆收藏的锡制活塞式例子，由伦敦米利金制作，年代在一八二二至一八四六年之间，器形特意让使用者能自行灌肠。针筒底部还能拆下换上小帽，馆方推测这样可把装好液体的针筒带走而不漏。它属于当时常见的给药器具，针筒和木盒都镶用了黄铜，今天看上去像一套需要先猜用途的随身工具。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co139767/pewter-enema-syringe-london-england-1822-1846",
+          "title": "Pewter enema syringe, London, England, 1822-1846 - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "53—55行自用活塞锡针筒、药液泻剂、小盖携带是馆方推测已保留；材料栏木盒黄铜。未声称疗效。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-helicron",
+      "conceptId": "objects-helicron",
+      "term": "螺旋桨汽车",
+      "aliases": [
+        "Helicron"
+      ],
+      "explanation": "车头转着一副螺旋桨，四只车轮负责在地面滚动，一九三二年的赫利克龙就是这样一辆靠空气推力前进的汽车。它由后轮转向，而且只有后轮装弹簧；螺旋桨直接接到发动机曲轴，整车没有普通汽车那样的变速器。二〇〇〇年，人们在法国一间谷仓里重新发现这辆被杂物掩埋的车，修复时保留了车架、轮子、方向盘等许多原件。原发动机已失，今天装的是雪铁龙发动机，馆藏仍能展示这套奇异的陆上推进方式。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.lanemotormuseum.org/collection/cars/item/helicron-1932/",
+          "title": "Helicron – 1932 - Lane Motor Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "137—147行：1932、谷仓2000、后轮转向与弹簧、桨连曲轴、无变速器及修复换装发动机。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-valmobile",
+      "conceptId": "objects-valmobile",
+      "term": "行李箱摩托车",
+      "aliases": [
+        "Valmobile"
+      ],
+      "explanation": "一只看似沉重的箱子，掀起座位、取出把手、横梁和前轮装上，就能变成一辆小摩托车，而且组装不用工具。法国发明家布福尔在上世纪五十年代初设计的瓦尔摩比尔，名字大意就是移动的行李箱，灵感来自伞兵使用的折叠摩托。折好后它仍约重三十四公斤，谈不上轻巧手提包。法国最初的生产商销量不佳，后来日本平野公司接手，销往日本和北美，最终这种箱式小车卖出了将近十万辆。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.lanemotormuseum.org/collection/motorcycles/item/valmobile-fold-away-scooter-1950/",
+          "title": "Valmobile Fold Away Scooter – 1950 - Lane Motor Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "133—136行：无工具展开动作、75lb、命名、Welbike灵感、法日生产转移与近10万；不沿用有争议的本馆原型车1950标签。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-nail-violin",
+      "conceptId": "objects-nail-violin",
+      "term": "钉子小提琴",
+      "aliases": [
+        "Nail violin"
+      ],
+      "explanation": "不用把弓拉在琴弦上，而是让它擦过一排金属钉子，也能演奏出像铃铛的声音。约一七四〇年，德国小提琴手约翰·维尔德发明了钉琴，后来出现多种形状。大都会艺术博物馆的一件十九世纪初藏品，半圆木框上竖着三十根高低不同的钉，旁边的纸签标明音名与唱名。自然音用直立钢钉，变化音的黄铜钉则稍向外倾，再在顶部折回。它借用了小提琴的弓法，真正发声的却是一圈排列好的金属柱。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/501564",
+          "title": "Nail Violin - The Metropolitan Museum of Art",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文10—12行：Johann Wilde约1740、弓擦钉铃音、半圆30钉、纸音签、自然音钢钉与变化音黄铜钉。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-pyrophone",
+      "conceptId": "objects-pyrophone",
+      "term": "火焰管风琴",
+      "aliases": [
+        "Pyrophone",
+        "Fire organ"
+      ],
+      "explanation": "一排玻璃管里燃烧的火焰，能成为乐器的发声部分。卡斯特纳在一八七三年取得专利的火焰琴，就利用氢火焰放在玻璃管下端可以产生音调的现象，把它做成外形类似管风琴的乐器。科学博物馆保存的实物连玻璃管高约一米五四，重五十公斤，木材、金属和玻璃一起构成这座会奏乐的装置。法国音乐家泰奥多尔·拉克还曾专门为它写曲，馆藏中留有火焰琴与钢琴合奏的乐谱，让火苗也有了自己的声部。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co5867",
+          "title": "Kastner's Pyrophone, 1873-1876 - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "55—58行火焰管音与专利；74行尺寸重量；122—125行Lack火焰琴钢琴二重奏乐谱，实物不是只停在设计。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-cane-violin",
+      "conceptId": "objects-cane-violin",
+      "term": "手杖小提琴",
+      "aliases": [
+        "Cane violin"
+      ],
+      "explanation": "一根绅士手杖的圆形外壳揭开以后，里面可能藏着小提琴和琴弓。大都会艺术博物馆的一件十九世纪德国产手杖琴，用桃花心木做细长外壳，金属圈把圆盖固定在琴身上；取下盖子，云杉面板和乌木指板才显露出来。琴弦靠小铁钉配合钥匙调音，外面仍有装饰性手柄。十八、十九世纪这类新奇手杖曾是时尚配件，除了乐器，人们还会把酒壶、伞等物品收进其中，让随手携带的一根木棍变成多用途道具。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/501560",
+          "title": "Cane Violin - The Metropolitan Museum of Art",
+          "checkedAt": "2026-10-22",
+          "evidence": "10—12行：手杖乐器时尚、桃花心木盖和金属圈、琴弓、云杉乌木、小铁钉钥匙调弦。作者只写德国产，未把attributed maker当定论。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-octobass",
+      "conceptId": "objects-octobass",
+      "term": "机械手指巨低音提琴",
+      "aliases": [
+        "Octobasse",
+        "倍低音提琴"
+      ],
+      "explanation": "一把高三米四八的提琴，琴颈上装着七根机械手指，演奏者通过七个操纵杆和一排七踏板，让金属连杆代替手指去压弦。巴黎音乐博物馆保存的维尧姆巨型低音提琴约制于一八五〇年，只有三根弦，调成哆、嗦、哆，琴箱本身就有两米多长。外形仍像被放大的小提琴，内部却藏了一套操作机构：踏板带动杆件，再控制琴颈里的机械手指。乐手面对它时，除了拉弓，还得像操作机器一样安排按弦。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://mimo-international.com/MIMO/doc/IFD/OAI_CIMU_ALOES_0161700/octobasse",
+          "title": "Octobasse - Musée de la musique, MIMO",
+          "checkedAt": "2026-10-22",
+          "evidence": "139—145行法文馆藏正文：3弦do sol do，7机械指7操纵杆7踏板连杆，3480mm总长2060mm琴箱，约1850 Vuillaume。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-tiger-dropping-sensor",
+      "conceptId": "objects-tiger-dropping-sensor",
+      "term": "虎粪传感器",
+      "aliases": [
+        "Seismic intruder detection device"
+      ],
+      "explanation": "越南战争时期，美方曾把监测人员活动的装置伪装成一坨老虎粪便，让它既融入环境，又使路过的人不想碰。中央情报局介绍，这种地震式入侵探测装置可以监测最远约三百米范围内的移动；设计者选择虎粪外形，是因为当地有虎，半个世纪前的数量也更多。看似被动物留在野外的痕迹，其实承担着收集移动信息的任务。设计者同时追求两个结果：普通得不引起怀疑，令人嫌弃得不愿捡走，外形本身就成了保护电子装置的一部分。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.cia.gov/stories/story/natural-spies-animals-in-espionage/",
+          "title": "Natural Spies: Animals in Espionage - CIA",
+          "checkedAt": "2026-10-22",
+          "evidence": "96—105行明确越南战争背景、300米、地震入侵探测器、虎粪外形融入环境且排斥兴趣。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-pigeon-whistle",
+      "conceptId": "objects-pigeon-whistle",
+      "term": "鸽子尾哨",
+      "aliases": [
+        "鸽哨",
+        "Ko-Tze"
+      ],
+      "explanation": "鸽子飞过头顶时，尾部可以背着一件竹子和葫芦做的小哨，让飞行本身带着声音。大都会艺术博物馆收藏的十九世纪末中国鸽哨，说明它们重量很轻，附在尾部，鸟在空中飞行时便能听见。装在信鸽上时，声音还能提醒收信人，负责送信的鸟已经到了。馆里的这些哨子刻有忠字，策展者推测可能是在呼应信鸽忠实归巢的特点。一件小乐器因此把天空变成声场，演奏者的工作则是继续往前飞。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/502252",
+          "title": "Ko-Tze - The Metropolitan Museum of Art",
+          "checkedAt": "2026-10-22",
+          "evidence": "11行：葫芦竹、轻量、尾部安装、飞行可闻、信鸽抵达提醒，忠字象征仅为推测已明示。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-perkins-tractors",
+      "conceptId": "objects-perkins-tractors",
+      "term": "金属驱病棒",
+      "aliases": [
+        "Perkins’ tractors"
+      ],
+      "explanation": "十八世纪末，美国医生珀金斯宣称，金属制的治疗棒能靠所谓磁性疗法缓解风湿等症状。英国的海加斯后来没有直接换一套更贵的金属，反而把木头涂上颜色冒充治疗棒，拿给五名患者试用，其中四人说感觉好些。再用真正的金属棒治疗同一批人，得到的结果仍相似。一八〇〇年出版的相关著作记下了这次试验。金属棒由此成为早期安慰剂对照的历史案例，患者的主观改善，并不能替卖家的特殊金属理论作证。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://wellcomecollection.org/works/rxjv2n3y",
+          "title": "Of the imagination, as a cause and as a cure of disorders of the body - Wellcome Collection",
+          "checkedAt": "2026-10-22",
+          "evidence": "馆藏说明Notes 41—42行：1790s Perkins磁性主张，5人涂色木棒4人主诉改善，金属棒同结果；著作1800。区分主张和疗效。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-antimony-cup",
+      "conceptId": "objects-antimony-cup",
+      "term": "催吐锑杯",
+      "aliases": [
+        "Antimony cup"
+      ],
+      "explanation": "把葡萄酒在杯里放上一天，杯子本身就会向酒里释放少量金属；十七世纪的一些人，正是为了这一步才使用锑杯。按照当时的体液观念，喝下这样的酒造成出汗与呕吐，可以排除被认为致病的多余体液。科学博物馆保存的一只锑杯，还配着压有金色装饰的皮套，像件值得仔细保管的随身宝物。实际参与作用的是有毒的锑，难受的反应却被赋予治疗意义，一只饮具也就同时承担了配药工具的角色。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co128569/antimony-cup-with-leather-case-europe-1601-1700",
+          "title": "Antimony cup with leather case, Europe, 1601-1700 - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "56—58行：锑有毒、17世纪体液观念、葡萄酒24小时金属溶入、催汗催吐；皮套金色装饰。未声称其能治疗疾病。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-insectothopter",
+      "conceptId": "objects-insectothopter",
+      "term": "蜻蜓窃听机",
+      "aliases": [
+        "Insectothopter"
+      ],
+      "explanation": "上世纪七十年代，中央情报局造过一只由小发动机拍动翅膀的假蜻蜓，打算让它带着窃听设备接近目标，再用激光束引导飞行。设计最初考虑熊蜂，后来觉得蜂的飞法不适合，而且靠近人会招来驱赶，便换成蜻蜓外形。原型能在六十秒内飞二百米，却败在普通天气上：超过每小时约八公里的侧风，就会把它吹离航线。因此这只机器昆虫始终没有投入实务使用，伪装得像虫并不代表已经学会虫子的飞行本事。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.cia.gov/stories/story/natural-spies-animals-in-espionage/",
+          "title": "Natural Spies: Animals in Espionage - CIA",
+          "checkedAt": "2026-10-22",
+          "evidence": "80—86行：1970s、蜂改蜻蜓原因、小发动机拍翼、激光引导、200米60秒、侧风>5mph失败未实用。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-robot-catfish",
+      "conceptId": "objects-robot-catfish",
+      "term": "间谍鲶鱼",
+      "aliases": [
+        "Charlie the robotic catfish"
+      ],
+      "explanation": "查理和夏琳是两条曾为情报研究制造的机械鲶鱼，名字像宠物，任务设想却是悄悄把水样带回来。中央情报局研制它们来研究水下机器人，操作者用无线电手持设备控制，项目探索了速度、深度、机动性和自主控制。官方举出的设想是，让查理逆流游到需要调查的位置采水，再把样本交回岸上的人员，以检查水中是否有核排放或生化物质。来源描述的是研发能力和预想用途，并没有公布一次已经成功完成的秘密取样行动。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.cia.gov/stories/story/natural-spies-animals-in-espionage/",
+          "title": "Natural Spies: Animals in Espionage - CIA",
+          "checkedAt": "2026-10-22",
+          "evidence": "71—76行：两条UUV鲶鱼名字、无线电手持设备、研发能力、取样任务举例为could deploy，保留设想不称成功实战。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-dead-drop-rat",
+      "conceptId": "objects-dead-drop-rat",
+      "term": "死鼠情报箱",
+      "aliases": [
+        "Dead drop rat"
+      ],
+      "explanation": "冷战时期，交接钱或胶卷可以用上一只死老鼠。中央情报局曾把鼠体内部变成藏物空间，装下一叠钱或一卷胶片，再从车窗扔到约好的地点，由另一方稍后取走，这样接头双方就不必面对面。真正麻烦的旁观者可能是猫，工作人员还用辣椒酱防止尸体被野猫叼走。外人眼里是应该绕开的死鼠，情报人员眼里却是临时容器；它运送的是物品，老鼠本身不需要活着受训，也没有负责窃听的电子耳朵。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.cia.gov/stories/story/trigon-spies-passing-in-the-night/",
+          "title": "TRIGON: Spies Passing in the Night - CIA",
+          "checkedAt": "2026-10-22",
+          "evidence": "83—88行：死信箱避免会面、鼠体容量装钱胶卷、车窗扔约定地点、辣椒酱防猫。高层历史介绍，无制作步骤。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-tree-stump-bug",
+      "conceptId": "objects-tree-stump-bug",
+      "term": "树桩窃听器",
+      "aliases": [
+        "Tree stump listening device"
+      ],
+      "explanation": "一截安静留在树林里的树桩，也曾被做成接收军事信号的伪装设备。国际间谍博物馆保存的一件七十年代中央情报局器具，用太阳能供电，外观模仿树桩，再被放到莫斯科附近的一片林地。它内部的装置截收的是邻近苏联空军基地的雷达和通信信号。对路过的人而言，场景只是树林里多了一截木头；对布置者而言，这个外壳让电子侦收设备可以待在目标附近，把环境中的普通物体变成情报收集位置。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.spymuseum.org/exhibition-experiences/about-the-collection/collection-highlights/tree-stump-listening-device/",
+          "title": "Tree Stump Listening Device - International Spy Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "49、64行：1970s CIA、太阳能、树桩外观、莫斯科附近林地、邻近苏军空军基地雷达通信截收。未编造卫星转发。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-hollow-nickel",
+      "conceptId": "objects-hollow-nickel",
+      "term": "空心五分硬币",
+      "aliases": [
+        "Hollow nickel"
+      ],
+      "explanation": "一九五三年，纽约一名送报少年收到一枚五美分硬币，觉得它的声音和重量有点奇怪；硬币掉到地上竟然分成两半，里面露出一张密密麻麻写着数字的微型照片。联邦调查局检查后发现，硬币两面分别来自不同年份的真币，字母里还藏着一个可以帮助撬开的小孔。照片上是多栏五位数，看似普通零钱的外壳就这样裹着一份加密消息。调查持续数年，后来才与苏联间谍案连接起来，小额找零意外打开了一条情报线索。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.fbi.gov/history/cases-and-criminals/hollow-nickel-rudolph-abel",
+          "title": "Hollow Nickel/Rudolf Abel - FBI",
+          "checkedAt": "2026-10-22",
+          "evidence": "47—94行：报童、异常重量声音、摔分两半、微型数字照片、不同年代币面、小孔、1953—1957追查；后续联系间谍案。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-winslow-soothing-syrup",
+      "conceptId": "objects-winslow-soothing-syrup",
+      "term": "温斯洛安婴糖浆",
+      "aliases": [
+        "Mrs. Winslow’s Soothing Syrup"
+      ],
+      "explanation": "十九世纪广告里，漂亮母亲抱着安静婴儿，旁边卖的是号称能让小孩平静、清洁牙齿、清新口气并缓解便秘的温斯洛糖浆。让婴儿安静下来的配方，却曾含有危险数量的吗啡和酒精，父母往往不知道成分，有些婴儿服后再没有醒来。美国缉毒局博物馆同时保留药瓶和广告卡，展示这种无须处方的成药如何包装自己。即使后来受到医学界谴责，这款糖浆仍一直在货架上卖到二十世纪三十年代。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://museum.dea.gov/museum-collection/collection-spotlight/artifact/soothing-syrup",
+          "title": "Mrs. Winslow’s Soothing Syrup - DEA Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "45—49行宣传声称、吗啡酒精、父母不知成分、婴儿死亡、AMA谴责仍售至1930s；不把各年代配方全视同。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-stroh-violin",
+      "conceptId": "objects-stroh-violin",
+      "term": "喇叭小提琴",
+      "aliases": [
+        "Stroh violin"
+      ],
+      "explanation": "小提琴身上伸出一只像留声机的大喇叭，琴体则缩得很精简，这种乐器曾是早期录音的实用工具。电气录音出现之前，普通弦乐器向四周发出的声音很难被设备收集，施特罗琴便用大漏斗把弦音集中朝向录音留声机的喇叭口。它本身没有用电，发明时间在十九世纪末到二十世纪初，后来由发明者的儿子及埃文斯公司生产。电录音普及以后，它的优势消失了，精简琴身的外形却影响了后来的电小提琴。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/503726",
+          "title": "Stroh Violin - The Metropolitan Museum of Art",
+          "checkedAt": "2026-10-22",
+          "evidence": "10—11行：非电乐器、录音定向漏斗、1899—1901发明、生产者、电录音淘汰与后来电提琴外形启发。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-kleroterion",
+      "conceptId": "objects-kleroterion",
+      "term": "石头抽签任官机",
+      "aliases": [
+        "Kleroterion"
+      ],
+      "explanation": "古雅典选一些公职人员和法庭成员时，会让写着公民名字的小牌插进石板上的成排槽位，再由装置放出黑白小块，决定哪一排被选中。法国研究团队依据古代文献与残件复原的版本，用白块选中一排人，黑块则让那排离开；若八十五人排成十七行、每行五人，要从中选十五人，就准备三个白块与十四个黑块。抽取在大家面前进行，使分配过程能被看见。复原结构仍有推测部分，完整古代原机尚未出土。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://news.cnrs.fr/videos/the-machine-that-selected-the-citizens-of-athens",
+          "title": "The Machine that Selected the Citizens of Athens - CNRS News",
+          "checkedAt": "2026-10-22",
+          "evidence": "118—128行用途及完整原机未出土与复原限度；146—183行铭牌、17x5=85、三白十四黑选15、逐行公开抽签。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-prison-face-cap",
+      "conceptId": "objects-prison-face-cap",
+      "term": "囚犯遮脸帽",
+      "aliases": [
+        "Pentonville prisoner mask"
+      ],
+      "explanation": "十九世纪伦敦彭顿维尔监狱里，男性囚犯统一穿棕衣，还戴一种帽檐垂到脸前的棕布帽，只留两个洞让眼睛露出来。一八六二年梅休与宾尼的监狱调查，把这件装束画了下来；当时的说法是，遮住脸可以不让囚犯在羞耻中被别人认出。作者却认为这像舞台上的化装，因为不少囚犯之后会被流放或服苦役，在后续刑期中并不继续蒙面。为了防止日后被辨认而设的帽子，因此在同一套处罚流程中失去了逻辑。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.londonmuseum.org.uk/collections/v/object-798641/convicts-male-convict-at-pentonville-prison-and-female-convict-at-millbank-prison/",
+          "title": "Convicts: male convict at Pentonville Prison and female convict at Millbank Prison - London Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "143—145行：棕布帽、双眼孔、掩羞防辨认理由；Mayhew/Binny批评后续流放苦役不再蒙脸。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-tantalus",
+      "conceptId": "objects-tantalus",
+      "term": "锁酒架",
+      "aliases": [
+        "Tantalus"
+      ],
+      "explanation": "两只半球形玻璃酒瓶拼在一起，再被银架和锁环固定，精致酒具就多了一道阻止随意取用的机关。康宁玻璃博物馆收藏的一套二十世纪早期坦塔罗斯酒架，瓶颈有银圈和盖子，里面另配玻璃塞；银架两侧的活动臂环住瓶颈，上面竖着三角形提手。瓶身刻的内容还偏偏与喝酒有关，一边是桌旁有酒杯的修士，另一边是修士直接从酒瓶饮酒。看得到饮酒图案，也看得到真正的酒瓶，取瓶却要先处理扣住它们的架子。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://glasscollection.cmog.org/objects/33822/tantalus",
+          "title": "“Tantalus” Set - Corning Museum of Glass",
+          "checkedAt": "2026-10-22",
+          "evidence": "44—47行：半球两瓶、银架锁环、活动臂瓶颈、三角提手、修士酒杯/饮瓶雕刻。未引无来源神话词源。"
+        }
+      ]
+    }
+  ]
+}

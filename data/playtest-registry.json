@@ -5,10 +5,10 @@
       "id": "outrageous-long-cards",
       "title": "真事比瞎编离谱",
       "file": "playtest/outrageous-long-cards.json",
-      "version": "1.2.0",
-      "verifiedCount": 150,
+      "version": "1.3.0",
+      "verifiedCount": 270,
       "draftCount": 0,
-      "conceptCount": 150,
+      "conceptCount": 270,
       "status": "playtest",
       "playtestStatus": "pending",
       "reviewFile": "editorial/180-card-expansion-review.md"

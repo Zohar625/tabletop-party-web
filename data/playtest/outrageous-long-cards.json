@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "outrageous-long-cards",
   "title": "真事比瞎编离谱",
-  "description": "150 道离谱真事长卡，混合直白词与陌生词；支持 3–9 人，默认读卡 5 秒，跨局自动避开已见词。",
-  "version": "1.2.0",
+  "description": "270 道离谱真事长卡，混合直白词与陌生词；全新词池足够 9 人连续三局不重复，默认读卡 5 秒。",
+  "version": "1.3.0",
   "recommendedReadSeconds": 5,
   "questions": [
     {
@@ -3301,6 +3301,2678 @@
           "title": "US5076029A - Helium-filled sun shades",
           "checkedAt": "2026-10-22",
           "evidence": "气室扁气囊、氦气、边缘绳索人体/漂流内胎/野餐桌应用；限设计不臆测商业化。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-abyssal-comb-jelly",
+      "conceptId": "nature-abyssal-comb-jelly",
+      "term": "深渊瓜水母",
+      "aliases": [
+        "Beroe abyssicola"
+      ],
+      "explanation": "这只粉红色的胶冻动物会张开大嘴，追吃别的栉水母；嘴里一排排细小纤毛像牙齿一样帮助咬住食物，有时索性把对方整个吞下。它生活的深水里，很多猎物都会发光，吃完后若肚子亮起来，自己也容易暴露。它的胃部带着深红色，能吸收被吞猎物发出的光，让这顿饭不至于变成挂在身体里的信号灯。身体最长约七厘米，活动范围可从海面延伸到两千多米深处。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Abyssal comb jelly",
+          "url": "https://www.mbari.org/animal/abyssal-comb-jelly/",
+          "checkedAt": "2026-10-22",
+          "evidence": "口部纤毛咬食栉水母，红胃遮蔽发光猎物，大小与深度字段。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-balloon-worm",
+      "conceptId": "nature-balloon-worm",
+      "term": "气球蠕虫",
+      "aliases": [
+        "Poeobius meseres"
+      ],
+      "explanation": "远看像一枚透明卵囊，里面却是一条蠕虫。气球蠕虫没有海底多毛类亲戚那样显眼的环节和硬毛，身体变成装满液体的小袋，外面还裹着厚厚的胶质，靠浮力悬在海水中。它张开黏液网，收集不断从上方落下的有机碎屑。若仔细检查腹面，仍能找到一组组排列的神经，暴露它原本分节的身体来历。这种最长约三点六厘米的小动物，不用在泥里爬，也能把整片水层当食堂。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Balloon worm",
+          "url": "https://www.mbari.org/animal/balloon-worm/",
+          "checkedAt": "2026-10-22",
+          "evidence": "袋状含液身体、胶质浮力、腹部神经分节证据、黏液网海雪食。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-basket-star",
+      "conceptId": "nature-basket-star",
+      "term": "筐蛇尾",
+      "aliases": [
+        "Gorgonocephalus eucnemis"
+      ],
+      "explanation": "海底珊瑚或石头上，有时像挂着一团会活动的乱线。筐蛇尾把不断分叉的腕伸进水流，腕上的微小钩子和黏液共同拦住浮游动物。抓到一口食物后，对应的腕会卷成紧结，把猎物往中央体盘下方的嘴送去。它展开时宽度可达约七十五厘米，特别常见于海山附近；那里改变方向的海流会把食物集中起来。这团乱线因而既是捕食者的肢体，也是一张可以逐段收回的活网。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Basket star",
+          "url": "https://www.mbari.org/animal/basket-star/",
+          "checkedAt": "2026-10-22",
+          "evidence": "分枝腕微钩黏液捕食，卷腕送中央口，海山集中食物。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-green-elf-cup",
+      "conceptId": "nature-green-elf-cup",
+      "term": "绿杯菌",
+      "aliases": [
+        "Chlorociboria aeruginascens",
+        "小孢绿杯菌"
+      ],
+      "explanation": "林中一截发蓝发绿的朽木，颜色可能来自住在里面的绿杯菌。它的菌丝能把木材染成绿色，即使小小子实体没出现，染色木头仍暴露了它的存在。春到秋季，它会在橡树等阔叶树的死木上长出像高脚杯的蓝绿色小杯，年长后又逐渐摊平。人们没有把这些木头当成普通腐料扔掉，反而利用天然色彩做精细木制装饰；十八至十九世纪的英国坦布里奇镶嵌木器中，就能见到这种被真菌染绿的材料，蘑菇也参与了家具配色。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Fungi to see in spring | Grow Wild | Kew",
+          "url": "https://growwild.kew.org/blog/fungi-see-spring",
+          "checkedAt": "2026-10-22",
+          "evidence": "Green elf cup段：死木小杯变平、菌丝染绿木、18–19世纪Tunbridge木作。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-bigfin-squid",
+      "conceptId": "nature-bigfin-squid",
+      "term": "大鳍鱿",
+      "aliases": [
+        "Magnapinna"
+      ],
+      "explanation": "这只鱿鱼像在海底上方悬着十根面条：八条腕和两条触腕向外伸出，再以近乎直角的肘部折向下方，拖着又细又长的白色丝。丝上布满小吸盘，长度可能达到身体的二十倍；遇到惊扰又能迅速收缩。它靠两片大鳍起伏移动，曾在菲律宾海沟六千二百多米深处被拍到。研究者怀疑长丝用于捕食，但食谱还没有确定，至今采到的标本也主要是受损幼体，成年个体仍靠影像研究。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Bigfin squid",
+          "url": "https://www.mbari.org/animal/bigfin-squid/",
+          "checkedAt": "2026-10-22",
+          "evidence": "90度腕、微吸盘长丝、可20倍体长、6212米、食谱未知。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-crystal-amphipod",
+      "conceptId": "nature-crystal-amphipod",
+      "term": "水晶端足虫",
+      "aliases": [
+        "Cystisoma"
+      ],
+      "explanation": "这种像虾的甲壳动物能长到占满手掌，却把身体做得几乎透明。外壳表面的微小结构或生物膜还能减少反光，像给透明盔甲加了一层防反射涂层。它的眼睛可占身体三分之一，帮助寻找幽暗水层中的透明猎物；视网膜又摊成薄薄的小点，尽量降低从下方看见的影子。它会用钳子撕食栉水母组织。雌体胸前的育儿囊却会暴露隐身效果，因为里面的幼体较容易反光。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Crystal amphipod",
+          "url": "https://www.mbari.org/animal/crystal-amphipod/",
+          "checkedAt": "2026-10-22",
+          "evidence": "透明甲壳抗反射、眼占三分之一、薄视网膜、撕食栉水母、育儿反光。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-deep-sea-crown-jelly",
+      "conceptId": "nature-deep-sea-crown-jelly",
+      "term": "冠水母",
+      "aliases": [
+        "Atolla"
+      ],
+      "explanation": "深海里有一种红色水母，伞缘之外常拖着一条特别长的触手，能达到伞径的六倍左右。它游动时把这条长线拖在后面，可能借此粘住甲壳动物等食物。红色在缺少红光的深水中接近黑色，有助于隐藏；若还是被捕食者碰上，它就会闪出像转轮一样的蓝色生物光。这样的光既能扰乱眼前敌人，也可能引来更大的捕食者，让袭击者反而面临被吃的风险，给水母留下脱身机会。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Deep-sea crown jelly",
+          "url": "https://www.mbari.org/animal/deep-sea-crown-jelly/",
+          "checkedAt": "2026-10-22",
+          "evidence": "长触手六倍伞径、红色伪装、蓝色轮状报警引更大捕食者。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-giant-phantom-jelly",
+      "conceptId": "nature-giant-phantom-jelly",
+      "term": "巨型幻影水母",
+      "aliases": [
+        "Stygiomedusa gigantea"
+      ],
+      "explanation": "潜水器照亮黑暗时，眼前有时会出现一幅飘动的红色帷幕。巨型幻影水母的伞直径超过一米，下面四条宽扁口腕像丝带，长度可超过十米。研究人员曾拍到一条深海鱼在伞上方停留，又钻进钻出口腕之间，借这副庞大柔软的身体寻找遮蔽。它通常生活在没有礁石可躲的深层水域，体型虽大却极难遇见；一八九九年已有标本被采到，直到六十年后才被正式认作新物种。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Giant phantom jelly",
+          "url": "https://www.mbari.org/animal/giant-phantom-jelly/",
+          "checkedAt": "2026-10-22",
+          "evidence": "四口腕十米、伞一米、伴生鱼遮蔽、1899标本后60年描述。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-glass-squid",
+      "conceptId": "nature-glass-squid",
+      "term": "玻璃鱿",
+      "aliases": [
+        "Cranchiidae"
+      ],
+      "explanation": "这些鱿鱼会把皮肤里的色素囊收起来，让身体近乎透明；眼睛等仍然不透明的部位，则用发光器补上与上方微光相近的亮度，减轻从下方看见的剪影。身体内部的大腔还装有富含铵的液体，比海水轻，减少维持悬浮所需的游泳消耗。若隐身被识破，它们可以突然展开色素囊变暗，有的还把墨汁放进体腔，让自己整只变成暗影，最后再向外喷墨逃走，依次更换几套伪装。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Glass squid",
+          "url": "https://www.mbari.org/animal/glass-squid/",
+          "checkedAt": "2026-10-22",
+          "evidence": "透明色素囊、铵浮力、眼发光对照明、部分体腔放墨。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-gossamer-worm",
+      "conceptId": "nature-gossamer-worm",
+      "term": "薄纱蠕虫",
+      "aliases": [
+        "Tomopteris"
+      ],
+      "explanation": "大多数蠕虫在泥沙里爬，这一群却终生活在离海底很远的水层。透明身体两侧排着肉质疣足，它们一边左右摆身，一边协调划动这些小桨，游得又快又灵活。有的种类胃部鲜红，用来遮住刚吃下的发光猎物；遇到危险，有的把身体卷成桶状，伪装成不讨喜的胶冻动物，有的则从疣足尖端释放发光液体。多数只有几厘米，但其中大个体可长到六十厘米，像一条悬空划桨的长围巾。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Gossamer worm",
+          "url": "https://www.mbari.org/animal/gossamer-worm/",
+          "checkedAt": "2026-10-22",
+          "evidence": "疣足协调游泳、红胃、部分卷桶或释放发光液，60厘米。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-midwater-octopus",
+      "conceptId": "nature-midwater-octopus",
+      "term": "透明中层章鱼",
+      "aliases": [
+        "Japetella diaphana"
+      ],
+      "explanation": "这种小章鱼没有海底洞穴可钻，也不能把卵粘在石头上。它靠胶质身体提供浮力，低代谢节省游泳消耗，平时几乎透明地漂在水层中。一旦看见捕食者的生物光，或察觉附近运动，全身色素细胞就能迅速展开，让它从透明变成不透光的橙色，在缺少红橙光的深水里重新隐藏。繁殖时，母体用腕抱着卵，带它们下潜到捕食者较少的更深水层，一直守到幼体孵出后才结束生命。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Midwater octopus",
+          "url": "https://www.mbari.org/animal/midwater-octopus/",
+          "checkedAt": "2026-10-22",
+          "evidence": "胶质低代谢、透明转橙、母体抱卵下降深层，孵化后死亡。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-mystery-mollusc",
+      "conceptId": "nature-mystery-mollusc",
+      "term": "兜帽海蛞蝓",
+      "aliases": [
+        "Bathydevius caudactylus"
+      ],
+      "explanation": "这只海蛞蝓前端像张开的大兜帽，后端是一条长着许多手指状突起的扁尾，内脏则在透明身体里显出颜色。它常在一千至四千米深的开放水层漂游，用巨大兜帽罩住糠虾等甲壳动物，像一株游动的捕蝇草。遇险时身体可以发光，研究者还亲眼见过它丢下一截发亮的尾部突起，留下诱饵后脱身。它平时悬浮，却会为繁殖降到泥底，用肌肉足附着并产卵，生活路线随繁殖阶段改变。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Mystery mollusc",
+          "url": "https://www.mbari.org/animal/mystery-mollusc/",
+          "checkedAt": "2026-10-22",
+          "evidence": "兜帽捕甲壳类、1000–4000米、发光断尾诱饵、海底产卵。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-octopus-squid",
+      "conceptId": "nature-octopus-squid",
+      "term": "八腕鱿",
+      "aliases": [
+        "Octopoteuthis deletron"
+      ],
+      "explanation": "幼年时它和许多鱿鱼一样有八条腕加两条捕食触腕，长成成体后，两条触腕却被身体吸收，只留下八条腕。它常把带闪光尖端的腕卷到头顶，展开大鳍悬在水中。危险逼近时，它能主动丢掉部分腕，断下来的腕尖继续闪光和扭动，吸引对手注意，自己趁机逃离。研究人员曾用潜水器机械臂上的软刷触碰，直接观察到这套防御动作。它白天藏在深处，夜间还会上浮到较浅水层觅食。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Octopus squid",
+          "url": "https://www.mbari.org/animal/octopus-squid/",
+          "checkedAt": "2026-10-22",
+          "evidence": "成体吸收两触腕、腕尖发光、自切诱敌、日夜垂直迁移。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-pearl-octopus",
+      "conceptId": "nature-pearl-octopus",
+      "term": "珍珠章鱼",
+      "aliases": [
+        "Muusoctopus robustus"
+      ],
+      "explanation": "海底裂缝渗出的温水，能把章鱼产房变成天然保温箱。珍珠章鱼会聚到深海热泉附近交配和筑巢，温暖海水让胚胎发育得更快。母体把卵粘在岩壁后，翻转身体和腕，用自身护住卵，接近两年都靠体内储备维持，等幼体孵化后死亡。加州戴维森海山附近的章鱼花园里，大量母体挤在受暖水浸润的裂隙中，像一串串紫色珍珠；周围的鱼、海葵和螺又会取食死去亲体的遗体。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Pearl octopus",
+          "url": "https://www.mbari.org/animal/pearl-octopus/",
+          "checkedAt": "2026-10-22",
+          "evidence": "热泉促进胚胎、近两年绝食护卵、章鱼花园、遗体支持食物网。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-pompeii-worm",
+      "conceptId": "nature-pompeii-worm",
+      "term": "庞贝虫",
+      "aliases": [
+        "Alvinella pompejana"
+      ],
+      "explanation": "海底热泉烟囱上有一群披着细菌绒衣的蠕虫，各住在纸一样薄的管里，探出锈红色的鳃。它们的管直接贴在滚烫岩壁上，但会来回移动，让富含营养的热水和富含氧气的冷水混合，给管内降温。背上的细菌层也帮助调节热量，并利用热泉矿物质。它因此能在极端环境中生活，却不是整条虫都能泡在沸水里；脱离这种微环境后，虫本身能够承受的温度大约止于五十五摄氏度。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Pompeii worm",
+          "url": "https://www.mbari.org/animal/pompeii-worm/",
+          "checkedAt": "2026-10-22",
+          "evidence": "热泉薄管、往返混冷水、细菌层保温调温、个体耐55度。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-warty-deep-sea-octopus",
+      "conceptId": "nature-warty-deep-sea-octopus",
+      "term": "深海疣章鱼",
+      "aliases": [
+        "Graneledone pacifica"
+      ],
+      "explanation": "研究者二〇〇七年在岩壁上认出一只带特殊伤疤的母章鱼，后来再访时，它已经守着约一百六十枚水滴状卵。此后反复回访，卵逐渐变大，里面的小章鱼越来越清楚，母体却日渐消瘦，皮肤松弛而苍白，始终没有离开。直到二〇一一年十月，岩壁只剩破开的空卵壳。这次观察记录了约四年半的护卵期。母体靠自身组织储备撑过漫长等待，孵出的幼体则已经足够大，能够独立捕食。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Warty deep-sea octopus",
+          "url": "https://www.mbari.org/animal/warty-deep-sea-octopus/",
+          "checkedAt": "2026-10-22",
+          "evidence": "2007–2011同一伤疤母体，约160卵、4.5年护卵、组织储备。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-seven-arm-octopus",
+      "conceptId": "nature-seven-arm-octopus",
+      "term": "七腕章鱼",
+      "aliases": [
+        "Haliphron atlanticus"
+      ],
+      "explanation": "名字说七条腕，雄体其实仍有八条，只是把传递精子的特化腕藏进右眼下方的小囊里，外观像少了一条。雌体却能长成重达约七十五公斤的庞然大物，雄体通常只有二十一厘米左右。研究者曾拍到雌体抱着一只蛋黄水母，后续标本胃内容物也支持它爱吃胶冻动物。它先吃伞部组织，随后还可能把带刺细胞的触手拖在后方，研究者推测这能顺带用于防御，把一顿饭的剩余部分接着利用。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Seven-arm octopus",
+          "url": "https://www.mbari.org/animal/seven-arm-octopus/",
+          "checkedAt": "2026-10-22",
+          "evidence": "雄藏交接腕、雌雄体型差、水母饮食、残触手防御仅推测。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-silky-jelly",
+      "conceptId": "nature-silky-jelly",
+      "term": "丝绸水母",
+      "aliases": [
+        "Colobonema sericeum"
+      ],
+      "explanation": "平时它把弯曲触手向四周铺开捕食，遇险却会突然改造体形：圆伞迅速收缩得近乎筒状，触手伸直，随后靠喷射推进猛冲，一次可向前越过五个以上身长。逃跑时还会丢下黏性触手，让捕食者对着遗落物纠缠。它的伞可以发出蓝色闪光，触手在灯下虽也呈蓝色，却不会自行发出这种光。野外还能看到触手长短不一的个体，提示这些被舍弃的部件可能重新长出，供下次脱身使用。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Silky jelly",
+          "url": "https://www.mbari.org/animal/silky-jelly/",
+          "checkedAt": "2026-10-22",
+          "evidence": "伞筒形喷射5身长、丢触手、伞发蓝光触手不发、自切再生证据。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-whalefish",
+      "conceptId": "nature-whalefish",
+      "term": "鲸口鱼",
+      "aliases": [
+        "Cetomimidae"
+      ],
+      "explanation": "它有宽厚躯干和一张大嘴，像缩小的鲸，通常却只有二十厘米左右。生活在一千米以下的黑暗水域，眼睛退化得很小，缺乏晶状体，连清晰图像也形成不了。它转而依靠头部和身体上一串串粗大的感觉孔，接收水中振动，判断附近有没有猎物或敌人。这些孔沿隆起排列，让外观看起来还有些像鳄鱼。鲜红体色在深海几乎呈黑色，大嘴则帮助它逮住机会吞食，其中曾有个体被拍到肚子因大餐而鼓起。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Whalefish",
+          "url": "https://www.mbari.org/animal/whalefish/",
+          "checkedAt": "2026-10-22",
+          "evidence": "无晶状体不能成像、感觉孔振动、红色伪装、一般20厘米。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-whiptail-gulper-eel",
+      "conceptId": "nature-whiptail-gulper-eel",
+      "term": "鞭尾吞噬鳗",
+      "aliases": [
+        "Saccopharynx lavenbergi"
+      ],
+      "explanation": "一条细长身体前端却挂着一张夸张的大嘴，后方拖着鞭子般的尾巴。深海食物难遇，大嘴让鞭尾吞噬鳗在碰到机会时，能接纳体积悬殊的食物。尾端还能发光，科学家推测这可能充当诱饵，把猎物引到嘴边，不过这一用途仍是解释而非已完整观察到的捕猎过程。它住在缺少遮蔽的开放深水层，研究机构在多年数千次潜水中也只记录过很少几次，连标志上的动物都比真身常见得多。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Whiptail gulper eel",
+          "url": "https://www.mbari.org/animal/whiptail-gulper-eel/",
+          "checkedAt": "2026-10-22",
+          "evidence": "超大口、发光尾诱猎为推测、开放中层稀见、MBARI标志。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-redhead-larvacean",
+      "conceptId": "nature-redhead-larvacean",
+      "term": "红头住囊虫",
+      "aliases": [
+        "Mesochordaeus erythrocephalus"
+      ],
+      "explanation": "这只像小蝌蚪的动物住在自己分泌的黏液房里。外层滤网挡住大到无法入口的颗粒，内层再把细小食物汇进一根黏液吸管，送进嘴中。它的红色消化道还能遮住已吃下的发光生物，免得自己变成灯泡。房子被碎屑堵住，或感觉危险靠近时，它就干脆抛弃整套住宅，游走重建。废房裹着有机物慢慢下沉，成为更深处动物的食物，也把上层海水中的碳一同运向海底，留下的垃圾反而喂养了邻居。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Redhead larvacean",
+          "url": "https://www.mbari.org/animal/redhead-larvacean/",
+          "checkedAt": "2026-10-22",
+          "evidence": "内外黏液房过滤、红胃、堵塞危险弃房、碳下沉。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-pom-pom-anemone",
+      "conceptId": "nature-pom-pom-anemone",
+      "term": "绒球海葵",
+      "aliases": [
+        "Liponema brevicorne"
+      ],
+      "explanation": "它不像一根柱子顶着触手，更像一大团会充气的绒球，时而瘪成乱线，时而鼓成桶。它还能收缩肌肉改变形状，在水流推动下沿海底泥地滚动，像沙漠风滚草；研究者认为这有助于寻找食物更丰富的位置。停稳后，它把有刺细胞的触手伸向各方，拦截甲壳动物。巨型海蜘蛛有时会吸食它的触手，它也能把触手脱落，给来客留下一份外带食物，身体本身往往没有显著受害。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Pom-pom anemone",
+          "url": "https://www.mbari.org/animal/pom-pom-anemone/",
+          "checkedAt": "2026-10-22",
+          "evidence": "桶形滚动、寻找食物为推测、刺细胞捕食、海蜘蛛吸食可脱触手。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-psychedelic-jelly",
+      "conceptId": "nature-psychedelic-jelly",
+      "term": "迷幻水母",
+      "aliases": [
+        "Crossota millsae"
+      ],
+      "explanation": "红橙紫交错的伞内，竟能同时挂着好几个大小不一的小水母。迷幻水母的母体把幼体养在伞内放射状管道上，它们从母体获得营养，在保护下逐渐长大，甚至还没离开妈妈就先长出自己的触手。等身体大到不再适合躲在伞下，小水母便开始搏动，挣脱连接独自游走。幼体原先偏淡紫，成长后才逐渐转为成体的橘色。这种繁殖方式让它成为少数能够直接育出活幼体的水母之一。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Psychedelic jelly",
+          "url": "https://www.mbari.org/animal/psychedelic-jelly/",
+          "checkedAt": "2026-10-22",
+          "evidence": "母体伞内放射管育幼、不同阶段、母供营养、触手先长后释放。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-acorn-worm",
+      "conceptId": "nature-acorn-worm",
+      "term": "橡果虫",
+      "aliases": [
+        "Enteropneusta"
+      ],
+      "explanation": "深海泥面上有时留着紧密的螺旋线条，那是一条橡果虫一边吃泥、一边排便留下的轨迹。食物丰富时，它在小范围内绕圈，把沉积物中的有机物筛进肚子；这一块吃得差不多，就排空肠道，让自己浮起来，漂到下一片食堂。它外形虽然像蠕虫，分类上却比蚯蚓更接近人类，前端还有橡果形的部位。这种不起眼的游走和排泄，不断翻动海底表层泥沙，也重新分配从海面沉下来的营养。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Acorn worm",
+          "url": "https://www.mbari.org/animal/acorn-worm/",
+          "checkedAt": "2026-10-22",
+          "evidence": "螺旋排便、食尽排空肠道浮走、与人近缘、再分配沉积物。"
+        }
+      ]
+    },
+    {
+      "id": "cw-binturong",
+      "conceptId": "wildlife-binturong",
+      "term": "熊狸",
+      "aliases": [],
+      "explanation": "这种像熊又像猫的树栖动物，身上却带着类似新鲜爆米花的气味。它与灵猫更近，虽然归在食肉目，日常吃的却主要是水果。粗壮尾巴的末段可以卷握，尾尖还有帮助抓住树枝的皮肤垫，幼体甚至能仅靠尾巴倒挂，成年个体太重时就得再加上一两只脚。下树时，它还能把踝部转动一百八十度，让爪子在头朝下时仍然抓牢。这只会散发影院零食味的大毛球，也借粪便把吃下的种子散布到森林各处。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Binturong | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/binturong",
+          "checkedAt": "2026-10-22",
+          "evidence": "ABOUT与HABITAT：爆米花气味、卷握尾、踝180度、果食散种。"
+        }
+      ]
+    },
+    {
+      "id": "cw-echidna",
+      "conceptId": "wildlife-echidna",
+      "term": "针鼹",
+      "aliases": [],
+      "explanation": "这只满身刺的哺乳动物会先产下一枚皮质卵，再把卵卷进腹部育儿袋。约十天后孵出的幼仔，没有乳头可以吮吸，只能舔食母体特殊腺体分泌的奶。母亲暂时不用担心被扎，因为幼仔的刺还没长出；等刺开始穿出皮肤，就把它移到洞穴里，定期回来喂养。成年针鼹的后脚朝后，其中一根长趾爪能伸进刺间，梳走泥土和小虫。遇到危险，它还会迅速往地下挖，只把难以下嘴的刺背留在外面。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Echidna | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/echidna",
+          "checkedAt": "2026-10-22",
+          "evidence": "ABOUT及FAMILY LIFE：皮卵袋孵、无乳头舔奶、长刺移穴、后脚梳刺、挖土防御。"
+        }
+      ]
+    },
+    {
+      "id": "cw-platypus",
+      "conceptId": "wildlife-platypus",
+      "term": "鸭嘴兽",
+      "aliases": [],
+      "explanation": "鸭嘴兽下水找吃的时，会闭上眼睛和耳朵，左右摆动柔软的嘴，接收猎物身体发出的微弱电信号。嘴上大约四万个电感受器，帮助它在浑浊水中判断小动物的位置，外形像鸭嘴，实际却不是硬壳。找到的食物先塞进颊囊，回到水面再吃。成年个体没有牙齿，靠角质垫把食物磨碎；幼体倒曾短暂长过乳齿样的牙，离开育幼洞穴前后又脱落。它还把多余脂肪存进宽尾巴，兼作游泳稳定器和能量仓库。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Platypus | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/platypus",
+          "checkedAt": "2026-10-22",
+          "evidence": "ABOUT：闭眼耳电定位、40000感受器、颊囊水面吃、角质垫及幼齿、储脂尾。"
+        }
+      ]
+    },
+    {
+      "id": "cw-banded-archer-fish",
+      "conceptId": "wildlife-banded-archer-fish",
+      "term": "射水鱼",
+      "aliases": [],
+      "explanation": "它躲在红树林旁的水面下，把嘴略微露出水面，先吸一口水，再用舌头顶住上颚，把水柱射向树枝上的昆虫或蜘蛛。猎物被打落后，水中的鱼就能开饭。一次没中也不用立刻重新装填，一口水最多能分成六七次射击；仍然不成功，它还可以直接跃出水面追捕。它能攻击水面上方约一点五米的目标，身体大部分始终浸在水里。看上去只是带条纹的普通小鱼，捕猎范围却延伸到了头顶的空气中。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Banded Archer Fish | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/banded-archer-fish",
+          "checkedAt": "2026-10-22",
+          "evidence": "ABOUT及DIET：舌顶上颚射水、一口6–7次、1.5米与跃水。"
+        }
+      ]
+    },
+    {
+      "id": "cw-dung-beetle",
+      "conceptId": "wildlife-dung-beetle",
+      "term": "蜣螂",
+      "aliases": [],
+      "explanation": "粪球对蜣螂既是午饭，也可能是婚礼礼物和育婴房。有些雄虫把大粪球送给雌虫，配对成功后一起把球滚走，途中还得防着别的蜣螂来抢。雌虫把卵放进育婴球，再用粪便、唾液和自身排泄物封好；有的母虫会守上两个月，清理幼虫和它们拉出的粪便。另一些蜣螂根本不滚球，而是在粪堆下挖隧道储存食物，或直接住在粪堆里。我们熟悉的滚粪球画面，只是这一大群甲虫生活方式中的一种。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Dung Beetle | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/dung-beetle",
+          "checkedAt": "2026-10-22",
+          "evidence": "FAMILY LIFE：粪球求偶、争抢、单卵封球、清理幼虫粪、三生态型。"
+        }
+      ]
+    },
+    {
+      "id": "cw-venus-flytrap",
+      "conceptId": "wildlife-venus-flytrap",
+      "term": "捕蝇草",
+      "aliases": [],
+      "explanation": "一只虫落在叶夹里，只碰一下感应毛，夹子通常不会立刻反应。它要在约二十秒内收到两次触碰，才会迅速合拢，减少为雨滴或无用物体白忙的机会。夹紧后，消化酸和酶把猎物变成可以吸收的营养液，约七至十天后叶夹再次打开，等待下一餐。它自己仍会用阳光进行光合作用，捕虫主要是为了补充贫瘠湿酸土壤里不足的营养。看似一张贪吃嘴，实际上是一片带着触发门槛和消化能力的特化叶。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Venus Flytrap | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/plants/venus-flytrap",
+          "checkedAt": "2026-10-22",
+          "evidence": "OVERVIEW：20秒两次、叶陷阱、消化7–10日、光合作用与贫土营养。"
+        }
+      ]
+    },
+    {
+      "id": "cw-utricularia",
+      "conceptId": "wildlife-utricularia",
+      "term": "狸藻",
+      "aliases": [],
+      "explanation": "水里的一串细小囊袋，看上去像植物长的小气泡，入口却装着能由触毛启动的活门。轮虫或蚊幼虫碰到机关，门会在约一毫秒内打开，把猎物连水吸进囊里，又极快关上，形成一座座微型吸入式陷阱。许多水生狸藻的大部分身体藏在水下，只有花梗和花露出水面，可以固定在原处，也可以自由漂浮。这一属没有真正的根，有些种类生活在湿土或附着别处；它们把捕猎设备做得极小，肉眼反而不容易看到行动。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Utricularia | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/utricularia/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：触毛活门毫秒吸入、轮虫蚊幼虫、水上花、无真根多生境。"
+        }
+      ]
+    },
+    {
+      "id": "cw-cornus-canadensis",
+      "conceptId": "wildlife-cornus-canadensis",
+      "term": "加拿大草茱萸",
+      "aliases": [],
+      "explanation": "四片白色大瓣围着一簇小花，看似温柔的林下地被，其实藏着接触式花粉发射器。真正的小花中央有能触发开放的结构，昆虫一碰，花粉便高速向上射出，足以嵌进访客的细毛，让它带着一身花粉离开。研究人员在只有轻微气流的房间里，测到花粉能被送出二十二厘米以上。外围白色部分实际是苞片，花本身小得多；植株还能靠地下根茎蔓延，到了晚夏又挂起一簇红果，把同一片林地变换两套外观。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Cornus canadensis, bunchberry dogwood | US Forest Service",
+          "url": "https://research.fs.usda.gov/feis/species-reviews/corcan",
+          "checkedAt": "2026-10-22",
+          "evidence": "Pollination and Breeding System：触发爆发花粉、22厘米、昆虫细毛；外观另由NC State支持。"
+        },
+        {
+          "title": "Cornus canadensis | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/cornus-canadensis/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：四白苞片、小花、根茎蔓延、晚夏红果。"
+        }
+      ]
+    },
+    {
+      "id": "cw-kalanchoe-daigremontiana",
+      "conceptId": "wildlife-kalanchoe-daigremontiana",
+      "term": "宽叶落地生根",
+      "aliases": [],
+      "explanation": "这株多肉植物把育苗场直接开在叶片边缘，锯齿状缺口里排出一圈小植株。小苗还挂在母叶上时，就已经长出自己的叶和根，成熟后自然掉落，碰到合适的土便能开始独立生活，因此有千子之母一类的俗名。它原生于马达加斯加干燥地区，叶片较厚，背面常有紫色斑纹，母体本身可长到接近一米。繁殖不用每次都等花结果，一张叶子就能同时托着好多个缩小版的自己，落到花盆边缘便形成新一圈植株。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Kalanchoe daigremontiana | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/kalanchoe-daigremontiana/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：叶缘幼株自带叶根、自然脱落、马达加斯加、三英尺及叶背紫斑。"
+        }
+      ]
+    },
+    {
+      "id": "cw-victoria-amazonica",
+      "conceptId": "wildlife-victoria-amazonica",
+      "term": "亚马孙王莲",
+      "aliases": [],
+      "explanation": "第一晚打开的白花带着甜菠萝般的香味，把甲虫引进花中。第二天花合拢，访客被暂时关在里面，而花也从雌性阶段转入雄性阶段，开始生产花粉。到第二晚，花再开放时已经变成紫红色，香味消失，甲虫带着花粉离开，飞向另一朵新开的白花。它宽大的浮叶像边缘翘起的盘子，底部肋架之间留有空气，叶背还布满尖刺，减少鱼类啃食。巨叶负责占住水面，短暂花期则用一次留宿安排传粉。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Victoria amazonica | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/victoria-amazonica/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：两夜花色香味、夹留甲虫、雌转雄散粉、叶肋气室与刺。"
+        }
+      ]
+    },
+    {
+      "id": "cw-arisaema-triphyllum",
+      "conceptId": "wildlife-arisaema-triphyllum",
+      "term": "三叶天南星",
+      "aliases": [],
+      "explanation": "一片弯覆的佛焰苞像小屋屋顶，里面竖着棒状肉穗花序，英语俗名就像说一个人站在讲坛里。真正的小花藏在结构下方，苍蝇和小飞虫会沿着花序进入，帮助搬运花粉。更奇特的是，同一株植物的性别并非年年固定：今年以雄性开花，下一年可能转成雌性，之后也能反过来。进入夏季，不少植株会休眠消失，成熟开花的植株却可能在外罩枯萎后露出一簇红色浆果，像小屋撤走，剩下一束鲜红果实。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Arisaema triphyllum | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/arisaema-triphyllum/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：Jack形花序、蝇蚋传粉、逐年可双向变性、休眠与红果。"
+        }
+      ]
+    },
+    {
+      "id": "cw-symplocarpus-foetidus",
+      "conceptId": "wildlife-symplocarpus-foetidus",
+      "term": "美洲臭菘",
+      "aliases": [],
+      "explanation": "积雪还没化尽，湿地里有时就能冒出一座紫褐色小罩棚。里面的小花会靠自身代谢产生热量，把周围积雪融开，叶片这时还没有展开。罩棚其实是佛焰苞，包着黄绿色的肉穗花序；花和叶一旦受伤，便会散发像腐败肉类的臭味，吸引寻找这类气味的昆虫前来传粉。它常长在沼泽、湿草地和泥泞林地，根系扎得很牢，移栽并不容易。看起来像早春地上冒出的小暖炉，却用腐肉味招待最早一批访客。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Symplocarpus foetidus | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/symplocarpus-foetidus/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：先花后叶、产热融雪、臭味传粉、湿地根牢。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-birds-nest-fungi",
+      "conceptId": "nature-birds-nest-fungi",
+      "term": "鸟巢菌",
+      "aliases": [
+        "Nidulariaceae"
+      ],
+      "explanation": "腐木和覆盖木屑上有时挤着一堆微型鸟窝，窝里还端端正正摆着几颗小蛋。其实窝是杯状子实体，蛋是装着孢子的菌包，单个窝通常只有几毫米到一厘米多宽。它不用自己点火发射，而是等雨滴落进杯中，把小蛋猛地溅出去，距离可达约一米或更远。菌包黏到别的物体上，干燥后裂开，再释放里面的孢子。房屋和汽车偶尔也会成为落点，留下难清除的小点；这套雨水弹射装置，原本只是腐生真菌扩散后代的方法。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Bird’s Nest Fungi | Wisconsin Horticulture",
+          "url": "https://hort.extension.wisc.edu/articles/birds-nest-fungi/",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文三小节：杯状子实体和孢子菌包、雨溅三英尺以上、干裂散孢、黏车房。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-cedar-apple-rust",
+      "conceptId": "nature-cedar-apple-rust",
+      "term": "苹果桧锈菌",
+      "aliases": [
+        "Gymnosporangium juniperi-virginianae"
+      ],
+      "explanation": "春雨过后，桧树枝上的褐色小瘤会吸水鼓胀，从凹点里伸出橙色胶质长角，像突然开出一只软体怪物。这些角产生的孢子，下一站却是苹果或海棠的叶和果实，造成黄橙色斑点。夏季叶背再长出管状结构，制造另一类孢子，飘回桧树感染，而不能继续感染苹果。它必须在两类寄主之间往返，才能完成大约两年的生活史；桧树上的橙色怪角和苹果叶背的小管，因而是同一真菌在不同住处的模样。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Cedar Apple Rust | NC State Extension Publications",
+          "url": "https://content.ces.ncsu.edu/cedar-apple-rusts",
+          "checkedAt": "2026-10-22",
+          "evidence": "Symptoms、Disease Cycle：吸水胶质角、苹果桧树交替、锈孢不再感染苹果、两年周期。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-shaggy-mane",
+      "conceptId": "nature-shaggy-mane",
+      "term": "毛头鬼伞",
+      "aliases": [
+        "Coprinus comatus",
+        "鸡腿菇"
+      ],
+      "explanation": "刚从地上冒出时，它像一根顶着白色蓬松假发的圆柱，随后菌盖张成钟形，边缘和菌褶开始变黑，最后化成墨汁般的液体。它的地上部分很短命，从冒出到液化常常只需一天左右，采下后也能在几小时内继续化开。液化过程与孢子散播有关，地下菌丝却还在分解腐木等有机物，条件合适时可在同一地点再长出一批。它甚至会从硬实地面、路边或沥青停车场冒出来，像刚撑起小伞就急着把伞融掉。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Shaggy Mane | Missouri Department of Conservation",
+          "url": "https://mdc.mo.gov/discover-nature/field-guide/shaggy-mane",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description、Status、Life Cycle：菌盖液化、约24小时、采后几小时、散孢与沥青停车场。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-oyster-mushroom-predation",
+      "conceptId": "nature-oyster-mushroom-predation",
+      "term": "平菇的捕虫餐",
+      "aliases": [
+        "Pleurotus ostreatus",
+        "糙皮侧耳"
+      ],
+      "explanation": "餐桌上常见的平菇，在朽木里却能兼职捕食者。它的菌丝会释放毒素，让微小线虫麻痹，再从这些动物身上取得氮。平时看见的一层层扇形菇，只是它长在枯死或衰弱阔叶树木上的繁殖结构，木材内部的菌丝还会分解坚韧的纤维素和木质素。因此它既能靠腐木生活，又能补上一顿小动物。林中蜗牛、松鼠等还会来吃它，形成蘑菇吃虫、别的动物再吃蘑菇的一串关系；饭桌上的温和外表，藏着另一套取食办法。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Fungi to see in spring | Grow Wild | Kew",
+          "url": "https://growwild.kew.org/blog/fungi-see-spring",
+          "checkedAt": "2026-10-22",
+          "evidence": "Oyster mushroom段：毒素麻痹线虫取氮、木腐分解纤维素木质素、野生动物食用。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-mudlark",
+      "conceptId": "objects-mudlark",
+      "term": "泥滩拾荒人",
+      "aliases": [
+        "Mudlark"
+      ],
+      "explanation": "泰晤士河退潮时，一群人就弯腰钻进停船之间的烂泥里，寻找煤块、旧铁、绳子、骨头和从船上掉下的铜钉。十九世纪的泥滩拾荒人中有不少孩子，东西找到后还得分头卖：煤卖给附近穷人，废料交给旧货店，捡到工具则可向水手换饼干和肉。他们常赤脚工作，钉子和碎玻璃会伤人；梅休记录过一名孩子被铜钉扎伤后，整整三个月走路不便，母亲每天背他去看医生。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.rmg.co.uk/stories/maritime-history/library-archive/mudlarks-murky-world-londons-river-scavengers",
+          "title": "Mudlarks: the murky world of London’s river scavengers",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文记载退潮工作、拾获品、不同出售对象及铜钉伤脚三个月的具体案例。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-cucumber-straightener",
+      "conceptId": "objects-cucumber-straightener",
+      "term": "黄瓜矫直器",
+      "aliases": [],
+      "explanation": "一根尚未长大的黄瓜，要先套进细长的玻璃漏斗，之后的生长方向便受管壁约束。工程师乔治·斯蒂芬森很在意自己种出的黄瓜是否笔直，曾让纽卡斯尔蒸汽机工厂替他的花园制作吹制玻璃圆筒。花园博物馆收藏的十九世纪矫直器，就是这种把蔬菜送进透明模具的园艺工具。它追求的是外形整齐，玻璃管不负责削皮，也不是收获后把弯黄瓜硬掰直；要在果实生长早期就把它套好。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.gardenmuseum.org.uk/collection/cucumber-straightener/",
+          "title": "Cucumber Straightener - Garden Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文首段记载Stephenson定制吹制玻璃圆筒，幼果期套入长漏斗以促直；第二段明确是审美目的。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-mortsafe",
+      "conceptId": "objects-mortsafe",
+      "term": "尸体防盗笼",
+      "aliases": [
+        "Mortsafe",
+        "护棺铁笼"
+      ],
+      "explanation": "新坟上扣住的沉重铁笼，曾经是用来保护棺内尸体的防盗设备。十九世纪初，解剖教学对遗体的需求催生盗尸生意，家属便用铁制护棺罩和重盖增加挖掘难度。有些教区买下一两套，按需要出租给不同家庭：等遗体腐败到解剖者不想要了，护罩便可移走再租。科学博物馆的一件藏品，单是盖子就重二百二十公斤；有的老护罩后来甚至被改作给牲畜喝水的槽。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://wellcomecollection.org/stories/beating-the-bodysnatchers",
+          "title": "Beating the bodysnatchers - Wellcome Collection",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文说明铁罩护棺、临时出租与腐败后失去解剖价值，末段说明改为饮水槽。220公斤另由SMG A600162馆藏正文与尺寸栏确证。"
+        },
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co77094/iron-mortsafe-base-and-lid",
+          "title": "Iron mortsafe base and lid - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文及尺寸栏：盖子重220公斤，护棺防盗尸。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-waterloo-teeth",
+      "conceptId": "objects-waterloo-teeth",
+      "term": "滑铁卢假牙",
+      "aliases": [
+        "Waterloo teeth"
+      ],
+      "explanation": "一副十九世纪的假牙，牙床可能是河马象牙，露出来的门牙却真是从别人嘴里取下来的。当时制作假牙的人大量需要人牙，愿意出售牙齿的活人无法满足市场，欧洲战场的死者便成了令人不安的来源，滑铁卢牙也因此成为沿用多年的称呼。科学博物馆收藏的一副英国下颌假牙，就把真人前牙嵌在河马象牙基座上。昂贵象牙使它属于富人的消费品，嘴里的一排牙，却可能来自完全不认识的人。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co102388/lower-denture-with-human-teeth-england-1800-1870",
+          "title": "Lower denture with human teeth, England, 1800-1870 - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文确证人牙需求、活人供给不足、欧洲战场来源与Waterloo teeth名称；藏品是河马象牙下颌基座加人门牙，未声称该具体藏品来自滑铁卢。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-scolds-bridle",
+      "conceptId": "objects-scolds-bridle",
+      "term": "骂妇铁笼",
+      "aliases": [
+        "Scold’s bridle",
+        "Branks"
+      ],
+      "explanation": "把铁框锁在头上，嘴里再塞进压住舌头的部件，有时头顶还悬一只铃铛，让受罚者走到哪里都引人围观。这类面具曾用于惩罚被指扰乱公共安宁、争吵或诽谤的人，女性尤其容易成为目标，器具也常故意做出可笑的动物特征。科学博物馆的一件德国产藏品，就有夸张鼻片、锯齿状嘴部和颈环。它既要让人难以说话，又要公开羞辱；史料也记录男性遭到使用，并非只在女人身上出现。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co155218/scolds-bridle-scolds-bridle",
+          "title": "Scold's Bridle Mask which partially covers face - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文86—90行包含器具结构、法律词义、性别差异与男性使用；不把该个别藏品来历写成已知。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-dental-key",
+      "conceptId": "objects-dental-key",
+      "term": "拔牙钥匙",
+      "aliases": [
+        "Tooth key"
+      ],
+      "explanation": "十九世纪的拔牙工具里，有一种很像开门钥匙：手柄下面伸出金属杆，末端装着可以扣住牙齿的爪。操作者把它送进口中，收紧爪子，再转动整把工具，将坏牙松动拔出。英国国家陆军博物馆收藏的一把双爪牙钥匙，原本与另外六十三件医疗器械一同装在桃花心木箱中，约制于一八五〇年。这种旋转拔牙的过程极为痛苦，牙还可能在操作中折断，即使牙齿没有完整拔出，患者也已经承受了旋转器械的折磨。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.nam.ac.uk/detail.php?acc=1973-12-90-38",
+          "title": "Tooth key with two claws, 1850 (c) - National Army Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "馆藏正文21—24行：64件器械之一、桃花心木箱、爪紧牙齿后旋转、痛苦且常折牙。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-climbing-boys",
+      "conceptId": "objects-climbing-boys",
+      "term": "烟囱童工",
+      "aliases": [
+        "Climbing boys"
+      ],
+      "explanation": "烟囱窄到刷子难以清理时，过去的清扫师傅会让体形小的学徒直接爬进去，把容易着火的煤烟垢清掉。十八、十九世纪伦敦大量烧煤，这门生意也利用起童工。孩子可能卡住、受伤甚至死在烟道中，多次立法仍未能真正阻止。一八七五年，乔治·布鲁斯特因这项工作死亡，推动了要求清扫者领证并由警察执行规则的法律。同一种清扫生意还会卖掉收集的煤烟，转手供农民与园丁作肥料。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.londonmuseum.org.uk/collections/london-stories/chimney-sweeps-soot-stained-past/",
+          "title": "Chimney sweeps’ soot-stained past - London Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文说明体形小入窄烟囱、童工、历次失败法律和1875事件；212—214行煤烟卖作肥料。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-resurrection-men",
+      "conceptId": "objects-resurrection-men",
+      "term": "复活人",
+      "aliases": [
+        "Resurrectionists",
+        "掘墓盗尸人"
+      ],
+      "explanation": "这个名字听起来像能让死者醒来，真正的工作却是把新葬者从坟里偷走，再卖给解剖教学者。苏格兰医学校扩大时，合法遗体供应不足，盗尸成了有利可图的地下生意。有些人会打听葬礼，甚至混进送葬队伍，入夜再回来挖坟。家属为了拖慢他们，曾把坚韧的石楠混进填土、加高墓园围墙，或在棺盖上压重石。防守的目标是争取时间，让尸体过了适合解剖的时期，盗贼便不再感兴趣。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.westhighlandmuseum.org.uk/2021/03/07/the-sinister-history-of-mort-safes/",
+          "title": "The Sinister History of Mort Safes - West Highland Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文64—71行：解剖需求与遗体供给、resurrectionists名号、葬礼侦察、夜盗、六周窗口、石楠与围墙重石。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-turnspit-dog-wheel",
+      "conceptId": "objects-turnspit-dog-wheel",
+      "term": "狗力烤肉轮",
+      "aliases": [
+        "Dog wheel",
+        "转烤狗轮"
+      ],
+      "explanation": "酒馆壁炉旁装一只大木轮，里面跑的狗一迈腿，火上的肉串就跟着转。烤大块肉需要长时间不断翻面，这件苦差事原来交给低阶厨房佣人，后来有专门的短腿转烤狗在轮里奔跑，通过链条带动烤叉。英国国民信托保留的十七世纪例子，仍装在拉科克乔治旅店的烟囱墙面上。到十九世纪中叶，廉价机械转烤器逐渐取代狗轮，厨房不再需要这类四腿动力来源，那种为转轮培育的狗也消失了。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.nationaltrustcollections.org.uk/object/149377",
+          "title": "Dog wheel 149377 - National Trust Collections",
+          "checkedAt": "2026-10-22",
+          "evidence": "馆藏649—655行明确木轮位置、狗跑链条传动、原由佣人操作、机械替代与品种消失。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-human-hair-jewellery",
+      "conceptId": "objects-human-hair-jewellery",
+      "term": "人发手链",
+      "aliases": [
+        "Hairwork jewellery"
+      ],
+      "explanation": "维多利亚时代的人，会把亲友的头发编成手链随身佩戴，既能纪念亡者，也能表达对活人的牵挂。南丁格尔的一条手链，就由父亲、母亲、姐姐和表亲的头发制成，还配着绿色珐琅心形坠与镶珍珠的蛇头搭扣；她在克里米亚期间一直把它藏在袖子下面。头发首饰也有专门图样书，顾客还能付钱请珠宝匠制作。生意兴旺之后，人们又开始担心，匠人到底用了交去的亲人头发，还是偷偷换成批量买来的便宜货。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.florence-nightingale.co.uk/victorian-hair-jewellery/",
+          "title": "Victorian Hair Jewellery - Florence Nightingale Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "143—156行记述哀悼与在世亲友纪念、南丁格尔四人头发手链具体结构和袖下佩戴、图样书及调包疑虑。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-pure-finder",
+      "conceptId": "objects-pure-finder",
+      "term": "狗粪收集人",
+      "aliases": [
+        "Pure-finder"
+      ],
+      "explanation": "十九世纪伦敦街头，有人提着带盖篮子专门找狗粪，收够后按桶卖给伯蒙德西的皮革作坊，用来加工书皮、手套和其他皮件。买方还会挑品质，有的喜欢干燥发白的，有的偏爱深色湿润的；梅休甚至记下掺入旧墙灰泥冒充好货的把戏。收集者常在右手戴黑皮手套，也有人嫌手套难洗，干脆徒手。能包下犬舍清理生意的人收入较好，大多数人仍得沿街寻找，和不断增加的同行争一桶货。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.gutenberg.org/files/60440/60440-h/60440-h.htm",
+          "title": "London Labour and the London Poor, Volume II - Henry Mayhew",
+          "checkedAt": "2026-10-22",
+          "evidence": "原著Of the Pure-Finders（2961—2986行）列桶售皮革、质量偏好、灰泥掺假、盖篮手套与犬舍渠道；仅叙述历史工艺。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-sewer-hunter",
+      "conceptId": "objects-sewer-hunter",
+      "term": "下水道寻宝人",
+      "aliases": [
+        "Tosher",
+        "Sewer-hunter"
+      ],
+      "explanation": "背上口袋、拿着一根七八英尺长的铁锄杆，十九世纪伦敦的寻宝人会钻进下水道，翻找漏进排水系统的钱币、银餐具和首饰。锄杆既用来探查脚下是否可靠，也能在陷进淤泥时钩住东西帮助脱身。他们会结伴行动，找到贵重物品也不忘装走旧绳、骨头和各种金属，出洞出售后再把收入平分。排水口加上铁门并禁止进入以后，这门营生仍有人偷偷继续；来源记录的是真正冒险谋生者，并非市政清洁工。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.gutenberg.org/files/60440/60440-h/60440-h.htm",
+          "title": "London Labour and the London Poor, Volume II - Henry Mayhew",
+          "checkedAt": "2026-10-22",
+          "evidence": "原著Of the Sewer-Hunters，3111—3145行：铁门禁令、背袋长锄杆用途、拾银餐具首饰、售废物平分；未采用原著老鼠吃人等传说。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-cigar-end-finder",
+      "conceptId": "objects-cigar-end-finder",
+      "term": "雪茄头拾荒人",
+      "aliases": [
+        "Cigar-end finder"
+      ],
+      "explanation": "街上别人丢掉的半截雪茄，也曾被收集起来重新变成商品。梅休调查的伦敦拾荒者，会把烟头放在专门的口袋里，攒到两三磅重再卖给中间人，价格随长度和品质变化。较长的烟头更值钱，因为里面有较多没被嘴里水分浸坏的烟草。孩子则会沿吸烟者散步的街道寻找，有时一上午只能卖半便士或一便士。原著特别说明，几乎没人仅靠捡雪茄头独立谋生，这通常与其他拾荒活动混在一起。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.gutenberg.org/files/60440/60440-h/60440-h.htm",
+          "title": "London Labour and the London Poor, Volume II - Henry Mayhew",
+          "checkedAt": "2026-10-22",
+          "evidence": "原著Of the Cigar-end Finders 3019—3031行：无专职独立谋生者、专袋攒重、中间商、长度品质差异、儿童微薄收入。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-drunkards-cloak",
+      "conceptId": "objects-drunkards-cloak",
+      "term": "酒鬼木桶衣",
+      "aliases": [
+        "Drunkard’s cloak",
+        "Spanish coat"
+      ],
+      "explanation": "受罚者把一只大木桶穿在身上，在看守押送下沿镇里规定的路线走一圈，这件笨重外衣便成了公开示众的惩罚。巴伐利亚国家博物馆保存的一件例子制于一七七五年，来自韦尔廷根，高一百零七厘米，用橡木制作并涂有彩绘。桶身上还画出了可能招来这种处罚的过失，等于让刑具自己解释使用范围。馆方称它为酒鬼披风或西班牙外衣，反映的是十八世纪法院用公开丢脸惩戒轻微违法行为的做法。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.bayerisches-nationalmuseum.de/en/collection/highlights/00040108",
+          "title": "Drunkard´s cloak, also known as ‘Spanish Coat’ - Bayerisches Nationalmuseum",
+          "checkedAt": "2026-10-22",
+          "evidence": "日期1775、橡木彩绘、高107厘米；正文明确在看守下规定路线游街、桶身图示可罚行为。未断言仅罚酗酒。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-punishment-crank",
+      "conceptId": "objects-punishment-crank",
+      "term": "空转苦役轮",
+      "aliases": [
+        "Punishment crank"
+      ],
+      "explanation": "牢房墙上装一只必须转动的轮子，走廊外还接着计数表，囚犯得完成规定转数才有资格领食物。苏格兰斯通黑文的一件旧惩罚轮，在一九八四年翻修警察局牢房时被发现，后来进入托尔布斯博物馆。它的难度还能人为调节：往鼓内加煤尘和铁屑，转起来就更费力。轮子所要求的不是把人送到哪里，而是让人不断付出体力；做完多少次，由牢门外的表盘记录，日常吃饭也和这项重复劳动绑在一起。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.stonehaventolbooth.co.uk/news-events/54-victorian-punishment.html",
+          "title": "Victorian Punishment - Stonehaven Tolbooth Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "33—36行：1984发现，墙装、走廊表盘、规定转数换食物，煤尘铁屑增加阻力。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-sundial-cannon",
+      "conceptId": "objects-sundial-cannon",
+      "term": "太阳报时炮",
+      "aliases": [
+        "Sundial cannon",
+        "Noon cannon"
+      ],
+      "explanation": "看太阳辨时间的仪器，也可以突然开炮。十九世纪一种水平日晷，把小炮、透镜、罗盘和刻度盘装在同一个底座上；透镜的位置经过调节，正午的阳光便会聚到炮的火门上，点燃装药，以响声报时。维多利亚博物馆收藏的一件约制于一八五〇年，底座还有三个调平螺丝和两个水准器，连镜片支架也可调。它一面靠影子显示时间，一面让太阳亲自完成点火，整个装置的圆盘直径只有约九厘米。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collections.museumsvictoria.com.au/items/413356",
+          "title": "Sundial - Horizontal Cannon, circa 1850 - Museums Victoria",
+          "checkedAt": "2026-10-22",
+          "evidence": "68—72行结构、正午聚焦点火；尺寸栏9厘米；水平日晷的影子功能由同类RMG正文可补源。"
+        },
+        {
+          "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-10594",
+          "title": "Cannon dial - Royal Museums Greenwich",
+          "checkedAt": "2026-10-22",
+          "evidence": "162—164行：刻度盘与三角晷针、正午透镜聚焦点燃小炮引信报时。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-bathing-machine",
+      "conceptId": "objects-bathing-machine",
+      "term": "下海更衣车",
+      "aliases": [
+        "Bathing machine"
+      ],
+      "explanation": "维多利亚女王去海里游泳时，曾把一间带轮子的更衣房直接推入水中。奥斯本庄园这台浴车有平铁轮胎，里面能换衣服，还装着接管的厕所；车轮沿带导槽的混凝土坡道下去，回来时用绞盘和钢丝绳拉上岸。穿着宽大浴衣的女王先走到有帘子的门廊，再沿台阶进入海里，从更衣到下水都能保持私密。看起来像一栋小房子搬家，实际是一件把海岸线也纳入更衣流程的器具。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.english-heritage.org.uk/visit/inspire-me/blog/blog-posts/five-ways-beach-fun-like-queen-victoria/",
+          "title": "5 Ways to do Beach Fun like Queen Victoria - English Heritage",
+          "checkedAt": "2026-10-22",
+          "evidence": "233—240行逐项确证铁轮、厕所、更衣、混凝土导槽、绞盘钢绳、帘廊与台阶。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-monowheel",
+      "conceptId": "objects-monowheel",
+      "term": "轮内摩托车",
+      "aliases": [
+        "Monowheel"
+      ],
+      "explanation": "一只大轮子把发动机和骑手整个圈在里面，这就是轮内摩托车。骑手并非坐在轮胎上方，而是待在圆周内部的小车架上，依靠身体倾斜转弯，低速时还容易不稳。莱恩汽车博物馆收藏的一辆麦克莱恩车型，用五马力发动机和离心离合器驱动，标称最高时速约六十四公里。设计者从上世纪七十年代就开始试验；馆方提示，骑到约二十四公里时速才可把脚放上脚踏，学会驾驭它需要耐心练习。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.lanemotormuseum.org/collection/motorcycles/item/mclean-monowheel-1998/",
+          "title": "McLean Monowheel – 1998 - Lane Motor Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "141—151行结构、倾斜转弯、低速不稳、15mph脚上踏、5hp和40mph。速度为近似换算。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-fuddling-cup",
+      "conceptId": "objects-fuddling-cup",
+      "term": "三连迷酒杯",
+      "aliases": [
+        "Fuddling cup"
+      ],
+      "explanation": "三只小杯连成一件器皿，端起来喝时，挑战却是把三个隔间的酒一起喝空，还不能洒出来。达拉斯艺术博物馆收藏的一件十七世纪锡釉陶器，就把这种酒席游戏藏在了杯体结构里。各隔间之间设有孔道，手指放在正确位置，酒才会流入正在饮用的那个隔间；拿法不对，三个杯口就会让事情变得麻烦。它的英文名字同时有使人困惑和使人喝醉的意思，酒杯既是盛酒用具，也是给同桌人出的操作难题。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://artsandculture.google.com/asset/fuddling-cup/WwFNHLoey4tf3A?hl=en",
+          "title": "Fuddling cup - Dallas Museum of Art, Google Arts & Culture",
+          "checkedAt": "2026-10-22",
+          "evidence": "馆方正文52行：三隔间同时清空不洒、指位和孔道，双关语；日期1650—1700，锡釉陶。与漏水谜壶孔洞阻饮结构不同。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-self-enema-syringe",
+      "conceptId": "objects-self-enema-syringe",
+      "term": "自助灌肠针筒",
+      "aliases": [
+        "Self-administering enema syringe"
+      ],
+      "explanation": "十九世纪的英国人，曾把一支弯得便于自己操作的金属针筒装进木盒，用来从直肠输入药液或泻剂。科学博物馆收藏的锡制活塞式例子，由伦敦米利金制作，年代在一八二二至一八四六年之间，器形特意让使用者能自行灌肠。针筒底部还能拆下换上小帽，馆方推测这样可把装好液体的针筒带走而不漏。它属于当时常见的给药器具，针筒和木盒都镶用了黄铜，今天看上去像一套需要先猜用途的随身工具。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co139767/pewter-enema-syringe-london-england-1822-1846",
+          "title": "Pewter enema syringe, London, England, 1822-1846 - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "53—55行自用活塞锡针筒、药液泻剂、小盖携带是馆方推测已保留；材料栏木盒黄铜。未声称疗效。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-helicron",
+      "conceptId": "objects-helicron",
+      "term": "螺旋桨汽车",
+      "aliases": [
+        "Helicron"
+      ],
+      "explanation": "车头转着一副螺旋桨，四只车轮负责在地面滚动，一九三二年的赫利克龙就是这样一辆靠空气推力前进的汽车。它由后轮转向，而且只有后轮装弹簧；螺旋桨直接接到发动机曲轴，整车没有普通汽车那样的变速器。二〇〇〇年，人们在法国一间谷仓里重新发现这辆被杂物掩埋的车，修复时保留了车架、轮子、方向盘等许多原件。原发动机已失，今天装的是雪铁龙发动机，馆藏仍能展示这套奇异的陆上推进方式。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.lanemotormuseum.org/collection/cars/item/helicron-1932/",
+          "title": "Helicron – 1932 - Lane Motor Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "137—147行：1932、谷仓2000、后轮转向与弹簧、桨连曲轴、无变速器及修复换装发动机。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-valmobile",
+      "conceptId": "objects-valmobile",
+      "term": "行李箱摩托车",
+      "aliases": [
+        "Valmobile"
+      ],
+      "explanation": "一只看似沉重的箱子，掀起座位、取出把手、横梁和前轮装上，就能变成一辆小摩托车，而且组装不用工具。法国发明家布福尔在上世纪五十年代初设计的瓦尔摩比尔，名字大意就是移动的行李箱，灵感来自伞兵使用的折叠摩托。折好后它仍约重三十四公斤，谈不上轻巧手提包。法国最初的生产商销量不佳，后来日本平野公司接手，销往日本和北美，最终这种箱式小车卖出了将近十万辆。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.lanemotormuseum.org/collection/motorcycles/item/valmobile-fold-away-scooter-1950/",
+          "title": "Valmobile Fold Away Scooter – 1950 - Lane Motor Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "133—136行：无工具展开动作、75lb、命名、Welbike灵感、法日生产转移与近10万；不沿用有争议的本馆原型车1950标签。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-nail-violin",
+      "conceptId": "objects-nail-violin",
+      "term": "钉子小提琴",
+      "aliases": [
+        "Nail violin"
+      ],
+      "explanation": "不用把弓拉在琴弦上，而是让它擦过一排金属钉子，也能演奏出像铃铛的声音。约一七四〇年，德国小提琴手约翰·维尔德发明了钉琴，后来出现多种形状。大都会艺术博物馆的一件十九世纪初藏品，半圆木框上竖着三十根高低不同的钉，旁边的纸签标明音名与唱名。自然音用直立钢钉，变化音的黄铜钉则稍向外倾，再在顶部折回。它借用了小提琴的弓法，真正发声的却是一圈排列好的金属柱。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/501564",
+          "title": "Nail Violin - The Metropolitan Museum of Art",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文10—12行：Johann Wilde约1740、弓擦钉铃音、半圆30钉、纸音签、自然音钢钉与变化音黄铜钉。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-pyrophone",
+      "conceptId": "objects-pyrophone",
+      "term": "火焰管风琴",
+      "aliases": [
+        "Pyrophone",
+        "Fire organ"
+      ],
+      "explanation": "一排玻璃管里燃烧的火焰，能成为乐器的发声部分。卡斯特纳在一八七三年取得专利的火焰琴，就利用氢火焰放在玻璃管下端可以产生音调的现象，把它做成外形类似管风琴的乐器。科学博物馆保存的实物连玻璃管高约一米五四，重五十公斤，木材、金属和玻璃一起构成这座会奏乐的装置。法国音乐家泰奥多尔·拉克还曾专门为它写曲，馆藏中留有火焰琴与钢琴合奏的乐谱，让火苗也有了自己的声部。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co5867",
+          "title": "Kastner's Pyrophone, 1873-1876 - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "55—58行火焰管音与专利；74行尺寸重量；122—125行Lack火焰琴钢琴二重奏乐谱，实物不是只停在设计。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-cane-violin",
+      "conceptId": "objects-cane-violin",
+      "term": "手杖小提琴",
+      "aliases": [
+        "Cane violin"
+      ],
+      "explanation": "一根绅士手杖的圆形外壳揭开以后，里面可能藏着小提琴和琴弓。大都会艺术博物馆的一件十九世纪德国产手杖琴，用桃花心木做细长外壳，金属圈把圆盖固定在琴身上；取下盖子，云杉面板和乌木指板才显露出来。琴弦靠小铁钉配合钥匙调音，外面仍有装饰性手柄。十八、十九世纪这类新奇手杖曾是时尚配件，除了乐器，人们还会把酒壶、伞等物品收进其中，让随手携带的一根木棍变成多用途道具。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/501560",
+          "title": "Cane Violin - The Metropolitan Museum of Art",
+          "checkedAt": "2026-10-22",
+          "evidence": "10—12行：手杖乐器时尚、桃花心木盖和金属圈、琴弓、云杉乌木、小铁钉钥匙调弦。作者只写德国产，未把attributed maker当定论。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-octobass",
+      "conceptId": "objects-octobass",
+      "term": "机械手指巨低音提琴",
+      "aliases": [
+        "Octobasse",
+        "倍低音提琴"
+      ],
+      "explanation": "一把高三米四八的提琴，琴颈上装着七根机械手指，演奏者通过七个操纵杆和一排七踏板，让金属连杆代替手指去压弦。巴黎音乐博物馆保存的维尧姆巨型低音提琴约制于一八五〇年，只有三根弦，调成哆、嗦、哆，琴箱本身就有两米多长。外形仍像被放大的小提琴，内部却藏了一套操作机构：踏板带动杆件，再控制琴颈里的机械手指。乐手面对它时，除了拉弓，还得像操作机器一样安排按弦。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://mimo-international.com/MIMO/doc/IFD/OAI_CIMU_ALOES_0161700/octobasse",
+          "title": "Octobasse - Musée de la musique, MIMO",
+          "checkedAt": "2026-10-22",
+          "evidence": "139—145行法文馆藏正文：3弦do sol do，7机械指7操纵杆7踏板连杆，3480mm总长2060mm琴箱，约1850 Vuillaume。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-tiger-dropping-sensor",
+      "conceptId": "objects-tiger-dropping-sensor",
+      "term": "虎粪传感器",
+      "aliases": [
+        "Seismic intruder detection device"
+      ],
+      "explanation": "越南战争时期，美方曾把监测人员活动的装置伪装成一坨老虎粪便，让它既融入环境，又使路过的人不想碰。中央情报局介绍，这种地震式入侵探测装置可以监测最远约三百米范围内的移动；设计者选择虎粪外形，是因为当地有虎，半个世纪前的数量也更多。看似被动物留在野外的痕迹，其实承担着收集移动信息的任务。设计者同时追求两个结果：普通得不引起怀疑，令人嫌弃得不愿捡走，外形本身就成了保护电子装置的一部分。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.cia.gov/stories/story/natural-spies-animals-in-espionage/",
+          "title": "Natural Spies: Animals in Espionage - CIA",
+          "checkedAt": "2026-10-22",
+          "evidence": "96—105行明确越南战争背景、300米、地震入侵探测器、虎粪外形融入环境且排斥兴趣。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-pigeon-whistle",
+      "conceptId": "objects-pigeon-whistle",
+      "term": "鸽子尾哨",
+      "aliases": [
+        "鸽哨",
+        "Ko-Tze"
+      ],
+      "explanation": "鸽子飞过头顶时，尾部可以背着一件竹子和葫芦做的小哨，让飞行本身带着声音。大都会艺术博物馆收藏的十九世纪末中国鸽哨，说明它们重量很轻，附在尾部，鸟在空中飞行时便能听见。装在信鸽上时，声音还能提醒收信人，负责送信的鸟已经到了。馆里的这些哨子刻有忠字，策展者推测可能是在呼应信鸽忠实归巢的特点。一件小乐器因此把天空变成声场，演奏者的工作则是继续往前飞。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/502252",
+          "title": "Ko-Tze - The Metropolitan Museum of Art",
+          "checkedAt": "2026-10-22",
+          "evidence": "11行：葫芦竹、轻量、尾部安装、飞行可闻、信鸽抵达提醒，忠字象征仅为推测已明示。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-perkins-tractors",
+      "conceptId": "objects-perkins-tractors",
+      "term": "金属驱病棒",
+      "aliases": [
+        "Perkins’ tractors"
+      ],
+      "explanation": "十八世纪末，美国医生珀金斯宣称，金属制的治疗棒能靠所谓磁性疗法缓解风湿等症状。英国的海加斯后来没有直接换一套更贵的金属，反而把木头涂上颜色冒充治疗棒，拿给五名患者试用，其中四人说感觉好些。再用真正的金属棒治疗同一批人，得到的结果仍相似。一八〇〇年出版的相关著作记下了这次试验。金属棒由此成为早期安慰剂对照的历史案例，患者的主观改善，并不能替卖家的特殊金属理论作证。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://wellcomecollection.org/works/rxjv2n3y",
+          "title": "Of the imagination, as a cause and as a cure of disorders of the body - Wellcome Collection",
+          "checkedAt": "2026-10-22",
+          "evidence": "馆藏说明Notes 41—42行：1790s Perkins磁性主张，5人涂色木棒4人主诉改善，金属棒同结果；著作1800。区分主张和疗效。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-antimony-cup",
+      "conceptId": "objects-antimony-cup",
+      "term": "催吐锑杯",
+      "aliases": [
+        "Antimony cup"
+      ],
+      "explanation": "把葡萄酒在杯里放上一天，杯子本身就会向酒里释放少量金属；十七世纪的一些人，正是为了这一步才使用锑杯。按照当时的体液观念，喝下这样的酒造成出汗与呕吐，可以排除被认为致病的多余体液。科学博物馆保存的一只锑杯，还配着压有金色装饰的皮套，像件值得仔细保管的随身宝物。实际参与作用的是有毒的锑，难受的反应却被赋予治疗意义，一只饮具也就同时承担了配药工具的角色。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co128569/antimony-cup-with-leather-case-europe-1601-1700",
+          "title": "Antimony cup with leather case, Europe, 1601-1700 - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "56—58行：锑有毒、17世纪体液观念、葡萄酒24小时金属溶入、催汗催吐；皮套金色装饰。未声称其能治疗疾病。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-insectothopter",
+      "conceptId": "objects-insectothopter",
+      "term": "蜻蜓窃听机",
+      "aliases": [
+        "Insectothopter"
+      ],
+      "explanation": "上世纪七十年代，中央情报局造过一只由小发动机拍动翅膀的假蜻蜓，打算让它带着窃听设备接近目标，再用激光束引导飞行。设计最初考虑熊蜂，后来觉得蜂的飞法不适合，而且靠近人会招来驱赶，便换成蜻蜓外形。原型能在六十秒内飞二百米，却败在普通天气上：超过每小时约八公里的侧风，就会把它吹离航线。因此这只机器昆虫始终没有投入实务使用，伪装得像虫并不代表已经学会虫子的飞行本事。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.cia.gov/stories/story/natural-spies-animals-in-espionage/",
+          "title": "Natural Spies: Animals in Espionage - CIA",
+          "checkedAt": "2026-10-22",
+          "evidence": "80—86行：1970s、蜂改蜻蜓原因、小发动机拍翼、激光引导、200米60秒、侧风>5mph失败未实用。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-robot-catfish",
+      "conceptId": "objects-robot-catfish",
+      "term": "间谍鲶鱼",
+      "aliases": [
+        "Charlie the robotic catfish"
+      ],
+      "explanation": "查理和夏琳是两条曾为情报研究制造的机械鲶鱼，名字像宠物，任务设想却是悄悄把水样带回来。中央情报局研制它们来研究水下机器人，操作者用无线电手持设备控制，项目探索了速度、深度、机动性和自主控制。官方举出的设想是，让查理逆流游到需要调查的位置采水，再把样本交回岸上的人员，以检查水中是否有核排放或生化物质。来源描述的是研发能力和预想用途，并没有公布一次已经成功完成的秘密取样行动。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.cia.gov/stories/story/natural-spies-animals-in-espionage/",
+          "title": "Natural Spies: Animals in Espionage - CIA",
+          "checkedAt": "2026-10-22",
+          "evidence": "71—76行：两条UUV鲶鱼名字、无线电手持设备、研发能力、取样任务举例为could deploy，保留设想不称成功实战。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-dead-drop-rat",
+      "conceptId": "objects-dead-drop-rat",
+      "term": "死鼠情报箱",
+      "aliases": [
+        "Dead drop rat"
+      ],
+      "explanation": "冷战时期，交接钱或胶卷可以用上一只死老鼠。中央情报局曾把鼠体内部变成藏物空间，装下一叠钱或一卷胶片，再从车窗扔到约好的地点，由另一方稍后取走，这样接头双方就不必面对面。真正麻烦的旁观者可能是猫，工作人员还用辣椒酱防止尸体被野猫叼走。外人眼里是应该绕开的死鼠，情报人员眼里却是临时容器；它运送的是物品，老鼠本身不需要活着受训，也没有负责窃听的电子耳朵。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.cia.gov/stories/story/trigon-spies-passing-in-the-night/",
+          "title": "TRIGON: Spies Passing in the Night - CIA",
+          "checkedAt": "2026-10-22",
+          "evidence": "83—88行：死信箱避免会面、鼠体容量装钱胶卷、车窗扔约定地点、辣椒酱防猫。高层历史介绍，无制作步骤。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-tree-stump-bug",
+      "conceptId": "objects-tree-stump-bug",
+      "term": "树桩窃听器",
+      "aliases": [
+        "Tree stump listening device"
+      ],
+      "explanation": "一截安静留在树林里的树桩，也曾被做成接收军事信号的伪装设备。国际间谍博物馆保存的一件七十年代中央情报局器具，用太阳能供电，外观模仿树桩，再被放到莫斯科附近的一片林地。它内部的装置截收的是邻近苏联空军基地的雷达和通信信号。对路过的人而言，场景只是树林里多了一截木头；对布置者而言，这个外壳让电子侦收设备可以待在目标附近，把环境中的普通物体变成情报收集位置。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.spymuseum.org/exhibition-experiences/about-the-collection/collection-highlights/tree-stump-listening-device/",
+          "title": "Tree Stump Listening Device - International Spy Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "49、64行：1970s CIA、太阳能、树桩外观、莫斯科附近林地、邻近苏军空军基地雷达通信截收。未编造卫星转发。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-hollow-nickel",
+      "conceptId": "objects-hollow-nickel",
+      "term": "空心五分硬币",
+      "aliases": [
+        "Hollow nickel"
+      ],
+      "explanation": "一九五三年，纽约一名送报少年收到一枚五美分硬币，觉得它的声音和重量有点奇怪；硬币掉到地上竟然分成两半，里面露出一张密密麻麻写着数字的微型照片。联邦调查局检查后发现，硬币两面分别来自不同年份的真币，字母里还藏着一个可以帮助撬开的小孔。照片上是多栏五位数，看似普通零钱的外壳就这样裹着一份加密消息。调查持续数年，后来才与苏联间谍案连接起来，小额找零意外打开了一条情报线索。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.fbi.gov/history/cases-and-criminals/hollow-nickel-rudolph-abel",
+          "title": "Hollow Nickel/Rudolf Abel - FBI",
+          "checkedAt": "2026-10-22",
+          "evidence": "47—94行：报童、异常重量声音、摔分两半、微型数字照片、不同年代币面、小孔、1953—1957追查；后续联系间谍案。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-winslow-soothing-syrup",
+      "conceptId": "objects-winslow-soothing-syrup",
+      "term": "温斯洛安婴糖浆",
+      "aliases": [
+        "Mrs. Winslow’s Soothing Syrup"
+      ],
+      "explanation": "十九世纪广告里，漂亮母亲抱着安静婴儿，旁边卖的是号称能让小孩平静、清洁牙齿、清新口气并缓解便秘的温斯洛糖浆。让婴儿安静下来的配方，却曾含有危险数量的吗啡和酒精，父母往往不知道成分，有些婴儿服后再没有醒来。美国缉毒局博物馆同时保留药瓶和广告卡，展示这种无须处方的成药如何包装自己。即使后来受到医学界谴责，这款糖浆仍一直在货架上卖到二十世纪三十年代。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://museum.dea.gov/museum-collection/collection-spotlight/artifact/soothing-syrup",
+          "title": "Mrs. Winslow’s Soothing Syrup - DEA Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "45—49行宣传声称、吗啡酒精、父母不知成分、婴儿死亡、AMA谴责仍售至1930s；不把各年代配方全视同。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-stroh-violin",
+      "conceptId": "objects-stroh-violin",
+      "term": "喇叭小提琴",
+      "aliases": [
+        "Stroh violin"
+      ],
+      "explanation": "小提琴身上伸出一只像留声机的大喇叭，琴体则缩得很精简，这种乐器曾是早期录音的实用工具。电气录音出现之前，普通弦乐器向四周发出的声音很难被设备收集，施特罗琴便用大漏斗把弦音集中朝向录音留声机的喇叭口。它本身没有用电，发明时间在十九世纪末到二十世纪初，后来由发明者的儿子及埃文斯公司生产。电录音普及以后，它的优势消失了，精简琴身的外形却影响了后来的电小提琴。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/503726",
+          "title": "Stroh Violin - The Metropolitan Museum of Art",
+          "checkedAt": "2026-10-22",
+          "evidence": "10—11行：非电乐器、录音定向漏斗、1899—1901发明、生产者、电录音淘汰与后来电提琴外形启发。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-kleroterion",
+      "conceptId": "objects-kleroterion",
+      "term": "石头抽签任官机",
+      "aliases": [
+        "Kleroterion"
+      ],
+      "explanation": "古雅典选一些公职人员和法庭成员时，会让写着公民名字的小牌插进石板上的成排槽位，再由装置放出黑白小块，决定哪一排被选中。法国研究团队依据古代文献与残件复原的版本，用白块选中一排人，黑块则让那排离开；若八十五人排成十七行、每行五人，要从中选十五人，就准备三个白块与十四个黑块。抽取在大家面前进行，使分配过程能被看见。复原结构仍有推测部分，完整古代原机尚未出土。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://news.cnrs.fr/videos/the-machine-that-selected-the-citizens-of-athens",
+          "title": "The Machine that Selected the Citizens of Athens - CNRS News",
+          "checkedAt": "2026-10-22",
+          "evidence": "118—128行用途及完整原机未出土与复原限度；146—183行铭牌、17x5=85、三白十四黑选15、逐行公开抽签。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-prison-face-cap",
+      "conceptId": "objects-prison-face-cap",
+      "term": "囚犯遮脸帽",
+      "aliases": [
+        "Pentonville prisoner mask"
+      ],
+      "explanation": "十九世纪伦敦彭顿维尔监狱里，男性囚犯统一穿棕衣，还戴一种帽檐垂到脸前的棕布帽，只留两个洞让眼睛露出来。一八六二年梅休与宾尼的监狱调查，把这件装束画了下来；当时的说法是，遮住脸可以不让囚犯在羞耻中被别人认出。作者却认为这像舞台上的化装，因为不少囚犯之后会被流放或服苦役，在后续刑期中并不继续蒙面。为了防止日后被辨认而设的帽子，因此在同一套处罚流程中失去了逻辑。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.londonmuseum.org.uk/collections/v/object-798641/convicts-male-convict-at-pentonville-prison-and-female-convict-at-millbank-prison/",
+          "title": "Convicts: male convict at Pentonville Prison and female convict at Millbank Prison - London Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "143—145行：棕布帽、双眼孔、掩羞防辨认理由；Mayhew/Binny批评后续流放苦役不再蒙脸。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-objects-tantalus",
+      "conceptId": "objects-tantalus",
+      "term": "锁酒架",
+      "aliases": [
+        "Tantalus"
+      ],
+      "explanation": "两只半球形玻璃酒瓶拼在一起，再被银架和锁环固定，精致酒具就多了一道阻止随意取用的机关。康宁玻璃博物馆收藏的一套二十世纪早期坦塔罗斯酒架，瓶颈有银圈和盖子，里面另配玻璃塞；银架两侧的活动臂环住瓶颈，上面竖着三角形提手。瓶身刻的内容还偏偏与喝酒有关，一边是桌旁有酒杯的修士，另一边是修士直接从酒瓶饮酒。看得到饮酒图案，也看得到真正的酒瓶，取瓶却要先处理扣住它们的架子。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://glasscollection.cmog.org/objects/33822/tantalus",
+          "title": "“Tantalus” Set - Corning Museum of Glass",
+          "checkedAt": "2026-10-22",
+          "evidence": "44—47行：半球两瓶、银架锁环、活动臂瓶颈、三角提手、修士酒杯/饮瓶雕刻。未引无来源神话词源。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-worm-charming",
+      "conceptId": "outrageous-customs-worm-charming",
+      "term": "蚯蚓召唤赛",
+      "aliases": [
+        "Worm Charming"
+      ],
+      "explanation": "英国威拉斯顿的参赛者各守着一块三米见方的土地，半小时内设法让地下的蚯蚓自己出来。规则允许演奏任何音乐，也允许把园艺叉插入土中，用手或木条制造振动，却不许直接挖虫；连浇水都被列为使用刺激物。怕摸蚯蚓的人可以指定助手代抓，只能收集自家地块的虫。最终按数量决胜，平手再召唤五分钟；被召出来的蚯蚓要等当天鸟儿归巢后再放生。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The Official Rules — Willaston World Worm Charming Championships",
+          "url": "https://fwsawillaston.wixsite.com/wormcharming/the-rules",
+          "checkedAt": "2026-10-22",
+          "evidence": "规则1–18：地块、时间、仅振动、水禁令、助手、平局与夜间放生。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-snail-racing",
+      "conceptId": "outrageous-customs-snail-racing",
+      "term": "蜗牛赛跑",
+      "aliases": [
+        "Snail Racing"
+      ],
+      "explanation": "英国诺福克郡康厄姆的世界蜗牛赛，把铺着白布的桌子当赛场，让蜗牛从内圈爬向相距十三英寸的外圈。裁判不是喊快跑，而是喊准备、就绪、慢！他还负责给赛道补水，保持蜗牛喜欢的湿润环境。选手能自带蜗牛，也能租用主办方的参赛蜗牛；体形巨大的外国蜗牛不准参赛。这里的纪录是名叫阿奇的蜗牛在一九九五年用两分钟走完赛程，赛事收入用于当地教堂。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Snail Racing World Championships",
+          "url": "https://snailracing.world/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Racing Background与History：白布圆圈13英寸、口令、浇水、禁巨型蜗牛、Archie纪录及募款。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-orange-battle",
+      "conceptId": "outrageous-customs-orange-battle",
+      "term": "橙子大战",
+      "aliases": [
+        "Battle of the Oranges"
+      ],
+      "explanation": "意大利伊夫雷亚的嘉年华会把广场变成水果战场：九支步行队伍各占固定地盘，向轮流驶入的马车投掷橙子，车上的投手也还击。这场战斗从星期日持续到忏悔星期二，表现的是城市反抗暴君的故事，步行者代表起义民众，马车队代表封建军队。各队有自己的名字和历史，其中黑桃王牌队创立于一九四七年。投掷不是随意朝整个城市乱打，而是围绕固定队伍和广场展开。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Battle of the Oranges — Fondazione dello Storico Carnevale di Ivrea",
+          "url": "https://storicocarnevaleivrea.it/en/chi-siamo/il-carnevale/battaglia-delle-arance/",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文：三天、九步行队、马车投手、叛乱象征与固定广场。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-sardine-burial",
+      "conceptId": "outrageous-customs-sardine-burial",
+      "term": "沙丁鱼葬礼",
+      "aliases": [
+        "Burial of the Sardine"
+      ],
+      "explanation": "特内里费岛圣克鲁斯的狂欢节，会为一条鱼组织热闹的送葬队伍。成千上万的人扮成寡妇和哀悼者，跟着装扮成教会人物、鬼魂或其他精灵的人穿行街道。他们为狂欢节拟人化的遗体送别，寡妇们夸张地痛哭，甚至沿路表演昏倒。沙丁鱼或当地标志性的竹荚鱼成了这场告别的主角，仪式用越轨、讽刺和玩闹的方式表现哀伤，整个城市像在替刚结束的欢乐办一场闹哄哄的葬礼。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Sardine Burial — Tenerife Tourism",
+          "url": "https://www.webtenerife.co.uk/what-to-do/carnival/events/sardine-burial/",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文283–285：鱼、寡妇送葬、鬼魂装扮、哭泣昏倒及讽刺告别。"
+        }
+      ]
+    },
+    {
+      "id": "wc-oostduinkerke-horse-shrimp",
+      "conceptId": "custom-oostduinkerke-horse-shrimp",
+      "term": "骑马捕虾",
+      "aliases": [
+        "Horseback Shrimp Fishing"
+      ],
+      "explanation": "比利时奥斯特敦刻尔克的捕虾人会跨上挽马，把北海虾从海边拖回来。开工时机要看潮汐表，身后约七米宽的尼龙网由两块侧板撑开，底部的链条拖过沙地，浮子则托起上沿。渔民和马的搭档关系沿着家庭传承，当地海岸的弯曲形状、交替的沙洲和较暖潟湖，也为虾提供了合适环境。过去厚重的油布外套如今多换成轻便黄衣，传统油布帽仍会在示范活动中出现。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Shrimp fishing on horseback: a UNESCO World Heritage Site — Focus on Belgium",
+          "url": "https://focusonbelgium.be/en/lifestyle/shrimp-fishing-horseback-unesco-world-heritage-site",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文29、35–39：马捕虾、潮汐、7米网、链条浮子、衣着及地貌。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-sailing-stones",
+      "conceptId": "outrageous-science-sailing-stones",
+      "term": "会走路的石头",
+      "aliases": [
+        "Sailing Stones"
+      ],
+      "explanation": "死亡谷一片干涸湖床上，石头会留下长长的拖痕，有些轨迹还互相平行。研究人员给外运来的石块装上定位器，等到浅水在冬夜结成薄冰：白天冰片破裂，轻风推动浮冰，浮冰再推着露出水面的石头滑过软泥。现场观测的冰层不到五毫米厚，石头每分钟只走几米，远看很难发现正在移动。一次观察中，相隔数个足球场的石头同时启程，等水退去，泥地就保存了这场集体散步的路线。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The Racetrack — Death Valley National Park",
+          "url": "https://www.nps.gov/deva/planyourvisit/the-racetrack.htm",
+          "checkedAt": "2026-10-22",
+          "evidence": "Moving Rocks更新段33–44：GPS、薄冰推动、速度、同步移动。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-blood-falls",
+      "conceptId": "outrageous-science-blood-falls",
+      "term": "血瀑",
+      "aliases": [
+        "Blood Falls"
+      ],
+      "explanation": "南极泰勒冰川末端会间歇流出富含铁的卤水，遇到空气中的氧后形成铁氧化物，把白色冰崖和冻住的水流染成红橙色。看上去像冰川伤口的地方，其实连着冰下和冰内的盐水系统。研究人员用雷达寻找通路，提出受压的冰下卤水通过裂隙注入冰体，再从表面裂缝释放。高盐度降低冻结温度，部分水冻结时释放的热也能温暖附近冰体，使这条冰川在严寒环境中仍保有会流动的液态盐水。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "An englacial hydrologic system of brine within a cold glacier: Blood Falls, McMurdo Dry Valleys, Antarctica — Journal of Glaciology",
+          "url": "https://www.cambridge.org/core/journals/journal-of-glaciology/article/an-englacial-hydrologic-system-of-brine-within-a-cold-glacier-blood-falls-mcmurdo-dry-valleys-antarctica/B5C197906AD54619AEA26068AD92989A",
+          "checkedAt": "2026-10-22",
+          "evidence": "Abstract及Introduction、Conclusions：富铁卤水接触氧后氧化物沉淀；RES裂隙模型、盐浓缩与潜热保持液态。已阅读论文正文，机制模型保留提出措辞。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-underwater-waterfall",
+      "conceptId": "outrageous-science-underwater-waterfall",
+      "term": "海底瀑布",
+      "aliases": [
+        "Denmark Strait Cataract"
+      ],
+      "explanation": "冰岛与格陵兰岛之间的丹麦海峡，水面下藏着一道规模惊人的瀑布。来自北方海域的寒冷海水遇上更暖的海水，因为密度较大而沉入下方，再越过海底地形的陡坎，形成巨大的下倾水流。美国海洋与大气管理局给出的流量估计约为每秒三百五十万立方米，庞大的水流却整个发生在海面以下。这样的冷水下沉还参与全球海洋输送水和热量的环流，把表层与深层的海水连接起来，也影响营养物质的循环。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Where is Earth’s Largest Waterfall? — NOAA",
+          "url": "https://oceanservice.noaa.gov/facts/largest-waterfall.html",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文及Infographic：丹麦海峡冷水密度下沉、海底落差、海面不可见、全球环流。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-mars-blue-sunset",
+      "conceptId": "outrageous-science-mars-blue-sunset",
+      "term": "火星蓝日落",
+      "aliases": [
+        "Martian Blue Sunset"
+      ],
+      "explanation": "红色星球的日落却常在太阳附近泛出蓝色。火星空气里的细尘会以特殊方式影响不同颜色的光，让蓝光比波长更长的颜色更有效地穿过大气。毅力号在二〇二一年十一月九日拍过一次日落，画面却比典型的蓝色日落柔和，因为当时大气中尘埃较少。那张照片经过色彩校准和白平衡处理，以去除相机本身的影响；换一天、换一种尘埃状况，同一颗行星的傍晚也会换副颜色。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Mastcam-Z’s First Martian Sunset — NASA",
+          "url": "https://science.nasa.gov/resource/mastcam-zs-first-martian-sunset/",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文246–247：蓝色日落、细尘光传播、2021拍摄、尘少颜色较弱及校准。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-ijen-blue-fire",
+      "conceptId": "outrageous-science-ijen-blue-fire",
+      "term": "伊真蓝火",
+      "aliases": [
+        "Ijen Blue Fire"
+      ],
+      "explanation": "印度尼西亚东爪哇的伊真火山口，黑夜里会出现像电光一样的蓝色火焰。热的含硫气体从地面裂隙逸出，接触空气中的氧气后燃烧，才形成这种颜色；看见的是燃烧发光的气体。蓝火在黑暗中显眼，天亮后便难以辨认，附近又有一片碧绿的强酸性火口湖。当地还保留人工采硫作业，矿工在崎岖的火口地形中开采并搬运硫磺，让同一片火山地景同时出现蓝焰、彩色湖水和肩挑矿石的人。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The Magic of Kawah Ijen: A Journey to Indonesia’s Blue Fire — Indonesia Ministry of Tourism",
+          "url": "https://www.indonesia.travel/sg/en/travel-ideas/adventure/the-magic-of-kawah-ijen-a-journey-to-indonesias-blue-fire",
+          "checkedAt": "2026-10-22",
+          "evidence": "138–163：含硫气体燃烧、夜间、酸湖及人工采硫；不用页面可疑面积与全球仅两处说法。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-singing-sand",
+      "conceptId": "outrageous-science-singing-sand",
+      "term": "鸣沙",
+      "aliases": [
+        "Singing Sand"
+      ],
+      "explanation": "沙丘上有时会响起管风琴低音或远处飞机般的嗡鸣。死亡谷尤里卡沙丘的沙完全干燥时，沙粒从陡峭坡面成片滑落，就可能让整座沙丘像低沉乐器一样发声。哪怕湿气低到手摸不出来，沙丘也可能安静下来。美国国家公园的介绍把声音与沙粒平滑表面、彼此滑动摩擦联系起来，同时保留机制尚未完全理解的说明。这片沙丘虽然面积不大，最高处却比西侧干湖床高出约二百米。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Eureka Dunes — Death Valley National Park",
+          "url": "https://www.nps.gov/deva/planyourvisit/eureka-dunes.htm",
+          "checkedAt": "2026-10-22",
+          "evidence": "Highest Dunes及Singing Sand：680英尺、干沙滑落声如管风琴飞机、湿润沉默、机制不完全确定。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-lake-nyos",
+      "conceptId": "outrageous-science-lake-nyos",
+      "term": "湖水喷气",
+      "aliases": [
+        "Lake Nyos Gas Eruption"
+      ],
+      "explanation": "喀麦隆的尼奥斯湖坐在火山口里，湖底会慢慢积蓄来自地下的二氧化碳。气体长期溶在深水中，达到危险状况后能突然大量逸出，变成顺山谷蔓延的窒息气云。一九八六年的灾难就以这种方式夺走了大量居民和牲畜的生命，湖水没有喷出常见的炽热熔岩。后来科学家给湖安装排气管，让深层气体以较稳定的速度通过管道和喷泉释放；二〇〇一年启用后，又在二〇一一年增加了两根管。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Lake Nyos, Cameroon — NASA Earth Observatory",
+          "url": "https://science.nasa.gov/earth/earth-observatory/lake-nyos-cameroon-86244/",
+          "checkedAt": "2026-10-22",
+          "evidence": "267–273：1986CO2、岩浆来源经地下水积累、2001排气及2011增管。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-penitentes",
+      "conceptId": "outrageous-science-penitentes",
+      "term": "忏悔者冰塔",
+      "aliases": [
+        "Penitentes"
+      ],
+      "explanation": "安第斯高原上会出现一整片薄而尖的冰雪刀片，被称作忏悔者冰塔。它们由水冰构成，可以长到几米高，升华过程参与塑造这种奇怪表面：冰直接变成水汽，不必先化成流水。新视野号后来在冥王星赤道附近拍到更巨大的刀刃状地形，材质主要是甲烷冰，巨大尖刃会在地面投下醒目的阴影。科学家把两种环境中的升华雕刻作比较，地球上的矮冰刃便成了理解遥远冰世界的线索。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Pluto’s Bladed Terrain — NASA Astronomy Picture of the Day",
+          "url": "https://apod.nasa.gov/apod/ap171005.html",
+          "checkedAt": "2026-10-22",
+          "evidence": "Explanation：安第斯水冰、数米、升华、冥王星甲烷冰刀刃；使用比较而非认定细节完全相同。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-snow-rollers",
+      "conceptId": "outrageous-science-snow-rollers",
+      "term": "天然雪卷",
+      "aliases": [
+        "Snow Rollers"
+      ],
+      "explanation": "雪地里偶尔会出现一卷卷小草捆似的圆筒，旁边没有人的脚印，却拖着一道扫开积雪的路线。它们是风制造的雪卷：地面先有冰层或硬雪壳，上面再落下足够湿的新雪，阵风把一小块雪推动，沿途不断卷进更多雪。风太弱推不动，太强又难以成形，合适的条件必须凑在一起。雪卷会一直长到过重，或遇到风再也推不过的坡度才停下，较大的卷体长度能达到一米多。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Snow rollers in Wiltshire — Royal Meteorological Society",
+          "url": "https://www.rmets.org/news/snow-rollers-wiltshire",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文11–17：地表冰壳、湿雪阵风、滚动卷雪、停止条件、最大约1.5米。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-hair-ice",
+      "conceptId": "outrageous-science-hair-ice",
+      "term": "冰头发",
+      "aliases": [
+        "Hair Ice"
+      ],
+      "explanation": "潮湿腐木在略低于零度的空气中，可能长出细软的白色冰丝，看起来像木头戴了棉花糖假发。这种冰需要湿润阔叶树腐木、潮湿空气和特定真菌共同出现，条件相当挑剔。早在一九一八年，提出大陆漂移学说的魏格纳就注意到冰丝只长在湿死木上，并猜测背后有真菌帮忙；到二〇一五年，研究者才把这一现象与一种名为Exidiopsis effusa的真菌联系起来，确认了那条早年的线索。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "What is frost and ice? — Met Office",
+          "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/frost-and-ice",
+          "checkedAt": "2026-10-22",
+          "evidence": "Hair ice段305–307：腐木冰丝、条件、1918猜测、2015真菌确定。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-shin-kicking",
+      "conceptId": "outrageous-customs-shin-kicking",
+      "term": "踢胫骨赛",
+      "aliases": [
+        "Shin-kicking"
+      ],
+      "explanation": "英国多佛山的传统运动会里，最激烈的项目之一是两个人抓住对方肩膀，反复踢对手小腿前侧，设法让他倒地。选手穿着过去牧羊人样式的白色罩衫，可以往裤腿里塞稻草保护胫骨。裁判还得确认倒地之前确实发生了踢胫动作，不能光靠把人摔下去冒充胜利。这项比赛可追溯至十七世纪初，和拔河、跑步、摔跤同场举行；活动最后又以篝火、烟花和火把队伍收尾。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The Cotswold Olimpicks at Dover’s Hill — National Trust",
+          "url": "https://www.nationaltrust.org.uk/visit/gloucestershire-cotswolds/dovers-hill/the-cotswold-olimpicks-at-dovers-hill",
+          "checkedAt": "2026-10-22",
+          "evidence": "119–129：抓肩踢胫、裁判先踢后摔、白罩衫稻草防护、17世纪、其他活动及结尾。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-nettle-eating",
+      "conceptId": "outrageous-customs-nettle-eating",
+      "term": "生吃荨麻赛",
+      "aliases": [
+        "World Stinging Nettle Eating Championship"
+      ],
+      "explanation": "英国多塞特的一场世界锦标赛，让参赛者在一小时里尽量吃下更多生荨麻叶。主办方把荨麻剪成约六十厘米的长段，前一天采好泡在浴缸中清洗保鲜；选手要把一根茎上的叶子全部吃光，裁判最后检查、累计剩下的光杆长度。参赛时可以喝水或把叶片卷紧、揉成团、蘸饮料再吃，但呕吐会被取消资格。于是冠军成绩不是一盘菜的重量，而可能是二十多米长的一串荨麻茎。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Unstung hero: steely-mouthed Brit wins the nettle-eating crown two years straight — Guinness World Records",
+          "url": "https://www.guinnessworldrecords.com/news/2026/8/unstung-hero-steely-mouthed-brit-wins-the-nettle-eating-crown-two-years-straight",
+          "checkedAt": "2026-10-22",
+          "evidence": "69–88：一小时生叶、2英尺茎、浴缸、检查裸茎、允许饮料、呕吐淘汰及2025实测长度。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-peashooting",
+      "conceptId": "outrageous-customs-peashooting",
+      "term": "吹豌豆锦标赛",
+      "aliases": [
+        "Peashooting"
+      ],
+      "explanation": "英国威彻姆的世界吹豌豆赛，要求选手用嘴把豌豆吹出管子，打中十二英尺外的靶。吹管最长十二英寸，不能共用，弹药也只能用主办方当天出售的豌豆，裁判会抽查；靶上的内、中、外圈分别计五、三、一分。传统组只准普通管子，公开组却允许低功率激光瞄准装置。淘汰赛遇到平手，还要追加突然死亡式的豌豆对决，直到双方发射数量相等且分数出现明确胜负。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The World Peashooting Championship Rules",
+          "url": "https://worldpeashoot.com/peashoot-rules/",
+          "checkedAt": "2026-10-22",
+          "evidence": "General rules1–5、11–24与Category rules：口吹、尺寸专用弹药、靶距计分、传统和激光公开组、pea-off。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-stone-skimming",
+      "conceptId": "outrageous-customs-stone-skimming",
+      "term": "打水漂世界赛",
+      "aliases": [
+        "World Stone Skimming Championships"
+      ],
+      "explanation": "苏格兰伊斯代尔岛把旧采石场里的水面变成打水漂世界赛的赛场。参赛石必须是岛上天然形成的板岩，最宽处不能超过三英寸；每个人只投三次，出手时双脚还必须留在平台上，不能助跑。石头至少在水上弹跳两次才算有效，但决定冠军的不是弹跳次数，而是石头沉没前走了多远。裁判会举红绿圆牌表示无效或有效，这种随手玩的水边游戏因此有了选石、站姿、测距和判罚的一整套程序。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "About — World Stone Skimming Championships",
+          "url": "https://www.stoneskimming.com/about/",
+          "checkedAt": "2026-10-22",
+          "evidence": "History、Rules Stones/Attempts/Judging/Signals：采石场、天然岛板岩、3英寸三投、至少二跳测距、双脚站台、红绿牌。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-egg-throwing",
+      "conceptId": "outrageous-customs-egg-throwing",
+      "term": "扔鸡蛋冠军赛",
+      "aliases": [
+        "World Egg Throwing Championships"
+      ],
+      "explanation": "英国斯沃顿的扔鸡蛋世界赛要两人搭档，一个投、一个接，先相隔十米站好，每成功接住一次就继续拉开距离；鸡蛋掉地或破裂即被淘汰。赛事还安排十人静态接力，让十二枚鸡蛋依次沿每人相隔十米的队列传递，拼速度同时计算破蛋罚时。同一天另有重力投石机扔蛋，甚至举行鸡蛋轮盘：两人面对六枚鸡蛋，其中五枚熟、一枚生，把一颗普通鸡蛋变成了整天比赛的主角。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Egg Roulette and Egg Throwing Competition — Swaton Vintage Day",
+          "url": "https://swatonvintageday.com/egg-throwing/",
+          "checkedAt": "2026-10-22",
+          "evidence": "官方节目13:00–15:30：轮盘6中1生、搭档10米加距破蛋淘汰、接力、投石机。未加入正文未说明的轮盘敲头步骤。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-el-colacho",
+      "conceptId": "outrageous-customs-el-colacho",
+      "term": "跨婴儿节",
+      "aliases": [
+        "El Colacho"
+      ],
+      "explanation": "西班牙卡斯特里略德穆尔西亚的科拉乔节，会把过去一年出生的婴儿放在街上的床垫上，让一个戴黄色面具、穿鲜艳服装的人从他们上方跃过。这个人物代表邪恶，走在宗教队伍前面，跳跃象征邪恶逃离善，从而远离孩子。当地家庭把孩子带来接受祝福，整周还有人物在村中巡行、居民向他叫阵的活动。这个已有四百多年历史的角色，连面具脸都出现在村庄的纹章上。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "La fiesta de un pueblo de Burgos en la que saltan por encima de bebés — RTVE",
+          "url": "https://www.rtve.es/play/noticias/20251026/fiesta-colacho-pueblo-burgos-saltan-bebes/16781145.shtml",
+          "checkedAt": "2026-10-22",
+          "evidence": "25–34：四色服黄面、上年婴儿床垫、跳跃宗教善恶象征、巡行、400年及村徽。未把仪式象征写为实际医疗效果。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-tomatina",
+      "conceptId": "outrageous-customs-tomatina",
+      "term": "番茄大战",
+      "aliases": [
+        "La Tomatina"
+      ],
+      "explanation": "西班牙布尼奥尔每年八月最后一个星期三，会让大批人挤进街道互扔番茄。大战前先有另一场挑战：广场立起涂满肥皂的高杆，顶端挂着火腿，勇者试着往上爬，阳台上的人还会向下泼水。发令声响起后，运着番茄的卡车陆续驶入，先由车上人开投，再卸下整车弹药供人群取用，街面很快变红。第二次发令声宣布战斗结束，接下来便轮到水管给满身番茄汁的参与者冲洗。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "La Tomatina tomato festival — Spain.info",
+          "url": "https://www.spain.info/en/calendar/la-tomatina/",
+          "checkedAt": "2026-10-22",
+          "evidence": "70–74：八月末周三、肥皂杆火腿、阳台泼水、卡车弹药两次发令及水管清洗；不使用每年无中断说法。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-gurning",
+      "conceptId": "outrageous-customs-gurning",
+      "term": "鬼脸世界赛",
+      "aliases": [
+        "Gurning"
+      ],
+      "explanation": "英国埃格勒蒙特的传统集市会举行一场认真评出冠军的扮丑脸比赛，选手靠扭曲面部表情争胜。如今有男子、女子和少年组，成年组赢家获得世界鬼脸冠军头衔。这场赛事甚至闹过颁奖乌龙：一九九七年，裁判把冠军给了叫彼得·克利福德的演员，赛后才说原本想颁给另一位彼得，也就是彼得·杰克曼。最后隔了几个月，奖杯在一档电视节目上交给了真正被选中的那个人。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Egremont Crab Fair — Hall of Fame",
+          "url": "https://egremontcrabfair.com/halloffame/index.html",
+          "checkedAt": "2026-10-22",
+          "evidence": "官方荣誉榜Notes第164行直接说明1997误颁与数月后电视节目纠正。"
+        },
+        {
+          "title": "Gurning Festival (Egremont Crab Fair) — Visit Lake District",
+          "url": "https://www.visitlakedistrict.com/whats-on/challenge-events/gurning-festival-egremont-crab-fair",
+          "checkedAt": "2026-10-22",
+          "evidence": "226–227正文：扮怪脸、男女少年组及成年世界冠军头衔。"
+        }
+      ]
+    },
+    {
+      "id": "wc-qeswachaka-renewal",
+      "conceptId": "custom-qeswachaka-renewal",
+      "term": "克斯瓦查卡桥更新",
+      "aliases": [
+        "Q’eswachaka"
+      ],
+      "explanation": "秘鲁阿普里马克河上有一座用草纤维编成的吊桥，四个社区每年一起把它重做。第一天一边举行仪式，一边收集当地草材，妇女把它们搓编成细绳，由熟悉技术的人指导；第二天拆去旧桥结构，装上组成新桥骨架的四根大绳，第三天完成扶手和走路的桥面。最后一天才是跳舞和吃传统食物的庆祝。这座长约二十八米、宽一米多的桥，靠共同劳动把草一层层变成可以跨越河流的道路。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Puente Colgante De Q’Eswachaka — MINCETUR",
+          "url": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=935",
+          "checkedAt": "2026-10-22",
+          "evidence": "Descripción22–26及Estado34：四社区年度更新、四日流程、妇女编草、四根主绳、28x1.2米。"
+        }
+      ]
+    },
+    {
+      "id": "wc-voladores",
+      "conceptId": "custom-voladores",
+      "term": "飞人仪式",
+      "aliases": [
+        "Voladores"
+      ],
+      "explanation": "墨西哥一些族群的仪式会先挑树制成十八到四十米高的木杆，四个人爬上去，另一人在杆顶平台吹笛敲鼓，向太阳、四方和风致意。祈请结束后，四名舞者把身体抛向空中，靠连在顶部的长绳悬挂，随着绳索逐渐解开，一圈圈旋转下降，模仿鸟的飞行。这种与丰饶相关的舞蹈在韦拉克鲁斯的托托纳克人中尤其重要，各种版本借动作重述宇宙起源，也表达社区对自然和精神世界的理解。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "La ceremonia ritual de los Voladores — Secretaría de Cultura, México",
+          "url": "https://sic.gob.mx/ficha.php?table=otra_declaratoria&table_id=18",
+          "checkedAt": "2026-10-22",
+          "evidence": "Descripción290–294：18–40米木杆、四人下降第五人吹笛鼓、四方太阳、丰饶与社区世界观。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-customs-toe-wrestling",
+      "conceptId": "outrageous-customs-toe-wrestling",
+      "term": "脚趾摔跤",
+      "aliases": [
+        "Toe Wrestling"
+      ],
+      "explanation": "英国德比郡有一场以脚趾交锋的世界锦标赛，选手会在名为Toedium的赛台上扭动、互扣脚趾，争夺控制权。这项运动发源于韦顿村的酒馆传统，后来吸引了从澳大利亚赶来的选手；比赛也发展出入场音乐、现场屏幕和完整的观赛场面。二〇二五年主办方特意在赛台上方加了大屏幕，让原本只有挤在前排的人才能看清的细小扭转、表情变化和脚趾锁扣，都能展示给整场观众。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The 2025 World Toe Wrestling Championship — World Toe Wrestling Federation",
+          "url": "https://www.wtwf.co.uk/news/2025-world-toe-wrestling-championship",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文28–40：酒馆传统、Toedium、toe-lock与控制、2025屏幕入场曲、Perth选手。现行标准规则尚在制定，不擅写未读规则细节。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-mercury-double-sunrise",
+      "conceptId": "outrageous-science-mercury-double-sunrise",
+      "term": "水星双重日出",
+      "aliases": [
+        "Mercury Double Sunrise"
+      ],
+      "explanation": "在水星某些地方，清晨的太阳会先升起来一点，又退回地平线下，随后再次升起。这颗行星绕日轨道很扁，靠近太阳时公转会加快，而自身转得相当慢，两种运动叠加，便让太阳在天空中的路径短暂反转。水星自转一圈约需五十九个地球日，绕太阳一圈只需八十八天；若按一次完整昼夜来算，却要等一百七十六天，相当于水星上约两年。傍晚的某些地方，也能遇到相反版本的重复日落。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Mercury: Facts — NASA",
+          "url": "https://science.nasa.gov/mercury/facts/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Orbit and Rotation287–290：椭圆轨道近日加速、59日自转、88日公转、176太阳日及双日出日落。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-saturn-hexagon",
+      "conceptId": "outrageous-science-saturn-hexagon",
+      "term": "土星六边形风暴",
+      "aliases": [
+        "Saturn Hexagon"
+      ],
+      "explanation": "土星北极的大气里有一个近乎规整的六边形，六条长边把整个极区圈住，跨度约二万五千公里。它像把地球上绕极旋转的风带拉成了蜂巢单元，内部的云沿边缘快速绕行。旅行者探测器早年看见过它，二十多年后卡西尼又拍到同样的几何图案，显示它能维持很久。卡西尼还用热红外穿过极夜观察，发现结构向云顶下方延伸约一百公里，并不只是薄薄一层云画出的六条线。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Cassini Images Bizarre Hexagon on Saturn — NASA",
+          "url": "https://science.nasa.gov/missions/cassini/cassini-images-bizarre-hexagon-on-saturn/",
+          "checkedAt": "2026-10-22",
+          "evidence": "257–278：25,000公里六边形、云沿其绕行、Voyager和Cassini长寿、极夜热红外及100公里深。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-titan-methane-rain",
+      "conceptId": "outrageous-science-titan-methane-rain",
+      "term": "天然气下雨",
+      "aliases": [
+        "Titan Methane Rain"
+      ],
+      "explanation": "土卫六也会蒸发、成云、下雨，再把液体送进河湖海，只是参与循环的主要是甲烷和乙烷。这些在地球上常被装进罐子、作为气体使用的物质，在土卫六的低温下能像普通液体一样流动。卡西尼最后一次飞掠时，雷达还发现北半球一些小湖坐在山丘与高原上，深度超过一百米，里面主要装着液态甲烷。研究者认为部分湖盆可能由冰和固态有机物溶解、塌陷而成，像用另一套材料造出的地球岩溶湖。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "NASA’s Cassini Reveals Surprises with Titan’s Lakes",
+          "url": "https://www.nasa.gov/missions/cassini/nasas-cassini-reveals-surprises-with-titans-lakes/",
+          "checkedAt": "2026-10-22",
+          "evidence": "257–266：甲烷乙烷循环、极寒液态、2017雷达小湖深100米在高地、溶蚀塌陷假说。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-enceladus-geysers",
+      "conceptId": "outrageous-science-enceladus-geysers",
+      "term": "土卫二虎纹喷泉",
+      "aliases": [
+        "Enceladus Tiger Stripes"
+      ],
+      "explanation": "土卫二南极有四道被称为虎纹的巨大裂隙，会朝太空喷出水汽和细小冰粒。卡西尼长期拍摄后，研究者绘出了包含一百零一个喷泉的地图，发现喷流沿着裂隙分布，而且与一小片一小片的热区对应。这些热斑只有几十米尺度，研究认为它们更像水汽在近地表裂缝壁上凝结留下的热。小小的冰封卫星由此露出一条线索：地下海洋中的物质，可能一路穿过外面的冰壳，来到能被探测器观察的地方。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Cassini Spacecraft Reveals 101 Geysers and More on Icy Saturn Moon — NASA JPL",
+          "url": "https://www.jpl.nasa.gov/news/cassini-spacecraft-reveals-101-geysers-and-more-on-icy-saturn-moon/",
+          "checkedAt": "2026-10-22",
+          "evidence": "21–31：101喷泉、四虎纹、冰汽、热斑几十米与凝结热；地下海到表面保留可能。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-brocken-spectre",
+      "conceptId": "outrageous-science-brocken-spectre",
+      "term": "布罗肯幽灵",
+      "aliases": [
+        "Brocken Spectre",
+        "山中巨影"
+      ],
+      "explanation": "登山者背对低处的太阳，望向山下雾层时，可能突然看见一个远处巨人的影子，头边还围着彩色光环。那其实是自己的影子投在云雾水滴上，雾又遮去了熟悉的参照物，让人误判大小和距离。围着头的光环叫宝光，与水滴对光的散射和衍射有关，飞机乘客也常能在下方云层上看见围着飞机影子的类似光圈。这个幽灵以德国布罗肯山得名，每个人看到的光环中心都对应自己的反太阳方向。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The Brocken Spectre — University of Alaska Fairbanks Geophysical Institute",
+          "url": "https://www.gi.alaska.edu/alaska-science-forum/brocken-spectre",
+          "checkedAt": "2026-10-22",
+          "evidence": "60–65：自己影子和宝光、反太阳方向、水滴、飞机影与衍射；配Met Office巨影知觉。"
+        },
+        {
+          "title": "Optical effects: nature’s light show — Met Office",
+          "url": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects",
+          "checkedAt": "2026-10-22",
+          "evidence": "Brocken spectre段284：背后太阳、影投雾、巨大遥远人形是光学幻觉。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-light-pillars",
+      "conceptId": "outrageous-science-light-pillars",
+      "term": "城市光柱",
+      "aliases": [
+        "Light Pillars"
+      ],
+      "explanation": "寒冷天气里，城市灯火上方可能出现一根根笔直的彩色光柱，像有人从地面把探照灯一直打进天际。形成它们的却是空气中的冰晶：许多晶体把灯光反射向观察者，视线里才拼出垂直亮带，并非那根位置上真的立着一束实体的光。光源可以是路灯等人工照明，也可以是太阳、月亮，甚至金星。不同的灯光颜色经冰晶反射后，让同一片夜空里出现一排颜色不一的光柱。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Light Pillars — MetService",
+          "url": "https://about.metservice.com/learning/light-pillars",
+          "checkedAt": "2026-10-22",
+          "evidence": "71–72：冰晶反射、日月金星及城市人工光源；纯视线光路与颜色补由Atmospheric Optics原文。"
+        },
+        {
+          "title": "Light pillars — Atmospheric Optics",
+          "url": "https://www.atoptics.org.uk/halo/lpil.htm",
+          "checkedAt": "2026-10-22",
+          "evidence": "已实际打开正文38–46：多色、板状冰晶水平面反射；光柱没有物理固定位置，只是进入眼睛的光。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-fallstreak-hole",
+      "conceptId": "outrageous-science-fallstreak-hole",
+      "term": "穿洞云",
+      "aliases": [
+        "Fallstreak Hole",
+        "Hole-punch Cloud"
+      ],
+      "explanation": "一层看似完整的云有时会突然缺掉一大块，留下一口洞，下面还拖着一束下落的冰晶。这类穿洞云常从过冷水滴云里形成：水滴虽然低于零度，却还没有冻住，需要合适的微粒或更低温度才开始结冰。飞机穿过时，机翼或螺旋桨附近的空气膨胀冷却，就可能触发冰晶生成。冰晶长到足够大后从云层落出，原来满是小水滴的地方便像被打孔器挖走，露出一块天空。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Fallstreak hole — Met Office",
+          "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/clouds/unusual-cloud-formations/fallstreak-hole",
+          "checkedAt": "2026-10-22",
+          "evidence": "269–272：过冷液滴、结冰核、飞机膨胀冷却、冰晶增大落出形成孔洞。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-green-flash",
+      "conceptId": "outrageous-science-green-flash",
+      "term": "绿闪",
+      "aliases": [
+        "Green Flash"
+      ],
+      "explanation": "太阳刚要落进地平线，或刚从地平线冒出时，最上缘有时会短促地闪成绿色，常见的持续时间只有一两秒。需要地平线清楚可见，海上比陆地上更容易观察；它也不只属于太阳，月亮和某些行星的上缘也可能出现。不同温度的空气层会制造不同形式的蜃景，影响绿闪的形状与位置。在格外清澈的空气中，偶尔还会带出蓝色或紫色，极罕见的版本甚至像一道绿光从边缘向上伸出。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Green Flash — WMO International Cloud Atlas",
+          "url": "https://cloudatlas.wmo.int/en/green-flash.html",
+          "checkedAt": "2026-10-22",
+          "evidence": "Definition32–38：日月行星、地平线、海上多、一两秒、两种蜃景与蓝紫/绿射线罕见类型。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-red-sprites",
+      "conceptId": "outrageous-science-red-sprites",
+      "term": "红色精灵",
+      "aliases": [
+        "Red Sprites"
+      ],
+      "explanation": "强雷暴上方的高空，有时会闪过一团像巨大红水母的东西，亮起又立即消失。它被称为红色精灵，是强闪电之后出现的大尺度放电，常在离地约八十公里的高度发生，远高于下面的雷云。形状可以是朦胧的红色羽状光，也能带上明亮、尖细、向下伸出的触须，有时几团依次明灭。虽然飞行员和其他目击者早有报告，它直到一九八九年才首次被拍摄下来，拍摄者通常还得在远离雷暴的位置寻找合适视角。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Sprites Over Château de Beynac — NASA",
+          "url": "https://www.nasa.gov/image-article/sprites-over-chateau-de-beynac/",
+          "checkedAt": "2026-10-22",
+          "evidence": "260–262：80公里、雷电后、羽状触须、连续明灭；早期记录及远观由Goddard transcript补。"
+        },
+        {
+          "title": "Goddard Glossary: Sprites — NASA",
+          "url": "https://svs.gsfc.nasa.gov/vis/a010000/a014100/a014142/script_33611_00.html",
+          "checkedAt": "2026-10-22",
+          "evidence": "已读台本18–98：强闪电后的大尺度放电、水母、远距观测、1989首次影像及近百年前报告。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-brine-lakes",
+      "conceptId": "outrageous-science-brine-lakes",
+      "term": "海底咸水湖",
+      "aliases": [
+        "Brine Pools",
+        "Brine Lakes"
+      ],
+      "explanation": "潜到海底，有时还会遇到另一片有湖面、有岸边、受扰动会起波纹的湖。那是极咸的卤水，密度大到能积在海床低处，与上面的普通海水形成肉眼可见的界面。墨西哥湾一些卤水池的盐，来自远古海洋蒸发留下、后来被沉积物埋住的盐层，重新与渗入海水混合才回到表面。动物跌入高盐水中可能死亡，湖边却能围着另一群生命，靠利用甲烷的细菌提供食物，在危险湖岸旁形成特殊社区。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "The Deep Sea — Smithsonian Ocean",
+          "url": "https://ocean.si.edu/ecosystems/deep-sea/deep-sea",
+          "checkedAt": "2026-10-22",
+          "evidence": "Brine Lakes191–203：高盐高密度湖面波纹、侏罗纪蒸发盐层、盐水上涌、动物死亡与岸边甲烷食物网。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-black-smokers",
+      "conceptId": "outrageous-science-black-smokers",
+      "term": "海底黑烟囱",
+      "aliases": [
+        "Black Smokers"
+      ],
+      "explanation": "深海里一些高高的烟囱，会往冰冷海水中喷出像黑烟的东西。海水先沿岩石裂缝钻入地下，被岩浆热源加热并与岩石反应，再带着溶解矿物冲出来；热水遇到周围冷海水，硫化物等矿物沉淀，既形成黑色羽流，也逐渐堆出烟囱。流体可热到数百摄氏度，却因深海压力很高而不沸腾。附近的微生物用化学反应获取能量，支持管虫、虾和贝类组成的食物网，即使这里终年见不到阳光。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Hydrothermal vents — Woods Hole Oceanographic Institution",
+          "url": "https://www.whoi.edu/ocean-learning-hub/ocean-topics/how-the-ocean-works/seafloor-below/hydrothermal-vents/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Key Takeaways及What are Hydrothermal Vents45–65：冷水入裂隙、岩浆加热、矿物黑烟沉淀、压力不沸、化学食物网。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-devils-kettle",
+      "conceptId": "outrageous-science-devils-kettle",
+      "term": "魔鬼水壶",
+      "aliases": [
+        "Devil’s Kettle"
+      ],
+      "explanation": "美国明尼苏达州的布鲁尔河在瀑布上方分成两股，一股正常流下，另一股却灌进岩洞般的深坑，像被一只看不见底的水壶吞掉。消失的水究竟去了哪里，长期让游客和研究者好奇。水文学家后来在上下游测量流量，发现瀑布上方和下方的数值几乎相同，差别处在测量容许误差内，说明水很快又从地下回到同一条河。这个瀑布的戏法因此主要藏在短短一段看不见的通道中，河水并没有凭空失踪。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Hydrologists solve mystery of Devil’s Kettle waterfall — Minnesota DNR",
+          "url": "https://content.govdelivery.com/accounts/MNDNR/bulletins/18a428c",
+          "checkedAt": "2026-10-22",
+          "evidence": "2017官方正文9–12：双股河一股入深坑、流量上下几乎一致、误差内、地下很快回河；不写仍计划中的染色实验已完成。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-mars-spiders",
+      "conceptId": "outrageous-science-mars-spiders",
+      "term": "火星蜘蛛",
+      "aliases": [
+        "Araneiform Terrain"
+      ],
+      "explanation": "火星南极附近，春天会在地表露出一片片辐射状的黑色蜘蛛图案。冬季覆盖地面的二氧化碳冰受热后直接变成气体，气体却暂时被困在冰层下，压力不断累积，最后顶破冰面向外喷发，把深色尘土也一起带出来。尘埃可落在喷口周围，也会被风吹成长条。冰消退后，气流刻出的枝状通道留在地面，像许多长腿蜘蛛趴在荒地上；这是随季节活动的地貌，图里的腿是气体侵蚀的路线。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Jamming with the ‘Spiders’ from Mars — NASA JPL",
+          "url": "https://www.jpl.nasa.gov/images/pia22587-jamming-with-the-spiders-from-mars/",
+          "checkedAt": "2026-10-22",
+          "evidence": "9–11：南极冬冰春显、CO2升华压力喷流、尘埃沉积风条带、蚀刻蜘蛛地貌。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-science-dry-ice-snow",
+      "conceptId": "outrageous-science-dry-ice-snow",
+      "term": "干冰降雪",
+      "aliases": [
+        "Carbon-dioxide Snowfall"
+      ],
+      "explanation": "火星冬季的南极天空，会出现由二氧化碳冰构成的云，云里的颗粒还能落到地表，形成干冰雪。二氧化碳要在约零下一百二十五摄氏度才会冻结，低温把一种空气成分变成了能下落的固体。研究人员用火星气候探测仪从头顶和侧面观察云，结合红外光谱辨认颗粒，并判断颗粒足够大、云存续足够久，能够把雪送到地面。火星北部也观测过水冰降雪，因此这颗星球的雪并不全是同一种材料。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "NASA Observations Point to ‘Dry Ice’ Snowfall on Mars — NASA JPL",
+          "url": "https://www.jpl.nasa.gov/news/nasa-observations-point-to-dry-ice-snowfall-on-mars/",
+          "checkedAt": "2026-10-22",
+          "evidence": "17–24：-125℃干冰、南极冬云、顶视侧视与红外证据、足够大颗粒及2008北部水冰雪。"
         }
       ]
     }

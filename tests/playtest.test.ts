@@ -26,9 +26,10 @@ test("活跃长卡数量一致，保留旧题标识并检查连续9人对局容�
   assert.equal(registry.packs.length, 1);
   const pack = readJson(`../data/${registry.packs[0].file}`);
   const total = pack.questions.length;
-  assert.ok(total >= 150);
+  assert.ok(total >= 270);
   assert.equal(registry.packs[0].verifiedCount, total);
   assert.equal(registry.packs[0].conceptCount, total);
+  assert.equal(registry.packs[0].version, pack.version);
   const config = createDefaultConfig([pack.id]);
   const questions = pack.questions as Question[];
   for (const q of questions) {

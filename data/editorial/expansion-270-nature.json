@@ -1,0 +1,869 @@
+{
+  "questions": [
+    {
+      "id": "outrageous-270-nature-abyssal-comb-jelly",
+      "conceptId": "nature-abyssal-comb-jelly",
+      "term": "深渊瓜水母",
+      "aliases": [
+        "Beroe abyssicola"
+      ],
+      "explanation": "这只粉红色的胶冻动物会张开大嘴，追吃别的栉水母；嘴里一排排细小纤毛像牙齿一样帮助咬住食物，有时索性把对方整个吞下。它生活的深水里，很多猎物都会发光，吃完后若肚子亮起来，自己也容易暴露。它的胃部带着深红色，能吸收被吞猎物发出的光，让这顿饭不至于变成挂在身体里的信号灯。身体最长约七厘米，活动范围可从海面延伸到两千多米深处。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Abyssal comb jelly",
+          "url": "https://www.mbari.org/animal/abyssal-comb-jelly/",
+          "checkedAt": "2026-10-22",
+          "evidence": "口部纤毛咬食栉水母，红胃遮蔽发光猎物，大小与深度字段。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-balloon-worm",
+      "conceptId": "nature-balloon-worm",
+      "term": "气球蠕虫",
+      "aliases": [
+        "Poeobius meseres"
+      ],
+      "explanation": "远看像一枚透明卵囊，里面却是一条蠕虫。气球蠕虫没有海底多毛类亲戚那样显眼的环节和硬毛，身体变成装满液体的小袋，外面还裹着厚厚的胶质，靠浮力悬在海水中。它张开黏液网，收集不断从上方落下的有机碎屑。若仔细检查腹面，仍能找到一组组排列的神经，暴露它原本分节的身体来历。这种最长约三点六厘米的小动物，不用在泥里爬，也能把整片水层当食堂。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Balloon worm",
+          "url": "https://www.mbari.org/animal/balloon-worm/",
+          "checkedAt": "2026-10-22",
+          "evidence": "袋状含液身体、胶质浮力、腹部神经分节证据、黏液网海雪食。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-basket-star",
+      "conceptId": "nature-basket-star",
+      "term": "筐蛇尾",
+      "aliases": [
+        "Gorgonocephalus eucnemis"
+      ],
+      "explanation": "海底珊瑚或石头上，有时像挂着一团会活动的乱线。筐蛇尾把不断分叉的腕伸进水流，腕上的微小钩子和黏液共同拦住浮游动物。抓到一口食物后，对应的腕会卷成紧结，把猎物往中央体盘下方的嘴送去。它展开时宽度可达约七十五厘米，特别常见于海山附近；那里改变方向的海流会把食物集中起来。这团乱线因而既是捕食者的肢体，也是一张可以逐段收回的活网。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Basket star",
+          "url": "https://www.mbari.org/animal/basket-star/",
+          "checkedAt": "2026-10-22",
+          "evidence": "分枝腕微钩黏液捕食，卷腕送中央口，海山集中食物。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-green-elf-cup",
+      "conceptId": "nature-green-elf-cup",
+      "term": "绿杯菌",
+      "aliases": [
+        "Chlorociboria aeruginascens",
+        "小孢绿杯菌"
+      ],
+      "explanation": "林中一截发蓝发绿的朽木，颜色可能来自住在里面的绿杯菌。它的菌丝能把木材染成绿色，即使小小子实体没出现，染色木头仍暴露了它的存在。春到秋季，它会在橡树等阔叶树的死木上长出像高脚杯的蓝绿色小杯，年长后又逐渐摊平。人们没有把这些木头当成普通腐料扔掉，反而利用天然色彩做精细木制装饰；十八至十九世纪的英国坦布里奇镶嵌木器中，就能见到这种被真菌染绿的材料，蘑菇也参与了家具配色。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Fungi to see in spring | Grow Wild | Kew",
+          "url": "https://growwild.kew.org/blog/fungi-see-spring",
+          "checkedAt": "2026-10-22",
+          "evidence": "Green elf cup段：死木小杯变平、菌丝染绿木、18–19世纪Tunbridge木作。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-bigfin-squid",
+      "conceptId": "nature-bigfin-squid",
+      "term": "大鳍鱿",
+      "aliases": [
+        "Magnapinna"
+      ],
+      "explanation": "这只鱿鱼像在海底上方悬着十根面条：八条腕和两条触腕向外伸出，再以近乎直角的肘部折向下方，拖着又细又长的白色丝。丝上布满小吸盘，长度可能达到身体的二十倍；遇到惊扰又能迅速收缩。它靠两片大鳍起伏移动，曾在菲律宾海沟六千二百多米深处被拍到。研究者怀疑长丝用于捕食，但食谱还没有确定，至今采到的标本也主要是受损幼体，成年个体仍靠影像研究。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Bigfin squid",
+          "url": "https://www.mbari.org/animal/bigfin-squid/",
+          "checkedAt": "2026-10-22",
+          "evidence": "90度腕、微吸盘长丝、可20倍体长、6212米、食谱未知。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-crystal-amphipod",
+      "conceptId": "nature-crystal-amphipod",
+      "term": "水晶端足虫",
+      "aliases": [
+        "Cystisoma"
+      ],
+      "explanation": "这种像虾的甲壳动物能长到占满手掌，却把身体做得几乎透明。外壳表面的微小结构或生物膜还能减少反光，像给透明盔甲加了一层防反射涂层。它的眼睛可占身体三分之一，帮助寻找幽暗水层中的透明猎物；视网膜又摊成薄薄的小点，尽量降低从下方看见的影子。它会用钳子撕食栉水母组织。雌体胸前的育儿囊却会暴露隐身效果，因为里面的幼体较容易反光。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Crystal amphipod",
+          "url": "https://www.mbari.org/animal/crystal-amphipod/",
+          "checkedAt": "2026-10-22",
+          "evidence": "透明甲壳抗反射、眼占三分之一、薄视网膜、撕食栉水母、育儿反光。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-deep-sea-crown-jelly",
+      "conceptId": "nature-deep-sea-crown-jelly",
+      "term": "冠水母",
+      "aliases": [
+        "Atolla"
+      ],
+      "explanation": "深海里有一种红色水母，伞缘之外常拖着一条特别长的触手，能达到伞径的六倍左右。它游动时把这条长线拖在后面，可能借此粘住甲壳动物等食物。红色在缺少红光的深水中接近黑色，有助于隐藏；若还是被捕食者碰上，它就会闪出像转轮一样的蓝色生物光。这样的光既能扰乱眼前敌人，也可能引来更大的捕食者，让袭击者反而面临被吃的风险，给水母留下脱身机会。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Deep-sea crown jelly",
+          "url": "https://www.mbari.org/animal/deep-sea-crown-jelly/",
+          "checkedAt": "2026-10-22",
+          "evidence": "长触手六倍伞径、红色伪装、蓝色轮状报警引更大捕食者。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-giant-phantom-jelly",
+      "conceptId": "nature-giant-phantom-jelly",
+      "term": "巨型幻影水母",
+      "aliases": [
+        "Stygiomedusa gigantea"
+      ],
+      "explanation": "潜水器照亮黑暗时，眼前有时会出现一幅飘动的红色帷幕。巨型幻影水母的伞直径超过一米，下面四条宽扁口腕像丝带，长度可超过十米。研究人员曾拍到一条深海鱼在伞上方停留，又钻进钻出口腕之间，借这副庞大柔软的身体寻找遮蔽。它通常生活在没有礁石可躲的深层水域，体型虽大却极难遇见；一八九九年已有标本被采到，直到六十年后才被正式认作新物种。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Giant phantom jelly",
+          "url": "https://www.mbari.org/animal/giant-phantom-jelly/",
+          "checkedAt": "2026-10-22",
+          "evidence": "四口腕十米、伞一米、伴生鱼遮蔽、1899标本后60年描述。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-glass-squid",
+      "conceptId": "nature-glass-squid",
+      "term": "玻璃鱿",
+      "aliases": [
+        "Cranchiidae"
+      ],
+      "explanation": "这些鱿鱼会把皮肤里的色素囊收起来，让身体近乎透明；眼睛等仍然不透明的部位，则用发光器补上与上方微光相近的亮度，减轻从下方看见的剪影。身体内部的大腔还装有富含铵的液体，比海水轻，减少维持悬浮所需的游泳消耗。若隐身被识破，它们可以突然展开色素囊变暗，有的还把墨汁放进体腔，让自己整只变成暗影，最后再向外喷墨逃走，依次更换几套伪装。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Glass squid",
+          "url": "https://www.mbari.org/animal/glass-squid/",
+          "checkedAt": "2026-10-22",
+          "evidence": "透明色素囊、铵浮力、眼发光对照明、部分体腔放墨。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-gossamer-worm",
+      "conceptId": "nature-gossamer-worm",
+      "term": "薄纱蠕虫",
+      "aliases": [
+        "Tomopteris"
+      ],
+      "explanation": "大多数蠕虫在泥沙里爬，这一群却终生活在离海底很远的水层。透明身体两侧排着肉质疣足，它们一边左右摆身，一边协调划动这些小桨，游得又快又灵活。有的种类胃部鲜红，用来遮住刚吃下的发光猎物；遇到危险，有的把身体卷成桶状，伪装成不讨喜的胶冻动物，有的则从疣足尖端释放发光液体。多数只有几厘米，但其中大个体可长到六十厘米，像一条悬空划桨的长围巾。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Gossamer worm",
+          "url": "https://www.mbari.org/animal/gossamer-worm/",
+          "checkedAt": "2026-10-22",
+          "evidence": "疣足协调游泳、红胃、部分卷桶或释放发光液，60厘米。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-midwater-octopus",
+      "conceptId": "nature-midwater-octopus",
+      "term": "透明中层章鱼",
+      "aliases": [
+        "Japetella diaphana"
+      ],
+      "explanation": "这种小章鱼没有海底洞穴可钻，也不能把卵粘在石头上。它靠胶质身体提供浮力，低代谢节省游泳消耗，平时几乎透明地漂在水层中。一旦看见捕食者的生物光，或察觉附近运动，全身色素细胞就能迅速展开，让它从透明变成不透光的橙色，在缺少红橙光的深水里重新隐藏。繁殖时，母体用腕抱着卵，带它们下潜到捕食者较少的更深水层，一直守到幼体孵出后才结束生命。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Midwater octopus",
+          "url": "https://www.mbari.org/animal/midwater-octopus/",
+          "checkedAt": "2026-10-22",
+          "evidence": "胶质低代谢、透明转橙、母体抱卵下降深层，孵化后死亡。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-mystery-mollusc",
+      "conceptId": "nature-mystery-mollusc",
+      "term": "兜帽海蛞蝓",
+      "aliases": [
+        "Bathydevius caudactylus"
+      ],
+      "explanation": "这只海蛞蝓前端像张开的大兜帽，后端是一条长着许多手指状突起的扁尾，内脏则在透明身体里显出颜色。它常在一千至四千米深的开放水层漂游，用巨大兜帽罩住糠虾等甲壳动物，像一株游动的捕蝇草。遇险时身体可以发光，研究者还亲眼见过它丢下一截发亮的尾部突起，留下诱饵后脱身。它平时悬浮，却会为繁殖降到泥底，用肌肉足附着并产卵，生活路线随繁殖阶段改变。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Mystery mollusc",
+          "url": "https://www.mbari.org/animal/mystery-mollusc/",
+          "checkedAt": "2026-10-22",
+          "evidence": "兜帽捕甲壳类、1000–4000米、发光断尾诱饵、海底产卵。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-octopus-squid",
+      "conceptId": "nature-octopus-squid",
+      "term": "八腕鱿",
+      "aliases": [
+        "Octopoteuthis deletron"
+      ],
+      "explanation": "幼年时它和许多鱿鱼一样有八条腕加两条捕食触腕，长成成体后，两条触腕却被身体吸收，只留下八条腕。它常把带闪光尖端的腕卷到头顶，展开大鳍悬在水中。危险逼近时，它能主动丢掉部分腕，断下来的腕尖继续闪光和扭动，吸引对手注意，自己趁机逃离。研究人员曾用潜水器机械臂上的软刷触碰，直接观察到这套防御动作。它白天藏在深处，夜间还会上浮到较浅水层觅食。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Octopus squid",
+          "url": "https://www.mbari.org/animal/octopus-squid/",
+          "checkedAt": "2026-10-22",
+          "evidence": "成体吸收两触腕、腕尖发光、自切诱敌、日夜垂直迁移。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-pearl-octopus",
+      "conceptId": "nature-pearl-octopus",
+      "term": "珍珠章鱼",
+      "aliases": [
+        "Muusoctopus robustus"
+      ],
+      "explanation": "海底裂缝渗出的温水，能把章鱼产房变成天然保温箱。珍珠章鱼会聚到深海热泉附近交配和筑巢，温暖海水让胚胎发育得更快。母体把卵粘在岩壁后，翻转身体和腕，用自身护住卵，接近两年都靠体内储备维持，等幼体孵化后死亡。加州戴维森海山附近的章鱼花园里，大量母体挤在受暖水浸润的裂隙中，像一串串紫色珍珠；周围的鱼、海葵和螺又会取食死去亲体的遗体。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Pearl octopus",
+          "url": "https://www.mbari.org/animal/pearl-octopus/",
+          "checkedAt": "2026-10-22",
+          "evidence": "热泉促进胚胎、近两年绝食护卵、章鱼花园、遗体支持食物网。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-pompeii-worm",
+      "conceptId": "nature-pompeii-worm",
+      "term": "庞贝虫",
+      "aliases": [
+        "Alvinella pompejana"
+      ],
+      "explanation": "海底热泉烟囱上有一群披着细菌绒衣的蠕虫，各住在纸一样薄的管里，探出锈红色的鳃。它们的管直接贴在滚烫岩壁上，但会来回移动，让富含营养的热水和富含氧气的冷水混合，给管内降温。背上的细菌层也帮助调节热量，并利用热泉矿物质。它因此能在极端环境中生活，却不是整条虫都能泡在沸水里；脱离这种微环境后，虫本身能够承受的温度大约止于五十五摄氏度。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Pompeii worm",
+          "url": "https://www.mbari.org/animal/pompeii-worm/",
+          "checkedAt": "2026-10-22",
+          "evidence": "热泉薄管、往返混冷水、细菌层保温调温、个体耐55度。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-warty-deep-sea-octopus",
+      "conceptId": "nature-warty-deep-sea-octopus",
+      "term": "深海疣章鱼",
+      "aliases": [
+        "Graneledone pacifica"
+      ],
+      "explanation": "研究者二〇〇七年在岩壁上认出一只带特殊伤疤的母章鱼，后来再访时，它已经守着约一百六十枚水滴状卵。此后反复回访，卵逐渐变大，里面的小章鱼越来越清楚，母体却日渐消瘦，皮肤松弛而苍白，始终没有离开。直到二〇一一年十月，岩壁只剩破开的空卵壳。这次观察记录了约四年半的护卵期。母体靠自身组织储备撑过漫长等待，孵出的幼体则已经足够大，能够独立捕食。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Warty deep-sea octopus",
+          "url": "https://www.mbari.org/animal/warty-deep-sea-octopus/",
+          "checkedAt": "2026-10-22",
+          "evidence": "2007–2011同一伤疤母体，约160卵、4.5年护卵、组织储备。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-seven-arm-octopus",
+      "conceptId": "nature-seven-arm-octopus",
+      "term": "七腕章鱼",
+      "aliases": [
+        "Haliphron atlanticus"
+      ],
+      "explanation": "名字说七条腕，雄体其实仍有八条，只是把传递精子的特化腕藏进右眼下方的小囊里，外观像少了一条。雌体却能长成重达约七十五公斤的庞然大物，雄体通常只有二十一厘米左右。研究者曾拍到雌体抱着一只蛋黄水母，后续标本胃内容物也支持它爱吃胶冻动物。它先吃伞部组织，随后还可能把带刺细胞的触手拖在后方，研究者推测这能顺带用于防御，把一顿饭的剩余部分接着利用。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Seven-arm octopus",
+          "url": "https://www.mbari.org/animal/seven-arm-octopus/",
+          "checkedAt": "2026-10-22",
+          "evidence": "雄藏交接腕、雌雄体型差、水母饮食、残触手防御仅推测。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-silky-jelly",
+      "conceptId": "nature-silky-jelly",
+      "term": "丝绸水母",
+      "aliases": [
+        "Colobonema sericeum"
+      ],
+      "explanation": "平时它把弯曲触手向四周铺开捕食，遇险却会突然改造体形：圆伞迅速收缩得近乎筒状，触手伸直，随后靠喷射推进猛冲，一次可向前越过五个以上身长。逃跑时还会丢下黏性触手，让捕食者对着遗落物纠缠。它的伞可以发出蓝色闪光，触手在灯下虽也呈蓝色，却不会自行发出这种光。野外还能看到触手长短不一的个体，提示这些被舍弃的部件可能重新长出，供下次脱身使用。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Silky jelly",
+          "url": "https://www.mbari.org/animal/silky-jelly/",
+          "checkedAt": "2026-10-22",
+          "evidence": "伞筒形喷射5身长、丢触手、伞发蓝光触手不发、自切再生证据。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-whalefish",
+      "conceptId": "nature-whalefish",
+      "term": "鲸口鱼",
+      "aliases": [
+        "Cetomimidae"
+      ],
+      "explanation": "它有宽厚躯干和一张大嘴，像缩小的鲸，通常却只有二十厘米左右。生活在一千米以下的黑暗水域，眼睛退化得很小，缺乏晶状体，连清晰图像也形成不了。它转而依靠头部和身体上一串串粗大的感觉孔，接收水中振动，判断附近有没有猎物或敌人。这些孔沿隆起排列，让外观看起来还有些像鳄鱼。鲜红体色在深海几乎呈黑色，大嘴则帮助它逮住机会吞食，其中曾有个体被拍到肚子因大餐而鼓起。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Whalefish",
+          "url": "https://www.mbari.org/animal/whalefish/",
+          "checkedAt": "2026-10-22",
+          "evidence": "无晶状体不能成像、感觉孔振动、红色伪装、一般20厘米。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-whiptail-gulper-eel",
+      "conceptId": "nature-whiptail-gulper-eel",
+      "term": "鞭尾吞噬鳗",
+      "aliases": [
+        "Saccopharynx lavenbergi"
+      ],
+      "explanation": "一条细长身体前端却挂着一张夸张的大嘴，后方拖着鞭子般的尾巴。深海食物难遇，大嘴让鞭尾吞噬鳗在碰到机会时，能接纳体积悬殊的食物。尾端还能发光，科学家推测这可能充当诱饵，把猎物引到嘴边，不过这一用途仍是解释而非已完整观察到的捕猎过程。它住在缺少遮蔽的开放深水层，研究机构在多年数千次潜水中也只记录过很少几次，连标志上的动物都比真身常见得多。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Whiptail gulper eel",
+          "url": "https://www.mbari.org/animal/whiptail-gulper-eel/",
+          "checkedAt": "2026-10-22",
+          "evidence": "超大口、发光尾诱猎为推测、开放中层稀见、MBARI标志。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-redhead-larvacean",
+      "conceptId": "nature-redhead-larvacean",
+      "term": "红头住囊虫",
+      "aliases": [
+        "Mesochordaeus erythrocephalus"
+      ],
+      "explanation": "这只像小蝌蚪的动物住在自己分泌的黏液房里。外层滤网挡住大到无法入口的颗粒，内层再把细小食物汇进一根黏液吸管，送进嘴中。它的红色消化道还能遮住已吃下的发光生物，免得自己变成灯泡。房子被碎屑堵住，或感觉危险靠近时，它就干脆抛弃整套住宅，游走重建。废房裹着有机物慢慢下沉，成为更深处动物的食物，也把上层海水中的碳一同运向海底，留下的垃圾反而喂养了邻居。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Redhead larvacean",
+          "url": "https://www.mbari.org/animal/redhead-larvacean/",
+          "checkedAt": "2026-10-22",
+          "evidence": "内外黏液房过滤、红胃、堵塞危险弃房、碳下沉。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-pom-pom-anemone",
+      "conceptId": "nature-pom-pom-anemone",
+      "term": "绒球海葵",
+      "aliases": [
+        "Liponema brevicorne"
+      ],
+      "explanation": "它不像一根柱子顶着触手，更像一大团会充气的绒球，时而瘪成乱线，时而鼓成桶。它还能收缩肌肉改变形状，在水流推动下沿海底泥地滚动，像沙漠风滚草；研究者认为这有助于寻找食物更丰富的位置。停稳后，它把有刺细胞的触手伸向各方，拦截甲壳动物。巨型海蜘蛛有时会吸食它的触手，它也能把触手脱落，给来客留下一份外带食物，身体本身往往没有显著受害。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Pom-pom anemone",
+          "url": "https://www.mbari.org/animal/pom-pom-anemone/",
+          "checkedAt": "2026-10-22",
+          "evidence": "桶形滚动、寻找食物为推测、刺细胞捕食、海蜘蛛吸食可脱触手。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-psychedelic-jelly",
+      "conceptId": "nature-psychedelic-jelly",
+      "term": "迷幻水母",
+      "aliases": [
+        "Crossota millsae"
+      ],
+      "explanation": "红橙紫交错的伞内，竟能同时挂着好几个大小不一的小水母。迷幻水母的母体把幼体养在伞内放射状管道上，它们从母体获得营养，在保护下逐渐长大，甚至还没离开妈妈就先长出自己的触手。等身体大到不再适合躲在伞下，小水母便开始搏动，挣脱连接独自游走。幼体原先偏淡紫，成长后才逐渐转为成体的橘色。这种繁殖方式让它成为少数能够直接育出活幼体的水母之一。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Psychedelic jelly",
+          "url": "https://www.mbari.org/animal/psychedelic-jelly/",
+          "checkedAt": "2026-10-22",
+          "evidence": "母体伞内放射管育幼、不同阶段、母供营养、触手先长后释放。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-acorn-worm",
+      "conceptId": "nature-acorn-worm",
+      "term": "橡果虫",
+      "aliases": [
+        "Enteropneusta"
+      ],
+      "explanation": "深海泥面上有时留着紧密的螺旋线条，那是一条橡果虫一边吃泥、一边排便留下的轨迹。食物丰富时，它在小范围内绕圈，把沉积物中的有机物筛进肚子；这一块吃得差不多，就排空肠道，让自己浮起来，漂到下一片食堂。它外形虽然像蠕虫，分类上却比蚯蚓更接近人类，前端还有橡果形的部位。这种不起眼的游走和排泄，不断翻动海底表层泥沙，也重新分配从海面沉下来的营养。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Acorn worm",
+          "url": "https://www.mbari.org/animal/acorn-worm/",
+          "checkedAt": "2026-10-22",
+          "evidence": "螺旋排便、食尽排空肠道浮走、与人近缘、再分配沉积物。"
+        }
+      ]
+    },
+    {
+      "id": "cw-binturong",
+      "conceptId": "wildlife-binturong",
+      "term": "熊狸",
+      "aliases": [],
+      "explanation": "这种像熊又像猫的树栖动物，身上却带着类似新鲜爆米花的气味。它与灵猫更近，虽然归在食肉目，日常吃的却主要是水果。粗壮尾巴的末段可以卷握，尾尖还有帮助抓住树枝的皮肤垫，幼体甚至能仅靠尾巴倒挂，成年个体太重时就得再加上一两只脚。下树时，它还能把踝部转动一百八十度，让爪子在头朝下时仍然抓牢。这只会散发影院零食味的大毛球，也借粪便把吃下的种子散布到森林各处。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Binturong | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/binturong",
+          "checkedAt": "2026-10-22",
+          "evidence": "ABOUT与HABITAT：爆米花气味、卷握尾、踝180度、果食散种。"
+        }
+      ]
+    },
+    {
+      "id": "cw-echidna",
+      "conceptId": "wildlife-echidna",
+      "term": "针鼹",
+      "aliases": [],
+      "explanation": "这只满身刺的哺乳动物会先产下一枚皮质卵，再把卵卷进腹部育儿袋。约十天后孵出的幼仔，没有乳头可以吮吸，只能舔食母体特殊腺体分泌的奶。母亲暂时不用担心被扎，因为幼仔的刺还没长出；等刺开始穿出皮肤，就把它移到洞穴里，定期回来喂养。成年针鼹的后脚朝后，其中一根长趾爪能伸进刺间，梳走泥土和小虫。遇到危险，它还会迅速往地下挖，只把难以下嘴的刺背留在外面。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Echidna | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/echidna",
+          "checkedAt": "2026-10-22",
+          "evidence": "ABOUT及FAMILY LIFE：皮卵袋孵、无乳头舔奶、长刺移穴、后脚梳刺、挖土防御。"
+        }
+      ]
+    },
+    {
+      "id": "cw-platypus",
+      "conceptId": "wildlife-platypus",
+      "term": "鸭嘴兽",
+      "aliases": [],
+      "explanation": "鸭嘴兽下水找吃的时，会闭上眼睛和耳朵，左右摆动柔软的嘴，接收猎物身体发出的微弱电信号。嘴上大约四万个电感受器，帮助它在浑浊水中判断小动物的位置，外形像鸭嘴，实际却不是硬壳。找到的食物先塞进颊囊，回到水面再吃。成年个体没有牙齿，靠角质垫把食物磨碎；幼体倒曾短暂长过乳齿样的牙，离开育幼洞穴前后又脱落。它还把多余脂肪存进宽尾巴，兼作游泳稳定器和能量仓库。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Platypus | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/platypus",
+          "checkedAt": "2026-10-22",
+          "evidence": "ABOUT：闭眼耳电定位、40000感受器、颊囊水面吃、角质垫及幼齿、储脂尾。"
+        }
+      ]
+    },
+    {
+      "id": "cw-banded-archer-fish",
+      "conceptId": "wildlife-banded-archer-fish",
+      "term": "射水鱼",
+      "aliases": [],
+      "explanation": "它躲在红树林旁的水面下，把嘴略微露出水面，先吸一口水，再用舌头顶住上颚，把水柱射向树枝上的昆虫或蜘蛛。猎物被打落后，水中的鱼就能开饭。一次没中也不用立刻重新装填，一口水最多能分成六七次射击；仍然不成功，它还可以直接跃出水面追捕。它能攻击水面上方约一点五米的目标，身体大部分始终浸在水里。看上去只是带条纹的普通小鱼，捕猎范围却延伸到了头顶的空气中。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Banded Archer Fish | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/banded-archer-fish",
+          "checkedAt": "2026-10-22",
+          "evidence": "ABOUT及DIET：舌顶上颚射水、一口6–7次、1.5米与跃水。"
+        }
+      ]
+    },
+    {
+      "id": "cw-dung-beetle",
+      "conceptId": "wildlife-dung-beetle",
+      "term": "蜣螂",
+      "aliases": [],
+      "explanation": "粪球对蜣螂既是午饭，也可能是婚礼礼物和育婴房。有些雄虫把大粪球送给雌虫，配对成功后一起把球滚走，途中还得防着别的蜣螂来抢。雌虫把卵放进育婴球，再用粪便、唾液和自身排泄物封好；有的母虫会守上两个月，清理幼虫和它们拉出的粪便。另一些蜣螂根本不滚球，而是在粪堆下挖隧道储存食物，或直接住在粪堆里。我们熟悉的滚粪球画面，只是这一大群甲虫生活方式中的一种。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Dung Beetle | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/dung-beetle",
+          "checkedAt": "2026-10-22",
+          "evidence": "FAMILY LIFE：粪球求偶、争抢、单卵封球、清理幼虫粪、三生态型。"
+        }
+      ]
+    },
+    {
+      "id": "cw-venus-flytrap",
+      "conceptId": "wildlife-venus-flytrap",
+      "term": "捕蝇草",
+      "aliases": [],
+      "explanation": "一只虫落在叶夹里，只碰一下感应毛，夹子通常不会立刻反应。它要在约二十秒内收到两次触碰，才会迅速合拢，减少为雨滴或无用物体白忙的机会。夹紧后，消化酸和酶把猎物变成可以吸收的营养液，约七至十天后叶夹再次打开，等待下一餐。它自己仍会用阳光进行光合作用，捕虫主要是为了补充贫瘠湿酸土壤里不足的营养。看似一张贪吃嘴，实际上是一片带着触发门槛和消化能力的特化叶。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Venus Flytrap | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/plants/venus-flytrap",
+          "checkedAt": "2026-10-22",
+          "evidence": "OVERVIEW：20秒两次、叶陷阱、消化7–10日、光合作用与贫土营养。"
+        }
+      ]
+    },
+    {
+      "id": "cw-utricularia",
+      "conceptId": "wildlife-utricularia",
+      "term": "狸藻",
+      "aliases": [],
+      "explanation": "水里的一串细小囊袋，看上去像植物长的小气泡，入口却装着能由触毛启动的活门。轮虫或蚊幼虫碰到机关，门会在约一毫秒内打开，把猎物连水吸进囊里，又极快关上，形成一座座微型吸入式陷阱。许多水生狸藻的大部分身体藏在水下，只有花梗和花露出水面，可以固定在原处，也可以自由漂浮。这一属没有真正的根，有些种类生活在湿土或附着别处；它们把捕猎设备做得极小，肉眼反而不容易看到行动。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Utricularia | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/utricularia/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：触毛活门毫秒吸入、轮虫蚊幼虫、水上花、无真根多生境。"
+        }
+      ]
+    },
+    {
+      "id": "cw-cornus-canadensis",
+      "conceptId": "wildlife-cornus-canadensis",
+      "term": "加拿大草茱萸",
+      "aliases": [],
+      "explanation": "四片白色大瓣围着一簇小花，看似温柔的林下地被，其实藏着接触式花粉发射器。真正的小花中央有能触发开放的结构，昆虫一碰，花粉便高速向上射出，足以嵌进访客的细毛，让它带着一身花粉离开。研究人员在只有轻微气流的房间里，测到花粉能被送出二十二厘米以上。外围白色部分实际是苞片，花本身小得多；植株还能靠地下根茎蔓延，到了晚夏又挂起一簇红果，把同一片林地变换两套外观。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Cornus canadensis, bunchberry dogwood | US Forest Service",
+          "url": "https://research.fs.usda.gov/feis/species-reviews/corcan",
+          "checkedAt": "2026-10-22",
+          "evidence": "Pollination and Breeding System：触发爆发花粉、22厘米、昆虫细毛；外观另由NC State支持。"
+        },
+        {
+          "title": "Cornus canadensis | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/cornus-canadensis/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：四白苞片、小花、根茎蔓延、晚夏红果。"
+        }
+      ]
+    },
+    {
+      "id": "cw-kalanchoe-daigremontiana",
+      "conceptId": "wildlife-kalanchoe-daigremontiana",
+      "term": "宽叶落地生根",
+      "aliases": [],
+      "explanation": "这株多肉植物把育苗场直接开在叶片边缘，锯齿状缺口里排出一圈小植株。小苗还挂在母叶上时，就已经长出自己的叶和根，成熟后自然掉落，碰到合适的土便能开始独立生活，因此有千子之母一类的俗名。它原生于马达加斯加干燥地区，叶片较厚，背面常有紫色斑纹，母体本身可长到接近一米。繁殖不用每次都等花结果，一张叶子就能同时托着好多个缩小版的自己，落到花盆边缘便形成新一圈植株。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Kalanchoe daigremontiana | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/kalanchoe-daigremontiana/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：叶缘幼株自带叶根、自然脱落、马达加斯加、三英尺及叶背紫斑。"
+        }
+      ]
+    },
+    {
+      "id": "cw-victoria-amazonica",
+      "conceptId": "wildlife-victoria-amazonica",
+      "term": "亚马孙王莲",
+      "aliases": [],
+      "explanation": "第一晚打开的白花带着甜菠萝般的香味，把甲虫引进花中。第二天花合拢，访客被暂时关在里面，而花也从雌性阶段转入雄性阶段，开始生产花粉。到第二晚，花再开放时已经变成紫红色，香味消失，甲虫带着花粉离开，飞向另一朵新开的白花。它宽大的浮叶像边缘翘起的盘子，底部肋架之间留有空气，叶背还布满尖刺，减少鱼类啃食。巨叶负责占住水面，短暂花期则用一次留宿安排传粉。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Victoria amazonica | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/victoria-amazonica/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：两夜花色香味、夹留甲虫、雌转雄散粉、叶肋气室与刺。"
+        }
+      ]
+    },
+    {
+      "id": "cw-arisaema-triphyllum",
+      "conceptId": "wildlife-arisaema-triphyllum",
+      "term": "三叶天南星",
+      "aliases": [],
+      "explanation": "一片弯覆的佛焰苞像小屋屋顶，里面竖着棒状肉穗花序，英语俗名就像说一个人站在讲坛里。真正的小花藏在结构下方，苍蝇和小飞虫会沿着花序进入，帮助搬运花粉。更奇特的是，同一株植物的性别并非年年固定：今年以雄性开花，下一年可能转成雌性，之后也能反过来。进入夏季，不少植株会休眠消失，成熟开花的植株却可能在外罩枯萎后露出一簇红色浆果，像小屋撤走，剩下一束鲜红果实。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Arisaema triphyllum | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/arisaema-triphyllum/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：Jack形花序、蝇蚋传粉、逐年可双向变性、休眠与红果。"
+        }
+      ]
+    },
+    {
+      "id": "cw-symplocarpus-foetidus",
+      "conceptId": "wildlife-symplocarpus-foetidus",
+      "term": "美洲臭菘",
+      "aliases": [],
+      "explanation": "积雪还没化尽，湿地里有时就能冒出一座紫褐色小罩棚。里面的小花会靠自身代谢产生热量，把周围积雪融开，叶片这时还没有展开。罩棚其实是佛焰苞，包着黄绿色的肉穗花序；花和叶一旦受伤，便会散发像腐败肉类的臭味，吸引寻找这类气味的昆虫前来传粉。它常长在沼泽、湿草地和泥泞林地，根系扎得很牢，移栽并不容易。看起来像早春地上冒出的小暖炉，却用腐肉味招待最早一批访客。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Symplocarpus foetidus | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/symplocarpus-foetidus/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description：先花后叶、产热融雪、臭味传粉、湿地根牢。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-birds-nest-fungi",
+      "conceptId": "nature-birds-nest-fungi",
+      "term": "鸟巢菌",
+      "aliases": [
+        "Nidulariaceae"
+      ],
+      "explanation": "腐木和覆盖木屑上有时挤着一堆微型鸟窝，窝里还端端正正摆着几颗小蛋。其实窝是杯状子实体，蛋是装着孢子的菌包，单个窝通常只有几毫米到一厘米多宽。它不用自己点火发射，而是等雨滴落进杯中，把小蛋猛地溅出去，距离可达约一米或更远。菌包黏到别的物体上，干燥后裂开，再释放里面的孢子。房屋和汽车偶尔也会成为落点，留下难清除的小点；这套雨水弹射装置，原本只是腐生真菌扩散后代的方法。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Bird’s Nest Fungi | Wisconsin Horticulture",
+          "url": "https://hort.extension.wisc.edu/articles/birds-nest-fungi/",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文三小节：杯状子实体和孢子菌包、雨溅三英尺以上、干裂散孢、黏车房。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-cedar-apple-rust",
+      "conceptId": "nature-cedar-apple-rust",
+      "term": "苹果桧锈菌",
+      "aliases": [
+        "Gymnosporangium juniperi-virginianae"
+      ],
+      "explanation": "春雨过后，桧树枝上的褐色小瘤会吸水鼓胀，从凹点里伸出橙色胶质长角，像突然开出一只软体怪物。这些角产生的孢子，下一站却是苹果或海棠的叶和果实，造成黄橙色斑点。夏季叶背再长出管状结构，制造另一类孢子，飘回桧树感染，而不能继续感染苹果。它必须在两类寄主之间往返，才能完成大约两年的生活史；桧树上的橙色怪角和苹果叶背的小管，因而是同一真菌在不同住处的模样。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Cedar Apple Rust | NC State Extension Publications",
+          "url": "https://content.ces.ncsu.edu/cedar-apple-rusts",
+          "checkedAt": "2026-10-22",
+          "evidence": "Symptoms、Disease Cycle：吸水胶质角、苹果桧树交替、锈孢不再感染苹果、两年周期。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-shaggy-mane",
+      "conceptId": "nature-shaggy-mane",
+      "term": "毛头鬼伞",
+      "aliases": [
+        "Coprinus comatus",
+        "鸡腿菇"
+      ],
+      "explanation": "刚从地上冒出时，它像一根顶着白色蓬松假发的圆柱，随后菌盖张成钟形，边缘和菌褶开始变黑，最后化成墨汁般的液体。它的地上部分很短命，从冒出到液化常常只需一天左右，采下后也能在几小时内继续化开。液化过程与孢子散播有关，地下菌丝却还在分解腐木等有机物，条件合适时可在同一地点再长出一批。它甚至会从硬实地面、路边或沥青停车场冒出来，像刚撑起小伞就急着把伞融掉。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Shaggy Mane | Missouri Department of Conservation",
+          "url": "https://mdc.mo.gov/discover-nature/field-guide/shaggy-mane",
+          "checkedAt": "2026-10-22",
+          "evidence": "Description、Status、Life Cycle：菌盖液化、约24小时、采后几小时、散孢与沥青停车场。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-270-nature-oyster-mushroom-predation",
+      "conceptId": "nature-oyster-mushroom-predation",
+      "term": "平菇的捕虫餐",
+      "aliases": [
+        "Pleurotus ostreatus",
+        "糙皮侧耳"
+      ],
+      "explanation": "餐桌上常见的平菇，在朽木里却能兼职捕食者。它的菌丝会释放毒素，让微小线虫麻痹，再从这些动物身上取得氮。平时看见的一层层扇形菇，只是它长在枯死或衰弱阔叶树木上的繁殖结构，木材内部的菌丝还会分解坚韧的纤维素和木质素。因此它既能靠腐木生活，又能补上一顿小动物。林中蜗牛、松鼠等还会来吃它，形成蘑菇吃虫、别的动物再吃蘑菇的一串关系；饭桌上的温和外表，藏着另一套取食办法。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Fungi to see in spring | Grow Wild | Kew",
+          "url": "https://growwild.kew.org/blog/fungi-see-spring",
+          "checkedAt": "2026-10-22",
+          "evidence": "Oyster mushroom段：毒素麻痹线虫取氮、木腐分解纤维素木质素、野生动物食用。"
+        }
+      ]
+    }
+  ]
+}
