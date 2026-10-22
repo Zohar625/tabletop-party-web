@@ -1,6 +1,6 @@
-import catalog from "../../../data/pack-registry.json";
+import catalog from "../../../data/playtest-registry.json";
 import type { Question } from "./types.ts";
-const modules = import.meta.glob("../../../data/packs/*.json", {
+const modules = import.meta.glob("../../../data/playtest/*.json", {
   eager: true,
   import: "default",
 }) as Record<

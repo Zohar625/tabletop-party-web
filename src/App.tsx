@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import { buildQuestionPool, createGame } from "./games/bluff/engine";
 import type { ActionInput, Config, PublicView } from "./games/bluff/types";
 import { allQuestions, packs } from "./games/bluff/questions";
+import { createDefaultConfig, READ_PRESETS } from "./games/bluff/defaults";
 import {
   clearHistory,
   discardSession,
@@ -157,15 +158,19 @@ export default function App() {
     boot.session ? "game" : "lobby",
   );
   const [, redraw] = useState(0);
-  const [notice, setNotice] = useState(boot.warning);
+  const [notice, setNotice] = useState(
+    boot.warning ||
+      (boot.session
+        ?.getPublicView()
+        .config.selectedPackIds.some((id) => !packs.some((p) => p.id === id))
+        ? "你正在继续旧题库的对局。退出本局并重新开桌，即可使用新的长卡题库和默认5秒。"
+        : ""),
+  );
   const [modal, setModal] = useState<Modal | null>(null);
   const [rules, setRules] = useState(false);
-  const [config, setConfig] = useState<Config>({
-    playerCount: 5,
-    readSeconds: 10,
-    selectedPackIds: packs.map((p) => p.id),
-    allowHistoryQuestions: false,
-  });
+  const [config, setConfig] = useState<Config>(() =>
+    createDefaultConfig(packs.map((p) => p.id)),
+  );
   const [historyVersion, setHistoryVersion] = useState(0);
   const [now, setNow] = useState(Date.now());
   const [vote, setVote] = useState("");
@@ -466,13 +471,13 @@ export default function App() {
                     <span>每位玩家相同</span>
                   </div>
                   <div className="time-options">
-                    {[10, 20, 30].map((n) => (
+                    {READ_PRESETS.map((n) => (
                       <button
                         className={`choice ${config.readSeconds === n ? "selected" : ""}`}
                         key={n}
                         onClick={() => setConfig({ ...config, readSeconds: n })}
                       >
-                        {n} 秒{n === 10 && <small>默认</small>}
+                        {n} 秒{n === 5 && <small>默认</small>}
                       </button>
                     ))}
                     <label className="custom-time">
@@ -521,7 +526,8 @@ export default function App() {
                     </button>
                   </div>
                   <p className="helper pack-intro">
-                    可以混着选，每次抽到的都是新的惊喜。
+                    当前换上 20 道离谱真事长卡，适合 3–4
+                    人一圈。原题库已保留归档。
                   </p>
                   <div className="pack-list">
                     {packs.map((p, i) => {
@@ -543,26 +549,11 @@ export default function App() {
                           }
                         >
                           <span className={`pack-symbol ${packStyles[i]}`}>
-                            <Icon
-                              name={
-                                ["leaf", "cards", "spark", "spark", "cup"][i]
-                              }
-                              size={25}
-                            />
+                            <Icon name="cards" size={25} />
                           </span>
                           <span className="pack-body">
                             <strong>{p.title}</strong>
-                            <small>
-                              {
-                                [
-                                  "自然界的奇怪邻居",
-                                  "藏在旧日生活里的门道",
-                                  "远方的人，怎样过日子",
-                                  "习以为常背后的不可思议",
-                                  "古人的工作，比想象更特别",
-                                ][i]
-                              }
-                            </small>
+                            <small>{p.description}</small>
                             <em>
                               {p.questions.length} 题 · 本设备未玩{" "}
                               {
@@ -631,7 +622,9 @@ export default function App() {
                 </label>
                 {available < config.playerCount ** 2 && (
                   <p className="capacity-warning">
-                    题目还不够。增加题包，或勾选允许使用历史题。
+                    {allQuestions.length < config.playerCount ** 2
+                      ? `当前题库共 ${allQuestions.length} 题，${config.playerCount} 人一圈需要 ${config.playerCount ** 2} 题。请减少人数；允许历史题也不会让本局重复抽题。`
+                      : "未玩题目还不够。可勾选允许使用历史题，或减少人数。"}
                   </p>
                 )}
                 <Primary
@@ -1043,7 +1036,7 @@ export default function App() {
                   <strong>逐人读卡</strong>
                   <p>
                     每人一个不同的冷知识词。知情人有真实解释，瞎掰人只有词名。默认只有
-                    10 秒，读不完也没关系。
+                    5 秒，读不完也没关系。
                   </p>
                 </li>
                 <li>

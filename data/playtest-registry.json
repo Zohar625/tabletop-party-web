@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "packs": [
+    {
+      "id": "outrageous-long-cards",
+      "title": "真事比瞎编离谱",
+      "file": "playtest/outrageous-long-cards.json",
+      "version": "1.0.0",
+      "verifiedCount": 20,
+      "draftCount": 0,
+      "conceptCount": 20,
+      "status": "playtest",
+      "playtestStatus": "pending",
+      "reviewFile": "../docs/2026-10-22-long-card-samples.md"
+    }
+  ]
+}
