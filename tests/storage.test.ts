@@ -41,6 +41,32 @@ const game = () =>
     pool,
     7,
   );
+
+test("重复身份的存档可恢复，本轮身份不因刷新改变", () => {
+  const store = new Memory();
+  const state = game();
+  state.blufferSchedule = Array(3).fill(state.bluffer);
+  store.setItem("tabletop.session.v1", JSON.stringify(state));
+  const restored = loadSession(store);
+  assert.ok(restored.session);
+  const saved = JSON.parse(store.getItem("tabletop.session.v1")!);
+  assert.equal(saved.bluffer, state.bluffer);
+  assert.deepEqual(saved.blufferSchedule, state.blufferSchedule);
+});
+
+test("旧版每人一次的存档仍可恢复，已发身份和分数保持", () => {
+  const store = new Memory();
+  const state = game();
+  state.blufferSchedule = [
+    state.bluffer,
+    ...[0, 1, 2].filter((i) => i !== state.bluffer),
+  ];
+  store.setItem("tabletop.session.v1", JSON.stringify(state));
+  assert.ok(loadSession(store).session);
+  const saved = JSON.parse(store.getItem("tabletop.session.v1")!);
+  assert.equal(saved.bluffer, state.bluffer);
+  assert.deepEqual(saved.scores, state.scores);
+});
 test("结构损坏的存档不会以正常对局恢复", () => {
   for (const patch of [
     { readerIndex: 3 },
@@ -49,6 +75,7 @@ test("结构损坏的存档不会以正常对局恢复", () => {
     { roundPoints: [] },
     { phase: "reading", deadline: null },
     { cursor: 500 },
+    { redeals: Number.MAX_SAFE_INTEGER },
   ]) {
     const store = new Memory();
     store.setItem(

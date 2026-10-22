@@ -462,7 +462,9 @@ export default function App() {
                       </button>
                     ))}
                   </div>
-                  <p className="helper">每人恰好当一次瞎掰人，人人都有戏。</p>
+                  <p className="helper">
+                    每轮独立抽取瞎掰人，可能连续抽中同一人。
+                  </p>
                   <div className="section-title subheading">
                     <h2>
                       <Icon name="clock" />
@@ -968,7 +970,7 @@ export default function App() {
                   谁最会演？
                 </h1>
                 <p className="muted">
-                  每个人都当过一次瞎掰人，这一桌圆满收官。
+                  本桌所有轮次已结束，来看看谁最会辨真假。
                 </p>
                 <div className="ranking">
                   {view.ranking!.map((r) => (
@@ -1055,7 +1057,8 @@ export default function App() {
                 <li>
                   <strong>玩完一圈</strong>
                   <p>
-                    N 人玩 N 轮，每人恰好一次瞎掰人。最后按总分排名，同分并列。
+                    N 人玩 N
+                    轮，每轮从所有玩家中独立抽一名瞎掰人，允许重复，不保证每人都当过。最后按总分排名，同分并列。
                   </p>
                 </li>
               </ol>

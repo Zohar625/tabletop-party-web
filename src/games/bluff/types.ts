@@ -45,6 +45,7 @@ export type GameState = {
   pool: Question[];
   cursor: number;
   cards: Question[];
+  // Legacy save field: records dealt roles; future slots are not assignments.
   blufferSchedule: number[];
   bluffer: number;
   readerIndex: number;

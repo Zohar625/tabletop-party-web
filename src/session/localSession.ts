@@ -188,11 +188,11 @@ function validState(value: unknown): value is GameState {
     scores(s.roundPoints) &&
     Array.isArray(s.blufferSchedule) &&
     s.blufferSchedule.length === n &&
-    new Set(s.blufferSchedule).size === n &&
     s.blufferSchedule.every((i) => index(i, n)) &&
     Number.isInteger(s.roundIndex) &&
     s.roundIndex >= 0 &&
     s.roundIndex < n &&
+    s.cursor === n * (s.roundIndex + s.redeals + 1) &&
     s.bluffer === s.blufferSchedule[s.roundIndex] &&
     Number.isInteger(s.readerIndex) &&
     s.readerIndex >= 0 &&

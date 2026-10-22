@@ -50,10 +50,9 @@ function toVotes(s: GameState) {
     s = act(s, { type: "nextSpeaker" });
   return act(s, { type: "startVoting" });
 }
-test("3/5/9人一圈身份公平，题不重复，计分总和N-1", () => {
+test("3/5/9人玩N轮，题不重复，计分总和N-1", () => {
   for (const n of [3, 5, 9]) {
     let s = createGame(config(n), questions, 42);
-    assert.equal(new Set(s.blufferSchedule).size, n);
     const used: string[] = [];
     for (let r = 0; r < n; r++) {
       used.push(...s.cards.map((q) => q.conceptId));
@@ -137,12 +136,11 @@ test("5人计分：0/2/4人投中，瞎掰人票不影响", () => {
     assert.throws(() => act(s, { type: "vote", target: s.players[0]!.id }));
   }
 });
-test("整轮重发不计分不重题，剩余身份保持公平；容量不足拒绝", () => {
+test("整轮重发不计分不重题；容量不足拒绝", () => {
   let s = createGame(config(), questions, 3);
   const ids = new Set(s.cards.map((q) => q.id));
   s = act(s, { type: "redeal" });
   assert.ok(s.cards.every((q) => !ids.has(q.id)));
-  assert.equal(new Set(s.blufferSchedule).size, 5);
   assert.equal(
     s.scores.reduce((a, b) => a + b, 0),
     0,
@@ -151,6 +149,66 @@ test("整轮重发不计分不重题，剩余身份保持公平；容量不足�
     act(createGame(config(), questions.slice(0, 25), 3), { type: "redeal" }),
   );
   assert.throws(() => createGame(config(9), questions.slice(0, 80), 1));
+});
+
+test("同样的前两轮身份不能排除最后一轮人选，允许连续重复", () => {
+  const finalChoices = new Map<string, Set<number>>();
+  let repeated = false;
+  for (let seed = 0; seed < 300; seed++) {
+    let s = createGame(config(3), questions, seed);
+    const roles = [s.bluffer];
+    for (let round = 1; round < 3; round++) {
+      s = act({ ...s, phase: "results" }, { type: "nextRound" });
+      roles.push(s.bluffer);
+    }
+    repeated ||= roles[0] === roles[1] || roles[1] === roles[2];
+    const key = roles.slice(0, 2).join(",");
+    const options = finalChoices.get(key) ?? new Set<number>();
+    options.add(roles[2]!);
+    finalChoices.set(key, options);
+  }
+  assert.ok(repeated, "独立抽取必须允许连续两轮同一人");
+  assert.equal(finalChoices.size, 9, "前两轮的九种身份组合都可以出现");
+  for (const [history, choices] of finalChoices) {
+    assert.equal(choices.size, 3, `历史${history}之后三人都应有机会`);
+  }
+});
+
+test("下一轮和重发不受旧存档剩余身份安排约束", () => {
+  let previousPlayerReturned = false;
+  const redealtRoles = new Set<number>();
+  for (let seed = 0; seed < 50; seed++) {
+    const old = {
+      ...createGame(config(3), questions, seed),
+      blufferSchedule: [0, 1, 2],
+      bluffer: 0,
+    };
+    const next = act({ ...old, phase: "results" }, { type: "nextRound" });
+    previousPlayerReturned ||= next.bluffer === 0;
+    const redealt = act(old, { type: "redeal" });
+    redealtRoles.add(redealt.bluffer);
+    assert.equal(redealt.blufferSchedule[redealt.roundIndex], redealt.bluffer);
+  }
+  assert.ok(previousPlayerReturned, "当过瞎掰人的玩家仍应参与下一轮抽取");
+  assert.equal(redealtRoles.size, 3);
+});
+
+test("重发后进入下一轮继续推进抽取，刷新恢复不重抽", () => {
+  let different = false;
+  for (let seed = 0; seed < 30; seed++) {
+    const original = createGame(config(3), questions, seed);
+    const redealt = act(original, { type: "redeal" });
+    assert.equal(resumeGame(redealt).bluffer, redealt.bluffer);
+    const next = act({ ...redealt, phase: "results" }, { type: "nextRound" });
+    const withoutRedeal = act(
+      { ...original, phase: "results" },
+      { type: "nextRound" },
+    );
+    different ||= next.bluffer !== withoutRedeal.bluffer;
+    assert.equal(next.redeals, 1);
+    assert.equal(next.blufferSchedule[0], redealt.bluffer);
+  }
+  assert.ok(different, "重发消耗一次抽取，跨轮应继续下一次抽取");
 });
 test("题池多选去重、历史与草稿筛选，空选择拒绝", () => {
   const q = [

@@ -47,12 +47,21 @@ export function buildQuestionPool(
 }
 function deal(s: GameState): GameState {
   const n = s.config.playerCount;
+  // One draw per deal attempt, with replacement. Past roles never exclude seats.
+  const draw = random(s.seed ^ 0x1234);
+  let bluffer = 0;
+  for (let attempt = 0; attempt <= s.roundIndex + s.redeals; attempt++) {
+    bluffer = Math.floor(draw() * n);
+  }
+  const blufferSchedule = [...s.blufferSchedule];
+  blufferSchedule[s.roundIndex] = bluffer;
   return {
     ...s,
     roundId: `${s.id}:r${s.roundIndex}:${s.redeals}`,
     cards: s.pool.slice(s.cursor, s.cursor + n),
     cursor: s.cursor + n,
-    bluffer: s.blufferSchedule[s.roundIndex]!,
+    blufferSchedule,
+    bluffer,
     readerIndex: 0,
     deadline: null,
     speakerIndex: 0,
@@ -103,10 +112,7 @@ export function createGame(
     pool,
     cursor: 0,
     cards: [],
-    blufferSchedule: shuffle(
-      players.map((_, i) => i),
-      seed ^ 0x1234,
-    ),
+    blufferSchedule: Array(n).fill(0),
     bluffer: 0,
     readerIndex: 0,
     deadline: null,
@@ -217,13 +223,6 @@ export function reduceGame(
         `剩余${s.pool.length - s.cursor}题，重发并完成本局需要${n * (n - s.roundIndex)}题。请重开并增加主题包。`,
       );
       s.redeals++;
-      s.blufferSchedule = [
-        ...s.blufferSchedule.slice(0, s.roundIndex),
-        ...shuffle(
-          s.blufferSchedule.slice(s.roundIndex),
-          s.seed + s.redeals * 31,
-        ),
-      ];
       s = deal(s);
       break;
     default:
