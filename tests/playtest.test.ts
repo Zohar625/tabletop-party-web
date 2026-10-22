@@ -21,12 +21,14 @@ test("新开局保持5秒和4人默认值", () => {
   assert.equal(config.playerCount, 4);
   assert.deepEqual(READ_PRESETS, [5, 10, 20, 30]);
 });
-test("可玩题库扩为90道长卡，保留旧题标识并支持9人一圈", () => {
+test("活跃长卡数量一致，保留旧题标识并检查连续9人对局容量", () => {
   const registry = readJson("../data/playtest-registry.json");
   assert.equal(registry.packs.length, 1);
   const pack = readJson(`../data/${registry.packs[0].file}`);
-  assert.equal(pack.questions.length, 90);
-  assert.equal(registry.packs[0].verifiedCount, 90);
+  const total = pack.questions.length;
+  assert.ok(total >= 150);
+  assert.equal(registry.packs[0].verifiedCount, total);
+  assert.equal(registry.packs[0].conceptCount, total);
   const config = createDefaultConfig([pack.id]);
   const questions = pack.questions as Question[];
   for (const q of questions) {
@@ -39,8 +41,8 @@ test("可玩题库扩为90道长卡，保留旧题标识并支持9人一圈", ()
   }
   assert.ok(questions.some((q) => q.term === "便器侍从"));
   const pool = buildQuestionPool(config, questions, new Set());
-  assert.equal(pool.length, 90);
-  assert.equal(new Set(pool.map((q) => q.conceptId)).size, 90);
+  assert.equal(pool.length, total);
+  assert.equal(new Set(pool.map((q) => q.conceptId)).size, total);
   for (const conceptId of [
     "groom-of-stool",
     "pearlfish-sea-cucumber",
@@ -72,8 +74,26 @@ test("可玩题库扩为90道长卡，保留旧题标识并支持9人一圈", ()
   assert.equal(
     buildQuestionPool(config, questions, new Set([questions[0]!.conceptId]))
       .length,
-    89,
+    total - 1,
   );
+  const ninePlayers = { ...config, playerCount: 9 };
+  for (let played = 0; played <= Math.floor(total / 81); played++) {
+    const seen = new Set(pool.slice(0, played * 81).map((q) => q.conceptId));
+    const freshPool = buildQuestionPool(ninePlayers, questions, seen);
+    assert.equal(freshPool.length, total - played * 81);
+    assert.ok(freshPool.every((q) => !seen.has(q.conceptId)));
+    if (freshPool.length >= 81) {
+      assert.equal(
+        createGame(ninePlayers, freshPool, 456 + played).config.playerCount,
+        9,
+      );
+    } else {
+      assert.throws(
+        () => createGame(ninePlayers, freshPool, 456 + played),
+        /81/,
+      );
+    }
+  }
   const archive = readJson("../data/pack-registry.json");
   assert.equal(archive.packs.length, 5);
   assert.equal(

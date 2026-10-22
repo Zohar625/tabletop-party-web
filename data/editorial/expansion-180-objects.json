@@ -1,0 +1,676 @@
+{
+  "questions": [
+    {
+      "id": "outrageous-objects-pigeon-camera",
+      "conceptId": "outrageous-objects-pigeon-camera",
+      "term": "鸽子相机",
+      "aliases": [
+        "鸽载相机"
+      ],
+      "explanation": "信鸽胸前可以绑上一台小相机，让鸟一边回家，一边替人拍摄地面。早期一种叫双重运动的装置，使用弯曲底片和旋转镜头，延时触发后拍下一张全景照片。到了二十世纪三十年代，瑞士的米歇尔又设计出使用十六毫米电影胶片的版本，由定时机构安排延迟曝光、推进胶片和两次拍摄的间隔。这台瑞士装置最终没有取得商业成功。相机不是由鸽子用嘴按快门，不同版本的底片、镜头与机构也不能混成同一种设备。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.cameramuseum.ch/en/discover/permanent-exhibition/the-century-of-the-film/photographer-pigeons/",
+          "title": "Photographer pigeons - Swiss Camera Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "网页3—5行：胸前绑带；Doppel-Sport曲面底片、旋转镜头、单张全景；Michel的16毫米版本、定时进片和未商业成功。避开争议专利年份，不写军方采购。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-bontems-songbird",
+      "conceptId": "outrageous-objects-bontems-songbird",
+      "term": "发条笼中鸟",
+      "aliases": [
+        "机械鸣鸟"
+      ],
+      "explanation": "一只小鸟关在黄铜笼里，张嘴唱歌时还会左右转头，尾巴也跟着上下摆动；让它开口的不是喂食，而是用钥匙上发条。法国邦唐公司的这类机械鸟，把机构藏在镀金木底座内，旁边拨杆负责启动。它甚至可以设成隔一段不规则的时间才唱一次，免得像钟表一样准时暴露身份。十九世纪后期，真实鸣鸟很受欢迎，仿造它们的机器也有市场，买主得到的是一件不吃鸟食却会表演的摆设。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8607034/bird-in-cage-automaton",
+          "title": "Bird in cage automaton - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "底座藏机构，钥匙与拨杆、喙头尾动作及不规则间隔设置。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-tipus-tiger",
+      "conceptId": "outrageous-objects-tipus-tiger",
+      "term": "提普之虎",
+      "aliases": [
+        "提普苏丹的老虎"
+      ],
+      "explanation": "这件接近真虎大小的木制玩具，摆出老虎扑在一名欧洲士兵身上的姿势。转动旁边的手柄，士兵的胳膊便上下抬动，里面还会发出模仿临死呻吟的声音；老虎肚子里藏着一架管风琴，掀开侧面的盖板就能接触内部。这件东西为印度迈索尔的提普苏丹制作，虎纹也是他王座、钱币和兵器上的标志。英国东印度公司攻陷其都城后，把木虎运到伦敦展出，原主人的政治象征变成了战利品。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.vam.ac.uk/articles/tipus-tiger",
+          "title": "Tipu's Tiger - Victoria and Albert Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "木虎尺寸、欧洲士兵、手柄联动胳膊呻吟及内部风琴、虎纹与1799战利品。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-clockwork-monk",
+      "conceptId": "outrageous-objects-clockwork-monk",
+      "term": "发条修士",
+      "aliases": [
+        "机械祈祷修士"
+      ],
+      "explanation": "一个只有几十厘米高的木铁小人，披着修士长袍，会沿方形路线缓缓移动，右手捶胸，左手举起又放下十字架和念珠。它还能转头、点头、转动眼睛，嘴巴默默开合，偶尔把十字架送到唇边亲吻。驱动这套动作的是钥匙上紧的弹簧，机构全部藏在身体里面。这件十六世纪自动人偶收藏于史密森尼；关于国王为还愿而命人制造它的故事属于流传的身世说法，不能把传说当作已经证实的制作记录。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://blackbird-archive.vcu.edu/v1n1/nonfiction/king_e/prayer_introduction-still.htm",
+          "title": "Clockwork Prayer: A Sixteenth-Century Mechanical Monk - Elizabeth King, VCU Blackbird",
+          "checkedAt": "2026-10-22",
+          "evidence": "亲自研究者介绍方形路线、各动作、内藏机构和身世故事的传统归因。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-chopines",
+      "conceptId": "outrageous-objects-chopines",
+      "term": "乔平高底鞋",
+      "aliases": [
+        "Chopines",
+        "威尼斯高底鞋"
+      ],
+      "explanation": "十六世纪的威尼斯女性会穿一种把整只脚架高的厚底鞋，鞋底不仅用来躲开湿滑泥泞的街面，也把穿着者的身量和排场一起抬高。有些极端实例高达二十英寸，走路却因此变得摇晃，需要有人陪在旁边供她扶着。它并不是只属于某一种职业的制服：旧时有人把夸张高度当成妓女的标志，博物馆研究却指出，当时记载也把高度与贵族女性的身份和气派联系起来，不能光看鞋高就替人判断出身。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/es/essays/the-chopine",
+          "title": "The Chopine - The Metropolitan Museum of Art",
+          "checkedAt": "2026-10-22",
+          "evidence": "用途、20英寸实例、侍从搀扶及职业误读的纠正。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-flea-trap-pendant",
+      "conceptId": "outrageous-objects-flea-trap-pendant",
+      "term": "跳蚤诱捕项坠",
+      "aliases": [
+        "跳蚤捕捉器"
+      ],
+      "explanation": "立陶宛王宫遗址出土过一根约七厘米长、直径只有一厘米的骨制小筒，一端拧着金属盖，筒身上打着孔。它不是装香水的小瓶，而是诱捕跳蚤的器具：内部放入几滴血，再加蜂蜜、糖浆或油一类黏性液体，把钻进去的跳蚤黏住。早期欧洲富裕人家还会用象牙、银等材料制作类似物件，有女性把它当首饰挂在脖子上。于是，一件看起来精巧的随身装饰，实际也可能在认真处理身边的小虫。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://artsandculture.google.com/asset/flea-traps-unknown/MAHNu5j2hcZ95Q?hl=en",
+          "title": "Flea traps - National Museum, Palace of the Grand Dukes of Lithuania",
+          "checkedAt": "2026-10-22",
+          "evidence": "出土尺寸、材质、孔和盖、诱饵黏液及项链佩戴记载。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-spring-scarificator",
+      "conceptId": "outrageous-objects-spring-scarificator",
+      "term": "弹簧放血盒",
+      "aliases": [
+        "Scarificator"
+      ],
+      "explanation": "一只刻着花纹的黄铜小盒，底面看似平整，里面却藏着十四片刀刃。医生把它放在皮肤上，扣下扳机，刀片便快速弹出，一次划出多道伤口，再用吸杯等器具取走血液。英国科学博物馆收藏的这件器具制于一六六九年，还有专门皮盒；这类工具除了放血，也曾用于把物质引入体内。操作者仍得控制刀片不要切得过深，机械化并没有免除技术要求，漂亮雕花也不能证明旧时放血理论正确。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co142283",
+          "title": "Brass scarificator - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "1669实例、14刀、皮套花纹、扳机切肤、吸杯及两种用途。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-wooden-iron-lung",
+      "conceptId": "outrageous-objects-wooden-iron-lung",
+      "term": "木制铁肺",
+      "aliases": [
+        "哈里斯木制负压呼吸机"
+      ],
+      "explanation": "名字叫铁肺，卡迪夫的一件实例却是医生用木箱和零件拼出来的。病人身体躺在箱内，头留在外面，上方装着可以手摇的皮革风箱；交替改变胸部周围的气压，便能帮助胸廓扩张、回落，让无法自主正常呼吸的人继续换气。一九三八年，哈里斯医生担心医院遇到胸肌瘫痪的脊髓灰质炎患儿，决定先自制一台。它后来没有因为正规金属机器到货就立刻退役，研究记录还提到它曾支撑一名病人十二小时。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://blog.sciencemuseum.org.uk/a-wooden-iron-lung/",
+          "title": "A wooden Iron Lung - Science Museum Blog",
+          "checkedAt": "2026-10-22",
+          "evidence": "木箱手摇皮风箱、负压原理、1938自制动机及十二小时使用记录。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-animal-ear-protectors",
+      "conceptId": "outrageous-objects-animal-ear-protectors",
+      "term": "动物护耳筒",
+      "aliases": [
+        "狗耳朵防沾饭筒"
+      ],
+      "explanation": "一份美国专利给长耳朵动物设计了两只小套筒，让耳朵朝头部两侧伸开，看上去像临时长出横向把手。它要解决的并非声音太吵，而是狗低头吃喝时，耳朵容易一起垂进饭碗。套筒用能自行卷成管状的塑料片制作，打开后可把耳朵放入，再由头上和头下的带子保持位置；带长还能调整以适应不同头围和耳长。专利图画了一只长耳贵宾犬，文字却说明其他长耳动物也可成为对象，还考虑给主人用装饰改善外观。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US4233942A/en",
+          "title": "US4233942A - Animal ear protectors",
+          "checkedAt": "2026-10-22",
+          "evidence": "长耳避食水、塑料自卷筒、上下可调带子；限定设计不推定销量。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-banana-protective-device",
+      "conceptId": "outrageous-objects-banana-protective-device",
+      "term": "香蕉护甲盒",
+      "aliases": [
+        "香蕉保护器"
+      ],
+      "explanation": "香蕉本来已经有皮，一份美国专利还是替它再做了一层专用外壳。两片长形壳体用铰链相连，可以像盒子一样合上，内侧另有软垫，壳边的粘扣负责把两半固定起来，让人把一根香蕉带走时少受挤碰。单片壳体长约十英寸，宽约一点五至二英寸，纵向也弯成香蕉的形状。壳壁上分布着小孔，里面的泡沫垫不是铺成实心一整层，而是间隔安装，替香蕉提供支撑和缓冲；为了运送一根水果，盒子把外壳、垫子和闭合件都安排上了。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US6612440B1/en",
+          "title": "US6612440B1 - Banana protective device",
+          "checkedAt": "2026-10-22",
+          "evidence": "说明书121—134行及194行起：弯曲香蕉形U形壳、孔、间隔泡沫垫、铰链粘扣及尺寸；不推定销售与万能适配。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-glass-armonica",
+      "conceptId": "outrageous-objects-glass-armonica",
+      "term": "玻璃琴",
+      "aliases": [
+        "玻璃口琴",
+        "Glass armonica"
+      ],
+      "explanation": "一排大小不同的玻璃碗被横穿在铁轴上，演奏者不是拿棒敲它们，而是踩踏板让整排玻璃旋转，再把湿润手指贴上碗缘发声。富兰克林用这种结构改进了摩擦酒杯演奏的办法，使手指可以在不同玻璃间移动。它的音高主要由碗的尺寸和厚度决定，不能像普通水杯表演那样，只把差异归结为装了多少水。英国科学博物馆收藏的一架装在红木箱里，由波希米亚的波尔制造，把一桌会唱的杯子收成了一件完整乐器。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co5862/glass-harmonica",
+          "title": "Glass Harmonica - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "横轴玻璃碗、脚踏、湿手指、尺寸厚度定音、红木箱与Pohl藏品。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-bleeding-crash-dummy",
+      "conceptId": "outrageous-objects-bleeding-crash-dummy",
+      "term": "流血的碰撞假人",
+      "aliases": [
+        "红色渗液假人"
+      ],
+      "explanation": "英国科学博物馆有些碰撞测试假人，存放多年后竟会冒出像血一样的红色物质，需要保护修复人员出面收拾。这并不是为了模拟车祸特地装进去的假血，更不是曾经用真人制作：馆方解释，出现红色物质是因为假人自身材料正在分解。假人原本就是供测试使用的人形物件，进入收藏以后也会继续老化。看见它们渗红液时，人容易把身体外形和血的颜色连在一起，修复团队面对的却是一件材料劣化的藏品。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://blog.sciencemuseum.org.uk/halloween-tour/",
+          "title": "The Halloween Tour - Science Museum Blog",
+          "checkedAt": "2026-10-22",
+          "evidence": "第一站明确红色渗液是材料分解，未给具体聚合物故不添加。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-stitched-merman",
+      "conceptId": "outrageous-objects-stitched-merman",
+      "term": "拼接人鱼标本",
+      "aliases": [
+        "干制人鱼"
+      ],
+      "explanation": "霍尼曼博物馆一件长着肋骨和尖牙的人鱼标本，曾被叫作日本猴鱼，但研究者发现它并没有猴或猿应有的门牙。为了不拆坏它，团队拍了射线和断层扫描，看到木棍、线绳、黏土与纸浆一层层组成头部，外形逼真的东西其实大量依靠手工塑形。尾部鳞片像鲤科，牙齿则像隆头鱼的，但提取样本没有获得有用的遗传物质，所以不能确定到具体种。它是一件真实馆藏，却不是猴子简单缝在鱼上，更不是新发现的海洋人种。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.horniman.ac.uk/story/manmade-mermaids/",
+          "title": "Manmade Mermaids - Horniman Museum and Gardens",
+          "checkedAt": "2026-10-22",
+          "evidence": "馆方亲自研究报告：猴鱼误读、缺门牙、X射线与CT层材、鲤科鳞片/隆头鱼似牙及DNA提取未获有效信息；不把形态判断写成确切物种。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-pharmacy-leech-jar",
+      "conceptId": "outrageous-objects-pharmacy-leech-jar",
+      "term": "水蛭药罐",
+      "aliases": [
+        "药房水蛭罐"
+      ],
+      "explanation": "药房里一只带着大理石纹和金色装饰的陶罐，装的可能不是糖果或药片，而是准备卖给医生的活水蛭。罐盖要打孔，让这些动物在两顿血餐之间仍能呼吸；水蛭身体两端都有吸盘，但取食用的是带牙的前端。十九世纪放血疗法流行时，需求一度超过供给，这种漂亮罐子便承担着储存医疗用品的工作。它所体现的旧时广泛放血观念，与现代重建手术中有特定目的的水蛭使用，不能混作同一种万能疗法。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co80769/pharmacy-leech-jar-leech-jar",
+          "title": "Pharmacy leech jar - Science Museum Group",
+          "checkedAt": "2026-10-22",
+          "evidence": "大理石纹镀金陶罐、活体储存、盖孔、吸盘齿、需求与现代限定用途。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-kissing-shield",
+      "conceptId": "outrageous-objects-kissing-shield",
+      "term": "接吻隔离盾",
+      "aliases": [
+        "Kissing shield"
+      ],
+      "explanation": "想亲吻别人却不想嘴唇直接接触，一份美国专利给出的答案是一面带手柄的小盾。薄而柔软的膜套在支架外，支架形状贴合鼻子下方到下巴的区域，足够遮住嘴唇和大部分脸颊；手柄朝侧面伸出，方便使用者举在两个人之间。说明书还设想膜可以拆换，或在透明材料内侧印上提示文字，以免嘴碰到印字。它确实是一项被写进专利的接吻器具，但文件里的防病期待不能自动当成已经经过临床验证的效果。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US5727565A/en",
+          "title": "US5727565A - Kissing shield",
+          "checkedAt": "2026-10-22",
+          "evidence": "摘要和说明书的膜支架侧柄、覆盖范围、可换膜及内侧印字；不传播错误艾滋病背景。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-helmet-pillow",
+      "conceptId": "outrageous-objects-helmet-pillow",
+      "term": "头盔枕",
+      "aliases": [
+        "枕头头盔"
+      ],
+      "explanation": "一份加拿大专利申请把旅行枕做成了整顶软头盔，让人把枕头穿在头上，而不是一直把头找向枕头。它有颈部开口、脸部开口和下巴带，内外两层之间可以分隔出填充空间，放记忆泡沫、羽毛、空气或颗粒等材料。方案还预留了马尾辫穿出的孔，可以加眼罩、耳机或按摩装置。文件想解决途中休息时普通枕头不便携、颈枕容易移位的问题；这些配置属于公开申请中的可选设计，并不表示所有版本都已做成并投入销售。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/CA2846143A1/en",
+          "title": "CA2846143A1 - Helmet pillow",
+          "checkedAt": "2026-10-22",
+          "evidence": "摘要及权利要求、开口、填料、马尾孔、可选耳机按摩；明确申请与可选。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-sideways-swing-patent",
+      "conceptId": "outrageous-objects-sideways-swing-patent",
+      "term": "横着荡的秋千",
+      "aliases": [
+        "泰山荡法"
+      ],
+      "explanation": "有人把坐秋千时轮流拉两边链子、让座椅左右摆动的玩法，认真写成了一份美国专利。文件区分了常见的前后运动和主要沿树枝方向展开的横向运动，还描述从静止状态开始，以及掺入少量前后运动形成椭圆路线。发明者在说明书里把这种玩法叫作泰山式，甚至说可以配合喊叫，不过真正的丛林并非必要条件。这份专利曾获授权，后来复审把全部权利要求撤销，因此不能说这种普通动作现在仍被它独占。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US6368227B1/en",
+          "title": "US6368227B1 - Method of swinging on a swing",
+          "checkedAt": "2026-10-22",
+          "evidence": "说明书泰山无需丛林、左右/椭圆路径；页面底部Legal Events明确2003-07-01 | FPB1 | Reexamination decision cancelled all claims，322行版本的第317行。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-automatic-petting-hand",
+      "conceptId": "outrageous-objects-automatic-petting-hand",
+      "term": "自动撸宠机械手",
+      "aliases": [
+        "自动抚摸宠物器"
+      ],
+      "explanation": "一份美国专利把一只像人手的软垫装在折叠机械臂末端，准备替主人给宠物挠痒和抚摸。装置竖着固定在支撑物上，手臂高度可以调整；宠物进入合适位置时，感应开关启动电机，让外侧手臂往复画弧。手掌部分带柔软外皮和填充物，腕部也有活动余量，宠物往上顶时，手掌和手臂可以随压力抬起。电子眼是可选配置，另有手动开关的操作方式；闲置时松开一处挂钩，机械臂就能向下折起，等下一次再展开服务。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US4872422A/en",
+          "title": "US4872422A - Scratching and petting device for household pets",
+          "checkedAt": "2026-10-22",
+          "evidence": "说明书142—148/249—267行：可调竖装、感应或手控、柔软填充掌、向上让位、挂钩折叠。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-laser-cat-exercise-patent",
+      "conceptId": "outrageous-objects-laser-cat-exercise-patent",
+      "term": "激光逗猫法",
+      "aliases": [
+        "猫的有氧锻炼专利"
+      ],
+      "explanation": "拿一束光逗猫追逐，看似是随手玩的小游戏，却有人把它写成了名叫猫的锻炼方法的美国专利。文件设想用手持激光装置，把一个比猫爪小得多的亮点投在不透明表面，再移动亮点，让不受束缚的猫追着跑。说明书不只画了人和猫，还讨论亮点沿地板、台阶或墙面移动，以及停止光源后猫能恢复休息。真正可核实的是这套追光办法曾被申请并获授权，文中列出的健康收益则是申请人的主张，不能据此充当兽医结论。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US5443036A/en",
+          "title": "US5443036A - Method of exercising a cat",
+          "checkedAt": "2026-10-22",
+          "evidence": "权利要求比爪小亮点与不透明表面；说明书地板台阶墙面及关灯，不作健康保证。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-chicken-eye-protectors",
+      "conceptId": "outrageous-objects-chicken-eye-protectors",
+      "term": "鸡用护目镜",
+      "aliases": [
+        "鸡眼保护器"
+      ],
+      "explanation": "一九零三年获授权的一份美国专利，画了一只戴着圆框护目镜的鸡。它并不是给近视鸡配镜，而是想挡住别的鸡啄向眼睛的攻击。两只框之间用可弯曲的连接带相连，镜片可以采用玻璃、云母或其他合适材料，固定带绕过颈部，部分结构还能调节以适应不同大小的鸡。文件也强调尽量不妨碍视线，并在框边考虑通气。后来鸡用眼镜存在许多别种设计，这份文件本身并没有说镜片必须是能让鸡看不见血的红色。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US730918A/en",
+          "title": "US730918A - Eye-protector for chickens",
+          "checkedAt": "2026-10-22",
+          "evidence": "保护免遭啄眼、材料、可调、颈带、通气；不混入后来红镜片机制。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-edison-talking-doll",
+      "conceptId": "outrageous-objects-edison-talking-doll",
+      "term": "爱迪生说话娃娃",
+      "aliases": [
+        "留声机娃娃"
+      ],
+      "explanation": "十九世纪末，爱迪生把缩小的留声机塞进娃娃躯干，让陶瓷头、金属身子的玩具念儿歌。它不是电池喇叭，孩子得转动曲柄，唱针才能在蜡筒表面读取声音。问题是，保持合适转速需要轻巧稳定的手法，机械部分也不太经得起玩耍，钢针还会磨坏蜡筒。美国国家玩具博物馆介绍，产品上市不久便有顾客纷纷退货；爱迪生自己后来也嫌这些小家伙的声音难听。能让娃娃开口的真实发明，最后成为一次很不顺利的商业尝试。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://artsandculture.google.com/asset/edison-talking-doll-thomas-a-edison/VgHnOZcYhKcoEA?hl=en",
+          "title": "Edison Talking Doll - The Strong National Museum of Play",
+          "checkedAt": "2026-10-22",
+          "evidence": "陶瓷金属蜡筒曲柄、唱针损坏、儿童操作困难和退货；不使用与其他馆有差异的产量。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-elektro-smoking-robot",
+      "conceptId": "outrageous-objects-elektro-smoking-robot",
+      "term": "会抽烟的机器人",
+      "aliases": [
+        "Elektro",
+        "埃莱克特罗"
+      ],
+      "explanation": "美国曼斯菲尔德制造的一位早期机器人，在纽约世博会上表演的本领包括走路、说话、用手指数数，以及抽香烟和吹气球。它叫埃莱克特罗，由西屋公司在一九三七年制造，之后还到多座城市巡演，参与电影拍摄。它后来一度去向不明，重新找到时，部件已经散落在不同地方，经过努力才恢复并进入博物馆收藏。这里说的抽烟是机器的展示动作，不能由此脑补出它会烟瘾发作，或已经具备现代智能机器人的自主理解能力。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.themansfieldmuseum.org/elektro/",
+          "title": "ELEKTRO the Westinghouse Robot - The Mansfield Memorial Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "馆藏原件及1937制作、世博动作、巡演电影、散落恢复；不沿用第一机器人的绝对说法。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-heron-holy-water-dispenser",
+      "conceptId": "outrageous-objects-heron-holy-water-dispenser",
+      "term": "投币圣水机",
+      "aliases": [
+        "希罗圣水售卖机"
+      ],
+      "explanation": "进入神庙前需要用水清洁的人，可以先把硬币放进机器，让器具自动流出供仪式使用的水。史密斯学院的古代发明展示介绍了希罗设计的这种投币装置：钱币落在金属托盘上，以重量压动机构，连带打开阀门，水便流了出来。它没有电子识币器，也不是靠机器里藏着一个人收钱。每天结束后，人们可以把积存的硬币取走，再补充圣水。把付钱、取水和入庙前的准备连在一起，是这项古代机械设计让人意外的地方。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.smith.edu/bigbad/historyscitech/museum/ancient_inventions/hsc18b.htm",
+          "title": "Coin-Operated Holy Water Dispensing Machine - Smith College",
+          "checkedAt": "2026-10-22",
+          "evidence": "完整页面仪式取水、硬币压盘开阀及每日取币补水；未写未经本页支持的年代。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-galalith-chessmen",
+      "conceptId": "outrageous-objects-galalith-chessmen",
+      "term": "牛奶塑料棋子",
+      "aliases": [
+        "酪蛋白塑料",
+        "Galalith",
+        "加拉利石"
+      ],
+      "explanation": "有些看起来像象牙或角质的老棋子，原料竟与牛奶有关。加拉利石是一种把乳中的酪蛋白与甲醛结合得到的硬质塑料，早期还被用来制造纽扣等物件。它不能简单像普通热塑料那样，熔成液体直接压出复杂棋形：硬化过程可能很慢，棋子还要像木头或骨料那样车削、雕刻。收藏研究介绍，薄片处理需数周，较厚的块材可能更久。于是，一盒塑料棋也可能凝结了不少手工，不能只凭塑料二字就判断它是廉价压模货。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.schaak-museum.nl/beautiful-plastic/",
+          "title": "Beautiful plastic - Schaak-Museum",
+          "checkedAt": "2026-10-22",
+          "evidence": "Galalith小节酪蛋白甲醛、纽扣、硬化与棋子车雕；避免精确发明年份争议。"
+        },
+        {
+          "url": "https://cameo.mfa.org/wiki/Casein_plastic",
+          "title": "Casein plastic - Museum of Fine Arts Boston, CAMEO",
+          "checkedAt": "2026-10-22",
+          "evidence": "博物馆材料库直接补证牛奶酪蛋白、甲醛处理硬化、厚材缓慢、仿象牙与角质和纽扣用途。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-motorized-pasta-fork",
+      "conceptId": "outrageous-objects-motorized-pasta-fork",
+      "term": "电动卷面叉",
+      "aliases": [
+        "自动停转意面叉"
+      ],
+      "explanation": "吃长面条时，有人不想一直转手腕，便为叉子装上电机和齿轮。美国一份专利更进一步，把前端做成固定部分和内侧旋转部分，靠旋转把面条卷起来，还让它能在预设圈数后自动停止，或由使用者按开关控制。旋转叉中间有一根更长的叉齿，接触盘子时可以充当转动的支点；两部分间留有空隙，方便内叉运动。要洗餐具时，叉头组件可以拆下，避免把装着电机的整个手柄泡进水里，于是连吃面和洗叉子都成了一套机械问题。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US6442846B1/en",
+          "title": "US6442846B1 - Motorized rotating fork with automatic stop",
+          "checkedAt": "2026-10-22",
+          "evidence": "摘要及说明书175—196/401—410行：固定/旋转部分、预设圈数停止、长中央齿支点、间隙及拆下洗而不泡手柄。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-vacuum-hair-cutter",
+      "conceptId": "outrageous-objects-vacuum-hair-cutter",
+      "term": "吸尘理发器",
+      "aliases": [
+        "真空剪发器"
+      ],
+      "explanation": "一份美国专利把理发和吸尘合在一件手持工具里：气流先把头发拉进剪切头，碰到内部刀片后切断，再把碎发沿管道吸走。设计者担心理完头后，碎发掉在地板、衣领和皮肤上，需要再刷再清理，因此让吸力同时参与进发和收走残屑。文件中的一种结构把可替换刀片斜着放在气路旁，还能选择不同安装位置调整角度。这是有明确图纸和说明的剪发方案，但不能理解成把任何家用吸尘器往头上一扣，就能自动得到好发型。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US3353265A/en",
+          "title": "US3353265A - Vacuum hair cutting device",
+          "checkedAt": "2026-10-22",
+          "evidence": "摘要、刀片气路、碎发清理背景及可换角度刀片；没有自行改装指引。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-ankle-shoe-umbrella",
+      "conceptId": "outrageous-objects-ankle-shoe-umbrella",
+      "term": "鞋子雨伞",
+      "aliases": [
+        "脚踝伞"
+      ],
+      "explanation": "头上的伞已经挡住脸和衣服，鞋袜却还可能被斜雨打湿，一份韩国专利申请因此专门给鞋子再配一层伞。它把带粘扣的弹性环固定在脚踝，下方连接按鞋形制作的遮罩，让罩体围住鞋的上方和周边。说明书还提出可以折叠携带，并把外观配合不同鞋款设计，担心的不只是鞋受损，也包括湿袜子和脚部异味带来的尴尬。这份公开文件证明有人认真设计过脚踝伞，至于强风或积水环境下能挡住多少水，不能只靠申请人的设想判断。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/KR20110128706A/en",
+          "title": "KR20110128706A - Shoes umbrella",
+          "checkedAt": "2026-10-22",
+          "evidence": "韩文说明书弹性粘扣脚踝环、鞋罩、折叠及鞋袜背景；英文机译欠佳，未添加额外机械结构。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-bird-diaper",
+      "conceptId": "outrageous-objects-bird-diaper",
+      "term": "鸟用尿布",
+      "aliases": [
+        "宠物鸟尿布"
+      ],
+      "explanation": "为了让宠物鸟离开笼子活动，又不把排泄物落得到处都是，一份美国专利设计了鸟用尿布。它有接住排泄物的袋状部分，翅膀和尾羽则从预留开口伸出来，用弹性带与粘扣固定，材料可选轻薄、能伸展的织物。文件还设想做成不同尺寸、颜色和装饰图案，用肥皂水清洗，并在固定部位接上一根限制飞行范围的牵绳。能给鸟穿上带尾巴孔的小衣服，听起来像玩笑，但确实有图纸；材料效果和动物舒适程度仍属于需要实际检验的主张。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US5934226A/en",
+          "title": "US5934226A - Bird diaper",
+          "checkedAt": "2026-10-22",
+          "evidence": "摘要袋、翼尾口、粘扣伸展材质、花色、清洗牵绳；不把申请者舒适主张当验证。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-ramelli-bookwheel",
+      "conceptId": "outrageous-objects-ramelli-bookwheel",
+      "term": "书籍摩天轮",
+      "aliases": [
+        "拉梅利书轮",
+        "阅读轮"
+      ],
+      "explanation": "一座大轮子周围不是挂座舱，而是摆着好几本摊开的书，读者坐在旁边转动轮子，就能把不同书页依次送到眼前。拉梅利在十六世纪的图纸提出过这种阅读轮；现代罗切斯特理工学院的学生据此制作了一件，有八个独立书托，用山毛榉、白橡木和金属零件搭成。它服务的是同时查阅多本文献的想法，像把浏览器切换页面变成一件房间里的家具。不过，现代复原物确实做成，并不证明当年的所有设计都曾大量制造或普遍使用。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://caryprojects.wordpress.com/ramelli-label/",
+          "title": "Bookwheel, after Ramelli, 2018 - KGCOE and Cary Projects, RIT",
+          "checkedAt": "2026-10-22",
+          "evidence": "实际复原学生项目、1588图、8书托、材料；区分原始设计与现代实例。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-objects-helium-sunshade",
+      "conceptId": "outrageous-objects-helium-sunshade",
+      "term": "氦气遮阳篷",
+      "aliases": [
+        "漂浮遮阳伞"
+      ],
+      "explanation": "这份美国专利不想让人握伞柄，也不想立柱子，而是把两层柔韧材料封成扁气囊，充入氦气，让遮阳面自己浮在头顶。内部划分互相连通的气室，以免一充气就鼓成圆球，边缘的绳索再系住人、衣物或地面固定点。小号方案可跟着徒步者，或绑在漂流内胎上；放大的版本则设想悬在几张野餐桌上方。它真正公开的是一套用浮力支撑遮阳篷的设计，绳子负责不让遮阳面飞走，而不是给人一把可以把自己带上天的雨伞。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US5076029A/en",
+          "title": "US5076029A - Helium-filled sun shades",
+          "checkedAt": "2026-10-22",
+          "evidence": "气室扁气囊、氦气、边缘绳索人体/漂流内胎/野餐桌应用；限设计不臆测商业化。"
+        }
+      ]
+    }
+  ]
+}

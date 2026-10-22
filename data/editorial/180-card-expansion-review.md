@@ -1,0 +1,23 @@
+# 活跃长卡第二轮扩充核查
+
+核实日期：2026-10-22。第一批已保留原90题，合入自然生物30题、器物发明30题，共150题。用户继续要求增加，后续扩充目标调整为270题，未合入内容不计入现有题数。
+
+原90题的来源和核实边界继续见 [第一轮审阅记录](long-card-expansion-review.md)。首批新增题记录在 `expansion-180-nature` 和 `expansion-180-objects` 文件及对应审阅稿中；后续题记录为 `expansion-270-*`。编辑文件不直接参与抽题，只合入活跃包一次。
+
+## 独立抽查记录
+
+主编辑在编写者之外实际打开并阅读以下来源，对照题目关键事实：
+
+- [MBARI：竖琴海绵](https://www.mbari.org/animal/harp-sponge/)：枝上小钩捕捉小型甲壳动物；形状增加捕食面积保留推测措辞。
+- [MBARI：草莓鱿鱼](https://www.mbari.org/animal/strawberry-squid/)：大左眼向上、小右眼向下；黄色晶体为常见特征，未写成所有个体必有。
+- [MBARI：炸弹蠕虫](https://www.mbari.org/animal/bomber-worm/)：头后八个发光囊、绿色诱饵、释放后可再生，不是真正炸药。
+- [MBARI：海樽虾](https://www.mbari.org/animal/barrel-amphipod/)：掏空海樽作为桶形庇护所、重塑加固、幼体在内取食及两组眼睛。
+- [Vanderbilt Catania Lab：星鼻鼹](https://wp0.vanderbilt.edu/catanialab/research/star-nosed-mole/)：22条鼻突、中央一对细查、最快120毫秒辨认并吃下小猎物、气泡辅助水下嗅探。
+- [V&A：提普之虎](https://www.vam.ac.uk/articles/tipus-tiger)：近真人大小的木制机械虎、人偶手臂起落和模拟呻吟、腹内风琴；未编造杀人用途。
+- [瑞士相机博物馆：鸽子摄影](https://www.cameramuseum.ch/en/discover/permanent-exhibition/the-century-of-the-film/photographer-pigeons/)：鸽胸绑相机、延时曝光与不同版本；不把某一版本未商业成功套到所有版本，避开有冲突的精确专利年份。
+
+## 验收边界
+
+结构校验不证明事实；逐题核实记录与独立抽查分别保留。题目用自己的话整理，不照抄商业桌游卡片。历史医学器具、专利与民俗中的信念只描述其存在，不将历史用途或主办方传说写成已证明效果。题卡长度保留信息量，不要求玩家5秒读完。
+
+保留默认4人、读卡5秒和单手机玩法。新词只进入重新开桌的题池，进行中存档及已玩历史继续保留。手机视觉与真实5秒试玩仍待验证。

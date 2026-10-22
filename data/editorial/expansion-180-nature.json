@@ -1,0 +1,693 @@
+{
+  "questions": [
+    {
+      "id": "outrageous-180-nature-sea-pig",
+      "conceptId": "nature-sea-pig",
+      "term": "海猪",
+      "aliases": [
+        "Scotoplanes"
+      ],
+      "explanation": "深海泥地上会有一群粉红小东西，用管足慢慢走路，嘴边的触手在泥里挑捡死动物碎屑、粪便和黏液。它们实际属于海参，大多只有几厘米到十几厘米长；鲸尸沉下后，附近还可能聚来大群海猪，吃尸体周围富含有机物的沉积物。研究人员经常拍到幼年帝王蟹趴在海猪身上，或藏到它们肚子下面，像搭着一辆慢车。小蟹也许借此躲避捕食者，但这种同行关系的具体作用还没有确定。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 1,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Monterey Bay Aquarium：Sea pig",
+          "url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/sea-pig",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文 Meet / Snuffling / Deep sea babysitters；小蟹保护作用仅为可能解释。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-angler-siphonophore",
+      "conceptId": "nature-angler-siphonophore",
+      "term": "钓鱼管水母",
+      "aliases": [
+        "Erenna sirena"
+      ],
+      "explanation": "在一千多米深的黑暗海水里，这种胶冻状动物会垂下发光的诱饵，让靠近的小鱼以为面前有红色的小甲壳动物。鱼一旦凑近，带刺细胞的触手就会将它缠住。看起来像一个身体的东西，其实由许多彼此连接、各有分工的个体构成：有的负责搏动和转向，有的负责刺中猎物，有的负责吞食。它们生活在不碰海底的水层中，柔软脆弱的身体既不用长出鱼竿，也能把一串会亮的小假饵挂进自己的捕食网。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Angler siphonophore",
+          "url": "https://www.mbari.org/animal/angler-siphonophore/",
+          "checkedAt": "2026-10-22",
+          "evidence": "About：群体分工、发光红色拟甲壳类诱饵、灯笼鱼被触手刺捕。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-decorator-crab",
+      "conceptId": "nature-decorator-crab",
+      "term": "装饰蟹",
+      "aliases": [
+        "Naxia tumida",
+        "海藻蟹"
+      ],
+      "explanation": "澳大利亚温带海岸有一种小螃蟹，走起来像一团海藻自己挪了位置。它的背甲长着可以挂住东西的小钩，发现合适的海藻后，会用钳子剪下一段，给末端涂上特殊分泌物，再把材料贴到自己背上。那种分泌物遇海水会变硬，螃蟹就这样不断给外壳添置遮盖物，直到伪装足够完整。被搬上背的藻类还会继续生长，进一步遮住螃蟹轮廓。这不是偶然顶着一片落叶，而是把身边的活材料加工后穿在身上。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 1,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Australian Museum：Decorator Crab",
+          "url": "https://australian.museum/learn/animals/crustaceans/decorator-crab/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Identification / Behaviours and adaptations：背甲小钩、剪藻、腺体分泌物海水硬化、藻继续生长。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-peacock-mantis-shrimp",
+      "conceptId": "nature-peacock-mantis-shrimp",
+      "term": "雀尾螳螂虾",
+      "aliases": [
+        "孔雀螳螂虾",
+        "Odontodactylus scyllarus"
+      ],
+      "explanation": "这种颜色鲜艳的甲壳动物会把锤状前肢收起，用类似弹簧和卡扣的结构储存能量，再猛然弹出，砸开螃蟹、螺和其他硬壳猎物。拳头冲得太快，附近海水会形成空化气泡，气泡塌陷时又释放冲击，因此猎物除了挨锤，还可能受到第二次打击。自己的拳头则有多层材料和螺旋排列的纤维帮助分散冲击。它虽常被叫作虾，却属于口足目；同一大类里还有另一派，用带刺的前肢埋伏刺穿软身猎物。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Natural History Museum：Mantis shrimp: The crustacean that packs a punch",
+          "url": "https://www.nhm.ac.uk/discover/mantis-shrimps.html",
+          "checkedAt": "2026-10-22",
+          "evidence": "What / How hard / Why doesn't：储能、锤击、空化、纤维；未采用来源把23m/s类比子弹的夸张措辞。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-hoatzin",
+      "conceptId": "nature-hoatzin",
+      "term": "麝雉",
+      "aliases": [
+        "臭雉",
+        "Opisthocomus hoazin"
+      ],
+      "explanation": "亚马孙河边的树枝上有一种被叫作臭鸟的鸟，幼鸟翅膀上竟然带爪。巢筑在伸向水面的枝条上，蛇或猴子接近时，还没长齐羽毛的小鸟可以直接跳水逃命，等危险过去，再游向岸边，用翅爪抓着树枝爬回去。长大后这些翼上的爪会消失，身体里面却继续保留古怪的消化安排：它们吃大量难消化的叶子，依靠膨大的消化道和微生物发酵处理食物。发酵产生的气味又给这只爬树、跳水的鸟添了一个不太体面的名声。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Audubon：Hoatzin",
+          "url": "https://www.audubon.org/magazine/hoatzin",
+          "checkedAt": "2026-10-22",
+          "evidence": "幼鸟跳水、翼爪爬返、成年爪消失、叶食和发酵臭味；避免“唯一只吃叶的鸟”过度绝对表述。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-harp-sponge",
+      "conceptId": "nature-harp-sponge",
+      "term": "竖琴海绵",
+      "aliases": [
+        "Chondrocladia lyra"
+      ],
+      "explanation": "三千多米深的泥质海底，竖着一种像竖琴支架的海绵，细长的竖枝排出大片能拦住来客的面积。大部分海绵靠抽取海水过滤微小食物，它却走了吃肉的路：枝条上的小钩会挂住经过的小型甲壳动物，再把捕到的猎物消化掉。研究人员认为，这种展开的形状可能有助于增加拦截食物的机会。在深海食物稀少的环境里，持续过滤海水也要付出能量，这位看似不动的海底摆件，就用布满钩子的身体等一顿更实在的饭。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Harp sponge",
+          "url": "https://www.mbari.org/animal/harp-sponge/",
+          "checkedAt": "2026-10-22",
+          "evidence": "About：垂直枝小钩捕食甲壳动物；扩大捕食面积保留“可能”限定。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-bomber-worm",
+      "conceptId": "nature-bomber-worm",
+      "term": "炸弹蠕虫",
+      "aliases": [
+        "Swima"
+      ],
+      "explanation": "深海里这种只有几厘米长的蠕虫，并不躲在海底洞中，而是在离底部几米的水里游动。头后排列着八个装有发光液体的囊，遇到惊扰时，可以甩出其中的一个，让它在黑暗中亮起绿色的光。捕食者被这团亮东西吸引时，蠕虫趁机划动身体逃开，之后还能重新长出用掉的发光囊，准备下次脱身。它释放的不是能炸伤敌人的炸药，而是身体自己制造、又可以丢弃的诱饵，像把随身的应急灯扔出去换一条逃生路。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Bomber worm",
+          "url": "https://www.mbari.org/animal/bomber-worm/",
+          "checkedAt": "2026-10-22",
+          "evidence": "About：头后八囊、放出绿光诱饵、再生和近底水层；未写成爆炸杀敌。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-pigbutt-worm",
+      "conceptId": "nature-pigbutt-worm",
+      "term": "猪屁股蠕虫",
+      "aliases": [
+        "Chaetopterus pugaporcinus"
+      ],
+      "explanation": "研究人员在深海拍到一个榛子大小、圆滚滚的东西，后来才确认它是一种身体分节的多毛类蠕虫。它的身体前后两端被压得很紧，中间却鼓得很大，膨大的形状可能帮助它漂浮；名字听着像猪屁股，生活方式却是随海流漂在水层中，吃飘落的有机碎屑。它的近亲多住在海底像羊皮纸一样的管子里，这一位却把某些幼体和成体的特点混到一起。实验室观察还发现，它自身能发蓝光，也能分泌带绿色光的黏液。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Pigbutt worm",
+          "url": "https://www.mbari.org/animal/pigbutt-worm/",
+          "checkedAt": "2026-10-22",
+          "evidence": "About：2.1cm、分节两端压缩中段膨大、漂浮推测、蓝光组织和绿光黏液。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-barrel-amphipod",
+      "conceptId": "nature-barrel-amphipod",
+      "term": "海樽虾",
+      "aliases": [
+        "Phronima sedentaria",
+        "桶状端足类"
+      ],
+      "explanation": "海面与海底之间缺少可以躲藏的地方，这种像小虾的端足类就把别的动物改成住房。它先抓住胶冻状的海樽，用尖爪掏掉里面的软组织，吃过之后再把剩下的桶形外壳带着走。这个桶还会经过整形，并用分泌的化学物质加固。雌体把幼崽放在里面，刚孵出的后代也能吃海樽组织。它另有朝侧面看的小眼和朝上看的大眼，让住户不必完全离开这间透明旧躯壳，就能观察外面的水层。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Barrel amphipod",
+          "url": "https://www.mbari.org/animal/barrel-amphipod/",
+          "checkedAt": "2026-10-22",
+          "evidence": "About：海樽掏空改形加固、携带、育幼和两组眼；名称附学名限定概念。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-strawberry-squid",
+      "conceptId": "nature-strawberry-squid",
+      "term": "草莓鱿鱼",
+      "aliases": [
+        "Histioteuthis heteropsis"
+      ],
+      "explanation": "它的两只眼睛长得很不对称：大左眼向上，小右眼向下，像给同一条鱿鱼装了两种摄像头。上方还有一点从海面透下来的微光，大眼负责找出游过猎物的阴影；这只眼睛还常有黄色晶体，帮助看穿猎物发光形成的伪装。下面更暗，小眼则寻找生物发出的短暂闪光。身体的红色在没有红光的深处反而显得接近黑色，身上点状的发光器官还能淡化从下方看到的轮廓。看似装错的一对眼睛，其实各盯着一块不同的世界。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Strawberry squid",
+          "url": "https://www.mbari.org/animal/strawberry-squid/",
+          "checkedAt": "2026-10-22",
+          "evidence": "About：左大上看、右小下看、黄色晶体often、红色隐蔽与发光器官。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-giant-tubeworm",
+      "conceptId": "nature-giant-tubeworm",
+      "term": "巨型管虫",
+      "aliases": [
+        "Riftia pachyptila"
+      ],
+      "explanation": "深海热液口附近，一排排白色长管顶端伸出红色羽毛般的鳃，里面的虫体可以长到两米。这些成体并不靠张嘴吞食维生，而是依靠体内共生的细菌，把热泉带来的含硫物质转化为自己可用的营养。红色的鳃露在管外，又会成为附近捕食者的目标，遇到来客接近便能迅速缩回管中。它们的饭碗还系在海底活动上：热水停止流出时，整群可能死亡；别处冒出新的热泉，幼体又可能赶去定居，重新长出一片红羽毛。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Giant tubeworm",
+          "url": "https://www.mbari.org/animal/giant-tubeworm/",
+          "checkedAt": "2026-10-22",
+          "evidence": "About和Diet：成体共生细菌提供营养、可缩回红鳃、热流关闭死亡及幼体殖入；不沿用guts误写消化肠。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-predatory-tunicate",
+      "conceptId": "nature-predatory-tunicate",
+      "term": "捕食海鞘",
+      "aliases": [
+        "Megalodicopia"
+      ],
+      "explanation": "海底岩石上这种像张开大嘴的东西，会把嘴朝向水流，等食物自己送到门口。一般海鞘从一个水管吸入海水，用黏液收集微小浮游生物，再从另一个水管排水；它却把入水口发展成一对能迅速合拢的大唇，小型甲壳动物漂近时，就有机会被整个包进嘴里。这种海鞘既能利用微小食物，也能抓住更大、更有营养的一口。它通常独自附着生活，在合适的陡峭岩壁上偶尔成小群，看起来像海底排着几张随时准备闭合的嘴。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "MBARI：Predatory tunicate",
+          "url": "https://www.mbari.org/animal/predatory-tunicate/",
+          "checkedAt": "2026-10-22",
+          "evidence": "About：大唇合拢捕食、口朝水流、独居偶成小群、岩质环境。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-satin-bowerbird",
+      "conceptId": "nature-satin-bowerbird",
+      "term": "缎蓝园丁鸟",
+      "aliases": [
+        "Ptilonorhynchus violaceus"
+      ],
+      "explanation": "雄鸟会在地上用细枝搭出两道平行的墙，周围摆上搜集来的蓝色物品；在人类附近，衣夹、吸管和瓶盖也可能被偷来，远离住宅时则用羽毛和花等材料。它还会把嚼过的植物和唾液混成涂料，刷在枝墙上，长时间维护这座展示场。雌鸟来参观时，雄鸟衔着装饰物，伸展翅膀、鞠躬和迈步，配上机械般的叫声。这里是求偶的舞台而不是育儿的巢，雌鸟交配后独自离开去筑巢，雄鸟还能继续接待下一位访客。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Australian Museum：Satin Bowerbird",
+          "url": "https://australian.museum/learn/animals/birds/satin-bowerbird/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Breeding behaviours：蓝物件、植物唾液涂墙、表演、雌鸟独自筑巢。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-hydnora-africana",
+      "conceptId": "nature-hydnora-africana",
+      "term": "非洲白鹭花",
+      "aliases": [
+        "Hydnora africana"
+      ],
+      "explanation": "这种南部非洲的寄生植物大部分藏在地下，没有供光合作用的绿叶，靠连上大戟属宿主的根获取营养。开花时，土里露出的肉质花朵内侧呈红橙色，还散发腐肉气味，招来甲虫。甲虫钻进花中的空腔后会暂时被困，等花逐渐萎蔫才有机会出去，顺带把花粉搬到下一朵。它的果实仍在地下发育，里面包着大量小种子。最初研究它的博物学家甚至把它发表成了一种古怪的真菌，而这团地下肉块实际会开花结果。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Kew Bulletin：A taxonomic revision of the genus Hydnora (Hydnoraceae)",
+          "url": "https://link.springer.com/article/10.1007/s12225-024-10193-5",
+          "checkedAt": "2026-10-22",
+          "evidence": "Introduction / History / H.africana treatment：地下寄生、无叶、大戟宿主、花色臭味、甲虫暂困、地下果、1775误作真菌。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-fiveangled-dodder",
+      "conceptId": "nature-fiveangled-dodder",
+      "term": "五角菟丝子",
+      "aliases": [
+        "Cuscuta pentagona"
+      ],
+      "explanation": "这根细藤发芽后没有多少时间慢慢寻找饭碗，必须尽快缠到另一株植物上。研究人员给它摆过毛毡和通条做的假番茄，也摆过红水、绿水，它都不理；把真番茄的气味物质涂在橡胶上，它却朝有气味的方向伸出藤。面对番茄和小麦时，它更偏好番茄，小麦释放的某一种挥发物还会让它退避。缠上宿主之后，它从对方输送养分的组织中获取食物。所以这位看似盲目乱爬的寄生者，会利用空气里的化学线索决定下一顿往哪里长。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Penn State University：Parasitic plants sniff out hosts, according to Penn State research",
+          "url": "https://www.psu.edu/news/research/story/parasitic-plants-sniff-out-hosts-according-penn-state-research",
+          "checkedAt": "2026-10-22",
+          "evidence": "Not Easily Tricked：假番茄、彩水、橡胶气味实验及宿主选择；采用实验物种而非全菟丝子属绝对化。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-fulmar",
+      "conceptId": "nature-fulmar",
+      "term": "暴雪鹱",
+      "aliases": [
+        "Fulmarus glacialis"
+      ],
+      "explanation": "海边悬崖上的这种灰白色海鸟，乍看有点像海鸥，亲缘上却和信天翁更接近。它经常贴着海面伸直翅膀滑翔，也会借着悬崖边的上升气流飞高；平时大多在外海生活，繁殖时才容易在巢区见到。要是有动物或人靠近巢，它的应对方式不只是叫喊和啄咬，还会从嘴里喷出气味难闻的油。于是远看像一群安静停在岩壁上的海鸟，靠近后却可能迎来一口臭油。这也是辨认它时相当鲜明、但不太适合亲身试验的特征。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "RSPB：Fulmar Bird Facts",
+          "url": "https://www.rspb.org.uk/birds-and-wildlife/fulmar",
+          "checkedAt": "2026-10-22",
+          "evidence": "How to identify / Behaviour：信天翁亲缘、飞行和海岸生活、受威胁喷臭油；不增写油的杀伤效应。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-loggerhead-shrike",
+      "conceptId": "nature-loggerhead-shrike",
+      "term": "呆头伯劳",
+      "aliases": [
+        "Lanius ludovicianus"
+      ],
+      "explanation": "这种鸣禽的腿爪不像猛禽那样有力，却会抓小动物吃，于是把尖刺和铁丝网变成了固定食物的工具。猎物被挂到树刺上之后，它就能用钩状的嘴撕下肉，不必全靠脚把尸体按牢。有些猎物当场吃，有些留在树上当储备，形成看起来像串肉摊的食物架。繁殖季雄鸟会在巢附近存粮，便于孵育中的雌鸟取食；储藏多也可能参与吸引配偶。不过展示得太显眼也有代价，其他鸟有时会直接过来偷走已经挂好的食物。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "U.S. Fish & Wildlife Service：Loggerhead Shrikes: Tales from the Larder",
+          "url": "https://www.fws.gov/story/loggerhead-shrikes-tales-larder",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文腿弱、尖刺固定、储食、繁殖供食、求偶仅may、其他鸟窃食。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-emerald-cockroach-wasp",
+      "conceptId": "nature-emerald-cockroach-wasp",
+      "term": "绿宝石蟑螂蜂",
+      "aliases": [
+        "Ampulex compressa",
+        "翡翠蟑螂蜂"
+      ],
+      "explanation": "雌蜂准备给后代备粮时，会先刺中蟑螂胸部的神经节，暂时限制前腿活动，再把刺送向脑部。中毒的蟑螂并没有立刻死去，却变得很少主动逃跑，雌蜂可以抓住它的触角，像牵着绳子一样带回洞里。到达后，蜂把一枚卵产在蟑螂腿上，封住洞口，幼虫孵化便有一份仍然活着的食物。这个过程的重要之处是改变行动，而非把整只猎物彻底麻倒：比自己更笨重的蟑螂还能被引导行走，反倒帮雌蜂省下了拖运的力气。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Natural History Museum of Utah：The Zombie Wasp's Link to Parkinson's Research",
+          "url": "https://nhmu.utah.edu/articles/zombie-wasps-link-parkinsons-research",
+          "checkedAt": "2026-10-22",
+          "evidence": "Venom That Rewrites Behavior：胸部及脑刺、抓触角牵行、腿产卵、存活供幼虫；不宣称完全意识控制。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-antlion",
+      "conceptId": "nature-antlion",
+      "term": "蚁狮",
+      "aliases": [
+        "蚁蛉幼虫",
+        "Myrmeleon"
+      ],
+      "explanation": "在干燥松散的沙土里，有些蚁蛉幼虫会倒着向下挖，用头部快速把沙甩出去，修出一个小漏斗。自己埋在漏斗底部，只把镰刀般的口器尖端露出来，等蚂蚁或其他小虫踩上松动的斜坡、滑落到嘴边。抓住之后，它把猎物拖进沙下吸食体液，再把空壳扔出陷阱，重新等下一餐。长成成虫前还要在地下做一个裹着沙粒的茧；等细长、有四片翅膀的成虫飞出来，外形已和这个蹲在沙坑底的伏击者很不一样。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Missouri Department of Conservation：Antlion Larvae (Doodlebug Larvae)",
+          "url": "https://mdc.mo.gov/discover-nature/field-guide/antlion-larvae-doodlebug-larvae",
+          "checkedAt": "2026-10-22",
+          "evidence": "Habitat / Food / Life Cycle：倒退挖坑、头甩沙、坑底口器、吸汁扔壳、沙丝茧、成虫形态；限定有些而非全部蚁蛉。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-welwitschia",
+      "conceptId": "nature-welwitschia",
+      "term": "百岁兰",
+      "aliases": [
+        "Welwitschia mirabilis"
+      ],
+      "explanation": "纳米布沙漠里的百岁兰，远看像一堆散在地面的长带子，成年植株主要就是两片不断生长的叶。幼株长出真叶后，顶端的生长点很早就停止活动，持续生长的任务转移到叶片基部，新的部分像传送带一样不断送出。某些大型个体经测年已经超过一千五百岁，整个生命中仍靠这一对真叶延续，并不是每年重新换出两片。它还有分开的雌株和雄株，会产生球果；一团显得干瘪凌乱的植物，可能已经在荒漠里维持了许多代人的时间。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Nature Communications：The Welwitschia genome reveals a unique biology underpinning extreme longevity in deserts",
+          "url": "https://www.nature.com/articles/s41467-021-24528-4",
+          "checkedAt": "2026-10-22",
+          "evidence": "Introduction / The extreme longevity of two leaves / Fig1：两叶终生基部增长、>1500年、雌雄球果；不采用五年不喝水传闻。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-dracula-orchid",
+      "conceptId": "nature-dracula-orchid",
+      "term": "德古拉兰",
+      "aliases": [
+        "Dracula"
+      ],
+      "explanation": "这种兰花在人看来有时像一张小猴脸，对传粉的小飞虫却更像一朵蘑菇。花的唇瓣带着类似菌褶的形状，同时释放近似真菌的气味，把原本会去蘑菇附近活动的果蝇吸引过来，让它们在访花过程中搬运花粉。它不是靠猴子来传粉，也没有真的长成真菌；外形相似与气味相似一起把来客引到了花上。这个属中有些种住在南美凉爽潮湿的高山森林，白色三角形花朵上的粉红色纹路，则构成了人们看见的那张奇怪面孔。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Kew：Sneaky orchids and their pollination tricks",
+          "url": "https://www.kew.org/read-and-watch/orchid-pollination-tricks",
+          "checkedAt": "2026-10-22",
+          "evidence": "Dracula图片说明：菌褶形唇瓣、菌气味招果蝇；南美高山和白花粉纹另见Chicago Botanic Garden物种页。"
+        },
+        {
+          "title": "Chicago Botanic Garden：Dracula inaequalis",
+          "url": "https://www.chicagobotanic.org/plant-information/plant-finder/dracula-inaequalis-monkey-faced-orchid",
+          "checkedAt": "2026-10-22",
+          "evidence": "实读正文：南美凉爽潮湿高山、白三角花粉红纹猴脸；仅作为属内个例。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-artillery-fungus",
+      "conceptId": "nature-artillery-fungus",
+      "term": "炮弹菌",
+      "aliases": [
+        "Sphaerobolus",
+        "炮兵菌"
+      ],
+      "explanation": "花园木屑覆盖物里有一种小真菌，长着微小的杯状结构，却会把黑色孢子团朝外发射。它借积累的渗透压力提供动力，射程能达到数米，还倾向于朝太阳或明亮反光的表面开火。墙面、汽车和叶片因此可能出现一片片像柏油点的小黑斑。孢子团外层很黏，粘牢后很难在不损伤表面的情况下擦掉，所以一面看似被人溅脏的浅色墙，肇事者可能藏在旁边的烂木头里。它是在传播后代，并不是墙体本身生出了黑色病斑。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 1,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "University of Maine Cooperative Extension：Artillery Fungus",
+          "url": "https://extension.umaine.edu/ipm/ipddl/publications/5103e/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Introduction / Symptoms：渗透压弹射20feet、黏孢子团、难清理、趋强光/反光和木屑栖生。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-massospora-cicadina",
+      "conceptId": "nature-massospora-cicadina",
+      "term": "蝉团孢霉",
+      "aliases": [
+        "Massospora cicadina"
+      ],
+      "explanation": "这种寄生真菌感染周期蝉后，会在蝉身体后端形成显眼的孢子团，却不马上让宿主停飞。被感染的蝉仍能飞行和尝试交配，把孢子沿途或通过接触散出去；一些雄蝉还会吸引其他雄蝉尝试交配，给真菌增加传播机会。研究人员在受感染的周期蝉中检测到卡西酮，在另外一些感染相关真菌的蝉中检测到裸盖菇素。这些物质可能参与行为改变，具体机制仍需研究。真菌利用的不是一具静止尸体，而是一只身体后端带着孢子、仍在到处活动的传播者。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Fungal Ecology：Psychoactive plant- and mushroom-associated alkaloids from two behavior modifying cicada pathogens",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6876628/",
+          "checkedAt": "2026-10-22",
+          "evidence": "Abstract / Introduction 298–299：活体飞行交配散孢、雄雄吸引、周期蝉卡西酮与annual蝉裸盖菇素分开、机制推测。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-tardigrade",
+      "conceptId": "nature-tardigrade",
+      "term": "水熊虫",
+      "aliases": [
+        "缓步动物",
+        "Tardigrada"
+      ],
+      "explanation": "苔藓、泥土和积水里可能住着显微镜下才显眼的八足小动物，干燥时会收缩身体，进入被称作桶状体的休眠状态。它在这时失去大量水分，代谢大幅降低，可以等到再次遇水后恢复活动。研究人员曾让部分水熊虫经历强辐射、极端温度甚至太空真空，休眠状态赋予的耐受能力使它们在某些条件下活了下来。不过这不是一直处在无敌状态：正常活动、进食和繁殖时，它仍是一只需要合适环境的小动物，那些惊人的实验表现有相应的状态与暴露条件。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 1,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Natural History Museum：Life in Earth's most extreme environments",
+          "url": "https://www.nhm.ac.uk/discover/life-in-earths-most-extreme-environments.html",
+          "checkedAt": "2026-10-22",
+          "evidence": "Tardigrades：八足、tun脱水休眠、恢复、辐射和太空实验；特意限定部分条件非永生或任何温度。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-stinkhorn",
+      "conceptId": "nature-stinkhorn",
+      "term": "鬼笔",
+      "aliases": [
+        "臭角菌",
+        "Phallaceae"
+      ],
+      "explanation": "花园里突然冒出一团腐肉或粪便般的臭味，源头可能是一种刚成熟的真菌。鬼笔类会在某些部位产生带孢子的黏液，苍蝇被气味招来，吃黏液、接触黏液，离开时就把孢子带到别处，完成一场闻起来很不体面的运输。它们小时候可以藏在地下，呈蛋状，成熟后出现的形态和颜色又因种类而异。把地面上臭烘烘的部分拔掉，并不等于整株真菌消失：菌丝还留在土壤或木屑中，以后仍可能长出新的子实体，苍蝇也能继续带来新孢子。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "University of Wisconsin Extension：Stinkhorns",
+          "url": "https://hort.extension.wisc.edu/articles/stinkhorns/",
+          "checkedAt": "2026-10-22",
+          "evidence": "What / Where / Control：腐臭、黏液招蝇运孢、地下egg、形态多样及拔除不清菌丝；限定鬼笔类不单种全套。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-aye-aye",
+      "conceptId": "nature-aye-aye",
+      "term": "指猴",
+      "aliases": [
+        "Daubentonia madagascariensis"
+      ],
+      "explanation": "马达加斯加森林里，这种夜行灵长类会沿树枝走动，用细长的中指快速敲打木头，再把大耳朵朝前竖起，听里面传出的声音。听到像是虫道的位置，便用不断生长的门齿撕开树皮，再把特别细、灵活的第三根手指伸进孔里，把幼虫钩出来。于是同一只手指既参与探查，又承担取食工具的工作。它的食物还可以包括果实、坚果等，白天则睡在树上的巢里；那根像骨架一样怪异的中指，并不是受了伤，而是寻找木中食物的重要装备。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Duke Lemur Center：Aye-aye",
+          "url": "https://lemur.duke.edu/discover/meet-the-lemurs/aye-aye/",
+          "checkedAt": "2026-10-22",
+          "evidence": "介绍与Diet / Behavior：敲击听虫道、门齿撕皮、中指钩虫、其他食物及树巢。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-star-nosed-mole",
+      "conceptId": "nature-star-nosed-mole",
+      "term": "星鼻鼹",
+      "aliases": [
+        "Condylura cristata"
+      ],
+      "explanation": "这只鼹鼠鼻端像长着一圈小手指，共有二十二条肉质突起，上面密布触觉器官。鼻子接触到东西时，中央的一对突起还会负责更细的检查，作用有点像视觉里用来仔细看的中央区域。它辨认并吃下一件小猎物，最快只需约零点一二秒。潜水寻找食物时，它还会从鼻孔吹出气泡，让气泡接触周围物体、收集气味，再利用这套办法追踪水下的气味线索。又摸又闻的一张脸，负责的是极快的觅食，而不是在头上多长了一圈脚。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Vanderbilt University Catania Lab：Star-Nosed Mole",
+          "url": "https://wp0.vanderbilt.edu/catanialab/research/star-nosed-mole/",
+          "checkedAt": "2026-10-22",
+          "evidence": "实验室说明：22射线、触觉fovea、120ms、鼻气泡水下收集气味。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-vampire-bat",
+      "conceptId": "nature-vampire-bat",
+      "term": "吸血蝠",
+      "aliases": [
+        "Desmodus rotundus",
+        "普通吸血蝠"
+      ],
+      "explanation": "真正的吸血蝠不会像故事里那样把牙当吸管抽血，而是用锋利的前齿划出小口，再用舌头舔流出的血。它们的唾液中有帮助维持血流的成分，因此进餐时伤口不容易立刻把食物来源关掉。现存的吸血蝠共有三种，普通吸血蝠主要取食哺乳动物的血，另一些近亲更偏向鸟类。牛、马等家畜可能成为夜间的供餐者，野生动物也在菜单上。这个令人容易联想到怪物的名称，指向的却是一套切口、舔食、维持流血的具体取食办法。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 1,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "U.S. Geological Survey：Do vampire bats really exist?",
+          "url": "https://www.usgs.gov/faqs/do-vampire-bats-really-exist?items_per_=&items_per_page=6&page=1",
+          "checkedAt": "2026-10-22",
+          "evidence": "切口舔血、家畜及野生猎物；唾液维持流血和三种饮食差异见AMNH实读视频转录。"
+        },
+        {
+          "title": "AMNH：Vampire Bats: Decoding Genomes and Adaptive History",
+          "url": "https://www.amnh.org/explore/videos/biodiversity/vampire-bats-adaptation",
+          "checkedAt": "2026-10-22",
+          "evidence": "实读视频转录233–243：三种、鸟类与哺乳类饮食差别、唾液纤溶酶原激活物和流血。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-fleischmann-glassfrog",
+      "conceptId": "nature-fleischmann-glassfrog",
+      "term": "弗氏玻璃蛙",
+      "aliases": [
+        "Hyalinobatrachium fleischmanni"
+      ],
+      "explanation": "这种小蛙的腹面皮肤和肌肉近乎透明，白天趴在半透明的叶片上休息时，身体轮廓更难被发现。但鲜红的血液本来很容易暴露，于是休息中的蛙会把接近九成的红细胞暂时集中到肝脏里，肝中的反光物质又帮助遮住这团红色。等到夜里重新活动，红细胞再回到循环系统。研究人员发现，它每天挤进、释放这么多细胞，却没有出现预期中的危险凝血。它的透明并不是把血永久变白，而是连睡觉时血液放在哪里都作了调整。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "American Museum of Natural History：Glassfrogs Hide Red Blood Cells in Liver to “Disappear”",
+          "url": "https://www.amnh.org/explore/news-blogs/glassfrogs-camouflage",
+          "checkedAt": "2026-10-22",
+          "evidence": "正文：休息红细胞约90%肝储存、反光鸟嘌呤晶体、恢复循环及未凝血；具体实验物种另由NSF正文确认。"
+        },
+        {
+          "title": "U.S. National Science Foundation：Glassfrogs hide red blood cells in their livers to become transparent",
+          "url": "https://www.nsf.gov/news/glassfrogs-hide-red-blood-cells-their-livers-become",
+          "checkedAt": "2026-10-22",
+          "evidence": "实读103–111行：Hyalinobatrachium fleischmanni、夜间活动、叶背休息、约90%红细胞进肝；PMC原论文遇验证码未采用。"
+        }
+      ]
+    },
+    {
+      "id": "outrageous-180-nature-darwin-frog",
+      "conceptId": "nature-darwin-frog",
+      "term": "达尔文蛙",
+      "aliases": [
+        "Rhinoderma darwinii",
+        "南达尔文蛙"
+      ],
+      "explanation": "智利和阿根廷潮湿森林里，这种体长不足四厘米的小蛙，尖尖的鼻端使它看起来有点像一片叶子。雄蛙的喉部除了能发出哨子般的求偶声，还可以当育儿空间：蝌蚪被携带在声囊里，受到保护，经过大约两个月的发育后，变成小蛙，再从父亲嘴里跳出来。这样的一家不必把整个蝌蚪期放进池塘，能在陆地上完成生活。不过陆栖也并没有让它躲开所有疾病，保护工作发现，邻近个体之间的接触仍能让壶菌病在小片森林里传播。",
+      "packIds": [
+        "outrageous-long-cards"
+      ],
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "ZSL：Conservationists move one step closer to saving tiny frog from amphibian apocalypse",
+          "url": "https://www.zsl.org/news-and-events/news/conservationists-move-closer-saving-tiny-frog-amphibian-apocalypse",
+          "checkedAt": "2026-10-22",
+          "evidence": "Saving a unique species与研究概述：<4cm、声囊育幼约2月、嘴出小蛙、哨声、尖鼻陆栖、接触传播壶菌。"
+        }
+      ]
+    }
+  ]
+}
