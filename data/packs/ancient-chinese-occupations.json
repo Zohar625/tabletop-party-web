@@ -1,0 +1,2297 @@
+{
+  "schemaVersion": 1,
+  "id": "ancient-chinese-occupations",
+  "title": "中国古代职业",
+  "description": "以《周礼》中的冷门职业、工匠与专门职掌为主，涵盖饮食、织造、市场、山泽、礼乐、占验及制器。共90题，解释保留细节，适配10秒限时读卡。",
+  "version": "1.0.0",
+  "language": "zh-CN",
+  "scopeNote": "本包的古代职业是游戏题材统称，包含古籍所设官职、专业分工与工匠。全部按《周礼》原文职掌解释，不声称各职务曾在西周一律实际实行，也不泛化为中国各朝代通制。",
+  "recommendedReadSeconds": 10,
+  "editorialStatus": "source-checked-playtest-pending",
+  "questions": [
+    {
+      "id": "aco-paoren",
+      "conceptId": "occupation-zhouli-paoren",
+      "term": "庖人",
+      "aliases": [],
+      "explanation": "负责为王室准备畜禽和野味原料，分辨动物种类，以及鲜肉、干肉等不同状态。祭祀、丧礼和接待宾客所需的禽兽也在供给范围内，还要依时节选用不同肉食与脂膏，重点在原料辨识和供应。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "饮食供给",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "庖人之職",
+          "evidence": "掌共六畜、六獸、六禽，辨其名物",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-neiyong",
+      "conceptId": "occupation-zhouli-neiyong",
+      "term": "内饔",
+      "aliases": [
+        "內饔"
+      ],
+      "explanation": "负责王、王后和世子膳食的切割、烹煮、煎制与调味，还要分辨牲体部位及不宜食用的肉。王室进膳时安排盛肉的鼎俎，宗庙祭祀和宴饮中的烹割事务也由其承担。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "饮食供给",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "內饔之職",
+          "evidence": "掌王及後、世子膳羞之割亨煎和之事",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-waiyong",
+      "conceptId": "occupation-zhouli-waiyong",
+      "term": "外饔",
+      "aliases": [],
+      "explanation": "负责外部祭祀、宾客宴食等场合的烹割，准备肉干、鱼肉与盛食的鼎俎。国家宴请老人、孤子及士庶子时，也要组织烹饪；军旅中的赏赐肉食同样列在它的职掌中。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "饮食供给",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "外饔之職",
+          "evidence": "掌外祭祀之割亨；邦饗耆老、孤子",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-hengren",
+      "conceptId": "occupation-zhouli-hengren",
+      "term": "亨人",
+      "aliases": [],
+      "explanation": "负责供给炊事所用的鼎和大锅，并调配水量与火候，承担内饔、外饔所需的烧火烹煮。祭祀和接待宾客时还供应不同羹汤，属于大型烹饪体系中专管锅灶和水火的一环。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "饮食供给",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "亨人之職",
+          "evidence": "掌共鼎鑊，以給水火之齊",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-dianshi",
+      "conceptId": "occupation-zhouli-dianshi",
+      "term": "甸师",
+      "aliases": [
+        "甸師"
+      ],
+      "explanation": "带领属员耕作王的籍田，按时交入收获，用来供应祭祀谷物。祭礼中的茅草、野果以及内外厨房所用薪柴也在供给范围内，因此兼有王田生产和祭祀、炊事材料筹措的职责。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "农事供给",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "甸師之職",
+          "evidence": "耕耨王藉；以共齍盛；以薪蒸役外、內饔",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-shouren",
+      "conceptId": "occupation-zhouli-shouren",
+      "term": "兽人",
+      "aliases": [
+        "獸人"
+      ],
+      "explanation": "用网捕取野兽，辨认猎物种类，并按时节进献。举行田猎时看守捕兽网，祭祀、丧礼和宾客所需的活兽、死兽也由其供应；猎物的肉送往腊人，皮毛筋角则送往玉府。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "山野供给",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "獸人之職",
+          "evidence": "掌罟田獸；凡獸入于臘人，皮毛筋角入于玉府",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-bieren",
+      "conceptId": "occupation-zhouli-bieren",
+      "term": "鳖人",
+      "aliases": [
+        "鱉人"
+      ],
+      "explanation": "按时令捕取鱼、鳖、龟及贝类等水生动物，并安排相关捕取事务。春秋所进献的动物有所区别，祭祀所需的部分贝虫类材料还要交给醢人，用于相应的食品供给。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "水产供给",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "鱉人之職",
+          "evidence": "以時簎魚、鱉、龜、蜃；以授醢人",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-laren",
+      "conceptId": "occupation-zhouli-laren",
+      "term": "腊人",
+      "aliases": [
+        "臘人"
+      ],
+      "explanation": "专管干肉及猎获野兽的肉类加工。祭祀要用的肉脯、腊物，接待宾客和丧礼要用的干肉，都属于其供应范围；它处理的是肉食保存与备办，而不是制作蜡烛。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "饮食加工",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "臘人之職",
+          "evidence": "掌乾肉；凡臘物；凡乾肉之事",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-shiyi",
+      "conceptId": "occupation-zhouli-shiyi",
+      "term": "食医",
+      "aliases": [
+        "食醫"
+      ],
+      "explanation": "负责调配王的各类饭食、饮料、肉膳和酱料，考虑味道、时令及食材搭配。文中记述了不同季节偏用哪些味道，以及肉类宜配哪些谷物，职掌重点是饮食调和而非普通病人的诊治。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "膳食医事",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "食醫之職",
+          "evidence": "掌和王之六食、六飲、六膳；凡會膳食之宜",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-jiyi",
+      "conceptId": "occupation-zhouli-jiyi",
+      "term": "疾医",
+      "aliases": [
+        "疾醫"
+      ],
+      "explanation": "负责民众疾病的诊治，依据时令及病人的表现判断病情，并分工施治。《周礼》还要求病人死亡后记下相关原因，上报医师，因此诊疗之外还包含病案记录与医疗管理中的报告责任。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "医事分工",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "疾醫之職",
+          "evidence": "掌養萬民之疾病；各書其所以而入于醫師",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-yangyi",
+      "conceptId": "occupation-zhouli-yangyi",
+      "term": "疡医",
+      "aliases": [
+        "瘍醫"
+      ],
+      "explanation": "专管肿疡、溃疡、兵器创伤和骨折等伤病，承担相应的治疗与用药事务。这里的“疡”涵盖创伤性病患，不能仅理解成皮肤长疮；它与处理一般疾病的疾医构成不同分工。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "医事分工",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "瘍醫之職",
+          "evidence": "掌腫瘍、潰瘍、金瘍、折瘍",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-jiuzheng",
+      "conceptId": "occupation-zhouli-jiuzheng",
+      "term": "酒正",
+      "aliases": [],
+      "explanation": "负责酒类生产和供应的管理，按制度发给酿酒材料，辨别酒和饮料的种类、浓淡及用途。祭祀、宾客宴饮和赏赐的用酒要依规定供应，还要按日、月和年度核计相关收支。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "酒饮管理",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "酒正之職",
+          "evidence": "掌酒之政令，以式法授酒材；日入其成，月入其要",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-jiuren",
+      "conceptId": "occupation-zhouli-jiuren",
+      "term": "酒人",
+      "aliases": [],
+      "explanation": "直接负责酿制礼制中不同类别的酒，并把备好的酒交入酒府。祭祀时奉酒前往，宾客宴饮时也负责供酒和陈设；与酒正偏重制度管理不同，酒人的核心工作在制作和执行供给。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "酒饮加工",
+      "difficulty": 1,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "酒人之職",
+          "evidence": "掌為五齊三酒；凡事，共酒而入于酒府",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-jiangren",
+      "conceptId": "occupation-zhouli-jiangren",
+      "term": "浆人",
+      "aliases": [
+        "漿人"
+      ],
+      "explanation": "负责供应王所用的各类饮料，文中列有水、浆、醴等不同名称，并将饮品交入酒府。接待宾客和夫人向宾客致饮时也要供给，重点在日常与礼仪饮品的备办。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "酒饮加工",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "漿人之職",
+          "evidence": "掌共王之六飲；共夫人致飲于賓客",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-lingren",
+      "conceptId": "occupation-zhouli-lingren",
+      "term": "凌人",
+      "aliases": [],
+      "explanation": "掌管取冰、储冰和用冰事务，冬季组织采冰，天气转暖后供给膳食、酒饮和祭祀使用。宾客接待及大丧也有相应冰用，夏季负责向相关人员颁冰，秋季再作清理。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "冰务管理",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "凌人之職",
+          "evidence": "掌冰政；夏，頒冰掌事；秋，刷",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-bianren",
+      "conceptId": "occupation-zhouli-bianren",
+      "term": "笾人",
+      "aliases": [
+        "籩人"
+      ],
+      "explanation": "负责装在笾中的食品，笾是礼仪中使用的一类盛食器。不同祭礼环节要准备不同组合，文中列有枣、栗、桃、菱芡和肉脯等；宾客、丧礼及王室内食也需要这类供给。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "祭食供给",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "籩人之職",
+          "evidence": "掌四籩之實；其實棗、栗、桃",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-hairen",
+      "conceptId": "occupation-zhouli-hairen",
+      "term": "醢人",
+      "aliases": [],
+      "explanation": "负责礼仪中豆器所盛的腌菜、肉酱等食品，按不同环节安排配搭。王室进膳、接待宾客、祭祀和丧礼都有相应供应，文中还规定不同场合酱食的数量及种类。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "酱食加工",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "醢人之職",
+          "evidence": "掌四豆之實；七醢、七菹、三臡",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-xiren",
+      "conceptId": "occupation-zhouli-xiren",
+      "term": "醯人",
+      "aliases": [],
+      "explanation": "负责醯类酸味食品和相关酱物，以及祭祀使用的腌菜等。王、王后、世子进膳和接待宾客时，也按场合供应醯物；其职掌围绕酸味调制品，区别于专门管理食盐的盐人。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "酸味加工",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "醯人之職",
+          "evidence": "凡醯物；凡醯醬之物；凡事，共醯",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-yanren",
+      "conceptId": "occupation-zhouli-yanren",
+      "term": "盐人",
+      "aliases": [
+        "鹽人"
+      ],
+      "explanation": "掌管用盐的政令和各类食盐供应，按祭祀、宾客及王室膳食等用途区分盐的类别。遇到相关调制事务还要煮盐待命，工作内容是盐的管理和供给，而非笼统包办全部调味品。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "调味供给",
+      "difficulty": 1,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "鹽人之職",
+          "evidence": "掌鹽之政令，以共百事之鹽",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-miren",
+      "conceptId": "occupation-zhouli-miren",
+      "term": "幂人",
+      "aliases": [
+        "冪人"
+      ],
+      "explanation": "负责供给覆盖器物的巾幂。祭祀时不同酒器使用不同布料的覆盖物，尊和彝的巾幂有相应区别，王所用巾也有纹饰要求；这个职掌关心的是器物覆盖与礼仪用布。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "礼器后勤",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "冪人之職",
+          "evidence": "掌共巾冪；疏布巾冪八尊；畫布巾冪六彝",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-gongren",
+      "conceptId": "occupation-zhouli-gongren",
+      "term": "宫人",
+      "aliases": [
+        "宮人"
+      ],
+      "explanation": "负责王居寝室的修治、清洁和日常劳务，要处理积污与恶臭，供应沐浴所需。扫除、持烛、提供炉炭等也在职掌内；王在外住宿时，同类居舍事务仍由这一系统承担。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "宫室后勤",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "宮人之職",
+          "evidence": "掌王之六寢之修；掃除、執燭、共鑪炭",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-zhangshe",
+      "conceptId": "occupation-zhouli-zhangshe",
+      "term": "掌舍",
+      "aliases": [],
+      "explanation": "负责王会同诸侯等活动中的驻舍安排，设置围护、门禁和不同形式的临时营舍。文中分别提到用车辆、土坛或帷帐构成的驻跸空间，重点是把临时住所的外部格局组织起来。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "行旅后勤",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "掌舍之職",
+          "evidence": "掌王之會同之舍；設車宮，轅門",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-muren",
+      "conceptId": "occupation-zhouli-muren",
+      "term": "幕人",
+      "aliases": [],
+      "explanation": "保管并供应帷、幕、幄、帟和系束用物等帐幕材料。朝觐、会同、军旅、田猎、祭祀和丧礼有需要时负责提供，重点在帷幕物资供给，与负责具体张设的掌次有所分工。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "帷幕物资",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "幕人之職",
+          "evidence": "掌帷、幕、幄、帟、綬之事",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-zhangci",
+      "conceptId": "occupation-zhouli-zhangci",
+      "term": "掌次",
+      "aliases": [],
+      "explanation": "负责王及贵族礼仪活动中的帐次张设，按祭祀、会同、军旅、田猎或丧礼等场合布置大小帐次和帟案。不同身份所用层数与形式有区别，射礼中的射者休息帐次也由其安排。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "帷幕张设",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "掌次之職",
+          "evidence": "掌王次之法，以待張事；掌凡邦之張事",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-siqiu",
+      "conceptId": "occupation-zhouli-siqiu",
+      "term": "司裘",
+      "aliases": [],
+      "explanation": "负责王祭天所穿的大裘及其他皮裘供给，也承担颁赐用裘的备办。举行大射礼时，还供应虎、熊、豹等皮侯并设置靶心，因此职掌除了皮衣，也涉及礼仪射靶。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "皮服礼具",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "司裘之職",
+          "evidence": "掌為大裘；共虎侯、熊侯、豹侯，設其鵠",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-zhangpi",
+      "conceptId": "occupation-zhouli-zhangpi",
+      "term": "掌皮",
+      "aliases": [],
+      "explanation": "按季节征收兽皮、熟革，随后依制度分给各类工匠使用。毛绒材料也要供给制毡等事务，并在年终核计相关财物；它侧重材料收储和分配，区别于直接制作皮衣的工匠。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "皮革物资",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "掌皮之職",
+          "evidence": "秋斂皮，冬斂革；頒皮革于百工",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-diansi",
+      "conceptId": "occupation-zhouli-diansi",
+      "term": "典丝",
+      "aliases": [
+        "典絲"
+      ],
+      "explanation": "负责丝料的接收、分类、标价、储藏与发放，按制作任务交给宫内外工匠。成品进献后，还要验收、分类并登记数量；祭祀、丧礼与器物装饰所需的丝织材料也由其供应。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "纺织物资",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "典絲之職",
+          "evidence": "掌絲入而辨其物；辨其物而書其數",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-dianxi",
+      "conceptId": "occupation-zhouli-dianxi",
+      "term": "典枲",
+      "aliases": [],
+      "explanation": "管理麻类原料及相关织物，按时把材料发给承担制作的人。成品交回后，需要辨别、标价、入藏，再按用途发放或赏赐；年终还要按物类核算，核心是麻纺物资的流转管理。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "纺织物资",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "典枲之職",
+          "evidence": "掌布緦縷纻之麻草之物；受苦功，以其賈楬而藏之",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-zhuishi",
+      "conceptId": "occupation-zhouli-zhuishi",
+      "term": "追师",
+      "aliases": [
+        "追師"
+      ],
+      "explanation": "负责王后以及九嫔、内外命妇所用的首服，制作不同形式的头饰、发饰和笄等。祭祀、接待宾客及丧礼都有相应供给要求；“追”在这里关联首饰制作，不是追赶嫌犯。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "服饰制作",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "追師之職",
+          "evidence": "掌王后之首服；為九嬪及外內命婦之首服",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-juren",
+      "conceptId": "occupation-zhouli-juren",
+      "term": "屦人",
+      "aliases": [
+        "屨人"
+      ],
+      "explanation": "负责王、王后及内外命夫命妇所用的鞋履，辨别不同鞋的类别和用途。鞋的颜色、装饰和材料有具体区分，四时祭祀也要选用适宜的履服，属于礼制下的专门鞋履职掌。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "服饰制作",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/天官冢宰",
+          "title": "周禮/天官冢宰 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "屨人之職",
+          "evidence": "掌王及後之服屨；凡四時之祭祀，以宜服之",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/天官冢宰&oldid=2605877"
+        }
+      ]
+    },
+    {
+      "id": "aco-meishi",
+      "conceptId": "occupation-zhouli-meishi",
+      "term": "媒氏",
+      "aliases": [],
+      "explanation": "负责记录男女的相关资料及婚姻变动，组织婚配事务，安排无配偶者相会。文中还涉及婚娶年龄、聘礼限额和男女之间的部分争讼；因此这里是礼制中的婚姻管理职掌。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "婚姻事务",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "媒氏",
+          "evidence": "掌萬民之判；司男女之無夫家者而會之",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-zhiren",
+      "conceptId": "occupation-zhouli-zhiren",
+      "term": "质人",
+      "aliases": [
+        "質人"
+      ],
+      "explanation": "负责市场交易的凭证和契约，检查交易文书，并统一度量标准。大宗、小宗交易使用不同形式的质剂，发生相关争议时还有受理期限，因此它同时承担交易信用和市场稽核工作。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "市场交易",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "質人",
+          "evidence": "凡賣儥者質劑焉；掌稽市之書契，同其度量",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-chanren",
+      "conceptId": "occupation-zhouli-chanren",
+      "term": "廛人",
+      "aliases": [],
+      "explanation": "负责收取市场中的若干税费和罚款，并将收入交入泉府。屠宰者的皮、角、筋、骨也在收取范围内，部分滞销珍异食品则交往膳府，职掌连接市场征收和官府物资供给。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "市场税收",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "廛人",
+          "evidence": "掌斂市絘布、總布、質布、罰布、廛布",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-jiashi",
+      "conceptId": "occupation-zhouli-jiashi",
+      "term": "贾师",
+      "aliases": [
+        "賈師"
+      ],
+      "explanation": "负责辨别市场货物、检查成色并确定价格，再准许交易。遇到天灾时禁止趁机高价出售，使价格保持一定稳定；国家出售物品，以及会同、军旅中的市场事务也需要其参与。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "市场价格",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "賈師",
+          "evidence": "辨其物而均平之；凡天患，禁貴儥者",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-sibao",
+      "conceptId": "occupation-zhouli-sibao",
+      "term": "司虣",
+      "aliases": [],
+      "explanation": "负责公布和执行市场禁令，制止喧闹斗殴、暴乱及出入时相互侵扰。文中还把结伙游饮等列入禁止事项，工作重点是维护集市的现场秩序，而不是给商品估价。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "市场秩序",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "司虣",
+          "evidence": "禁其鬭囂者，與其虣亂者",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-siji",
+      "conceptId": "occupation-zhouli-siji",
+      "term": "司稽",
+      "aliases": [],
+      "explanation": "在市场巡查违禁和异常情况，发现后予以查捕，还承担抓捕市场盗贼的职责。与侧重制止斗闹的司虣相比，它的记载更强调巡查、发现违法和缉捕盗贼。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "市场稽查",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "司稽",
+          "evidence": "掌巡市；掌執市之盜賊",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-sizhang",
+      "conceptId": "occupation-zhouli-sizhang",
+      "term": "肆长",
+      "aliases": [
+        "肆長"
+      ],
+      "explanation": "管理一组店肆的事务，安排货物陈列，并执行相关禁令。文中要求名称相近的货物分远些、实物相近的货物靠近些，还要收取总布，兼有货品布置与基层市务管理功能。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "市肆管理",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "肆長",
+          "evidence": "名相近者相遠也，實相近者相爾也",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-quanfu",
+      "conceptId": "occupation-zhouli-quanfu",
+      "term": "泉府",
+      "aliases": [],
+      "explanation": "用市场征收的钱收购滞销但民众有用的货物，记录并储存，留待有人需要时出售。还办理有期限的赊购和借贷，并核计收支，承担物资调剂与市场金融性质的职掌。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "市场调剂",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "泉府",
+          "evidence": "斂市之不售、貨之滯于民用者；凡民之貸者",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-zhangjie",
+      "conceptId": "occupation-zhouli-zhangjie",
+      "term": "掌节",
+      "aliases": [],
+      "explanation": "管理国家各种符节，辨明其适用对象和用途，以辅助王命。官员、使者、关门、货物和道路通行所用凭信并不相同；没有相应符节的人遇到查验时，可能无法通行。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "通行凭信",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "掌节",
+          "evidence": "掌守邦節而辨其用；無節者，有幾則不達",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-yiren",
+      "conceptId": "occupation-zhouli-yiren",
+      "term": "遗人",
+      "aliases": [
+        "遺人"
+      ],
+      "explanation": "负责储备和分配委积物资，按地点分别救助贫困者、老人孤子、宾客与旅人，并为荒年预备。还管理道路沿线的饮食和住宿供给，文中按里程列出庐、宿、市等设施。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "救济行旅",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "遺人",
+          "evidence": "掌邦之委積，以待施惠；十里有廬；五十里有市",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-baoshi",
+      "conceptId": "occupation-zhouli-baoshi",
+      "term": "保氏",
+      "aliases": [],
+      "explanation": "负责劝谏王的不当行为，并教养国子。教学内容包括礼、乐、射、御、书、数六艺，以及祭祀、待客、朝廷等场合的仪容；王参加重大活动时还要随从并承担相关守卫安排。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "教育职掌",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "保氏",
+          "evidence": "掌諫王惡，而養國子以道；乃教之六藝",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-shanyu",
+      "conceptId": "occupation-zhouli-shanyu",
+      "term": "山虞",
+      "aliases": [],
+      "explanation": "负责山林政令，划定保护范围并安排守禁，规定砍伐时节和木材使用秩序。偷伐要受处罚，大型田猎和山林祭祀时也承担组织职责，重点是山林资源及其利用的总体管理。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "山林管理",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "山虞",
+          "evidence": "掌山林之政令；令萬民時斬材，有期日",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-linheng",
+      "conceptId": "occupation-zhouli-linheng",
+      "term": "林衡",
+      "aliases": [],
+      "explanation": "巡查林麓的禁令执行和守护情况，并按时考核、赏罚。砍伐木材时要接受山虞所定的规则，再负责执行相关政令，属于山林管理中的巡护和落实环节。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "山林巡护",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "林衡",
+          "evidence": "掌巡林麓之禁令；受法于山虞",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-chuanheng",
+      "conceptId": "occupation-zhouli-chuanheng",
+      "term": "川衡",
+      "aliases": [],
+      "explanation": "巡查河川水泽的禁令并检查守护情况，按时安排开放或解除守护。发现违禁者要执捕处罚，祭祀和接待宾客时还要供应川中物产，兼有水域巡护与资源供给的职责。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "川泽巡护",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "川衡",
+          "evidence": "掌巡川澤之禁令；祭祀、賓客，共川奠",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-zeyu",
+      "conceptId": "occupation-zhouli-zeyu",
+      "term": "泽虞",
+      "aliases": [],
+      "explanation": "负责国家泽地的政令与守禁，安排当地人看守物产，并按时将应入物资交给玉府，剩余部分分给民众。祭祀、待客和丧礼需要的泽产、苇蒲也由其供给。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "泽地管理",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "泽虞",
+          "evidence": "掌國澤之政令；頒其餘于萬民",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-jiren",
+      "conceptId": "occupation-zhouli-jiren",
+      "term": "迹人",
+      "aliases": [],
+      "explanation": "管理国家田猎区域的相关事务，设禁并守护，参加田猎的人要接受其命令。文中明确禁止捕取幼兽、卵以及用毒箭射猎，职掌重点是猎区秩序和捕猎限制。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "田猎管理",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "迹人",
+          "evidence": "凡田獵者受令焉；禁麑卵者與其毒矢射者",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-kuangren",
+      "conceptId": "occupation-zhouli-kuangren",
+      "term": "矿人",
+      "aliases": [
+        "礦人"
+      ],
+      "explanation": "管理出产金属、锡石等矿物的地点，划定禁区并组织看守。按时开采时，需要辨明矿地情况、绘图后交付相关人员，还要巡查禁令执行，核心是矿地登记、移交与保护。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "矿产管理",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "礦人",
+          "evidence": "掌金至錫石之地；物其地，圖而授之",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-jiaoren",
+      "conceptId": "occupation-zhouli-jiaoren",
+      "term": "角人",
+      "aliases": [],
+      "explanation": "按时向山泽居民征收牙、角及骨类材料，作为相应赋税。收取时使用度量标准验收，再供给国家财用；这里的“角”指工艺原料，职掌并非专门吹号角。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "工料征集",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "角人",
+          "evidence": "以時徵齒角凡骨物；以度量受之",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-yuren",
+      "conceptId": "occupation-zhouli-yuren",
+      "term": "羽人",
+      "aliases": [],
+      "explanation": "向山泽居民按时征收羽毛、翮等材料，抵充相应赋税。验收时按规定的成组单位清点，文中列出从十羽到更大束组的计数方式，工作重点是羽料的征集与数量管理。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "工料征集",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "羽人",
+          "evidence": "徵羽翮之政；十羽為審，百羽為摶",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-zhangge",
+      "conceptId": "occupation-zhouli-zhangge",
+      "term": "掌葛",
+      "aliases": [],
+      "explanation": "按时向山地居民征收制作葛布所需的原料，也征收泽地居民应贡的草类材料，用来抵充赋税。收取时要按重量与尺度验收，是纺织原料征集的专门职掌。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "纺织原料",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "掌葛",
+          "evidence": "掌以時徵絺绤之材于山農；以權度受之",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-zhangrancao",
+      "conceptId": "occupation-zhouli-zhangrancao",
+      "term": "掌染草",
+      "aliases": [],
+      "explanation": "在春秋两季收集可用于染色的草类原料，按规定称量验收，储备后再按时分发。它掌握的是植物染料的原料供给，与亲手对丝帛进行染色的染人不属于同一环节。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "染料原料",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "掌染草",
+          "evidence": "春秋斂染草之物；以待時而頒之",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-zhangtan",
+      "conceptId": "occupation-zhouli-zhangtan",
+      "term": "掌炭",
+      "aliases": [],
+      "explanation": "负责灰、炭等物资的征收命令，按时收进并称量验收，供国家各项事务使用。其工作围绕燃料及灰物的征集、核量和供应，不能仅按名称理解为烧炭工。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "燃料征集",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "掌炭",
+          "evidence": "掌灰物炭物之徵令；以權量受之",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-zhangtu",
+      "conceptId": "occupation-zhouli-zhangtu",
+      "term": "掌荼",
+      "aliases": [],
+      "explanation": "按时收集荼草，专供丧事使用，同时征收、储备野生可用材料以备国事。这里的“荼”不能直接当作今天的茶叶来解释，职掌涉及丧仪与野生材料的收储。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "丧仪材料",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "掌荼",
+          "evidence": "掌以時聚荼以共喪事；凡畜聚之物",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-zhangshen",
+      "conceptId": "occupation-zhouli-zhangshen",
+      "term": "掌蜃",
+      "aliases": [],
+      "explanation": "收集贝壳等材料，供填治墓穴、祭祀所用器物以及白色涂饰等用途。其职掌围绕贝类材料的实际利用，虽然名字里有“蜃”，却不能解释成研究海市蜃楼的人。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "贝灰材料",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "掌蜃",
+          "evidence": "共闉壙之蜃；共白盛之蜃",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-youren",
+      "conceptId": "occupation-zhouli-youren",
+      "term": "囿人",
+      "aliases": [],
+      "explanation": "管理苑囿游处的兽禁，养护其中的各类兽物。祭祀、丧礼和接待宾客需要活兽或死兽时也由其供应，兼有圈养管理和物资供给的职责，区别于主要在野外设网捕兽的兽人。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "苑囿管理",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "囿人",
+          "evidence": "掌囿游之獸禁，牧百獸",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-changren",
+      "conceptId": "occupation-zhouli-changren",
+      "term": "场人",
+      "aliases": [
+        "場人"
+      ],
+      "explanation": "管理国家场圃，栽种瓜果和珍异植物，并按时收获、收藏。祭祀、接待宾客和飨礼所用果品都由其供给；它负责的是果圃生产与果品储备，不是竞技场或演出场地。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "果圃管理",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "場人",
+          "evidence": "掌國之場圃；樹之果蓏珍異之物",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-linren",
+      "conceptId": "occupation-zhouli-linren",
+      "term": "廪人",
+      "aliases": [
+        "廩人"
+      ],
+      "explanation": "掌握各类谷物数量，按年景丰歉核算国家用粮是否充足，安排俸食、救济等支出。粮食不足时还要建议迁民就食和削减开支，会同、军旅等大事的粮食供应也在职掌内。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "粮食调度",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "廩人",
+          "evidence": "掌九穀之數；詔王殺邦用",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-sijia",
+      "conceptId": "occupation-zhouli-sijia",
+      "term": "司稼",
+      "aliases": [],
+      "explanation": "巡察田野作物，辨认早熟、晚熟等谷种及其适宜土地，并把相关信息公布给乡里。观察年成后参与制定征收办法，关注民众食物分配和急需，兼有农作指导与年景调查功能。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "农业巡察",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "司稼",
+          "evidence": "掌巡邦野之稼；辨穜稑之種",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-chongren",
+      "conceptId": "occupation-zhouli-chongren",
+      "term": "舂人",
+      "aliases": [],
+      "explanation": "负责供给经过舂治的米物，满足祭祀、宾客礼食及各类飨食所需。这里的工作与谷物加工、备米有关，区别于管理谷物总量的廪人，也不是负责端上全部熟食的膳食总管。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "谷物加工",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "舂人",
+          "evidence": "掌共米物；凡饗食，共其食米",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-chiren",
+      "conceptId": "occupation-zhouli-chiren",
+      "term": "饎人",
+      "aliases": [],
+      "explanation": "负责祭祀所需的谷食，并供应王与王后的各类饭食。宾客和飨礼中装入簠簋的食品也由其准备，工作重点是谷食的制作与供给，可与负责备米的舂人相区分。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "谷食供给",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/地官司徒",
+          "title": "周禮/地官司徒 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "饎人",
+          "evidence": "共王及後之六食；共其簠簋之實",
+          "evidenceLicense": "Public domain (ancient text)",
+          "editionUrl": "https://zh.wikisource.org/w/index.php?title=周禮/地官司徒&oldid=2609749"
+        }
+      ]
+    },
+    {
+      "id": "aco-yuren-aromatic",
+      "conceptId": "occupation-zhouli-yuren-aromatic",
+      "term": "郁人",
+      "aliases": [],
+      "explanation": "管理祼礼所用器具，祭祀或待客时调和郁鬯，装入礼器并陈列，还要清洗、安排相关玉器，协助仪节。这里的“郁”与芳香礼酒有关，职掌重点在香酒调和及祼礼服务。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "礼酒调和",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/春官宗伯",
+          "title": "周禮/春官宗伯 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "郁人之職",
+          "evidence": "和郁鬯以實彝而陳之；詔祼將之儀與其節",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-changren-sacrificial",
+      "conceptId": "occupation-zhouli-changren-sacrificial",
+      "term": "鬯人",
+      "aliases": [],
+      "explanation": "负责供给秬鬯这类礼酒，并按照祭祀对象和场合选择器具。王斋戒、吊临及大丧中也要供应相应用酒；与郁人侧重调和香酒和协助祼礼相比，它更偏重鬯酒的供给安排。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "礼酒供给",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/春官宗伯",
+          "title": "周禮/春官宗伯 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "鬯人之職",
+          "evidence": "掌共秬鬯而飾之；凡王之齊事，共其秬鬯",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-jiren-rooster",
+      "conceptId": "occupation-zhouli-jiren-rooster",
+      "term": "鸡人",
+      "aliases": [
+        "雞人"
+      ],
+      "explanation": "负责供应祭祀所需的鸡并辨别种类，大祭祀时还要在夜间呼报天明，唤起百官。重大宾客、会同、军旅、丧事等场合也承担告时任务，因此并非单纯养鸡的人。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "报时祭牲",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/春官宗伯",
+          "title": "周禮/春官宗伯 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "雞人之職",
+          "evidence": "掌共雞牲；夜呼旦以叫百官",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-sijiyan",
+      "conceptId": "occupation-zhouli-sijiyan",
+      "term": "司几筵",
+      "aliases": [],
+      "explanation": "掌管不同几案和席子的名称、用途与位置，按照朝觐、飨射、祭祀或丧礼安排座席。谁坐何处、用什么席、几放在左右哪边都有规定，工作核心是礼仪场合的席位配置。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "席位礼具",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/春官宗伯",
+          "title": "周禮/春官宗伯 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "司几筵之職",
+          "evidence": "掌五幾、五席之名物，辨其用與其位",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-shoutiao",
+      "conceptId": "occupation-zhouli-shoutiao",
+      "term": "守祧",
+      "aliases": [],
+      "explanation": "看守先王先公的庙祧，收藏先人遗留的衣服。祭祀前按规定取出衣服给扮演受祭者的尸使用，并承担相关庙祧整治；祭后再收存衣服和有关祭物。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "宗庙管理",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/春官宗伯",
+          "title": "周禮/春官宗伯 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "守祧之職",
+          "evidence": "掌守先王先公之廟祧，其遺衣服藏焉",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-zhongren",
+      "conceptId": "occupation-zhouli-zhongren",
+      "term": "冢人",
+      "aliases": [],
+      "explanation": "管理公墓土地，划分墓域并绘图，按亲属关系、身份与功绩安排墓位。墓丘尺度、植树数量和葬仪器具也有相应要求，同时执行墓域禁令，属于公墓规划和葬事管理职掌。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "公墓规划",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/春官宗伯",
+          "title": "周禮/春官宗伯 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "冢人之職",
+          "evidence": "掌公墓之地，辨其兆域而為之圖",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-diantong",
+      "conceptId": "occupation-zhouli-diantong",
+      "term": "典同",
+      "aliases": [],
+      "explanation": "负责六律六同的调和，辨别不同声音的特点，用来规范乐器制作。文中把乐器尺度、声量与十二律相联系，也讨论薄厚、开合等因素对声音的影响，核心是音律与制器标准。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "音律制度",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/春官宗伯",
+          "title": "周禮/春官宗伯 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "典同之職",
+          "evidence": "掌六律、六同之和；以十有二律為之數度",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-diloushi",
+      "conceptId": "occupation-zhouli-diloushi",
+      "term": "鞮鞻氏",
+      "aliases": [],
+      "explanation": "掌管来自四夷的音乐及声歌，在祭祀和宴饮等场合安排吹奏、歌唱。其工作与不同地域的乐歌及礼仪表演有关，不能按名字中的革旁字直接猜成普通制鞋工。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "乐舞管理",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/春官宗伯",
+          "title": "周禮/春官宗伯 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "鞮鞻氏之職",
+          "evidence": "掌四夷之樂與其聲歌；祭祀，則吹而歌之",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-sigan",
+      "conceptId": "occupation-zhouli-sigan",
+      "term": "司干",
+      "aliases": [],
+      "explanation": "负责管理舞蹈所用器具。祭祀中舞者站好队列后把舞器发给他们，舞毕再收回；宾飨也按此办理，大丧时还要陈列并随葬相关舞器，核心是舞器发放、回收和保管。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "舞器保管",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/春官宗伯",
+          "title": "周禮/春官宗伯 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "司干之職",
+          "evidence": "掌舞器；既舞，則受之",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-guiren",
+      "conceptId": "occupation-zhouli-guiren",
+      "term": "龟人",
+      "aliases": [],
+      "explanation": "管理占卜所用龟类，按照名称、颜色与形体分类，并按时节取龟、加工、收入龟室。祭祀、旅祭和丧事有需要时负责奉龟前往，重点在卜材准备而非直接解释卜兆。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "卜材管理",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/春官宗伯",
+          "title": "周禮/春官宗伯 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "龟人之職",
+          "evidence": "掌六龜之屬；各以其物入於龜室",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-chuishi",
+      "conceptId": "occupation-zhouli-chuishi",
+      "term": "菙氏",
+      "aliases": [],
+      "explanation": "负责供应占卜时所需的燋与契等火具。实际卜事中点燃材料，把用于灼龟的契烧热后交给卜师，并继续协助操作，属于龟卜流程中的器材与用火环节。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "卜事火具",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/春官宗伯",
+          "title": "周禮/春官宗伯 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "菙氏之職",
+          "evidence": "掌共燋契，以待卜事；以授卜師",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-zhanmeng",
+      "conceptId": "occupation-zhouli-zhanmeng",
+      "term": "占梦",
+      "aliases": [
+        "占夢"
+      ],
+      "explanation": "依据岁时及日月星辰等，分类并解释梦的吉凶，文中把梦分为正梦、噩梦、思梦等六类。年末还要参与处理王梦和驱逐恶梦的仪式，这里介绍的是古代占验职掌。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "古代占验",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/春官宗伯",
+          "title": "周禮/春官宗伯 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "占夢之職",
+          "evidence": "以日月星辰占六夢之吉凶；季冬，聘王夢",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-shijin",
+      "conceptId": "occupation-zhouli-shijin",
+      "term": "视祲",
+      "aliases": [
+        "視祲"
+      ],
+      "explanation": "观察被古人视为异常的光气、天象，按所谓十辉之法判别吉凶，并在岁首、年终办理和总结相关事务。其职掌属于古代灾异占验体系，不能等同现代气象预报或天文研究。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "古代占验",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/春官宗伯",
+          "title": "周禮/春官宗伯 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "視祲之職",
+          "evidence": "掌十輝之法，以觀妖祥，辨吉凶",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-fengxiangshi",
+      "conceptId": "occupation-zhouli-fengxiangshi",
+      "term": "冯相氏",
+      "aliases": [
+        "馮相氏"
+      ],
+      "explanation": "掌握岁、月、辰、日及二十八星宿位置，核对天体运行与时序。冬夏观测太阳、春秋观测月亮，用来分辨四时次序；这里的“冯相”是职掌名称，不是替人看面相。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "天文历时",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/春官宗伯",
+          "title": "周禮/春官宗伯 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "馮相氏之職",
+          "evidence": "掌十有二歲、十有二月；以辨四時之敘",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-baozhangshi",
+      "conceptId": "occupation-zhouli-baozhangshi",
+      "term": "保章氏",
+      "aliases": [],
+      "explanation": "记录星辰日月的变化，并把星象与地域、风云等联系起来判断吉凶，向政事提供建议。文中同时涉及水旱、丰荒等征兆，包含观测和古代占验两面，不能只理解成修订历法。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "星象占验",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/春官宗伯",
+          "title": "周禮/春官宗伯 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "保章氏之職",
+          "evidence": "以志星辰日月之變動；以詔救政",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-lunren",
+      "conceptId": "occupation-zhouli-lunren",
+      "term": "轮人",
+      "aliases": [
+        "輪人"
+      ],
+      "explanation": "负责制作车轮，选择和配合轮毂、轮辐、轮牙所需木材，使车轮转动、承重并保持牢固。验收时要检查圆度、平衡和重量等，文中还记有制车盖的工作，并不只是把木头锯成圆形。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "车作工艺",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+          "title": "周禮/冬官考工記 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "輪人",
+          "evidence": "輪人為輪；可規、可矩、可水、可縣、可量、可權",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-yuren-carriage",
+      "conceptId": "occupation-zhouli-yuren-carriage",
+      "term": "舆人",
+      "aliases": [
+        "輿人"
+      ],
+      "explanation": "负责车辆制作，重点记述车体各部分尺寸和比例，包括车宽、车厢深度及栏木等。制作时要求圆、方、直、平各有准则，木材配置也有讲究，不能把“舆”只理解成抬轿。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "车作工艺",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+          "title": "周禮/冬官考工記 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "輿人",
+          "evidence": "輿人為車；圜者中規，方者中矩",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-zhushi",
+      "conceptId": "occupation-zhouli-zhushi",
+      "term": "筑氏",
+      "aliases": [],
+      "explanation": "负责制造削这类金属小刀，文中给出长度、宽度和形制要求，并关注使用磨耗后的状态。它属于攻金工匠的分工，名字中的“筑”在此不能直接解作砌墙造房。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "金属工艺",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+          "title": "周禮/冬官考工記 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "筑氏",
+          "evidence": "筑氏為削；長尺博寸",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-yeshi",
+      "conceptId": "occupation-zhouli-yeshi",
+      "term": "冶氏",
+      "aliases": [],
+      "explanation": "负责制造杀矢等金属兵器部件，文中还记有戈、戟的尺寸及转折要求。工艺需考虑能否刺入、切断以及部位是否容易折断，属于兵器铸造的专门分工。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "兵器工艺",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+          "title": "周禮/冬官考工記 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "冶氏",
+          "evidence": "冶氏為殺矢；長內則折前",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-fushi",
+      "conceptId": "occupation-zhouli-fushi",
+      "term": "凫氏",
+      "aliases": [
+        "鳧氏"
+      ],
+      "explanation": "负责铸造钟，规范钟体各部分的比例、厚薄和悬挂结构。钟过厚、过薄或口部形状不合要求都会影响声音，文中还比较大小、长短与声音传播的关系，核心是兼顾器形和音响。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "乐器铸造",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+          "title": "周禮/冬官考工記 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "鳧氏",
+          "evidence": "鳧氏為鐘；薄厚之所震動，清濁之所由出",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-lishi",
+      "conceptId": "occupation-zhouli-lishi",
+      "term": "栗氏",
+      "aliases": [],
+      "explanation": "负责制造量器，按熔炼、称重、校准和定容等要求加工金属。文中以釜为例规定内外形制、容量及重量，还刻铭把成器作为后世准则，工作重点是容量标准器的制作。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "量器铸造",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+          "title": "周禮/冬官考工記 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "栗氏",
+          "evidence": "栗氏為量；權之然後準之，準之然後量之",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-taoshi",
+      "conceptId": "occupation-zhouli-taoshi",
+      "term": "桃氏",
+      "aliases": [],
+      "explanation": "负责制剑，按照剑身宽度、剑茎和首部之间的比例安排尺寸。文中把长度、重量不同的剑分成几种规格，分别与士的等级相配，职掌重点是剑器形制而不是种植桃树。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "兵器工艺",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+          "title": "周禮/冬官考工記 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "桃氏",
+          "evidence": "桃氏為劍；謂之上制；謂之中制；謂之下制",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-hanren",
+      "conceptId": "occupation-zhouli-hanren",
+      "term": "函人",
+      "aliases": [],
+      "explanation": "负责制造皮甲，先确定甲的形制再裁制皮革，并考察各部位重量和材料品质。验收时观察孔眼、内面、接缝和穿着状态等，要求甲既结实又合用，区别于一般皮料整理。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "皮革工艺",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+          "title": "周禮/冬官考工記 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "函人",
+          "evidence": "函人為甲；必先為容然後制革",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-baoren",
+      "conceptId": "occupation-zhouli-baoren",
+      "term": "鲍人",
+      "aliases": [
+        "鮑人"
+      ],
+      "explanation": "负责皮革加工，要检验皮面颜色、柔滑程度、拉伸是否平直、卷起是否均匀，以及接合处和缝线。文中尤其关注两边松紧不一会导致使用时先裂的问题，这里的工作与处理鱼货无关。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "皮革工艺",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+          "title": "周禮/冬官考工記 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "鮑人",
+          "evidence": "鮑人之事；欲其柔而滑；則及其用之也，必自其急著先裂",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-yunren",
+      "conceptId": "occupation-zhouli-yunren",
+      "term": "韗人",
+      "aliases": [],
+      "explanation": "负责制作鼓的相关结构，文中从皋陶讲起，规定木料尺寸，并讨论不同鼓的长度、口径和蒙皮时节。还比较大而短、小而长的鼓在声音上的差别，核心是制鼓而非官员皋陶本人。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "制鼓工艺",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+          "title": "周禮/冬官考工記 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "韗人",
+          "evidence": "韗人為皋陶；凡冒鼓，必以啟蟄之日",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-zhongshi",
+      "conceptId": "occupation-zhouli-zhongshi",
+      "term": "钟氏",
+      "aliases": [
+        "鍾氏"
+      ],
+      "explanation": "负责给羽毛染色，文中记述准备染液、浸染以及反复入染的过程。染色次数不同，得到纁、緅、缁等不同颜色；虽然简体写作“钟”，这里不是铸钟或报时的工匠。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "羽毛染色",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+          "title": "周禮/冬官考工記 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "鍾氏",
+          "evidence": "鍾氏染羽；三入為纁，五入為緅，七入為緇",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-yuren-jade",
+      "conceptId": "occupation-zhouli-yuren-jade",
+      "term": "玉人",
+      "aliases": [],
+      "explanation": "负责制作礼制所用玉器，按天子、诸侯及不同祭祀、聘问等场合，规定圭、璋、璧、琮的形制和尺寸。玉器不仅是装饰品，还承担身份、仪礼和部分权度用途，制作必须对应具体使用规则。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "玉器工艺",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+          "title": "周禮/冬官考工記 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "玉人",
+          "evidence": "玉人之事；鎮圭尺有二寸，天子守之；兩圭五寸，有邸，以祀地",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-shiren",
+      "conceptId": "occupation-zhouli-shiren",
+      "term": "矢人",
+      "aliases": [],
+      "explanation": "负责制造箭，按用途调整前后比例，选择箭杆并安排箭羽、箭镞。还要检验杆材强弱及羽毛多少，因为这些都会影响飞行方向和快慢，重点是整支箭的结构与平衡。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "制箭工艺",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+          "title": "周禮/冬官考工記 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "矢人",
+          "evidence": "矢人為矢；羽豐則遲，羽殺則躁",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-qingshi",
+      "conceptId": "occupation-zhouli-qingshi",
+      "term": "磬氏",
+      "aliases": [],
+      "explanation": "负责制作磬这类击奏乐器，按照规定的转折形状、各部分长度和厚度加工。成器音高不合要求时，还可磨削不同部位进行调整，属于把石材形制和乐音配合起来的工艺。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "石乐器工艺",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+          "title": "周禮/冬官考工記 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "磬氏",
+          "evidence": "磬氏為磬；已上則摩其旁，已下則摩其端",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aco-fangren",
+      "conceptId": "occupation-zhouli-fangren",
+      "term": "旊人",
+      "aliases": [],
+      "explanation": "负责制作簋、豆等陶质器物，按规定控制容量、高度、壁厚和口沿。文中还列出陶器裂损等不许入市的缺陷及检查要求，属于有尺寸和质量规范的制陶分工。",
+      "packIds": [
+        "ancient-chinese-occupations"
+      ],
+      "category": "陶器工艺",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "《周礼》所记职掌；不等同历代通行职业",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+          "title": "周禮/冬官考工記 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "旊人",
+          "evidence": "旊人為簋；凡陶旊之事；髻墾薜暴不入市",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2447 @@
+{
+  "schemaVersion": 1,
+  "id": "world-customs",
+  "title": "世界民俗",
+  "description": "90个世界民俗独立概念，涵盖节庆、仪式、传统表演、民间技艺与社会习俗；保留真实细节供10秒限时读卡。",
+  "version": "1.0.0",
+  "language": "zh-CN",
+  "scopeNote": "地域依UNESCO官方条目的申报社区与说明界定，不代表一国所有人均实践；仪式中的神灵、愿望和疗愈观念按文化信仰描述。",
+  "recommendedReadSeconds": 10,
+  "editorialStatus": "source-checked-playtest-pending",
+  "questions": [
+    {
+      "id": "wc-villa-mella-congos",
+      "conceptId": "custom-villa-mella-congos",
+      "term": "维拉梅利亚圣灵兄弟会",
+      "aliases": [],
+      "explanation": "多米尼加共和国维拉梅利亚的音乐、舞蹈与节庆传统，兄弟会成员击奏名为孔戈的手鼓。圣灵降临节时，队伍伴随祈祷、歌舞，抬着象征圣灵的鸽子巡游；相关鼓乐也用于当地丧葬仪式。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00006",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D6&limit=1",
+          "title": "Cultural space of the Brotherhood of the Holy Spirit of the Congos of Villa Mella — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=6",
+          "evidence": "多米尼加共和国维拉梅利亚的音乐、舞蹈与节庆传统，兄弟会成员击奏名为孔戈的手鼓。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00006",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "DO"
+      ]
+    },
+    {
+      "id": "wc-georgian-polyphony",
+      "conceptId": "custom-georgian-polyphony",
+      "term": "格鲁吉亚复调歌唱",
+      "aliases": [],
+      "explanation": "格鲁吉亚的多声部歌唱传统，不同地区会采用复杂复调、低音上的对答，或三个部分即兴声部。曲目进入劳动、节庆等生活场景，有的把劳动时用力的声音融入音乐，以交织的声音表达共同生活。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00008",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D8&limit=1",
+          "title": "Georgian polyphonic singing — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=8",
+          "evidence": "格鲁吉亚的多声部歌唱传统，不同地区会采用复杂复调、低音上的对答，或三个部分即兴声部。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00008",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "GE"
+      ]
+    },
+    {
+      "id": "wc-lithuanian-cross-crafting",
+      "conceptId": "custom-lithuanian-cross-crafting",
+      "term": "立陶宛十字架雕制",
+      "aliases": [],
+      "explanation": "立陶宛将橡木十字架雕刻、祝圣和相关仪式连在一起的传统。作品常高一至五米，带小屋顶、花卉或几何装饰，立在路旁、村口或墓地；人们也会留下食物、念珠或彩色头巾等奉献物。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00013",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D13&limit=1",
+          "title": "Cross-crafting and its symbolism — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=13",
+          "evidence": "立陶宛将橡木十字架雕刻、祝圣和相关仪式连在一起的传统。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00013",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "LT"
+      ]
+    },
+    {
+      "id": "wc-jemaa-el-fna",
+      "conceptId": "custom-jemaa-el-fna",
+      "term": "杰马夫纳广场文化",
+      "aliases": [],
+      "explanation": "摩洛哥马拉喀什杰马夫纳广场上的公共文化生活，商业与口头表演在同一空间交织。白天到深夜可见说书人、诗人、乐师和指甲花彩绘者等，往来的居民与旅客通过观看、交谈参与其中。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00014",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D14&limit=1",
+          "title": "Cultural space of Jemaa el-Fna Square — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=14",
+          "evidence": "摩洛哥马拉喀什杰马夫纳广场上的公共文化生活，商业与口头表演在同一空间交织。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00014",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "MA"
+      ]
+    },
+    {
+      "id": "wc-boysun-cultural-space",
+      "conceptId": "custom-boysun-cultural-space",
+      "term": "博伊孙文化空间",
+      "aliases": [],
+      "explanation": "乌兹别克斯坦东南部博伊孙地区保存的礼俗、歌舞和口头传统。当地春季纳乌鲁兹节前有奉献食物的播种仪式，家庭庆典也伴随摔跤、赛马等活动，多种宗教文化痕迹融在日常习俗里。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00019",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D19&limit=1",
+          "title": "Cultural space of Boysun District — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=19",
+          "evidence": "乌兹别克斯坦东南部博伊孙地区保存的礼俗、歌舞和口头传统。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00019",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "UZ"
+      ]
+    },
+    {
+      "id": "wc-jongmyo-jerye",
+      "conceptId": "custom-jongmyo-jerye",
+      "term": "宗庙祭礼",
+      "aliases": [],
+      "explanation": "韩国首尔宗庙为朝鲜王朝祖先举行的儒家祭祀，结合礼仪、音乐与舞蹈，由王室后裔组织。主持者穿礼服，用专门祭器献上食物和酒，钟、锣等传统乐器为整套祭礼提供伴奏。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00016",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D16&limit=1",
+          "title": "Royal ancestral ritual in the Jongmyo shrine and its music — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=16",
+          "evidence": "韩国首尔宗庙为朝鲜王朝祖先举行的儒家祭祀，结合礼仪、音乐与舞蹈，由王室后裔组织。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00016",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "KR"
+      ]
+    },
+    {
+      "id": "wc-binche-carnival",
+      "conceptId": "custom-binche-carnival",
+      "term": "班什狂欢节",
+      "aliases": [],
+      "explanation": "比利时班什在四旬斋前举行的街头狂欢，居民提前制作服装并排练鼓乐。高潮中的吉尔角色穿红黄黑服饰，配木鞋、铃铛和蜡面具，有的戴鸵鸟羽毛帽，在鼓声中巡行，装束本身就有严格讲究。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00033",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D33&limit=1",
+          "title": "Carnival of Binche — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=33",
+          "evidence": "比利时班什在四旬斋前举行的街头狂欢，居民提前制作服装并排练鼓乐。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00033",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "BE"
+      ]
+    },
+    {
+      "id": "wc-meddah",
+      "conceptId": "custom-meddah",
+      "term": "梅达赫说书",
+      "aliases": [],
+      "explanation": "土耳其由一位说书人独自完成的叙事表演，常在市场、咖啡馆等场所进行。艺人从传奇、史诗和笑话中取材，按观众与场合改编，借模仿、即兴和幽默建立交流，也能评论当时的社会生活。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00037",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D37&limit=1",
+          "title": "Arts of the Meddah, public storytellers — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=37",
+          "evidence": "土耳其由一位说书人独自完成的叙事表演，常在市场、咖啡馆等场所进行。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00037",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "TR"
+      ]
+    },
+    {
+      "id": "wc-iraqi-maqam",
+      "conceptId": "custom-iraqi-maqam",
+      "term": "伊拉克木卡姆",
+      "aliases": [],
+      "explanation": "伊拉克把传统曲调、歌唱与器乐伴奏结合的音乐传统。主唱在既有调式上即兴展开，与伴奏乐队相互呼应；常用桑图尔扬琴、四弦弓弦乐器及手鼓，可在私人聚会、咖啡馆或剧院中演出。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00076",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D76&limit=1",
+          "title": "Iraqi Maqam — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=76",
+          "evidence": "伊拉克把传统曲调、歌唱与器乐伴奏结合的音乐传统。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00076",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "IQ"
+      ]
+    },
+    {
+      "id": "wc-morin-khuur",
+      "conceptId": "custom-morin-khuur",
+      "term": "蒙古马头琴音乐",
+      "aliases": [],
+      "explanation": "蒙古以两根弦的马头琴演奏的传统音乐，与游牧生活中的仪式和日常活动相连。琴身呈梯形，长琴颈顶部雕有马头；除独奏外，也能为舞蹈、长调、故事和庆典伴奏，马的形象贯穿乐器造型。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00068",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D68&limit=1",
+          "title": "Traditional music of the Morin Khuur — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=68",
+          "evidence": "蒙古以两根弦的马头琴演奏的传统音乐，与游牧生活中的仪式和日常活动相连。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00068",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "MN"
+      ]
+    },
+    {
+      "id": "wc-vanuatu-sand-drawing",
+      "conceptId": "custom-vanuatu-sand-drawing",
+      "term": "瓦努阿图沙画",
+      "aliases": [],
+      "explanation": "瓦努阿图在沙地、火山灰或黏土上用手指画图的传统。绘者沿想象中的网格，以一条连续曲线形成几何纹样；图案兼有交流和记忆功能，可以帮助讲述谱系、故事、仪式及生产生活知识。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00073",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D73&limit=1",
+          "title": "Vanuatu sand drawings — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=73",
+          "evidence": "瓦努阿图在沙地、火山灰或黏土上用手指画图的传统。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00073",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "VU"
+      ]
+    },
+    {
+      "id": "wc-baltic-song-dance",
+      "conceptId": "custom-baltic-song-dance",
+      "term": "波罗的海歌舞庆典",
+      "aliases": [],
+      "explanation": "爱沙尼亚、拉脱维亚和立陶宛的大型集体歌舞传统，庆典能汇集成千上万名歌者和舞者。参与者多来自业余合唱团与舞蹈团，平时在社区练习，届时把古老民歌与当代作品带入共同演出。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00087",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D87&limit=1",
+          "title": "Baltic song and dance celebrations — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=87",
+          "evidence": "爱沙尼亚、拉脱维亚和立陶宛的大型集体歌舞传统，庆典能汇集成千上万名歌者和舞者。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00087",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "EE",
+        "LV",
+        "LT"
+      ]
+    },
+    {
+      "id": "wc-bistritsa-babi",
+      "conceptId": "custom-bistritsa-babi",
+      "term": "比斯特里察老奶奶",
+      "aliases": [],
+      "explanation": "保加利亚绍普卢克地区由年长妇女传承的复调歌唱、舞蹈与仪式传统。领唱者展开旋律，其余人保持持续低音；跳舞者穿传统服装，互扶腰部或腰带，以轻步逆时针围成圆圈移动。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00095",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D95&limit=1",
+          "title": "Bistritsa Babi, archaic polyphony, dances and rituals from the Shoplouk region — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=95",
+          "evidence": "保加利亚绍普卢克地区由年长妇女传承的复调歌唱、舞蹈与仪式传统。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00095",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "BG"
+      ]
+    },
+    {
+      "id": "wc-fujara",
+      "conceptId": "custom-fujara",
+      "term": "富雅拉长笛",
+      "aliases": [],
+      "explanation": "斯洛伐克中部牧羊人的长笛及其音乐传统，乐器只有三个指孔，主管却可长达一米六至两米。它与较短的吹管相连，能奏出低沉音和很高的泛音，曲目常联系牧人生活，也会模仿溪流等自然声音。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00099",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D99&limit=1",
+          "title": "Fujara and its music — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=99",
+          "evidence": "斯洛伐克中部牧羊人的长笛及其音乐传统，乐器只有三个指孔，主管却可长达一米六至两米。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00099",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "SK"
+      ]
+    },
+    {
+      "id": "wc-mevlevi-sema",
+      "conceptId": "custom-mevlevi-sema",
+      "term": "梅夫莱维塞玛仪式",
+      "aliases": [],
+      "explanation": "土耳其梅夫莱维苏菲派以旋转舞著称的宗教仪式。舞者以左脚为轴、右脚推动身体转动，配合专门的声乐与器乐曲目；伴奏可含芦笛、鼓和钹，舞蹈训练也与诗歌、祈祷及行为规范相连。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00100",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D100&limit=1",
+          "title": "Mevlevi Sema ceremony — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=100",
+          "evidence": "土耳其梅夫莱维苏菲派以旋转舞著称的宗教仪式。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00100",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "TR"
+      ]
+    },
+    {
+      "id": "wc-sbek-thom",
+      "conceptId": "custom-sbek-thom",
+      "term": "斯贝克通大皮影",
+      "aliases": [],
+      "explanation": "柬埔寨高棉的大型皮影戏，以约两米高、关节不能活动的镂空皮偶演出。角色通常由整张皮料雕成，再固定在两根竹竿上供操演；表演保留仪式性质，传统上在夜间的稻田旁或寺庙附近举行。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00108",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D108&limit=1",
+          "title": "Sbek Thom, Khmer shadow theatre — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=108",
+          "evidence": "柬埔寨高棉的大型皮影戏，以约两米高、关节不能活动的镂空皮偶演出。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00108",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "KH"
+      ]
+    },
+    {
+      "id": "wc-gangneung-danoje",
+      "conceptId": "custom-gangneung-danoje",
+      "term": "江陵端午祭",
+      "aliases": [],
+      "explanation": "韩国江陵地区结合祭祀、民歌、面具戏和集市的节庆。活动从酿造祭酒开始，仪式会使用神树及由羽毛、铃铛和竹材制成的物件；儒教、佛教与萨满传统在同一庆典中并存，居民也参加各类游艺。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00114",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D114&limit=1",
+          "title": "Gangneung Danoje festival — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=114",
+          "evidence": "韩国江陵地区结合祭祀、民歌、面具戏和集市的节庆。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00114",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "KR"
+      ]
+    },
+    {
+      "id": "wc-voladores",
+      "conceptId": "custom-voladores",
+      "term": "飞人仪式",
+      "aliases": [],
+      "explanation": "墨西哥托托纳克等族群祈愿丰产的仪式舞蹈。四人登上高木杆，顶端另有一人吹笛击鼓；随后四人系绳离台，随装置旋转，模仿飞行并缓缓下降，以此表达人与自然、精神世界之间的关系。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00175",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D175&limit=1",
+          "title": "Ritual ceremony of the Voladores — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=175",
+          "evidence": "墨西哥托托纳克等族群祈愿丰产的仪式舞蹈。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00175",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "MX"
+      ]
+    },
+    {
+      "id": "wc-chopi-timbila",
+      "conceptId": "custom-chopi-timbila",
+      "term": "乔皮廷比拉",
+      "aliases": [],
+      "explanation": "莫桑比克南部乔皮人的木琴合奏传统，乐队把大小、音域不同的廷比拉排在一起演奏。每块木条下装葫芦共鸣器，以蜂蜡密封；师傅、学徒和不同年龄的人共同演奏，婚礼等活动也会出现新作。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00133",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D133&limit=1",
+          "title": "Chopi Timbila — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=133",
+          "evidence": "莫桑比克南部乔皮人的木琴合奏传统，乐队把大小、音域不同的廷比拉排在一起演奏。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00133",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "MZ"
+      ]
+    },
+    {
+      "id": "wc-olonkho",
+      "conceptId": "custom-olonkho",
+      "term": "奥隆克史诗",
+      "aliases": [],
+      "explanation": "俄罗斯萨哈共和国雅库特人的英雄史诗表演传统，一位叙述者交替使用歌唱诗句与散文式念诵。故事包含勇士、神灵和动物等角色，表演者须兼具演技、口才和即兴能力，家庭也借故事传递知识。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00145",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D145&limit=1",
+          "title": "Olonkho, Yakut heroic epos — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=145",
+          "evidence": "俄罗斯萨哈共和国雅库特人的英雄史诗表演传统，一位叙述者交替使用歌唱诗句与散文式念诵。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00145",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "RU"
+      ]
+    },
+    {
+      "id": "wc-processional-giants-dragons",
+      "conceptId": "custom-processional-giants-dragons",
+      "term": "巨人和龙游行",
+      "aliases": [],
+      "explanation": "比利时与法国一些城镇以巨大人偶、动物和龙形模型进行的传统巡游。模型可高达九米，表现传说英雄、历史人物或地方形象，成为城镇认同的标志；居民通过制作、操纵和游行共同维持节庆。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00153",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D153&limit=1",
+          "title": "Processional giants and dragons in Belgium and France — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=153",
+          "evidence": "比利时与法国一些城镇以巨大人偶、动物和龙形模型进行的传统巡游。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00153",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "BE",
+        "FR"
+      ]
+    },
+    {
+      "id": "wc-patum-berga",
+      "conceptId": "custom-patum-berga",
+      "term": "贝尔加帕图姆节",
+      "aliases": [],
+      "explanation": "西班牙加泰罗尼亚贝尔加在圣体节周举行的庆典，大鼓宣告活动，各类巨偶和角色依次上街。纸马、骡龙、巨人和装扮成火魔的表演者伴随音乐、杂技与烟火演出，最后共同加入集体舞。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00156",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D156&limit=1",
+          "title": "Patum of Berga — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=156",
+          "evidence": "西班牙加泰罗尼亚贝尔加在圣体节周举行的庆典，大鼓宣告活动，各类巨偶和角色依次上街。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00156",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "ES"
+      ]
+    },
+    {
+      "id": "wc-vimbuza",
+      "conceptId": "custom-vimbuza",
+      "term": "维姆布扎疗愈舞",
+      "aliases": [],
+      "explanation": "马拉维北部通布卡人的传统疗愈仪式舞蹈，属于当地鼓乐仪式体系。妇女和儿童围成圈唱歌，鼓手奏出与特定精灵相联系的节奏，当事人在其中起舞；召请精灵属于当地信仰，不是医学疗效证明。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00158",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D158&limit=1",
+          "title": "Vimbuza healing dance — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=158",
+          "evidence": "马拉维北部通布卡人的传统疗愈仪式舞蹈，属于当地鼓乐仪式体系。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00158",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "MW"
+      ]
+    },
+    {
+      "id": "wc-darangen",
+      "conceptId": "custom-darangen",
+      "term": "达兰根叙事歌",
+      "aliases": [],
+      "explanation": "菲律宾棉兰老岛拉瑙湖一带马拉瑙人的长篇史诗歌唱传统。作品既叙述神话英雄的遭遇，也谈爱情、政治与生死；其中保存习惯法、行为规范和审美观念，长者处理习俗事务时也会援引这些故事。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00159",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D159&limit=1",
+          "title": "Darangen epic of the Maranao people of Lake Lanao — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=159",
+          "evidence": "菲律宾棉兰老岛拉瑙湖一带马拉瑙人的长篇史诗歌唱传统。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00159",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "PH"
+      ]
+    },
+    {
+      "id": "wc-calus",
+      "conceptId": "custom-calus",
+      "term": "卡卢什仪式",
+      "aliases": [],
+      "explanation": "罗马尼亚南部奥尔特地区的仪式表演，结合游戏、短剧、歌唱与男子群舞。舞者戴彩帽，穿绣花衬衣和缀铃长裤，在小提琴、手风琴伴奏中踏地、击跟、跳跃和摆腿，由师傅传授舞步与仪式知识。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00090",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D90&limit=1",
+          "title": "Căluş ritual — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=90",
+          "evidence": "罗马尼亚南部奥尔特地区的仪式表演，结合游戏、短剧、歌唱与男子群舞。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00090",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "RO"
+      ]
+    },
+    {
+      "id": "wc-irrigators-tribunals",
+      "conceptId": "custom-irrigators-tribunals",
+      "term": "灌溉者法庭",
+      "aliases": [],
+      "explanation": "西班牙地中海沿岸由用水社群维持的传统纠纷处理制度，代表例子在穆尔西亚和瓦伦西亚。成员经选举产生，以口头方式审理灌溉争议；裁决兼有社区仪式意味，让水资源管理与地方共同生活相连。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00171",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D171&limit=1",
+          "title": "Irrigators’ tribunals of the Spanish Mediterranean coast: the Council of Wise Men of the plain of Murcia and the Water Tribunal of the plain of Valencia — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=171",
+          "evidence": "西班牙地中海沿岸由用水社群维持的传统纠纷处理制度，代表例子在穆尔西亚和瓦伦西亚。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00171",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "ES"
+      ]
+    },
+    {
+      "id": "wc-doina",
+      "conceptId": "custom-doina",
+      "term": "多依纳",
+      "aliases": [],
+      "explanation": "罗马尼亚的即兴抒情歌唱，既可在家中、田野演唱，也可出现在守灵等场合。它始终由个人独唱，可以有乐器也可以没有；主题从爱情、孤独到社会冲突，旋律随着演唱者当下情绪和技巧展开。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00192",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D192&limit=1",
+          "title": "Doina — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=192",
+          "evidence": "罗马尼亚的即兴抒情歌唱，既可在家中、田野演唱，也可出现在守灵等场合。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00192",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "RO"
+      ]
+    },
+    {
+      "id": "wc-quan-ho",
+      "conceptId": "custom-quan-ho",
+      "term": "北宁官贺民歌",
+      "aliases": [],
+      "explanation": "越南北宁、北江一带村落之间的对歌传统，一村的两位女子合唱，另一村的两位男子以相近曲调、不同歌词回答。歌曲常表达相聚与离别，节庆和待客时均可演唱，习俗还限制歌唱搭档彼此结婚。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00183",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D183&limit=1",
+          "title": "Quan Họ Bắc Ninh folk songs — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=183",
+          "evidence": "越南北宁、北江一带村落之间的对歌传统，一村的两位女子合唱，另一村的两位男子以相近曲调、不同歌词回答。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00183",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "VN"
+      ]
+    },
+    {
+      "id": "wc-namsadang-nori",
+      "conceptId": "custom-namsadang-nori",
+      "term": "男寺党游戏",
+      "aliases": [],
+      "explanation": "韩国源于流浪艺人的综合民间表演，包含农乐、面具戏、走绳、木偶戏、地面杂技和转圈技艺。高绳上的艺人还会与地面丑角机智对答，面具戏与木偶戏借幽默场景评论阶层压迫和女性处境。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00184",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D184&limit=1",
+          "title": "Namsadang Nori — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=184",
+          "evidence": "韩国源于流浪艺人的综合民间表演，包含农乐、面具戏、走绳、木偶戏、地面杂技和转圈技艺。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00184",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "KR"
+      ]
+    },
+    {
+      "id": "wc-yeongsanjae",
+      "conceptId": "custom-yeongsanjae",
+      "term": "灵山斋",
+      "aliases": [],
+      "explanation": "韩国佛教以歌唱、装饰与仪式舞蹈重现佛陀灵鹫山说法的法会。仪程从迎接圣者和神灵到送别，穿插净化、茶礼及供饭等环节，舞蹈可使用钹、鼓或法衣，在寺院中传承佛教文化与仪礼知识。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00186",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D186&limit=1",
+          "title": "Yeongsanjae — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=186",
+          "evidence": "韩国佛教以歌唱、装饰与仪式舞蹈重现佛陀灵鹫山说法的法会。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00186",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "KR"
+      ]
+    },
+    {
+      "id": "wc-ganggangsullae",
+      "conceptId": "custom-ganggangsullae",
+      "term": "羌羌水越来",
+      "aliases": [],
+      "explanation": "韩国西南部与收获和丰产相关的圆圈歌舞，传统上在农历八月月圆时举行。妇女牵手围圈，在领唱带领下歌舞，间歇还模仿捉鼠、卷席等生活片段；名称来自反复唱出的衬词，其确切含义并不确定。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00188",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D188&limit=1",
+          "title": "Ganggangsullae — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=188",
+          "evidence": "韩国西南部与收获和丰产相关的圆圈歌舞，传统上在农历八月月圆时举行。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00188",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "KR"
+      ]
+    },
+    {
+      "id": "wc-ijele",
+      "conceptId": "custom-ijele",
+      "term": "伊杰莱假面舞",
+      "aliases": [],
+      "explanation": "尼日利亚阿南布拉州社区在节庆与丧礼等场合表演的大型假面舞。装束以竹架和彩色布料构成，约四米高，中间以蟒蛇形象分隔上下两层，并装饰生活场景人物，庞大的造型需要多人长期协作制作。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00194",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D194&limit=1",
+          "title": "Ijele masquerade — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=194",
+          "evidence": "尼日利亚阿南布拉州社区在节庆与丧礼等场合表演的大型假面舞。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00194",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "NG"
+      ]
+    },
+    {
+      "id": "wc-hrvatsko-zagorje-toys",
+      "conceptId": "custom-hrvatsko-zagorje-toys",
+      "term": "扎戈列木玩具制作",
+      "aliases": [],
+      "explanation": "克罗地亚北部扎戈列地区的家庭木玩具技艺，先把当地软木干燥、切削和雕刻，再手绘花卉或几何图案。传统作品有哨子、木马、微型家具与会扑翅的鸟，也随时代增添汽车、火车等造型。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00233",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D233&limit=1",
+          "title": "Traditional manufacturing of children’s wooden toys in Hrvatsko Zagorje — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=233",
+          "evidence": "克罗地亚北部扎戈列地区的家庭木玩具技艺，先把当地软木干燥、切削和雕刻，再手绘花卉或几何图案。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00233",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "HR"
+      ]
+    },
+    {
+      "id": "wc-gorjani-queens",
+      "conceptId": "custom-gorjani-queens",
+      "term": "戈里亚尼女王巡游",
+      "aliases": [],
+      "explanation": "克罗地亚戈里亚尼村姑娘们春季逐户表演的巡游，队伍分为戴男帽、持军刀的国王和戴白花冠的女王。国王舞刀，女王用歌声评论，主人随后加入集体舞并招待饮食，角色都由年轻女性扮演。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00235",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D235&limit=1",
+          "title": "Spring procession of Ljelje/Kraljice (queens) from Gorjani — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=235",
+          "evidence": "克罗地亚戈里亚尼村姑娘们春季逐户表演的巡游，队伍分为戴男帽、持军刀的国王和戴白花冠的女王。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00235",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "HR"
+      ]
+    },
+    {
+      "id": "wc-croatian-lacemaking",
+      "conceptId": "custom-croatian-lacemaking",
+      "term": "克罗地亚花边制作",
+      "aliases": [],
+      "explanation": "克罗地亚的花边传统分别以帕格、莱波格拉瓦和赫瓦尔为代表，涵盖针绣、棒槌编结及芦荟纤维花边。赫瓦尔修女从新鲜芦荟叶芯取得细白纤维，在纸板底样上编成图案，成品成为当地文化象征。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00245",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D245&limit=1",
+          "title": "Lacemaking in Croatia — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=245",
+          "evidence": "克罗地亚的花边传统分别以帕格、莱波格拉瓦和赫瓦尔为代表，涵盖针绣、棒槌编结及芦荟纤维花边。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00245",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "HR"
+      ]
+    },
+    {
+      "id": "wc-lefkaritika",
+      "conceptId": "custom-lefkaritika",
+      "term": "莱夫卡拉花边",
+      "aliases": [],
+      "explanation": "塞浦路斯莱夫卡拉村把刺绣、抽纱和针织边饰结合的手工传统。妇女在亚麻布上用棉线制作桌布、餐巾等，常边聊天边工作；姑娘先长期观察，再由母亲或祖母教授技巧，熟练后可自行设计纹样。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00255",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D255&limit=1",
+          "title": "Lefkara laces or Lefkaritika — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=255",
+          "evidence": "塞浦路斯莱夫卡拉村把刺绣、抽纱和针织边饰结合的手工传统。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00255",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "CY"
+      ]
+    },
+    {
+      "id": "wc-popayan-processions",
+      "conceptId": "custom-popayan-processions",
+      "term": "波帕扬圣周巡游",
+      "aliases": [],
+      "explanation": "哥伦比亚波帕扬在复活节前举行的夜间巡游，以按复杂规则装配的宗教花台为中心。木雕圣像饰以鲜花，执烛信众沿街相伴；工艺、分工及专门词汇从儿童时期传授，准备工作贯穿全年。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00259",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D259&limit=1",
+          "title": "Holy Week processions in Popayán — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=259",
+          "evidence": "哥伦比亚波帕扬在复活节前举行的夜间巡游，以按复杂规则装配的宗教花台为中心。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00259",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "CO"
+      ]
+    },
+    {
+      "id": "wc-houtem-jaarmarkt",
+      "conceptId": "custom-houtem-jaarmarkt",
+      "term": "豪特姆冬季牲畜市集",
+      "aliases": [],
+      "explanation": "比利时圣利文斯豪特姆每年十一月举行的露天牲畜交易与市集传统。商人展示牛和纯种马，农民、评审和游客聚在一起，交易仍能见到拍手议价等老办法，集市也让不同地区的工匠与畜牧者交流。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00403",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D403&limit=1",
+          "title": "Houtem Jaarmarkt, annual winter fair and livestock market at Sint-Lievens-Houtem — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=403",
+          "evidence": "比利时圣利文斯豪特姆每年十一月举行的露天牲畜交易与市集传统。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00403",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "BE"
+      ]
+    },
+    {
+      "id": "wc-daimokutate",
+      "conceptId": "custom-daimokutate",
+      "term": "题目立",
+      "aliases": [],
+      "explanation": "日本奈良上深川社区的叙事表演，青年穿武士服、持弓围成半圆。长者喊出源平故事中的人物名后，青年依次背诵对应台词，不作角色动作，也不用器乐伴奏；结尾才踏步歌唱，原与长子成年入社有关。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00276",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D276&limit=1",
+          "title": "Daimokutate — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=276",
+          "evidence": "日本奈良上深川社区的叙事表演，青年穿武士服、持弓围成半圆。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00276",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "JP"
+      ]
+    },
+    {
+      "id": "wc-radif",
+      "conceptId": "custom-radif",
+      "term": "拉迪夫",
+      "aliases": [],
+      "explanation": "伊朗古典音乐由师徒口传的传统曲目体系，把许多称为古舍的旋律单元组成套组。演奏者需要多年记忆和训练，再把这些素材用于即兴、创作和回应观众；体系既可用于声乐，也可用于多种传统乐器。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00279",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D279&limit=1",
+          "title": "Radif of Iranian music — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=279",
+          "evidence": "伊朗古典音乐由师徒口传的传统曲目体系，把许多称为古舍的旋律单元组成套组。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00279",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "IR"
+      ]
+    },
+    {
+      "id": "wc-tsuur",
+      "conceptId": "custom-tsuur",
+      "term": "楚尔音乐",
+      "aliases": [],
+      "explanation": "蒙古阿尔泰乌梁海人的吹奏传统，演奏者一边吹三孔木管，一边让喉部同时发声。笛口贴近前齿，形成清亮哨音与持续低音的混合，曲目常模仿自然声音，并用于旅途祝愿、婚礼及狩猎相关仪式。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00312",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D312&limit=1",
+          "title": "Traditional music of the Tsuur — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=312",
+          "evidence": "蒙古阿尔泰乌梁海人的吹奏传统，演奏者一边吹三孔木管，一边让喉部同时发声。",
+          "originalEntryUrl": "https://ich.unesco.org/en/USL/00312",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "MN"
+      ]
+    },
+    {
+      "id": "wc-ojkanje",
+      "conceptId": "custom-ojkanje",
+      "term": "奥伊卡涅颤音唱法",
+      "aliases": [],
+      "explanation": "克罗地亚达尔马提亚内陆的双声部歌唱，至少两人以喉部产生特别的颤动声音。每首歌持续多久，取决于领唱能一口气维持多久；歌词既谈爱情，也谈社会问题和政治，由地方传承团体口头教授。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00320",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D320&limit=1",
+          "title": "Ojkanje singing — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=320",
+          "evidence": "克罗地亚达尔马提亚内陆的双声部歌唱，至少两人以喉部产生特别的颤动声音。",
+          "originalEntryUrl": "https://ich.unesco.org/en/USL/00320",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "HR"
+      ]
+    },
+    {
+      "id": "wc-mudiyettu",
+      "conceptId": "custom-mudiyettu",
+      "term": "穆迪耶图",
+      "aliases": [],
+      "explanation": "印度喀拉拉邦以迦梨女神与魔怪达里卡之战为题的仪式舞剧。收获后村民聚到神庙，表演者先禁食祈祷，再用彩色粉末在地面画出巨大的女神形象，随后展开神话剧情，全村不同群体共同参与筹办。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00345",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D345&limit=1",
+          "title": "Mudiyettu, ritual theatre and dance drama of Kerala — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=345",
+          "evidence": "印度喀拉拉邦以迦梨女神与魔怪达里卡之战为题的仪式舞剧。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00345",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "IN"
+      ]
+    },
+    {
+      "id": "wc-becarac",
+      "conceptId": "custom-becarac",
+      "term": "贝恰拉茨",
+      "aliases": [],
+      "explanation": "克罗地亚东部的对唱与器乐传统，领唱者轮流接唱，巧用十音节诗句竞争机智与唱功。歌者由合唱和坦布拉乐队伴奏，能借玩笑表达平时不便直说的情绪，表演长短取决于参与者的创造力和精力。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00358",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D358&limit=1",
+          "title": "Bećarac singing and playing from Eastern Croatia — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=358",
+          "evidence": "克罗地亚东部的对唱与器乐传统，领唱者轮流接唱，巧用十音节诗句竞争机智与唱功。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00358",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "HR"
+      ]
+    },
+    {
+      "id": "wc-castells",
+      "conceptId": "custom-castells",
+      "term": "卡斯特尔人塔",
+      "aliases": [],
+      "explanation": "西班牙加泰罗尼亚节庆中的集体叠人塔传统，队员逐层站上彼此肩膀，较轻的儿童登上高处。底部由人群形成支撑，腰带兼有护腰和攀握作用；乐师用格拉拉管乐器提示搭建节奏，各队以衬衣颜色区分。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00364",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D364&limit=1",
+          "title": "Human towers — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=364",
+          "evidence": "西班牙加泰罗尼亚节庆中的集体叠人塔传统，队员逐层站上彼此肩膀，较轻的儿童登上高处。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00364",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "ES"
+      ]
+    },
+    {
+      "id": "wc-al-barah",
+      "conceptId": "custom-al-barah",
+      "term": "巴拉舞",
+      "aliases": [],
+      "explanation": "阿曼南部佐法尔山区的贝都因歌舞，十至三十人围成半圈唱诗拍手，两名男子持弯刀按固定动作起舞。鼓和笛提供伴奏，不同部族有自己的节奏与步法，常在婚礼、宗教节庆等户外聚会中表演。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00372",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D372&limit=1",
+          "title": "Al-Bar’ah, music and dance of Oman Dhofari valleys — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=372",
+          "evidence": "阿曼南部佐法尔山区的贝都因歌舞，十至三十人围成半圈唱诗拍手，两名男子持弯刀按固定动作起舞。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00372",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "OM"
+      ]
+    },
+    {
+      "id": "wc-fars-carpet-weaving",
+      "conceptId": "custom-fars-carpet-weaving",
+      "term": "法尔斯地毯编织",
+      "aliases": [],
+      "explanation": "伊朗西南部法尔斯地区的手工地毯传统，男子剪羊毛、搭建地面织机，妇女纺线、配色与编织。染色常用植物材料，织者不依照预画图样，把游牧生活带入纹饰，因此每张地毯都有自己的构图。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00382",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D382&limit=1",
+          "title": "Traditional skills of carpet weaving in Fars — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=382",
+          "evidence": "伊朗西南部法尔斯地区的手工地毯传统，男子剪羊毛、搭建地面织机，妇女纺线、配色与编织。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00382",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "IR"
+      ]
+    },
+    {
+      "id": "wc-keskek",
+      "conceptId": "custom-keskek",
+      "term": "克什凯克仪式餐",
+      "aliases": [],
+      "explanation": "土耳其婚礼等庆典共同制作的小麦肉食传统，男女协作把小麦、带骨肉及调料放入大锅煮制。小麦先在鼓笛伴奏下去壳，熬煮后再由强壮青年用木槌反复捶打，众人喝彩，音乐也为工序提供节奏。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00388",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D388&limit=1",
+          "title": "Ceremonial Keşkek tradition — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=388",
+          "evidence": "土耳其婚礼等庆典共同制作的小麦肉食传统，男女协作把小麦、带骨肉及调料放入大锅煮制。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00388",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "TR"
+      ]
+    },
+    {
+      "id": "wc-azerbaijani-carpet-weaving",
+      "conceptId": "custom-azerbaijani-carpet-weaving",
+      "term": "阿塞拜疆地毯编织",
+      "aliases": [],
+      "explanation": "阿塞拜疆以家庭协作传承的地毯制作，包含有绒与无绒的不同结构。男子剪毛，妇女采染料、纺染丝线，在水平或立式织机上完成纹样；姑娘跟母亲、祖母学习，把成毯从织机割下也会郑重庆祝。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00389",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D389&limit=1",
+          "title": "Traditional art of Azerbaijani carpet weaving in the Republic of Azerbaijan — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=389",
+          "evidence": "阿塞拜疆以家庭协作传承的地毯制作，包含有绒与无绒的不同结构。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00389",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "AZ"
+      ]
+    },
+    {
+      "id": "wc-huaconada",
+      "conceptId": "custom-huaconada",
+      "term": "瓦科纳达",
+      "aliases": [],
+      "explanation": "秘鲁安第斯山米托村年初三天举行的仪式舞，戴面具的瓦孔代表旧日长老会，暂时象征镇上的最高权威。面具夸张的鼻部让人联想到神圣山鹰，舞者携鞭起舞，年长表演者比年轻者拥有更多即兴空间。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00390",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D390&limit=1",
+          "title": "Huaconada, ritual dance of Mito — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=390",
+          "evidence": "秘鲁安第斯山米托村年初三天举行的仪式舞，戴面具的瓦孔代表旧日长老会，暂时象征镇上的最高权威。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00390",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "PE"
+      ]
+    },
+    {
+      "id": "wc-echternach-hopping",
+      "conceptId": "custom-echternach-hopping",
+      "term": "埃希特纳赫跳跃巡游",
+      "aliases": [],
+      "explanation": "卢森堡埃希特纳赫在圣灵降临节后周二举行的宗教巡游，围绕圣威利布罗德的崇敬传统展开。队伍先在旧修道院庭院集合，唱祷文后分组跳舞前进，最后进入大殿礼拜，以祈祷、歌声和舞步联系社群。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00392",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D392&limit=1",
+          "title": "Hopping procession of Echternach — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=392",
+          "evidence": "卢森堡埃希特纳赫在圣灵降临节后周二举行的宗教巡游，围绕圣威利布罗德的崇敬传统展开。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00392",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "LU"
+      ]
+    },
+    {
+      "id": "wc-naadam",
+      "conceptId": "custom-naadam",
+      "term": "那达慕",
+      "aliases": [],
+      "explanation": "蒙古以赛马、摔跤和射箭为中心的年度节庆，比赛之外还汇集长调、呼麦、舞蹈和传统工艺。参与者穿专门服装、使用相应竞技器具，人们为选手吟诵赞歌和诗句，胜者可获得表示成就的称号。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00395",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D395&limit=1",
+          "title": "Naadam, Mongolian traditional festival — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=395",
+          "evidence": "蒙古以赛马、摔跤和射箭为中心的年度节庆，比赛之外还汇集长调、呼麦、舞蹈和传统工艺。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00395",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "MN"
+      ]
+    },
+    {
+      "id": "wc-hlinecko-shrovetide",
+      "conceptId": "custom-hlinecko-shrovetide",
+      "term": "赫利内茨科面具巡游",
+      "aliases": [],
+      "explanation": "捷克东波希米亚赫利内茨科村落在四旬斋前举行的逐户巡游。男子和男孩戴不同角色面具，随铜管乐队到各家起舞，主人给予食物和礼金；最后还表演幽默的母马处决与复活，作为集体舞的开场。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00397",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D397&limit=1",
+          "title": "Shrovetide door-to-door processions and masks in the villages of the Hlinecko area — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=397",
+          "evidence": "捷克东波希米亚赫利内茨科村落在四旬斋前举行的逐户巡游。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00397",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "CZ"
+      ]
+    },
+    {
+      "id": "wc-parachicos",
+      "conceptId": "custom-parachicos",
+      "term": "帕拉奇科斯",
+      "aliases": [],
+      "explanation": "墨西哥奇亚帕德科尔索一月大节中的舞蹈与舞者称呼，表演被视为献给当地圣人的共同礼物。舞者戴雕刻木面具、披刺绣披肩、摇沙槌，跟随领队巡行并回应呼喊，儿童在现场模仿大人学习。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00399",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D399&limit=1",
+          "title": "Parachicos in the traditional January feast of Chiapa de Corzo — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=399",
+          "evidence": "墨西哥奇亚帕德科尔索一月大节中的舞蹈与舞者称呼，表演被视为献给当地圣人的共同礼物。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00399",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "MX"
+      ]
+    },
+    {
+      "id": "wc-leuven-age-sets",
+      "conceptId": "custom-leuven-age-sets",
+      "term": "鲁汶同龄组仪式",
+      "aliases": [],
+      "explanation": "比利时鲁汶男子从四十岁到五十岁参与的同龄社群传统，同年出生者结组，选择自己的旗帜、制服和徽章。较早一届的成员担任教父，十年间共同做公益与文化活动，到五十岁在公园举行庆祝。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00404",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D404&limit=1",
+          "title": "Leuven age set ritual repertoire — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=404",
+          "evidence": "比利时鲁汶男子从四十岁到五十岁参与的同龄社群传统，同年出生者结组，选择自己的旗帜、制服和徽章。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00404",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "BE"
+      ]
+    },
+    {
+      "id": "wc-kumiodori",
+      "conceptId": "custom-kumiodori",
+      "term": "组踊",
+      "aliases": [],
+      "explanation": "日本冲绳把音乐、舞蹈和戏剧结合的表演，以当地历史事件或传说为内容，用古冲绳语和有特定韵律的台词演出。传统三弦乐器伴奏，角色由男性饰演，发式、服装和动作保留琉球地方特色。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00405",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D405&limit=1",
+          "title": "Kumiodori, traditional Okinawan musical theatre — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=405",
+          "evidence": "日本冲绳把音乐、舞蹈和戏剧结合的表演，以当地历史事件或传说为内容，用古冲绳语和有特定韵律的台词演出。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00405",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "JP"
+      ]
+    },
+    {
+      "id": "wc-yuki-tsumugi",
+      "conceptId": "custom-yuki-tsumugi",
+      "term": "结城紬",
+      "aliases": [],
+      "explanation": "日本结城、小山一带的丝织技艺，把丝绵手工纺成线，扎束染出纹样，再用身体张力控制织机织造。原料可利用无法常规缫丝的空茧或变形茧，成品轻暖，兼有挺括和柔软的手感，传统上用来制作和服。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00406",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D406&limit=1",
+          "title": "Yuki-tsumugi, silk fabric production technique — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=406",
+          "evidence": "日本结城、小山一带的丝织技艺，把丝绵手工纺成线，扎束染出纹样，再用身体张力控制织机织造。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00406",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "JP"
+      ]
+    },
+    {
+      "id": "wc-sada-shin-noh",
+      "conceptId": "custom-sada-shin-noh",
+      "term": "佐陀神能",
+      "aliases": [],
+      "explanation": "日本岛根县佐太神社更换神席草垫时举行的净化舞蹈。表演者有时持剑、铃或木杖，有时戴神灵或老人的面具演绎神话；其中专门的席舞拿起新草垫加以净化，再把它献给神社所祭祀的神灵。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00412",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D412&limit=1",
+          "title": "Sada Shin Noh, sacred dancing at Sada shrine, Shimane — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=412",
+          "evidence": "日本岛根县佐太神社更换神席草垫时举行的净化舞蹈。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00412",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "JP"
+      ]
+    },
+    {
+      "id": "wc-nachi-dengaku",
+      "conceptId": "custom-nachi-dengaku",
+      "term": "那智田乐",
+      "aliases": [],
+      "explanation": "日本熊野那智神社火祭中的民俗表演，以笛、鼓和舞蹈祈愿稻谷丰收。部分鼓手把鼓系在腰间，舞者按不同队形随乐起舞，地方居民组成保存会负责演出与传承，表演与熊野地区的神社信仰相连。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00413",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D413&limit=1",
+          "title": "Nachi no Dengaku, a religious performing art held at the Nachi fire festival — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=413",
+          "evidence": "日本熊野那智神社火祭中的民俗表演，以笛、鼓和舞蹈祈愿稻谷丰收。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00413",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "JP"
+      ]
+    },
+    {
+      "id": "wc-wayuu-palabrero",
+      "conceptId": "custom-wayuu-palabrero",
+      "term": "瓦尤劝解人制度",
+      "aliases": [],
+      "explanation": "哥伦比亚瓜希拉半岛瓦尤人的传统纠纷调解制度，由称为帕拉布雷罗的善言者促成对话。调解者在母系氏族之间分析争端，以赔偿和修复关系为原则，补偿可涉及宝石项链或牲畜，重在和平解决冲突。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00435",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D435&limit=1",
+          "title": "Wayuu normative system, applied by the Pütchipü’üi (palabrero) — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=435",
+          "evidence": "哥伦比亚瓜希拉半岛瓦尤人的传统纠纷调解制度，由称为帕拉布雷罗的善言者促成对话。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00435",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "CO"
+      ]
+    },
+    {
+      "id": "wc-taekkyeon",
+      "conceptId": "custom-taekkyeon",
+      "term": "跆跟",
+      "aliases": [],
+      "explanation": "韩国运用流畅、富有节奏感动作的传统武艺，身法常呈圆弧，脚法与手法同样重要，可打击或绊倒对手。它也强调体谅对手、避免伤害，和季节性农事活动的社群聚会相连，并作为日常运动传承。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00452",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D452&limit=1",
+          "title": "Taekkyeon, a traditional Korean martial art — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=452",
+          "evidence": "韩国运用流畅、富有节奏感动作的传统武艺，身法常呈圆弧，脚法与手法同样重要，可打击或绊倒对手。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00452",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "KR"
+      ]
+    },
+    {
+      "id": "wc-hansan-mosi",
+      "conceptId": "custom-hansan-mosi",
+      "term": "韩山苎麻织造",
+      "aliases": [],
+      "explanation": "韩国忠清南道韩山的精细苎麻布制作，包括收割、煮制、漂白、纺线与传统织机织造。布料适合炎热天气，常用于服装；技艺多由母亲传给女儿或儿媳，邻里妇女也会聚在指定场所一起工作。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00453",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D453&limit=1",
+          "title": "Weaving of Mosi (fine ramie) in the Hansan region — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=453",
+          "evidence": "韩国忠清南道韩山的精细苎麻布制作，包括收割、煮制、漂白、纺线与传统织机织造。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00453",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "KR"
+      ]
+    },
+    {
+      "id": "wc-koredugaw",
+      "conceptId": "custom-koredugaw",
+      "term": "科雷杜加智慧仪式",
+      "aliases": [],
+      "explanation": "马里多个族群中的智慧传承与社群组织，成员穿破旧外衣，佩戴红豆项链和各种杂物，用贪吃模样、讽刺与机智逗人发笑。看似滑稽的表现也承担教育儿童、调解社会关系和传递行为规范的作用。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00520",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D520&limit=1",
+          "title": "Secret society of the Kôrêdugaw, the rite of wisdom in Mali — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=520",
+          "evidence": "马里多个族群中的智慧传承与社群组织，成员穿破旧外衣，佩戴红豆项链和各种杂物，用贪吃模样、讽刺与机智逗人发笑。",
+          "originalEntryUrl": "https://ich.unesco.org/en/USL/00520",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "ML"
+      ]
+    },
+    {
+      "id": "wc-yaokwa",
+      "conceptId": "custom-yaokwa",
+      "term": "雅奥夸",
+      "aliases": [],
+      "explanation": "巴西亚马孙南部埃纳韦内纳韦人每年举行的仪式周期，用以敬奉雅凯里蒂精灵、维系族群秩序。七个月间各氏族轮流分工，一组外出捕鱼，另一组准备盐、鱼和仪式食品，并以音乐和舞蹈参与。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00521",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D521&limit=1",
+          "title": "Yaokwa, the Enawene Nawe people's ritual for the maintenance of social and cosmic order — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=521",
+          "evidence": "巴西亚马孙南部埃纳韦内纳韦人每年举行的仪式周期，用以敬奉雅凯里蒂精灵、维系族群秩序。",
+          "originalEntryUrl": "https://ich.unesco.org/en/USL/00521",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "BR"
+      ]
+    },
+    {
+      "id": "wc-esuwa",
+      "conceptId": "custom-esuwa",
+      "term": "埃苏瓦祈祷歌",
+      "aliases": [],
+      "explanation": "秘鲁南部亚马孙瓦奇佩里人用哈拉克布特语演唱的祈祷传统，不用乐器伴奏。它用于疗愈仪式、饮用发酵木薯饮料等场合；按当地口述，歌曲从森林动物处学来，师傅还会教徒弟各首歌的特定用途。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00531",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D531&limit=1",
+          "title": "Esuwa, Harakbut sung prayers of Peru’s Wachiperi people — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=531",
+          "evidence": "秘鲁南部亚马孙瓦奇佩里人用哈拉克布特语演唱的祈祷传统，不用乐器伴奏。",
+          "originalEntryUrl": "https://ich.unesco.org/en/USL/00531",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "PE"
+      ]
+    },
+    {
+      "id": "wc-qoylluriti-pilgrimage",
+      "conceptId": "custom-qoylluriti-pilgrimage",
+      "term": "科伊尤里蒂朝圣",
+      "aliases": [],
+      "explanation": "秘鲁库斯科周边社群前往西纳卡拉山地圣所的朝圣，结合天主教与当地自然崇敬。参与者按来源村落组成不同队伍，携十字架上下雪山，以多种舞蹈呈现各社群身份，还有迎接晨光的长程巡行。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00567",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D567&limit=1",
+          "title": "Pilgrimage to the sanctuary of the Lord of Qoyllurit’i — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=567",
+          "evidence": "秘鲁库斯科周边社群前往西纳卡拉山地圣所的朝圣，结合天主教与当地自然崇敬。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00567",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "PE"
+      ]
+    },
+    {
+      "id": "wc-yurupari-jaguar-shamans",
+      "conceptId": "custom-yurupari-jaguar-shamans",
+      "term": "尤鲁帕里美洲豹萨满",
+      "aliases": [],
+      "explanation": "哥伦比亚皮拉帕拉纳河沿岸族群传承的仪式知识体系，萨满依礼仪历组织歌舞，联系社区与自然。当地信仰把神圣知识追溯到神话中的尤鲁帕里，并以棕榈木制成的圣喇叭体现这一传承。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00574",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D574&limit=1",
+          "title": "Traditional knowledge of the jaguar shamans of Yuruparí — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=574",
+          "evidence": "哥伦比亚皮拉帕拉纳河沿岸族群传承的仪式知识体系，萨满依礼仪历组织歌舞，联系社区与自然。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00574",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "CO"
+      ]
+    },
+    {
+      "id": "wc-qeswachaka-renewal",
+      "conceptId": "custom-qeswachaka-renewal",
+      "term": "克斯瓦查卡桥更新",
+      "aliases": [],
+      "explanation": "秘鲁安第斯山区四个克丘亚语社群每年共同重建草绳吊桥的技艺与仪式。各家先割草搓细绳，再合成粗绳并编成大缆，固定在古老石基上；三天的工程兼有祭仪，也是社群维系合作与历史联系的机会。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00594",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D594&limit=1",
+          "title": "Knowledge, skills and rituals related to the annual renewal of the Q’eswachaka bridge — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=594",
+          "evidence": "秘鲁安第斯山区四个克丘亚语社群每年共同重建草绳吊桥的技艺与仪式。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00594",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "PE"
+      ]
+    },
+    {
+      "id": "wc-matyo-embroidery",
+      "conceptId": "custom-matyo-embroidery",
+      "term": "马乔刺绣",
+      "aliases": [],
+      "explanation": "匈牙利东北部梅泽克韦什德一带马乔社群的民间艺术，以花卉纹样和平针刺绣著称。刺绣装饰节庆歌舞时穿的传统服装，花纹也进入家居与当代设计；当地绣艺圈让学习者跟经验丰富的师傅学针法。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00633",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D633&limit=1",
+          "title": "Folk art of the Matyó, embroidery of a traditional community — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=633",
+          "evidence": "匈牙利东北部梅泽克韦什德一带马乔社群的民间艺术，以花卉纹样和平针刺绣著称。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00633",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "HU"
+      ]
+    },
+    {
+      "id": "wc-venezuela-dancing-devils",
+      "conceptId": "custom-venezuela-dancing-devils",
+      "term": "委内瑞拉跳舞魔鬼",
+      "aliases": [],
+      "explanation": "委内瑞拉中部沿海社群庆祝圣体节的假面舞，参与者扮作魔鬼，伴弦乐和打击乐倒退起舞。高潮时魔鬼向圣体屈服，象征善胜过恶；各兄弟会制作自己的面具，并把十字架、铃铛和飘带纳入装束。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00639",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D639&limit=1",
+          "title": "Venezuela's Dancing Devils of Corpus Christi — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=639",
+          "evidence": "委内瑞拉中部沿海社群庆祝圣体节的假面舞，参与者扮作魔鬼，伴弦乐和打击乐倒退起舞。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00639",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "VE"
+      ]
+    },
+    {
+      "id": "wc-san-pacho-quibdo",
+      "conceptId": "custom-san-pacho-quibdo",
+      "term": "基布多圣帕乔节",
+      "aliases": [],
+      "explanation": "哥伦比亚基布多的社区庆典，把圣方济各崇敬与非洲后裔歌舞相结合。各街区轮流组织弥撒、寓意花车和装扮队伍，圣像还会乘船经过阿特拉托河，年轻人与当地工匠一起制作服装、祭台和街饰。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00640",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D640&limit=1",
+          "title": "Festival of Saint Francis of Assisi, Quibdó — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=640",
+          "evidence": "哥伦比亚基布多的社区庆典，把圣方济各崇敬与非洲后裔歌舞相结合。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00640",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "CO"
+      ]
+    },
+    {
+      "id": "wc-mesir-macunu",
+      "conceptId": "custom-mesir-macunu",
+      "term": "梅西尔马居努节",
+      "aliases": [],
+      "explanation": "土耳其马尼萨以香料草药膏为中心的节庆，制作人按传统混合四十一种香料草药，包成小纸包，祝祷后从清真寺高处撒下。人群争接药膏，仪式纪念有关苏丹母亲康复的故事，许愿效力属于民间信念。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00642",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D642&limit=1",
+          "title": "Mesir Macunu festival — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=642",
+          "evidence": "土耳其马尼萨以香料草药膏为中心的节庆，制作人按传统混合四十一种香料草药，包成小纸包，祝祷后从清真寺高处撒下。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00642",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "TR"
+      ]
+    },
+    {
+      "id": "wc-toquilla-hat-weaving",
+      "conceptId": "custom-toquilla-hat-weaving",
+      "term": "托基亚草帽编织",
+      "aliases": [],
+      "explanation": "厄瓜多尔用沿海棕榈纤维编草帽的技艺，先剥取纤维、煮制和漂白，再编帽顶与帽檐。制作时间随精细程度从一天到数月不等，末尾还要清洗、定型和熨压，儿童常在家中观察模仿长辈来学艺。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00729",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D729&limit=1",
+          "title": "Traditional weaving of the Ecuadorian toquilla straw hat — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=729",
+          "evidence": "厄瓜多尔用沿海棕榈纤维编草帽的技艺，先剥取纤维、煮制和漂白，再编帽顶与帽檐。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00729",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "EC"
+      ]
+    },
+    {
+      "id": "wc-sbua",
+      "conceptId": "custom-sbua",
+      "term": "斯布阿朝圣",
+      "aliases": [],
+      "explanation": "阿尔及利亚古拉拉地区泽纳塔社群纪念先知诞辰的七日朝圣。人们走访圣者陵寝，以歌舞共同庆祝，最后一天各队围向持圣旗者象征汇合；妇女也主持磨第一把谷物的仪式，为朝圣者准备库斯库斯。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00667",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D667&limit=1",
+          "title": "Sbuâ, annual pilgrimage to the zawiya of Sidi El Hadj Belkacem in Gourara — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=667",
+          "evidence": "阿尔及利亚古拉拉地区泽纳塔社群纪念先知诞辰的七日朝圣。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00667",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "DZ"
+      ]
+    },
+    {
+      "id": "wc-entre-sambre-meuse-marches",
+      "conceptId": "custom-entre-sambre-meuse-marches",
+      "term": "桑布尔与默兹间行军",
+      "aliases": [],
+      "explanation": "比利时瓦隆两条河之间的宗教巡游传统，村镇居民组成仿军队编制的队伍，穿军服护送献给地方圣人的行列。青年随父母参与，鼓笛音乐、制衣和队列知识在家庭与聚会中传承，筹办也靠地方社群协作。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00670",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D670&limit=1",
+          "title": "Marches of Entre-Sambre-et-Meuse — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=670",
+          "evidence": "比利时瓦隆两条河之间的宗教巡游传统，村镇居民组成仿军队编制的队伍，穿军服护送献给地方圣人的行列。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00670",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "BE"
+      ]
+    },
+    {
+      "id": "wc-oostduinkerke-horse-shrimp",
+      "conceptId": "custom-oostduinkerke-horse-shrimp",
+      "term": "奥斯特敦刻尔克骑马捕虾",
+      "aliases": [],
+      "explanation": "比利时奥斯特敦刻尔克渔民骑布拉班特马在近岸捕虾的传统。马匹沿海岸拖拉漏斗形网，链条刮过沙地的振动使虾跃入网内，渔获装入马身两侧篮子；技艺需要熟悉潮水、沙滩，也依赖人马互信。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00673",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D673&limit=1",
+          "title": "Shrimp fishing on horseback in Oostduinkerke — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=673",
+          "evidence": "比利时奥斯特敦刻尔克渔民骑布拉班特马在近岸捕虾的传统。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00673",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "BE"
+      ]
+    },
+    {
+      "id": "wc-kyrgyz-felt-carpets",
+      "conceptId": "custom-kyrgyz-felt-carpets",
+      "term": "吉尔吉斯毡毯制作",
+      "aliases": [],
+      "explanation": "吉尔吉斯人的阿拉基伊兹与希尔达克两类传统毡毯制作，兼有装饰、保暖和仪式意义。纹样含义、制作知识和相关习俗共同传承，通常由乡村及山区的年长妇女教给年轻家人，制作也需要社区合作。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00693",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D693&limit=1",
+          "title": "Ala-kiyiz and Shyrdak, art of Kyrgyz traditional felt carpets — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=693",
+          "evidence": "吉尔吉斯人的阿拉基伊兹与希尔达克两类传统毡毯制作，兼有装饰、保暖和仪式意义。",
+          "originalEntryUrl": "https://ich.unesco.org/en/USL/00693",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "KG"
+      ]
+    },
+    {
+      "id": "wc-schemenlaufen",
+      "conceptId": "custom-schemenlaufen",
+      "term": "舍门劳芬",
+      "aliases": [],
+      "explanation": "奥地利伊姆斯特每四年举行的狂欢节面具巡游，核心角色两人一组，一人带旋转铃，另一人带较大的重铃。成对舞者跳跃鞠躬，让高低铃音交错，其他角色模仿、洒水或与观众互动，全城共同筹备装束。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00726",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D726&limit=1",
+          "title": "Schemenlaufen, the carnival of Imst, Austria — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=726",
+          "evidence": "奥地利伊姆斯特每四年举行的狂欢节面具巡游，核心角色两人一组，一人带旋转铃，另一人带较大的重铃。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00726",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "AT"
+      ]
+    },
+    {
+      "id": "wc-surova-pernik",
+      "conceptId": "custom-surova-pernik",
+      "term": "苏罗瓦民俗节",
+      "aliases": [],
+      "explanation": "保加利亚佩尔尼克地区在旧历新年举行的假面节庆。男女老幼戴自制面具，先点火嬉闹，次日逐户探访，扮演新婚夫妇、祭司和熊等角色；主人备食物礼物迎接，收集的礼物也可能用于帮助困难者。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00968",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D968&limit=1",
+          "title": "Surova folk feast in Pernik region — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=968",
+          "evidence": "保加利亚佩尔尼克地区在旧历新年举行的假面节庆。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00968",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "BG"
+      ]
+    },
+    {
+      "id": "wc-al-taghrooda",
+      "conceptId": "custom-al-taghrooda",
+      "term": "塔格鲁达吟诵诗",
+      "aliases": [],
+      "explanation": "阿联酋与阿曼贝都因人在骑骆驼旅行时吟唱的短诗传统，诗句通常很短，由两组骑者交替重复。它也出现在篝火边、婚礼和赛驼节庆，内容可向亲友传话、评论社会事务，诗句交流把同行者联系起来。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00744",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D744&limit=1",
+          "title": "Al-Taghrooda, traditional Bedouin chanted poetry in the United Arab Emirates and the Sultanate of Oman — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=744",
+          "evidence": "阿联酋与阿曼贝都因人在骑骆驼旅行时吟唱的短诗传统，诗句通常很短，由两组骑者交替重复。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00744",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "AE",
+        "OM"
+      ]
+    },
+    {
+      "id": "wc-thathera-utensils",
+      "conceptId": "custom-thathera-utensils",
+      "term": "塔泰拉铜器制作",
+      "aliases": [],
+      "explanation": "印度旁遮普邦詹迪亚拉古鲁工匠以锤打方式制作铜和黄铜器皿。金属先压成片，再边加热边敲成碗盘或大锅，最后用沙和罗望子汁等材料抛光，器物用于日常、婚礼或寺庙，技艺常由父亲口传给儿子。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00845",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D845&limit=1",
+          "title": "Traditional brass and copper craft of utensil making among the Thatheras of Jandiala Guru, Punjab, India — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=845",
+          "evidence": "印度旁遮普邦詹迪亚拉古鲁工匠以锤打方式制作铜和黄铜器皿。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00845",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "IN"
+      ]
+    },
+    {
+      "id": "wc-cordova-patios",
+      "conceptId": "custom-cordova-patios",
+      "term": "科尔多瓦庭院节",
+      "aliases": [],
+      "explanation": "西班牙科尔多瓦五月举行的庭院庆典，居民把种满植物的共居或家庭庭院免费向来客开放。参观者能欣赏园艺，也会遇到传统歌唱、吉他和舞蹈；邻里分享食物饮品，院落成为共同待客的生活空间。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00846",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D846&limit=1",
+          "title": "Fiesta of the patios in Cordova — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=846",
+          "evidence": "西班牙科尔多瓦五月举行的庭院庆典，居民把种满植物的共居或家庭庭院免费向来客开放。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00846",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "ES"
+      ]
+    },
+    {
+      "id": "wc-qvevri-winemaking",
+      "conceptId": "custom-qvevri-winemaking",
+      "term": "奎弗里陶罐酿酒",
+      "aliases": [],
+      "explanation": "格鲁吉亚以蛋形陶罐酿造、陈化和储存葡萄酒的传统。人们把压出的葡萄汁连同果皮、梗和籽放入陶罐，密封后埋在地下发酵数月；家庭、朋友和邻居共同收获酿酒，孩子通过观察长辈学习各道工序。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00870",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D870&limit=1",
+          "title": "Ancient Georgian traditional Qvevri wine-making method — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=870",
+          "evidence": "格鲁吉亚以蛋形陶罐酿造、陈化和储存葡萄酒的传统。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00870",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "GE"
+      ]
+    },
+    {
+      "id": "wc-argungu-fishing-festival",
+      "conceptId": "custom-argungu-fishing-festival",
+      "term": "阿尔贡古捕鱼节",
+      "aliases": [],
+      "explanation": "尼日利亚西北部马坦法达河附近的捕鱼文化节，结合徒手捕鱼、独木舟竞赛和捕野鸭等水上活动，也有摔跤、拳击与歌舞。河流管理者和渔民首领在家族中传授水质、鱼群与捕鱼知识，维系社群合作。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00901",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D901&limit=1",
+          "title": "Argungu international fishing and cultural festival — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=901",
+          "evidence": "尼日利亚西北部马坦法达河附近的捕鱼文化节，结合徒手捕鱼、独木舟竞赛和捕野鸭等水上活动，也有摔跤、拳击与歌舞。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00901",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "NG"
+      ]
+    },
+    {
+      "id": "wc-voromaa-smoke-sauna",
+      "conceptId": "custom-voromaa-smoke-sauna",
+      "term": "沃鲁烟熏桑拿",
+      "aliases": [],
+      "explanation": "爱沙尼亚沃鲁社群的家庭桑拿传统，浴屋用覆石炉加热而没有烟囱，木烟在室内流动。习俗也包括制作浴枝、建修桑拿房和在其中熏肉；家人轮流接待彼此，常于周六或重大节庆、家庭活动前相聚。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00951",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D951&limit=1",
+          "title": "Smoke sauna tradition in Võromaa — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=951",
+          "evidence": "爱沙尼亚沃鲁社群的家庭桑拿传统，浴屋用覆石炉加热而没有烟囱，木烟在室内流动。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00951",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "EE"
+      ]
+    },
+    {
+      "id": "wc-burundi-royal-drum",
+      "conceptId": "custom-burundi-royal-drum",
+      "term": "布隆迪王鼓仪式舞",
+      "aliases": [],
+      "explanation": "布隆迪把整齐鼓奏、舞蹈、英雄诗和传统歌曲结合的表演。奇数面鼓围绕中央鼓排成半圆，有的维持连续节奏，其余跟随中央鼓，两三名鼓手随节拍起舞，用于节庆和迎宾，也传承制鼓及社群知识。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "00989",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D989&limit=1",
+          "title": "Ritual dance of the royal drum — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=989",
+          "evidence": "布隆迪把整齐鼓奏、舞蹈、英雄诗和传统歌曲结合的表演。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/00989",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "BI"
+      ]
+    },
+    {
+      "id": "wc-slava",
+      "conceptId": "custom-slava",
+      "term": "斯拉瓦",
+      "aliases": [],
+      "explanation": "塞尔维亚东正教家庭纪念本家守护圣人的节庆，亲友和邻居到家中聚餐。主人点燃特别蜡烛，把葡萄酒浇在装饰过的节庆面包上，再按仪式切分、转动和举起面包，向圣人致谢并祝愿家人平安兴旺。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "01010",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D1010&limit=1",
+          "title": "Slava, celebration of family saint patron’s day — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=1010",
+          "evidence": "塞尔维亚东正教家庭纪念本家守护圣人的节庆，亲友和邻居到家中聚餐。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/01010",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "RS"
+      ]
+    },
+    {
+      "id": "wc-mangal-shobhajatra",
+      "conceptId": "custom-mangal-shobhajatra",
+      "term": "孟加拉吉祥巡游",
+      "aliases": [],
+      "explanation": "孟加拉国达卡大学美术师生为孟加拉新年筹办的公共巡游，始于一九八九年。人们提前制作面具和花车，以形象表现邪恶、勇气与和平等主题，并出售民俗画等筹资，让不同背景的人共同参与庆祝。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "01091",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D1091&limit=1",
+          "title": "Mangal Shobhajatra on Pahela Baishakh — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=1091",
+          "evidence": "孟加拉国达卡大学美术师生为孟加拉新年筹办的公共巡游，始于一九八九年。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/01091",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "BD"
+      ]
+    },
+    {
+      "id": "wc-momoeria",
+      "conceptId": "custom-momoeria",
+      "term": "莫莫埃里亚",
+      "aliases": [],
+      "explanation": "希腊科扎尼一带村落迎新年的街头表演，舞者、演员和乐师逐户探访。戴头盔、穿褶裙的男子持棍按领队指挥起舞，演员表演带老人、魔鬼等角色的讽刺短剧，观众也能打趣，最后围火歌舞至天明。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "01184",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D1184&limit=1",
+          "title": "Momoeria, New Year's celebration in eight villages of Kozani area, West Macedonia, Greece — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=1184",
+          "evidence": "希腊科扎尼一带村落迎新年的街头表演，舞者、演员和乐师逐户探访。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/01184",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "GR"
+      ]
+    },
+    {
+      "id": "wc-dutch-corso",
+      "conceptId": "custom-dutch-corso",
+      "term": "科尔索花果巡游",
+      "aliases": [],
+      "explanation": "荷兰以花卉、水果或蔬菜装饰花车、船只的年度巡游文化。邻里和朋友花数月搭建，临近活动才添上新鲜材料，队伍也可夜间亮灯行进；评审会选出优胜作品，制作后的聚餐同样是社区生活的一部分。",
+      "packIds": [
+        "world-customs"
+      ],
+      "difficulty": 3,
+      "status": "verified",
+      "unescoReference": "01707",
+      "sources": [
+        {
+          "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records?where=ich_public_ref%3D1707&limit=1",
+          "title": "Corso culture, flower and fruit parades in the Netherlands — UNESCO DataHub",
+          "checkedAt": "2026-10-22",
+          "section": "description_en; countries; ich_public_ref=1707",
+          "evidence": "荷兰以花卉、水果或蔬菜装饰花车、船只的年度巡游文化。",
+          "originalEntryUrl": "https://ich.unesco.org/en/RL/01707",
+          "sourceType": "UNESCO DataHub official element record (JSON API)"
+        }
+      ],
+      "countryCodes": [
+        "NL"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2263 @@
+{
+  "schemaVersion": 1,
+  "id": "natural-science-phenomena",
+  "title": "自然与科学现象",
+  "description": "大气与风暴、火山与地质、天文与物理各30题；名称可供联想，解释保留机制和辨别细节。",
+  "version": "1.0.0",
+  "language": "zh-CN",
+  "recommendedReadSeconds": 10,
+  "editorialStatus": "source-checked-playtest-pending",
+  "scopeNote": "依据NWS、USGS、NASA官方词条核实核心定义，中文为自撰解释；少数冷门名称采用描述性译名，随题保留英文原词供核对。气象来源含历史术语，本包不采用其中过时的预警阈值、机构现状和预测数值，不作现场预报。",
+  "questions": [
+    {
+      "id": "nsp-castellanus",
+      "conceptId": "science-castellanus",
+      "term": "堡状高积云",
+      "aliases": [],
+      "englishTerm": "ACCAS",
+      "explanation": "一种中层云，云体上部有像小塔或城堡齿墙的凸起，部分云块的高度甚至大于宽度。它提示高处空气存在不稳定，可能出现在雷暴迅速发展之前，但看见它并不等于雷暴必然发生。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "ACCAS",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-anvil",
+      "conceptId": "science-anvil",
+      "term": "砧状云",
+      "aliases": [],
+      "englishTerm": "Anvil",
+      "explanation": "雷暴积雨云顶部向外平展、像铁砧一样铺开的部分。它能沿高空风向延伸到远离主雷暴的位置，有时也向上风方向伸展；它是云顶的形态，并不是另外一种从地面升起的风暴。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Anvil",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-anvil-crawler",
+      "conceptId": "science-anvil-crawler",
+      "term": "砧下爬电",
+      "aliases": [],
+      "englishTerm": "Anvil Crawler",
+      "explanation": "风暴观察中形容一种闪电的用语：放电通道看起来沿着雷暴砧状云的底面爬行。它常在母雷暴减弱、消散时，或活跃的中尺度对流系统中出现，名字描述的是通道外观而非生物。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Anvil Crawler",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-back-sheared-anvil",
+      "conceptId": "science-back-sheared-anvil",
+      "term": "逆风伸展砧",
+      "aliases": [],
+      "englishTerm": "Back-sheared Anvil",
+      "explanation": "风暴观察中的形态名称，指雷暴顶部的砧状云向高空来风的一侧伸展。它与很强的上升气流有关，与通常顺着高空风铺展的砧相比，特别之处是云顶也能向上风方向扩张。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Back-sheared Anvil",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-back-building",
+      "conceptId": "science-back-building",
+      "term": "后向发展雷暴",
+      "aliases": [],
+      "englishTerm": "Back-building Thunderstorm",
+      "explanation": "新的雷暴单体不断在原风暴的上风侧长出，使整个系统看起来停在原地，甚至向来风方向发展。这里的后向发展说的是新单体出现的位置，并不表示所有云块都在倒着移动。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Back-building Thunderstorm",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-dust-devil",
+      "conceptId": "science-dust-devil",
+      "term": "尘卷风",
+      "aliases": [],
+      "englishTerm": "Dust Devil",
+      "explanation": "炎热晴好天气中，地面受热形成的小型空气涡旋，卷起尘土后才容易被看见。它常见于干旱或半干旱地区，不依靠雷暴形成；外形虽像小龙卷，形成背景却有明显不同。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Dust Devil",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-dry-line",
+      "conceptId": "science-dry-line",
+      "term": "干线",
+      "aliases": [],
+      "englishTerm": "Dry Line",
+      "explanation": "分隔潮湿气团和干燥气团的边界，穿过它时空气湿度可能明显下降，风向也可能改变。它附近常是雷暴发展的有利位置；名称里的线指气团交界，而不是地面干裂的线条。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Dry Line",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-dry-microburst",
+      "conceptId": "science-dry-microburst",
+      "term": "干微下击暴流",
+      "aliases": [],
+      "englishTerm": "Dry Microburst",
+      "explanation": "一种很局地的强下沉气流，抵达地面后向外冲散，却只有很少或没有降水落到地面。高处可能看见幡状降水，地面则可能只见扬尘，不能仅凭没下雨就认为没有猛烈气流。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Dry Microburst",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-dry-slot",
+      "conceptId": "science-dry-slot",
+      "term": "干槽",
+      "aliases": [],
+      "englishTerm": "Dry Slot",
+      "explanation": "干燥、少云的空气带卷入低压系统，常可在卫星云图上识别。它通常处于较大尺度低压系统的南部或东部，名称描述的是干空气形成的带状区域，而不是地面的一条沟槽。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Dry Slot",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-downburst",
+      "conceptId": "science-downburst",
+      "term": "下击暴流",
+      "aliases": [],
+      "englishTerm": "Downburst",
+      "explanation": "很强的下沉气流冲到地面附近后向外爆发，产生破坏性大风。它造成的损害有时类似龙卷风，但核心机制是下沉后向外扩散；除了雷暴，较弱而不打雷的阵雨也可能伴随它。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Downburst",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-gust-front",
+      "conceptId": "science-gust-front",
+      "term": "阵风锋",
+      "aliases": [],
+      "englishTerm": "Gust Front",
+      "explanation": "雷暴下沉气流产生的地面阵风向外扩展时，最前沿形成的边界。有时伴随棚状云或滚轴云，先于主要降雨抵达；这里的锋不是一定连接两个大范围气团的天气图冷锋。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Gust Front",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-gustnado",
+      "conceptId": "science-gustnado",
+      "term": "阵风卷风",
+      "aliases": [],
+      "englishTerm": "Gustnado",
+      "explanation": "发生在雷暴阵风锋沿线的短命小涡旋，通常较弱，常靠地面卷起的尘土或碎屑显现。它不属于超单体中气旋那种组织化旋转，风暴观察中把它与棚状云的联系看得更紧密。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Gustnado",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-mesocyclone",
+      "conceptId": "science-mesocyclone",
+      "term": "中气旋",
+      "aliases": [],
+      "englishTerm": "Mesocyclone",
+      "explanation": "雷暴内部风暴尺度的旋转区域，范围通常远大于其中可能出现的龙卷。严格识别要看多普勒雷达上的旋转强度、垂直厚度和持续性，因此不能只凭一张看似旋转的云照片就确认。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Mesocyclone",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-landspout",
+      "conceptId": "science-landspout",
+      "term": "陆龙卷",
+      "aliases": [],
+      "englishTerm": "Landspout",
+      "explanation": "一种并非从有组织的风暴尺度旋转中发展出来的龙卷，常见于积雨云或浓积云之下。它通常没有对应的中气旋或墙云，可能最先表现为尘涡，是与典型超单体龙卷不同的形成类型。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Landspout",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-morning-glory",
+      "conceptId": "science-morning-glory",
+      "term": "晨辉云",
+      "aliases": [],
+      "englishTerm": "Morning Glory",
+      "explanation": "细长成带、看起来像滚动长管的云，通常在较稳定的低层大气中出现，常见于早晨。它与稳定边界层内的重力波扰动有关，有时数条平行云带向同一方向推进，像水面上的波纹。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Morning Glory",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-multiple-vortex",
+      "conceptId": "science-multiple-vortex",
+      "term": "多涡旋龙卷",
+      "aliases": [],
+      "englishTerm": "Multiple-vortex Tornado",
+      "explanation": "同一个龙卷环流里同时存在两个或更多凝结漏斗或碎屑涡，它们可围绕共同中心或彼此转动。远看可能仍像一个大龙卷，内部的小尺度旋转结构使不同位置的破坏程度很不均匀。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Multiple-vortex Tornado",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-overshooting-top",
+      "conceptId": "science-overshooting-top",
+      "term": "突顶",
+      "aliases": [],
+      "englishTerm": "Overshooting Top",
+      "explanation": "雷暴砧状云上方鼓起的穹顶状突起，表示有很强的上升气流冲到了云顶之上。突起可以短暂出现、反复起落，也可以持续存在；它是云顶局部结构，不是另一朵独立漂来的云。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Overshooting Top",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-popcorn-convection",
+      "conceptId": "science-popcorn-convection",
+      "term": "爆米花对流",
+      "aliases": [],
+      "englishTerm": "Popcorn Convection",
+      "explanation": "风暴观察中的形象说法，指午后地面受热后零散冒出的阵雨和雷暴，看起来像一粒粒爆开的爆米花。单个云体通常小而短命，组织性弱，许多会在日落前后逐渐消散。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Popcorn Convection",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-potential-temperature",
+      "conceptId": "science-potential-temperature",
+      "term": "位温",
+      "aliases": [],
+      "englishTerm": "Potential Temperature",
+      "explanation": "把一团干空气在不与外界交换热量的条件下，移到规定的标准气压层后所具有的温度。它让处在不同高度的空气能放在同一个基准上比较，不能直接当作当地温度计读到的气温。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Potential Temperature",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-scud",
+      "conceptId": "science-scud",
+      "term": "碎云",
+      "aliases": [],
+      "englishTerm": "Scud",
+      "explanation": "低处零散、破碎、形状凌乱的云片，常出现在冷锋、雷暴阵风锋附近或其后方。它们与冷湿空气有关，通常没有连在主要云底上；外形杂乱本身并不表示已经形成龙卷漏斗。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Scud",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-shelf-cloud",
+      "conceptId": "science-shelf-cloud",
+      "term": "棚状云",
+      "aliases": [],
+      "englishTerm": "Shelf Cloud",
+      "explanation": "低空水平展开、外观像楔形棚架的云，常伴随雷暴阵风锋。它连接在上方母云底部，前缘可能有上升运动，下面显得翻滚破碎；是否连着母云是与滚轴云区分的重要线索。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Shelf Cloud",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-roll-cloud",
+      "conceptId": "science-roll-cloud",
+      "term": "滚轴云",
+      "aliases": [],
+      "englishTerm": "Roll Cloud",
+      "explanation": "低空横向延伸、像长管的云，常与雷暴阵风锋或冷锋有关，看起来可绕水平轴滚动。它与母雷暴云底完全分离，这是区别于棚状云的特点，不能因外形像管子就称作龙卷漏斗。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Roll Cloud",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-rope-funnel",
+      "conceptId": "science-rope-funnel",
+      "term": "绳状漏斗",
+      "aliases": [],
+      "englishTerm": "Rope Funnel",
+      "explanation": "细窄而常有弯曲的凝结漏斗，常在龙卷逐渐衰减时出现。云漏斗会变细、缩小，看起来像一根弯绳；形态收缩只是发展阶段的线索，并不意味着这个时刻一定已经没有破坏力。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Rope Funnel",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-tail-cloud",
+      "conceptId": "science-tail-cloud",
+      "term": "尾云",
+      "aliases": [],
+      "englishTerm": "Tail Cloud",
+      "explanation": "低空水平伸展、尾巴状的云，从超单体降水区域附近连向墙云。云内运动常朝墙云方向，连接处可见较快上升；它与接在主上升气流上的宽阔流入云带并非同一种位置关系。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Tail Cloud",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-mammatus",
+      "conceptId": "science-mammatus",
+      "term": "乳状云",
+      "aliases": [],
+      "englishTerm": "Mammatus Clouds",
+      "explanation": "从云底向下悬垂的一团团圆润囊状突起，常在雷暴砧状云下方出现。它们可以伴随强雷暴，也可能出现在不强的风暴中，不能仅靠看到这种云底形状就断定当地会发生龙卷。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Mammatus Clouds",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-supercell",
+      "conceptId": "science-supercell",
+      "term": "超单体",
+      "aliases": [],
+      "englishTerm": "Supercell",
+      "explanation": "具有持续旋转上升气流的雷暴类型，与大冰雹、破坏性大风及部分龙卷事件关系密切。它的关键不只是体积巨大，而是上升气流长期有组织地旋转；低降水和高降水型也都可能存在。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Supercell",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-cutoff-low",
+      "conceptId": "science-cutoff-low",
+      "term": "切断低压",
+      "aliases": [],
+      "englishTerm": "Cutoff Low",
+      "explanation": "高空低压中心与基本西风气流完全分离，随后能独立于那股气流移动。它可能数日近乎停滞，甚至向西移动；并不是所有闭合低压都符合这一条件，重点是有没有脱离主要西风带。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Cutoff Low",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-lifted-index",
+      "conceptId": "science-lifted-index",
+      "term": "抬升指数",
+      "aliases": [],
+      "englishTerm": "Lifted Index",
+      "explanation": "把近地面空气假想抬到较高层，再比较它与当地环境空气温度所得的不稳定度指标。负值表示抬起的空气更暖，负得越多通常越不稳定，但不能把某个数值当作强天气必定发生的开关。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Lifted Index",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-line-echo-wave",
+      "conceptId": "science-line-echo-wave",
+      "term": "波状线状回波",
+      "aliases": [],
+      "englishTerm": "Line Echo Wave Pattern",
+      "explanation": "雷达上原本成线排列的雷暴出现向前鼓出的波形弯折。鼓出部附近可能有强外流和直线大风，外观也可能类似弓状回波；它描述的是整条回波线的变形，不是海浪回波。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Line Echo Wave Pattern",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-low-level-jet",
+      "conceptId": "science-low-level-jet",
+      "term": "低空急流",
+      "aliases": [],
+      "englishTerm": "Low-level Jet",
+      "explanation": "低层大气中相对狭窄而风速很强的区域，可以与地面上感受到的风明显不同。它描述的是某个高度层内的强风带，不是飞机飞得很低；在一些地区夜间尤其显著。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "大气与风暴",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.weather.gov/oun/spotterglossary",
+          "title": "Weather Glossary for Storm Spotters",
+          "institution": "NOAA / National Weather Service",
+          "rightsUrl": "https://www.weather.gov/disclaimer",
+          "checkedAt": "2026-10-22",
+          "section": "Low-level Jet",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-aa",
+      "conceptId": "science-aa",
+      "term": "阿阿熔岩",
+      "aliases": [],
+      "englishTerm": "AA",
+      "explanation": "一种表面粗糙、由破碎熔岩块构成的熔岩流，名称来自夏威夷语。走到表面附近会看见许多棱角状碎块，其定义重点在流动后形成的外表结构，区别于表面较光滑、绳纹明显的类型。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "AA",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-agglutinate",
+      "conceptId": "science-agglutinate",
+      "term": "熔结集块物",
+      "aliases": [],
+      "englishTerm": "Agglutinate",
+      "explanation": "火山喷出的热而黏的物块落下后互相熔接，形成的火山碎屑堆积物。它常构成熔岩溅落锥，重点是碎块落下时仍足够热、足够黏，因而结合在一起，而不是后来用水泥黏起来。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Agglutinate",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-breadcrust-bomb",
+      "conceptId": "science-breadcrust-bomb",
+      "term": "面包皮火山弹",
+      "aliases": [],
+      "englishTerm": "Breadcrust Bomb",
+      "explanation": "表面裂成像面包外皮那样方块纹路的火山弹。被喷出的熔岩块外面先冷却成脆壳，内部气泡继续生长使体积膨胀，就把外壳撑裂；名称指外观，物体并不是人为投掷的炸弹。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Breadcrust Bomb",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-caldera",
+      "conceptId": "science-caldera",
+      "term": "破火山口",
+      "aliases": [],
+      "englishTerm": "Caldera",
+      "explanation": "大型盆状火山凹地，直径远大于其中单独的喷口。它不是把普通小火山口简单放大的日常称呼，重点是规模和整体盆地形态；内部还可能出现新的喷口、熔岩或其他火山构造。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Caldera",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-cinder-cone",
+      "conceptId": "science-cinder-cone",
+      "term": "火山渣锥",
+      "aliases": [],
+      "englishTerm": "Cinder cone",
+      "explanation": "喷发落下的已凝固熔岩碎块围着一个喷口堆起来，形成的锥形小山，侧坡往往较陡。它的主体由松散或聚集的喷出碎屑构成，区别于主要靠连续熔岩流层层铺成的宽缓火山。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Cinder cone",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-cirque",
+      "conceptId": "science-cirque",
+      "term": "冰斗",
+      "aliases": [],
+      "englishTerm": "Cirque",
+      "explanation": "冰川谷头部或侧面被侵蚀出的碗状凹地，形似半圆剧场，较低的一端常留有门槛。它是冰川作用留下的地形，不是火山喷发炸出的坑，也不是用来储冰的人工容器。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Cirque",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-coulee",
+      "conceptId": "science-coulee",
+      "term": "舌状熔岩穹丘",
+      "aliases": [],
+      "englishTerm": "Coulee",
+      "explanation": "在火山陡坡上挤出的高硅熔岩形成的狭长穹丘，顺坡方向比横坡方向更长，整体呈拉长的形态。前缘常陡峭且多块状物；这里限定火山学中的含义，不采用同词的其他地理用法。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Coulee",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-cryptodome",
+      "conceptId": "science-cryptodome",
+      "term": "隐伏穹丘",
+      "aliases": [],
+      "englishTerm": "Cryptodome",
+      "explanation": "岩浆从深处上升并侵入火山体，却没有真正喷出地表所形成的岩浆体。它能让火山表面鼓起隆包，因此外面看得见形变，内部的熔融物却仍藏在原有岩石之下。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Cryptodome",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-debris-avalanche",
+      "conceptId": "science-debris-avalanche",
+      "term": "岩屑崩滑",
+      "aliases": [],
+      "englishTerm": "Debris avalanche",
+      "explanation": "山体或火山侧翼失稳崩塌后，岩石、土壤和积雪等沿坡高速移动的整体物质流。它由大范围坡体垮塌触发，不能仅因为带有碎石，就把它与混有大量水的火山泥流混为一类。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Debris avalanche",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-debris-dam",
+      "conceptId": "science-debris-dam",
+      "term": "火山碎屑堰塞坝",
+      "aliases": [],
+      "englishTerm": "Debris dam",
+      "explanation": "火山物质在谷地堆积，堵住原有排水通道后形成的天然坝体，后方可能积成湖。它由地形和堆积物共同造成，常不稳定；这里的坝不是为灌溉或发电而设计建造的工程。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Debris dam",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-lava-dome",
+      "conceptId": "science-lava-dome",
+      "term": "熔岩穹丘",
+      "aliases": [],
+      "englishTerm": "Dome",
+      "explanation": "黏稠熔岩从喷口挤出后堆成的陡侧丘体，表面常有块状结构。因为熔岩流动不畅，它更容易在喷口附近堆高，而不是像稀薄液体那样长距离平铺；定义强调挤出和黏稠堆积。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Dome",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-eruption-column",
+      "conceptId": "science-eruption-column",
+      "term": "火山喷发柱",
+      "aliases": [],
+      "englishTerm": "Eruption column",
+      "explanation": "喷口上方直接向上升起的火山碎屑与气体混合柱。它在较高大气中常转为向侧面扩散的羽状或伞状云，因此竖直上升的柱体与高空铺开的云区，是同次喷发的不同部分。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Eruption column",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-fumarole",
+      "conceptId": "science-fumarole",
+      "term": "喷气孔",
+      "aliases": [],
+      "englishTerm": "Fumarole",
+      "explanation": "地表排出水蒸气和火山气体的孔口，可以在没有熔岩正在流出的地方出现。辨认的关键是从孔口逸出的气体与蒸汽，不是喷出大量岩浆；仅有冒气现象也不能直接等同一次爆炸喷发。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Fumarole",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-lahar",
+      "conceptId": "science-lahar",
+      "term": "火山泥流",
+      "aliases": [],
+      "englishTerm": "Lahar",
+      "explanation": "起源于火山坡面的水与岩石碎屑混合流，能沿下坡迅速流动。名称来自印度尼西亚语，核心是水和火山物质混合后的流动，而不是把熔化岩石本身叫作泥，也不要求流体始终炽热。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Lahar",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-lava-fountain",
+      "conceptId": "science-lava-fountain",
+      "term": "熔岩喷泉",
+      "aliases": [],
+      "englishTerm": "Lava fountain",
+      "explanation": "熔融岩石中的气泡迅速形成并膨胀，把熔岩喷成向空中射出的喷流。它通常从喷口上方升起，亮红色的外观容易让人联想到焰火；真正被抛出的主体却是熔岩，不是普通火焰。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Lava fountain",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-lava-lake",
+      "conceptId": "science-lava-lake",
+      "term": "熔岩湖",
+      "aliases": [],
+      "englishTerm": "Lava lake",
+      "explanation": "大量熔融熔岩聚在喷口、火山口或较宽凹地中，呈湖状的积聚体，常见成分为玄武质。这里的湖描述盆地内熔岩聚集的形态，不能理解成水被烧热后变成了岩浆。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Lava lake",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-lava-tube",
+      "conceptId": "science-lava-tube",
+      "term": "熔岩管",
+      "aliases": [],
+      "englishTerm": "Lava tube",
+      "explanation": "熔岩流外部结成硬壳，内部仍有熔岩流动时形成的天然通道。地表看似凝固，热物质却能从下方继续输送；这类管道由熔岩通路自身结壳形成，而不是人为预先铺设的地下管线。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Lava tube",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-littoral-cone",
+      "conceptId": "science-littoral-cone",
+      "term": "滨海熔岩锥",
+      "aliases": [],
+      "englishTerm": "Littoral cone",
+      "explanation": "熔岩流注入水体、通常是海中时，喷起的熔岩碎块在熔岩表面堆成的锥体。它与海岸或水陆接触位置有关，不能把它当作所有海底火山的总称，关键是熔岩入水后的碎屑堆积。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Littoral cone",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-maar",
+      "conceptId": "science-maar",
+      "term": "玛珥",
+      "aliases": [],
+      "englishTerm": "Maar",
+      "explanation": "浅部爆炸喷发形成的宽而低缓的火山口，常与岩浆加热地下水、使其迅速沸腾有关。凹地之后可能蓄水成湖，所以看见的是湖泊时，背后仍可能是这种爆炸形成的火山构造。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Maar",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-obsidian",
+      "conceptId": "science-obsidian",
+      "term": "黑曜岩",
+      "aliases": [],
+      "englishTerm": "Obsidian",
+      "explanation": "熔岩冷却太快、晶体来不及充分生长而形成的致密火山玻璃，常为黑色，成分通常偏流纹质。它的玻璃质来自岩浆的冷却过程，不是因为普通玻璃被熏黑，也不是按颜色就能认定。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Obsidian",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-ophiolite",
+      "conceptId": "science-ophiolite",
+      "term": "蛇绿岩套",
+      "aliases": [],
+      "englishTerm": "Ophiolite",
+      "explanation": "代表一段海洋地壳及上地幔的成套岩石组合，后来被抬升并暴露到海平面之上。它是具有地质来历和组合关系的一组岩石，不是仅因单块岩石颜色发绿就取的装饰石名称。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Ophiolite",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-pahoehoe",
+      "conceptId": "science-pahoehoe",
+      "term": "绳状熔岩",
+      "aliases": [],
+      "englishTerm": "Pahoehoe",
+      "explanation": "表面光滑、起伏或有绳纹的玄武质熔岩，常以小舌、小趾状前缘不断从冷壳中突破向前。名称来自夏威夷语，重点是熔岩流的表面形态，并不是地下真的长出了绳索。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Pahoehoe",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-phreatic",
+      "conceptId": "science-phreatic",
+      "term": "水汽喷发",
+      "aliases": [],
+      "englishTerm": "Phreatic eruption",
+      "explanation": "以蒸汽爆炸为主的喷发，常因地下岩浆把地下水骤然加热成蒸汽而发生。它强调水受热后爆炸的作用，不能一概理解成喷出的物质都是新岩浆，与岩浆和水直接共同参与的类型有区别。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Phreatic eruption",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-phreatomagmatic",
+      "conceptId": "science-phreatomagmatic",
+      "term": "岩浆水汽喷发",
+      "aliases": [],
+      "englishTerm": "Phreatomagmatic eruption",
+      "explanation": "岩浆与水共同参与并发生强烈相互作用的喷发，常同时抛出蒸汽和火山碎屑。它的定义包含两者的爆炸性交互，区别于主要由地下水骤热产生蒸汽爆炸的水汽喷发。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Phreatomagmatic eruption",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-pillow-lava",
+      "conceptId": "science-pillow-lava",
+      "term": "枕状熔岩",
+      "aliases": [],
+      "englishTerm": "Pillow lava",
+      "explanation": "高温玄武质熔岩反复挤出、迅速冷却，堆成一团团拉长的枕状物。其外形来自熔岩的流出和淬冷过程，常与水下环境相联系；不是后来把普通岩石磨成枕头形状。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Pillow lava",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-plinian",
+      "conceptId": "science-plinian",
+      "term": "普林尼式喷发",
+      "aliases": [],
+      "englishTerm": "Plinian",
+      "explanation": "规模很大的爆炸性喷发，能把碎屑和气体组成的巨大暗色柱送入很高的大气层。名称纪念描述维苏威火山灾难的小普林尼，突出高耸喷发柱和大量碎屑，不是某座火山专属的名称。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Plinian",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-pumice",
+      "conceptId": "science-pumice",
+      "term": "浮石",
+      "aliases": [],
+      "englishTerm": "Pumice",
+      "explanation": "喷发时岩浆被逸出气体打成富含孔泡的物质，再冷却凝固形成的火山喷出物。部分流纹质浮石密度低到能浮在水上，轻并非因为石头中藏着木头，而是与大量气孔有关。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Pumice",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-resurgent-dome",
+      "conceptId": "science-resurgent-dome",
+      "term": "复活穹丘",
+      "aliases": [],
+      "englishTerm": "Resurgent dome",
+      "explanation": "大型破火山口塌陷后，新的岩浆侵入使底部缓慢向上拱起，形成位于中央的高地。名字中的复活指塌陷后的重新抬升，不表示整座火山已经恢复了某种生命状态。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Resurgent dome",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-sinter",
+      "conceptId": "science-sinter",
+      "term": "硅华",
+      "aliases": [],
+      "englishTerm": "Sinter",
+      "explanation": "温泉、间歇泉水中的二氧化硅沉淀，在地表结成的轻质多孔、常呈白色的硅质沉积。这里说的是硅华，材料与蛋白石质二氧化硅有关，不应直接等同成分不同的石灰华。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Sinter",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-tumulus",
+      "conceptId": "science-tumulus",
+      "term": "熔岩膨胀丘",
+      "aliases": [],
+      "englishTerm": "Tumulus",
+      "explanation": "缓慢流动的熔岩在内部施加向上压力，把已经凝固的外壳顶起而形成的丘状构造。它常出现在平缓地面的绳状熔岩表面，形状可呈椭圆穹顶，形成方式是熔岩壳被内部流动抬高。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "火山与地质",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.usgs.gov/glossary/volcano-hazards-program-glossary",
+          "title": "Volcano Hazards Program Glossary",
+          "institution": "U.S. Geological Survey",
+          "rightsUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+          "checkedAt": "2026-10-22",
+          "section": "Tumulus",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-accretion-disk",
+      "conceptId": "science-accretion-disk",
+      "term": "吸积盘",
+      "aliases": [],
+      "englishTerm": "accretion disk",
+      "explanation": "物质受引力吸引，围绕正在吸收物质的天体形成的扁平快速旋转盘。年轻恒星和黑洞附近都可能有这种气体或尘埃结构；盘并不是天体的固体外壳，而是周围正在聚集、输送的物质。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "accretion disk",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-afterglow",
+      "conceptId": "science-afterglow",
+      "term": "伽马暴余辉",
+      "aliases": [],
+      "englishTerm": "afterglow",
+      "explanation": "伽马射线暴初始爆发之后，常接着出现的较低能量辐射，可包含X射线、可见光和射电波。余辉能持续数日到数周再逐渐衰减，使短暂爆发之后仍有可追踪的观测线索。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "afterglow",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-balmer-series",
+      "conceptId": "science-balmer-series",
+      "term": "巴耳末系",
+      "aliases": [],
+      "englishTerm": "Balmer series",
+      "explanation": "氢原子电子在第一激发态与更高能级之间跃迁时，对应的一组光谱线，常用于观察可见光波段的氢。它们既能表现为发射线，也能表现为吸收线，星云中的红色氢线便与此有关。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "Balmer series",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-bao",
+      "conceptId": "science-bao",
+      "term": "重子声学振荡",
+      "aliases": [],
+      "englishTerm": "baryonic acoustic oscillations",
+      "explanation": "早期宇宙等离子体中的声波，把普通物质分布推成带有特定尺度的疏密印记。这些印记后来保留在星系的大尺度分布中，可作为研究宇宙膨胀的标准尺，并不是宇宙中可直接听见的声音。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "baryonic acoustic oscillations",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-be-star",
+      "conceptId": "science-be-star",
+      "term": "Be星",
+      "aliases": [],
+      "englishTerm": "Be star",
+      "explanation": "一种光谱中带有发射线的热B型恒星，其中小写e表示发射。这类恒星常高速旋转，周围有气体盘，紫外光与盘中气体作用产生氢发射线；它不是元素铍做成的星球。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "Be star",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-radiation-pressure",
+      "conceptId": "science-radiation-pressure",
+      "term": "辐射压",
+      "aliases": [],
+      "englishTerm": "radiation pressure",
+      "explanation": "电磁辐射照到物体表面时，由光子被吸收、反射或发射所伴随的动量交换产生的压力。光没有静止质量仍能传递动量，所以光照不仅能加热，也能产生很微小的推动作用。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "radiation pressure",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-cataclysmic-variable",
+      "conceptId": "science-cataclysmic-variable",
+      "term": "激变变星",
+      "aliases": [],
+      "englishTerm": "cataclysmic variable",
+      "explanation": "一种近距双星系统，白矮星从较低质量的普通伴星吸取气体，物质经吸积盘落到其表面。某些系统的积气会触发热核爆发，使亮度骤增；它不是单颗恒星随意改变颜色的泛称。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "cataclysmic variable",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-centaur",
+      "conceptId": "science-centaur",
+      "term": "半人马小天体",
+      "aliases": [],
+      "englishTerm": "centaur",
+      "explanation": "绕太阳运行、轨道位于木星和海王星之间，并穿越至少一颗巨行星轨道的小天体。许多可能来自柯伊伯带，名称借用神话形象，实际指轨道特征特殊的一类太阳系小天体。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "centaur",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-cepheid",
+      "conceptId": "science-cepheid",
+      "term": "造父变星",
+      "aliases": [],
+      "englishTerm": "Cepheid",
+      "explanation": "会随规律膨胀和收缩而周期性改变亮度的恒星，变化周期与其本身光度存在联系。测得周期后，再比较实际看上去的亮度，就能估计距离，因此它们是测量宇宙距离的重要工具。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "Cepheid",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-chandrasekhar-limit",
+      "conceptId": "science-chandrasekhar-limit",
+      "term": "钱德拉塞卡极限",
+      "aliases": [],
+      "englishTerm": "Chandrasekhar limit",
+      "explanation": "白矮星在标准理论下可保持稳定的质量上限，约为太阳质量的一点四倍。这个界限讨论的是致密恒星残骸的承重能力，不是恒星亮度等级，也不能用来限定所有类型天体的最大质量。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "Chandrasekhar limit",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-protoplanetary-disk",
+      "conceptId": "science-protoplanetary-disk",
+      "term": "原行星盘",
+      "aliases": [],
+      "englishTerm": "circumstellar disk/protoplanetary disk",
+      "explanation": "围绕年轻恒星旋转的扁平气体、尘埃、冰和岩石物质盘，行星可在其中逐步形成。它包含从微小颗粒到更大物体的不同成分，名称说的是行星的孕育环境，并不是已经成型的固体行星圆盘。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "circumstellar disk/protoplanetary disk",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-emission-nebula",
+      "conceptId": "science-emission-nebula",
+      "term": "发射星云",
+      "aliases": [],
+      "englishTerm": "emission nebula",
+      "explanation": "星际气体受到附近年轻热星的紫外光作用后发亮的云。气体原子先被电离，再在电子与离子复合等过程中放光；氢产生的红色谱线常很显著，因此星云发亮不一定只是反射恒星光。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "emission nebula",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-event-horizon",
+      "conceptId": "science-event-horizon",
+      "term": "事件视界",
+      "aliases": [],
+      "englishTerm": "event horizon",
+      "explanation": "黑洞周围一道无法向外传递逃逸信号的边界，越过它之后连光也不能回到外部。它不是实体表面或宇宙尽头，而是时空与逃逸条件所确定的无返回界限，和普通可见地平线不同。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "event horizon",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-giant-molecular-cloud",
+      "conceptId": "science-giant-molecular-cloud",
+      "term": "巨分子云",
+      "aliases": [],
+      "englishTerm": "giant molecular cloud",
+      "explanation": "主要由氢分子构成的寒冷、致密星际云，尺度可达很大范围，并遮挡后方可见光。许多恒星在这种环境中诞生，因此它看似是暗处，却可能包含正在形成的新恒星。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "giant molecular cloud",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-globular-cluster",
+      "conceptId": "science-globular-cluster",
+      "term": "球状星团",
+      "aliases": [],
+      "englishTerm": "globular cluster",
+      "explanation": "大量年老恒星密集聚成近似球形的天体系统，可容纳几十万到数百万颗恒星。它不是一颗被切成很多亮点的恒星，也不是星系照片上的普通光斑，组成成员通过整体聚集形成紧密群体。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "globular cluster",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-gravitational-lensing",
+      "conceptId": "science-gravitational-lensing",
+      "term": "引力透镜",
+      "aliases": [],
+      "englishTerm": "gravitational lensing",
+      "explanation": "星体、星系团等物质使周围时空弯曲，让从更远天体传来的光被偏折、放大或扭曲。透镜并非玻璃做成，天文学家可借这种自然放大效应研究本来太暗或太远的天体。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "gravitational lensing",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-gravitational-waves",
+      "conceptId": "science-gravitational-waves",
+      "term": "引力波",
+      "aliases": [],
+      "englishTerm": "gravitational waves",
+      "explanation": "大质量物体加速运动造成的时空涟漪，黑洞或中子星双星合并是已经探测到的来源。它们不是空气中的声波，也不要求存在水面，传播的是时空几何的扰动。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "gravitational waves",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-habitable-zone",
+      "conceptId": "science-habitable-zone",
+      "term": "宜居带",
+      "aliases": [],
+      "englishTerm": "habitable zone",
+      "explanation": "恒星周围一段轨道范围，行星在具有合适大气温度与压力时，表面可能维持液态水。落在其中不保证存在生命，也不保证实际有海洋；它只是寻找潜在适居世界的一项条件。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "habitable zone",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-kilonova",
+      "conceptId": "science-kilonova",
+      "term": "千新星",
+      "aliases": [],
+      "englishTerm": "kilonova",
+      "explanation": "两颗中子星，或中子星与黑洞合并后可能出现的短暂天文亮光。抛出的物质中新形成的重元素发生放射性衰变，为紫外、可见和红外辐射供能，名称不是说同时出现一千颗新星。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "kilonova",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-lagrange-points",
+      "conceptId": "science-lagrange-points",
+      "term": "拉格朗日点",
+      "aliases": [],
+      "englishTerm": "Lagrange points",
+      "explanation": "两个大质量天体组成的系统附近，第三个较小物体可保持特定相对位置的五类地点。它们与引力和轨道运动的平衡关系有关，并不是完全没有引力的空洞，也不是五颗固定的小行星。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "Lagrange points",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-magnetar",
+      "conceptId": "science-magnetar",
+      "term": "磁星",
+      "aliases": [],
+      "englishTerm": "magnetar",
+      "explanation": "拥有异常强磁场的一类中子星，磁场可比典型脉冲星强很多倍。它属于大质量恒星演化后的致密残骸，并不是一块在太空漂浮的普通磁铁，也不是所有恒星磁场都强到同一程度。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "magnetar",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-microquasar",
+      "conceptId": "science-microquasar",
+      "term": "微类星体",
+      "aliases": [],
+      "englishTerm": "microquasar",
+      "explanation": "具有某些类星体特征、但尺度属于恒星质量级别的天体系统，常包含黑洞和普通伴星。黑洞吸取伴星物质形成高温吸积盘，并产生高速喷流，能在射电到X射线等波段辐射。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "microquasar",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-neutrino",
+      "conceptId": "science-neutrino",
+      "term": "中微子",
+      "aliases": [],
+      "englishTerm": "neutrino",
+      "explanation": "质量极小、不带电的粒子，与普通物质发生相互作用的机会很少，大量穿过人体也通常不留下痕迹。它们不易被磁场改变路线，能从光难以逃出的致密环境中带来关于源头的信息。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "neutrino",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-planetary-nebula",
+      "conceptId": "science-planetary-nebula",
+      "term": "行星状星云",
+      "aliases": [],
+      "englishTerm": "planetary nebula",
+      "explanation": "类似太阳的恒星在晚年抛出气体外层，剩下的热核心使气体电离发光所形成的壳层。名字来自早期望远镜里像行星的圆形外观，并不是由一群行星聚在一起形成。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "planetary nebula",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-pulsar",
+      "conceptId": "science-pulsar",
+      "term": "脉冲星",
+      "aliases": [],
+      "englishTerm": "pulsar",
+      "explanation": "快速自转的中子星，发光区域随旋转周期性扫过观测者视线，产生规则脉冲。最早靠射电观测发现，其他波段也能看到；节奏像灯塔扫过，并不表示整个天体在同频率胀缩。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "pulsar",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-pulsar-wind-nebula",
+      "conceptId": "science-pulsar-wind-nebula",
+      "term": "脉冲星风云",
+      "aliases": [],
+      "englishTerm": "pulsar wind nebula",
+      "explanation": "中子星送出的高速带电粒子流向周围膨胀后形成的扩展云状结构，蟹状星云是著名例子。它可在多个电磁波段辐射，核心在粒子风与环境作用，并不是行星大气里刮起的风云。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "pulsar wind nebula",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-quasar",
+      "conceptId": "science-quasar",
+      "term": "类星体",
+      "aliases": [],
+      "englishTerm": "quasar",
+      "explanation": "一类极明亮的活动星系核，从很紧凑的中心源发出大量能量，通常联系着吸积中的超大质量黑洞。可见光中看起来像点状恒星，实际上是星系中心的活动现象，不能按外观当作普通恒星。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "quasar",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-roche-lobe",
+      "conceptId": "science-roche-lobe",
+      "term": "洛希瓣",
+      "aliases": [],
+      "englishTerm": "Roche lobe",
+      "explanation": "双星系统中围绕一颗恒星、使物质主要受它束缚的区域，外形可近似泪滴，尖端朝向另一颗恒星。它描述引力控制的空间范围，不是恒星表面真的长出的一片花瓣。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "Roche lobe",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-seyfert-galaxy",
+      "conceptId": "science-seyfert-galaxy",
+      "term": "塞弗特星系",
+      "aliases": [],
+      "englishTerm": "Seyfert galaxy",
+      "explanation": "具有非常明亮、近似恒星状中心的一类活动星系，光谱中有很强的发射线。不同类型在谱线宽窄和所见辐射上有区别，观测方向及中心遮蔽会影响外观，核心活动与吸积黑洞有关。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "Seyfert galaxy",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    },
+    {
+      "id": "nsp-synchrotron",
+      "conceptId": "science-synchrotron",
+      "term": "同步辐射",
+      "aliases": [],
+      "englishTerm": "synchrotron radiation",
+      "explanation": "接近光速运动的带电粒子受到磁场等作用、运动方向改变时发出的辐射。它可覆盖射电、可见光等波段，具有显著偏振特征；名称中的同步不表示所有粒子必须像钟表一样同时闪光。",
+      "packIds": [
+        "natural-science-phenomena"
+      ],
+      "category": "天文与物理",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/universe/glossary/",
+          "title": "Universe glossary - NASA Science",
+          "institution": "NASA",
+          "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "checkedAt": "2026-10-22",
+          "section": "synchrotron radiation",
+          "verificationNote": "已阅读官方词条定义，中文为游戏用途改写；未使用网页第三方图片。"
+        }
+      ]
+    }
+  ]
+}

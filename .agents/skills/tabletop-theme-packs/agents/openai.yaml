@@ -1,0 +1,4 @@
+interface:
+  display_name: "冷知识主题题包"
+  short_description: "为冷知识瞎掰网页制作和扩充可组合主题包，核实来源、去重并检查项目接入"
+  default_prompt: "使用 $tabletop-theme-packs 为我的桌游网页新增一个主题题包，按现有格式核实内容、去重并检查可用题量。"

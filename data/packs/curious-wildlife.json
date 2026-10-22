@@ -1,0 +1,2122 @@
+{
+  "schemaVersion": 1,
+  "id": "curious-wildlife",
+  "title": "奇妙动植物",
+  "description": "90个关于动物奇特结构、生活方式和植物生存策略的冷知识概念。每题保留具体事实，默认读卡10秒，不要求逐字读完。",
+  "version": "1.0.0",
+  "language": "zh-CN",
+  "recommendedReadSeconds": 10,
+  "editorialStatus": "source-checked-playtest-pending",
+  "scopeNote": "包括物种、属级类群与已存在的结构术语，展示词不加入泄露答案的自造行为后缀；解释区分可证事实和未定功能。部分常见物种采用冷门结构切入。44题动物、46题植物，未涉及气象、水文或光学现象。",
+  "questions": [
+    {
+      "id": "cw-axolotl",
+      "conceptId": "wildlife-axolotl",
+      "term": "墨西哥钝口螈",
+      "aliases": [],
+      "explanation": "这种蝾螈成年后仍保留幼体的羽毛状外鳃和尾鳍，通常一直生活在水中，仿佛身体没有按普通蝾螈的路线完成变身。它虽然长有能工作的肺，仍可利用头两侧显眼的外鳃在水下呼吸。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Axolotl | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/axolotl",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L45–46",
+          "evidence": "成年保留外鳃、尾和体鳍；有肺但终生水栖。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-okapi",
+      "conceptId": "wildlife-okapi",
+      "term": "霍加狓",
+      "aliases": [],
+      "explanation": "后腿长着黑白条纹，容易让人想到斑马，霍加狓却属于长颈鹿家族。它有能卷住嫩叶的深色长舌，颈和腿较短，适于在密林穿行；条纹在雨林斑驳的光影中也能起到伪装作用。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Okapi | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/okapi",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L45–48",
+          "evidence": "长颈鹿近亲；卷握舌取嫩叶；短颈短腿适于森林。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-binturong",
+      "conceptId": "wildlife-binturong",
+      "term": "熊狸",
+      "aliases": [],
+      "explanation": "这种毛蓬蓬的树栖动物会散发类似爆米花的气味，尾巴末端还能像多出的一只手那样抓住树枝。幼仔甚至能仅靠尾巴倒挂，成年个体较重，通常需要脚爪一起支撑；它的亲缘更接近灵猫。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Binturong | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/binturong",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L46–50",
+          "evidence": "爆米花气味；末段尾巴可卷握；幼仔可全靠尾支撑。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-fossa",
+      "conceptId": "wildlife-fossa",
+      "term": "马岛獴",
+      "aliases": [],
+      "explanation": "长得像猫，尾巴又像猴子的马岛獴，是马达加斯加森林中的大型食肉动物。长尾帮助它在高枝间保持平衡，灵活的踝关节配合可收回的爪，使它能头朝下爬下树干，地面上也能行动。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Fossa | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/fossa",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT及HABITAT AND DIET，L45–52",
+          "evidence": "长尾平衡，踝关节灵活，可头朝下下树。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Cryptoprocta ferox"
+    },
+    {
+      "id": "cw-lesser-hedgehog-tenrec",
+      "conceptId": "wildlife-lesser-hedgehog-tenrec",
+      "term": "小马岛猬",
+      "aliases": [],
+      "explanation": "外表像迷你刺猬，遇险也会蜷成刺球，但它属于马岛猬家族。它的脚趾和小钩爪很会攀附，爬行时甚至能只用一只脚或一根脚趾吊住身体；这副带刺外衣和攀爬本领可以同时存在。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Tenrec | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/tenrec",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L45–49",
+          "evidence": "Echinops telfairi；刺球防御；可单脚或单趾悬挂。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Echinops telfairi"
+    },
+    {
+      "id": "cw-echidna",
+      "conceptId": "wildlife-echidna",
+      "term": "针鼹",
+      "aliases": [],
+      "explanation": "针鼹是会产卵的哺乳动物，幼仔孵化后仍靠母乳长大。它的后脚朝向后方，其中一根特别长的趾爪可用来梳理刺间的泥土和虫子；强壮前爪则负责挖土、破开白蚁巢。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Echidna | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/echidna",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L44–48",
+          "evidence": "哺乳动物而产卵；后脚向后，长趾爪梳刺；前脚挖土。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-platypus",
+      "conceptId": "wildlife-platypus",
+      "term": "鸭嘴兽",
+      "aliases": [],
+      "explanation": "鸭嘴兽潜水觅食时会闭上眼睛和耳朵，柔软的鸭嘴却能接收猎物发出的微弱电信号。嘴上约四万个电感受器帮助它判断猎物方向和距离，因此在浑浊水里也有一套不用眼看的寻食办法。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Platypus | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/platypus",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L47–51",
+          "evidence": "软喙约40000电感受器；水下眼耳闭合，探测生物电。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Ornithorhynchus anatinus"
+    },
+    {
+      "id": "cw-naked-mole-rat",
+      "conceptId": "wildlife-naked-mole-rat",
+      "term": "裸鼹鼠",
+      "aliases": [],
+      "explanation": "裸鼹鼠生活在地下群落里，一只繁殖雌鼠是群体中绝大多数成员的母亲，其他成员承担掘洞、找食物、保卫家园和照顾幼仔等工作。这种多代同居而且分工鲜明的社会，在哺乳动物中很少见。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Naked Mole-rat | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/naked-mole-rat",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L48–50",
+          "evidence": "群体有繁殖女王，多代同居；成员分工挖洞护幼等。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Heterocephalus glaber"
+    },
+    {
+      "id": "cw-bat-eared-fox",
+      "conceptId": "wildlife-bat-eared-fox",
+      "term": "蝠耳狐",
+      "aliases": [],
+      "explanation": "这只非洲小狐狸头上竖着一对像蝙蝠的大耳朵，耳内丰富的血管能帮身体散热，也提供灵敏听觉。它的生活区域与爱吃的收获白蚁密切相关，还会利用旧白蚁丘或其他洞穴作为住处。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Bat-eared Fox | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/bat-eared-fox",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT及HABITAT AND DIET，L46–58",
+          "evidence": "大耳散热及听觉；分布和白蚁吻合；会用旧白蚁丘。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-fennec-fox",
+      "conceptId": "wildlife-fennec-fox",
+      "term": "耳廓狐",
+      "aliases": [],
+      "explanation": "耳廓狐在沙漠里有一套从头到脚的装备：大耳朵帮助监听地下猎物并散热，厚毛在夜间保温，脚底的毛又能隔开滚烫沙地。白天它常退入沙丘里的洞穴，把活动更多留给较凉的夜晚。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Fennec Fox | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/fennec-fox",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT及HABITAT AND DIET，L45–50",
+          "evidence": "大耳听地下猎物及散热；足底毛隔热；白天藏洞。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-kinkajou",
+      "conceptId": "wildlife-kinkajou",
+      "term": "蜜熊",
+      "aliases": [],
+      "explanation": "蜜熊看起来像猴子，却是浣熊家族的一员。它爱花蜜和蜂蜜，强壮的卷握尾巴能挂住树枝，身体转动后甚至可以沿自己的尾巴爬回去；睡觉时长尾还能像一条围巾那样抱在身边。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Kinkajou | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/kinkajou",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L45–48",
+          "evidence": "浣熊科；卷尾悬挂后沿尾爬回；尾可睡时抱住。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-coati",
+      "conceptId": "wildlife-coati",
+      "term": "长鼻浣熊",
+      "aliases": [],
+      "explanation": "它在林地找食物时，会用细长而灵活的鼻子贴近地面嗅探，再用有力的前爪翻找昆虫等小动物。到了树上，肌肉发达的长尾帮助保持平衡；在地面行走时，尾巴常像旗杆一样直直举起。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Coati | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/coati",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L45–47",
+          "evidence": "长灵活鼻与前爪觅食；长尾平衡，地面常直立。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-meerkat",
+      "conceptId": "wildlife-meerkat",
+      "term": "狐獴",
+      "aliases": [],
+      "explanation": "一群狐獴的地下住所可以有十几个出入口，并分出不同深度的隧道和房间，其中还有睡眠室与厕所。它们常利用其他动物挖好的洞，又会在领地内备好几套住所，隔一段时间集体搬家。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Meerkat | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/meerkat",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L46–50",
+          "evidence": "洞穴平均15出入口，有寝室和厕所；群体定期换洞。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Suricata suricatta"
+    },
+    {
+      "id": "cw-rock-hyrax",
+      "conceptId": "wildlife-rock-hyrax",
+      "term": "蹄兔",
+      "aliases": [],
+      "explanation": "看起来像大豚鼠或短耳兔，蹄兔却与大象共享较近的祖先。它的两枚大门齿能长成小獠牙，后脚内侧还有专门梳毛用的长趾甲；背部的气味腺则能在岩石或树上留下交流用的标记。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Rock Hyrax | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/rock-hyrax",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L47–51",
+          "evidence": "与象共享祖先；门齿小獠牙；梳毛爪与背部气味腺。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-tasmanian-devil",
+      "conceptId": "wildlife-tasmanian-devil",
+      "term": "袋獾",
+      "aliases": [],
+      "explanation": "袋獾吃一具动物尸体时，常发出尖叫和咆哮，场面听着像大战。张大嘴巴有时表达害怕或不确定，喷嚏也可能出现在冲突前；不少夸张动作属于威吓仪式，能减少真正打斗带来的伤害。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Tasmanian Devil | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/tasmanian-devil",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L44–51",
+          "evidence": "张口多表恐惧不确定；进食尖叫建立地位，仪式化威吓。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-quokka",
+      "conceptId": "wildlife-quokka",
+      "term": "短尾矮袋鼠",
+      "aliases": [],
+      "explanation": "它因看起来总在微笑而走红，那张笑脸主要来自面部肌肉和突出的门齿，不能直接当作心情刻度。这种大约家猫大小的有袋动物主要在地面活动，取食时却也能爬到一米多高的树上。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Quokka | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/quokka",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L45–48",
+          "evidence": "笑容来自面肌与门齿；能爬约1.5米高取食。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-secretary-bird",
+      "conceptId": "wildlife-secretary-bird",
+      "term": "蛇鹫",
+      "aliases": [],
+      "explanation": "蛇鹫是长腿的非洲猛禽，却把白天的大量时间用来在地面步行搜寻食物，有时一天能走几十公里。它并未失去飞行能力：夜里会飞到高高的金合欢树上栖息，筑巢也选在树上。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Secretary Bird | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/secretary-bird",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT及HABITAT AND DIET，L46–54",
+          "evidence": "猛禽而常地面行猎；能飞，树上夜栖及筑巢。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-kagu",
+      "conceptId": "wildlife-kagu",
+      "term": "鹭鹤",
+      "aliases": [],
+      "explanation": "这种新喀里多尼亚的地栖鸟不擅飞，却保留着显眼的大翅膀。亲鸟会在地面展开翅膀，装出受伤的样子，把危险从幼鸟身旁引开；翅膀还能在它跨过石头和崎岖地面时辅助平衡。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Kagu | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/kagu",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L44–47",
+          "evidence": "亲鸟展翅装伤转移捕食者；翅助跨石平衡。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-kiwi",
+      "conceptId": "wildlife-kiwi",
+      "term": "几维鸟",
+      "aliases": [],
+      "explanation": "几维鸟用长嘴在地面寻找虫子，鼻孔恰好开在嘴尖附近，嗅觉是它觅食的重要帮手。泥土被吸进鼻孔时，它还会打喷嚏清理；这只不会飞的鸟住在地洞里，脸周围还有像胡须的特殊羽毛。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Kiwi | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/kiwi",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT及HABITAT AND DIET，L51–59",
+          "evidence": "嘴端鼻孔与发达嗅觉；喷嚏清泥；洞栖，须状羽。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-cassowary",
+      "conceptId": "wildlife-cassowary",
+      "term": "食火鸡",
+      "aliases": [],
+      "explanation": "食火鸡头顶像戴了一顶硬帽，实际由海绵状材料构成，外面覆着与指甲同类的角蛋白。这个结构从幼年逐渐长起，中间仍可受压变形；它到底怎样发挥作用，研究者尚未完全确定。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Cassowary | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/cassowary",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L47–49",
+          "evidence": "盔有海绵样内材和角蛋白外层；功能尚无定论。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-helmeted-hornbill",
+      "conceptId": "wildlife-helmeted-hornbill",
+      "term": "盔犀鸟",
+      "aliases": [],
+      "explanation": "大多数犀鸟嘴上方的盔突较轻，但盔犀鸟的盔突格外致密，质感像象牙，重量可占身体约十分之一。这种夸张的天然头饰曾被拿去做雕刻材料，也让它成为非法猎捕的目标。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Hornbill | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/hornbill",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L44–48",
+          "evidence": "婆罗洲盔犀鸟的致密象牙状盔约占体重10%，因雕刻被猎。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Rhinoplax vigil"
+    },
+    {
+      "id": "cw-burrowing-owl",
+      "conceptId": "wildlife-burrowing-owl",
+      "term": "穴鸮",
+      "aliases": [],
+      "explanation": "这种小猫头鹰把育雏地点放在地下，常直接利用地松鼠、草原犬鼠或爬行动物留下的洞穴。遇到危险时，它可以钻回洞里，发出近似响尾蛇的嘶嘶或沙沙声，让来犯者误以为洞内另有主人。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Burrowing Owl | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/burrowing-owl",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT及HABITAT AND DIET，L45–51",
+          "evidence": "地下旧洞筑巢；嘶鸣模拟响尾蛇声音。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-tawny-frogmouth",
+      "conceptId": "wildlife-tawny-frogmouth",
+      "term": "茶色蟆口鸱",
+      "aliases": [],
+      "explanation": "白天它能一动不动地停在枝头，闭起眼睛、把嘴尖朝上，斑驳羽色与树皮融在一起，像截枯枝。危险靠得太近时，它又可能突然张开宽大的亮黄色嘴巴，让原本隐蔽的外表变成威吓。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Tawny Frogmouth | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/tawny-frogmouth",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L44–48",
+          "evidence": "静止伪装树皮，闭眼嘴朝上；近敌时张黄色大嘴。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-bee-eater",
+      "conceptId": "wildlife-bee-eater",
+      "term": "蜂虎",
+      "aliases": [],
+      "explanation": "蜂虎抓到带刺的蜂后并不急着吞下，而是先把猎物的头在树枝上敲击，再把尾端反复摩擦，去掉毒刺并挤出毒液。这套处理工序让会蜇人的飞虫成为它的食物，而非每次都冒险直接吞食。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Bee-eater | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/bee-eater",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L45–46",
+          "evidence": "捕蜂后敲晕，摩擦尾部去刺排毒。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-tuatara",
+      "conceptId": "wildlife-tuatara",
+      "term": "喙头蜥",
+      "aliases": [
+        "楔齿蜥"
+      ],
+      "explanation": "喙头蜥头顶有一个能感受光的特殊结构，幼体皮肤下比较容易看见，随后常被鳞片和色素遮住。它具有视网膜、晶状体及神经，却不是用来看景物的第三只眼，可能参与感知时段或季节。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Tuatara | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/tuatara",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L45–47",
+          "evidence": "头顶第三眼有视网膜晶状体；感光非成像，可能计时。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Sphenodon punctatus"
+    },
+    {
+      "id": "cw-komodo-dragon",
+      "conceptId": "wildlife-komodo-dragon",
+      "term": "科莫多巨蜥",
+      "aliases": [],
+      "explanation": "雌性科莫多巨蜥挖巢产卵时，有时还会掘出迷惑入侵者的假巢室。真正的巢可以在山坡、地面，也能借用营冢鸟堆起的巢丘；刚孵出的幼蜥则会迅速爬树，以避开地面上的危险。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Komodo Dragon | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/komodo-dragon",
+          "checkedAt": "2026-10-22",
+          "section": "FAMILY LIFE，L57–59",
+          "evidence": "雌蜥挖诱饵巢室；可用营冢鸟丘；幼体爬树避险。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Varanus komodoensis"
+    },
+    {
+      "id": "cw-gila-monster",
+      "conceptId": "wildlife-gila-monster",
+      "term": "希拉毒蜥",
+      "aliases": [],
+      "explanation": "它那珠粒般的鳞甲下面藏着特殊的毒液系统：毒腺位于下颌，咬住猎物后，毒液沿牙齿上的小沟流入伤口。它不会靠舌头蜇人或吐出毒气，那些夸张传说与真正的咬合方式不同。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Gila Monster | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/gila-monster",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L44–47",
+          "evidence": "下颌毒腺、牙沟导毒；不吐毒气或舌蜇。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-chameleon",
+      "conceptId": "wildlife-chameleon",
+      "term": "变色龙",
+      "aliases": [],
+      "explanation": "变色龙抓树枝的脚像一把小夹子，五根脚趾并非一根根分开，而是并成两组，与人用拇指和其余手指抓东西有些相似。前脚和后脚的分组方向相反，常见的卷握尾巴还能提供额外支撑。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Chameleon | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/chameleon",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L45–46",
+          "evidence": "五趾分2/3两组，前后脚分组相反；卷尾帮助抓枝。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-babirusa",
+      "conceptId": "wildlife-babirusa",
+      "term": "鹿豚",
+      "aliases": [],
+      "explanation": "雄性鹿豚最醒目的上犬齿会转向上方，穿出鼻部皮肤，再弯向额头，看起来像长错位置的鹿角。只要仍有血液供应，犬齿就能继续长；若没有磨损或折断，夸张弧线甚至会逼近头骨。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Babirusa | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/babirusa",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L45–48",
+          "evidence": "上犬齿转向穿出鼻皮、向额弯；终生继续长。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-agouti",
+      "conceptId": "wildlife-agouti",
+      "term": "刺豚鼠",
+      "aliases": [],
+      "explanation": "刺豚鼠能用强有力的门齿啃开坚硬的巴西坚果外壳，牙釉质的特殊排列帮助牙齿承受啃咬。前端门齿还会持续生长，好像随身带着不断更新的开壳工具，后面的臼齿再把食物磨碎。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Agouti | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/agouti",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L44–47",
+          "evidence": "门齿可破巴西坚果硬壳；釉质排列强化；门齿持续长。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-pink-fairy-armadillo",
+      "conceptId": "wildlife-pink-fairy-armadillo",
+      "term": "粉红犰狳",
+      "aliases": [],
+      "explanation": "这种小犰狳身长可只有八厘米左右，与人们印象中光溜溜的全身甲胄不同，它大部分身体有毛，甲壳覆盖较少。看上去仿佛一只鼹鼠披着铠甲头饰和披风，是犰狳家族体型很小的一员。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Armadillo | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/armadillo",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L46–50",
+          "evidence": "pink fairy armadillo约8厘米，多毛而甲较少。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Chlamyphorus truncatus"
+    },
+    {
+      "id": "cw-banded-archer-fish",
+      "conceptId": "wildlife-banded-archer-fish",
+      "term": "射水鱼",
+      "aliases": [],
+      "explanation": "射水鱼会停在水面附近，瞄准上方的昆虫或蜘蛛，从嘴里喷出水柱把猎物打落。第一次失手后，一口水还能继续射出多股水流；有时它也会直接跃出水面追食，把水上空间纳入猎场。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Banded Archer Fish | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/banded-archer-fish",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L44–49",
+          "evidence": "水柱击落水上昆虫；一口水可多射，亦跃出追食。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-saiga",
+      "conceptId": "wildlife-saiga",
+      "term": "高鼻羚羊",
+      "aliases": [],
+      "explanation": "高鼻羚羊的鼻子像一截向下垂的小象鼻，内部骨骼曲折复杂，还分布着毛、腺体和黏膜。这个夸张鼻腔被认为有助于温暖冬季吸入的冷空气，并在干燥夏季过滤尘土，适应草原生活。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Saiga | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/saiga",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L50–53",
+          "evidence": "大鼻复杂内骨和黏膜；可能暖冷空气及滤夏尘。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-klipspringer",
+      "conceptId": "wildlife-klipspringer",
+      "term": "山羚",
+      "aliases": [],
+      "explanation": "这种小羚羊生活在非洲草原突起的岩石群中，蹄子小巧，看起来像一直踮着脚。它能在石块间灵活跳跃，也能长时间站着不动；粗硬而中空的毛还为它提供一定隔热，适应暴露的岩地。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Klipspringer | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/klipspringer",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L48–51",
+          "evidence": "岩石群栖息；小蹄似踮脚，毛中空粗硬隔热。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-capybara",
+      "conceptId": "wildlife-capybara",
+      "term": "水豚",
+      "aliases": [],
+      "explanation": "水豚虽然是啮齿动物，却把水当作重要避难处：遇到威胁时能潜入水下躲藏，最长可持续约五分钟。它的脚趾之间带着部分蹼，既方便游泳也能行走，平时还会取食水生植物和草。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Capybara | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/capybara",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L46–48",
+          "evidence": "能潜水约5分钟避敌；部分蹼兼顾水陆；食水草。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Hydrochoerus hydrochaeris"
+    },
+    {
+      "id": "cw-porcupine",
+      "conceptId": "wildlife-porcupine",
+      "term": "豪猪",
+      "aliases": [],
+      "explanation": "一些旧大陆豪猪的尾根有钝头中空刺，摇动时会发出响声，提前警告靠近的捕食者。警告无效时，它们可以竖起长刺显得更大，甚至倒退着冲向敌人，用背部和臀部的硬刺防守。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Porcupine | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/porcupine",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L44–47",
+          "evidence": "旧大陆豪猪尾根中空刺可响，竖刺及倒冲防卫。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-wombat",
+      "conceptId": "wildlife-wombat",
+      "term": "袋熊",
+      "aliases": [],
+      "explanation": "袋熊的育儿袋开口朝后，这样母兽低头掘土时，泥沙不易直接灌进幼仔的住处。遇敌躲进地洞后，它还会用皮肤厚实的后半身堵住入口，把平日挖出的隧道变成一座由屁股把守的堡垒。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Wombat | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/wombat",
+          "checkedAt": "2026-10-22",
+          "section": "HABITAT AND DIET及FAMILY LIFE，L52、59",
+          "evidence": "育袋朝后防挖土入袋；厚后躯堵洞。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-stick-insect",
+      "conceptId": "wildlife-stick-insect",
+      "term": "竹节虫",
+      "aliases": [],
+      "explanation": "竹节虫的伪装不仅依靠长得像树枝，移动时也常一摇一摆，像被风吹动的细枝；有些身上还长着近似地衣的突起。多数时间保持静止的它们，连不得不挪动的过程也能融进背景。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Stick Insect | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/stick-insect",
+          "checkedAt": "2026-10-22",
+          "section": "HABITAT AND DIET，L46–48",
+          "evidence": "摇摆步态模拟风中枝条；部分有地衣样突起。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-dung-beetle",
+      "conceptId": "wildlife-dung-beetle",
+      "term": "蜣螂",
+      "aliases": [],
+      "explanation": "并非所有蜣螂都把粪便滚走。滚球型会把粪团推离原地并埋下，粪球既可能供成虫进食，也可能成为雌虫产卵的育婴球；另一些则直接在粪堆下挖隧道，或一直留在粪堆里生活。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Dung Beetle | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/dung-beetle",
+          "checkedAt": "2026-10-22",
+          "section": "FAMILY LIFE，L49–51",
+          "evidence": "滚球、隧道、粪居三类；埋粪球用于食物或产卵。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-tarantula",
+      "conceptId": "wildlife-tarantula",
+      "term": "捕鸟蛛",
+      "aliases": [],
+      "explanation": "许多美洲捕鸟蛛遇敌时会用腿把腹部的特殊毛踢出去，这些带倒钩的毛进入攻击者眼部等敏感处后会造成刺激。它们的丝常用于铺住处、蜕皮垫或处理食物，不能一概想成捕虫网。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Tarantula | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/tarantula",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT及HABITAT AND DIET，L45–49",
+          "evidence": "部分捕鸟蛛踢倒钩刺激毛；丝作住处蜕皮垫非捕食网。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-scorpion",
+      "conceptId": "wildlife-scorpion",
+      "term": "蝎栉",
+      "aliases": [
+        "蝎子栉状器"
+      ],
+      "explanation": "蝎子腹部下方有一对像小梳子的感觉器官，叫作栉状器，能辅助它感受周围环境。雄蝎还会利用它寻找适合交配的雌蝎，刚出生的幼蝎也用它识别母亲，相当于一套贴近地面的信息探头。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Scorpion | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/scorpion",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L43–46",
+          "evidence": "腹面梳状pectines用于感觉；雄蝎寻雌、幼蝎认母。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-pronghorn",
+      "conceptId": "wildlife-pronghorn",
+      "term": "叉角羚",
+      "aliases": [],
+      "explanation": "叉角羚的角同时带着两种常见角的特征：里面有骨质核心，外面套着角蛋白鞘，但角鞘又会每年脱落更新。雄性的角还有向前伸出的分叉，所以它既不像普通牛角，也不像整副脱落的鹿角。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Pronghorn | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/pronghorn",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L47–49",
+          "evidence": "骨芯外角蛋白鞘；角鞘年脱落；雄角向前分叉。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-giant-anteater",
+      "conceptId": "wildlife-giant-anteater",
+      "term": "大食蚁兽",
+      "aliases": [],
+      "explanation": "大食蚁兽走路时会把前爪收拢，以近似握拳的姿势着地，避免把用于破开蚁巢和防身的长爪磨钝。它的蓬松长尾还有日常用途，休息时能够覆盖身体，像毯子或遮阳物一样使用。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Giant Anteater | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/giant-anteater",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L47–51",
+          "evidence": "卷爪以拳步保持爪锋利；长尾可作毯或遮阳。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Myrmecophaga tridactyla"
+    },
+    {
+      "id": "cw-two-toed-sloth",
+      "conceptId": "wildlife-two-toed-sloth",
+      "term": "二趾树懒",
+      "aliases": [],
+      "explanation": "二趾树懒常倒挂着吃饭和睡觉，身上的毛也配合这种姿势：从腹部中间分开，朝背部方向生长，让雨水比较容易顺着毛流走。毛上的沟槽还能容纳藻类，潮湿季节会给它添上绿色外观。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "动物奇能",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Two-toed Sloth | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/animals/two-toed-sloth",
+          "checkedAt": "2026-10-22",
+          "section": "ABOUT，L46–51",
+          "evidence": "腹中分毛向背生长利排雨；毛沟含藻雨季泛绿。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-boojum-tree",
+      "conceptId": "wildlife-boojum-tree",
+      "term": "观峰玉",
+      "aliases": [
+        "布朱姆树"
+      ],
+      "explanation": "这种沙漠多肉植物的主干像一根越往上越细的粗蜡烛，也像倒插的胡萝卜，横向只伸出短短的带刺枝。缺水时它会落光小叶，雨后又迅速长叶，利用难得的湿润时期制造养分。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Boojum Tree | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/plants/boojum-tree",
+          "checkedAt": "2026-10-22",
+          "section": "OVERVIEW及GROWTH PATTERN，L49–60",
+          "evidence": "储水干、短刺枝；旱落叶雨后萌叶；干粗底尖顶。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Fouquieria columnaris"
+    },
+    {
+      "id": "cw-ocotillo",
+      "conceptId": "wildlife-ocotillo",
+      "term": "奥科蒂洛",
+      "aliases": [],
+      "explanation": "远看像一丛干枯刺棍，雨后枝上却能迅速冒出翠绿小叶；再次缺水时，叶片又会脱落，同一雨季可能重复数次。枝端的红橙色管状花还可在叶子掉后留着，吸引蜂鸟等前来传粉。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Ocotillo | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/plants/ocotillo",
+          "checkedAt": "2026-10-22",
+          "section": "OVERVIEW及CHARACTERISTICS，L48–57",
+          "evidence": "旱落叶，可一雨季数次萌落；花可在落叶后保留。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificScope": "Fouquieria；解释采用该来源对ocotillos的干旱落叶策略描述"
+    },
+    {
+      "id": "cw-sausage-tree",
+      "conceptId": "wildlife-sausage-tree",
+      "term": "吊瓜树",
+      "aliases": [],
+      "explanation": "吊瓜树的长柄上挂着像巨大香肠的木质感果实，单个能很长也很重。暗红色的花同样悬在树冠下的长柄末端，方便蝙蝠等访客取蜜和传粉；这是一棵把花与果都吊起来展示的树。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Sausage Tree | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/plants/sausage-tree",
+          "checkedAt": "2026-10-22",
+          "section": "Overview及Characteristics，L46–53",
+          "evidence": "Kigelia africana；香肠形重果；长垂柄花供蝙蝠等访花。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-dragon-tree",
+      "conceptId": "wildlife-dragon-tree",
+      "term": "加那利龙血树",
+      "aliases": [],
+      "explanation": "加那利龙血树会产生浓稠的红色树脂，因而与龙血传说联系在一起。它的树干布满生长后留下的叶痕，看着像有鳞的龙腿，枝端密集的剑形叶还能汇集雨水和空气中的水分。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Dragon Tree | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/plants/dragon-tree",
+          "checkedAt": "2026-10-22",
+          "section": "OVERVIEW及CHARACTERISTICS，L48–53",
+          "evidence": "Dracaena draco；红树脂；叶痕鳞状干，叶簇集水。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-venus-flytrap",
+      "conceptId": "wildlife-venus-flytrap",
+      "term": "捕蝇草",
+      "aliases": [],
+      "explanation": "捕蝇草的捕虫夹其实是特化的叶片，里面的感应毛通常要在约二十秒内被碰到两次，夹子才会合上。这个门槛能减少雨滴等无用触碰带来的消耗，之后持续的猎物刺激还参与启动消化。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Venus Flytrap | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/plants/venus-flytrap",
+          "checkedAt": "2026-10-22",
+          "section": "OVERVIEW，L48–51",
+          "evidence": "叶陷阱，触毛20秒内碰2次闭合，并追踪触发次数。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Dionaea muscipula"
+    },
+    {
+      "id": "cw-sundew",
+      "conceptId": "wildlife-sundew",
+      "term": "茅膏菜",
+      "aliases": [],
+      "explanation": "茅膏菜叶上的露珠状亮点其实是有黏性的分泌物，昆虫一旦粘上，挣扎会促使叶片慢慢卷拢并释放消化酶。掉落的无营养杂物也可能引发初始动作，但植物随后可以停止包裹并释放它。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Sundew | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/plants/sundew",
+          "checkedAt": "2026-10-22",
+          "section": "OVERVIEW，L48–50",
+          "evidence": "黏滴捕虫、卷叶及分泌酶；无营养物可被拒绝释放。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-tank-bromeliad",
+      "conceptId": "wildlife-tank-bromeliad",
+      "term": "积水凤梨",
+      "aliases": [],
+      "explanation": "一些凤梨科植物把长叶排成莲座，像漏斗一样将水导入中央，形成小小的蓄水杯。这个杯子既是植物自身的水源，也能成为昆虫和小蛙活动的微型住所，一株植物便托起一个小生态空间。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Bromeliad | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/plants/bromeliad",
+          "checkedAt": "2026-10-22",
+          "section": "OVERVIEW，L47–49",
+          "evidence": "多种凤梨莲座蓄水，吸引昆虫和吃虫小蛙。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-american-pitcher-plant",
+      "conceptId": "wildlife-american-pitcher-plant",
+      "term": "瓶子草属",
+      "aliases": [],
+      "explanation": "瓶子草的捕虫瓶是一片卷成漏斗状的特化叶，瓶口分泌物和气味诱使小动物靠近。滑溜的内壁与朝下的毛让进入者难以爬出，瓶底液体再分解猎物，让植物取得缺乏的氮、磷等养分。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "American Pitcher Plant | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/plants/american-pitcher-plant",
+          "checkedAt": "2026-10-22",
+          "section": "OVERVIEW及CHARACTERISTICS，L49–54",
+          "evidence": "漏斗叶陷阱；下向毛防出；底液消化获氮磷。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Sarracenia",
+      "scientificScope": "属级综述题；非另一个具体物种。与Sarracenia psittacina题分属属级陷阱机制和种级伏地形态两个概念。"
+    },
+    {
+      "id": "cw-nepenthes-ampullaria",
+      "conceptId": "wildlife-nepenthes-ampullaria",
+      "term": "苹果猪笼草",
+      "aliases": [],
+      "explanation": "苹果猪笼草的宽口瓶并不全靠捕虫补充养分，打开的瓶盖能让树上落下的枯叶进入瓶中，叶屑分解后提供氮。与许多鲜艳、散发甜香的近亲相比，它吸引昆虫的颜色和香气都较不突出。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Tropical Pitcher Plant | San Diego Zoo Animals & Plants",
+          "url": "https://animals.sandiegozoo.org/plants/tropical-pitcher-plant",
+          "checkedAt": "2026-10-22",
+          "section": "OVERVIEW，L46–50",
+          "evidence": "N. ampullaria开放宽口瓶接落叶获氮，缺常见鲜色甜香。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Nepenthes ampullaria"
+    },
+    {
+      "id": "cw-lithops",
+      "conceptId": "wildlife-lithops",
+      "term": "生石花",
+      "aliases": [],
+      "explanation": "地上看见的石子状身体，主要由一对肥厚叶片构成，中间留着裂缝。每年它会更新出一对叶，叶尖的透明窗状组织让阳光进入叶内；花也能从裂缝里钻出来，打破石头一样的外表。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Lithops (Living Stones) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/lithops/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L14–16",
+          "evidence": "一对厚叶、年换叶；顶有透光窗；裂隙出花。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-ravenala-madagascariensis",
+      "conceptId": "wildlife-ravenala-madagascariensis",
+      "term": "旅人蕉",
+      "aliases": [],
+      "explanation": "旅人蕉把大叶排成巨大的扇面，叶基还能储存水分，帮助它应对干燥。幼株的树干最初藏在地下，看起来像一把直接从地面升起的扇子；随着长大，带有一圈圈旧叶痕的树干才逐渐显露。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Ravenala madagascariensis (Traveller's Palm, Traveller's Tree) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/ravenala-madagascariensis/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L11–16",
+          "evidence": "幼干地下，扇叶地生；长大干露、留叶痕；叶基储水。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-platycerium-bifurcatum",
+      "conceptId": "wildlife-platycerium-bifurcatum",
+      "term": "鹿角蕨",
+      "aliases": [],
+      "explanation": "鹿角蕨的叶子分工明确：贴住树干的盾状叶覆盖根部，并接住落叶等杂物，像给自己备了一堆堆肥；向外伸展的鹿角状叶则负责光合作用并承载孢子囊。它借树支撑，却不从树体吸取养分。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Platycerium bifurcatum (Common Staghorn Fern, Elkhorn Fern, Staghorn Fern) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/platycerium-bifurcatum/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L17–20",
+          "evidence": "盾叶接落叶盖根；鹿角叶光合产孢；附生非寄生。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-tillandsia-usneoides",
+      "conceptId": "wildlife-tillandsia-usneoides",
+      "term": "松萝铁兰",
+      "aliases": [],
+      "explanation": "像灰白胡须一样悬挂在枝头的松萝铁兰，成年植株并没有根，主要靠茎叶表面的鳞片获取水分和养分。它属于凤梨科而非真正的苔藓，风吹落的小段挂到合适支撑物上也可继续生长。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Tillandsia usneoides (Graybeard, Long Moss, Old Man's Beard, Spanish Moss) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/tillandsia-usneoides/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L15–18",
+          "evidence": "成株无根，灰鳞吸水养分；凤梨科附生，可碎段繁殖。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-amorphophallus-konjac",
+      "conceptId": "wildlife-amorphophallus-konjac",
+      "term": "魔芋",
+      "aliases": [],
+      "explanation": "魔芋开花时，肉穗花序能够升温，并散发像腐肉的气味，吸引食腐性的蝇等昆虫帮助传粉。平常看起来像一棵小树的叶片，实际可以只是地下球茎长出的一片巨大复叶，花与叶各有用途。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Amorphophallus konjac (Devil's Tongue, Elephant Yam, Konjac, Konnyaku Potato, Snake Palm, Voodoo lily) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/amorphophallus-konjac/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L17–22",
+          "evidence": "一片巨大叶及花茎；花序升温发腐肉味引蝇传粉。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Amorphophallus konjac"
+    },
+    {
+      "id": "cw-aristolochia-gigantea",
+      "conceptId": "wildlife-aristolochia-gigantea",
+      "term": "巨花马兜铃",
+      "aliases": [],
+      "explanation": "巨花马兜铃的花像一块带浅色脉纹的紫红天鹅绒，尺寸能大得出奇，主要用浓烈气味吸引蝇来传粉。它的叶子对某些取食马兜铃的凤蝶幼虫却有危险，不能把同属植物都视为等效食物。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Aristolochia gigantea (Brazilian Dutchman's Pipe, Giant Dutchman's Pipe, Giant Pelican Flower, Giant Pipevine) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/aristolochia-gigantea/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L19–22",
+          "evidence": "巨幅紫红浅脉花，强味引蝇；对管藤凤蝶幼虫有毒。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-oxalis-triangularis",
+      "conceptId": "wildlife-oxalis-triangularis",
+      "term": "紫叶酢浆草",
+      "aliases": [],
+      "explanation": "三片紫色小叶像一群停在枝头的蝴蝶，夜里会合拢，白天再舒展。地下的根茎还有一片片储水储养分的鳞叶，既能帮助它渡过休眠期，分离出来也可以用于繁殖，外表柔弱却有地下储备。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Oxalis triangularis (False Shamrock, Love Plant, Purple Shamrock, Purple Wood Sorrel) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/oxalis-triangularis/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L21–24",
+          "evidence": "小叶夜合；鳞叶状根茎储水养分，鳞叶可繁殖。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-utricularia",
+      "conceptId": "wildlife-utricularia",
+      "term": "狸藻",
+      "aliases": [],
+      "explanation": "狸藻有微小的囊状陷阱，入口配着能被细毛触发的活门。小生物碰到后，门会极快打开，把猎物连水一起吸进囊内，再迅速关上；这一属没有真正的根，许多种类生活在水中或湿地。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Utricularia (Bladderwort) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/utricularia/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L12–16",
+          "evidence": "囊门触毛触发迅速吸猎物闭门；无真根。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-pinguicula",
+      "conceptId": "wildlife-pinguicula",
+      "term": "捕虫堇",
+      "aliases": [],
+      "explanation": "捕虫堇的肥厚叶片摸起来油润，表面却是一张能粘住小昆虫的天然捕虫纸。它在这片叶面上完成捕获和消化，补充贫瘠土壤中缺少的养分；它不必像捕蝇草那样把两片叶夹合起来。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Pinguicula (Butterwort) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/pinguicula/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L10–12",
+          "evidence": "油润叶面黏捕消化小虫，静态粘纸式陷阱。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-darlingtonia-californica",
+      "conceptId": "wildlife-darlingtonia-californica",
+      "term": "眼镜蛇瓶子草",
+      "aliases": [],
+      "explanation": "它的管状叶顶端弯起，外形容易让人想到昂首的眼镜蛇。昆虫被蜜吸引，钻进罩下的入口后，向下的毛阻住退路；瓶底微生物分解落入的猎物，释放出的养分再由植物吸收。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Darlingtonia californica (California Pitcher Plant, Chrysamphora, Cobra Lily, Cobra Orchid, Cobra Plant) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/darlingtonia-californica/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L14–16",
+          "evidence": "管叶罩下入口诱虫；下指毛防逃；微生物分解供养。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Darlingtonia californica"
+    },
+    {
+      "id": "cw-asclepias-syriaca",
+      "conceptId": "wildlife-asclepias-syriaca",
+      "term": "叙利亚马利筋",
+      "aliases": [],
+      "explanation": "折伤的茎叶会流出乳白汁液，种子则带着一簇簇毛，能借风传播。这种植物还为帝王蝶幼虫提供食物，花朵给成蝶及其他传粉者提供花蜜；同一植株在昆虫生命不同阶段都派上用场。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Asclepias syriaca (Common Milkweed) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/asclepias-syriaca/",
+          "checkedAt": "2026-10-22",
+          "section": "Description及Quick ID Hints，L18–27",
+          "evidence": "茎叶伤流乳汁；毛簇种风散；帝王蝶幼虫宿主与花蜜源。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-ceropegia-woodii",
+      "conceptId": "wildlife-ceropegia-woodii",
+      "term": "爱之蔓",
+      "aliases": [],
+      "explanation": "爱之蔓细长的藤上串着心形叶片，节间还会长出像小珠子的气生块茎。带着小块茎的枝条接触土壤，就可能生根变成新植株；它的管状花有时会暂时困住昆虫，但这不是靠吃虫取食的植物。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Ceropegia woodii (Bushman's Pipe, Chain of Hearts, Chinese Lantern, Necklace Vine, Rosary Vine, String of Hearts, Sweetheart Vine) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/ceropegia-woodii/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L20–23",
+          "evidence": "藤上气生块茎接土生根；管花可困虫而非食虫。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-hoya-carnosa",
+      "conceptId": "wildlife-hoya-carnosa",
+      "term": "球兰",
+      "aliases": [],
+      "explanation": "球兰开过花留下的短花梗并非一次性用品，之后几年仍可能在同一位置继续开花。因此把残花连同花梗剪掉，会一并剪去未来的花位；它的厚肉叶和附生攀爬习性又让整株看起来很耐存。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Hoya carnosa (Honey Plant, Porcelainflower, Porcelain Flower, Wax Plant) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/hoya-carnosa/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L20–24",
+          "evidence": "多年重复从同一花梗开花；厚叶，附生藤本。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Hoya carnosa"
+    },
+    {
+      "id": "cw-impatiens-capensis",
+      "conceptId": "wildlife-impatiens-capensis",
+      "term": "斑点凤仙花",
+      "aliases": [],
+      "explanation": "这种凤仙花成熟的蒴果会突然弹开，把种子甩向四周，属名中不耐烦的含义就与这种急促散种方式有关。叶面的露水或雨水又常聚成闪亮水珠，因此英语中还有宝石草这样的名字。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Impatiens capensis (Jewelweed, Jewel Weed, Orange Balsam, Orange Jewelweed, Orange Touch-me-not, Speckled Jewels, Spotted Jewelweed, Spotted Touch-me-not, Wild Balsam) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/impatiens-capensis/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L27–31",
+          "evidence": "成熟蒴果弹裂散种；叶面聚亮水珠，Jewelweed名由来。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-hamamelis-virginiana",
+      "conceptId": "wildlife-hamamelis-virginiana",
+      "term": "北美金缕梅",
+      "aliases": [],
+      "explanation": "北美金缕梅能在深秋到冬季开放带状、皱曲的黄色花瓣，同一株上还可能同时见到花和果。它的属名就与这种花果同在的情形有关，枝头既有像细纸条的花，也可能挂着逐渐木质化的果壳。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Hamamelis virginiana (Common Witchhazel, Common Witch Hazel, Southern Witch Hazel, Witch Hazel, Witch-Hazel) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/hamamelis-virginiana/",
+          "checkedAt": "2026-10-22",
+          "section": "Description及Fruit/Flowers，L19–21、129、149",
+          "evidence": "可花果同存；秋冬黄条状皱瓣；蒴果成熟木质化。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-euphorbia-pulcherrima",
+      "conceptId": "wildlife-euphorbia-pulcherrima",
+      "term": "一品红",
+      "aliases": [],
+      "explanation": "一品红最抢眼的红色部分并不是花瓣，而是围在小花周围的叶状苞片。真正的花很小，聚在中央的杯状结构里；园艺品种的苞片还可呈粉色、白色或混色，让叶子担当主要展示角色。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Euphorbia pulcherrima (Christmas Flower, Christmas Star, Flame-Leaf Flower, Mexican Easter Flower, Painted Leaf, Poinsettia) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/euphorbia-pulcherrima/",
+          "checkedAt": "2026-10-22",
+          "section": "Description及Flowers，L26、125",
+          "evidence": "显眼彩色为苞片，中央小黄花；苞片有多种园艺色。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Euphorbia pulcherrima"
+    },
+    {
+      "id": "cw-cornus-canadensis",
+      "conceptId": "wildlife-cornus-canadensis",
+      "term": "加拿大草茱萸",
+      "aliases": [],
+      "explanation": "这株贴近地面生长的小植物，常把中央的一簇小花围在四片醒目的白色苞片之间，看起来像一朵大白花。它能用地下根茎向周围蔓延，花后又结出一簇亮红色小果，在林下形成成片景观。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Cornus canadensis (Bunchberry, Canadian Bunchberry, Canadian Dwarf Cornel, Dwarf Dogwood, Quatre-temps) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/cornus-canadensis/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L18–22",
+          "evidence": "低矮根茎地被；4白苞围花簇；晚夏红果至秋。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-sarracenia-psittacina",
+      "conceptId": "wildlife-sarracenia-psittacina",
+      "term": "鹦鹉瓶子草",
+      "aliases": [],
+      "explanation": "它的捕虫叶并不像许多瓶子草那样高高直立，而是常贴着地面展开，瓶口上方鼓起一个带白色窗斑的罩。带红色的弯曲瓶顶像鹦鹉嘴，植株还能承受季节性淹水，在酸湿地面继续生活。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Sarracenia psittacina (Parrot Beaks, Parrot Pitcher Plant) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/sarracenia-psittacina/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L17–20",
+          "evidence": "捕虫叶伏地；气球罩有白窗斑；可耐季节洪淹。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Sarracenia psittacina"
+    },
+    {
+      "id": "cw-mirabilis-jalapa",
+      "conceptId": "wildlife-mirabilis-jalapa",
+      "term": "紫茉莉",
+      "aliases": [],
+      "explanation": "紫茉莉的花多在下午或傍晚开放，带着香气迎接蜂鸟和蛾等访客，英语俗名因此与四点钟联系起来。花色可以从白、黄到红，甚至带条纹；把观花时间推迟到日暮，是它显眼的生活节奏。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Mirabilis jalapa (Four-o'clock, Marvel-of-Peru) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/mirabilis-jalapa/",
+          "checkedAt": "2026-10-22",
+          "section": "Description及Flowers，L16、101",
+          "evidence": "花午后傍晚开、芳香，引蜂鸟蛾；花有多色条纹。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Mirabilis jalapa"
+    },
+    {
+      "id": "cw-oenothera-biennis",
+      "conceptId": "wildlife-oenothera-biennis",
+      "term": "月见草",
+      "aliases": [],
+      "explanation": "月见草第一年主要长出贴地叶丛，第二年才抽高开黄花。它的花带轻微柠檬香，吸引夜飞的蛾，也会在清晨花合拢前让蜜蜂完成传粉；同一株植物把不同时间的访客都纳入了繁殖过程。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Oenothera biennis (Common Evening Primrose, Evening Primrose, King's Cure All) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/oenothera-biennis/",
+          "checkedAt": "2026-10-22",
+          "section": "Description及Wildlife Value，L12、49",
+          "evidence": "二年生，首年莲座次年花；柠檬香引夜蛾，晨蜂传粉。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-cucumis-anguria",
+      "conceptId": "wildlife-cucumis-anguria",
+      "term": "刺瓜",
+      "aliases": [],
+      "explanation": "刺瓜的果实表面带着小刺、毛或疣状突起，幼果与长大后的表面质感会有变化。看似蔬菜的这部分在植物学上属于有硬外皮的瓠果；细长藤蔓还能借支撑物向上生长，把瓜悬在空中。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Cucumis anguria (Bur Gourd, Bur Gourds, Gherkin, Goareberry Gourd, Goareberry Gourds, Gooseberry Gourd, Gooseberry Gourds, Maroon Cucumber, Maroon Cucumbers, West Indian Gherkin, West Indian Gherkins, West Indian Gourd, West Indian Gourds) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/cucumis-anguria/",
+          "checkedAt": "2026-10-22",
+          "section": "Description及Fruit，L22、117",
+          "evidence": "Cucumis anguria；果皮毛刺疣，属于瓠果；蔓攀爬。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-kalanchoe-daigremontiana",
+      "conceptId": "wildlife-kalanchoe-daigremontiana",
+      "term": "宽叶落地生根",
+      "aliases": [],
+      "explanation": "宽叶落地生根会在叶片边缘排出一圈小植株，像在一张叶子上开了育苗场。这些小苗自身就能长叶和根，成熟后从母叶上自然落下，再开始独立生活，因此它也有千子之母一类的俗名。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Kalanchoe daigremontiana (Alligator Plant, Devil's Backbone, Maternity Plant, Mexican Hat Plant, Mother of Thousands) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/kalanchoe-daigremontiana/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L20",
+          "evidence": "叶缘长带叶根小苗，成熟自然落下；Mother of Thousands。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-ginkgo-biloba",
+      "conceptId": "wildlife-ginkgo-biloba",
+      "term": "银杏",
+      "aliases": [],
+      "explanation": "银杏树下看起来像小果子的东西，带着肉质外层，成熟后会散发明显难闻气味，包着的是种子。结种子的雌树因此常给街道清理带来麻烦，园艺上经常选择嫁接雄株；那层软肉并非果肉的通用模板。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Ginkgo biloba (Ginkgo, Maidenhair Tree) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/ginkgo-biloba/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L13–16",
+          "evidence": "雌树肉质种子外层臭，园艺常选嫁接雄株。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Ginkgo biloba"
+    },
+    {
+      "id": "cw-taxodium-distichum",
+      "conceptId": "wildlife-taxodium-distichum",
+      "term": "落羽杉",
+      "aliases": [],
+      "explanation": "生长在水边或水中的落羽杉，根部能伸出一个个高出地面的瘤状或圆锥状突起，像从泥里冒出的膝盖。它们是树根长出的结构；树干底部也常膨大，使整棵树在湿地显得格外粗壮。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Taxodium distichum (Baldcypress, Bald Cypress, Cypress, Swamp Cypress) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/taxodium-distichum/",
+          "checkedAt": "2026-10-22",
+          "section": "Description及Bark，L20、216",
+          "evidence": "水中常有瘤状锥状根膝突水面；基干膨大。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Taxodium distichum"
+    },
+    {
+      "id": "cw-victoria-amazonica",
+      "conceptId": "wildlife-victoria-amazonica",
+      "term": "亚马孙王莲",
+      "aliases": [],
+      "explanation": "亚马孙王莲第一晚开放的花带香味，吸引甲虫进入；次日花合上，把访客留在里面，花的功能也由雌性阶段转入散粉阶段。第二晚花再次打开，带上花粉的甲虫便能飞向别处的新花。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Victoria amazonica (Amazon Water Lily, Amazon Water-platter, Giant Water Lily, Royal Water Lily) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/victoria-amazonica/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L19",
+          "evidence": "初夜香花引甲虫，白天闭留虫，转雄后次夜释放携粉虫。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-passiflora-incarnata",
+      "conceptId": "wildlife-passiflora-incarnata",
+      "term": "肉色西番莲",
+      "aliases": [],
+      "explanation": "肉色西番莲有一个英语俗名叫maypop，与它的卵形果实被压破时会发出爆裂声有关。果实外层有韧性，成熟后转黄，内部有棕色种子；藤蔓上醒目的冠状花又让它很适合攀在架子上展示。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Passiflora incarnata (Apricot Vine, Maypop, Passionflower, Passion Flower, Passion Vine) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/passiflora-incarnata/",
+          "checkedAt": "2026-10-22",
+          "section": "Description及Fruit，L16、127",
+          "evidence": "P. incarnata卵形韧皮果成熟黄，压碎会pop。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Passiflora incarnata"
+    },
+    {
+      "id": "cw-arisaema-triphyllum",
+      "conceptId": "wildlife-arisaema-triphyllum",
+      "term": "三叶天南星",
+      "aliases": [],
+      "explanation": "三叶天南星的花序像一个站在罩下的小人：中间棒状肉穗花序被称作杰克，外面弯覆的佛焰苞像讲坛。真正的小花藏在棒状结构基部，花序外罩有绿、紫及条纹变化，之后还能露出红色浆果。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Arisaema triphyllum (Bog onion, Brown dragon, Common Jack-in-the-Pulpit, Devil's ear, Dragon root, Indian Cradle, Indian Jack in The Pulpit, Indian Turnip, Jack-in-the-pulpit, Lady-in-a-chaise, Lord-and-Lady, Memory root, Parson-in-the-Pulpit, Pepper turnip, Starch wort, Three-leaved indian turnip, Wake robin, Wild turnip) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/arisaema-triphyllum/",
+          "checkedAt": "2026-10-22",
+          "section": "Description及Flowers，L30–31、150",
+          "evidence": "棒花序如Jack与pulpit佛焰苞；基部小花，后结红果。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Arisaema triphyllum"
+    },
+    {
+      "id": "cw-lycoris-radiata",
+      "conceptId": "wildlife-lycoris-radiata",
+      "term": "石蒜",
+      "aliases": [],
+      "explanation": "石蒜开红花时，花葶上往往看不到叶子；到了花期之后，灰绿色叶片才出现，并在冬季保留，到春季又枯退。花和叶分别在不同季节承担展示与生长工作，形成花叶难同见的外观。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Lycoris radiata (Equinox Flower, Hurricane Lily, Naked Lily, Red Magic Lily, Red Spider Lily, Red Surprise Lily, Spider Lily) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/lycoris-radiata/",
+          "checkedAt": "2026-10-22",
+          "section": "Quick ID Hints，L29–30",
+          "evidence": "8–9月裸葶花；10月出叶越冬春枯。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Lycoris radiata"
+    },
+    {
+      "id": "cw-strelitzia-reginae",
+      "conceptId": "wildlife-strelitzia-reginae",
+      "term": "鹤望兰",
+      "aliases": [],
+      "explanation": "鹤望兰的花看起来像鸟头，其中两片蓝色花瓣连在一起，形成箭头状的结构。鸟停上去喝花蜜时，花瓣受力展开，让花粉粘到鸟脚上；这副华丽外形同时也是一套能借访客重量工作的传粉装置。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Strelitzia reginae (Bird of Paradise, Bird of Paradise Flower, Bird-of-Paradise-Flower, Bird's Tongue Flower, Canna-leaved Strelitzia, Crane Flower) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/strelitzia-reginae/",
+          "checkedAt": "2026-10-22",
+          "section": "Flowers，L110",
+          "evidence": "两蓝瓣合箭状，鸟站取蜜时展开，把粉涂脚。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Strelitzia reginae"
+    },
+    {
+      "id": "cw-gossypium-hirsutum",
+      "conceptId": "wildlife-gossypium-hirsutum",
+      "term": "棉铃",
+      "aliases": [],
+      "explanation": "棉铃是棉花结出的蒴果，里面同时装着种子和长短不一的纤维；我们熟悉的柔软白团来自果实内部，并非棉花的花瓣。陆地棉同株还有不同分工的枝条，花和果主要长在专门的结果枝上。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 3,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Gossypium hirsutum (Mexican Cotton, Upland Cotton) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/gossypium-hirsutum/",
+          "checkedAt": "2026-10-22",
+          "section": "Description及Fruit，L14、76",
+          "evidence": "棉铃为含种与长短纤维蒴果；有营养枝及结果枝。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-maranta-leuconeura",
+      "conceptId": "wildlife-maranta-leuconeura",
+      "term": "祈祷草",
+      "aliases": [],
+      "explanation": "白天叶片大致平展，夜间却能抬起并折叠，像合在一起的祈祷双手，祈祷草因此得名。叶上常有鱼骨状脉纹和深色斑，刚长出的新叶还卷成细筒；它的日常动作比不显眼的小花更引人注意。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Maranta leuconeura (Cathedral Windows, Herringbone Plant, Prayer Plant, Rabbit Tracks, Red-Veined Prayer Plant) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L21–23",
+          "evidence": "昼叶平夜竖合掌；新叶卷筒，鱼骨状红脉。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-symplocarpus-foetidus",
+      "conceptId": "wildlife-symplocarpus-foetidus",
+      "term": "美洲臭菘",
+      "aliases": [],
+      "explanation": "美洲臭菘在叶子展开前就把花序推出地面，还能靠自身代谢产热，融开周围积雪。紫褐色外罩包着小花，受伤时花叶散发难闻气味，类似腐败组织的味道又能吸引传粉昆虫，是一株早春发热的湿地植物。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Symplocarpus foetidus (Eastern Skunk Cabbage, Meadow Cabbage, Polecat Weed, Skunk Cabbage, Skunk Weed, Swamp Cabbage) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/symplocarpus-foetidus/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L17–19",
+          "evidence": "花先叶出、化学产热融雪；腐肉样气味引传粉虫。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Symplocarpus foetidus"
+    },
+    {
+      "id": "cw-dracunculus-vulgaris",
+      "conceptId": "wildlife-dracunculus-vulgaris",
+      "term": "龙海芋",
+      "aliases": [],
+      "explanation": "龙海芋用巨大的暗色佛焰苞包着一根深色肉穗花序，散出的臭味把蝇和甲虫引进来。昆虫进入后不易立刻离开，往往要到传粉过程完成、结构开始萎蔫才脱身；后续红橙色浆果又会吸引鸟。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Dracunculus vulgaris (Black Arum, Dragon Arum, Dragon Lily, Vampire Lily) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/dracunculus-vulgaris/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L19–22",
+          "evidence": "臭味引蝇甲虫、暂时难离直到传粉后；红橙果引鸟。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-ricinus-communis",
+      "conceptId": "wildlife-ricinus-communis",
+      "term": "蓖麻",
+      "aliases": [],
+      "explanation": "蓖麻的种子光滑、带斑纹，外形像吸饱血的蜱，属名就来自拉丁语中的蜱。它的蒴果外面有密刺，种子却不能因看着像豆子就食用，其中含有强毒性的蓖麻毒蛋白，是醒目的观赏植物也是毒草。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Ricinus communis (African Wonder Tree, Castor Bean, Castor Bean Plant, Castor Oil Plant, Castor-oil Plant, Mole Bean Plant) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/ricinus-communis/",
+          "checkedAt": "2026-10-22",
+          "section": "Description及Quick ID Hints，L18–23、36",
+          "evidence": "属名Ricinus意为蜱，斑纹种似饱蜱；刺果，种有毒。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Ricinus communis"
+    },
+    {
+      "id": "cw-urtica-dioica",
+      "conceptId": "wildlife-urtica-dioica",
+      "term": "异株荨麻",
+      "aliases": [],
+      "explanation": "异株荨麻的叶和茎带有蜇毛，皮肤碰到后可能出现一阵灼热和瘙痒，像一片会发出触碰警告的草丛。它还能通过地下根茎和种子扩张，形成密密的一大片；微小花朵则主要借风传粉。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Urtica dioica (Common Nettle, Stinging Nettle) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/urtica-dioica/",
+          "checkedAt": "2026-10-22",
+          "section": "Description、Flowers及Poisonous to Humans，L13、107、157",
+          "evidence": "叶茎蜇毛致灼痒；根茎种子扩张群落；风媒花。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ]
+    },
+    {
+      "id": "cw-dracaena-angolensis",
+      "conceptId": "wildlife-dracaena-angolensis",
+      "term": "棒叶虎尾兰",
+      "aliases": [],
+      "explanation": "棒叶虎尾兰一根根直立的圆柱状肉叶，很容易被当成绿色细棍。商店里编成辫子的造型常由几根已生根的叶插材料组成，辫子属于人工整理；这些叶片还能存活很久，并从基部再长出新植株。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Dracaena angolensis (African Spear, Brazil Saint Bárbara Sword, Cylindrical Snake Plant, Spear Sansevieria) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/dracaena-angolensis/",
+          "checkedAt": "2026-10-22",
+          "section": "Description，L22–24",
+          "evidence": "圆柱叶；商品编辫为生根叶插，新株后从基部长出。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Dracaena angolensis"
+    },
+    {
+      "id": "cw-cercis-canadensis",
+      "conceptId": "wildlife-cercis-canadensis",
+      "term": "加拿大紫荆",
+      "aliases": [],
+      "explanation": "加拿大紫荆能在叶子出现前先开出成簇粉紫色花，有些花甚至直接从较老的树干上冒出。花过后形成豆荚，荚形像织布用的梭子，与它属名的由来有关；老枝并非只能担当运输和支撑。",
+      "packIds": [
+        "curious-wildlife"
+      ],
+      "category": "植物奇策",
+      "difficulty": 2,
+      "status": "verified",
+      "sources": [
+        {
+          "title": "Cercis canadensis (American Judas Tree, American Redbud, Eastern Redbud, Redbud) | North Carolina Extension Gardener Plant Toolbox",
+          "url": "https://plants.ces.ncsu.edu/plants/cercis-canadensis/",
+          "checkedAt": "2026-10-22",
+          "section": "Description及图注，L19–22、70",
+          "evidence": "先花后叶；页面图注展示干生花；荚像梭，属名由来。",
+          "evidenceType": "自撰事实摘要；已读网页正文"
+        }
+      ],
+      "scientificName": "Cercis canadensis"
+    }
+  ]
+}

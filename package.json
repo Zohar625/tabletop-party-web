@@ -1,0 +1,26 @@
+{
+  "name": "tabletop-party-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "preview": "vite preview --host 127.0.0.1",
+    "package:offline": "npm run build && node scripts/package-offline.mjs",
+    "format": "prettier --write src tests/*.test.ts scripts/*.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "24.12.3",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "prettier": "^3.6.2",
+    "typescript": "6.0.2",
+    "vite": "8.0.12"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "packs": [
+    {
+      "id": "curious-wildlife",
+      "title": "奇妙动植物",
+      "file": "packs/curious-wildlife.json",
+      "version": "1.0.0",
+      "verifiedCount": 90,
+      "draftCount": 0,
+      "conceptCount": 90,
+      "status": "data-ready",
+      "playtestStatus": "pending",
+      "reviewFile": "editorial/curious-wildlife-review.md",
+      "scopeNote": "包括物种、特定结构与行为；词名中的拟人化比喻用于游戏提示，解释区分可证事实和未定功能。部分常见物种采用冷门结构切入。44题动物、46题植物，未涉及气象、水文或光学现象。"
+    },
+    {
+      "id": "ancient-artifacts-life",
+      "title": "古代器物与生活",
+      "file": "packs/ancient-artifacts-life.json",
+      "version": "1.0.0",
+      "verifiedCount": 90,
+      "draftCount": 0,
+      "conceptCount": 90,
+      "status": "data-ready",
+      "playtestStatus": "pending",
+      "reviewFile": "editorial/ancient-artifacts-life-review.md",
+      "scopeNote": "本包以传世《释名》所记物名与生活词义为准，不将古代声训当成现代科学词源，不将阴阳、礼俗解释泛化成现代事实，也不声称各物历代形制一致。不是职业题包。"
+    },
+    {
+      "id": "world-customs",
+      "title": "世界民俗",
+      "file": "packs/world-customs.json",
+      "version": "1.0.0",
+      "verifiedCount": 90,
+      "draftCount": 0,
+      "conceptCount": 90,
+      "status": "data-ready",
+      "playtestStatus": "pending",
+      "reviewFile": "editorial/world-customs-review.md",
+      "scopeNote": "地域依UNESCO官方条目的申报社区与说明界定，不代表一国所有人均实践；仪式中的神灵、愿望和疗愈观念按文化信仰描述。"
+    },
+    {
+      "id": "natural-science-phenomena",
+      "title": "自然与科学现象",
+      "file": "packs/natural-science-phenomena.json",
+      "version": "1.0.0",
+      "verifiedCount": 90,
+      "draftCount": 0,
+      "conceptCount": 90,
+      "status": "data-ready",
+      "playtestStatus": "pending",
+      "reviewFile": "editorial/natural-science-phenomena-review.md",
+      "scopeNote": "依据NWS、USGS、NASA官方词条核实核心定义，中文为自撰解释；少数冷门名称采用描述性译名，随题保留英文原词供核对。气象来源含历史术语，本包不采用其中过时的预警阈值、机构现状和预测数值，不作现场预报。"
+    },
+    {
+      "id": "ancient-chinese-occupations",
+      "title": "中国古代职业",
+      "file": "packs/ancient-chinese-occupations.json",
+      "version": "1.0.0",
+      "verifiedCount": 90,
+      "draftCount": 0,
+      "conceptCount": 90,
+      "status": "data-ready",
+      "playtestStatus": "pending",
+      "reviewFile": "editorial/ancient-chinese-occupations-review.md",
+      "scopeNote": "本包的古代职业是游戏题材统称，包含古籍所设官职、专业分工与工匠。全部按《周礼》原文职掌解释，不声称各职务曾在西周一律实际实行，也不泛化为中国各朝代通制。"
+    }
+  ]
+}

@@ -1,0 +1,2237 @@
+{
+  "schemaVersion": 1,
+  "id": "ancient-artifacts-life",
+  "title": "古代器物与生活",
+  "description": "90个古代服饰、陈设、书契、工具、饮食与出行概念，以《释名》原文词义为范围，保留解释细节，默认读卡10秒且不要求读完。",
+  "version": "1.0.0",
+  "language": "zh-CN",
+  "scopeNote": "本包以传世《释名》所记物名与生活词义为准，不将古代声训当成现代科学词源，不将阴阳、礼俗解释泛化成现代事实，也不声称各物历代形制一致。不是职业题包。",
+  "recommendedReadSeconds": 10,
+  "editorialStatus": "source-checked-playtest-pending",
+  "questions": [
+    {
+      "id": "aal-xuanduan",
+      "conceptId": "artifact-shiming-xuanduan",
+      "term": "玄端",
+      "aliases": [],
+      "explanation": "《释名》记载的一种衣服，袖下裁制正直端方，并与腰部相接。书中用这种方正的形状说明衣名中的“端”。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·玄端",
+          "evidence": "其袖下正直端方與要接也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-suji",
+      "conceptId": "artifact-shiming-suji",
+      "term": "素积",
+      "aliases": [],
+      "explanation": "《释名》所说的白色下裳，腰间做有折叠聚拢的褶积，使腰部收束。名称结合了素色与腰间积褶两个特点。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·素积",
+          "evidence": "素裳也。辟積其要中，使踧",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-huiyi",
+      "conceptId": "artifact-shiming-huiyi",
+      "term": "袆衣",
+      "aliases": [
+        "褘衣"
+      ],
+      "explanation": "《释名》所说王后的上等服装，衣上画有翚雉纹样。书中描述这种雉为青色底、五色齐备，以此说明衣饰图案。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·袆衣",
+          "evidence": "王后之上服曰褘衣，畫翬雉之文於衣也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-quedi",
+      "conceptId": "artifact-shiming-quedi",
+      "term": "阙翟",
+      "aliases": [
+        "闕翟"
+      ],
+      "explanation": "《释名》所记的一种服装，把丝织物剪成翟雉的形状，再缀到衣服上。其装饰特点是剪制后附缀鸟形，而非直接画鸟。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·阙翟",
+          "evidence": "翦闕繒為翟雉形，似綴衣也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-juyi",
+      "conceptId": "artifact-shiming-juyi",
+      "term": "鞠衣",
+      "aliases": [],
+      "explanation": "《释名》记载的一种黄色衣服，书中以菊花的颜色说明衣名。本题采用这一古服名的色彩特征。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·鞠衣",
+          "evidence": "黃如菊花色也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-zhanyi",
+      "conceptId": "artifact-shiming-zhanyi",
+      "term": "襢衣",
+      "aliases": [],
+      "explanation": "《释名》所记的一种纯白、没有文彩装饰的衣服。原文以“坦然正白”说明它的素白外观。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·襢衣",
+          "evidence": "坦然正白無文彩也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-tuanyi",
+      "conceptId": "artifact-shiming-tuanyi",
+      "term": "褖衣",
+      "aliases": [],
+      "explanation": "《释名》以黑色说明的一种服装名称。它与按黄、白等颜色描述的衣名相邻，此处采用黑色衣服这一古籍词义。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·褖衣",
+          "evidence": "褖然黑色也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-bi-knee",
+      "conceptId": "artifact-shiming-bi-knee",
+      "term": "韠",
+      "aliases": [
+        "蔽膝",
+        "跪襜"
+      ],
+      "explanation": "《释名》所记遮在膝前的服饰，妇人的蔽膝也有类似用途。书中还记“跪襜”这一叫法，联系跪下时布幅展开的形状。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·韠",
+          "evidence": "所以蔽膝前也，婦人蔽膝亦如之",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-zhongyi",
+      "conceptId": "artifact-shiming-zhongyi",
+      "term": "中衣",
+      "aliases": [],
+      "explanation": "《释名》按穿衣层次命名的衣服，穿在小衣之外、大衣之内。“中”指其处在内外两层衣物之间的位置。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·中衣",
+          "evidence": "在小衣之外、大衣之中也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-pafu",
+      "conceptId": "artifact-shiming-pafu",
+      "term": "帕腹",
+      "aliases": [],
+      "explanation": "《释名》记载横向遮覆腹部的一种衣物。它与抱腹、心衣相邻记载，原文对这一名称的说明集中在覆盖方向与部位。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·帕腹",
+          "evidence": "橫帕其腹也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-baofu",
+      "conceptId": "artifact-shiming-baofu",
+      "term": "抱腹",
+      "aliases": [],
+      "explanation": "《释名》所记围裹腹部的衣物，上下设有带子，用来固定布幅。原文以“抱裹其腹”说明它的穿着方式。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·抱腹",
+          "evidence": "上下有帶，抱裹其腹，上無襠者也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-xinyi",
+      "conceptId": "artifact-shiming-xinyi",
+      "term": "心衣",
+      "aliases": [],
+      "explanation": "《释名》所记的一种内衣，在抱腹的基础上加钩肩，并在钩肩之间设置遮胸的部分，因此既覆腹部，又遮胸前。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·心衣",
+          "evidence": "抱腹而施鉤肩，鉤肩之間，施一襠以奄心也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-fanbi",
+      "conceptId": "artifact-shiming-fanbi",
+      "term": "反闭",
+      "aliases": [],
+      "explanation": "《释名》所记的一种小襦，反向穿着，领口转到背后，衣襟也从后方闭合。名称与这种背后合襟的穿法相关。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·反闭",
+          "evidence": "襦之小者也。卻向著之，領反於背，後閉其襟也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-gui-garment",
+      "conceptId": "artifact-shiming-gui-garment",
+      "term": "袿",
+      "aliases": [],
+      "explanation": "《释名》所记妇人的上衣，下垂部分上宽下窄。书中用刀圭的轮廓比拟这一收窄的形状。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·袿",
+          "evidence": "婦人上服曰袿，其下垂者，上廣下狹，如刀圭也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-pei-cape",
+      "conceptId": "artifact-shiming-pei-cape",
+      "term": "帔",
+      "aliases": [],
+      "explanation": "《释名》所记披在肩背上的衣物，覆盖范围不到身体下部。原文用“披”来说明衣名，主要描述其穿法与覆盖位置。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·帔",
+          "evidence": "披之肩背不及下也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-quling",
+      "conceptId": "artifact-shiming-quling",
+      "term": "曲领",
+      "aliases": [],
+      "explanation": "《释名》所记的内层衣领，横围颈部，形状弯曲。书中将它与直领、交领分别列出，按所在位置和轮廓辨认。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·曲领",
+          "evidence": "在內，以中襟領上，橫壅頸其狀曲也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-liumu",
+      "conceptId": "artifact-shiming-liumu",
+      "term": "留幕",
+      "aliases": [],
+      "explanation": "《释名》记载的冀州衣物名称，指长至膝部的大褶。书中以牢固包络在外的意思解释这个地方叫法。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·留幕",
+          "evidence": "冀州所名，大褶下至膝者也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-hanyi",
+      "conceptId": "artifact-shiming-hanyi",
+      "term": "汗衣",
+      "aliases": [],
+      "explanation": "《释名》所说贴身承受汗液、污垢的衣服，裁制到足以覆盖胸背。书中还记录了几个与遮蔽身体有关的别名。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·汗衣",
+          "evidence": "近身受汗垢之衣也；裁足覆胸背",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-xingteng",
+      "conceptId": "artifact-shiming-xingteng",
+      "term": "行縢",
+      "aliases": [
+        "偪"
+      ],
+      "explanation": "《释名》所记包裹腿脚的束缚物，又称“偪”。书中说明其用途是裹束腿脚，使行走、跳腾更轻便。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·行縢",
+          "evidence": "以裹腳可以跳騰輕便也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-xi-shoe",
+      "conceptId": "artifact-shiming-xi-shoe",
+      "term": "舄",
+      "aliases": [],
+      "explanation": "《释名》所记底部增加叠层的鞋。书中说行礼可能久站，地面又可能泥湿，因此在鞋下加层以保持干燥。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·舄",
+          "evidence": "行禮久立，地或泥濕，故複其末下，使乾腊也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-jue-shoe",
+      "conceptId": "artifact-shiming-jue-shoe",
+      "term": "屩",
+      "aliases": [],
+      "explanation": "《释名》记载外出穿的一种鞋，原文强调穿着轻便，并用轻快的状态说明名称。此处采用足服这一具体词义。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·屩",
+          "evidence": "出行著之蹻蹻輕便因以為名也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-boji",
+      "conceptId": "artifact-shiming-boji",
+      "term": "帛屐",
+      "aliases": [],
+      "explanation": "《释名》所记以帛制作的足服，形似屩，却能够踏泥并洗涤。书中以是否能踏泥来解释为何称“屐”。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·帛屐",
+          "evidence": "以帛作之，如屩者；亦可以步泥而浣之",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-sa-shoe",
+      "conceptId": "artifact-shiming-sa-shoe",
+      "term": "靸",
+      "aliases": [],
+      "explanation": "《释名》所记皮革鞋的一类，前部较深，能较深地包覆足部。原文以这种覆盖形态说明名称。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·靸",
+          "evidence": "韋履深頭者之名也；以其深襲覆足也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-yangjiao",
+      "conceptId": "artifact-shiming-yangjiao",
+      "term": "仰角",
+      "aliases": [],
+      "explanation": "《释名》所记在屐上设置履的一种足服。书中说行走时需仰起鞋角、举足而行，因此用这个动作说明名称。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "衣着与足服",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释衣服第十六·仰角",
+          "evidence": "屐上施履之名也；當仰履角舉足乃行也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-jian-silk",
+      "conceptId": "artifact-shiming-jian-silk",
+      "term": "缣",
+      "aliases": [
+        "縑"
+      ],
+      "explanation": "《释名》所记的一类丝织物，丝线细致，组织比布、绢更密。书中还谈到把这种细密织物染成五色的情况。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "丝帛与织物",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释彩帛第十四·缣",
+          "evidence": "其絲細緻，數兼於布絹也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-lian-silk",
+      "conceptId": "artifact-shiming-lian-silk",
+      "term": "练",
+      "aliases": [
+        "練"
+      ],
+      "explanation": "《释名》所记经过煮治的丝帛，名称在丝织物条目中用“煮使委烂”说明，强调材料经过煮治加工的状态。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "丝帛与织物",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释彩帛第十四·练",
+          "evidence": "煮使委爛也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-qi-silk",
+      "conceptId": "artifact-shiming-qi-silk",
+      "term": "绮",
+      "aliases": [
+        "綺"
+      ],
+      "explanation": "《释名》所记带纹样的丝织物，纹样斜向，不顺经纬纵横。书中还列出杯形、棋盘形等纹样，以及彩色相间的长命纹。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "丝帛与织物",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释彩帛第十四·绮",
+          "evidence": "其文欹邪，不順經緯之縱橫也；有杯文",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-hu-silk",
+      "conceptId": "artifact-shiming-hu-silk",
+      "term": "縠",
+      "aliases": [],
+      "explanation": "《释名》所记表面有细小皱缩的织物，书中把起伏的样子比作粟粒。又有“沙縠”的叫法，取如细沙般的褶纹外观。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "丝帛与织物",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释彩帛第十四·縠",
+          "evidence": "其形足足而踧視之如粟也；又謂沙縠",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-wan-silk",
+      "conceptId": "artifact-shiming-wan-silk",
+      "term": "纨",
+      "aliases": [
+        "紈"
+      ],
+      "explanation": "《释名》所记细致、润泽而有光的一类丝织物。原文以明亮的样子说明名称，辨认重点在织物质地与光泽。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "丝帛与织物",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释彩帛第十四·纨",
+          "evidence": "細澤有光渙渙然也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-qianli",
+      "conceptId": "artifact-shiming-qianli",
+      "term": "牵离",
+      "aliases": [
+        "牽離"
+      ],
+      "explanation": "《释名》在茧絮条目中记载的一种丝绵状衣料，把茧煮治后加以牵引，使其离散如绵。名称与牵拉、分散的加工动作相联系。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "丝帛与织物",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释彩帛第十四·牵离",
+          "evidence": "煮熟爛，牽引使離散如緜然也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-ping-board",
+      "conceptId": "artifact-shiming-ping-board",
+      "term": "枰",
+      "aliases": [],
+      "explanation": "《释名》床帐篇所记用木板制成、形体平正的一种陈设。它与床、几、席等坐卧用品并列，此处采用板制平整器具这一词义。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "居室陈设",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释床帐第十八·枰",
+          "evidence": "以板作其體平正也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-tadeng",
+      "conceptId": "artifact-shiming-tadeng",
+      "term": "榻登",
+      "aliases": [],
+      "explanation": "《释名》所记帮助登床的陈设，设置在大床前的小榻上。人可借它踩踏而登上较高的床。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "居室陈设",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释床帐第十八·榻登",
+          "evidence": "施大床之前小榻之上所以登床也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-diaoxi",
+      "conceptId": "artifact-shiming-diaoxi",
+      "term": "貂席",
+      "aliases": [],
+      "explanation": "《释名》所记用貂皮接连做成的席。原文强调“连貂皮”，即以多张皮连接为铺垫物。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "居室陈设",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释床帐第十八·貂席",
+          "evidence": "連貂皮以爲席也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-yi-canopy",
+      "conceptId": "artifact-shiming-yi-canopy",
+      "term": "帟",
+      "aliases": [],
+      "explanation": "《释名》所记张设在上方的一种小幕。原文将它与围障周围的帷、张在床上的帐分别记载。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "居室陈设",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释床帐第十八·帟",
+          "evidence": "小幕曰帟張在上帟帟然也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-douzhang",
+      "conceptId": "artifact-shiming-douzhang",
+      "term": "斗帐",
+      "aliases": [],
+      "explanation": "《释名》把一种小帐称为“斗”，因其形状像倒扣的斗。它属于床上张设的帐幕，名称来自外形。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "居室陈设",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释床帐第十八·斗帐",
+          "evidence": "小帳曰斗形如覆斗也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-tie-curtain",
+      "conceptId": "artifact-shiming-tie-curtain",
+      "term": "帖",
+      "aliases": [],
+      "explanation": "《释名》所说垂在床前的帷幕，书中以它下垂的状态解释名称。本题采用床前帘幕义。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "居室陈设",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释床帐第十八·帖",
+          "evidence": "床前帷曰帖言帖帖而垂也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-wo-tent",
+      "conceptId": "artifact-shiming-wo-tent",
+      "term": "幄",
+      "aliases": [],
+      "explanation": "《释名》所记形状像屋的帐幕，用帛包覆板材后张设起来。织物与板材共同组成屋状的围覆结构。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "居室陈设",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释床帐第十八·幄",
+          "evidence": "以帛衣板施之形如屋也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-chengchen",
+      "conceptId": "artifact-shiming-chengchen",
+      "term": "承尘",
+      "aliases": [],
+      "explanation": "《释名》所记设置在上方、承接尘土的陈设。它先接住从顶部落下的灰尘，名称直接说明所在位置与功能。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "居室陈设",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释床帐第十八·承尘",
+          "evidence": "施於上承塵土也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-bobi",
+      "conceptId": "artifact-shiming-bobi",
+      "term": "搏辟",
+      "aliases": [],
+      "explanation": "《释名》所记把席贴附在墙壁上的一种布置。原文以“以席搏著壁”说明做法，即将席设置到墙面上。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "居室陈设",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释床帐第十八·搏辟",
+          "evidence": "以席搏著壁也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-yi-screen",
+      "conceptId": "artifact-shiming-yi-screen",
+      "term": "扆",
+      "aliases": [],
+      "explanation": "《释名》床帐篇所记位于身后的依倚、遮障之物。书中用“在后所依倚”说明名称，重点在它与人体的相对位置。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "居室陈设",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释床帐第十八·扆",
+          "evidence": "在後所依倚也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-zhan-felt",
+      "conceptId": "artifact-shiming-zhan-felt",
+      "term": "毡",
+      "aliases": [
+        "氊"
+      ],
+      "explanation": "《释名》所记毛相互附着而形成的材料，列在席、褥等用品之间。其质地特征是毛彼此贴合成片。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "居室陈设",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释床帐第十八·毡",
+          "evidence": "毛相著旃旃然也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-wei-curtain",
+      "conceptId": "artifact-shiming-wei-curtain",
+      "term": "帷",
+      "aliases": [],
+      "explanation": "《释名》所记用于围障自身的帘幕。它以垂设的布幅形成遮蔽范围，书中用围障的作用说明名称。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "居室陈设",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释床帐第十八·帷",
+          "evidence": "所以自障圍也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-hu-tablet",
+      "conceptId": "artifact-shiming-hu-tablet",
+      "term": "笏",
+      "aliases": [],
+      "explanation": "《释名》所记进见时使用的记事板，君主的命令、自己准备启告的事情，都可记在上面，以免遗忘。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "文书与凭信",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释书契第十九·笏",
+          "evidence": "君有教命及所啟白則書其上備忽忘也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-qian-tablet",
+      "conceptId": "artifact-shiming-qian-tablet",
+      "term": "椠",
+      "aliases": [],
+      "explanation": "《释名》所记长度三尺的书写板，列在书契篇中，与简、牍等材料并论。这里的三尺沿用古籍尺度。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "文书与凭信",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释书契第十九·椠",
+          "evidence": "板之長三尺者也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-du-tablet",
+      "conceptId": "artifact-shiming-du-tablet",
+      "term": "牍",
+      "aliases": [],
+      "explanation": "《释名》所记可手持进见的书写板。原文着眼于持板见人的使用场景，属于承载文字的实物。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "文书与凭信",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释书契第十九·牍",
+          "evidence": "手執之以進見所以爲恭睦也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-jian-seal",
+      "conceptId": "artifact-shiming-jian-seal",
+      "term": "检",
+      "aliases": [
+        "檢"
+      ],
+      "explanation": "《释名》书契篇所记封闭物品的封检用物，使物品不能随意打开、显露。这里采用封存器物的具体物义。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "文书与凭信",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释书契第十九·检",
+          "evidence": "禁閉諸物使不得開露也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-ye-card",
+      "conceptId": "artifact-shiming-ye-card",
+      "term": "谒",
+      "aliases": [
+        "謁"
+      ],
+      "explanation": "《释名》所记通报姓名的名帖，把自己的姓名写在上面，递给所要拜访的人，用于在进见前表明来者身份。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "文书与凭信",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释书契第十九·谒",
+          "evidence": "書其姓名於上以告所至詣者也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-fu-token",
+      "conceptId": "artifact-shiming-fu-token",
+      "term": "符",
+      "aliases": [],
+      "explanation": "《释名》书契篇所记传令凭信，把命令写在上面，交付使者传行。核心用途是使书面命令随使者送达。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "文书与凭信",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释书契第十九·符",
+          "evidence": "書所敕命於上付使傳行之也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-zhuan-pass",
+      "conceptId": "artifact-shiming-zhuan-pass",
+      "term": "传",
+      "aliases": [
+        "傳"
+      ],
+      "explanation": "《释名》书契篇所记人在转移地点时持用的凭证。持有者随身携带，以它为信，原文用转移所在的用途说明名称。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "文书与凭信",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释书契第十九·传",
+          "evidence": "轉移所在執以爲信也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-bie-contract",
+      "conceptId": "artifact-shiming-bie-contract",
+      "term": "莂",
+      "aliases": [],
+      "explanation": "《释名》所记分破的一种契约文书，先在中央写字，再从中间分开。名称与写成后分别持有的制作方式相关。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "文书与凭信",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释书契第十九·莂",
+          "evidence": "大書中央中破別之也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-juelici",
+      "conceptId": "artifact-shiming-juelici",
+      "term": "爵里刺",
+      "aliases": [
+        "爵里剌",
+        "长刺"
+      ],
+      "explanation": "《释名》所记的一种名帖，写有官爵及郡县乡里，用来交代身份与籍贯。书中又将它与“长刺”的名称联系。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "文书与凭信",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释书契第十九·爵里刺",
+          "evidence": "書其官爵及郡縣鄕里也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-ce-enfeoff",
+      "conceptId": "artifact-shiming-ce-enfeoff",
+      "term": "册",
+      "aliases": [
+        "冊"
+      ],
+      "explanation": "《释名》所记汉制中约束、告诫封侯者的文书。这里采用封侯时带训诫内容的特定文书义。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "文书与凭信",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释书契第十九·册",
+          "evidence": "漢制約敕封侯曰冊",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-shi-pass",
+      "conceptId": "artifact-shiming-shi-pass",
+      "term": "示",
+      "aliases": [],
+      "explanation": "《释名》书契篇所记行旅凭证，人经过关津时取出来出示。名称来自持有者把凭据给关口、渡口人员查看的用途。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "文书与凭信",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释书契第十九·示",
+          "evidence": "過所至關津以示之也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-ji-register",
+      "conceptId": "artifact-shiming-ji-register",
+      "term": "籍",
+      "aliases": [],
+      "explanation": "《释名》所记登记人名、户口的簿籍，作用是把人员资料记录下来。这里采用户口名册的具体文书义。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "文书与凭信",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷六",
+          "title": "釋名/卷六 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释书契第十九·籍",
+          "evidence": "所以籍疏人名戸口也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-jia-flail",
+      "conceptId": "artifact-shiming-jia-flail",
+      "term": "枷",
+      "aliases": [
+        "连枷"
+      ],
+      "explanation": "《释名》用器篇所记打谷工具，在柄头加杖，用来击打谷穗，使谷粒脱出。这里采用农具义。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "工具与乐器",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释用器第二十一·枷",
+          "evidence": "加杖於柄頭以撾穗而出其穀也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-cha-spade",
+      "conceptId": "artifact-shiming-cha-spade",
+      "term": "锸",
+      "aliases": [
+        "鍤"
+      ],
+      "explanation": "《释名》所记插地起土的工具，先插入土层，再将土掀起。原文用“插”说明名称，并记有其他地方叫法。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "工具与乐器",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释用器第二十一·锸",
+          "evidence": "插地起土也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-zhi-sickle",
+      "conceptId": "artifact-shiming-zhi-sickle",
+      "term": "铚",
+      "aliases": [
+        "銍"
+      ],
+      "explanation": "《释名》所记断穗收获的铁制工具。书中用切断谷穗的声音解释名称，这属于古书的声训说法。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "工具与乐器",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释用器第二十一·铚",
+          "evidence": "穫忝鐵也；銍銍斷穗聲也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-jin-adze",
+      "conceptId": "artifact-shiming-jin-adze",
+      "term": "釿",
+      "aliases": [],
+      "explanation": "《释名》所记修整木板的工具，板宽或有节而难以斧削时，用它进一步修平，消除斧加工留下的痕迹。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "工具与乐器",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释用器第二十一·釿",
+          "evidence": "所以詳謹令平滅斧跡也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-si-plane",
+      "conceptId": "artifact-shiming-si-plane",
+      "term": "鐁",
+      "aliases": [],
+      "explanation": "《释名》所记木作工具，用于处理釿加工后仍存的高低痕迹，进一步把木面修平，处在较细的整平工序。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "工具与乐器",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释用器第二十一·鐁",
+          "evidence": "釿有高下之跡以此鐁彌其上而平之也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-bofu",
+      "conceptId": "artifact-shiming-bofu",
+      "term": "搏拊",
+      "aliases": [],
+      "explanation": "《释名》所记皮革中盛糠、形状像鼓的一种乐器，演奏时用手拍击。皮革、填糠与手拍是原文给出的特点。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "工具与乐器",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释乐器第二十二·搏拊",
+          "evidence": "以韋盛糠形如鼓以手附拍之也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-ju-stand",
+      "conceptId": "artifact-shiming-ju-stand",
+      "term": "虡",
+      "aliases": [],
+      "explanation": "《释名》所记悬鼓架上竖直的支撑构件，位于两旁，托起横梁簨。竖直的虡与横放的簨共同构成悬挂架。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "工具与乐器",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释乐器第二十二·虡",
+          "evidence": "所以懸鼓者橫曰簨；從曰虡，在旁舉簨也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-ye-board",
+      "conceptId": "artifact-shiming-ye-board",
+      "term": "业",
+      "aliases": [
+        "業"
+      ],
+      "explanation": "《释名》所记悬鼓架横梁簨上方的板，板上刻有像锯齿一样的齿状轮廓。这里采用乐器架构件这一物义。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "工具与乐器",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释乐器第二十二·业",
+          "evidence": "簨上之板曰業刻爲牙捷業如鋸齒也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-yu-stop",
+      "conceptId": "artifact-shiming-yu-stop",
+      "term": "敔",
+      "aliases": [],
+      "explanation": "《释名》所记用于止乐的一种乐器，作用是在演奏中发出收束音乐的信号。书中用“止”来说明它的用途。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "工具与乐器",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释乐器第二十二·敔",
+          "evidence": "衙止也所以止樂也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-han-porridge",
+      "conceptId": "artifact-shiming-han-porridge",
+      "term": "寒粥",
+      "aliases": [],
+      "explanation": "《释名》所记一种米食，把稻米碎末投入冷水中。原文以使用冷水来说明“寒”的特征。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "饮食与储藏",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释饮食第十三·寒粥",
+          "evidence": "末稻米投寒水中",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-qiu-ration",
+      "conceptId": "artifact-shiming-qiu-ration",
+      "term": "糗",
+      "aliases": [],
+      "explanation": "《释名》所记把做熟的饭再磨碎的一种粮食制品。书中用碎裂的状态说明名称，此处采用食物义。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "饮食与储藏",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释饮食第十三·糗",
+          "evidence": "飯而磨之，使齲碎也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-taolan",
+      "conceptId": "artifact-shiming-taolan",
+      "term": "桃滥",
+      "aliases": [],
+      "explanation": "《释名》所记水浸藏桃的食品，把桃放在水中保存，书中说其味偏酸。辨认特点是水浸储藏与酸味。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "饮食与储藏",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释饮食第十三·桃滥",
+          "evidence": "水漬而藏之，其味濫濫然酢也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-naifu",
+      "conceptId": "artifact-shiming-naifu",
+      "term": "柰脯",
+      "aliases": [],
+      "explanation": "《释名》所记把柰切开、曝晒干燥制成的果脯。原文以“如脯”说明晒干后的状态，果名沿用古籍的“柰”。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "饮食与储藏",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释饮食第十三·柰脯",
+          "evidence": "切柰暴乾之如脯也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-xiexu",
+      "conceptId": "artifact-shiming-xiexu",
+      "term": "蟹胥",
+      "aliases": [],
+      "explanation": "《释名》所记储藏蟹的一种加工食品，使蟹的壳肉逐渐解离。书中以这种散解状态说明名称。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "饮食与储藏",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释饮食第十三·蟹胥",
+          "evidence": "取蟹藏之，使骨肉解之",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-xieji",
+      "conceptId": "artifact-shiming-xieji",
+      "term": "蟹齑",
+      "aliases": [
+        "蟹虀"
+      ],
+      "explanation": "《释名》所记去掉蟹壳后细细捣制的食品，使蟹肉成为如齑一样细碎的状态。关键加工动作是去壳、捣碎。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "饮食与储藏",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释饮食第十三·蟹齑",
+          "evidence": "去其匡，虀，熟搗之，令如虀也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-taozhu",
+      "conceptId": "artifact-shiming-taozhu",
+      "term": "桃诸",
+      "aliases": [],
+      "explanation": "《释名》所记储藏起来供冬季使用的桃制食品。原文以“储”解释名称，着重说明跨季节储备的用途。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "饮食与储藏",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释饮食第十三·桃诸",
+          "evidence": "藏以為儲，待給冬月用之也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-huxu",
+      "conceptId": "artifact-shiming-huxu",
+      "term": "瓠蓄",
+      "aliases": [],
+      "explanation": "《释名》所记把瓠去皮制成脯状干品、积存到冬季使用的食品。名称将食材与蓄藏用途联系起来。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "饮食与储藏",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释饮食第十三·瓠蓄",
+          "evidence": "皮瓠以為脯，蓄積以待冬月時用之也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-maizhi",
+      "conceptId": "artifact-shiming-maizhi",
+      "term": "貊炙",
+      "aliases": [],
+      "explanation": "《释名》所记保留整体烧烤、食者各自用刀割取的一种烤食方式。书中将其与古代“胡貊”的食法联系。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "饮食与储藏",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释饮食第十三·貊炙",
+          "evidence": "全體炙之，各自以刀割",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-jixian",
+      "conceptId": "artifact-shiming-jixian",
+      "term": "鸡纤",
+      "aliases": [
+        "雞纖"
+      ],
+      "explanation": "《释名》所记把干制鸡肉细细分开，再以酢浸渍的食品。“纤”对应分细后的状态，书中还说兔纤做法相同。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "饮食与储藏",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释饮食第十三·鸡纤",
+          "evidence": "細擗，其腊令纖，然後漬以酢也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-shengshan",
+      "conceptId": "artifact-shiming-shengshan",
+      "term": "生脠",
+      "aliases": [],
+      "explanation": "《释名》所记的一种肉食，以一份脍、两份细切肉混合搅拌。记载的辨识点是两种切制状态与配合比例。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "饮食与储藏",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释饮食第十三·生脠",
+          "evidence": "以一分膾二分細切，合和挻攪之也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-nie-malt",
+      "conceptId": "artifact-shiming-nie-malt",
+      "term": "蘖",
+      "aliases": [
+        "櫱"
+      ],
+      "explanation": "《释名》所记经过浸泡、覆盖而发芽的麦料。书中用生芽开裂的状态说明名称，关键工序是浸麦后促使萌芽。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "饮食与储藏",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷四",
+          "title": "釋名/卷四 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释饮食第十三·蘖",
+          "evidence": "漬夌覆之使生牙開缺也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-wulou",
+      "conceptId": "artifact-shiming-wulou",
+      "term": "屋漏",
+      "aliases": [],
+      "explanation": "《释名》所记室内西北角的名称。书中以丧礼时撤取此处屋材、遇雨可能漏水的礼俗说法来解释。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "宫室与空间",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释宫室第十七·屋漏",
+          "evidence": "西北隅曰屋漏；禮，每有親死者，輒撤屋之西北隅薪",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-yao-corner",
+      "conceptId": "artifact-shiming-yao-corner",
+      "term": "窔",
+      "aliases": [],
+      "explanation": "《释名》所记室内东南角的名称，书中用幽暗之意说明它。此处采用房室角落的方位义。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "宫室与空间",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释宫室第十七·窔",
+          "evidence": "東南隅曰窔；亦取幽冥也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-yi-corner",
+      "conceptId": "artifact-shiming-yi-corner",
+      "term": "宧",
+      "aliases": [],
+      "explanation": "《释名》所记室内东北角的名称。书中借东北阳气初出、养育万物的古代观念解释这个空间词。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "宫室与空间",
+      "difficulty": 3,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释宫室第十七·宧",
+          "evidence": "東北隅曰宧",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-zhongliu",
+      "conceptId": "artifact-shiming-zhongliu",
+      "term": "中霤",
+      "aliases": [
+        "中溜"
+      ],
+      "explanation": "《释名》所记房室中央的位置名称。书中把它与早期居处承接屋水的位置联系，这属于原文对居处名称的解释。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "宫室与空间",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释宫室第十七·中霤",
+          "evidence": "中央曰中霤；直室之中古者霤下之處也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-bini",
+      "conceptId": "artifact-shiming-bini",
+      "term": "睥睨",
+      "aliases": [],
+      "explanation": "《释名》所记城墙顶部的矮墙，可通过孔隙观察异常情况。这里采用城防构造义，书中还列有“陴”“女墙”等叫法。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "宫室与空间",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释宫室第十七·睥睨",
+          "evidence": "城上垣曰睥睨，言於其孔中睥睨非常也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-zhuoru",
+      "conceptId": "artifact-shiming-zhuoru",
+      "term": "掇儒",
+      "aliases": [],
+      "explanation": "《释名》所记梁上的短柱。书中将名称与侏儒的矮小形象联系，用人体高矮来比拟建筑构件的长短。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "宫室与空间",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释宫室第十七·掇儒",
+          "evidence": "梁上短柱也；短故以名之也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-xiaoqiang",
+      "conceptId": "artifact-shiming-xiaoqiang",
+      "term": "萧墙",
+      "aliases": [
+        "蕭廧"
+      ],
+      "explanation": "《释名》所记位于门内的墙。书中说将进入的人到这里应肃敬自身，以这种礼仪要求解释名称。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "宫室与空间",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释宫室第十七·萧墙",
+          "evidence": "在門內；將入於此，自肅敬之處也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-fusi",
+      "conceptId": "artifact-shiming-fusi",
+      "term": "罘罳",
+      "aliases": [],
+      "explanation": "《释名》所记门外的一种设施。书中用臣子入内请事前再次思考的说法解释名称，此处仅采用这一古籍所述门外设施义。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "宫室与空间",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷五",
+          "title": "釋名/卷五 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释宫室第十七·罘罳",
+          "evidence": "在門外；臣將入請事，於此復重思之也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-mo-carriage",
+      "conceptId": "artifact-shiming-mo-carriage",
+      "term": "墨车",
+      "aliases": [
+        "墨車"
+      ],
+      "explanation": "《释名》所记漆成纯黑、没有文彩装饰的车，书中将它与大夫乘用联系。辨认特点是黑漆和无纹饰。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "车舆与出行",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释车第二十四·墨车",
+          "evidence": "漆之正黑無文飾大夫所乘也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-rong-carriage",
+      "conceptId": "artifact-shiming-rong-carriage",
+      "term": "容车",
+      "aliases": [
+        "容車"
+      ],
+      "explanation": "《释名》所记妇人乘坐的小车，车盖上设帷，遮蔽乘者形貌。名称与车内之人的形容、外观相联系。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "车舆与出行",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释车第二十四·容车",
+          "evidence": "婦人所載小車也其蓋施帷所以隱蔽其形容也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-an-carriage",
+      "conceptId": "artifact-shiming-an-carriage",
+      "term": "安车",
+      "aliases": [
+        "安車"
+      ],
+      "explanation": "《释名》所记车盖较低、供人坐乘的小车。书中还说这是当时官吏所乘的小车，重点在低盖与坐乘的形制。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "车舆与出行",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释车第二十四·安车",
+          "evidence": "蓋卑坐乘今吏之乘小車也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-jian-carriage",
+      "conceptId": "artifact-shiming-jian-carriage",
+      "term": "槛车",
+      "aliases": [
+        "檻車"
+      ],
+      "explanation": "《释名》所记车上设栏槛、用来拘隔猛兽的车。这里采用载兽义，栏槛使车上形成约束猛兽的空间。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "车舆与出行",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释车第二十四·槛车",
+          "evidence": "上施檻欄以格猛獸之車也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-yao-carriage",
+      "conceptId": "artifact-shiming-yao-carriage",
+      "term": "轺车",
+      "aliases": [
+        "軺車"
+      ],
+      "explanation": "《释名》所记可向四方远望的一种车。原文用“遥”“远”说明名称，描述重点在乘车观察四周的视野。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "车舆与出行",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释车第二十四·轺车",
+          "evidence": "四向遠望之車也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-zhi-carriage",
+      "conceptId": "artifact-shiming-zhi-carriage",
+      "term": "辎车",
+      "aliases": [
+        "輜車"
+      ],
+      "explanation": "《释名》所记装载行李衣物、又能在其中躺卧休息的车。书中以所载物品混杂说明名称，兼具运输与休息用途。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "车舆与出行",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释车第二十四·辎车",
+          "evidence": "載輜重臥息其中之車也；所載衣物雜廁其中也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    },
+    {
+      "id": "aal-youhuan",
+      "conceptId": "artifact-shiming-youhuan",
+      "term": "游环",
+      "aliases": [
+        "游環"
+      ],
+      "explanation": "《释名》所记车马装具中的环，置于服马背上，骖马外侧缰绳穿过其中。它能够前后游移，位置并不固定。",
+      "packIds": [
+        "ancient-artifacts-life"
+      ],
+      "category": "车舆与出行",
+      "difficulty": 2,
+      "status": "verified",
+      "historicalScope": "采用《释名》所记词义；不泛化为历代通制，不以声训证明现代词源",
+      "sources": [
+        {
+          "url": "https://zh.wikisource.org/wiki/釋名/卷七",
+          "title": "釋名/卷七 - 维基文库，自由的图书馆",
+          "checkedAt": "2026-10-22",
+          "section": "释车第二十四·游环",
+          "evidence": "在服馬背上驂馬之外轡貫之游移前卻無常處也",
+          "evidenceLicense": "Public domain (ancient text)"
+        }
+      ]
+    }
+  ]
+}
