@@ -25,7 +25,8 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - run: npm ci
+      - run: npm ci --no-audit --no-fund --verbose
+        timeout-minutes: 3
       - run: npm test
       - run: python -m unittest discover -s tests -p 'test_*.py' -v
       - run: npm run build
