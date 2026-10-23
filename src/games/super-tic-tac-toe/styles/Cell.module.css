@@ -1,0 +1,295 @@
+.cell {
+  width: 100%;
+  aspect-ratio: 1;
+  border: 0;
+  border-radius: 5px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  overflow: hidden;
+  isolation: isolate;
+  transition:
+    filter 0.15s,
+    box-shadow 0.2s,
+    transform 0.2s;
+  color: #405831;
+  background: #aec681;
+  font-size: clamp(16px, 2.1vw, 28px);
+  font-weight: 800;
+  line-height: 1;
+}
+.cell:disabled {
+  opacity: 1;
+}
+.cell:not(:disabled):hover {
+  filter: brightness(1.13);
+  box-shadow: inset 0 0 0 2px #f5ffe3;
+  transform: translateY(-2px);
+}
+.cell:not(:disabled):focus-visible {
+  outline-offset: -3px;
+  outline: 3px solid #fff6c8;
+  z-index: 3;
+}
+.cell:not(:disabled)::after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #53793a;
+  opacity: 0.38;
+  position: absolute;
+  z-index: 2;
+}
+.grass {
+  background: linear-gradient(135deg, #bbce96, #a5be7b);
+  box-shadow:
+    inset 0 1px #d4e3b5,
+    inset 0 -2px #91ac65;
+}
+.grass:nth-child(3n + 1) {
+  background: linear-gradient(135deg, #b6cc8f, #9bb671);
+}
+.rice {
+  background: linear-gradient(145deg, #b4d2bd, #8db9a4);
+  box-shadow:
+    inset 0 1px #d7e6c6,
+    inset 0 -2px #76a78e;
+}
+.rice::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  border: 1px solid #e3efcb66;
+  transform: scaleY(0.35);
+}
+.classic {
+  background: #f3f0e5;
+  border: 1px solid #e0dccb;
+  color: #365c40;
+}
+.classic:nth-child(2n) {
+  background: #eeebdf;
+}
+.classic.X {
+  color: #b76838;
+}
+.classic.O {
+  color: #426b48;
+}
+.terrain {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+.terrain i {
+  display: block;
+  position: absolute;
+  bottom: 6px;
+  left: 31%;
+  height: 13px;
+  width: 3px;
+  background: #739a4f;
+  border-radius: 100% 0 100% 0;
+  transform: rotate(-25deg);
+  opacity: 0.48;
+}
+.terrain i:nth-child(2) {
+  left: 44%;
+  height: 18px;
+  transform: rotate(10deg);
+}
+.terrain i:nth-child(3) {
+  left: 61%;
+  height: 10px;
+  transform: rotate(32deg);
+}
+.X:not(.classic) {
+  background: linear-gradient(140deg, #d7b68b, #bb956b);
+  box-shadow:
+    inset 0 1px #e4caa8,
+    inset 0 -2px #a58059;
+  color: #744b2c;
+}
+.X:not(.classic)::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    -15deg,
+    transparent 0 9px,
+    #89643f22 10px 12px
+  );
+  animation: plough 0.35s ease-out;
+}
+.X .terrain {
+  transform: scaleY(0.18);
+  transform-origin: bottom;
+  transition: transform 0.3s;
+}
+.O:not(.classic) {
+  color: #315a34;
+}
+.O .terrain i {
+  width: 4px;
+  height: 23px;
+  opacity: 0.8;
+  background: #487544;
+  animation: grow 0.5s cubic-bezier(0.18, 0.8, 0.3, 1.2);
+  transform-origin: bottom;
+  bottom: 1px;
+}
+.O .terrain i:first-child {
+  transform: rotate(-27deg);
+  left: 16%;
+  height: 17px;
+}
+.O .terrain i:nth-child(2) {
+  left: 72%;
+  transform: rotate(22deg);
+  height: 20px;
+}
+.O .terrain i:nth-child(3) {
+  left: 80%;
+  transform: rotate(45deg);
+  height: 13px;
+}
+.rice.O .terrain i {
+  background: #718b38;
+}
+.mark {
+  z-index: 2;
+  animation: mark 0.32s cubic-bezier(0.2, 0.8, 0.2, 1.1);
+  text-shadow: 0 1px #fff9dd88;
+}
+.last {
+  outline: 2px solid #f7e6a3;
+  outline-offset: -3px;
+}
+.last::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  width: 4px;
+  height: 4px;
+  background: #ffecab;
+  border-radius: 50%;
+  z-index: 3;
+}
+.winning {
+  box-shadow: inset 0 0 0 2px #f6dc8a;
+}
+.particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 3;
+}
+.particles i {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 1px;
+  background: #6d542e;
+  top: 50%;
+  left: 40%;
+  opacity: 0;
+  animation: soil 0.6s ease-out;
+}
+.particles i:nth-child(2) {
+  left: 70%;
+  animation-delay: 0.08s;
+}
+.particles i:nth-child(3) {
+  left: 20%;
+  animation-delay: 0.14s;
+}
+.O .particles i {
+  background: #eff4cd;
+}
+@keyframes mark {
+  from {
+    opacity: 0;
+    transform: scale(0.3) translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+.tutorialHint {
+  outline: 3px solid #ffe49c;
+  outline-offset: -3px;
+  box-shadow: inset 0 0 0 5px #93652d66;
+}
+.tutorialHint:not(:disabled)::after {
+  width: 8px;
+  height: 8px;
+  opacity: 1;
+  background: #fff0b1;
+  box-shadow: 0 0 0 3px #c3904366;
+}
+@keyframes grow {
+  from {
+    opacity: 0;
+    scale: 1 0.1;
+  }
+  to {
+    opacity: 0.8;
+    scale: 1 1;
+  }
+}
+@keyframes plough {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes soil {
+  0% {
+    opacity: 0.9;
+    transform: translateY(0) scale(0.5);
+  }
+  70% {
+    opacity: 0.7;
+    transform: translateY(-20px) rotate(70deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-8px) rotate(130deg);
+  }
+}
+@media (max-width: 760px) {
+  .cell {
+    font-size: clamp(15px, 5vw, 25px);
+    border-radius: 3px;
+  }
+  .terrain i {
+    height: 9px;
+    bottom: 3px;
+  }
+  .terrain i:nth-child(2) {
+    height: 12px;
+  }
+  .O .terrain i {
+    height: 15px;
+  }
+  .O .terrain i:first-child {
+    height: 12px;
+  }
+  .O .terrain i:nth-child(2) {
+    height: 14px;
+  }
+  .O .terrain i:nth-child(3) {
+    height: 9px;
+  }
+}

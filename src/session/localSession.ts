@@ -43,18 +43,19 @@ export class LocalSession implements SessionAdapter {
   #clock: () => number;
   #listeners = new Set<() => void>();
   #warning = "";
-  #seen: Set<string>;
+  #seen = new Set<string>();
+  #persisted: string | undefined;
   constructor(state: GameState, store: Store, clock = Date.now) {
     this.#state = state;
     this.#store = store;
     this.#clock = clock;
-    const history = loadHistory(store);
-    this.#seen = history.seen;
-    this.#warning = history.warning;
     this.#save();
   }
   #save() {
     const s = this.#state;
+    const history = loadHistory(this.#store);
+    if (history.warning) this.#warning = history.warning;
+    else this.#seen = history.seen;
     const exposed =
       s.phase === "handoff"
         ? [s.cards[s.readerIndex]!]
@@ -77,7 +78,9 @@ export class LocalSession implements SessionAdapter {
         HISTORY,
         JSON.stringify({ version: 1, seen: [...this.#seen] }),
       );
-      this.#store.setItem(SAVE, JSON.stringify(s));
+      const snapshot = JSON.stringify(s);
+      this.#store.setItem(SAVE, snapshot);
+      this.#persisted = snapshot;
     } catch {
       this.#warning =
         "进度或题目历史保存失败。当前仍可玩，刷新恢复和跨局避重无法保证。";
@@ -86,13 +89,31 @@ export class LocalSession implements SessionAdapter {
   getPublicView() {
     return publicView(this.#state);
   }
+  #isCurrent() {
+    if (this.#persisted === undefined) return true;
+    try {
+      if (this.#store.getItem(SAVE) === this.#persisted) return true;
+    } catch {
+      this.#warning =
+        "本设备进度无法读取，刷新恢复和其他页面的进度核对无法保证。";
+      return true;
+    }
+    this.#warning = "对局已在其他页面更新或清除，请刷新页面后继续。";
+    return false;
+  }
   getPrivateView(playerId: string) {
+    if (!this.#isCurrent()) return null;
     return privateView(this.#state, playerId, this.#clock());
   }
   getWarning() {
     return this.#warning;
   }
+  discard() {
+    if (!this.#isCurrent()) throw Error(this.#warning);
+    discardSession(this.#store);
+  }
   dispatch(input: ActionInput) {
+    if (!this.#isCurrent()) throw Error(this.#warning);
     this.#state = reduceGame(
       this.#state,
       {
@@ -183,6 +204,7 @@ function validState(value: unknown): value is GameState {
     Number.isInteger(s.cursor) &&
     s.cursor >= n &&
     s.cursor <= s.pool.length &&
+    s.pool.length - s.cursor >= n * (n - s.roundIndex - 1) &&
     s.cards.every((q, i) => q.id === s.pool[s.cursor - n + i]?.id) &&
     scores(s.scores) &&
     scores(s.roundPoints) &&
@@ -204,9 +226,17 @@ function validState(value: unknown): value is GameState {
       ? typeof s.deadline === "number" && Number.isFinite(s.deadline)
       : s.deadline === null) &&
     index(s.speakerIndex, n + 1) &&
+    (["handoff", "reading"].includes(s.phase)
+      ? s.speakerIndex === 0
+      : s.phase === "speaking"
+        ? s.speakerIndex < n
+        : s.speakerIndex === n) &&
     Number.isInteger(s.voteIndex) &&
     s.voteIndex >= 0 &&
     s.voteIndex <= n &&
+    (["handoff", "reading", "speaking", "discussion"].includes(s.phase)
+      ? s.voteIndex === 0
+      : true) &&
     (["voteHandoff", "voting"].includes(s.phase) ? s.voteIndex < n : true) &&
     Array.isArray(s.votes) &&
     s.votes.length === n &&

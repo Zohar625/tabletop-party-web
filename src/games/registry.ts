@@ -5,4 +5,11 @@ export const games = [
     subtitle: "冷知识里，藏着一个张口就来的人。",
     available: true,
   },
+  {
+    id: "super-tic-tac-toe",
+    title: "超级井字棋",
+    subtitle: "你落下的一子，决定对手的下一片棋盘。",
+    available: true,
+    href: "./super-tic-tac-toe/index.html",
+  },
 ];

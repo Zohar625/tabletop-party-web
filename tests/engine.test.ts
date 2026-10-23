@@ -151,6 +151,18 @@ test("整轮重发不计分不重题；容量不足拒绝", () => {
   assert.throws(() => createGame(config(9), questions.slice(0, 80), 1));
 });
 
+test("题池异常不足时拒绝进入下一轮，不产生缺卡状态", () => {
+  const s = createGame(config(3), questions, 5);
+  const truncated = {
+    ...s,
+    phase: "results" as const,
+    pool: s.pool.slice(0, 3),
+  };
+  assert.throws(() => act(truncated, { type: "nextRound" }), /题量不足/);
+  assert.equal(truncated.cards.length, 3);
+  assert.doesNotThrow(() => publicView(s));
+});
+
 test("同样的前两轮身份不能排除最后一轮人选，允许连续重复", () => {
   const finalChoices = new Map<string, Set<number>>();
   let repeated = false;

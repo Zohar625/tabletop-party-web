@@ -1,0 +1,37 @@
+.smallBoard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 3px;
+  padding: 4px;
+  min-width: 0;
+  border-radius: 8px;
+  transition:
+    filter 0.2s,
+    box-shadow 0.2s;
+  background: #57794155;
+}
+.active {
+  box-shadow:
+    0 0 0 2px #dfedc1,
+    0 0 0 3px #729351;
+  background: #577941aa;
+}
+.inactive {
+  filter: saturate(0.6) brightness(0.93);
+}
+.opponentTarget {
+  box-shadow: 0 0 0 2px #efd5a5;
+}
+@media (max-width: 760px) {
+  .smallBoard {
+    gap: 2px;
+    padding: 3px;
+    border-radius: 6px;
+  }
+  .active {
+    box-shadow:
+      0 0 0 1px #e1ecc8,
+      0 0 0 2px #729351;
+  }
+}

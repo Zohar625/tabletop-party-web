@@ -391,6 +391,33 @@ small {
   box-shadow: 0 6px 25px #263d310a;
   border-color: var(--green);
 }
+.chess-tile {
+  margin-top: 18px;
+  color: inherit;
+  text-decoration: none;
+}
+.chess-art > div {
+  width: 72%;
+  max-width: 154px;
+  aspect-ratio: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  position: relative;
+  transform: rotate(-8deg);
+}
+.chess-art b {
+  display: grid;
+  place-items: center;
+  background: #f9f5e9;
+  border-radius: 8px;
+  color: #637956;
+  font-size: clamp(15px, 3vw, 30px);
+  line-height: 1;
+}
+.chess-art b:nth-child(3n + 1) {
+  color: #c17845;
+}
 .tile-art {
   background: #dae3cd;
   display: flex;

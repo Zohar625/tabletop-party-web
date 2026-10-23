@@ -1,6 +1,7 @@
 node_modules/
 dist/
 一桌好戏-本地试玩.html
+超级井字棋-本地试玩.html
 .test-build/
 .superpowers/
 *.log

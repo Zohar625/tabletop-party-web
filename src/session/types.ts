@@ -8,6 +8,7 @@ export interface SessionAdapter {
   getPublicView(): PublicView;
   getPrivateView(playerId: string): PrivateView | null;
   dispatch(input: ActionInput): void;
+  discard(): void;
   subscribe(listener: () => void): () => void;
   getWarning(): string;
 }

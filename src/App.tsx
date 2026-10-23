@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { ReactNode } from "react";
 import { buildQuestionPool, createGame } from "./games/bluff/engine";
 import type { ActionInput, Config, PublicView } from "./games/bluff/types";
@@ -6,13 +6,13 @@ import { allQuestions, packs } from "./games/bluff/questions";
 import { createDefaultConfig, READ_PRESETS } from "./games/bluff/defaults";
 import {
   clearHistory,
-  discardSession,
   loadHistory,
   loadSession,
   LocalSession,
 } from "./session/localSession";
 import type { Store } from "./session/localSession";
 import type { SessionAdapter } from "./session/types";
+import { startReadingClock } from "./session/readingClock";
 import { games } from "./games/registry";
 function getStore(): Store {
   try {
@@ -185,51 +185,64 @@ export default function App() {
   }, [phase, view?.roundId, view?.readerIndex, view?.voteIndex, screen]);
   useEffect(() => {
     if (!session) return;
-    const tick = () => {
-      const t = Date.now();
-      setNow(t);
-      const v = session.getPublicView();
-      if (v.phase === "reading" && t >= v.deadline!)
-        session.dispatch({ type: "endRead" });
-    };
-    const hide = () => {
-      if (
-        document.visibilityState === "hidden" &&
-        session.getPublicView().phase === "reading"
-      ) {
-        setModal(null);
-        session.dispatch({ type: "consumeRead" });
+    return startReadingClock(
+      session,
+      setNow,
+      (error) => {
+        setNotice(
+          error instanceof Error
+            ? error.message
+            : "读卡状态已变化，请刷新页面后继续。",
+        );
+      },
+      {
+        now: Date.now,
+        setInterval: (tick, delay) => window.setInterval(tick, delay),
+        clearInterval: (id) => window.clearInterval(id),
+      },
+    );
+  }, [session, phase]);
+  useEffect(() => {
+    if (!session) return;
+    const close = () => {
+      setModal(null);
+      setRules(false);
+      try {
+        if (session.getPublicView().phase === "reading")
+          session.dispatch({ type: "consumeRead" });
+      } catch (error) {
+        setNotice(
+          error instanceof Error
+            ? error.message
+            : "对局状态已变化，请刷新页面后继续。",
+        );
       }
     };
-    const close = () => {
-      if (session.getPublicView().phase === "reading")
-        session.dispatch({ type: "consumeRead" });
+    const hide = () => {
+      if (document.visibilityState === "hidden") close();
     };
-    const id = window.setInterval(tick, 100);
     document.addEventListener("visibilitychange", hide);
     window.addEventListener("pagehide", close);
     window.addEventListener("beforeunload", close);
     return () => {
-      clearInterval(id);
       document.removeEventListener("visibilitychange", hide);
       window.removeEventListener("pagehide", close);
       window.removeEventListener("beforeunload", close);
     };
   }, [session]);
   useEffect(() => {
-    const back = () => {
-      if (session && screen === "game") {
-        if (session.getPublicView().phase === "reading")
-          session.dispatch({ type: "consumeRead" });
-        history.pushState(null, "", location.href);
-        setNotice("本局进度已保留；使用页面上的「退出本局」可返回。");
-      } else setScreen("lobby");
+    const changed = (event: StorageEvent) => {
+      if (event.storageArea !== store) return;
+      setHistoryVersion((version) => version + 1);
+      if (session && event.key === "tabletop.session.v1") {
+        setModal(null);
+        setRules(false);
+        setNotice("其他页面已更新或清除对局，请刷新当前页面后继续。");
+      }
     };
-    history.replaceState(null, "", location.href);
-    history.pushState(null, "", location.href);
-    window.addEventListener("popstate", back);
-    return () => window.removeEventListener("popstate", back);
-  }, [session, screen]);
+    window.addEventListener("storage", changed);
+    return () => window.removeEventListener("storage", changed);
+  }, [session]);
   function dispatch(action: ActionInput) {
     try {
       session?.dispatch(action);
@@ -246,9 +259,12 @@ export default function App() {
       confirm: "退出本局",
       action: () => {
         try {
-          discardSession(store);
+          session?.discard();
         } catch {
-          setNotice("无法清除存档，重新打开时可能恢复旧局。");
+          setNotice(
+            session?.getWarning() || "无法清除存档，重新打开时可能恢复旧局。",
+          );
+          return;
         }
         setSession(null);
         setScreen("setup");
@@ -268,12 +284,18 @@ export default function App() {
       setNotice((e as Error).message);
     }
   }
-  const historyInfo = loadHistory(store);
-  void historyVersion;
+  const historyInfo = useMemo(
+    () => loadHistory(store),
+    [session, view?.sequence, historyVersion],
+  );
   const seen = historyInfo.seen;
-  const available = config.selectedPackIds.length
-    ? buildQuestionPool(config, allQuestions, seen).length
-    : 0;
+  const available = useMemo(
+    () =>
+      config.selectedPackIds.length
+        ? buildQuestionPool(config, allQuestions, seen).length
+        : 0,
+    [config, seen],
+  );
   const playerName = (id: string) =>
     view?.players.find((p) => p.id === id)?.name ?? "";
   const isReading = phase === "reading";
@@ -302,7 +324,11 @@ export default function App() {
             <i />
             一部手机，一桌朋友
           </span>
-          <button className="text-button" onClick={() => setRules(true)}>
+          <button
+            className="text-button"
+            disabled={isReading}
+            onClick={() => setRules(true)}
+          >
             怎么玩 <span>↗</span>
           </button>
         </div>
@@ -368,7 +394,7 @@ export default function App() {
                   <p className="eyebrow">PICK YOUR PLAY</p>
                   <h2>今天玩什么</h2>
                 </div>
-                <span className="small-note">从一场瞎掰开始</span>
+                <span className="small-note">讲个故事，或下盘好棋</span>
               </div>
               <button className="game-tile" onClick={() => setScreen("setup")}>
                 <div className="tile-art">
@@ -394,8 +420,36 @@ export default function App() {
                   </div>
                 </div>
               </button>
+              <a className="game-tile chess-tile" href={games[1]!.href}>
+                <div className="tile-art chess-art" aria-hidden="true">
+                  <div>
+                    {["X", "", "O", "", "X", "", "O", "", "X"].map(
+                      (mark, index) => (
+                        <b key={index}>{mark}</b>
+                      ),
+                    )}
+                  </div>
+                </div>
+                <div className="tile-copy">
+                  <div className="tile-top">
+                    <span className="tag">策略 · 对弈 · 三子连线</span>
+                    <span className="available">现在可玩</span>
+                  </div>
+                  <h3>
+                    {games[1]!.title}
+                    <span>田园双人局</span>
+                  </h3>
+                  <p>{games[1]!.subtitle}</p>
+                  <div className="tile-bottom">
+                    <span>2 人 · 同屏轮流落子</span>
+                    <span className="circle-arrow">
+                      <Icon name="arrow" size={20} />
+                    </span>
+                  </div>
+                </div>
+              </a>
               <p className="coming">
-                更多桌游，慢慢上桌。<span>先把这一局玩尽兴。</span>
+                更多桌游，慢慢上桌。<span>好戏与好棋，都在这一桌。</span>
               </p>
             </section>
             <section className="how-strip">
@@ -672,7 +726,11 @@ export default function App() {
         {screen === "game" && view && (
           <>
             <div className="game-toolbar">
-              <button className="text-button" onClick={exit}>
+              <button
+                className="text-button"
+                disabled={isReading}
+                onClick={exit}
+              >
                 ← 退出本局
               </button>
               <span>
@@ -681,7 +739,9 @@ export default function App() {
               </span>
               <button
                 className="text-button"
-                disabled={["results", "finished"].includes(view.phase)}
+                disabled={
+                  isReading || ["results", "finished"].includes(view.phase)
+                }
                 onClick={() =>
                   setModal({
                     title: "整轮重新发牌？",
@@ -995,9 +1055,10 @@ export default function App() {
                 <Primary
                   onClick={() => {
                     try {
-                      discardSession(store);
+                      session?.discard();
                     } catch {
-                      setNotice("无法清除旧存档。");
+                      setNotice(session?.getWarning() || "无法清除旧存档。");
+                      return;
                     }
                     setSession(null);
                     setHistoryVersion((n) => n + 1);
@@ -1020,6 +1081,7 @@ export default function App() {
       </footer>
       {(modal || rules) && (
         <Dialog
+          label={rules ? "瞎掰王玩法说明" : modal!.title}
           onClose={() => {
             setModal(null);
             setRules(false);
@@ -1141,9 +1203,11 @@ function Scoreboard({ view }: { view: PublicView }) {
 function Dialog({
   children,
   onClose,
+  label,
 }: {
   children: ReactNode;
   onClose: () => void;
+  label: string;
 }) {
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => {
@@ -1154,6 +1218,7 @@ function Dialog({
   return (
     <dialog
       ref={ref}
+      aria-label={label}
       onCancel={(e) => {
         e.preventDefault();
         onClose();

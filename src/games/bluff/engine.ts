@@ -47,6 +47,7 @@ export function buildQuestionPool(
 }
 function deal(s: GameState): GameState {
   const n = s.config.playerCount;
+  assert(s.pool.length - s.cursor >= n, "题量不足，无法继续发牌，请重新开桌。");
   // One draw per deal attempt, with replacement. Past roles never exclude seats.
   const draw = random(s.seed ^ 0x1234);
   let bluffer = 0;
