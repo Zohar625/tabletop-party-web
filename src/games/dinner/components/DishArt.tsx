@@ -1144,20 +1144,54 @@ function Food({ visual }: { visual: DishVisual }) {
   );
 }
 
+function DishLid({ motion }: { motion?: "open" | "close" }) {
+  return (
+    <g
+      className={motion ? `dish-lid lid-${motion}` : "dish-lid"}
+      aria-hidden="true"
+    >
+      <path
+        d="M29 107Q35 44 100 44Q165 44 171 107Z"
+        fill="#7d9c85"
+        stroke="#335944"
+        strokeWidth="2"
+      />
+      <path
+        d="M45 94Q57 57 96 56"
+        fill="none"
+        stroke="#abc0a8"
+        strokeWidth="6"
+        strokeLinecap="round"
+      />
+      <ellipse cx="100" cy="44" rx="12" ry="6" fill="#d99a4a" />
+      <path
+        d="M24 108H176"
+        stroke="#335944"
+        strokeWidth="6"
+        strokeLinecap="round"
+      />
+    </g>
+  );
+}
+
 /** Original SVG illustrations. Covered cards return before reading any dish-specific data. */
 export function DishArt({
   dish,
   covered = false,
+  empty = false,
+  motion,
 }: {
   dish?: Pick<DishCard, "name" | "art" | "kind">;
   covered?: boolean;
+  empty?: boolean;
+  motion?: "open" | "close";
 }) {
-  if (covered)
+  if (covered || empty)
     return (
       <svg
         viewBox="0 0 200 150"
         role="img"
-        aria-label="盖好的料理"
+        aria-label={empty ? "等待上菜的空盘" : "盖好的料理"}
         className="dish-art"
       >
         <ellipse cx="100" cy="127" rx="72" ry="10" fill="#173e3020" />
@@ -1171,26 +1205,7 @@ export function DishArt({
           stroke="#ccbea1"
           strokeWidth="2"
         />
-        <path
-          d="M29 107Q35 44 100 44Q165 44 171 107Z"
-          fill="#7d9c85"
-          stroke="#335944"
-          strokeWidth="2"
-        />
-        <path
-          d="M45 94Q57 57 96 56"
-          fill="none"
-          stroke="#abc0a8"
-          strokeWidth="6"
-          strokeLinecap="round"
-        />
-        <ellipse cx="100" cy="44" rx="12" ry="6" fill="#d99a4a" />
-        <path
-          d="M24 108H176"
-          stroke="#335944"
-          strokeWidth="6"
-          strokeLinecap="round"
-        />
+        {!empty && <DishLid motion={motion === "close" ? "close" : undefined} />}
       </svg>
     );
   const visual = getDishVisual(dish?.name);
@@ -1273,6 +1288,7 @@ export function DishArt({
           </text>
         </g>
       )}
+      {motion === "open" && <DishLid motion="open" />}
     </svg>
   );
 }

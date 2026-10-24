@@ -61,11 +61,11 @@ try {
   for (const room of rooms)
     assert.equal(room.getSnapshot().game!.me.hand.length, 4);
   console.log("PASS 开桌与各自手牌投影");
-  async function placeSafe(room: DinnerRoom) {
+  async function placeSafe(room: DinnerRoom, kind: "safe" | "bad" = "safe") {
     await until(() => !room.getSnapshot().pending, "前一操作确认");
     const card = room
       .getSnapshot()
-      .game!.me.hand.find((c) => c.kind === "safe")!;
+      .game!.me.hand.find((c) => c.kind === kind)!;
     await room.act({ type: "place", cardId: card.id });
     await until(
       () =>
@@ -74,11 +74,11 @@ try {
       "放菜确认",
     );
   }
-  await Promise.all([a, b].map(placeSafe));
+  await Promise.all([a, b].map((room) => placeSafe(room)));
   assert.equal(a.getSnapshot().error, "");
   assert.equal(b.getSnapshot().error, "");
   console.log("PASS 同轮两位玩家同时放菜，不互相退回或清空确认");
-  await placeSafe(host);
+  await placeSafe(host, "bad");
   await host.act({ type: "bid", amount: 1 });
   for (let count = 0; count < 2; count++) {
     const turn = host.getSnapshot().game!.turn;
@@ -92,12 +92,12 @@ try {
     await until(() => !room.getSnapshot().pending, "退出确认");
   }
   await until(() => host.getSnapshot().game!.phase === "revealing", "揭盖阶段");
-  await host.act({ type: "flip", owner: host.getSnapshot().meId });
+  await host.act({ type: "flip", owner: a.getSnapshot().meId });
   await until(
     () => rooms.every((r) => r.getSnapshot().game!.phase === "roundEnd"),
     "挑战结算",
   );
-  console.log("PASS 一轮初放、叫价、退出、揭盖和结算");
+  console.log("PASS 自己放黑暗料理后直接揭对手正常菜，挑战成功并同步结算");
   a.stop();
   const again = await restoreRoom({ store: stores[1] });
   assert(again);

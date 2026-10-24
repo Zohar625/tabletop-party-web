@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import {
   clearSavedRoom,
   createRoom,
@@ -7,8 +7,13 @@ import {
   type DinnerRoom,
   type RoomSnapshot,
 } from "./room";
-import type { DinnerAction, DinnerPhase, DishCard } from "./types";
-import { retainDishSelection, selectableDishes } from "./uiState";
+import type { DinnerAction, DinnerPhase, DinnerView, DishCard } from "./types";
+import {
+  dishTransitions,
+  retainDishSelection,
+  selectableDishes,
+  type DishTransitions,
+} from "./uiState";
 import { DishArt } from "./components/DishArt";
 import { Tutorial } from "./components/Tutorial";
 import "./dinner.css";
@@ -73,6 +78,34 @@ export default function DinnerApp() {
   }, [room]);
   const game = snap?.game;
   const previousPhase = useRef<DinnerPhase | undefined>(undefined);
+  const previousGame = useRef<DinnerView | null | undefined>(undefined);
+  const previousMatch = useRef<string | undefined>(undefined);
+  const [motion, setMotion] = useState<DishTransitions & { revision: number }>({
+    placed: [],
+    revealed: [],
+    revision: -1,
+  });
+  useLayoutEffect(() => {
+    if (snap?.matchId !== previousMatch.current) {
+      previousMatch.current = snap?.matchId;
+      previousGame.current = game;
+      setMotion({ placed: [], revealed: [], revision: -1 });
+      return;
+    }
+    if (game === previousGame.current) return;
+    const previous = previousGame.current;
+    previousGame.current = game;
+    if (game?.revision === previous?.revision) return;
+    const transitions = dishTransitions(previous, game);
+    setMotion({ ...transitions, revision: game?.revision ?? -1 });
+  }, [game, snap?.matchId]);
+  useEffect(() => {
+    if (!motion.placed.length && !motion.revealed.length) return;
+    const timer = window.setTimeout(() => {
+      setMotion({ placed: [], revealed: [], revision: -1 });
+    }, 900);
+    return () => window.clearTimeout(timer);
+  }, [motion]);
   useEffect(() => {
     const phase = previousPhase.current;
     setSelected((value) => retainDishSelection(value, phase, game));
@@ -153,7 +186,6 @@ export default function DinnerApp() {
   const canBid =
     myTurn && (game?.phase === "placing" || game?.phase === "bidding");
   const challengeMine = game?.challenger === snap?.meId;
-  const ownRemaining = !!mine && mine.stackCount > 0;
   const canDiscard = game?.phase === "discard" && myTurn && challengeMine;
   const cardsReturned =
     game?.phase === "roundEnd" || game?.phase === "finished";
@@ -263,7 +295,9 @@ export default function DinnerApp() {
                   id="room-code"
                   autoCapitalize="characters"
                   value={code}
-                  placeholder="输入房间码"
+                  placeholder="输入 6 位数字房间码"
+                  inputMode="numeric"
+                  aria-describedby="room-code-hint"
                   onChange={(e) => setCode(e.target.value.toUpperCase())}
                 />
                 <button
@@ -274,6 +308,9 @@ export default function DinnerApp() {
                   加入饭局
                 </button>
               </div>
+              <small id="room-code-hint" className="private-note">
+                新房间使用 6 位数字；也支持原来的 8 位房间码。
+              </small>
               {saved && (
                 <div className="restore-row">
                   <button
@@ -297,7 +334,11 @@ export default function DinnerApp() {
               {[
                 ["01", "盖一道菜", "好菜坏菜，只有自己知道。"],
                 ["02", "喊个数，赌一口", "说你能翻出几道好菜；不敢就放弃。"],
-                ["03", "揭开见真章", "碰到坏菜就丢牌，先赢两轮就获胜。"],
+                [
+                  "03",
+                  "自由揭菜",
+                  "任选一人的最上面一道；碰到坏菜就丢牌，先赢两轮获胜。",
+                ],
               ].map(([n, title, text]) => (
                 <div className="rule-step" key={n}>
                   <span>{n}</span>
@@ -467,7 +508,7 @@ export default function DinnerApp() {
               <section className="game-heading">
                 <div>
                   <span className="eyebrow">
-                    第 {game.round} 轮 · 先赢 2 轮获胜
+                    第 {game.round} 轮 · 自由揭菜 · 先赢 2 轮获胜
                   </span>
                   <h1>{phaseLabels[game.phase]}</h1>
                   <p aria-live="polite">
@@ -494,8 +535,7 @@ export default function DinnerApp() {
                   const flip =
                     game.phase === "revealing" &&
                     challengeMine &&
-                    remaining > 0 &&
-                    (!ownRemaining || p.id === snap.meId);
+                    remaining > 0;
                   const choose =
                     game.phase === "chooseStarter" && myTurn && !p.eliminated;
                   return (
@@ -536,7 +576,18 @@ export default function DinnerApp() {
                           )
                         }
                       >
-                        <DishArt covered />
+                        <DishArt
+                          key={
+                            motion.placed.includes(p.id)
+                              ? `close-${motion.revision}`
+                              : "covered"
+                          }
+                          covered
+                          empty={remaining === 0}
+                          motion={
+                            motion.placed.includes(p.id) ? "close" : undefined
+                          }
+                        />
                         <span>
                           {choose
                             ? "请 TA 先上菜"
@@ -555,7 +606,14 @@ export default function DinnerApp() {
                               className={`revealed-dish ${r.card.kind}`}
                               key={`${r.card.id}${n}`}
                             >
-                              <DishArt dish={r.card} />
+                              <DishArt
+                                dish={r.card}
+                                motion={
+                                  motion.revealed.includes(r.card.id)
+                                    ? "open"
+                                    : undefined
+                                }
+                              />
                               <span>{r.card.name}</span>
                               <b>{r.card.kind === "bad" ? "坏菜" : "好菜"}</b>
                             </div>
@@ -585,9 +643,7 @@ export default function DinnerApp() {
                           ? "准备好下一轮了吗？"
                           : game.phase === "revealing"
                             ? challengeMine
-                              ? ownRemaining
-                                ? "先翻自己的菜，翻够叫价就成功"
-                                : "点击任意对手的盖碗"
+                              ? "自由揭菜：点击任意一人的最上面一道"
                               : "看看挑战者的眼光如何"
                             : game.phase === "discard"
                               ? canDiscard

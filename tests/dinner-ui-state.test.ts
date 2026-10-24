@@ -63,3 +63,41 @@ test("discard choices include table cards only for the challenger on their turn"
   next.turn = "c";
   assert.deepEqual(selectableDishes(dinnerView(next, "b")), []);
 });
+
+// A fresh revision animates once; restored snapshots and skipped history stay still.
+test("dish transitions animate only fresh committed placements and reveals", async () => {
+  const { dishTransitions } = await import("../src/games/dinner/uiState.ts");
+  const before = dinnerView(fresh(), "b");
+  const after = structuredClone(before);
+  after.revision++;
+  after.players[2].stackCount++;
+  assert.deepEqual(dishTransitions(before, after), {
+    placed: ["c"],
+    revealed: [],
+  });
+  after.players[2].stackCount--;
+  after.revealed.push({
+    owner: "c",
+    card: { id: "public", name: "蛋炒饭", kind: "safe" },
+  });
+  assert.deepEqual(dishTransitions(before, after), {
+    placed: [],
+    revealed: ["public"],
+  });
+  assert.deepEqual(dishTransitions(undefined, after), {
+    placed: [],
+    revealed: [],
+  });
+  assert.deepEqual(dishTransitions(after, after), { placed: [], revealed: [] });
+  after.revision++;
+  assert.deepEqual(dishTransitions(before, after), {
+    placed: [],
+    revealed: [],
+  });
+  after.revision = before.revision + 1;
+  after.round++;
+  assert.deepEqual(dishTransitions(before, after), {
+    placed: [],
+    revealed: [],
+  });
+});

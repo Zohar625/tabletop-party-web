@@ -77,10 +77,9 @@ test("bidding requires higher integers and passed seats never reenter", () => {
   assert.equal(s.phase, "revealing");
   assert.equal(s.challenger, "c");
 });
-test("maximum bid immediately starts revealing and challenger flips own stack first", () => {
+test("maximum bid permits choosing any player while preserving top-of-stack order", () => {
   let s = act(ready(), "a", { type: "bid", amount: 3 });
   assert.equal(s.phase, "revealing");
-  assert.throws(() => act(s, "a", { type: "flip", owner: "b" }), /自己/);
   s = act(s, "a", { type: "flip", owner: "a" });
   s = act(s, "a", { type: "flip", owner: "c" });
   s = act(s, "a", { type: "flip", owner: "b" });
@@ -270,4 +269,18 @@ test("success takes back unflipped stacks even when the second win finishes the 
     assert(s.players.every((p) => p.stack.length === 0));
     assert.equal(s.revealed.length, 1);
   }
+});
+
+
+test("a challenger with only a bad dish can win by revealing another player", () => {
+  let s = fresh();
+  s.players[0]!.cards = [card(s, "a", "bad")];
+  for (const id of ["b", "c", "a"])
+    s = act(s, id, { type: "place", cardId: card(s, id, id === "a" ? "bad" : "safe").id });
+  s = reveal(s);
+  s = act(s, "a", { type: "flip", owner: "b" });
+  assert.equal(s.phase, "roundEnd");
+  assert.equal(s.players[0]!.wins, 1);
+  assert.equal(s.revealed[0]!.owner, "b");
+  assert.equal(s.players[0]!.cards[0]!.kind, "bad");
 });

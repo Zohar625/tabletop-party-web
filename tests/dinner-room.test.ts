@@ -282,10 +282,10 @@ test("恢复旧房主页面不能覆盖新页面已保存的进度", async () =>
     store = new Memory();
   const options = { store, transport: wire.factory, tickMs: 10000 };
   const first = await createRoom("房主", options);
+  await first.connect();
   const other = await restoreRoom(options);
   assert(other);
   try {
-    await first.connect();
     await other.connect();
     await first.ready(false);
     const latest = store.getItem("tabletop.dinner.room.v1");
@@ -296,5 +296,65 @@ test("恢复旧房主页面不能覆盖新页面已保存的进度", async () =>
   } finally {
     first.stop();
     other.stop();
+  }
+});
+
+
+test("new room codes are six digits; old eight-character invitations still work", async () => {
+  const wire = new Wire();
+  const options = () => ({ store: new Memory(), transport: wire.factory });
+  const host = await createRoom("房主", options());
+  assert.match(host.getSnapshot().code, /^\d{6}$/);
+  const numeric = await joinRoom("甲", "123 456", "", options());
+  assert.equal(numeric.getSnapshot().code, "123456");
+  const legacy = await joinRoom("乙", "abcd-2345", "", options());
+  assert.equal(legacy.getSnapshot().code, "ABCD2345");
+  await assert.rejects(() => joinRoom("丙", "12345", "", options()), /6位/);
+});
+
+
+test("a duplicate numeric code closes only the newer room and preserves the earlier host", async () => {
+  const wire = new Wire();
+  const firstStore = new Memory();
+  const newStore = new Memory();
+  const first = await createRoom("已有房主", { store: firstStore, transport: wire.factory, now: () => 100, tickMs: 20 });
+  await createRoom("新房主", { store: newStore, transport: wire.factory, now: () => 200, tickMs: 20 });
+  const key = "tabletop.dinner.room.v1";
+  const saved = JSON.parse(newStore.getItem(key)!);
+  saved.code = first.getSnapshot().code;
+  newStore.setItem(key, JSON.stringify(saved));
+  const newer = (await restoreRoom({ store: newStore, transport: wire.factory, now: () => 200, tickMs: 20 }))!;
+  try {
+    await first.connect();
+    await newer.connect();
+    await waitFor(() => newer.getSnapshot().status === "closed");
+    assert.match(newer.getSnapshot().error, /已被使用/);
+    assert.equal(first.getSnapshot().status, "online");
+    assert.equal(first.getSnapshot().peers.length, 1);
+    const foreign = await createRoom("无关广播", { store: new Memory(), transport: wire.factory });
+    const publicKey = (foreign as any).identity.publicKey;
+    // An unsigned advertisement must never terminate an established room.
+    (first as any).transport.onMessage({ v: 1, type: "host", publicKey });
+    await new Promise((resolve) => setTimeout(resolve, 30));
+    assert.equal(first.getSnapshot().status, "online");
+  } finally {
+    first.stop(); newer.stop();
+  }
+});
+
+
+test("a stale unclaimed restore cannot overwrite newer progress after probing", async () => {
+  const store = new Memory();
+  const isolated = () => new Wire().factory;
+  const first = await createRoom("房主", { store, transport: isolated(), tickMs: 10000 });
+  const stale = (await restoreRoom({ store, transport: isolated(), tickMs: 10000 }))!;
+  try {
+    await first.connect();
+    await first.ready(false);
+    const current = store.getItem("tabletop.dinner.room.v1");
+    await assert.rejects(() => stale.connect(), /其他页面/);
+    assert.equal(store.getItem("tabletop.dinner.room.v1"), current);
+  } finally {
+    first.stop(); stale.stop();
   }
 });

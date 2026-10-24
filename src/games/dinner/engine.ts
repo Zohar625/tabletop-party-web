@@ -193,7 +193,7 @@ export function reduceDinner(
       if (s.bid === total) {
         s.phase = "revealing";
         s.turn = actorId;
-        s.message = "开始翻菜：先翻完自己的叠牌。";
+        s.message = "开始揭菜：可选择任意玩家最上面的一道菜。";
       } else {
         s.phase = "bidding";
         s.turn = nextSeat(s, actorId, (p) => !s.passed.includes(p.id));
@@ -211,7 +211,7 @@ export function reduceDinner(
       if (contenders.length === 1) {
         s.phase = "revealing";
         s.turn = s.challenger!;
-        s.message = "开始翻菜：先翻完自己的叠牌。";
+        s.message = "开始揭菜：可选择任意玩家最上面的一道菜。";
       } else {
         s.turn = nextSeat(s, actorId, (p) => !s.passed.includes(p.id));
       }
@@ -220,8 +220,6 @@ export function reduceDinner(
         fail("现在不能翻菜");
       const owner = s.players.find((p) => p.id === action.owner);
       if (!owner || !owner.stack.length) fail("该玩家没有可翻的菜");
-      if (actor.stack.length && action.owner !== actorId)
-        fail("必须先翻完自己的菜");
       const id = owner.stack.pop()!;
       const card = owner.cards.find((c) => c.id === id)!;
       s.revealed.push({ owner: owner.id, card: { ...card } });

@@ -32,6 +32,7 @@ interface Receipt {
 interface SavedRoom {
   version: 1;
   matchId?: string;
+  claimed?: boolean;
   code: string;
   name: string;
   identity: SavedIdentity;
@@ -104,12 +105,14 @@ const nameOf = (name: string) =>
     .trim()
     .replace(/[\u0000-\u001f]/g, "")
     .slice(0, 16) || "食客";
-const validCode = (code: string) => /^[A-Z2-9]{8}$/.test(code);
-const codeOf = () =>
-  Array.from(
-    crypto.getRandomValues(new Uint8Array(8)),
-    (n) => "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"[n % 32],
-  ).join("");
+const validCode = (code: string) => /^(?:[0-9]{6}|[A-Z2-9]{8})$/.test(code);
+const codeOf = () => {
+  // Rejection sampling avoids modulo bias in the six-digit room space.
+  const limit = Math.floor(2 ** 32 / 1_000_000) * 1_000_000;
+  const value = new Uint32Array(1);
+  do crypto.getRandomValues(value); while (value[0]! >= limit);
+  return String(value[0]! % 1_000_000).padStart(6, "0");
+};
 
 export class DinnerRoom {
   private saved: SavedRoom;
@@ -133,6 +136,7 @@ export class DinnerRoom {
   private warning = "";
   private error = "";
   private hostSeen = 0;
+  private probing = false;
   private lastWritten?: string;
 
   constructor(
@@ -277,7 +281,7 @@ export class DinnerRoom {
       } satisfies Frame);
   }
   private async publish() {
-    if (!this.isHost || !this.connected || this.stopped) return;
+    if (!this.isHost || !this.connected || this.stopped || this.probing) return;
     this.assertHostCurrent();
     this.transport.send({
       v: 1,
@@ -317,6 +321,16 @@ export class DinnerRoom {
       }
       this.connected = true;
       this.error = "";
+      if (this.isHost && this.saved.claimed === false) {
+        this.probing = true;
+        this.transport.send({ v: 1, type: "probe" });
+        await new Promise((resolve) => setTimeout(resolve, 1200));
+        this.probing = false;
+        if (this.stopped) return;
+        this.assertHostCurrent();
+        this.saved.claimed = true;
+        this.persist();
+      }
       this.emit(this.isHost ? "online" : "waiting");
       await this.enqueue(() =>
         this.isHost
@@ -377,9 +391,24 @@ export class DinnerRoom {
     if (this.stopped || !value || typeof value !== "object") return;
     const frame = value as Frame & { type: string };
     if (frame.v !== 1) return;
+    if (String(frame.type) === "probe") {
+      if (this.isHost && !this.probing) await this.publish();
+      return;
+    }
     if (String(frame.type) === "host") {
-      if (this.isHost) return;
       const id = await fingerprint(frame.publicKey);
+      if (this.isHost) {
+        if (id === this.identity.id) return;
+        // Only an unclaimed new room may be rejected by a public announcement.
+        // An established room never stops because of another publisher's clock
+        // or unsigned advertisement on the public topic.
+        if (this.probing) {
+          this.error = "这个房间码已被使用，请退出后重新创建房间。";
+          this.stop();
+          this.emit("closed");
+        }
+        return;
+      }
       if (this.saved.pin && this.saved.pin !== id) {
         this.error = "房主身份不匹配，请使用朋友分享的完整链接。";
         this.emit("waiting");
@@ -652,6 +681,7 @@ export async function createRoom(
   const saved: SavedRoom = {
     version: 1,
     code: codeOf(),
+    claimed: false,
     name: nameOf(name),
     identity: identity.saved,
     hostId: identity.id,
@@ -679,7 +709,7 @@ export async function joinRoom(
   options: RoomOptions = {},
 ): Promise<DinnerRoom> {
   const code = input.replace(/[\s-]/g, "").toUpperCase();
-  if (!validCode(code)) throw Error("请输入8位房间码。");
+  if (!validCode(code)) throw Error("请输入6位数字房间码（也支持旧版8位码）。");
   if (pin && !/^[0-9a-f]{64}$/.test(pin))
     throw Error("邀请链接不完整，请重新复制。");
   const identity = await createIdentity();
