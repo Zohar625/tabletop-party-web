@@ -12,4 +12,11 @@ export const games = [
     available: true,
     href: "./super-tic-tac-toe/index.html",
   },
+  {
+    id: "dinner",
+    title: "这口能吃吗",
+    subtitle: "放心吃，我这桌肯定没有黑暗料理。",
+    available: true,
+    href: "./dinner/index.html",
+  },
 ];

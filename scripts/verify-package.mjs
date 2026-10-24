@@ -35,3 +35,16 @@ for (const [page, offline, link] of pages) {
   assert.equal(parsed.status, 0, parsed.stderr);
 }
 console.log("两个网页入口资源、本地试玩脚本语法及互相跳转检查通过。");
+const dinnerFolder = resolve(root, "dist/dinner");
+const dinner = await readFile(resolve(dinnerFolder, "index.html"), "utf8");
+for (const [, asset] of dinner.matchAll(/(?:src|href)="([^"]+)"/g)) {
+  assert(asset.startsWith("./"));
+  await access(resolve(dinnerFolder, asset));
+}
+const lobby = await readFile(resolve(root, "一桌好戏-本地试玩.html"), "utf8");
+assert(
+  lobby.includes(
+    "https://zohar625.github.io/tabletop-party-web/dinner/index.html",
+  ),
+);
+console.log("联机入口资源及本地大厅的在线链接检查通过。");

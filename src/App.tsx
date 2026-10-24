@@ -448,6 +448,52 @@ export default function App() {
                   </div>
                 </div>
               </a>
+              <a className="game-tile dinner-tile" href={games[2]!.href}>
+                <div className="tile-art dinner-art" aria-hidden="true">
+                  <svg viewBox="0 0 160 140" width="160">
+                    <ellipse
+                      cx="80"
+                      cy="112"
+                      rx="64"
+                      ry="12"
+                      fill="#bf7744"
+                      opacity=".2"
+                    />
+                    <path
+                      d="M25 97a55 55 0 0 1 110 0Z"
+                      fill="#fff6dc"
+                      stroke="#825b39"
+                      strokeWidth="3"
+                    />
+                    <path d="M18 98h124v9H18z" fill="#dc9c5f" />
+                    <circle cx="80" cy="39" r="7" fill="#825b39" />
+                    <path
+                      d="M64 19q-9-9 0-17M86 21q-9-9 0-17"
+                      fill="none"
+                      stroke="#c78a5b"
+                      strokeWidth="3"
+                      strokeLinecap="round"
+                    />
+                  </svg>
+                </div>
+                <div className="tile-copy">
+                  <div className="tile-top">
+                    <span className="tag">诈唬 · 叫价 · 揭盖</span>
+                    <span className="available">联机试玩</span>
+                  </div>
+                  <h3>
+                    {games[2]!.title}
+                    <span>朋友劝菜局</span>
+                  </h3>
+                  <p>{games[2]!.subtitle}</p>
+                  <div className="tile-bottom">
+                    <span>3–6 人 · 各拿手机入桌</span>
+                    <span className="circle-arrow">
+                      <Icon name="arrow" size={20} />
+                    </span>
+                  </div>
+                </div>
+              </a>
               <p className="coming">
                 更多桌游，慢慢上桌。<span>好戏与好棋，都在这一桌。</span>
               </p>

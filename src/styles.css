@@ -396,6 +396,14 @@ small {
   color: inherit;
   text-decoration: none;
 }
+.dinner-tile {
+  margin-top: 18px;
+  color: inherit;
+  text-decoration: none;
+}
+.dinner-art {
+  background: #f2d6ae !important;
+}
 .chess-art > div {
   width: 72%;
   max-width: 154px;
