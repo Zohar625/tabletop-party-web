@@ -14,12 +14,12 @@
 
 ## 实施步骤
 
-- [ ] `tests/dinner-engine.test.ts` 先覆盖初始化、初放顺序、轮次/竞价、强制本人翻牌、失牌保密、自选丢牌、淘汰与胜利；运行失败后实现 `src/games/dinner/{types,menu,engine}.ts`。
-- [ ] `tests/dinner-network.test.ts` 覆盖加密互通/篡改、投影不泄密、重复操作、过期版本、加入上限、准备/开桌、重连；实现 `crypto.ts`、`room.ts` 与独立 `mqtt.ts`。
-- [ ] `DinnerApp.tsx` + `dinner.css`：暖色饭局风，名字和房间码入桌、准备、公共桌面、本人手牌、竞价/揭盖/失牌操作、刷新恢复、错误/等待状态、教程。正常菜式至少24种，每局随机分配固定皮肤，牌背不泄漏类型。
-- [ ] 新增 `dinner/index.html` 和 `vite.dinner.config.ts`，大厅增加联机入口，保持旧两个离线HTML可打包。
-- [ ] 测试全量规则/协议；用三个真实网络客户端验收建房、入房、开局、暗牌同步、刷新重连；没有浏览器实测时明确记录。
-- [ ] 独立审查、生产构建、更新 GitHub Pages、确认发布资源；本机不具备完整浏览器验收时交付限制。
+- [x] `tests/dinner-engine.test.ts` 先覆盖初始化、初放顺序、轮次/竞价、强制本人翻牌、失牌保密、自选丢牌、淘汰与胜利；运行失败后实现 `src/games/dinner/{types,menu,engine}.ts`。
+- [x] `tests/dinner-network.test.ts` 覆盖加密互通/篡改、投影不泄密、重复操作、过期版本、加入上限、准备/开桌、重连；实现 `crypto.ts`、`room.ts` 与独立 `mqtt.ts`。
+- [x] `DinnerApp.tsx` + `dinner.css`：暖色饭局风，名字和房间码入桌、准备、公共桌面、本人手牌、竞价/揭盖/失牌操作、刷新恢复、错误/等待状态、教程。正常菜式至少24种，每局随机分配固定皮肤，牌背不泄漏类型。
+- [x] 新增 `dinner/index.html` 和 `vite.dinner.config.ts`，大厅增加联机入口，保持旧两个离线HTML可打包。
+- [x] 测试全量规则/协议；用三个真实网络客户端验收建房、入房、开局、暗牌同步、刷新重连；没有浏览器实测时明确记录。
+- [x] 独立审查、生产构建、更新 GitHub Pages、确认发布资源；本机不具备完整浏览器验收时交付限制。
 
 ## 连接和信任边界
 
