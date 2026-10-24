@@ -34,6 +34,9 @@ export function Tutorial({ onClose }: { onClose: () => void }) {
         {step === 0 && (
           <>
             <p>每人有 3 道好菜、1 道坏菜。选一道，盖着放在自己面前。</p>
+            <p>
+              第一道菜，其他人可以同时放，首家最后放；之后才轮流加菜或叫价。
+            </p>
             <div className="tutorial-cards">
               {(["safe", "bad"] as const).map((kind) => (
                 <button
@@ -43,7 +46,7 @@ export function Tutorial({ onClose }: { onClose: () => void }) {
                 >
                   <DishArt
                     dish={{
-                      name: kind === "safe" ? "蛋炒饭" : "隔夜浓汤",
+                      name: kind === "safe" ? "蛋炒饭" : "芥末奶油蛋糕",
                       kind,
                     }}
                   />
@@ -98,10 +101,13 @@ export function Tutorial({ onClose }: { onClose: () => void }) {
         )}
         {step === 4 && (
           <>
-            <DishArt dish={{ name: "隔夜浓汤", kind: "bad" }} />
+            <DishArt dish={{ name: "芥末奶油蛋糕", kind: "bad" }} />
             <h3>哎呀，是{choice === "safe" ? "对手" : "自己"}的坏菜！</h3>
             <p>
               挑战失败，你会失去一张牌。翻到自己的坏菜，由你选择丢牌；翻到别人的坏菜，则随机失去一张。牌丢光就出局。
+            </p>
+            <p>
+              每轮结束，未丢弃的菜会收回，下轮继续用；永久丢弃的菜不会回来。
             </p>
             <p>
               <strong>连续翻够叫价的好菜，赢下一轮。先赢 2 轮的人获胜！</strong>

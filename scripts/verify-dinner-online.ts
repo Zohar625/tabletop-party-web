@@ -61,7 +61,7 @@ try {
   for (const room of rooms)
     assert.equal(room.getSnapshot().game!.me.hand.length, 4);
   console.log("PASS 开桌与各自手牌投影");
-  for (const room of [a, b, host]) {
+  async function placeSafe(room: DinnerRoom) {
     await until(() => !room.getSnapshot().pending, "前一操作确认");
     const card = room
       .getSnapshot()
@@ -74,6 +74,11 @@ try {
       "放菜确认",
     );
   }
+  await Promise.all([a, b].map(placeSafe));
+  assert.equal(a.getSnapshot().error, "");
+  assert.equal(b.getSnapshot().error, "");
+  console.log("PASS 同轮两位玩家同时放菜，不互相退回或清空确认");
+  await placeSafe(host);
   await host.act({ type: "bid", amount: 1 });
   for (let count = 0; count < 2; count++) {
     const turn = host.getSnapshot().game!.turn;

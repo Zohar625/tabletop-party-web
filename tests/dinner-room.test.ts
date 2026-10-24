@@ -50,6 +50,77 @@ const waitFor = async (check: () => boolean) => {
   }
   assert(check(), "房间状态没有按预期同步");
 };
+
+test("同一初放阶段两位玩家同时提交，各自只放一张且不互相报过期", async () => {
+  const wire = new Wire();
+  const options = () => ({
+    store: new Memory(),
+    transport: wire.factory,
+    tickMs: 50,
+  });
+  const host = await createRoom("房主", options());
+  const a = await joinRoom(
+    "甲",
+    host.getSnapshot().code,
+    host.getSnapshot().pin,
+    options(),
+  );
+  const b = await joinRoom(
+    "乙",
+    host.getSnapshot().code,
+    host.getSnapshot().pin,
+    options(),
+  );
+  const rooms = [host, a, b];
+  try {
+    await Promise.all(rooms.map((r) => r.connect()));
+    await waitFor(() => rooms.every((r) => r.getSnapshot().peers.length === 3));
+    await Promise.all([a.ready(true), b.ready(true)]);
+    await waitFor(() =>
+      rooms.every(
+        (r) =>
+          !r.getSnapshot().pending &&
+          r.getSnapshot().peers.every((p) => p.ready),
+      ),
+    );
+    await host.startGame();
+    await waitFor(() => rooms.every((r) => r.getSnapshot().game !== null));
+    assert.equal(a.getSnapshot().revision, b.getSnapshot().revision);
+    const moves = [a, b].map((r) => ({
+      room: r,
+      cardId: r.getSnapshot().game!.me.hand[0].id,
+    }));
+    await Promise.all(
+      moves.map(({ room, cardId }) => room.act({ type: "place", cardId })),
+    );
+    await waitFor(() =>
+      [a, b].every(
+        (r) =>
+          !r.getSnapshot().pending &&
+          r.getSnapshot().game!.me.placed.length === 1,
+      ),
+    );
+    for (const r of [a, b]) {
+      assert.equal(r.getSnapshot().error, "");
+      assert.equal(r.getSnapshot().game!.me.hand.length, 3);
+    }
+    const placed = host
+      .getSnapshot()
+      .game!.players.filter((p) => p.id !== host.getSnapshot().meId);
+    assert(placed.every((p) => p.stackCount === 1));
+    assert.equal(host.getSnapshot().game!.phase, "initial");
+    assert.equal(host.getSnapshot().game!.turn, host.getSnapshot().meId);
+    await host.act({
+      type: "place",
+      cardId: host.getSnapshot().game!.me.hand[0].id,
+    });
+    await waitFor(() =>
+      rooms.every((r) => r.getSnapshot().game!.phase === "placing"),
+    );
+  } finally {
+    rooms.forEach((r) => r.stop());
+  }
+});
 test("三个真实控制器建房、加密开桌、私密手牌、成员和房主刷新恢复", async () => {
   const wire = new Wire(),
     stores = [new Memory(), new Memory(), new Memory()];

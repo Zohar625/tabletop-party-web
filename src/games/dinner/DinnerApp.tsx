@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   clearSavedRoom,
   createRoom,
@@ -7,7 +7,8 @@ import {
   type DinnerRoom,
   type RoomSnapshot,
 } from "./room";
-import type { DinnerAction, DishCard } from "./types";
+import type { DinnerAction, DinnerPhase, DishCard } from "./types";
+import { retainDishSelection, selectableDishes } from "./uiState";
 import { DishArt } from "./components/DishArt";
 import { Tutorial } from "./components/Tutorial";
 import "./dinner.css";
@@ -71,10 +72,15 @@ export default function DinnerApp() {
     };
   }, [room]);
   const game = snap?.game;
+  const previousPhase = useRef<DinnerPhase | undefined>(undefined);
   useEffect(() => {
-    setSelected(null);
+    const phase = previousPhase.current;
+    setSelected((value) => retainDishSelection(value, phase, game));
+    previousPhase.current = game?.phase;
+  }, [game]);
+  useEffect(() => {
     setBid((game?.bid || 0) + 1);
-  }, [game?.revision]);
+  }, [game?.bid]);
   async function run(task: () => Promise<void>) {
     setError("");
     setBusy(true);
@@ -148,7 +154,24 @@ export default function DinnerApp() {
     myTurn && (game?.phase === "placing" || game?.phase === "bidding");
   const challengeMine = game?.challenger === snap?.meId;
   const ownRemaining = !!mine && mine.stackCount > 0;
-  const allCards = game?.me.allCards || [];
+  const canDiscard = game?.phase === "discard" && myTurn && challengeMine;
+  const cardsReturned =
+    game?.phase === "roundEnd" || game?.phase === "finished";
+  const visibleHand = cardsReturned ? game.me.allCards : game?.me.hand || [];
+  const canSelectHand =
+    canPlace ||
+    (game?.phase === "initial" &&
+      !!mine &&
+      !mine.eliminated &&
+      !mine.stackCount);
+  const initialSubmitted = game?.phase === "initial" && !!mine?.stackCount;
+  const initialPrompt = initialSubmitted
+    ? "已提交，这道菜已盖好上桌，等其他人放好"
+    : canInitialPlace
+      ? "先选一道菜，盖好放上桌；其他人也可以同时放"
+      : !mine?.eliminated
+        ? "你是首家，可以先选菜，等其他人放好后最后上桌"
+        : "等大家放好第一道菜";
   const phaseLabels = {
     initial: "先盖一道菜",
     placing: "放菜，还是叫价？",
@@ -448,7 +471,9 @@ export default function DinnerApp() {
                   </span>
                   <h1>{phaseLabels[game.phase]}</h1>
                   <p aria-live="polite">
-                    {game.message ||
+                    {(game.phase === "initial"
+                      ? initialPrompt
+                      : game.message) ||
                       (myTurn ? "轮到你了" : `等 ${turnName} 动筷`)}
                   </p>
                 </div>
@@ -498,7 +523,7 @@ export default function DinnerApp() {
                       <div className="player-status">
                         {p.eliminated
                           ? "已离席"
-                          : `${p.cardCount} 张牌 · ${snap.peers.find((peer) => peer.id === p.id)?.online ? "在线" : "离线"}${p.passed ? " · 已放弃" : ""}`}
+                          : `剩余持有 ${p.cardCount} 张（含桌上） · ${snap.peers.find((peer) => peer.id === p.id)?.online ? "在线" : "离线"}${p.passed ? " · 已放弃" : ""}`}
                       </div>
                       <button
                         className={`covered-stack ${flip || choose ? "actionable" : ""}`}
@@ -545,7 +570,13 @@ export default function DinnerApp() {
                 <div className="section-heading">
                   <div>
                     <span className="eyebrow">
-                      {myTurn || canInitialPlace ? "现在，轮到你" : "饭桌动态"}
+                      {game.phase === "initial"
+                        ? initialSubmitted
+                          ? "第一道菜已上桌"
+                          : "先选好你的菜"
+                        : myTurn
+                          ? "现在，轮到你"
+                          : "饭桌动态"}
                     </span>
                     <h2>
                       {game.phase === "finished"
@@ -559,56 +590,113 @@ export default function DinnerApp() {
                                 : "点击任意对手的盖碗"
                               : "看看挑战者的眼光如何"
                             : game.phase === "discard"
-                              ? myTurn
-                                ? "挑一道要失去的菜"
+                              ? canDiscard
+                                ? "永久丢弃一张，不是放到桌上"
                                 : `等 ${turnName} 选择丢牌`
                               : game.phase === "chooseStarter"
                                 ? myTurn
                                   ? "点一位玩家，请 TA 先来"
                                   : `等 ${turnName} 选择先手`
-                                : canInitialPlace
-                                  ? "先选一道菜，盖好放上桌"
+                                : game.phase === "initial"
+                                  ? initialPrompt
                                   : myTurn
                                     ? "你要继续放菜，还是叫价？"
                                     : `等 ${turnName} 出招`}
                     </h2>
                   </div>
                 </div>
-                {(canPlace || (game.phase === "discard" && myTurn)) && (
-                  <>
+                <section className="private-hand" aria-label="我的剩余手牌">
+                  <h3>
+                    {game.phase === "roundEnd"
+                      ? "收回的菜"
+                      : game.phase === "finished"
+                        ? "本局剩余的菜"
+                        : "可放的菜"}{" "}
+                    · {visibleHand.length} 张
+                  </h3>
+                  <p className="private-note">
+                    只有你能看到。
+                    {cardsReturned
+                      ? "剩余的菜已收回，永久丢弃的菜不会回来。"
+                      : canSelectHand
+                        ? "先选一道，再确认上桌。"
+                        : "这些菜还在手中，轮到你放菜时可用。"}
+                  </p>
+                  <div className="hand-cards">
+                    {visibleHand.map((card) => (
+                      <DishButton
+                        key={card.id}
+                        card={card}
+                        selected={
+                          game.phase !== "discard" && selected === card.id
+                        }
+                        disabled={locked || !canSelectHand}
+                        onClick={() => setSelected(card.id)}
+                      />
+                    ))}
+                  </div>
+                  {visibleHand.length === 0 && (
                     <p className="private-note">
-                      只有你能看到这些菜 · 选中后再确认
+                      {cardsReturned
+                        ? "已经没有剩余的菜。"
+                        : "手中的菜都已上桌。"}
+                    </p>
+                  )}
+                  {canSelectHand && (
+                    <button
+                      className="primary"
+                      disabled={
+                        locked ||
+                        !canPlace ||
+                        !selected ||
+                        !game.me.hand.some((card) => card.id === selected)
+                      }
+                      onClick={() =>
+                        selected && act({ type: "place", cardId: selected })
+                      }
+                    >
+                      {canPlace
+                        ? "盖好，就放这道"
+                        : "等其他人放好，首家最后上桌"}
+                    </button>
+                  )}
+                </section>
+                {canDiscard && (
+                  <section
+                    className="private-discard"
+                    aria-label="选择永久丢弃的菜"
+                  >
+                    <h3>永久丢弃一张，不是放到桌上</h3>
+                    <p className="private-note">
+                      从自己剩余持有的菜里选一张，含本轮已上桌的菜；丢弃后下轮也不会回来。
                     </p>
                     <div className="hand-cards">
-                      {(game.phase === "discard" ? allCards : game.me.hand).map(
-                        (card) => (
-                          <DishButton
-                            key={card.id}
-                            card={card}
-                            selected={selected === card.id}
-                            disabled={locked}
-                            onClick={() => setSelected(card.id)}
-                          />
-                        ),
-                      )}
+                      {selectableDishes(game).map((card) => (
+                        <DishButton
+                          key={card.id}
+                          card={card}
+                          selected={selected === card.id}
+                          disabled={locked}
+                          onClick={() => setSelected(card.id)}
+                        />
+                      ))}
                     </div>
                     <button
                       className="primary"
-                      disabled={locked || !selected}
-                      onClick={() =>
-                        selected &&
-                        act(
-                          game.phase === "discard"
-                            ? { type: "discard", cardId: selected }
-                            : { type: "place", cardId: selected },
+                      disabled={
+                        locked ||
+                        !selected ||
+                        !selectableDishes(game).some(
+                          (card) => card.id === selected,
                         )
                       }
+                      onClick={() =>
+                        selected && act({ type: "discard", cardId: selected })
+                      }
                     >
-                      {game.phase === "discard"
-                        ? "确认失去这道菜"
-                        : "盖好，就放这道"}
+                      确认永久丢弃
                     </button>
-                  </>
+                  </section>
                 )}
                 {canBid && (
                   <div className="bid-controls">
@@ -650,13 +738,18 @@ export default function DinnerApp() {
                   </div>
                 )}
                 {game.phase === "roundEnd" && (
-                  <button
-                    disabled={locked}
-                    className="primary"
-                    onClick={() => act({ type: "next" })}
-                  >
-                    再上一轮菜 →
-                  </button>
+                  <>
+                    <p className="round-return-note">
+                      本轮结束，未丢弃的菜收回，下轮继续用；失败永久失去的菜不会回来。
+                    </p>
+                    <button
+                      disabled={locked}
+                      className="primary"
+                      onClick={() => act({ type: "next" })}
+                    >
+                      再上一轮菜 →
+                    </button>
+                  </>
                 )}
                 {game.phase === "finished" &&
                   (snap.host ? (
@@ -671,15 +764,20 @@ export default function DinnerApp() {
                     <p>等房主开启下一局。</p>
                   ))}
                 {game.me.placed.length > 0 && (
-                  <details className="private-placed">
-                    <summary>偷偷看我盖的 {game.me.placed.length} 道菜</summary>
-                    <p>按放入顺序排列，最后一道在最上面。</p>
+                  <section
+                    className="private-placed"
+                    aria-label="本轮已上桌的菜"
+                  >
+                    <h3>本轮已上桌 · {game.me.placed.length} 道</h3>
+                    <p>
+                      已提交，不能再次放。按放入顺序排列，最后一道在最上面。
+                    </p>
                     <div className="hand-cards">
                       {game.me.placed.map((card) => (
                         <DishButton key={card.id} card={card} disabled />
                       ))}
                     </div>
-                  </details>
+                  </section>
                 )}
               </section>
             </>

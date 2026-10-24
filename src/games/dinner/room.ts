@@ -31,6 +31,7 @@ interface Receipt {
 }
 interface SavedRoom {
   version: 1;
+  matchId?: string;
   code: string;
   name: string;
   identity: SavedIdentity;
@@ -44,6 +45,7 @@ interface SavedRoom {
   receipts: Record<string, Receipt[]>;
 }
 export interface RoomSnapshot {
+  matchId: string;
   code: string;
   hostId: string;
   meId: string;
@@ -66,6 +68,8 @@ interface Request {
   kind: "request";
   id: string;
   version: number;
+  initialRound?: number;
+  initialMatch?: string;
   name: string;
   command: Command;
 }
@@ -146,6 +150,7 @@ export class DinnerRoom {
     this.now = options.now ?? Date.now;
     this.tickMs = options.tickMs ?? 2000;
     this.snapshot = {
+      matchId: saved.matchId ?? "",
       code: saved.code,
       hostId: saved.hostId,
       meId: identity.id,
@@ -217,6 +222,7 @@ export class DinnerRoom {
   private emit(status?: RoomSnapshot["status"]) {
     this.snapshot = {
       ...this.snapshot,
+      matchId: this.isHost ? (this.saved.matchId ?? "") : this.snapshot.matchId,
       status: status ?? this.snapshot.status,
       warning: this.warning,
       error: this.error,
@@ -283,6 +289,7 @@ export class DinnerRoom {
       if (p.id !== this.identity.id) {
         await this.sendTo(p.id, p.publicKey, {
           kind: "snapshot",
+          matchId: this.saved.matchId ?? "",
           revision: this.saved.revision,
           peers: this.publicPeers(),
           game: this.saved.game ? dinnerView(this.saved.game, p.id) : null,
@@ -353,6 +360,11 @@ export class DinnerRoom {
       kind: "request",
       id: crypto.randomUUID(),
       version: this.snapshot.revision,
+      initialRound:
+        this.snapshot.game?.phase === "initial"
+          ? this.snapshot.game.round
+          : undefined,
+      initialMatch: this.snapshot.matchId,
       name: this.saved.name,
       command,
     };
@@ -420,6 +432,7 @@ export class DinnerRoom {
       this.hostSeen = this.now();
       this.snapshot = {
         ...this.snapshot,
+        matchId: typeof payload.matchId === "string" ? payload.matchId : "",
         revision: payload.revision,
         peers: payload.peers,
         game: payload.game,
@@ -431,9 +444,6 @@ export class DinnerRoom {
       );
       if (receipt) {
         this.error = receipt.error;
-        this.pending = undefined;
-      } else if (this.pending && payload.revision > this.pending.version) {
-        this.error = "桌面已更新，请重新选择。";
         this.pending = undefined;
       }
       this.emit("online");
@@ -485,7 +495,18 @@ export class DinnerRoom {
     }
     let error = "";
     try {
-      if (command.type !== "ready" && request.version !== this.saved.revision)
+      const sameInitialRound =
+        command.type === "action" &&
+        command.action?.type === "place" &&
+        this.saved.game?.phase === "initial" &&
+        request.initialRound === this.saved.game.round &&
+        request.initialMatch === (this.saved.matchId ?? "") &&
+        request.version <= this.saved.revision;
+      if (
+        command.type !== "ready" &&
+        !sameInitialRound &&
+        request.version !== this.saved.revision
+      )
         throw Error("桌面已更新，请重新选择。");
       this.apply(id, command);
       this.saved.revision++;
@@ -521,6 +542,7 @@ export class DinnerRoom {
       this.saved.game = createDinner(
         this.saved.peers.map((p) => ({ id: p.id, name: p.name })),
       );
+      this.saved.matchId = crypto.randomUUID();
       this.saved.playing = true;
     } else if (command.type === "action") {
       if (!this.saved.game) throw Error("请先开桌。");

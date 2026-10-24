@@ -1240,3 +1240,23 @@ input {
 .tutorial-safe svg {
   width: 120px;
 }
+.private-hand h3,
+.private-discard h3,
+.private-placed h3 {
+  font-size: 15px;
+  margin: 0 0 8px;
+}
+.private-hand,
+.private-discard {
+  margin-top: 20px;
+}
+.private-hand > .primary {
+  max-width: 100%;
+}
+.private-discard {
+  border-top: 1px solid var(--line, #ded4c3);
+  padding-top: 20px;
+}
+.round-return-note {
+  line-height: 1.7;
+}
