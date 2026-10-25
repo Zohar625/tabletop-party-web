@@ -1,0 +1,2 @@
+# Project-specific override
+The approved parchment/hand-drawn map brief overrides the generic app-store/3D recommendation. Use original inline SVG terrain and CSS paper texture; no external fonts or fake reviews, no WebGL or new dependencies. Prioritize 44px controls, visible focus, readable target descriptions and reduced motion. Forest green, warm cream, terracotta villages, ochre farms and slate blue water. The board has outline/texture differences beyond color.

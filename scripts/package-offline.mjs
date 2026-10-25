@@ -34,6 +34,8 @@ async function bundle(page, output, links) {
 
 await bundle("", "一桌好戏-本地试玩.html", {
   "./super-tic-tac-toe/index.html": "./超级井字棋-本地试玩.html",
+  "./cartographers/index.html":
+    "https://zohar625.github.io/tabletop-party-web/cartographers/index.html",
   "./dinner/index.html":
     "https://zohar625.github.io/tabletop-party-web/dinner/index.html",
 });

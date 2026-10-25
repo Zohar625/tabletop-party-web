@@ -19,4 +19,11 @@ export const games = [
     available: true,
     href: "./dinner/index.html",
   },
+  {
+    id: "cartographers",
+    title: "制图师",
+    subtitle: "把森林、村庄与河流，画成你的四季山河。",
+    available: true,
+    href: "./cartographers/index.html",
+  },
 ];

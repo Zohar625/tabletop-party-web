@@ -48,3 +48,12 @@ assert(
   ),
 );
 console.log("联机入口资源及本地大厅的在线链接检查通过。");
+
+const mapFolder = resolve(root, "dist/cartographers");
+const mapPage = await readFile(resolve(mapFolder, "index.html"), "utf8");
+for (const [, asset] of mapPage.matchAll(/(?:src|href)="([^"]+)"/g)) {
+  assert(asset.startsWith("./"));
+  await access(resolve(mapFolder, asset));
+}
+assert(lobby.includes("https://zohar625.github.io/tabletop-party-web/cartographers/index.html"));
+console.log("制图师入口资源及大厅跳转检查通过。");

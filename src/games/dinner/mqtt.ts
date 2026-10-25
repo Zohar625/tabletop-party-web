@@ -53,8 +53,8 @@ export class MqttTransport implements RoomTransport {
   private closed = false;
   private buffer = new Uint8Array(0);
   private topic: string;
-  constructor(code: string) {
-    this.topic = `tabletop-dinner/v1/${code}`;
+  constructor(code: string, namespace = "tabletop-dinner") {
+    this.topic = `${namespace}/v1/${code}`;
   }
 
   connect(): Promise<void> {

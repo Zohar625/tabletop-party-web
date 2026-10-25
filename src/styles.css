@@ -2173,3 +2173,9 @@ dialog h2 {
     scroll-behavior: auto !important;
   }
 }
+
+.map-tile { border-color: #c1c8ac; }
+.map-art { background: #e7ebd9; overflow: hidden; }
+.map-art svg { width: 210px; max-width: 100%; height: auto; transform: rotate(-5deg) scale(1.2); transition: transform .35s ease; }
+.map-tile:hover .map-art svg { transform: rotate(-2deg) scale(1.25); }
+@media(prefers-reduced-motion:reduce){.map-art svg{transition:none}}

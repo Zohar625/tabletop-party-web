@@ -14,6 +14,7 @@ import type { Store } from "./session/localSession";
 import type { SessionAdapter } from "./session/types";
 import { startReadingClock } from "./session/readingClock";
 import { games } from "./games/registry";
+import { MapIllustration } from "./games/cartographers/TerrainArt";
 function getStore(): Store {
   try {
     return window.localStorage;
@@ -492,6 +493,15 @@ export default function App() {
                       <Icon name="arrow" size={20} />
                     </span>
                   </div>
+                </div>
+              </a>
+              <a className="game-tile map-tile" href={games[3]!.href}>
+                <div className="tile-art map-art" aria-hidden="true"><MapIllustration /></div>
+                <div className="tile-copy">
+                  <div className="tile-top"><span className="tag">探索 · 拼图 · 四季绘图</span><span className="available">单人 / 联机</span></div>
+                  <h3>{games[3]!.title}<span>把山河画成故事</span></h3>
+                  <p>{games[3]!.subtitle}</p>
+                  <div className="tile-bottom"><span>1–6 人 · 附互动教学</span><span className="circle-arrow"><Icon name="arrow" size={20} /></span></div>
                 </div>
               </a>
               <p className="coming">
