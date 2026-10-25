@@ -52,10 +52,12 @@ Files: cartographers/index.html, vite.cartographers.config.ts, src/games/registr
 - [x] Add isolated build entry and illustrated lobby card; offline lobby links map online if standalone inline export unsupported.
 - [x] Run all Node/Python checks and npm run package:offline, git diff --check.
 - [x] Independent review of spec compliance and correctness; repair findings with targeted tests.
-- [ ] Commit and push to existing branch, await Pages workflow, verify served resource names and public entry. Document unavailable interactive browser QA clearly.
+- [x] Commit and push to existing branch, await Pages workflow, verify served resource names and public entry. Document unavailable interactive browser QA clearly.
 
 ## Execution evidence
 - 117 Node tests and11Python tests pass; TS+4buildentries+offlinepackaging pass.
 - Engine andUI independentreviews completed; findings repaired with regressions.
 - Real3WebSocketclients passed simultaneousplacements, deckprivacy andguest/hostrestore.
 - Browserautomation unavailable, no interactivephoneQA orPNGdownload claim.
+
+- Delivery: code bb2c8f6; Pages40165294987success; publicHTTP200+matchingSHA256.

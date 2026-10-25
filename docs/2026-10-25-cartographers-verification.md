@@ -30,6 +30,8 @@
 制图师CSS：index-C8pGDkpb.css
 大厅JS：index-CHzgLBZ_.js
 
-状态：首轮部署40165170971已通过；正在同步简化房间输入的最终版本。
+状态：最终代码bb2c8f6已发布，GitHub Pages工作流40165294987成功。
+
+线上验证：制图师入口HTTP200，index-CUyk-yoT.js的SHA256与本地构建一致；大厅加载index-CHzgLBZ_.js。未执行真实浏览器交互。
 
 邀请中的房主身份值自动处理，界面仅保留房间码，手动更改房间码会清除旧邀请的身份固定值。
