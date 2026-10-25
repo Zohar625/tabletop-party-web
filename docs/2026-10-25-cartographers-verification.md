@@ -26,8 +26,10 @@
 
 ## 构建指纹
 
-制图师JS：index-DQ7ulBE2.js
+制图师JS：index-CUyk-yoT.js
 制图师CSS：index-C8pGDkpb.css
 大厅JS：index-CHzgLBZ_.js
 
-状态：等待GitHub Pages部署确认。
+状态：首轮部署40165170971已通过；正在同步简化房间输入的最终版本。
+
+邀请中的房主身份值自动处理，界面仅保留房间码，手动更改房间码会清除旧邀请的身份固定值。

@@ -430,13 +430,10 @@ export default function CartographersApp({ onBack }: { onBack?: () => void }) {
                   inputMode="numeric"
                   maxLength={6}
                   value={code}
-                  onChange={(e) => setCode(e.target.value.replace(/\D/g, ""))}
-                />
-                <input
-                  aria-label="房间密钥，可选"
-                  placeholder="密钥（邀请链接自动填入）"
-                  value={pin}
-                  onChange={(e) => setPin(e.target.value)}
+                  onChange={(e) => {
+                    setCode(e.target.value.replace(/\D/g, ""));
+                    setPin("");
+                  }}
                 />
                 <button
                   className="ct-primary"
