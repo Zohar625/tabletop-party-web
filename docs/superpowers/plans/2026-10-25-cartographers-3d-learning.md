@@ -51,5 +51,6 @@ Interfaces: MapArchive {id,title,createdAt,mode,score,rating?,snapshots:{season,
 - [x] Independent rules/tutorial and 3D/storage review; repair actionable issues with focused regressions.
 - [x] Run all Node/Python checks, TypeScript, four builds and offline verification, git diff --check.
 - [x] Run real3-client room smoke if network-facing state changed; otherwise existing engine/network tests cover unchanged protocol.
-- [ ] Commit and push existing Pages branch, await workflow success and verify deployed asset fingerprint. Record browser verification limit.
+- [x] Commit and push existing Pages branch, await workflow success and verify deployed asset fingerprint. Record browser verification limit.
+
 
