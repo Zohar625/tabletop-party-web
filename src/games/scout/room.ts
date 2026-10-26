@@ -129,6 +129,7 @@ export class ScoutRoom {
   private seen = new Map<string, number>();
   private hostKey?: JsonWebKey;
   private pending?: Request;
+  private acknowledgedLeaveId = "";
   private tail: Promise<unknown> = Promise.resolve();
   private stopped = true;
   private connected = false;
@@ -482,6 +483,16 @@ export class ScoutRoom {
         this.pending = undefined;
       }
       this.emit("online");
+    } else if (
+      payload.kind === "left" &&
+      this.pending?.command.type === "leave" &&
+      payload.requestId === this.pending.id
+    ) {
+      this.acknowledgedLeaveId = this.pending.id;
+      this.pending = undefined;
+      this.error = "";
+      this.stop();
+      this.emit("closed");
     } else if (payload.kind === "denied" || payload.kind === "closed") {
       this.error = String(payload.message);
       this.stop();
@@ -520,7 +531,22 @@ export class ScoutRoom {
       await this.publish();
       return;
     }
-    if (!peer) return;
+    if (!peer) {
+      // A successful leave removes the peer before publication. Its original
+      // encrypted request can still retry a lost acknowledgement safely.
+      if (
+        command.type === "leave" &&
+        this.saved.blocked.includes(id) &&
+        this.saved.receipts[id]?.some(
+          (receipt) => receipt.id === request.id && !receipt.error,
+        )
+      )
+        await this.sendTo(id, publicKey, {
+          kind: "left",
+          requestId: request.id,
+        });
+      return;
+    }
     this.seen.set(id, this.now());
     if (command.type === "ping") return;
     const receipts = this.saved.receipts[id] ?? [];
@@ -558,6 +584,10 @@ export class ScoutRoom {
     );
     this.persist();
     this.updateHost();
+    // Confirm only after the authoritative roster and receipt are saved; normal
+    // snapshots intentionally no longer include the permanently departed peer.
+    if (!error && command.type === "leave")
+      await this.sendTo(id, publicKey, { kind: "left", requestId: request.id });
     await this.publish();
     if (id === this.identity.id && error) throw Error(error);
   }
@@ -595,8 +625,9 @@ export class ScoutRoom {
       this.saved.game = reduceScout(this.saved.game, id, command.action);
       this.saved.playing = this.saved.game.phase !== "finished";
     } else if (command.type === "kick" || command.type === "leave") {
-      if (this.saved.game) throw Error("对局中请保留座位，等待玩家重连。");
-      const target = "playerId" in command ? command.playerId : id;
+      if (this.saved.game && this.saved.game.phase !== "finished")
+        throw Error("对局中请保留座位，等待玩家重连。");
+      const target = command.type === "kick" ? command.playerId : id;
       if (command.type === "kick" && id !== this.saved.hostId)
         throw Error("只有房主可以移出玩家。");
       if (target === this.saved.hostId) throw Error("房主离开会结束房间。");
@@ -604,13 +635,14 @@ export class ScoutRoom {
       if (!peer) throw Error("玩家已离桌。");
       this.saved.peers = this.saved.peers.filter((p) => p.id !== target);
       this.saved.blocked.push(target);
-      void this.sendTo(target, peer.publicKey, {
-        kind: "denied",
-        message: "你已离开这一桌，可以重新创建房间。",
-      });
+      if (command.type === "kick")
+        void this.sendTo(target, peer.publicKey, {
+          kind: "denied",
+          message: "你已离开这一桌，可以重新创建房间。",
+        });
     } else throw Error("不支持的操作。");
   }
-  private async request(command: Command) {
+  private async request(command: Command, request = this.makeRequest(command)) {
     if (
       !this.connected ||
       this.stopped ||
@@ -619,7 +651,6 @@ export class ScoutRoom {
       throw Error("正在等连接恢复，请稍候。");
     if (this.pending) throw Error("上一操作正在确认，请稍候。");
     this.error = "";
-    const request = this.makeRequest(command);
     if (this.isHost)
       return this.enqueue(() =>
         this.handle(this.identity.id, this.identity.publicKey, request),
@@ -650,16 +681,49 @@ export class ScoutRoom {
     this.transport.close();
     this.emit("offline");
   }
+  private waitForLeave(requestId: string): Promise<void> {
+    return new Promise((resolve, reject) => {
+      const finish = (error?: Error) => {
+        clearTimeout(timer);
+        unsubscribe();
+        if (error) reject(error);
+        else resolve();
+      };
+      const check = () => {
+        if (this.acknowledgedLeaveId === requestId) finish();
+        else if (
+          !this.pending ||
+          this.pending.id !== requestId ||
+          !this.connected ||
+          this.snapshot.status === "closed"
+        )
+          finish(
+            Error(
+              this.error || "离席未获房主确认，座位信息已保留，可刷新恢复。",
+            ),
+          );
+      };
+      const unsubscribe = this.subscribe(check);
+      const timer = setTimeout(
+        () =>
+          finish(
+            Error("离席尚未收到房主确认，座位信息已保留，可重试或刷新恢复。"),
+          ),
+        5000,
+      );
+      check();
+    });
+  }
   async leave() {
     this.assertHostCurrent();
-    // A live game's seat must remain recoverable; leaving only pauses this device.
+    // Guests retain their seats during a live match; stop() is temporary.
+    // The host can explicitly close the entire table in any phase.
     if (
-      this.saved.playing ||
-      (this.snapshot.game && this.snapshot.game.phase !== "finished")
-    ) {
-      this.stop();
-      return;
-    }
+      !this.isHost &&
+      (this.saved.playing ||
+        (this.snapshot.game && this.snapshot.game.phase !== "finished"))
+    )
+      throw Error("对局中请保留座位；临时断开请使用 stop()，稍后可恢复。");
     if (this.isHost) {
       await Promise.all(
         this.saved.peers
@@ -671,8 +735,15 @@ export class ScoutRoom {
             }),
           ),
       );
-    } else await this.request({ type: "leave" });
+    } else {
+      if (this.pending && this.pending.command.type !== "leave")
+        throw Error("上一操作正在确认，请稍候。");
+      const request = this.pending ?? this.makeRequest({ type: "leave" });
+      if (!this.pending) await this.request(request.command, request);
+      await this.waitForLeave(request.id);
+    }
     this.stop();
+    this.emit("closed");
     try {
       if (this.store.getItem(SAVE) === this.lastWritten)
         this.store.removeItem(SAVE);

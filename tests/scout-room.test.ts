@@ -35,6 +35,7 @@ class Memory {
 class Wire {
   all: { code: string; transport: RoomTransport; open: boolean }[] = [];
   packets: any[] = [];
+  drop: ((packet: any) => boolean) | null = null;
   factory = (code: string): RoomTransport => {
     const entry = {
       code,
@@ -53,6 +54,7 @@ class Wire {
       send: (value: any) => {
         if (!entry.open) throw Error("offline");
         this.packets.push(structuredClone(value));
+        if (this.drop?.(value)) return;
         this.broadcast(code, value);
       },
     };
@@ -181,8 +183,10 @@ test("two real encrypted clients receive only their private hand and recover the
     )!;
     await act(actor, rooms, { type: "show", start: 0, count: 1 });
     const before = structuredClone(rooms[1].getSnapshot().game!);
-    await rooms[1].leave();
+    await assert.rejects(rooms[1].leave(), /对局|保留|stop/);
+    assert.equal(rooms[1].getSnapshot().status, "online");
     assert(hasSavedRoom(options(1)));
+    rooms[1].stop();
     const restored = await restoreRoom(options(1));
     assert(restored);
     await restored.connect();
@@ -664,5 +668,171 @@ test("an old unclaimed restore cannot overwrite newer saved progress after probi
   } finally {
     first.stop();
     stale.stop();
+  }
+});
+
+test("a forged leave command can only remove its authenticated sender, never another guest", async () => {
+  const { rooms, stores, wire, host } = await table(3);
+  try {
+    const victim = rooms[2].getSnapshot().meId,
+      sender = rooms[1].getSnapshot().meId;
+    const result = await requestFrom(stores, wire, 1, {
+      type: "leave",
+      playerId: victim,
+    });
+    assert.equal(result.receipt.error, "");
+    assert(host.getSnapshot().peers.some((peer) => peer.id === victim));
+    assert(!host.getSnapshot().peers.some((peer) => peer.id === sender));
+    assert.equal(rooms[2].getSnapshot().status, "online");
+  } finally {
+    rooms.forEach((room) => room.stop());
+  }
+});
+
+async function finishedTable() {
+  const fixture = await table(4);
+  await start(fixture.rooms);
+  fixture.host.stop();
+  const saved = JSON.parse(fixture.stores[0].getItem(SAVE)!);
+  saved.game.phase = "finished";
+  saved.playing = false;
+  saved.game.history = [
+    {
+      round: 1,
+      starterId: saved.game.starterId,
+      reason: "emptyHand",
+      leaderId: saved.game.players[1].id,
+      lines: saved.game.players.map((player: any, index: number) => ({
+        id: player.id,
+        name: player.name,
+        captured: 4 - index,
+        scoutChips: 0,
+        remainingPenalty: 0,
+        delta: 4 - index,
+        total: 4 - index,
+      })),
+    },
+  ];
+  saved.game.players.forEach((player: any, index: number) => {
+    player.total = 4 - index;
+  });
+  saved.revision++;
+  fixture.stores[0].setItem(SAVE, JSON.stringify(saved));
+  const restored = await restoreRoom(fixture.options(0));
+  assert(restored);
+  fixture.host = restored;
+  fixture.rooms[0] = restored;
+  await restored.connect();
+  await until(() =>
+    fixture.rooms.every(
+      (room) =>
+        room.getSnapshot().game?.phase === "finished" &&
+        room.getSnapshot().peers.every((peer) => peer.online),
+    ),
+  );
+  return fixture;
+}
+
+test("finished players can leave or be kicked, preserving score history and allowing remaining peers to rematch", async () => {
+  const { rooms, host, options } = await finishedTable();
+  try {
+    const history = structuredClone(host.getSnapshot().game!.history),
+      oldMatch = host.getSnapshot().matchId;
+    await rooms[1].leave();
+    assert(!hasSavedRoom(options(1)));
+    assert.equal(host.getSnapshot().peers.length, 3);
+    assert(
+      !host
+        .getSnapshot()
+        .peers.some((peer) => peer.id === rooms[1].getSnapshot().meId),
+    );
+    assert.deepEqual(host.getSnapshot().game!.history, history);
+    await until(() => rooms[3].getSnapshot().peers.length === 3);
+    await host.kick(rooms[2].getSnapshot().meId);
+    await until(
+      () =>
+        rooms[2].getSnapshot().status === "closed" &&
+        rooms[3].getSnapshot().peers.length === 2,
+    );
+    assert.deepEqual(host.getSnapshot().game!.history, history);
+    await host.rematch();
+    await synced([host, rooms[3]]);
+    assert.equal(host.getSnapshot().game!.players.length, 2);
+    assert.equal(host.getSnapshot().game!.phase, "orienting");
+    assert.notEqual(host.getSnapshot().matchId, oldMatch);
+  } finally {
+    rooms.forEach((room) => room.stop());
+  }
+});
+
+test("permanent leave retains identity until its encrypted host acknowledgement and retries a lost acknowledgement", async () => {
+  const { rooms, stores, wire, host, options } = await table(2);
+  try {
+    const guest = rooms[1],
+      guestId = guest.getSnapshot().meId;
+    wire.drop = (frame) =>
+      frame.type === "cipher" &&
+      frame.from === host.getSnapshot().meId &&
+      frame.to === guestId;
+    let settled = false;
+    const leaving = guest.leave().finally(() => {
+      settled = true;
+    });
+    await until(() => host.getSnapshot().peers.length === 1);
+    assert(
+      hasSavedRoom(options(1)),
+      "identity remains recoverable until the host acknowledgement arrives",
+    );
+    assert.equal(settled, false);
+    assert(JSON.parse(stores[0].getItem(SAVE)!).blocked.includes(guestId));
+    wire.drop = null;
+    await leaving;
+    assert(!hasSavedRoom(options(1)));
+    assert.equal(guest.getSnapshot().status, "closed");
+  } finally {
+    rooms.forEach((room) => room.stop());
+  }
+});
+
+test("a leave timeout preserves the saved identity and the host seat for restoration", async () => {
+  const { rooms, wire, host, options } = await table(2);
+  try {
+    const guestId = rooms[1].getSnapshot().meId;
+    wire.drop = (frame) => frame.type === "cipher" && frame.from === guestId;
+    await assert.rejects(rooms[1].leave(), /确认|超时|恢复/);
+    assert(hasSavedRoom(options(1)));
+    assert(host.getSnapshot().peers.some((peer) => peer.id === guestId));
+    rooms[1].stop();
+    wire.drop = null;
+    const restored = await restoreRoom(options(1));
+    assert(restored);
+    rooms[1] = restored;
+    await restored.connect();
+    await until(
+      () =>
+        restored.getSnapshot().status === "online" &&
+        restored.getSnapshot().peers.length === 2,
+    );
+    assert.equal(restored.getSnapshot().meId, guestId);
+  } finally {
+    rooms.forEach((room) => room.stop());
+  }
+});
+
+test("the host can explicitly close an ongoing match and notify every guest", async () => {
+  const { rooms, host, options } = await table(3);
+  try {
+    await start(rooms);
+    await host.leave();
+    await until(() =>
+      rooms.slice(1).every((room) => room.getSnapshot().status === "closed"),
+    );
+    assert(!hasSavedRoom(options(0)));
+    assert(
+      rooms.slice(1).every((_, index) => hasSavedRoom(options(index + 1))),
+    );
+    assert.equal(host.getSnapshot().status, "closed");
+  } finally {
+    rooms.forEach((room) => room.stop());
   }
 });
