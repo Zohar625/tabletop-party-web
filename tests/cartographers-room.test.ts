@@ -68,7 +68,12 @@ test("map room supports two players, encrypted public view and guest restore", a
   let again: any;
   try {
     await Promise.all([h.connect(), g.connect()]);
-    await until(() => h.getSnapshot().peers.length === 2);
+    // Host membership is updated before the encrypted snapshot reaches the guest.
+    // Wait for the same readiness condition the guest UI uses before submitting.
+    await until(() => [h, g].every((room) => {
+      const snapshot = room.getSnapshot();
+      return snapshot.status === "online" && snapshot.peers.length === 2;
+    }));
     await g.ready(true);
     await until(() => !g.getSnapshot().pending);
     await h.startGame();
