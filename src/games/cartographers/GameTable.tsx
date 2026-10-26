@@ -2,7 +2,10 @@ import { useEffect, useState } from "react";
 import type { MapAction, MapView, Placement, Terrain } from "./types";
 import { placementError, targetPlayer, transformedShape } from "./engine";
 import { GOALS } from "./data";
-import { scoreBoard, goalHighlights } from "./scoring";
+import { goalHighlights, monsterPenalty, neighbors } from "./scoring";
+import { GuildBoard } from "./GuildBoard";
+import { previewPlacement } from "./commission-model";
+import "./tutorial.css";
 import { MapBoard } from "./MapBoard";
 import { TerrainArt } from "./TerrainArt";
 import {
@@ -21,6 +24,8 @@ export function GameTable({
   notice = "",
   children,
   onGoalInspect,
+  teaching,
+  completionActions,
 }: {
   game: MapView;
   actor: string;
@@ -28,7 +33,9 @@ export function GameTable({
   pending?: boolean;
   notice?: string;
   children?: React.ReactNode;
-  onGoalInspect?: () => void;
+  onGoalInspect?: (id: string) => void;
+  teaching?: { step: number };
+  completionActions?: React.ReactNode;
 }) {
   const [shape, setShape] = useState(0),
     [terrain, setTerrain] = useState<Terrain>(
@@ -49,7 +56,7 @@ export function GameTable({
     setFallback(false);
   }, [game.turn, game.current.id, game.season]);
   const me = game.players.find((p) => p.id === actor) || game.players[0],
-    target = targetPlayer(game, actor),
+    target = game.phase === "placing" ? targetPlayer(game, actor) : me,
     card = game.current;
   const cells = fallback
     ? [[0, 0] as [number, number]]
@@ -68,8 +75,30 @@ export function GameTable({
     fallback,
   };
   const error = anchor ? placementError(game, actor, placement) : null;
-  const active = [game.season % 4, (game.season + 1) % 4];
   const locked = pending || me.submitted || game.phase !== "placing";
+  const showCompletion = !!teaching && pending && !!completionActions;
+  const projection =
+    anchor && !locked ? previewPlacement(game, actor, placement) : undefined;
+  const [sourceFocus, setSourceFocus] = useState<"coins" | "monsters" | null>(
+    null,
+  );
+  const showTransforms = !teaching || teaching.step >= 1;
+  const showFallback = !teaching || teaching.step >= 5;
+  const highlightBoard = projection?.valid ? projection.board : target.board;
+  const sourceHighlight =
+    sourceFocus === "coins"
+      ? target.board.earnedMountains
+      : sourceFocus === "monsters"
+        ? [
+            ...new Set(
+              target.board.cells.flatMap((t, i) =>
+                t === "monster"
+                  ? neighbors(i).filter((n) => target.board.cells[n] === null)
+                  : [],
+              ),
+            ),
+          ]
+        : [];
   const full = !target.board.cells.includes(null);
   return (
     <div className={`ct-game season-${game.season}`}>
@@ -96,7 +125,7 @@ export function GameTable({
         </div>
         <div className="ct-total">
           <b>{scoreTotal(me.seasons)}</b>
-          <small>累计声望</small>
+          <small>已结算声望</small>
         </div>
       </div>
       {notice && (
@@ -110,8 +139,34 @@ export function GameTable({
         </div>
       )}
       {children}
+      <GuildBoard
+        game={game}
+        board={target.board}
+        preview={projection}
+        focus={goalFocus}
+        onFocus={(id) => {
+          setGoalFocus(id);
+          setSourceFocus(null);
+        }}
+        onInspect={onGoalInspect}
+        visibleGoals={teaching && teaching.step < 2 ? 1 : 4}
+      />
       <div className="ct-play-layout">
         <main className="ct-map-area">
+          {teaching?.step === 0 && (
+            <div className="cttut-edge-guide">
+              边缘指最外一圈：第 1 / 11 行与 A / K
+              列。比较两个位置，再确认你要的一笔。
+              <div>
+                <button disabled={locked} onClick={() => setAnchor([0, 0])}>
+                  预览 A1 边缘：+1
+                </button>
+                <button disabled={locked} onClick={() => setAnchor([4, 4])}>
+                  预览 E5 内部：+0
+                </button>
+              </div>
+            </div>
+          )}
           {target.id !== actor && (
             <div className="ct-ambush-banner">
               伏击来袭 · 你正在为 {target.name} 绘制怪物。确认后地图会自动归还。
@@ -119,11 +174,16 @@ export function GameTable({
           )}
           <MapBoard
             board={target.board}
+            season={game.season}
             preview={anchor && !locked ? previewCells(cells, ...anchor) : []}
             terrain={terrain}
             invalid={!!error}
             onCell={locked ? undefined : (x, y) => setAnchor([x, y])}
-            highlight={goalFocus ? goalHighlights(target.board, goalFocus) : []}
+            highlight={
+              goalFocus
+                ? goalHighlights(highlightBoard, goalFocus)
+                : sourceHighlight
+            }
             label={target.id === actor ? "我的王国" : `${target.name} 的地图`}
           />
           <div className="ct-board-caption">
@@ -223,59 +283,98 @@ export function GameTable({
                   </button>
                 ))}
               </div>
-              <div className="ct-transform">
-                <button onClick={() => setRotation((r) => (r + 1) % 4)}>
-                  ↻ 旋转
-                </button>
+              {showTransforms && (
+                <div className="ct-transform">
+                  <button onClick={() => setRotation((r) => (r + 1) % 4)}>
+                    ↻ 旋转
+                  </button>
+                  <button
+                    aria-pressed={mirrored}
+                    onClick={() => setMirrored((v) => !v)}
+                  >
+                    ⇄ 镜像
+                  </button>
+                </div>
+              )}
+              {showFallback && (
                 <button
-                  aria-pressed={mirrored}
-                  onClick={() => setMirrored((v) => !v)}
+                  className={`ct-fallback ${fallback ? "selected" : ""}`}
+                  onClick={() => {
+                    setFallback(!fallback);
+                    setShape(0);
+                  }}
                 >
-                  ⇄ 镜像
+                  无法放下？使用单格替代
                 </button>
-              </div>
-              <button
-                className={`ct-fallback ${fallback ? "selected" : ""}`}
-                onClick={() => {
-                  setFallback(!fallback);
-                  setShape(0);
-                }}
-              >
-                无法放下？使用单格替代
-              </button>
+              )}
             </fieldset>
           </section>
           <section className="ct-placement-panel">
-            <span className="ct-eyebrow">03　点击地图，确认落笔</span>
-            <p className={error ? "ct-error" : ""} role="status">
-              {me.submitted
-                ? "已落笔，等待其他制图师…"
-                : locked
-                  ? "本季探索结束，查看下方计分。"
-                  : error
-                    ? `${anchor ? String.fromCharCode(65 + anchor[0]) + String(anchor[1] + 1) : ""}：${error}`
-                    : anchor
-                      ? `落笔于 ${String.fromCharCode(65 + anchor[0])}${anchor[1] + 1} · ${terrainName(terrain)}`
-                      : "先选地形与形状，再点地图预览。"}
-            </p>
-            <div className="ct-placement-actions">
-              <button
-                onClick={() => setAnchor(null)}
-                disabled={!anchor || locked}
-              >
-                取消
-              </button>
-              <button
-                className="ct-primary"
-                disabled={locked || !anchor || !!error}
-                onClick={() => {
-                  onAction({ type: "place", placement });
-                  setAnchor(null);
-                }}
-              >
-                确认落笔 <span>→</span>
-              </button>
-            </div>
+            <span className="ct-eyebrow">
+              {showCompletion
+                ? "本步完成 · 在这里继续"
+                : "03　点击地图，确认落笔"}
+            </span>
+            {!showCompletion && (
+              <p className={error ? "ct-error" : ""} role="status">
+                {me.submitted
+                  ? "已落笔，等待其他制图师…"
+                  : locked
+                    ? teaching
+                      ? "本步练习完成，查看上方反馈，再进入下一步。"
+                      : "本季探索结束，查看下方计分。"
+                    : error
+                      ? `${anchor ? String.fromCharCode(65 + anchor[0]) + String(anchor[1] + 1) : ""}：${error}`
+                      : anchor
+                        ? `落笔于 ${String.fromCharCode(65 + anchor[0])}${anchor[1] + 1} · ${terrainName(terrain)}`
+                        : "先选地形与形状，再点地图预览。"}
+              </p>
+            )}
+            {projection?.valid && (
+              <div className="cttut-preview" role="status">
+                <strong>本次落笔的预计变化（尚未到账）</strong>
+                {projection.goals
+                  .filter(
+                    (_, i) =>
+                      i === game.season % 4 || i === (game.season + 1) % 4,
+                  )
+                  .map((g) => (
+                    <div key={g.id}>
+                      {GOALS.find((v) => v.id === g.id)?.title}：{g.before} →{" "}
+                      {g.after}（{g.delta >= 0 ? "+" : ""}
+                      {g.delta}）
+                    </div>
+                  ))}
+                <div>
+                  金币 {projection.coinDelta >= 0 ? "+" : ""}
+                  {projection.coinDelta} · 怪物扣款变化{" "}
+                  {projection.monsterDelta >= 0 ? "+" : ""}
+                  {projection.monsterDelta}
+                </div>
+              </div>
+            )}
+            {showCompletion ? (
+              <div className="cttut-completion">{completionActions}</div>
+            ) : (
+              <div className="ct-placement-actions">
+                <button
+                  onClick={() => setAnchor(null)}
+                  disabled={!anchor || locked}
+                >
+                  取消
+                </button>
+                <button
+                  className="ct-primary"
+                  disabled={locked || !anchor || !!error}
+                  onClick={() => {
+                    onAction({ type: "place", placement });
+                    setAnchor(null);
+                  }}
+                >
+                  确认落笔 <span>→</span>
+                </button>
+              </div>
+            )}
             {full && !locked && (
               <button
                 onClick={() =>
@@ -291,52 +390,6 @@ export function GameTable({
           </section>
         </aside>
       </div>
-      <section className="ct-goals-section">
-        <div className="ct-section-heading">
-          <h3>皇家敕令</h3>
-          <span>
-            本季计分：{"ABCD"[active[0]]} + {"ABCD"[active[1]]} ·
-            点击查看目标与当前分数
-          </span>
-        </div>
-        <div className="ct-goals">
-          {game.goals.map((id, i) => {
-            const goal = GOALS.find((g) => g.id === id);
-            return (
-              goal && (
-                <button
-                  key={id}
-                  className={`ct-goal ${active.includes(i) ? "active" : ""} ${goalFocus === id ? "focused" : ""}`}
-                  onClick={() => {
-                    setGoalFocus(goalFocus === id ? null : id);
-                    onGoalInspect?.();
-                  }}
-                  aria-pressed={goalFocus === id}
-                >
-                  <span className="ct-goal-letter">{"ABCD"[i]}</span>
-                  <div>
-                    <span className="ct-eyebrow">
-                      {active.includes(i) ? "本季生效" : "后续敕令"}
-                    </span>
-                    <h4>{goal.title}</h4>
-                    <p>{goal.description}</p>
-                    <small>
-                      当前地图 <b>{scoreBoard(me.board, id)}</b> 分
-                    </small>
-                  </div>
-                </button>
-              )
-            );
-          })}
-        </div>
-        {goalFocus && (
-          <p className="ct-goal-explanation">
-            已描亮当前计分区域（伏击时显示邻座地图）。
-            {GOALS.find((g) => g.id === goalFocus)?.description} 实时试算：
-            {scoreBoard(me.board, goalFocus)} 分；只有季末生效的敕令计入声望。
-          </p>
-        )}
-      </section>
       {game.phase !== "placing" && (
         <section
           className="ct-score-panel"
@@ -350,6 +403,53 @@ export function GameTable({
                 ? "王国绘成，远征落幕"
                 : `${SEASONS[game.season]} · 季末结算`}
             </h2>
+          </div>
+          <div className="cttut-score-source" aria-label="本季声望来源">
+            <h3>本季声望来源 · 已结算</h3>
+            {me.seasons.slice(-1).map((s) => (
+              <div key={s.season}>
+                {s.goals.map((value, i) => {
+                  const index = (s.season + i) % 4;
+                  const id = game.goals[index];
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => {
+                        setGoalFocus(id);
+                        setSourceFocus(null);
+                      }}
+                    >
+                      {"ABCD"[index]} {GOALS.find((g) => g.id === id)?.title} +
+                      {value} · 描亮贡献格
+                    </button>
+                  );
+                })}
+                <button
+                  onClick={() => {
+                    setGoalFocus(null);
+                    setSourceFocus("coins");
+                  }}
+                >
+                  金币 +{s.coins} · 描亮围合山峰
+                </button>
+                <button
+                  onClick={() => {
+                    setGoalFocus(null);
+                    setSourceFocus("monsters");
+                  }}
+                >
+                  怪物 −{s.monsters} · 描亮相邻空格
+                </button>
+                <p>
+                  A/B 等本季两项委托 + 当前全部金币 − 怪物相邻空格 =
+                  本季已到账声望。金币包括形状奖励与围山奖励；描亮山峰只显示围山来源。
+                </p>
+              </div>
+            ))}
+            <p>
+              当前怪物相邻空格 {monsterPenalty(me.board)}{" "}
+              个。地图与金币保留；下一季更换生效委托。同一委托之后还可再次结算。
+            </p>
           </div>
           <div className="ct-score-table">
             {game.players.map((p) => (

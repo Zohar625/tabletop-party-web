@@ -1,0 +1,172 @@
+.cttut-root .cttut-purpose {
+  font-size: 17px;
+  line-height: 1.8;
+  max-width: 900px;
+  color: #534934;
+}
+.cttut-mission {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  gap: 18px;
+  padding: 24px;
+  background: #fff8df;
+  border: 2px solid #b59b58;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+.cttut-count {
+  font:
+    700 32px Georgia,
+    serif;
+  color: #796134;
+}
+.cttut-count span {
+  display: block;
+  font-size: 16px;
+  margin-top: 6px;
+}
+.cttut-mission h2 {
+  margin: 0 0 10px;
+  font-size: 25px;
+}
+.cttut-mission p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 8px 0;
+}
+.cttut-compare {
+  display: grid;
+  gap: 8px;
+  padding: 14px 16px;
+  background: #eee5c7;
+  border-radius: 7px;
+  font-size: 15px;
+  line-height: 1.65;
+}
+.cttut-compare strong {
+  font-size: 15px;
+}
+.cttut-mission .cttut-hint {
+  padding: 12px;
+  background: #f0e8ce;
+  border-left: 3px solid #917535;
+}
+.cttut-mission .cttut-success {
+  padding: 14px;
+  background: #e6efd9;
+  color: #355236;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.cttut-nav {
+  grid-column: 2;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.cttut-nav button {
+  font-size: 15px;
+  padding: 10px 14px;
+}
+.cttut-progress {
+  display: flex;
+  gap: 5px;
+  margin: 0 0 20px;
+}
+.cttut-progress span {
+  height: 5px;
+  flex: 1;
+  background: #d8ceae;
+  border-radius: 3px;
+}
+.cttut-progress .complete {
+  background: #54775a;
+}
+.cttut-preview {
+  font-size: 15px;
+  line-height: 1.7;
+  padding: 12px 16px;
+  background: #edf3df;
+  border: 1px solid #bbc99d;
+  border-radius: 7px;
+}
+.cttut-score-source {
+  font-size: 15px;
+  line-height: 1.7;
+}
+.cttut-edge-guide {
+  font-size: 15px;
+  line-height: 1.7;
+  background: #eef2df;
+  padding: 12px;
+  border-radius: 6px;
+}
+.cttut-root .ctguild-board {
+  margin-top: 0;
+}
+@media (max-width: 650px) {
+  .cttut-mission {
+    grid-template-columns: 32px minmax(0, 1fr);
+    gap: 12px;
+    padding: 16px;
+  }
+  .cttut-count {
+    font-size: 25px;
+  }
+  .cttut-mission h2 {
+    font-size: 21px;
+  }
+  .cttut-mission p,
+  .cttut-root .cttut-purpose {
+    font-size: 15px;
+  }
+  .cttut-nav {
+    grid-column: 1/-1;
+  }
+  .cttut-nav button {
+    flex: 1;
+    min-width: 90px;
+    font-size: 14px;
+  }
+  .cttut-compare {
+    font-size: 14px;
+  }
+}
+
+.ct-game .ct-placement-panel p,
+.ct-game .ct-placement-panel .ct-eyebrow,
+.ct-game .ct-explore-card legend {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.cttut-edge-guide button {
+  margin: 8px 8px 0 0;
+  font-size: 14px;
+}
+.ct-game .cttut-preview {
+  margin-bottom: 12px;
+}
+.cttut-score-source button {
+  margin: 4px 8px 8px 0;
+}
+.cttut-score-source p {
+  font-size: 15px;
+  line-height: 1.8;
+}
+.cttut-completion .cttut-success {
+  color: #355236;
+  background: #e6efd9;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+@media (min-width: 800px) {
+  .cttut-compare {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px 14px;
+    padding: 10px 14px;
+  }
+  .cttut-compare strong {
+    grid-column: 1 / -1;
+  }
+}

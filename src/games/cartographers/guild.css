@@ -1,0 +1,197 @@
+.ctguild-board {
+  padding: 22px;
+  border: 7px solid #62422c;
+  border-radius: 12px;
+  background: repeating-linear-gradient(
+    3deg,
+    #825936 0px,
+    #825936 30px,
+    #795032 31px,
+    #795032 34px
+  );
+  box-shadow:
+    inset 0 0 24px #38281e60,
+    0 12px 28px #27180f20;
+  color: #fff0ca;
+  margin: 20px 0;
+}
+.ctguild-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.ctguild-kicker {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.ctguild-header h3 {
+  font-size: 23px;
+  margin: 6px 0;
+}
+.ctguild-summary {
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 10px 0 16px;
+}
+.ctguild-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.cartographers .ctguild-paper {
+  position: relative;
+  text-align: left;
+  color: #372b20;
+  background: linear-gradient(135deg, #fff9df, #efe2bb);
+  border: 2px solid #e7d5a2;
+  border-radius: 3px;
+  padding: 20px;
+  box-shadow: 0 5px 8px #35231340;
+  min-width: 0;
+  font: inherit;
+  cursor: pointer;
+}
+.cartographers .ctguild-active {
+  border-top: 5px solid #4e7256;
+}
+.cartographers .ctguild-future {
+  background: #e0d3b1;
+}
+.cartographers .ctguild-focused {
+  outline: 3px solid #e7bc54;
+  outline-offset: 2px;
+}
+.ctguild-letter {
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #b29866;
+  border-radius: 50%;
+  font:
+    bold 20px Georgia,
+    serif;
+  margin-right: 10px;
+}
+.ctguild-stamp {
+  font-size: 14px;
+  font-weight: 700;
+  color: #365c40;
+  border: 1px solid #698169;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+.ctguild-future .ctguild-stamp {
+  color: #655846;
+  border-color: #8d7a5f;
+}
+.ctguild-paper h4 {
+  font-size: 21px;
+  margin: 14px 0 8px;
+}
+.ctguild-paper p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 8px 0;
+}
+.ctguild-paper .ctguild-example {
+  font-size: 14px;
+  color: #655944;
+}
+.ctguild-score {
+  border-top: 1px dashed #ab986d;
+  margin-top: 14px;
+  padding: 12px 0 8px;
+  font-size: 15px;
+}
+.ctguild-score b {
+  font-size: 24px;
+}
+.ctguild-score em {
+  color: #2e6b39;
+  font-style: normal;
+  font-weight: 700;
+}
+.ctguild-score .ctguild-loss {
+  color: #a53e30;
+}
+.ctguild-paper small {
+  font-size: 14px;
+  color: #6b604b;
+}
+.ctguild-detail {
+  background: #fff4d9;
+  color: #3b3625;
+  padding: 12px 16px;
+  font-size: 15px;
+  line-height: 1.7;
+  border-radius: 4px;
+}
+.ctguild-collapse {
+  display: none;
+}
+.ctguild-board button:hover {
+  filter: brightness(1.025);
+}
+@media (min-width: 1100px) {
+  .ctguild-cards {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+@media (max-width: 650px) {
+  .ctguild-board {
+    padding: 14px;
+    border-width: 5px;
+  }
+  .ctguild-header h3 {
+    font-size: 19px;
+  }
+  .ctguild-collapse {
+    display: block;
+    font-size: 14px;
+    flex-shrink: 0;
+    padding: 8px;
+    background: #fff1ce;
+    color: #483424;
+    border: 0;
+    border-radius: 5px;
+  }
+  .ctguild-kicker {
+    font-size: 14px;
+  }
+  .ctguild-cards {
+    grid-template-columns: 1fr;
+  }
+  .cartographers .ctguild-paper {
+    padding: 16px;
+  }
+  .cartographers .ctguild-board:not(.ctguild-expanded) .ctguild-future {
+    display: none;
+  }
+  .ctguild-summary {
+    font-size: 14px;
+  }
+  .ctguild-stamp {
+    font-size: 14px;
+  }
+}
+
+.cartographers .ctguild-paper:hover:not(:disabled) {
+  background: #fff4d4;
+  border-color: #b9a16e;
+}
+.cartographers .ctguild-collapse {
+  background: #fff1ce;
+  color: #483424;
+  font-size: 14px;
+}
+.ctguild-board .ctguild-summary {
+  margin: 10px 0 16px;
+}
+.ctguild-board .ctguild-detail {
+  margin-top: 14px;
+}
+.ctguild-board .ctguild-cards:has(> .ctguild-paper:only-child) {
+  grid-template-columns: minmax(0, 1fr);
+}

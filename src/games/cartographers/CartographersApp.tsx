@@ -6,6 +6,15 @@ import type { MapRoom, RoomSnapshot } from "./room";
 import { soloRating } from "./scoring";
 import { GameTable } from "./GameTable";
 import Tutorial from "./Tutorial";
+import { CollectionGallery } from "./CollectionGallery";
+import {
+  collectGame,
+  loadAlbum,
+  recordSnapshot,
+  updateArchiveTitle,
+} from "./collection";
+import type { AlbumStore } from "./collection";
+import { downloadBoardImage } from "./mapExport";
 import { MapIllustration } from "./TerrainArt";
 import {
   HISTORY_KEY,
@@ -16,6 +25,10 @@ import {
   winners,
 } from "./ui-model";
 import "./cartographers.css";
+const albumStore: AlbumStore = {
+  getItem: (key) => localStorage.getItem(key),
+  setItem: (key, value) => localStorage.setItem(key, value),
+};
 type RecordEntry = {
   date: string;
   score: number;
@@ -48,9 +61,9 @@ function history(): RecordEntry[] {
   }
 }
 export default function CartographersApp({ onBack }: { onBack?: () => void }) {
-  const [screen, setScreen] = useState<"home" | "tutorial" | "solo" | "online">(
-      "home",
-    ),
+  const [screen, setScreen] = useState<
+      "home" | "tutorial" | "solo" | "online" | "collection"
+    >("home"),
     [game, setGame] = useState<MapGame | null>(() =>
       readSavedGame(stored(SAVE_KEY)),
     ),
@@ -69,6 +82,8 @@ export default function CartographersApp({ onBack }: { onBack?: () => void }) {
     [copied, setCopied] = useState(false),
     [restoring, setRestoring] = useState(true),
     [opening, setOpening] = useState(false);
+  const [album, setAlbum] = useState(() => loadAlbum(albumStore));
+  const collected = useRef(new Set(album.map((a) => a.id)));
   const recorded = useRef("");
   const openingRef = useRef(false);
   const roomAvailable = canOpenRoom(!!room, restoring || opening);
@@ -186,69 +201,68 @@ export default function CartographersApp({ onBack }: { onBack?: () => void }) {
   }
   async function exportMap() {
     if (current?.phase !== "finished") return;
-    const source = document.querySelector(".ct-board");
-    if (!source) return;
     try {
-      const canvas = document.createElement("canvas");
-      canvas.width = 960;
-      canvas.height = 1050;
-      const ctx = canvas.getContext("2d");
-      if (!ctx) throw new Error("Canvas unavailable");
-      ctx.fillStyle = "#f3ead4";
-      ctx.fillRect(0, 0, 960, 1050);
-      ctx.fillStyle = "#31503b";
-      ctx.font = "24px Georgia, serif";
-      ctx.textAlign = "center";
-      ctx.fillText("CARTOGRAPHERS · 我的王国", 480, 48);
-      const cellSize = 80,
-        offsetX = 40,
-        offsetY = 90;
-      const cells = Array.from(source.children);
-      await Promise.all(
-        cells.map(async (cell, i) => {
-          const x = offsetX + (i % 11) * cellSize,
-            y = offsetY + Math.floor(i / 11) * cellSize;
-          ctx.strokeStyle = "#b8af93";
-          ctx.lineWidth = 1;
-          ctx.strokeRect(x, y, cellSize, cellSize);
-          const svg = cell.querySelector("svg");
-          if (!svg) return;
-          const clean = svg.cloneNode(true) as SVGElement;
-          clean.setAttribute("xmlns", "http://www.w3.org/2000/svg");
-          clean.setAttribute("width", "80");
-          clean.setAttribute("height", "80");
-          const url = URL.createObjectURL(
-            new Blob([new XMLSerializer().serializeToString(clean)], {
-              type: "image/svg+xml",
-            }),
-          );
-          try {
-            await new Promise<void>((resolve, reject) => {
-              const img = new Image();
-              img.onload = () => {
-                ctx.drawImage(img, x, y, cellSize, cellSize);
-                resolve();
-              };
-              img.onerror = reject;
-              img.src = url;
-            });
-          } finally {
-            URL.revokeObjectURL(url);
-          }
-        }),
-      );
-      ctx.fillStyle = "#918565";
-      ctx.font = "15px Georgia, serif";
-      ctx.fillText("皇家制图院 · 四季远征", 480, 1010);
-      const link = document.createElement("a");
-      link.href = canvas.toDataURL("image/png");
-      link.download = "我的王国-制图师.png";
-      link.click();
-    } catch {
-      setError("地图导出失败，可以使用设备截图保存。");
+      const scope = document.querySelector<HTMLElement>(".ct-game");
+      if (!scope) throw Error("地图还在准备中，请稍后重试。");
+      await downloadBoardImage(scope);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "图片导出失败，请稍后重试。");
     }
   }
-  const current = screen === "online" ? snapshot?.game : game;
+  const current =
+    screen === "online" ? snapshot?.game : screen === "solo" ? game : null;
+  useEffect(() => {
+    const candidates = [
+      game && { id: `solo:${game.seed}`, state: game, actor: "solo" },
+      snapshot?.game &&
+        snapshot.matchId && {
+          id: `online:${snapshot.matchId}:${snapshot.meId}`,
+          state: snapshot.game,
+          actor: snapshot.meId,
+        },
+    ];
+    for (const entry of candidates) {
+      if (
+        !entry ||
+        (entry.state.phase !== "seasonEnd" && entry.state.phase !== "finished")
+      )
+        continue;
+      const own = entry.state.players.find((p) => p.id === entry.actor);
+      if (!own) continue;
+      try {
+        recordSnapshot(albumStore, entry.id, entry.state.season, own.board);
+        if (
+          entry.state.phase === "finished" &&
+          !collected.current.has(entry.id)
+        ) {
+          const total = scoreTotal(own.seasons);
+          const next = collectGame(albumStore, {
+            id: entry.id,
+            mode: entry.state.mode,
+            board: own.board,
+            season: entry.state.season,
+            score: total,
+            ...(entry.state.mode === "solo"
+              ? { rating: soloRating(total, entry.state.goals) }
+              : {}),
+          });
+          collected.current.add(entry.id);
+          setAlbum(next);
+        }
+      } catch {
+        setError(
+          "本机收藏暂时无法保存，原对局进度不受影响；可以先导出地图图片。",
+        );
+      }
+    }
+  }, [game, snapshot?.game, snapshot?.matchId, snapshot?.meId]);
+  function renameArchive(id: string, title: string) {
+    try {
+      setAlbum(updateArchiveTitle(albumStore, id, title));
+    } catch {
+      setError("名称未能保存，请稍后重试。");
+    }
+  }
   return (
     <div className="cartographers">
       <header className="ct-header">
@@ -296,7 +310,7 @@ export default function CartographersApp({ onBack }: { onBack?: () => void }) {
           <h2>四季探索，绘成你的王国</h2>
           <p>
             每回合选地形和形状 → 点击地图预览 →
-            确认落笔。金币和地图跨季保留，每季结算两个轮换目标。冬季结束比较总声望；单人局还会扣除敕令基准，评定头衔。
+            确认落笔。金币和地图跨季保留，每季结算两个轮换目标。冬季结束比较总声望；单人局还会扣除委托基准，评定头衔。
           </p>
           <button
             className="ct-primary"
@@ -305,7 +319,7 @@ export default function CartographersApp({ onBack }: { onBack?: () => void }) {
               setHelp(false);
             }}
           >
-            进入八步实操教学 →
+            进入目标实操教学 →
           </button>
         </div>
       )}
@@ -331,9 +345,9 @@ export default function CartographersApp({ onBack }: { onBack?: () => void }) {
                 画下你的<span>名字。</span>
               </h1>
               <p className="ct-hero-description">
-                穿过松林，沿着河流，发现山脉另一端的村庄。
+                根据探索牌规划地图，争取当季两项协会委托的声望。
                 <br className="ct-desktop-break" />
-                跟随四季的探索牌，用每一次落笔赢得女王的青睐。
+                四季累计得分，用每一次落笔绘成你的王国。
               </p>
               <div className="ct-hero-actions">
                 <button
@@ -346,6 +360,17 @@ export default function CartographersApp({ onBack }: { onBack?: () => void }) {
                   开始单人远征
                 </button>
               </div>
+              <button
+                className="ct-text-button ct-album-home-link"
+                onClick={() => setScreen("collection")}
+              >
+                我的山河收藏册 →{" "}
+                <small>
+                  {album.length
+                    ? `${album.length} 座王国已收藏`
+                    : "完局自动收藏 · 无需登录"}
+                </small>
+              </button>
               {game && game.phase !== "finished" && (
                 <button className="ct-resume" onClick={() => setScreen("solo")}>
                   继续上次远征{" "}
@@ -360,7 +385,7 @@ export default function CartographersApp({ onBack }: { onBack?: () => void }) {
             </div>
             <div className="ct-hero-art">
               <div className="ct-map-stamp">
-                皇家制图院
+                冒险者协会
                 <br />
                 <b>EXPLORER'S ATLAS</b>
                 <span>北境 · 第 01 卷</span>
@@ -463,7 +488,7 @@ export default function CartographersApp({ onBack }: { onBack?: () => void }) {
                 [
                   "03",
                   "四季轮转，赢得声望",
-                  "完成皇家敕令，让每块土地都有价值。",
+                  "完成协会委托，让每块土地都有价值。",
                 ],
               ].map(([n, t, d]) => (
                 <div className="ct-how-step" key={n}>
@@ -502,6 +527,12 @@ export default function CartographersApp({ onBack }: { onBack?: () => void }) {
             <span>一笔一格，世界由你展开。</span>
           </footer>
         </>
+      ) : screen === "collection" ? (
+        <CollectionGallery
+          records={album}
+          onClose={() => setScreen("home")}
+          onUpdate={renameArchive}
+        />
       ) : screen === "tutorial" ? (
         <Tutorial onExit={() => setScreen("home")} onStart={start} />
       ) : screen === "online" && !snapshot?.game ? (
@@ -640,7 +671,7 @@ export default function CartographersApp({ onBack }: { onBack?: () => void }) {
               {screen === "solo" && (
                 <p>
                   总声望 {scoreTotal(current.players[0].seasons)} ·
-                  扣除敕令基准后评级{" "}
+                  扣除委托基准后评级{" "}
                   <b>
                     {
                       soloRating(
@@ -658,6 +689,9 @@ export default function CartographersApp({ onBack }: { onBack?: () => void }) {
                 }
               >
                 再绘一个王国 →
+              </button>
+              <button onClick={() => setScreen("collection")}>
+                欣赏已收藏的四季沙盘 →
               </button>
               <button onClick={() => setScreen("home")}>返回书桌</button>
             </section>

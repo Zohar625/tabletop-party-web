@@ -1,0 +1,84 @@
+.ct-view-tools,
+.ct-diorama-tools {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+.ct-view-tools {
+  padding: 0.5rem 0.7rem;
+  background: #ece2cc;
+  border-radius: 10px 10px 0 0;
+  color: #473c2d;
+}
+.ct-view-tools button,
+.ct-diorama-tools button {
+  font: inherit;
+  font-size: 0.82rem;
+  min-height: 36px;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid #b5a17e;
+  border-radius: 6px;
+  background: #fff8e8;
+  color: #443b2a;
+  cursor: pointer;
+}
+.ct-view-tools button[aria-pressed="true"],
+.ct-diorama-tools button[aria-pressed="true"] {
+  background: #244a42;
+  color: #fff9e9;
+  border-color: #244a42;
+}
+.ct-diorama {
+  background: #d2ddce;
+  border: 1px solid #9e8d6b;
+  border-radius: 0 0 12px 12px;
+  overflow: hidden;
+}
+.ct-diorama-tools {
+  padding: 0.45rem 0.55rem;
+  background: #eee5d5;
+}
+.ct-diorama canvas {
+  display: block;
+  width: 100%;
+  height: clamp(300px, 58vw, 630px);
+  outline: none;
+}
+.ct-diorama-hint {
+  margin: 0;
+  padding: 0.5rem 0.7rem;
+  font-size: 0.8rem;
+  background: #f5eddb;
+  color: #4a483e;
+}
+.ct-map-accessible {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.ct-map-accessible:focus-within {
+  position: relative !important;
+  width: auto !important;
+  height: auto !important;
+  clip-path: none;
+  white-space: normal;
+}
+.ct-view-status {
+  font-size: 0.8rem;
+  margin: 0.3rem 0.7rem;
+  color: #66523c;
+}
+@media (max-width: 520px) {
+  .ct-diorama canvas {
+    height: 370px;
+  }
+  .ct-view-tools button,
+  .ct-diorama-tools button {
+    min-height: 40px;
+    font-size: 0.78rem;
+  }
+}
