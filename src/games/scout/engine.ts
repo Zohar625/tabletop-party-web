@@ -51,7 +51,7 @@ function deckFor(count: number, seed: string): ScoutCard[] {
 }
 
 function emit(state: ScoutState, event: Omit<ScoutEvent, "seq">) {
-  state.events.push({ ...event, seq: ++state.eventSeq });
+  state.events.push(structuredClone({ ...event, seq: ++state.eventSeq }));
   state.events = state.events.slice(-12);
 }
 

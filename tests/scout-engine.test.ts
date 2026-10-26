@@ -617,6 +617,32 @@ test("both insertion boundaries preserve existing order and single-card Scout or
   }
 });
 
+for (const side of ["left", "right"] as const) {
+  for (const shownCount of [1, 2]) {
+    test(`${side} Scout preserves committed Show payload when ${shownCount === 1 ? "removing final active card" : "shrinking active group"}`, () => {
+      let s = fixture(shownCount === 1 ? [[4, 8], [1], [2]] : [[4, 5, 8], [1], [2]], [3]);
+      s = act(s, "a", { type: "show", start: 0, count: shownCount });
+      const committed = structuredClone(s.events);
+      const show = committed.find((e) => e.kind === "show")!;
+      assert.deepEqual(show.cards?.map((c) => c.top), shownCount === 1 ? [4] : [4, 5]);
+      assert.deepEqual(show.captured?.map((c) => c.top), [3]);
+      const before = JSON.stringify(s);
+      const next = act(s, "b", { type: "scout", side, flip: true, insertIndex: 0, combo: false });
+      assert.equal(JSON.stringify(s), before);
+      assert.equal(next.active?.cards.length ?? 0, shownCount - 1);
+      for (const event of committed) {
+        assert.deepEqual(next.events.find((e) => e.seq === event.seq), event);
+        assert.deepEqual(scoutView(next, "c").events.find((e) => e.seq === event.seq), event);
+      }
+      if (shownCount === 2) {
+        const end = act(next, "c", { type: "scout", side, flip: false, insertIndex: 0, combo: false });
+        assert.equal(end.active, null);
+        assert.deepEqual(end.events.find((e) => e.seq === show.seq), show);
+      }
+    });
+  }
+}
+
 test("complete deterministic 2–5 player matches preserve cards, scoring, event bounds and round progression", () => {
   for (const count of [2, 3, 4, 5]) {
     let s = createScout(seats.slice(0, count), `complete-${count}`);
