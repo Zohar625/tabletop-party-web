@@ -1,4 +1,5 @@
 import test from "node:test";
+import { displayedHand } from "../src/games/scout/ui-model.ts";
 import assert from "node:assert/strict";
 import {
   chooseRange,
@@ -13,12 +14,31 @@ import {
   teachingStep,
   lessons,
 } from "../src/games/scout/tutorial-model.ts";
-import { createScout, scoutView } from "../src/games/scout/engine.ts";
+import {
+  createScout,
+  reduceScout,
+  scoutView,
+} from "../src/games/scout/engine.ts";
 const cards = [3, 8, 4, 5, 9].map((top, i) => ({
   id: `h${i}`,
   top,
   bottom: 10 - i,
 }));
+test("orientation preview is not applied again after authority confirms while others are still choosing", () => {
+  const s = createScout(
+    [
+      { id: "a", name: "A" },
+      { id: "b", name: "B" },
+      { id: "c", name: "C" },
+    ],
+    "confirmed-preview",
+  );
+  const preview = displayedHand(scoutView(s, "a"), true);
+  const confirmed = reduceScout(s, "a", { type: "orient", flip: true });
+  assert.equal(confirmed.phase, "orienting");
+  assert.deepEqual(displayedHand(scoutView(confirmed, "a"), true), preview);
+  assert.deepEqual(displayedHand(scoutView(confirmed, "a"), false), preview);
+});
 test("range selection includes intervening cards and resets when clicking a single selected card", () => {
   assert.deepEqual(chooseRange(null, 0), { anchor: 0, end: 0 });
   assert.deepEqual(chooseRange({ anchor: 0, end: 0 }, 3), {

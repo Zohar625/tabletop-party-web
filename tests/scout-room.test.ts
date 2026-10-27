@@ -20,6 +20,33 @@ import { canBeat } from "../src/games/scout/engine.ts";
 import type { ScoutAction } from "../src/games/scout/types.ts";
 
 const SAVE = "tabletop.scout.room.v1";
+test("an unadmitted join can be cancelled, but admitted and restored seats are protected", async () => {
+  const store = new Memory(),
+    wire = new Wire();
+  const options = { store, transport: wire.factory, tickMs: 40 };
+  const guest = await joinRoom("等待成员", "999999", "", options);
+  try {
+    await guest.connect();
+    assert.equal(guest.canCancelJoin(), true);
+    await guest.cancelJoin();
+    assert.equal(await restoreRoom(options), null);
+  } finally {
+    guest.stop();
+  }
+  const t = await table(2);
+  try {
+    assert.equal(t.rooms[1].canCancelJoin(), false);
+    await assert.rejects(t.rooms[1].cancelJoin(), /座位|入桌/);
+    t.rooms[1].stop();
+    const restored = await restoreRoom(t.options(1));
+    assert(restored);
+    assert.equal(restored.canCancelJoin(), false);
+    await assert.rejects(restored.cancelJoin(), /座位|入桌/);
+    restored.stop();
+  } finally {
+    t.rooms.forEach((r) => r.stop());
+  }
+});
 class Memory {
   data = new Map<string, string>();
   getItem(k: string) {

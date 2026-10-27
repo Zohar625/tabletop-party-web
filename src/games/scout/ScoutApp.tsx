@@ -295,9 +295,10 @@ export default function ScoutApp() {
                         value={code}
                         maxLength={6}
                         placeholder="000000"
-                        onChange={(e) =>
-                          setCode(e.target.value.replace(/\D/g, ""))
-                        }
+                        onChange={(e) => {
+                          setCode(e.target.value.replace(/\D/g, ""));
+                          setPin("");
+                        }}
                       />
                     </label>
                     <button disabled={busy || code.length !== 6} type="submit">
@@ -378,6 +379,25 @@ export default function ScoutApp() {
                   {snapshot.status !== "closed" && (
                     <button disabled={busy} onClick={resume}>
                       重新连接
+                    </button>
+                  )}
+                  {controller.current?.canCancelJoin() && (
+                    <button
+                      disabled={busy}
+                      onClick={() =>
+                        void perform(async () => {
+                          await controller.current!.cancelJoin();
+                          unsubscribe.current?.();
+                          unsubscribe.current = null;
+                          controller.current = null;
+                          setSnapshot(null);
+                          setSaved(false);
+                          setPage("home");
+                          setPin("");
+                        })
+                      }
+                    >
+                      取消入桌，重新输入房间码
                     </button>
                   )}
                   {snapshot.status === "closed" && (

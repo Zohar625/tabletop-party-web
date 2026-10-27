@@ -5,7 +5,7 @@ import { canBeat, hasLegalShow } from "./engine.ts";
 import {
   chooseRange,
   describeSet,
-  flipHand,
+  displayedHand,
   previewInsert,
   rangeOf,
   selectionKey,
@@ -58,10 +58,7 @@ export function ScoutTable({
   useCardMotion(root, game, freshDealOnMount, flipped);
   const me = game.players.find((p) => p.id === actor)!,
     turn = game.phase === "playing" && game.turnId === actor;
-  const hand =
-    game.phase === "orienting" && flipped
-      ? flipHand(game.me.hand)
-      : game.me.hand;
+  const hand = displayedHand(game, flipped);
   const range = rangeOf(selection),
     selected = range ? hand.slice(range.start, range.start + range.count) : [];
   const current = game.active?.cards ?? [],

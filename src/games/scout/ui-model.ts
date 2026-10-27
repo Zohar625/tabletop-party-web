@@ -24,6 +24,10 @@ export const selectionKey = (game: ScoutView) =>
   ]);
 export const flipHand = (hand: ScoutCard[]) =>
   [...hand].reverse().map((c) => ({ ...c, top: c.bottom, bottom: c.top }));
+export const displayedHand = (game: ScoutView, flip: boolean) =>
+  game.phase === "orienting" && !game.me.orientationConfirmed && flip
+    ? flipHand(game.me.hand)
+    : game.me.hand;
 export function previewInsert(
   hand: ScoutCard[],
   card: ScoutCard,

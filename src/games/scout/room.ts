@@ -31,6 +31,7 @@ interface Receipt {
 }
 interface SavedRoom {
   version: 1;
+  admitted?: boolean;
   matchId?: string;
   claimed?: boolean;
   code: string;
@@ -474,6 +475,9 @@ export class ScoutRoom {
         game: payload.game,
       };
       this.saved.playing = !!payload.game && payload.game.phase !== "finished";
+      this.saved.admitted = payload.peers.some(
+        (p: { id: string }) => p.id === this.identity.id,
+      );
       this.persist();
       const receipt = (payload.receipts as Receipt[]).find(
         (r) => r.id === this.pending?.id,
@@ -714,9 +718,31 @@ export class ScoutRoom {
       check();
     });
   }
+  canCancelJoin() {
+    return (
+      !this.isHost &&
+      !this.saved.admitted &&
+      !this.saved.playing &&
+      !this.snapshot.game &&
+      this.snapshot.status !== "online"
+    );
+  }
+  async cancelJoin() {
+    await this.enqueue(() => {
+      if (!this.canCancelJoin())
+        throw Error("已入桌的座位请正常离席或保留后恢复。");
+      if (this.store.getItem(SAVE) !== this.lastWritten)
+        throw Error("本机已有新的房间记录，请刷新。");
+      this.stop();
+      this.store.removeItem(SAVE);
+      this.emit("closed");
+    });
+  }
   discardClosed() {
-    if (this.snapshot.status !== 'closed') throw Error('房间尚未结束，请先正常离桌。');
-    if (this.store.getItem(SAVE) !== this.lastWritten) throw Error('本机已有新的房间记录，请刷新后继续。');
+    if (this.snapshot.status !== "closed")
+      throw Error("房间尚未结束，请先正常离桌。");
+    if (this.store.getItem(SAVE) !== this.lastWritten)
+      throw Error("本机已有新的房间记录，请刷新后继续。");
     this.store.removeItem(SAVE);
   }
   async leave() {

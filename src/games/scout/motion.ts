@@ -1,7 +1,7 @@
 import { useLayoutEffect, useRef } from "react";
 import type { RefObject } from "react";
 import type { ScoutView } from "./types.ts";
-import { unreadEvents } from "./ui-model.ts";
+import { unreadEvents, displayedHand } from "./ui-model.ts";
 import type { EventCursor } from "./ui-model.ts";
 type Position = { rect: DOMRect; clone: HTMLElement };
 export function useCardMotion(
@@ -43,10 +43,7 @@ export function useCardMotion(
     const flippedCardId = ownScout?.flipped
       ? ownScout.cards?.[0]?.id
       : undefined;
-    const displayedFaces = game.me.hand.map((c) => ({
-      id: c.id,
-      top: game.phase === "orienting" && previewFlip ? c.bottom : c.top,
-    }));
+    const displayedFaces = displayedHand(game, previewFlip);
     const faceChanges = new Set(
       displayedFaces
         .filter(
