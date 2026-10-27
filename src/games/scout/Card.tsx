@@ -38,9 +38,9 @@ export function CardFace({
           fill={colors[card.bottom]}
         />
         {[
-          { value: card.top, rotate: false },
-          { value: card.bottom, rotate: true },
-        ].map(({ value, rotate }) => (
+          { value: card.top, opposite: card.bottom, rotate: false },
+          { value: card.bottom, opposite: card.top, rotate: true },
+        ].map(({ value, opposite, rotate }) => (
           <g
             key={rotate ? "bottom" : "top"}
             transform={rotate ? "rotate(180 40 60)" : undefined}
@@ -54,13 +54,12 @@ export function CardFace({
               {value}
             </text>
             <text className="sc-face-index" x="9" y="47">
-              {value}
+              {opposite}
             </text>
             {(value === 6 || value === 9) && (
               <path d="M8 34h19" className="sc-face-rule" />
             )}
             <path d="m11 56 3-3 3 3-3 3Z" className="sc-face-mark" />
-            <path d="M66 8v8m-4-4h8M60 20h8" className="sc-face-rule" />
             <text x="70" y="28" className="sc-face-tiny" textAnchor="end">
               {value}
             </text>
@@ -75,6 +74,28 @@ export function CardFace({
           className="sc-face-frame"
         />
       </svg>
+    </span>
+  );
+}
+export function AbilityToken({ available }: { available: boolean }) {
+  return (
+    <span
+      className={`sc-ability-ticket${available ? "" : " is-used"}`}
+      role="img"
+      aria-label={`挖角并演出：${available ? "可用" : "已使用"}`}
+      title={`挖角并演出 · ${available ? "本轮可用" : "本轮已用"}`}
+    >
+      <span className="sc-ability-ticket-front">
+        <svg viewBox="0 0 48 32" aria-hidden="true">
+          <path d="M4 5h27v16H4zM31 12h8l6 9v4H31z" />
+          <circle cx="12" cy="26" r="4" />
+          <circle cx="37" cy="26" r="4" />
+          <text x="17" y="17" textAnchor="middle">
+            S&amp;S
+          </text>
+        </svg>
+      </span>
+      <span className="sc-ability-ticket-back">已用</span>
     </span>
   );
 }

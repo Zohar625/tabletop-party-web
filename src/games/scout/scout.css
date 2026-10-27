@@ -332,10 +332,12 @@ p {
   background: var(--sc-line);
 }
 .sc-room-form form {
-  display: flex;
-  gap: 12px;
-  align-items: end;
+  display: block;
 }
+.sc-room-code-help { color:#aebdca; font-size:11px; line-height:1.8; margin:10px 0 14px; }
+.sc-room-entry-actions { display:flex; gap:10px; }
+.sc-room-entry-actions button { flex:1; }
+.sc-code-input::placeholder { letter-spacing:0; font-size:12px; }
 .sc-room-form form label {
   flex: 1;
   min-width: 0;
@@ -920,6 +922,24 @@ p {
   gap: 10px;
   padding: 2px;
 }
+.sc-hand-view-controls { display:flex; align-items:center; flex-wrap:wrap; gap:8px; margin-top:14px; }
+.sc-hand-view-controls button { padding:8px 12px; font-size:12px; }
+.sc-hand-view-controls button[aria-pressed=true] { color:#16283b; background:#e5c488; border-color:#e5c488; }
+.sc-hand-view-controls >span { font-size:11px; color:#b2bdc9; line-height:1.7; }
+.sc-hand-scroll.is-stacked { overflow:visible; padding:14px 3px 10px; }
+.sc-hand-row.is-stacked-row { --sc-stack-width:85px; width:100%; min-width:0; max-width:760px; gap:0; padding:9px 0 2px; margin:0 auto 9px; }
+.sc-hand-row.is-stacked-row >.sc-card-button { flex:1 1 0; width:0; min-width:0; position:relative; overflow:visible; }
+.sc-hand-row.is-stacked-row >.sc-card-button:last-child { flex:0 0 var(--sc-stack-width); width:var(--sc-stack-width); }
+.sc-seat-avatar { position:relative; margin-right:9px; flex:0 0 auto; }
+.sc-ability-ticket { position:absolute; right:-12px; bottom:-8px; width:32px; height:24px; display:block; transform-style:preserve-3d; transition:transform .4s ease; z-index:1; }
+.sc-ability-ticket.is-used { transform:rotateY(180deg); }
+.sc-ability-ticket-front,.sc-ability-ticket-back { position:absolute; inset:0; display:grid; place-items:center; backface-visibility:hidden; border:1px solid #e9c379; border-radius:4px; box-shadow:0 2px 4px #0005; }
+.sc-ability-ticket-front { background:#efbc61; color:#203046; }
+.sc-ability-ticket-front svg { width:29px; height:20px; stroke:currentColor; stroke-width:2; fill:none; }
+.sc-ability-ticket-front text { stroke:none; fill:currentColor; font:bold 8px sans-serif; }
+.sc-ability-ticket-back { background:#31435b; color:#e2c693; transform:rotateY(180deg); font-size:9px; }
+@media(max-width:600px) { .sc-hand-row.is-stacked-row { --sc-stack-width:77px; } }
+@media(prefers-reduced-motion:reduce) { .sc-ability-ticket { transition:none; } }
 .sc-gap {
   min-width: 44px;
   width: 44px;

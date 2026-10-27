@@ -1,6 +1,10 @@
 import { canBeat, classifySet } from "./engine.ts";
 import type { ScoutCard, ScoutEvent, ScoutView } from "./types.ts";
 export type Selection = { anchor: number; end: number } | null;
+export const stackedGroups = (hand: ScoutCard[]) =>
+  Array.from({ length: Math.ceil(hand.length / 6) }, (_, i) =>
+    hand.slice(i * 6, i * 6 + 6),
+  );
 export function chooseRange(current: Selection, index: number): Selection {
   if (!current || current.anchor !== current.end)
     return { anchor: index, end: index };

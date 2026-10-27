@@ -1,5 +1,5 @@
 import { Fragment, useEffect, useRef, useState } from "react";
-import { Card, CardFace } from "./Card.tsx";
+import { Card, CardFace, AbilityToken } from "./Card.tsx";
 import type { ScoutAction, ScoutView } from "./types.ts";
 import { canBeat, hasLegalShow } from "./engine.ts";
 import {
@@ -10,6 +10,7 @@ import {
   rangeOf,
   selectionKey,
   selectionMessage,
+  stackedGroups,
 } from "./ui-model.ts";
 import type { Selection } from "./ui-model.ts";
 import { useCardMotion } from "./motion.ts";
@@ -44,6 +45,12 @@ export function ScoutTable({
   const [selection, setSelection] = useState<Selection>(null),
     [flipped, setFlipped] = useState(false),
     [wizard, setWizard] = useState<Wizard | null>(null);
+  const [handView, setHandView] = useState<"stacked" | "expanded">(() =>
+    typeof window !== "undefined" &&
+    window.matchMedia("(max-width:600px)").matches
+      ? "stacked"
+      : "expanded",
+  );
   const root = useRef<HTMLDivElement>(null),
     lock = useRef(false),
     key = selectionKey(game);
@@ -60,6 +67,8 @@ export function ScoutTable({
   const me = game.players.find((p) => p.id === actor)!,
     turn = game.phase === "playing" && game.turnId === actor;
   const hand = displayedHand(game, flipped);
+  const stacked = handView === "stacked" && wizard?.step !== 3;
+  const handGroups = stacked ? stackedGroups(hand) : [hand];
   const range = rangeOf(selection),
     selected = range ? hand.slice(range.start, range.start + range.count) : [];
   const current = game.active?.cards ?? [],
@@ -123,7 +132,12 @@ export function ScoutTable({
             }
             data-motion={`seat:${p.id}`}
           >
-            <div className="sc-avatar">{String(i + 1).padStart(2, "0")}</div>
+            <div className="sc-seat-avatar">
+              <div className="sc-avatar">{String(i + 1).padStart(2, "0")}</div>
+              {game.players.length > 2 && (
+                <AbilityToken available={p.scoutShowAvailable} />
+              )}
+            </div>
             <div className="sc-seat-info">
               <strong>
                 {p.name}
@@ -279,6 +293,31 @@ export function ScoutTable({
               </div>
               <span className="sc-order-note">顺序固定 · 不能重排</span>
             </div>
+            <div
+              className="sc-hand-view-controls"
+              role="group"
+              aria-label="手牌显示方式"
+            >
+              <button
+                aria-pressed={handView === "stacked"}
+                onClick={() => setHandView("stacked")}
+              >
+                叠牌概览
+              </button>
+              <button
+                aria-pressed={handView === "expanded"}
+                onClick={() => setHandView("expanded")}
+              >
+                展开操作
+              </button>
+              <span>
+                {wizard?.step === 3
+                  ? "插牌时自动展开，完成后恢复原视图。"
+                  : stacked
+                    ? "大数字看当前，小数字看翻面；顺序保持不变。"
+                    : "点选起点、终点，选中一段相邻的牌。"}
+              </span>
+            </div>
             {game.phase === "orienting" ? (
               <p className="sc-hand-help">
                 开场仅此一次：可将整手旋转 180°，反转顺序并交换上下数字。
@@ -291,47 +330,55 @@ export function ScoutTable({
               </p>
             )}
             <div
-              className={`sc-hand-scroll${wizard?.step === 3 ? " is-inserting" : ""}`}
+              className={`sc-hand-scroll${stacked ? " is-stacked" : ""}${wizard?.step === 3 ? " is-inserting" : ""}`}
             >
-              <div className="sc-hand-row">
-                {hand.map((c, i) => (
-                  <Fragment key={c.id}>
-                    {wizard?.step === 3 && (
-                      <button
-                        aria-label={`插在第 ${i + 1} 张牌之前`}
-                        className={`sc-gap${wizard.gap === i ? " is-chosen" : ""}`}
-                        onClick={() => setWizard({ ...wizard, gap: i })}
-                      >
-                        +
-                      </button>
-                    )}
-                    <Card
-                      card={c}
-                      motionId={`card:${c.id}`}
-                      selected={
-                        !!range &&
-                        i >= range.start &&
-                        i < range.start + range.count
-                      }
-                      onClick={
-                        turn && !wizard
-                          ? () => setSelection(chooseRange(selection, i))
-                          : undefined
-                      }
-                      disabled={pending}
-                    />
-                  </Fragment>
-                ))}
-                {wizard?.step === 3 && (
-                  <button
-                    className={`sc-gap${wizard.gap === hand.length ? " is-chosen" : ""}`}
-                    aria-label="插在手牌最右侧"
-                    onClick={() => setWizard({ ...wizard, gap: hand.length })}
-                  >
-                    +
-                  </button>
-                )}
-              </div>
+              {handGroups.map((group, groupIndex) => (
+                <div
+                  className={`sc-hand-row${stacked ? " is-stacked-row" : ""}`}
+                  key={groupIndex}
+                >
+                  {group.map((c, localIndex) => {
+                    const i = groupIndex * 6 + localIndex;
+                    return (
+                      <Fragment key={c.id}>
+                        {wizard?.step === 3 && (
+                          <button
+                            aria-label={`插在第 ${i + 1} 张牌之前`}
+                            className={`sc-gap${wizard.gap === i ? " is-chosen" : ""}`}
+                            onClick={() => setWizard({ ...wizard, gap: i })}
+                          >
+                            +
+                          </button>
+                        )}
+                        <Card
+                          card={c}
+                          motionId={`card:${c.id}`}
+                          selected={
+                            !!range &&
+                            i >= range.start &&
+                            i < range.start + range.count
+                          }
+                          onClick={
+                            turn && !wizard
+                              ? () => setSelection(chooseRange(selection, i))
+                              : undefined
+                          }
+                          disabled={pending}
+                        />
+                      </Fragment>
+                    );
+                  })}
+                  {wizard?.step === 3 && (
+                    <button
+                      className={`sc-gap${wizard.gap === hand.length ? " is-chosen" : ""}`}
+                      aria-label="插在手牌最右侧"
+                      onClick={() => setWizard({ ...wizard, gap: hand.length })}
+                    >
+                      +
+                    </button>
+                  )}
+                </div>
+              ))}
             </div>
             {wizard?.step === 3 && preview && (
               <div className="sc-insert-preview">

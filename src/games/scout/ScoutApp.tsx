@@ -101,7 +101,7 @@ export default function ScoutApp() {
         throw Error(guard || "请先恢复或结束已有房间，再加入新桌。");
       const room = join
         ? await joinRoom(name, code, pin)
-        : await createRoom(name);
+        : await createRoom(name, { code: code || undefined });
       attach(room);
       await room.connect();
     });
@@ -116,6 +116,18 @@ export default function ScoutApp() {
   const leave = () =>
     perform(async () => {
       await controller.current?.leave();
+      unsubscribe.current?.();
+      unsubscribe.current = null;
+      controller.current = null;
+      setSnapshot(null);
+      setSaved(false);
+      setPage("home");
+      setExit(false);
+      setFresh(false);
+    });
+  const abandon = () =>
+    perform(async () => {
+      await controller.current!.forceLeave();
       unsubscribe.current?.();
       unsubscribe.current = null;
       controller.current = null;
@@ -272,15 +284,8 @@ export default function ScoutApp() {
                       autoComplete="nickname"
                     />
                   </label>
-                  <button
-                    className="sc-primary sc-create"
-                    disabled={busy}
-                    onClick={() => void open(false)}
-                  >
-                    创建房间 <span>→</span>
-                  </button>
                   <div className="sc-form-divider">
-                    <span>已有邀请</span>
+                    <span>创建新桌 / 加入已有房间</span>
                   </div>
                   <form
                     onSubmit={(e) => {
@@ -289,23 +294,41 @@ export default function ScoutApp() {
                     }}
                   >
                     <label>
-                      6 位房间码
+                      6 位房间码（创建可留空）
                       <input
                         className="sc-code-input"
                         inputMode="numeric"
                         pattern="[0-9]{6}"
                         value={code}
                         maxLength={6}
-                        placeholder="000000"
+                        placeholder="留空随机，或输入6位数字"
                         onChange={(e) => {
                           setCode(e.target.value.replace(/\D/g, ""));
                           setPin("");
                         }}
                       />
                     </label>
-                    <button disabled={busy || code.length !== 6} type="submit">
-                      加入房间
-                    </button>
+                    <p className="sc-room-code-help">
+                      创建时可指定号码，留空则随机生成；加入时请填写朋友的房间码。
+                    </p>
+                    <div className="sc-room-entry-actions">
+                      <button
+                        className="sc-primary"
+                        disabled={
+                          busy || (code.length > 0 && code.length !== 6)
+                        }
+                        type="button"
+                        onClick={() => void open(false)}
+                      >
+                        创建房间
+                      </button>
+                      <button
+                        disabled={busy || code.length !== 6}
+                        type="submit"
+                      >
+                        加入房间
+                      </button>
+                    </div>
                   </form>
                 </>
               )}
@@ -587,7 +610,7 @@ export default function ScoutApp() {
               {snapshot?.host
                 ? "收桌会结束所有人的房间。"
                 : live
-                  ? "对局中不能永久退出，其他团员需要等你回来。"
+                  ? "也可以放弃本局并永久退出，不需要房主在线。退出后无法恢复该座位，其他团员可能需要重新开桌。"
                   : "退出房间后会释放你的座位。"}
             </p>
             <div className="sc-modal-actions">
@@ -613,6 +636,11 @@ export default function ScoutApp() {
               {(snapshot?.host || !live) && (
                 <button className="sc-danger" disabled={busy} onClick={leave}>
                   {snapshot?.host ? "确认收桌，所有人退出" : "确认退出房间"}
+                </button>
+              )}
+              {!snapshot?.host && (live || snapshot?.status !== "online") && (
+                <button className="sc-danger" disabled={busy} onClick={abandon}>
+                  确认放弃本局并退出
                 </button>
               )}
               <button className="sc-quiet" onClick={() => setExit(false)}>

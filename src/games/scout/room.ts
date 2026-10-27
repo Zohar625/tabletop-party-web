@@ -16,6 +16,7 @@ import type { RoomTransport } from "../dinner/mqtt.ts";
 
 type Store = Pick<Storage, "getItem" | "setItem" | "removeItem">;
 export interface RoomOptions {
+  code?: string;
   store?: Store;
   transport?: (code: string) => RoomTransport;
   now?: () => number;
@@ -790,6 +791,17 @@ export class ScoutRoom {
       check();
     });
   }
+  async forceLeave() {
+    await this.enqueue(() => {
+      if (this.isHost) throw Error("房主请使用收桌结束房间。");
+      if (this.store.getItem(SAVE) !== this.lastWritten)
+        throw Error("本机已有新的房间记录，请刷新后继续。");
+      this.stop();
+      this.store.removeItem(SAVE);
+      this.pending = undefined;
+      this.emit("closed");
+    });
+  }
   canCancelJoin() {
     return (
       !this.isHost &&
@@ -860,10 +872,13 @@ export async function createRoom(
   name: string,
   options: RoomOptions = {},
 ): Promise<ScoutRoom> {
+  const requested = options.code?.trim();
+  if (requested && !validCode(requested))
+    throw Error("创建房间号必须是6位数字。");
   const identity = await createIdentity();
   const saved: SavedRoom = {
     version: 1,
-    code: codeOf(),
+    code: requested || codeOf(),
     claimed: false,
     name: nameOf(name),
     identity: identity.saved,

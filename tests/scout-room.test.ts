@@ -20,6 +20,55 @@ import { canBeat } from "../src/games/scout/engine.ts";
 import type { ScoutAction } from "../src/games/scout/types.ts";
 
 const SAVE = "tabletop.scout.room.v1";
+test("guests may permanently abandon a live seat without a returning host, with stale-save protection", async () => {
+  const t = await table(2);
+  try {
+    await start(t.rooms);
+    await orient(t.rooms);
+    t.host.stop();
+    await t.rooms[1].forceLeave();
+    assert.equal(await restoreRoom(t.options(1)), null);
+    const newer = await createRoom("新房间", t.options(1));
+    const raw = t.stores[1].getItem(SAVE);
+    await assert.rejects(t.rooms[1].forceLeave(), /新|变化/);
+    assert.equal(t.stores[1].getItem(SAVE), raw);
+    newer.stop();
+  } finally {
+    t.rooms.forEach((r) => r.stop());
+  }
+});
+test("a requested creation code is kept exactly and collisions do not silently substitute another code", async () => {
+  const wire = new Wire(),
+    store = new Memory();
+  const host = await createRoom("指定房主", {
+    store,
+    transport: wire.factory,
+    tickMs: 40,
+    code: "123456",
+  });
+  const other = await createRoom("第二桌", {
+    store: new Memory(),
+    transport: wire.factory,
+    tickMs: 40,
+    code: "123456",
+  });
+  try {
+    assert.equal(host.getSnapshot().code, "123456");
+    await host.connect();
+    await other.connect();
+    assert.equal(other.getSnapshot().code, "123456");
+    assert.equal(other.getSnapshot().status, "closed");
+    assert.match(other.getSnapshot().error, /使用/);
+    assert.equal(host.getSnapshot().status, "online");
+    await assert.rejects(
+      createRoom("坏号码", { store: new Memory(), code: "12345" }),
+      /6|六/,
+    );
+  } finally {
+    host.stop();
+    other.stop();
+  }
+});
 test("room chat uses authenticated authors, deduplicates retries and never advances play revision", async () => {
   const t = await table(2);
   const { rooms, host, wire, options } = t;
