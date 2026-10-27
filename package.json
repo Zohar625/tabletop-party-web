@@ -7,6 +7,7 @@
     "dev": "vite --host 127.0.0.1",
     "build": "tsc --noEmit && vite build && vite build --config vite.super.config.ts && vite build --config vite.dinner.config.ts && vite build --config vite.cartographers.config.ts && vite build --config vite.scout.config.ts",
     "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "test:ci": "node --experimental-strip-types --test --test-reporter=spec --test-reporter-destination=stdout --test-reporter=./scripts/test-ci-reporter.mjs --test-reporter-destination=stdout tests/*.test.ts",
     "preview": "vite preview --host 127.0.0.1",
     "package:offline": "npm run build && node scripts/package-offline.mjs && node scripts/verify-package.mjs",
     "format": "prettier --write src tests/*.test.ts scripts/*.mjs"
