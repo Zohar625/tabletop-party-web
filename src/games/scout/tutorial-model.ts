@@ -64,21 +64,36 @@ export function lessonState(index: number): ScoutState {
   const used = new Set<string>();
   // Allocate high values first so earlier low-value cards do not consume
   // every physical pair containing a later repeated value.
-  const active = index === 0 ? null : index === 1 ? [2, 3] : index === 2 || index === 5 ? [4] : [6, 6];
+  const active =
+    index === 0
+      ? null
+      : index === 1
+        ? [2, 3]
+        : index === 2 || index === 5
+          ? [4]
+          : [6, 6];
   const hands = [own, [2, 6, 8, 9], [2, 6, 8, 9]];
-  const allocated = new Map<number, { id: string; top: number; bottom: number }[]>();
-  for (const top of [...hands.flat(), ...(active ?? [])].sort((a,b)=>b-a)) {
+  const allocated = new Map<
+    number,
+    { id: string; top: number; bottom: number }[]
+  >();
+  for (const top of [...hands.flat(), ...(active ?? [])].sort(
+    (a, b) => b - a,
+  )) {
     let found = false;
     for (let bottom = 1; bottom <= 9; bottom++) {
-      const id = [top,bottom].sort((a,b)=>a-b).join('-');
+      const id = [top, bottom].sort((a, b) => a - b).join("-");
       if (top !== bottom && !used.has(id)) {
         used.add(id);
-        allocated.set(top,[...(allocated.get(top) ?? []),{id,top,bottom}]);
+        allocated.set(top, [
+          ...(allocated.get(top) ?? []),
+          { id, top, bottom },
+        ]);
         found = true;
         break;
       }
     }
-    if (!found) throw Error('教学牌组不足');
+    if (!found) throw Error("教学牌组不足");
   }
   const take = (top: number) => {
     return allocated.get(top)!.shift()!;

@@ -504,6 +504,42 @@ export default function App() {
                   <div className="tile-bottom"><span>1–6 人 · 附互动教学</span><span className="circle-arrow"><Icon name="arrow" size={20} /></span></div>
                 </div>
               </a>
+              <a className="game-tile scout-tile" href={games[4]!.href}>
+                <div className="tile-art scout-art" aria-hidden="true">
+                  <svg viewBox="0 0 220 190" width="220">
+                    <path d="M110 0 24 190h172Z" fill="#e8c36a" opacity=".1" />
+                    <ellipse cx="110" cy="166" rx="80" ry="12" fill="#080f1d" opacity=".5" />
+                    <g transform="translate(40 33) rotate(-14 43 63)">
+                      <rect width="86" height="126" rx="7" fill="#e9e5d9" />
+                      <rect x="4" y="4" width="78" height="118" rx="4" fill="#42b9d2" />
+                      <path d="M82 4v118H4v-24C4 65 54 73 54 39S68 4 82 4Z" fill="#e4b72c" />
+                      <text x="10" y="39" fill="#152f3e" fontSize="35" fontWeight="900">3</text>
+                      <text x="12" y="56" fill="#152f3e" fontSize="13" fontWeight="800">3</text>
+                      <text x="10" y="39" transform="rotate(180 43 63)" fill="#152f3e" fontSize="35" fontWeight="900">7</text>
+                    </g>
+                    <g transform="translate(101 32) rotate(12 43 63)">
+                      <rect width="86" height="126" rx="7" fill="#e9e5d9" />
+                      <rect x="4" y="4" width="78" height="118" rx="4" fill="#31bba0" />
+                      <path d="M82 4v118H4v-24C4 65 54 73 54 39S68 4 82 4Z" fill="#e9a529" />
+                      <text x="10" y="39" fill="#152f3e" fontSize="35" fontWeight="900">4</text>
+                      <text x="12" y="56" fill="#152f3e" fontSize="13" fontWeight="800">4</text>
+                      <text x="10" y="39" transform="rotate(180 43 63)" fill="#152f3e" fontSize="35" fontWeight="900">8</text>
+                    </g>
+                  </svg>
+                </div>
+                <div className="tile-copy">
+                  <div className="tile-top">
+                    <span className="tag">组牌 · 挖角 · 逆转</span>
+                    <span className="available">联机试玩</span>
+                  </div>
+                  <h3>{games[4]!.title}<span>马戏团的压轴好戏</span></h3>
+                  <p>{games[4]!.subtitle}</p>
+                  <div className="tile-bottom">
+                    <span>2–5 人 · 附互动教学</span>
+                    <span className="circle-arrow"><Icon name="arrow" size={20} /></span>
+                  </div>
+                </div>
+              </a>
               <p className="coming">
                 更多桌游，慢慢上桌。<span>好戏与好棋，都在这一桌。</span>
               </p>

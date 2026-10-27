@@ -48,7 +48,8 @@ try {
     { store: stores[1] },
   );
   rooms.push(guest);
-  await Promise.all(rooms.map((room) => room.connect()));
+  // Match normal use: the host opens the room before a guest connects.
+  for (const room of rooms) await room.connect();
   await synchronized("两名独立客户端在线入座");
   await guest.ready(true);
   await synchronized("两人准备");

@@ -1,5 +1,17 @@
 import type { ScoutCard } from "./types.ts";
-const colors = ['','#70b7dd','#42b5dc','#26b9d2','#23bca6','#6fbe49','#b4cc39','#efd130','#efb632','#ed8c37','#e66163'];
+const colors = [
+  "",
+  "#70b7dd",
+  "#42b5dc",
+  "#26b9d2",
+  "#23bca6",
+  "#6fbe49",
+  "#b4cc39",
+  "#efd130",
+  "#efb632",
+  "#ed8c37",
+  "#e66163",
+];
 export function CardFace({
   card,
   back = false,
@@ -21,16 +33,47 @@ export function CardFace({
     <span className="sc-card sc-card-face">
       <svg className="sc-face-print" viewBox="0 0 80 120" aria-hidden="true">
         <rect width="80" height="120" fill={colors[card.top]} />
-        <path d="M80 0C40 0 60 60 40 60S40 120 0 120H80Z" fill={colors[card.bottom]} />
-        {[{value:card.top,rotate:false},{value:card.bottom,rotate:true}].map(({value,rotate})=><g key={rotate?'bottom':'top'} transform={rotate?'rotate(180 40 60)':undefined}>
-          <text className="sc-face-numeral" x="7" y="31" fontSize={value===10?'27':'32'}>{value}</text>
-          <text className="sc-face-index" x="9" y="47">{value}</text>
-          {(value===6||value===9)&&<path d="M8 34h19" className="sc-face-rule"/>}
-          <path d="m11 56 3-3 3 3-3 3Z" className="sc-face-mark"/>
-          <path d="M66 8v8m-4-4h8M60 20h8" className="sc-face-rule"/>
-          <text x="70" y="28" className="sc-face-tiny" textAnchor="end">{value}</text>
-        </g>)}
-        <rect x="1" y="1" width="78" height="118" rx="2" className="sc-face-frame"/>
+        <path
+          d="M80 0C40 0 60 60 40 60S40 120 0 120H80Z"
+          fill={colors[card.bottom]}
+        />
+        {[
+          { value: card.top, rotate: false },
+          { value: card.bottom, rotate: true },
+        ].map(({ value, rotate }) => (
+          <g
+            key={rotate ? "bottom" : "top"}
+            transform={rotate ? "rotate(180 40 60)" : undefined}
+          >
+            <text
+              className="sc-face-numeral"
+              x="7"
+              y="31"
+              fontSize={value === 10 ? "27" : "32"}
+            >
+              {value}
+            </text>
+            <text className="sc-face-index" x="9" y="47">
+              {value}
+            </text>
+            {(value === 6 || value === 9) && (
+              <path d="M8 34h19" className="sc-face-rule" />
+            )}
+            <path d="m11 56 3-3 3 3-3 3Z" className="sc-face-mark" />
+            <path d="M66 8v8m-4-4h8M60 20h8" className="sc-face-rule" />
+            <text x="70" y="28" className="sc-face-tiny" textAnchor="end">
+              {value}
+            </text>
+          </g>
+        ))}
+        <rect
+          x="1"
+          y="1"
+          width="78"
+          height="118"
+          rx="2"
+          className="sc-face-frame"
+        />
       </svg>
     </span>
   );

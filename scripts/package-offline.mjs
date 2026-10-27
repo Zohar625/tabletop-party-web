@@ -38,6 +38,8 @@ await bundle("", "一桌好戏-本地试玩.html", {
     "https://zohar625.github.io/tabletop-party-web/cartographers/index.html",
   "./dinner/index.html":
     "https://zohar625.github.io/tabletop-party-web/dinner/index.html",
+  "./scout/index.html":
+    "https://zohar625.github.io/tabletop-party-web/scout/index.html",
 });
 await bundle("super-tic-tac-toe", "超级井字棋-本地试玩.html", {
   "../index.html": "./一桌好戏-本地试玩.html",

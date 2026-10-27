@@ -9,7 +9,9 @@ export function Tutorial({ onExit }: { onExit: () => void }) {
     [feedback, setFeedback] = useState("");
   const lesson = lessons[index];
   const intro = useRef<HTMLElement>(null);
-  useLayoutEffect(() => { intro.current?.scrollIntoView({block:'start'}); }, [index]);
+  useLayoutEffect(() => {
+    intro.current?.scrollIntoView({ block: "start" });
+  }, [index]);
   const load = (next: number) => {
     setIndex(next);
     setState(lessonState(next));

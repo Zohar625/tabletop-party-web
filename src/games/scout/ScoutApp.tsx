@@ -76,7 +76,7 @@ export default function ScoutApp() {
     };
   }, []);
   useEffect(() => {
-    if (page === 'room' && snapshot?.game) setFresh(false);
+    if (page === "room" && snapshot?.game) setFresh(false);
   }, [page, snapshot?.game?.matchId]);
   const perform = async (fn: () => Promise<unknown>) => {
     if (requesting.current) return;
@@ -246,11 +246,13 @@ export default function ScoutApp() {
                   </button>
                   {!controller.current && error && (
                     <button
-                      onClick={() => void perform(async () => {
-                        clearSavedRoom();
-                        setSaved(false);
-                        setError("");
-                      })}
+                      onClick={() =>
+                        void perform(async () => {
+                          clearSavedRoom();
+                          setSaved(false);
+                          setError("");
+                        })
+                      }
                     >
                       清除损坏的本机记录
                     </button>
@@ -380,15 +382,17 @@ export default function ScoutApp() {
                   )}
                   {snapshot.status === "closed" && (
                     <button
-                      onClick={() => void perform(async () => {
-                        controller.current?.discardClosed();
-                        controller.current?.stop();
-                        unsubscribe.current?.();
-                        controller.current = null;
-                        setSnapshot(null);
-                        setSaved(false);
-                        setPage("home");
-                      })}
+                      onClick={() =>
+                        void perform(async () => {
+                          controller.current?.discardClosed();
+                          controller.current?.stop();
+                          unsubscribe.current?.();
+                          controller.current = null;
+                          setSnapshot(null);
+                          setSaved(false);
+                          setPage("home");
+                        })
+                      }
                     >
                       返回首页
                     </button>

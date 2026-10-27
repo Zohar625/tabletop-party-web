@@ -57,3 +57,12 @@ for (const [, asset] of mapPage.matchAll(/(?:src|href)="([^"]+)"/g)) {
 }
 assert(lobby.includes("https://zohar625.github.io/tabletop-party-web/cartographers/index.html"));
 console.log("制图师入口资源及大厅跳转检查通过。");
+
+const scoutFolder = resolve(root, "dist/scout");
+const scoutPage = await readFile(resolve(scoutFolder, "index.html"), "utf8");
+for (const [, asset] of scoutPage.matchAll(/(?:src|href)="([^"]+)"/g)) {
+  assert(asset.startsWith("./"), `SCOUT资源必须使用相对路径：${asset}`);
+  await access(resolve(scoutFolder, asset));
+}
+assert(lobby.includes("https://zohar625.github.io/tabletop-party-web/scout/index.html"));
+console.log("SCOUT联机入口资源及大厅跳转检查通过。");

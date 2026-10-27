@@ -12,7 +12,6 @@ export function useCardMotion(
 ) {
   const before = useRef(new Map<string, Position>()),
     cursor = useRef<EventCursor | null>(null),
-    previousFlip = useRef(previewFlip),
     previousFaces = useRef(new Map<string, number>());
   const running = useRef<Animation[]>([]),
     ghosts = useRef<HTMLElement[]>([]);
@@ -38,13 +37,28 @@ export function useCardMotion(
     const deal =
       (!cursor.current && fresh) ||
       update.events.some((e) => e.kind === "deal");
-    const rotate = previousFlip.current !== previewFlip;
-    const ownScout = update.events.find(e=>e.kind==='scout'&&e.actorId===game.me.id);
-    const flippedCardId = ownScout?.flipped ? ownScout.cards?.[0]?.id : undefined;
-    const faceChanges = new Set(game.me.hand.filter(c=>previousFaces.current.has(c.id)&&previousFaces.current.get(c.id)!==c.top).map(c=>`card:${c.id}`));
-    previousFaces.current = new Map(game.me.hand.map(c=>[c.id,c.top]));
+    const ownScout = update.events.find(
+      (e) => e.kind === "scout" && e.actorId === game.me.id,
+    );
+    const flippedCardId = ownScout?.flipped
+      ? ownScout.cards?.[0]?.id
+      : undefined;
+    const displayedFaces = game.me.hand.map((c) => ({
+      id: c.id,
+      top: game.phase === "orienting" && previewFlip ? c.bottom : c.top,
+    }));
+    const faceChanges = new Set(
+      displayedFaces
+        .filter(
+          (c) =>
+            previousFaces.current.has(c.id) &&
+            previousFaces.current.get(c.id) !== c.top,
+        )
+        .map((c) => `card:${c.id}`),
+    );
+    const rotate = faceChanges.size > 0;
+    previousFaces.current = new Map(displayedFaces.map((c) => [c.id, c.top]));
     cursor.current = update.cursor;
-    previousFlip.current = previewFlip;
     const old = before.current;
     before.current = next;
     if (!deal && !rotate && !update.events.length) return;
@@ -123,8 +137,11 @@ export function useCardMotion(
     for (const [key, node] of nodes) {
       if (!key.startsWith("card:")) continue;
       const dest = next.get(key)!.rect;
-      const inHand = game.me.hand.some(c=>key===`card:${c.id}`);
-      const turn = (rotate && inHand) || faceChanges.has(key) || key===`card:${flippedCardId}`;
+      const inHand = game.me.hand.some((c) => key === `card:${c.id}`);
+      const turn =
+        (rotate && inHand) ||
+        faceChanges.has(key) ||
+        key === `card:${flippedCardId}`;
       let source = old.get(key)?.rect;
       const show = update.events.find(
         (e) =>

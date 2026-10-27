@@ -43,33 +43,33 @@ hasLegalShow(hand:ScoutCard[], active:ScoutCard[]|null):boolean;
 Public view fields must include matchId,phase('orienting'|'playing'|'roundEnd'|'finished'),round(1-based),totalRounds,starterId,turnId,active({ownerId,cards}|null),players,me,scoutsSinceShow,comboActorId(string|null),revision,eventSeq,events,history. Public players: id,name,handCount,orientationConfirmed,captured(number),scoutChips,scoutShowAvailable,total. `me:{id,hand:ScoutCard[],orientationConfirmed}`. State can contain private hand arrays, seed/reserve. Each player has actualhand and public counters.
 Events: `{seq:number,kind:'deal'|'orient'|'show'|'scout'|'roundEnd',actorId:string,cards?:ScoutCard[],captured?:ScoutCard[],sourceOwnerId?:string,insertIndex?:number,flipped?:boolean}`. Use boundedrecent events (e.g. last12), monotonicseq. Deal/orient never include private cards. PublicScout event can identify taken publicly-known card, but only actor may receive insertIndex/flipped. Do not leak initial card IDs, dealorder, seed orreserve. Deep copy projections.
 Round history: `{round,starterId,reason:'emptyHand'|'unbeaten'|'blocked',leaderId,lines:{id,name,captured,scoutChips,remainingPenalty,delta,total}[]}`. `next` authorized onlyfirstplayer/hostseat, resetsperroundfields and movesstarter. Rejectbadphase/nonfinite/outofrange/noninteger inputs; unchangedoriginal onallfailures.
-- [ ] Write failing tests with literal fixturehands andscoreexpectations. Coverwholehand reversal, strictsetcomparison,contiguousselection,Scoutends/insert/flip,combo,allScoutstop,scoreexemption,two-playerreserve/continuation/block andcompletegames.
+- [x] Write failing tests with literal fixturehands andscoreexpectations. Coverwholehand reversal, strictsetcomparison,contiguousselection,Scoutends/insert/flip,combo,allScoutstop,scoreexemption,two-playerreserve/continuation/block andcompletegames.
 ```ts
 assert.equal(canBeat([{id:'a',top:4,bottom:9},{id:'b',top:5,bottom:8}], [{id:'c',top:3,bottom:7},{id:'d',top:3,bottom:6}]), false);
 ```
-- [ ] Run newtest andobserveexpectedRED, implementimmutablelogic, runGREEN. Full rules are above; don't invent variants. Add privateview mutation/leak checks.
-- [ ] Commit ownedfiles; write taskreport includingcommands/results, API deviations, exactrulesquestions. Parent reviews before nexttask.
+- [x] Run newtest andobserveexpectedRED, implementimmutablelogic, runGREEN. Full rules are above; don't invent variants. Add privateview mutation/leak checks.
+- [x] Commit ownedfiles; write taskreport includingcommands/results, API deviations, exactrulesquestions. Parent reviews before nexttask.
 
 ### Task 2: Encrypted private-hand room
 **Files:** create src/games/scout/room.ts, tests/scout-room.test.ts, scripts/verify-scout-online.ts. Do not edit dinner/cartographers transports.
 **Consumes:** Task1 types,createScout/reduceScout/scoutView. Reuse ../dinner/crypto.ts and ../dinner/mqtt.ts with namespace `tabletop-scout`.
 **Produces:** ScoutRoom with getSnapshot,subscribe,connect,stop,ready,startGame,act,rematch,kick,leave; exported createRoom(name,options),joinRoom(name,code,pin,options),restoreRoom(options),hasSavedRoom(options?),roomJoinGuard(snapshot,hasController),roomLink(code,pin). Follow exact existing dinner API contracts where possible; publish deviations inreport.
 Snapshot mirrors dinner:matchId,code,hostId,meId,host,pin,status,warning,error,revision,peers,game:ScoutView|null,pending. Options store/transport/now/tickMs. Storage `tabletop.scout.room.v1`; playernamesdefault团长;max5;min2; sixdigitcodes; invitequery room/pin as existing.
-- [ ] Write failing2client memorytransport test, waitingALLclientsonline+peers beforecommands. Assert secretsonlyrecipient,wireencrypted,restoreidentity,duplicate/stale/outofturnactions,unready/offlinecan'tstart,kick/leave,rematch/newmatchidentity.
-- [ ] Adapt proven roomalgorithm in ownmodule; preserve collisionprobe,hostfingerprint,receipts,serialization,stalesavedidentityguards. Remove dinner-specific initialplacementstale exception; allScoutactions require currentrevision. `next` hostonly, rejoin resumes authoritativeprivateview,notredeal.
-- [ ] Add3/5clientsmokeinmemory,realMQTTscript2clients includingactualorient/show/scout/refresh (noUItest backdoors).
-- [ ] Run tests andtypecheck,commitownedfiles,reportinterfaces andcommands. No appUI yet.
+- [x] Write failing2client memorytransport test, waitingALLclientsonline+peers beforecommands. Assert secretsonlyrecipient,wireencrypted,restoreidentity,duplicate/stale/outofturnactions,unready/offlinecan'tstart,kick/leave,rematch/newmatchidentity.
+- [x] Adapt proven roomalgorithm in ownmodule; preserve collisionprobe,hostfingerprint,receipts,serialization,stalesavedidentityguards. Replace dinner-specific initialplacementstale exception with narrowly scoped concurrent orientation: accept old revision only for orient, same match+round, stillorienting and actor notconfirmed; Show/Scout/next always require currentrevision. Add a 5-client simultaneous orientation test. `next` hostonly, rejoin resumes authoritativeprivateview,notredeal.
+- [x] Add3/5clientsmokeinmemory,realMQTTscript2clients includingactualorient/show/scout/refresh (noUItest backdoors).
+- [x] Run tests andtypecheck,commitownedfiles,reportinterfaces andcommands. No appUI yet.
 
 ### Task 3: Stage UI, card motion and independent teaching
 **Files:** create src/games/scout/ScoutApp.tsx, ScoutTable.tsx, Card.tsx, Tutorial.tsx, ui-model.ts, scout.css; tests/scout-ui.test.ts; maysplitmotion.ts.
 **Consumes:** Task1 publictypes/legality,Task2roomcontracts. Props ScoutTable `{game:ScoutView,actor:string,pending?:boolean,onAction:(a:ScoutAction)=>void,teaching?:boolean}`. Appdefaultmount via entry addedTask4.
-- [ ] Add tests forcontinuousselectionmodel,selectionreset onlywhenactorhand/turnchanges,Scoutinsertpreviewpreservesorder,committedeventdedup and privatecardSSR. Testintro/roomstatus/handlabels andteachinggates.
-- [ ] Implement darkcircuslanding,lobby6digitcode/invite/copy/prepare/hoststart,refreshrestorewithoutidentityreplacement,exitconfirmationandroomkeptwhenreturninghome. Neveroverwriteactiveidentitybyjoinlink. Showconnectionblockedstate clearly.
-- [ ] Implement orientationpreview+confirm,contiguousselectionstart/end,legalitytext,Show,Scout3-stepwizard withends/orientation/gap+cancel/confirm,Scout&Showwithpendingphase,roundreceipt+hostnext,finaltotals+jointwinners+rematch. Doubleclick/pendingcan'tsendtwice. 2-playertokens/continuedturn explained.
-- [ ] OriginalSVG/CSSdualnumbercards withbigcurrenttop,invertedbottom,distinctcardbacks. Handarea horizontallyscrollablewithinviewport,44pxcontrols,keyboardfocus. Actionsstayreachableonmobile. Nothing allows handreorder.
-- [ ] Real committedmotion:dealstagger/ownflip,selectionlift,Show hand-to-stage,previousactive-to-score,Scoutedge-to-insertion+handreflow,wholehandrotation,chip-to-owner,roundreceipt. Use stableidsandFLIPorboundedflyingoverlay; eventseqbaselineonmount means no replay afterrestore; reducedmotion and backgroundfastforward; animation callbacksneverdispatch.
-- [ ] Independent tutorial usesrealenginefixtures:orientation+order,contiguousrun,Scoutbridging,Showaftergapcloses,comboandscoring. Gateactualdecisions;no formalroom/savemutation. Cancel/retry/exitavailable.
-- [ ] Run UI/SSR tests andtypecheck,commitownedfiles,reportcommands andbrowsertestremaining.
+- [x] Add tests forcontinuousselectionmodel,selectionreset onlywhenactorhand/turnchanges,Scoutinsertpreviewpreservesorder,committedeventdedup and privatecardSSR. Testintro/roomstatus/handlabels andteachinggates.
+- [x] Implement darkcircuslanding,lobby6digitcode/invite/copy/prepare/hoststart,refreshrestorewithoutidentityreplacement,exitconfirmationandroomkeptwhenreturninghome. Neveroverwriteactiveidentitybyjoinlink. Showconnectionblockedstate clearly.
+- [x] Implement orientationpreview+confirm,contiguousselectionstart/end,legalitytext,Show,Scout3-stepwizard withends/orientation/gap+cancel/confirm,Scout&Showwithpendingphase,roundreceipt+hostnext,finaltotals+jointwinners+rematch. Doubleclick/pendingcan'tsendtwice. 2-playertokens/continuedturn explained.
+- [x] OriginalSVG/CSSdualnumbercards withbigcurrenttop,invertedbottom,distinctcardbacks. Handarea horizontallyscrollablewithinviewport,44pxcontrols,keyboardfocus. Actionsstayreachableonmobile. Nothing allows handreorder.
+- [x] Real committedmotion:dealstagger/ownflip,selectionlift,Show hand-to-stage,previousactive-to-score,Scoutedge-to-insertion+handreflow,wholehandrotation,chip-to-owner,roundreceipt. Use stableidsandFLIPorboundedflyingoverlay; eventseqbaselineonmount means no replay afterrestore; reducedmotion and backgroundfastforward; animation callbacksneverdispatch.
+- [x] Independent tutorial usesrealenginefixtures:orientation+order,contiguousrun,Scoutbridging,Showaftergapcloses,comboandscoring. Gateactualdecisions;no formalroom/savemutation. Cancel/retry/exitavailable.
+- [x] Run UI/SSR tests andtypecheck,commitownedfiles,reportcommands andbrowsertestremaining.
 
 ### Task 4: Hub, production entry, verification and publishing
 **Files:** create scout/index.html,scout/main.tsx,vite.scout.config.ts; modify package.json(buildfifthentry),src/games/registry.ts,src/App.tsx(hubcardart/linkhandling),src/styles.css(ifnecessary),scripts/package-offline.mjs,scripts/verify-package.mjs,README.md; verificationdoc.

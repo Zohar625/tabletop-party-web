@@ -837,19 +837,21 @@ test("the host can explicitly close an ongoing match and notify every guest", as
   }
 });
 
-test('dismiss a closed seat without deleting a newer room identity', async () => {
-  const {rooms,host,options,stores}=await table(2);
+test("dismiss a closed seat without deleting a newer room identity", async () => {
+  const { rooms, host, options, stores } = await table(2);
   try {
-    assert.throws(()=>rooms[1].discardClosed(),/结束/);
+    assert.throws(() => rooms[1].discardClosed(), /结束/);
     await start(rooms);
     await host.leave();
-    await until(()=>rooms[1].getSnapshot().status==='closed');
+    await until(() => rooms[1].getSnapshot().status === "closed");
     rooms[1].discardClosed();
-    assert.equal(await restoreRoom(options(1)),null);
-    const newer=await createRoom('新团长',options(1));
-    const current=stores[1].getItem(SAVE);
-    assert.throws(()=>rooms[1].discardClosed(),/新|变化/);
-    assert.equal(stores[1].getItem(SAVE),current);
+    assert.equal(await restoreRoom(options(1)), null);
+    const newer = await createRoom("新团长", options(1));
+    const current = stores[1].getItem(SAVE);
+    assert.throws(() => rooms[1].discardClosed(), /新|变化/);
+    assert.equal(stores[1].getItem(SAVE), current);
     newer.stop();
-  } finally {rooms.forEach(room=>room.stop());}
+  } finally {
+    rooms.forEach((room) => room.stop());
+  }
 });

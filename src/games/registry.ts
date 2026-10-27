@@ -26,4 +26,11 @@ export const games = [
     available: true,
     href: "./cartographers/index.html",
   },
+  {
+    id: "scout",
+    title: "SCOUT",
+    subtitle: "手牌不能重排，好戏照样能连起来。",
+    available: true,
+    href: "./scout/index.html",
+  },
 ];
