@@ -17,4 +17,7 @@
 
 真实MQTT脚本两次在既有中转WebSocket连接阶段失败，未开始断言，不宣称真实网络复测成功。上述三人离线/恢复测试通过真实房间加密协议与内存传输控制断线；界面使用独立明示组件示例和模拟手机视口，不等同跨地区/真机验证。共享中转实现未改动。
 
-截图：.test-build/scout-single-row.png、.test-build/scout-barrage.png。部署后补充线上记录。
+截图：.test-build/scout-single-row.png、.test-build/scout-barrage.png。
+
+## 发布
+82e6449通过[部署40519483513](https://github.com/Zohar625/tabletop-party-web/actions/runs/40519483513)：云端测试、构建全部成功，部署30秒。公开浏览器重新加载确认引用index-BxQSuk5P.js和index-DxaIowLu.css；线上HTML、JS、CSS三者SHA-256均与本地验收构建一致。审查补充复核确认心跳等待不放宽权限断言，针对性独立1/1通过。
