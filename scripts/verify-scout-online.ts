@@ -141,6 +141,41 @@ try {
     assert.deepEqual(restored.getSnapshot().game, view);
   }
   console.log("PASS 成员与房主刷新恢复身份、版本及权威手牌，无重新发牌");
+  await rooms[0].setTurnLimit(5);
+  await synchronized("房主限时设置同步");
+  const timerGameRevision = rooms[0].getSnapshot().game!.revision;
+  await until(
+    () => rooms.every((room) => room.getSnapshot().turnClock?.stage === 1),
+    "第一段超时后重新计时",
+  );
+  assert(
+    rooms.every(
+      (room) => room.getSnapshot().game!.revision === timerGameRevision,
+    ),
+  );
+  assert(
+    rooms.every((room) =>
+      /首次超时/.test(room.getSnapshot().timeoutNotice?.text ?? ""),
+    ),
+  );
+  await until(
+    () =>
+      rooms.every(
+        (room) => room.getSnapshot().game!.revision === timerGameRevision + 1,
+      ),
+    "第二段超时自动合法操作",
+  );
+  assert(
+    rooms.every((room) =>
+      /自动/.test(room.getSnapshot().timeoutNotice?.text ?? ""),
+    ),
+  );
+  await rooms[0].setTurnLimit(0);
+  await synchronized("关闭出牌限时");
+  assert(rooms.every((room) => room.getSnapshot().turnClock === null));
+  console.log(
+    "PASS 房主限时双端同步，首次提醒重计不改游戏，第二次自动合法操作，关闭立即停计",
+  );
 } finally {
   rooms.forEach((room) => room.stop());
 }

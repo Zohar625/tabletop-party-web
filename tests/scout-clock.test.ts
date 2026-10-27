@@ -5,12 +5,18 @@ import { createScout, reduceScout } from "../src/games/scout/engine.ts";
 import { lessonState } from "../src/games/scout/tutorial-model.ts";
 
 test("automatic continuation after Scout and Show must show and never scouts again", () => {
-  const combo = reduceScout(lessonState(5), 'a', { type:'scout', side:'left', flip:false, insertIndex:1, combo:true });
+  const combo = reduceScout(lessonState(5), "a", {
+    type: "scout",
+    side: "left",
+    flip: false,
+    insertIndex: 1,
+    combo: true,
+  });
   const action = clock.automaticAction(combo)!;
-  assert.equal(action.type,'show');
-  const next = reduceScout(combo,'a',action);
-  assert.equal(next.comboActorId,null);
-  assert.equal(next.revision,combo.revision+1);
+  assert.equal(action.type, "show");
+  const next = reduceScout(combo, "a", action);
+  assert.equal(next.comboActorId, null);
+  assert.equal(next.revision, combo.revision + 1);
 });
 
 test("turn clock starts only for play, identifies each action and exposes two-stage urgency", () => {
