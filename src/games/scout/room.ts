@@ -208,6 +208,7 @@ export class ScoutRoom {
     return result;
   }
   private persist() {
+    this.assertCurrent();
     try {
       const raw = JSON.stringify(this.saved);
       this.store.setItem(SAVE, raw);
@@ -218,8 +219,8 @@ export class ScoutRoom {
     if (this.store === fallback)
       this.warning = "本设备无法保存，刷新后可能无法找回座位。请保持页面打开。";
   }
-  private assertHostCurrent() {
-    if (!this.isHost || this.lastWritten === undefined) return;
+  private assertCurrent() {
+    if (this.lastWritten === undefined) return;
     let raw: string | null;
     try {
       raw = this.store.getItem(SAVE);
@@ -228,7 +229,7 @@ export class ScoutRoom {
       return;
     }
     if (raw !== this.lastWritten) {
-      this.error = "房间已在其他页面继续，请刷新后重新连接。";
+      this.error = "本机房间记录已变化，可能已在其他页面开启新房间，请刷新后继续。";
       this.stop();
       this.emit("closed");
       throw Error(this.error);
@@ -296,7 +297,7 @@ export class ScoutRoom {
   }
   private async publish() {
     if (!this.isHost || !this.connected || this.stopped || this.probing) return;
-    this.assertHostCurrent();
+    this.assertCurrent();
     this.transport.send({
       v: 1,
       type: "host",
@@ -342,7 +343,7 @@ export class ScoutRoom {
         await new Promise((resolve) => setTimeout(resolve, 1200));
         this.probing = false;
         if (this.stopped) return;
-        this.assertHostCurrent();
+        this.assertCurrent();
         this.saved.claimed = true;
         this.persist();
       }
@@ -522,7 +523,7 @@ export class ScoutRoom {
     }
   }
   private async handle(id: string, publicKey: JsonWebKey, request: Request) {
-    this.assertHostCurrent();
+    this.assertCurrent();
     const command = request.command;
     const peer = this.saved.peers.find((p) => p.id === id);
     if (command.type === "join") {
@@ -691,6 +692,7 @@ export class ScoutRoom {
     } else throw Error("不支持的操作。");
   }
   private async request(command: Command, request = this.makeRequest(command)) {
+    this.assertCurrent();
     if (
       !this.connected ||
       this.stopped ||
@@ -830,7 +832,7 @@ export class ScoutRoom {
     this.store.removeItem(SAVE);
   }
   async leave() {
-    this.assertHostCurrent();
+    this.assertCurrent();
     // Guests retain their seats during a live match; stop() is temporary.
     // The host can explicitly close the entire table in any phase.
     if (

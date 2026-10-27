@@ -609,7 +609,7 @@ export default function ScoutApp() {
               返回首页会保留房间连接与原座位。暂时离桌会断开连接，之后可以恢复。
               {snapshot?.host
                 ? "收桌会结束所有人的房间。"
-                : live
+                : live || snapshot?.status !== 'online'
                   ? "也可以放弃本局并永久退出，不需要房主在线。退出后无法恢复该座位，其他团员可能需要重新开桌。"
                   : "退出房间后会释放你的座位。"}
             </p>
@@ -633,7 +633,7 @@ export default function ScoutApp() {
               >
                 暂时离桌
               </button>
-              {(snapshot?.host || !live) && (
+              {(snapshot?.host || (!live&&snapshot?.status==='online')) && (
                 <button className="sc-danger" disabled={busy} onClick={leave}>
                   {snapshot?.host ? "确认收桌，所有人退出" : "确认退出房间"}
                 </button>

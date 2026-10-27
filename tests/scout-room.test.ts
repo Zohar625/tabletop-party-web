@@ -20,6 +20,18 @@ import { canBeat } from "../src/games/scout/engine.ts";
 import type { ScoutAction } from "../src/games/scout/types.ts";
 
 const SAVE = "tabletop.scout.room.v1";
+test('an old connected guest cannot overwrite a newer room identity before abandoning its seat',async()=>{
+ const t=await table(2);
+ try{
+  await start(t.rooms);
+  const newer=await createRoom('更新的房间',t.options(1));
+  const raw=t.stores[1].getItem(SAVE);
+  await new Promise(resolve=>setTimeout(resolve,120));
+  assert.equal(t.stores[1].getItem(SAVE),raw,'periodic old snapshots must not overwrite a newer saved identity');
+  await assert.rejects(t.rooms[1].forceLeave(),/新|变化/);
+  assert.equal(t.stores[1].getItem(SAVE),raw);newer.stop();
+ }finally{t.rooms.forEach(r=>r.stop());}
+});
 test("guests may permanently abandon a live seat without a returning host, with stale-save protection", async () => {
   const t = await table(2);
   try {
