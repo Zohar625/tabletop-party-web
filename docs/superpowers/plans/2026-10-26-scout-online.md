@@ -73,8 +73,8 @@ Snapshot mirrors dinner:matchId,code,hostId,meId,host,pin,status,warning,error,r
 
 ### Task 4: Hub, production entry, verification and publishing
 **Files:** create scout/index.html,scout/main.tsx,vite.scout.config.ts; modify package.json(buildfifthentry),src/games/registry.ts,src/App.tsx(hubcardart/linkhandling),src/styles.css(ifnecessary),scripts/package-offline.mjs,scripts/verify-package.mjs,README.md; verificationdoc.
-- [ ] AddindependentViteentry followingdinnerexample. Registryhref `./scout/index.html`; generatedofflinehubusespublicHTTPSscoutlink. Updateverifierwithrelativeassetschecks andrun existingallgamechecks.
-- [ ] Execute fullNode/Python,TypeScriptandpackageoffline. Inspectsourceboundary olderenginesunchanged.
-- [ ] Browser desktopand390pxrealinteraction:twoactualrooms/privatehands,orient/show/Scout/insertfirstmiddlelast,combo,motion,receipt,restore,teaching,keyboard/reducedmotion. ReadUIonly; do notuseevaluate toinjectstate. Localfixturesmaytestrarephasevisuals,explicitlyidentified.
-- [ ] Independent wholechange review ofrules/security/UI;fixactionableP1/P2 andfocusedregressions. Run realMQTTsmoke.
-- [ ] Commit/pushexistingPagesbranch;awaitCI;comparedeployedassetfingerprints andonlineUI. Saveproofscreenshotandrecordverificationlimits. Stopownedserversandkeepdelivertab.
+- [x] AddindependentViteentry followingdinnerexample. Registryhref `./scout/index.html`; generatedofflinehubusespublicHTTPSscoutlink. Updateverifierwithrelativeassetschecks andrun existingallgamechecks.
+- [x] Execute fullNode/Python,TypeScriptandpackageoffline. Inspectsourceboundary olderenginesunchanged.
+- [x] Browser desktopand390pxrealinteraction:twoactualrooms/privatehands,orient/show/Scout/insertfirstmiddlelast,combo,motion,receipt,restore,teaching,keyboard/reducedmotion. ReadUIonly; do notuseevaluate toinjectstate. Localfixturesmaytestrarephasevisuals,explicitlyidentified.
+- [x] Independent wholechange review ofrules/security/UI;fixactionableP1/P2 andfocusedregressions. Run realMQTTsmoke.
+- [x] Commit/pushexistingPagesbranch;awaitCI;comparedeployedassetfingerprints andonlineUI. Saveproofscreenshotandrecordverificationlimits. Stopownedserversandkeepdelivertab.
