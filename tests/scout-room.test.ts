@@ -20,6 +20,71 @@ import { canBeat } from "../src/games/scout/engine.ts";
 import type { ScoutAction } from "../src/games/scout/types.ts";
 
 const SAVE = "tabletop.scout.room.v1";
+test("room chat uses authenticated authors, deduplicates retries and never advances play revision", async () => {
+  const t = await table(2);
+  const { rooms, host, wire, options } = t;
+  try {
+    await start(rooms);
+    await orient(rooms);
+    const revision = host.getSnapshot().revision,
+      game = structuredClone(host.getSnapshot().game);
+    await rooms[1].chat("我这牌无敌了");
+    await until(
+      () =>
+        host.getSnapshot().chat?.length === 1 &&
+        !rooms[1].getSnapshot().pending,
+    );
+    assert.equal(
+      host.getSnapshot().chat[0].authorId,
+      rooms[1].getSnapshot().meId,
+    );
+    assert.equal(host.getSnapshot().chat[0].name, "演员1");
+    assert.equal(host.getSnapshot().chat[0].text, "我这牌无敌了");
+    assert.equal(host.getSnapshot().revision, revision);
+    assert.deepEqual(host.getSnapshot().game, game);
+    const request = wire.packets
+      .filter(
+        (p) => p.type === "cipher" && p.from === rooms[1].getSnapshot().meId,
+      )
+      .at(-1);
+    wire.broadcast(host.getSnapshot().code, request);
+    await host.chat("就等你这么打呢");
+    await until(() => rooms[1].getSnapshot().chat?.length === 2);
+    assert.deepEqual(
+      host.getSnapshot().chat.map((m) => m.seq),
+      [1, 2],
+    );
+    assert.equal(host.getSnapshot().revision, revision);
+    assert(!JSON.stringify(wire.packets).includes("我这牌无敌了"));
+    host.stop();
+    const restored = await restoreRoom(options(0));
+    assert(restored);
+    rooms[0] = restored;
+    await restored.connect();
+    await until(() => restored.getSnapshot().status === "online");
+    assert.equal(restored.getSnapshot().chat.length, 2);
+  } finally {
+    rooms.forEach((r) => r.stop());
+  }
+});
+test("chat rejects invalid text, rate limits per sender and bounds history", async () => {
+  let now = 100000;
+  const t = await table(2, { now: () => now });
+  try {
+    await assert.rejects(t.host.chat("   "), /内容|空/);
+    await assert.rejects(t.host.chat("字".repeat(121)), /120|长/);
+    await t.host.chat("正反面都是好牌呀");
+    await assert.rejects(t.host.chat("太快"), /频繁|稍等/);
+    for (let i = 0; i < 52; i++) {
+      now += 1000;
+      await t.host.chat("消息" + i);
+    }
+    assert.equal(t.host.getSnapshot().chat.length, 50);
+    assert.equal(t.host.getSnapshot().chat.at(-1)?.seq, 53);
+  } finally {
+    t.rooms.forEach((r) => r.stop());
+  }
+});
 test("an unadmitted join can be cancelled, but admitted and restored seats are protected", async () => {
   const store = new Memory(),
     wire = new Wire();

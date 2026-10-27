@@ -1,5 +1,7 @@
 import { createScout, scoutView, reduceScout } from "./engine.ts";
 import type { ScoutAction, ScoutState, ScoutView } from "./types.ts";
+import { cleanChatText } from "./chat-model.ts";
+import type { ChatMessage } from "./chat-model.ts";
 import {
   createIdentity,
   restoreIdentity,
@@ -32,6 +34,8 @@ interface Receipt {
 interface SavedRoom {
   version: 1;
   admitted?: boolean;
+  chat?: ChatMessage[];
+  chatSeq?: number;
   matchId?: string;
   claimed?: boolean;
   code: string;
@@ -47,6 +51,7 @@ interface SavedRoom {
   receipts: Record<string, Receipt[]>;
 }
 export interface RoomSnapshot {
+  chat: ChatMessage[];
   matchId: string;
   code: string;
   hostId: string;
@@ -62,6 +67,7 @@ export interface RoomSnapshot {
   pending: boolean;
 }
 type Command =
+  | { type: "chat"; text: string }
   | { type: "join" | "ping" | "start" | "rematch" | "leave" }
   | { type: "ready"; value: boolean }
   | { type: "action"; action: ScoutAction }
@@ -157,6 +163,7 @@ export class ScoutRoom {
     this.now = options.now ?? Date.now;
     this.tickMs = options.tickMs ?? 2000;
     this.snapshot = {
+      chat: structuredClone(saved.chat ?? []),
       matchId: saved.matchId ?? "",
       code: saved.code,
       hostId: saved.hostId,
@@ -234,6 +241,9 @@ export class ScoutRoom {
       warning: this.warning,
       error: this.error,
       pending: !!this.pending,
+      chat: this.isHost
+        ? structuredClone(this.saved.chat ?? [])
+        : this.snapshot.chat,
     };
     this.listeners.forEach((listener) => listener());
   }
@@ -301,6 +311,7 @@ export class ScoutRoom {
           peers: this.publicPeers(),
           game: this.saved.game ? scoutView(this.saved.game, p.id) : null,
           receipts: this.saved.receipts[p.id] ?? [],
+          chat: this.saved.chat ?? [],
         });
       }
   }
@@ -473,6 +484,7 @@ export class ScoutRoom {
         revision: payload.revision,
         peers: payload.peers,
         game: payload.game,
+        chat: Array.isArray(payload.chat) ? payload.chat.slice(-50) : [],
       };
       this.saved.playing = !!payload.game && payload.game.phase !== "finished";
       this.saved.admitted = payload.peers.some(
@@ -574,12 +586,38 @@ export class ScoutRoom {
         );
       if (
         command.type !== "ready" &&
+        command.type !== "chat" &&
         !sameOrientationRound &&
         request.version !== this.saved.revision
       )
         throw Error("桌面已更新，请重新选择。");
-      this.apply(id, command);
-      this.saved.revision++;
+      if (command.type === "chat") {
+        const text = cleanChatText(command.text);
+        const history = this.saved.chat ?? [];
+        if (!history.some((m) => m.id === request.id)) {
+          const previous = [...history]
+            .reverse()
+            .find((m) => m.authorId === id);
+          if (previous && this.now() - previous.sentAt < 900)
+            throw Error("消息太频繁，稍等一下再发。");
+          const seq = (this.saved.chatSeq ?? history.at(-1)?.seq ?? 0) + 1;
+          this.saved.chatSeq = seq;
+          this.saved.chat = [
+            ...history,
+            {
+              id: request.id,
+              seq,
+              authorId: id,
+              name: peer.name,
+              text,
+              sentAt: this.now(),
+            },
+          ].slice(-50);
+        }
+      } else {
+        this.apply(id, command);
+        this.saved.revision++;
+      }
     } catch (e) {
       error = e instanceof Error ? e.message : "操作未生效，请重试。";
     }
@@ -665,6 +703,35 @@ export class ScoutRoom {
   }
   ready(value: boolean) {
     return this.request({ type: "ready", value });
+  }
+  async chat(text: string) {
+    const command: Command = { type: "chat", text: cleanChatText(text) },
+      request = this.makeRequest(command);
+    await this.request(command, request);
+    if (this.isHost) return;
+    await new Promise<void>((resolve, reject) => {
+      let timer: ReturnType<typeof setTimeout> | undefined;
+      let unsubscribe = () => {};
+      const check = () => {
+        if (
+          this.pending?.id === request.id &&
+          this.snapshot.status === "online"
+        )
+          return;
+        if (timer) clearTimeout(timer);
+        unsubscribe();
+        if (this.pending?.id === request.id)
+          reject(Error("聊天尚未确认，请等待连接恢复。"));
+        else if (this.error) reject(Error(this.error));
+        else resolve();
+      };
+      unsubscribe = this.subscribe(check);
+      timer = setTimeout(() => {
+        unsubscribe();
+        reject(Error("消息尚未收到房主确认，正在等待同步。"));
+      }, 8000);
+      check();
+    });
   }
   startGame() {
     return this.request({ type: "start" });

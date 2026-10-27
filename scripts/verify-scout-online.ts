@@ -71,6 +71,12 @@ try {
   console.log(
     "PASS 两个独立 MQTT/WebSocket 客户端入座、准备、收取各自私有手牌",
   );
+  const chatRevision=host.getSnapshot().revision;
+  await Promise.all([host.chat('我这牌无敌了'),guest.chat('这怎么正反面都没用')]);
+  await until(()=>rooms.every(room=>room.getSnapshot().chat.length===2),'聊天同步');
+  assert.equal(host.getSnapshot().revision,chatRevision);
+  assert.equal(new Set(host.getSnapshot().chat.map(m=>m.authorId)).size,2);
+  console.log('PASS 双端加密聊天，真实作者与顺序同步，不改变出牌版本');
   const guestHand = guest.getSnapshot().game!.me.hand;
   await Promise.all(
     rooms.map((room, index) => room.act({ type: "orient", flip: index === 1 })),

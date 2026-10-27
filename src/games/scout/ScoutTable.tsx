@@ -13,6 +13,7 @@ import {
 } from "./ui-model.ts";
 import type { Selection } from "./ui-model.ts";
 import { useCardMotion } from "./motion.ts";
+import { gameAttention, seatAttention } from "./attention.ts";
 export interface ScoutTableProps {
   game: ScoutView;
   actor: string;
@@ -92,6 +93,7 @@ export function ScoutTable({
   const receipt = game.history.at(-1),
     finished = game.phase === "finished",
     max = Math.max(...game.players.map((p) => p.total));
+  const attention = gameAttention(game);
   return (
     <div className="sc-table" ref={root}>
       <div className="sc-table-top">
@@ -102,11 +104,23 @@ export function ScoutTable({
           第 <b>{game.round}</b> / {game.totalRounds} 轮
         </span>
       </div>
+      <div className={`sc-attention${turn ? " is-mine" : ""}`} role="status">
+        <span className="sc-attention-dot" aria-hidden="true" />
+        <div>
+          <strong>{attention.title}</strong>
+          <p>{attention.detail}</p>
+        </div>
+      </div>
       <div className="sc-seats">
         {game.players.map((p, i) => (
           <div
             key={p.id}
-            className={`sc-seat${game.turnId === p.id && game.phase === "playing" ? " is-turn" : ""}${p.id === actor ? " is-you" : ""}`}
+            className={`sc-seat is-${seatAttention(game, p.id).kind}${p.id === actor ? " is-you" : ""}`}
+            aria-current={
+              game.phase === "playing" && game.turnId === p.id
+                ? "step"
+                : undefined
+            }
             data-motion={`seat:${p.id}`}
           >
             <div className="sc-avatar">{String(i + 1).padStart(2, "0")}</div>
@@ -115,13 +129,7 @@ export function ScoutTable({
                 {p.name}
                 {p.id === actor ? " · 你" : ""}
               </strong>
-              <span>
-                {game.phase === "orienting"
-                  ? p.orientationConfirmed
-                    ? "方向已确认"
-                    : "选择方向中"
-                  : `${p.handCount} 张手牌`}
-              </span>
+              <span>{seatAttention(game, p.id).text}</span>
             </div>
             <div className="sc-seat-score" data-motion={`score:${p.id}`}>
               <b>{p.total}</b>

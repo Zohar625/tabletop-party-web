@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import { CardFace } from "./Card.tsx";
 import { ScoutTable } from "./ScoutTable.tsx";
 import { Tutorial } from "./Tutorial.tsx";
+import { Chat } from "./Chat.tsx";
+import { lobbyAttention } from "./attention.ts";
 import {
   createRoom,
   joinRoom,
@@ -361,6 +363,16 @@ export default function ScoutApp() {
                 <button onClick={copyInvite} disabled={busy}>
                   复制邀请
                 </button>
+                <Chat
+                  messages={snapshot.chat}
+                  meId={snapshot.meId}
+                  disabled={
+                    busy || snapshot.pending || snapshot.status !== "online"
+                  }
+                  onSend={async (text) => {
+                    await controller.current!.chat(text);
+                  }}
+                />
               </div>
               {notice && (
                 <p className="sc-notice" role="status">
@@ -453,9 +465,19 @@ export default function ScoutApp() {
                     把房间码或邀请链接发给朋友。2–5
                     位团员到齐并准备后，由房主开场。
                   </p>
+                  <div className="sc-attention" role="status">
+                    <span className="sc-attention-dot" aria-hidden="true" />
+                    <div>
+                      <strong>{lobbyAttention(snapshot.peers).title}</strong>
+                      <p>{lobbyAttention(snapshot.peers).detail}</p>
+                    </div>
+                  </div>
                   <div className="sc-lobby-seats">
                     {snapshot.peers.map((p, i) => (
-                      <div className="sc-lobby-seat" key={p.id}>
+                      <div
+                        className={`sc-lobby-seat ${!p.online ? "is-offline" : p.ready ? "is-ready" : "is-waiting"}`}
+                        key={p.id}
+                      >
                         <div className="sc-avatar">
                           {String(i + 1).padStart(2, "0")}
                         </div>
@@ -464,11 +486,8 @@ export default function ScoutApp() {
                           {p.id === snapshot.meId ? " · 你" : ""}
                         </strong>
                         <span>
-                          {p.id === snapshot.hostId
-                            ? "房主"
-                            : p.ready
-                              ? "已准备"
-                              : "尚未准备"}
+                          {p.id === snapshot.hostId ? "房主 · " : ""}
+                          {p.ready ? "已准备" : "尚未准备"}
                         </span>
                         <small className={p.online ? "sc-online" : "sc-muted"}>
                           {p.online ? "在线" : "连接中 / 离线"}
