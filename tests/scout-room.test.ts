@@ -33,6 +33,11 @@ test("an offline guest does not block online orientation or turns, and nobody ma
         t.host.getSnapshot().peers[1].online,
     );
     await t.host.act({ type: "orient", flip: false });
+    await until(
+      () =>
+        t.rooms[1].getSnapshot().status === "online" &&
+        !t.rooms[1].getSnapshot().pending,
+    );
     await t.rooms[1].act({ type: "orient", flip: false });
     await until(() => !t.rooms[1].getSnapshot().pending);
     assert.equal(
@@ -59,6 +64,14 @@ test("an offline guest does not block online orientation or turns, and nobody ma
         .peers.some((p) => p.id === offline.getSnapshot().meId && !p.online),
     );
     const actor = t.rooms.find((r) => r.getSnapshot().meId === turnId)!;
+    // Advancing the fake clock also expires the live actor's host heartbeat.
+    // Wait for its next encrypted snapshot, not just the host's presence view.
+    await until(
+      () =>
+        actor.getSnapshot().status === "online" &&
+        !actor.getSnapshot().pending &&
+        actor.getSnapshot().game?.phase === "playing",
+    );
     const revision = t.host.getSnapshot().revision;
     await actor.act({ type: "show", start: 0, count: 1 });
     await until(
@@ -71,6 +84,13 @@ test("an offline guest does not block online orientation or turns, and nobody ma
     const wrong = t.rooms.find(
       (r) => r !== offline && r.getSnapshot().meId !== nextId,
     )!;
+    await until(
+      () =>
+        wrong.getSnapshot().status === "online" &&
+        !wrong.getSnapshot().pending &&
+        wrong.getSnapshot().game?.revision ===
+          t.host.getSnapshot().game!.revision,
+    );
     const before = t.host.getSnapshot().game!.revision;
     await wrong.act({ type: "show", start: 0, count: 1 }).catch(() => {});
     await until(() => !wrong.getSnapshot().pending);
