@@ -1,6 +1,58 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { stackedGroups } from "../src/games/scout/ui-model.ts";
+import { automaticAction } from "../src/games/scout/turn-clock.ts";
+test("offline seats disable rematch without disabling the next round", async () => {
+  const { createServer } = await import("vite");
+  const server = await createServer({
+    server: { middlewareMode: true, hmr: false },
+  });
+  try {
+    const React = await import("react");
+    const { renderToStaticMarkup } = await import("react-dom/server");
+    const { ScoutTable } = await server.ssrLoadModule(
+      "/src/games/scout/ScoutTable.tsx",
+    );
+    let s = createScout(
+      [
+        { id: "a", name: "甲" },
+        { id: "b", name: "乙" },
+      ],
+      "rematch-gate",
+    );
+    while (s.phase !== "finished") {
+      if (s.phase === "orienting") {
+        for (const p of s.players)
+          if (!p.orientationConfirmed)
+            s = reduceScout(s, p.id, { type: "orient", flip: false });
+      } else if (s.phase === "roundEnd")
+        s = reduceScout(s, "a", { type: "next" });
+      else s = reduceScout(s, s.turnId, automaticAction(s)!);
+    }
+    const render = (phase: string) =>
+      renderToStaticMarkup(
+        React.createElement(ScoutTable, {
+          game: { ...scoutView(s, "a"), phase },
+          actor: "a",
+          onAction: () => {},
+          isHost: true,
+          onRematch: () => {},
+          rematchReady: false,
+        }),
+      );
+    assert.match(
+      render("finished"),
+      /<button[^>]*disabled=""[^>]*>再巡演一局<\/button>/,
+    );
+    assert.match(render("roundEnd"), /<button[^>]*>开启下一轮<\/button>/);
+    assert.doesNotMatch(
+      render("roundEnd"),
+      /<button[^>]*disabled=""[^>]*>开启下一轮<\/button>/,
+    );
+  } finally {
+    await server.close();
+  }
+});
 import {
   createScout,
   reduceScout,

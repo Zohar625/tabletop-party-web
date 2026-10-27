@@ -20,6 +20,79 @@ import { canBeat } from "../src/games/scout/engine.ts";
 import type { ScoutAction } from "../src/games/scout/types.ts";
 
 const SAVE = "tabletop.scout.room.v1";
+test("a manual action before the last deadline cancels the old timeout", async () => {
+  let now = 100000;
+  const t = await table(2, { now: () => now });
+  try {
+    await t.host.setTurnLimit(15);
+    await synced(t.rooms);
+    await start(t.rooms);
+    await orient(t.rooms);
+    now = t.host.getSnapshot().turnClock!.deadline;
+    await until(() => t.host.getSnapshot().turnClock?.stage === 1);
+    const oldDeadline = t.host.getSnapshot().turnClock!.deadline;
+    const actor = t.rooms.find(
+      (r) => r.getSnapshot().meId === t.host.getSnapshot().game!.turnId,
+    )!;
+    await until(
+      () =>
+        actor.getSnapshot().status === "online" && !actor.getSnapshot().pending,
+    );
+    const before = t.host.getSnapshot().game!.revision;
+    now = oldDeadline - 1;
+    await actor.act({ type: "show", start: 0, count: 1 });
+    await until(() => t.host.getSnapshot().game!.revision === before + 1);
+    now = oldDeadline;
+    await new Promise((resolve) => setTimeout(resolve, 120));
+    assert.equal(t.host.getSnapshot().game!.revision, before + 1);
+    assert.equal(t.host.getSnapshot().turnClock?.stage, 0);
+  } finally {
+    t.rooms.forEach((r) => r.stop());
+  }
+});
+test("a delayed manual request after automatic action is rejected rather than played twice", async () => {
+  let now = 100000;
+  const t = await table(2, { now: () => now });
+  try {
+    await t.host.setTurnLimit(15);
+    await synced(t.rooms);
+    await start(t.rooms);
+    await orient(t.rooms);
+    if (t.host.getSnapshot().game!.turnId === t.host.getSnapshot().meId) {
+      await t.host.act({ type: "show", start: 0, count: 1 });
+      await synced(t.rooms);
+    }
+    const guest = t.rooms[1],
+      before = t.host.getSnapshot().game!.revision;
+    t.wire.drop = (p) =>
+      p.type === "cipher" && p.from === guest.getSnapshot().meId;
+    await guest.act(
+      guest.getSnapshot().game!.active
+        ? {
+            type: "scout",
+            side: "left",
+            flip: false,
+            insertIndex: 0,
+            combo: false,
+          }
+        : { type: "show", start: 0, count: 1 },
+    );
+    const request = t.wire.packets
+      .filter((p) => p.type === "cipher" && p.from === guest.getSnapshot().meId)
+      .at(-1);
+    now = t.host.getSnapshot().turnClock!.deadline;
+    await until(() => t.host.getSnapshot().turnClock?.stage === 1);
+    now = t.host.getSnapshot().turnClock!.deadline;
+    await until(() => t.host.getSnapshot().game!.revision === before + 1);
+    t.wire.drop = null;
+    t.wire.broadcast(t.host.getSnapshot().code, request);
+    await until(() => !guest.getSnapshot().pending);
+    assert.match(guest.getSnapshot().error, /桌面已更新/);
+    assert.equal(t.host.getSnapshot().game!.revision, before + 1);
+  } finally {
+    t.rooms.forEach((r) => r.stop());
+  }
+});
 test("timer settings are host-only and delayed same-version snapshots cannot undo first warning", async () => {
   let now = 100000;
   const t = await table(2, { now: () => now });

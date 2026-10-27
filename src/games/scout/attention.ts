@@ -1,4 +1,11 @@
 import type { ScoutView } from "./types.ts";
+export function newMatchReady(peers: { ready: boolean; online: boolean }[]) {
+  return (
+    peers.length >= 2 &&
+    peers.length <= 5 &&
+    peers.every((p) => p.ready && p.online)
+  );
+}
 export function seatAttention(game: ScoutView, id: string) {
   const p = game.players.find((p) => p.id === id);
   if (game.phase === "orienting")
@@ -61,6 +68,9 @@ export function lobbyAttention(
         unready.length ? "尚未准备：" + unready.join("、") : "",
       ]
         .filter(Boolean)
-        .join(" · ") || "房主点击开始，就能发牌。",
+        .join(" · ") ||
+      (peers.length < 2
+        ? "至少需要2位团员入桌，准备后再开场。"
+        : "房主点击开始，就能发牌。"),
   };
 }

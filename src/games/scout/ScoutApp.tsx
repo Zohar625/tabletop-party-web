@@ -3,7 +3,7 @@ import { CardFace } from "./Card.tsx";
 import { ScoutTable } from "./ScoutTable.tsx";
 import { Tutorial } from "./Tutorial.tsx";
 import { Chat } from "./Chat.tsx";
-import { lobbyAttention } from "./attention.ts";
+import { lobbyAttention, newMatchReady } from "./attention.ts";
 import {
   createRoom,
   joinRoom,
@@ -526,6 +526,7 @@ export default function ScoutApp() {
                     turnClock={snapshot.turnClock}
                     clockOffsetMs={snapshot.clockOffsetMs}
                     connected={snapshot.status === "online"}
+                    rematchReady={newMatchReady(snapshot.peers)}
                     onAction={(action) =>
                       void perform(() => controller.current!.act(action))
                     }
@@ -599,11 +600,7 @@ export default function ScoutApp() {
                     {snapshot.host ? (
                       <button
                         className="sc-primary"
-                        disabled={
-                          blocked ||
-                          snapshot.peers.length < 2 ||
-                          snapshot.peers.some((p) => !p.ready)
-                        }
+                        disabled={blocked || !newMatchReady(snapshot.peers)}
                         onClick={() =>
                           void perform(() => controller.current!.startGame())
                         }

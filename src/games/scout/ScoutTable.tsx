@@ -29,6 +29,7 @@ export interface ScoutTableProps {
   turnClock?: TurnClock | null;
   clockOffsetMs?: number;
   connected?: boolean;
+  rematchReady?: boolean;
 }
 type Wizard = {
   combo: boolean;
@@ -49,6 +50,7 @@ export function ScoutTable({
   turnClock,
   clockOffsetMs = 0,
   connected = true,
+  rematchReady = true,
 }: ScoutTableProps) {
   const [selection, setSelection] = useState<Selection>(null),
     [flipped, setFlipped] = useState(false),
@@ -278,7 +280,9 @@ export function ScoutTable({
             (isHost ? (
               <button
                 className="sc-primary"
-                disabled={pending || (finished && !onRematch)}
+                disabled={
+                  pending || (finished && (!onRematch || !rematchReady))
+                }
                 onClick={() =>
                   finished ? onRematch?.() : send({ type: "next" })
                 }
@@ -288,6 +292,9 @@ export function ScoutTable({
             ) : (
               <p>等待房主{finished ? "开启新一局" : "开启下一轮"}。</p>
             ))}
+          {!teaching && finished && isHost && !rematchReady && (
+            <p role="status">等待所有团员上线并准备，再开新一局。</p>
+          )}
         </section>
       ) : (
         <>

@@ -7,6 +7,25 @@ import {
 } from "../src/games/scout/attention.ts";
 import { quickPhrases, cleanChatText } from "../src/games/scout/chat-model.ts";
 import * as chatModel from "../src/games/scout/chat-model.ts";
+import * as attention from "../src/games/scout/attention.ts";
+test("new matches require every seat online and ready, with at least two people", () => {
+  assert.equal(typeof attention.newMatchReady, "function");
+  const peers = [
+    { id: "a", name: "甲", online: true, ready: true },
+    { id: "b", name: "乙", online: true, ready: true },
+  ];
+  assert.equal(attention.newMatchReady(peers), true);
+  assert.equal(attention.newMatchReady(peers.slice(0, 1)), false);
+  assert.equal(
+    attention.newMatchReady([peers[0], { ...peers[1], online: false }]),
+    false,
+  );
+  assert.equal(
+    attention.newMatchReady([peers[0], { ...peers[1], ready: false }]),
+    false,
+  );
+  assert.match(lobbyAttention(peers.slice(0, 1)).detail, /2/);
+});
 import {
   createScout,
   scoutView,
