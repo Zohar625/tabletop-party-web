@@ -30,14 +30,14 @@ export function Chat({
         list.current?.scrollTo({ top: list.current.scrollHeight });
     }
   }, [open, latest]);
-  const send = async (value: string, fromInput=false) => {
+  const send = async (value: string, fromInput = false) => {
     if (lock.current || disabled) return;
     lock.current = true;
     setBusy(true);
     setError("");
     try {
       await onSend(value);
-      if(fromInput)setText(current=>current===value?'':current);
+      if (fromInput) setText((current) => (current === value ? "" : current));
       atBottom.current = true;
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
@@ -131,7 +131,7 @@ export function Chat({
           <form
             onSubmit={(e) => {
               e.preventDefault();
-              void send(text,true);
+              void send(text, true);
             }}
           >
             <label className="sc-chat-input-label" htmlFor="sc-chat-input">

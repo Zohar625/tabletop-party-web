@@ -583,6 +583,7 @@ p {
 .sc-seat.is-turn .sc-seat-info > span, .sc-seat.is-turn small, .sc-seat.is-turn .sc-seat-tokens, .sc-seat.is-turn .sc-ability, .sc-seat.is-turn .sc-muted { color: #34404a; }
 .sc-seat.is-turn .sc-avatar { background: #172638; color: #ffe1a0; border-color: #172638; }
 .sc-seat.is-turn .sc-seat-info > span { font-weight: 800; }
+.sc-seat.is-turn .sc-seat-score b { color: #172638; }
 .sc-seat.is-waiting, .sc-lobby-seat.is-waiting { border: 2px solid #d2a75e; background: #302c28; }
 .sc-seat.is-waiting .sc-seat-info > span, .sc-lobby-seat.is-waiting > span { color: #f9d493; font-weight: 700; }
 .sc-seat.is-ready .sc-seat-info > span, .sc-lobby-seat.is-ready > span { color: #a9dfbc; }
@@ -599,12 +600,12 @@ p {
 .sc-room-bar > .sc-chat { display: block; flex: 0 0 auto; }
 .sc-chat-toggle { white-space: nowrap; display:flex; align-items:center; gap:7px; }
 .sc-chat-badge { background: #edc87f; color: #142336; min-width:21px; padding:2px 5px; border-radius:14px; font-size:11px; font-weight:800; }
-.sc-chat-panel { position: absolute; right: 0; top: calc(100% - 12px); width: 370px; height: min(630px,80dvh); z-index: 95; background: #172638; border:1px solid #bf9d61; border-radius:14px; box-shadow:0 16px 60px #0009; display:flex; flex-direction:column; overflow:hidden; text-align:left; }
+.sc-chat-panel { position: absolute; right: 0; top: calc(100% - 12px); width: 370px; height: min(630px,calc(100dvh - 200px)); z-index: 95; background: #172638; border:1px solid #bf9d61; border-radius:14px; box-shadow:0 16px 60px #0009; display:flex; flex-direction:column; overflow:hidden; text-align:left; }
 .sc-chat-heading { padding:13px 15px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid #ffffff20; }
 .sc-chat-panel strong { font:700 16px/1.4 'Microsoft YaHei',sans-serif; letter-spacing:0; }
 .sc-chat-heading small { display:block; color:#acb8c7; font-size:11px; margin-top:4px; }
 .sc-chat-heading button { font-size:22px; padding:4px 13px; }
-.sc-chat-messages { flex:1; min-height:100px; overflow-y:auto; overscroll-behavior:contain; padding:14px; }
+.sc-chat-messages { flex:1; min-height:60px; overflow-y:auto; overscroll-behavior:contain; padding:14px; }
 .sc-chat-empty { color:#acb8c7; font-size:13px; text-align:center; margin:40px 0; }
 .sc-chat-message { margin:0 0 15px; display:flex; flex-direction:column; align-items:flex-start; }
 .sc-chat-message > span { color:#b8c2cd; font-size:11px; margin-bottom:5px; }
