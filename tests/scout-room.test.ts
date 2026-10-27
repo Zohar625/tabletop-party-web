@@ -20,17 +20,83 @@ import { canBeat } from "../src/games/scout/engine.ts";
 import type { ScoutAction } from "../src/games/scout/types.ts";
 
 const SAVE = "tabletop.scout.room.v1";
-test('an old connected guest cannot overwrite a newer room identity before abandoning its seat',async()=>{
- const t=await table(2);
- try{
-  await start(t.rooms);
-  const newer=await createRoom('更新的房间',t.options(1));
-  const raw=t.stores[1].getItem(SAVE);
-  await new Promise(resolve=>setTimeout(resolve,120));
-  assert.equal(t.stores[1].getItem(SAVE),raw,'periodic old snapshots must not overwrite a newer saved identity');
-  await assert.rejects(t.rooms[1].forceLeave(),/新|变化/);
-  assert.equal(t.stores[1].getItem(SAVE),raw);newer.stop();
- }finally{t.rooms.forEach(r=>r.stop());}
+test("an offline guest does not block online orientation or turns, and nobody may play their turn for them", async () => {
+  let now = 100000;
+  const t = await table(3, { now: () => now });
+  try {
+    await start(t.rooms);
+    t.rooms[2].stop();
+    now += 11000;
+    await until(
+      () =>
+        !t.host.getSnapshot().peers[2].online &&
+        t.host.getSnapshot().peers[1].online,
+    );
+    await t.host.act({ type: "orient", flip: false });
+    await t.rooms[1].act({ type: "orient", flip: false });
+    await until(() => !t.rooms[1].getSnapshot().pending);
+    assert.equal(
+      t.host.getSnapshot().game!.players.filter((p) => p.orientationConfirmed)
+        .length,
+      2,
+    );
+    const restored = await restoreRoom(t.options(2));
+    assert(restored);
+    t.rooms[2] = restored;
+    await restored.connect();
+    await until(() => restored.getSnapshot().status === "online");
+    await restored.act({ type: "orient", flip: false });
+    await until(() => t.host.getSnapshot().game!.phase === "playing");
+    const turnId = t.host.getSnapshot().game!.turnId;
+    const offline = t.rooms.find(
+      (r) => r !== t.host && r.getSnapshot().meId !== turnId,
+    )!;
+    offline.stop();
+    now += 11000;
+    await until(() =>
+      t.host
+        .getSnapshot()
+        .peers.some((p) => p.id === offline.getSnapshot().meId && !p.online),
+    );
+    const actor = t.rooms.find((r) => r.getSnapshot().meId === turnId)!;
+    const revision = t.host.getSnapshot().revision;
+    await actor.act({ type: "show", start: 0, count: 1 });
+    await until(
+      () =>
+        t.host.getSnapshot().revision > revision &&
+        !actor.getSnapshot().pending,
+    );
+    assert.equal(t.host.getSnapshot().game!.active!.ownerId, turnId);
+    const nextId = t.host.getSnapshot().game!.turnId;
+    const wrong = t.rooms.find(
+      (r) => r !== offline && r.getSnapshot().meId !== nextId,
+    )!;
+    const before = t.host.getSnapshot().game!.revision;
+    await wrong.act({ type: "show", start: 0, count: 1 }).catch(() => {});
+    await until(() => !wrong.getSnapshot().pending);
+    assert.equal(t.host.getSnapshot().game!.revision, before);
+  } finally {
+    t.rooms.forEach((r) => r.stop());
+  }
+});
+test("an old connected guest cannot overwrite a newer room identity before abandoning its seat", async () => {
+  const t = await table(2);
+  try {
+    await start(t.rooms);
+    const newer = await createRoom("更新的房间", t.options(1));
+    const raw = t.stores[1].getItem(SAVE);
+    await new Promise((resolve) => setTimeout(resolve, 120));
+    assert.equal(
+      t.stores[1].getItem(SAVE),
+      raw,
+      "periodic old snapshots must not overwrite a newer saved identity",
+    );
+    await assert.rejects(t.rooms[1].forceLeave(), /新|变化/);
+    assert.equal(t.stores[1].getItem(SAVE), raw);
+    newer.stop();
+  } finally {
+    t.rooms.forEach((r) => r.stop());
+  }
 });
 test("guests may permanently abandon a live seat without a returning host, with stale-save protection", async () => {
   const t = await table(2);
@@ -740,7 +806,7 @@ test("room invitation helpers reject malformed codes and protect an existing con
   }
 });
 
-test("next round waits for an offline participant even when their previous hand is empty", async () => {
+test("next round can deal while a guest is offline and the guest restores their new private hand", async () => {
   let now = 100000;
   const { rooms, stores, options, host } = await table(2, {
     now: () => now,
@@ -749,8 +815,7 @@ test("next round waits for an offline participant even when their previous hand 
   try {
     await start(rooms);
     host.stop();
-    // A persisted round-end fixture represents an empty-hand winner; the room
-    // must check presence before reduceScout deals fresh private cards.
+    // Explicit round-end fixture, with an offline empty-hand winner.
     const saved = JSON.parse(stores[0].getItem(SAVE)!);
     saved.game.phase = "roundEnd";
     saved.game.players[1].hand = [];
@@ -763,9 +828,10 @@ test("next round waits for an offline participant even when their previous hand 
     rooms[1].stop();
     now += 11000;
     const before = restored.getSnapshot().revision;
-    await assert.rejects(restored.act({ type: "next" }), /离线/);
-    assert.equal(restored.getSnapshot().revision, before);
-    assert.equal(restored.getSnapshot().game!.phase, "roundEnd");
+    await restored.act({ type: "next" });
+    assert.equal(restored.getSnapshot().revision, before + 1);
+    assert.equal(restored.getSnapshot().game!.phase, "orienting");
+    await restored.act({ type: "orient", flip: false });
     const guest = await restoreRoom(options(1));
     assert(guest);
     rooms[1] = guest;
@@ -773,7 +839,6 @@ test("next round waits for an offline participant even when their previous hand 
     await until(() =>
       rooms.every((r) => r.getSnapshot().peers.every((p) => p.online)),
     );
-    await act(restored, rooms, { type: "next" });
     assert.equal(guest.getSnapshot().game!.me.hand.length, 11);
     assert.equal(guest.getSnapshot().game!.round, 2);
   } finally {

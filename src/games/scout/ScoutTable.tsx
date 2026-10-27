@@ -314,7 +314,7 @@ export function ScoutTable({
                 {wizard?.step === 3
                   ? "插牌时自动展开，完成后恢复原视图。"
                   : stacked
-                    ? "大数字看当前，小数字看翻面；顺序保持不变。"
+                    ? "大数字看当前，小数字看翻面；单行叠牌，窄屏可左右移动。"
                     : "点选起点、终点，选中一段相邻的牌。"}
               </span>
             </div>
@@ -338,7 +338,7 @@ export function ScoutTable({
                   key={groupIndex}
                 >
                   {group.map((c, localIndex) => {
-                    const i = groupIndex * 6 + localIndex;
+                    const i = localIndex;
                     return (
                       <Fragment key={c.id}>
                         {wizard?.step === 3 && (

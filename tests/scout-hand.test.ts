@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { stackedGroups } from "../src/games/scout/ui-model.ts";
-test("stacked overview keeps hand order, exposes at most six cards per row and never mutates the hand", () => {
+test("stacked overview keeps every card in one row without changing order", () => {
   const cards = Array.from({ length: 12 }, (_, i) => ({
     id: String(i),
     top: (i % 9) + 1,
@@ -11,7 +11,7 @@ test("stacked overview keeps hand order, exposes at most six cards per row and n
     groups = stackedGroups(cards);
   assert.deepEqual(
     groups.map((g) => g.length),
-    [6, 6],
+    [12],
   );
   assert.deepEqual(
     groups.flat().map((c) => c.id),
@@ -20,7 +20,7 @@ test("stacked overview keeps hand order, exposes at most six cards per row and n
   assert.equal(JSON.stringify(cards), before);
   assert.deepEqual(
     stackedGroups(cards.slice(0, 7)).map((g) => g.length),
-    [6, 1],
+    [7],
   );
 });
 test("card small indices describe the opposite direction and only six/nine have underline markers", async () => {

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { quickPhrases } from "./chat-model.ts";
 import type { ChatMessage } from "./chat-model.ts";
+import { Barrage } from "./Barrage.tsx";
 export function Chat({
   messages,
   meId,
@@ -13,6 +14,7 @@ export function Chat({
   onSend: (text: string) => Promise<void>;
 }) {
   const [open, setOpen] = useState(false),
+    [barrage, setBarrage] = useState(true),
     [text, setText] = useState(""),
     [group, setGroup] = useState(0),
     [error, setError] = useState(""),
@@ -48,6 +50,14 @@ export function Chat({
   };
   return (
     <div className="sc-chat">
+      <Barrage messages={messages} enabled={barrage} meId={meId} />
+      <button
+        className="sc-barrage-toggle"
+        aria-pressed={barrage}
+        onClick={() => setBarrage(!barrage)}
+      >
+        弹幕{barrage ? "开" : "关"}
+      </button>
       <button
         className="sc-chat-toggle"
         aria-expanded={open}

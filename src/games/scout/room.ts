@@ -669,8 +669,6 @@ export class ScoutRoom {
       if (!this.saved.game) throw Error("请先开桌。");
       if (command.action?.type === "next" && id !== this.saved.hostId)
         throw Error("只有房主可以开始下一轮。");
-      if (this.saved.peers.some((p) => !this.online(p.id)))
-        throw Error("有玩家暂时离线，等他回来再继续。");
       this.saved.game = reduceScout(this.saved.game, id, command.action);
       this.saved.playing = this.saved.game.phase !== "finished";
     } else if (command.type === "kick" || command.type === "leave") {

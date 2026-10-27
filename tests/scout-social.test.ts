@@ -6,6 +6,7 @@ import {
   seatAttention,
 } from "../src/games/scout/attention.ts";
 import { quickPhrases, cleanChatText } from "../src/games/scout/chat-model.ts";
+import * as chatModel from "../src/games/scout/chat-model.ts";
 import {
   createScout,
   scoutView,
@@ -57,8 +58,43 @@ test("quick chat includes confident frustrated reactive and waiting phrases with
     "废了吗这不",
     "就等你这么打呢",
     "快点呀我急急急",
+    "求求你放过我吧",
+    "别搞",
+    "这么快就出对了",
+    "出这么大吗？",
+    "他要跑了，快出大牌",
+    "要逃了他",
   ])
     assert(quickPhrases.some((g) => g.phrases.includes(text)));
   assert.equal(cleanChatText("  你好\n朋友  "), "你好 朋友");
   assert.throws(() => cleanChatText("字".repeat(121)), /120/);
+});
+test("barrage cursor consumes only new fresh messages and never replays stale or duplicate snapshots", () => {
+  assert.equal(typeof chatModel.barrageUpdate, "function");
+  const message = (seq: number, sentAt = 100000) => ({
+    id: `m${seq}`,
+    seq,
+    sentAt,
+    authorId: "a",
+    name: "甲",
+    text: "别搞",
+  });
+  const messages = [message(1), message(2), message(3, 70000)];
+  const first = chatModel.barrageUpdate(messages, 1, 100000);
+  assert.deepEqual(
+    first.messages.map((m) => m.seq),
+    [2],
+  );
+  assert.equal(first.after, 3);
+  assert.deepEqual(
+    chatModel.barrageUpdate(messages, first.after, 100000).messages,
+    [],
+  );
+  assert.equal(chatModel.barrageUpdate([message(1)], 3, 100000).after, 3);
+  assert.deepEqual(
+    chatModel
+      .barrageUpdate([...messages, message(4)], 3, 100000)
+      .messages.map((m) => m.seq),
+    [4],
+  );
 });
