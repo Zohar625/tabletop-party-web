@@ -484,7 +484,7 @@ export class ScoutRoom {
         revision: payload.revision,
         peers: payload.peers,
         game: payload.game,
-        chat: Array.isArray(payload.chat) ? payload.chat.slice(-50) : [],
+        chat: Array.isArray(payload.chat) && (payload.chat.at(-1)?.seq??0)>=(this.snapshot.chat.at(-1)?.seq??0) ? payload.chat.slice(-50) : this.snapshot.chat,
       };
       this.saved.playing = !!payload.game && payload.game.phase !== "finished";
       this.saved.admitted = payload.peers.some(

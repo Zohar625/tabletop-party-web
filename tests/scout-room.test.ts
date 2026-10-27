@@ -48,6 +48,7 @@ test("room chat uses authenticated authors, deduplicates retries and never advan
       )
       .at(-1);
     wire.broadcast(host.getSnapshot().code, request);
+    const oldHostSnapshot=wire.packets.filter(p=>p.type==='cipher'&&p.from===host.getSnapshot().meId&&p.to===rooms[1].getSnapshot().meId).at(-1);
     await host.chat("就等你这么打呢");
     await until(() => rooms[1].getSnapshot().chat?.length === 2);
     assert.deepEqual(
@@ -55,6 +56,11 @@ test("room chat uses authenticated authors, deduplicates retries and never advan
       [1, 2],
     );
     assert.equal(host.getSnapshot().revision, revision);
+    wire.drop=p=>p.type==='cipher'&&p.from===host.getSnapshot().meId;
+    wire.broadcast(host.getSnapshot().code,oldHostSnapshot);
+    await new Promise(resolve=>setTimeout(resolve,60));
+    assert.equal(rooms[1].getSnapshot().chat.length,2,'older equal-revision snapshots cannot erase newer chat');
+    wire.drop=null;
     assert(!JSON.stringify(wire.packets).includes("我这牌无敌了"));
     host.stop();
     const restored = await restoreRoom(options(0));
