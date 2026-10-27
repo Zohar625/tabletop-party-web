@@ -58,10 +58,11 @@ export function barrageUpdate(
   messages: ChatMessage[],
   after: number,
   now: number,
+  baseline = false,
 ) {
   return {
     after: Math.max(after, ...messages.map((m) => m.seq)),
-    messages: messages
+    messages: (baseline ? [] : messages)
       .filter(
         (m) =>
           m.seq > after && now - m.sentAt < 15000 && m.sentAt <= now + 5000,

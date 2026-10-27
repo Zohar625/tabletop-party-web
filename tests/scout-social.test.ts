@@ -91,6 +91,19 @@ test("barrage cursor consumes only new fresh messages and never replays stale or
     [],
   );
   assert.equal(chatModel.barrageUpdate([message(1)], 3, 100000).after, 3);
+  const reconnected = chatModel.barrageUpdate(messages, 0, 100000, true);
+  assert.deepEqual(
+    reconnected.messages,
+    [],
+    "first connected snapshot is history, even when recent",
+  );
+  assert.equal(reconnected.after, 3);
+  assert.deepEqual(
+    chatModel
+      .barrageUpdate([...messages, message(4)], reconnected.after, 100000)
+      .messages.map((m) => m.seq),
+    [4],
+  );
   assert.deepEqual(
     chatModel
       .barrageUpdate([...messages, message(4)], 3, 100000)

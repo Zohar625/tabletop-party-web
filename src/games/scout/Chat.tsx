@@ -6,11 +6,13 @@ export function Chat({
   messages,
   meId,
   disabled,
+  connected = true,
   onSend,
 }: {
   messages: ChatMessage[];
   meId: string;
   disabled: boolean;
+  connected?: boolean;
   onSend: (text: string) => Promise<void>;
 }) {
   const [open, setOpen] = useState(false),
@@ -50,7 +52,12 @@ export function Chat({
   };
   return (
     <div className="sc-chat">
-      <Barrage messages={messages} enabled={barrage} meId={meId} />
+      <Barrage
+        messages={messages}
+        enabled={barrage}
+        meId={meId}
+        connected={connected}
+      />
       <button
         className="sc-barrage-toggle"
         aria-pressed={barrage}

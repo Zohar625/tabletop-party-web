@@ -384,6 +384,7 @@ export default function ScoutApp() {
                 </button>
                 <Chat
                   messages={snapshot.chat}
+                  connected={snapshot.status === "online"}
                   meId={snapshot.meId}
                   disabled={
                     busy || snapshot.pending || snapshot.status !== "online"

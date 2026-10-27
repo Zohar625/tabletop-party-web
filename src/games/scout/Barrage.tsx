@@ -7,25 +7,34 @@ export function Barrage({
   messages,
   enabled,
   meId,
+  connected,
 }: {
   messages: ChatMessage[];
   enabled: boolean;
   meId: string;
+  connected: boolean;
 }) {
   const after = useRef(messages.at(-1)?.seq ?? 0);
+  const wasConnected = useRef(false);
   const queue = useRef<ChatMessage[]>([]);
   const active = useRef<Flight[]>([]);
   const [flights, setFlights] = useState<Flight[]>([]);
   useEffect(() => {
-    const update = barrageUpdate(messages, after.current, Date.now());
+    const update = barrageUpdate(
+      messages,
+      after.current,
+      Date.now(),
+      !connected || !wasConnected.current,
+    );
     after.current = update.after;
-    if (enabled)
+    wasConnected.current = connected;
+    if (enabled && connected)
       queue.current = [...queue.current, ...update.messages].slice(-12);
-  }, [messages, enabled]);
+  }, [messages, enabled, connected]);
   useEffect(() => {
     active.current = [];
     setFlights([]);
-    if (!enabled) {
+    if (!enabled || !connected) {
       queue.current = [];
       return;
     }
@@ -51,7 +60,7 @@ export function Barrage({
       }
     }, 200);
     return () => clearInterval(timer);
-  }, [enabled]);
+  }, [enabled, connected]);
   return (
     <div className="sc-barrage" aria-hidden="true">
       {flights.map(({ message, lane }) => (
