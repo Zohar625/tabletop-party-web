@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import { scoutView } from "./engine.ts";
 import { ScoutTable } from "./ScoutTable.tsx";
 import { lessonState, lessons, teachingStep } from "./tutorial-model.ts";
@@ -8,6 +8,8 @@ export function Tutorial({ onExit }: { onExit: () => void }) {
     [complete, setComplete] = useState(false),
     [feedback, setFeedback] = useState("");
   const lesson = lessons[index];
+  const intro = useRef<HTMLElement>(null);
+  useLayoutEffect(() => { intro.current?.scrollIntoView({block:'start'}); }, [index]);
   const load = (next: number) => {
     setIndex(next);
     setState(lessonState(next));
@@ -16,7 +18,7 @@ export function Tutorial({ onExit }: { onExit: () => void }) {
   };
   return (
     <div className="sc-tutorial">
-      <section className="sc-lesson-intro">
+      <section ref={intro} className="sc-lesson-intro">
         <div className="sc-lesson-top">
           <span className="sc-eyebrow">
             LEARN BY PLAYING · {index + 1} / {lessons.length}

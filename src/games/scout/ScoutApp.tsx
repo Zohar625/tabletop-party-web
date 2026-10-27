@@ -75,6 +75,9 @@ export default function ScoutApp() {
       controller.current?.stop();
     };
   }, []);
+  useEffect(() => {
+    if (page === 'room' && snapshot?.game) setFresh(false);
+  }, [page, snapshot?.game?.matchId]);
   const perform = async (fn: () => Promise<unknown>) => {
     if (requesting.current) return;
     requesting.current = true;
@@ -243,11 +246,12 @@ export default function ScoutApp() {
                   </button>
                   {!controller.current && error && (
                     <button
-                      onClick={() => {
+                      onClick={() => void perform(async () => {
+                        controller.current?.discardClosed();
                         clearSavedRoom();
                         setSaved(false);
                         setError("");
-                      }}
+                      })}
                     >
                       清除损坏的本机记录
                     </button>

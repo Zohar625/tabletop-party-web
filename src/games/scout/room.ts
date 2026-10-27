@@ -714,6 +714,11 @@ export class ScoutRoom {
       check();
     });
   }
+  discardClosed() {
+    if (this.snapshot.status !== 'closed') throw Error('房间尚未结束，请先正常离桌。');
+    if (this.store.getItem(SAVE) !== this.lastWritten) throw Error('本机已有新的房间记录，请刷新后继续。');
+    this.store.removeItem(SAVE);
+  }
   async leave() {
     this.assertHostCurrent();
     // Guests retain their seats during a live match; stop() is temporary.
