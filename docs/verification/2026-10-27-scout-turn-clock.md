@@ -16,4 +16,7 @@
 - 实际浏览器创建192876测试房间，房主展开设置选15秒，标题即时更新，刷新仍保留；随后通过收桌清理测试房间。
 - 390×844手机模拟，页面375/视口390无页面横向溢出；明示独立界面例确认本人手牌区和操作区同时高亮、等待者普通底色，第二段5秒临近提醒、断线等待同步。计时模型/自动操作实际效果由上述加密房间与真实中转补充验证，组件例不冒充真实房间。
 
-截图：.test-build/scout-turn-clock-mobile.png。待部署后补充公开资源核验。
+截图：.test-build/scout-turn-clock-mobile.png。
+
+## 发布
+592fed0通过[部署40523991887](https://github.com/Zohar625/tabletop-party-web/actions/runs/40523991887)，云端检查与部署成功。公开浏览器重新加载引用index-B2net8NM.js和index-BP2y97Zd.css；线上HTML、JS、CSS的SHA-256三者均与本地验收构建一致。
