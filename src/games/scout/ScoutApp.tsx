@@ -247,7 +247,6 @@ export default function ScoutApp() {
                   {!controller.current && error && (
                     <button
                       onClick={() => void perform(async () => {
-                        controller.current?.discardClosed();
                         clearSavedRoom();
                         setSaved(false);
                         setError("");
@@ -381,14 +380,15 @@ export default function ScoutApp() {
                   )}
                   {snapshot.status === "closed" && (
                     <button
-                      onClick={() => {
+                      onClick={() => void perform(async () => {
+                        controller.current?.discardClosed();
                         controller.current?.stop();
                         unsubscribe.current?.();
                         controller.current = null;
                         setSnapshot(null);
                         setSaved(false);
                         setPage("home");
-                      }}
+                      })}
                     >
                       返回首页
                     </button>
