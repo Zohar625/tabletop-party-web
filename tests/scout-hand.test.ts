@@ -1,6 +1,49 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { stackedGroups } from "../src/games/scout/ui-model.ts";
+import {
+  createScout,
+  reduceScout,
+  scoutView,
+} from "../src/games/scout/engine.ts";
+test("only the acting player's hand container and action dock get local turn emphasis", async () => {
+  const { createServer } = await import("vite");
+  const server = await createServer({
+    server: { middlewareMode: true, hmr: false },
+  });
+  try {
+    const React = await import("react");
+    const { renderToStaticMarkup } = await import("react-dom/server");
+    const { ScoutTable } = await server.ssrLoadModule(
+      "/src/games/scout/ScoutTable.tsx",
+    );
+    let s = createScout(
+      [
+        { id: "a", name: "甲" },
+        { id: "b", name: "乙" },
+      ],
+      "hand-highlight",
+    );
+    for (const p of s.players)
+      s = reduceScout(s, p.id, { type: "orient", flip: false });
+    const render = (actor: string) =>
+      renderToStaticMarkup(
+        React.createElement(ScoutTable, {
+          game: scoutView(s, actor),
+          actor,
+          onAction: () => {},
+        }),
+      );
+    const own = render(s.turnId),
+      other = render(s.players.find((p) => p.id !== s.turnId)!.id);
+    assert.match(own, /sc-hand-section is-my-turn/);
+    assert.match(own, /sc-action-dock is-my-turn/);
+    assert.match(own, /轮到你出牌/);
+    assert.doesNotMatch(other, /sc-hand-section is-my-turn/);
+  } finally {
+    await server.close();
+  }
+});
 test("stacked overview keeps every card in one row without changing order", () => {
   const cards = Array.from({ length: 12 }, (_, i) => ({
     id: String(i),

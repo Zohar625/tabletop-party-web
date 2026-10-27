@@ -15,6 +15,8 @@ import {
 import type { Selection } from "./ui-model.ts";
 import { useCardMotion } from "./motion.ts";
 import { gameAttention, seatAttention } from "./attention.ts";
+import { TurnTimer } from "./TurnTimer.tsx";
+import type { TurnClock } from "./turn-clock.ts";
 export interface ScoutTableProps {
   game: ScoutView;
   actor: string;
@@ -24,6 +26,9 @@ export interface ScoutTableProps {
   isHost?: boolean;
   onRematch?: () => void;
   freshDealOnMount?: boolean;
+  turnClock?: TurnClock | null;
+  clockOffsetMs?: number;
+  connected?: boolean;
 }
 type Wizard = {
   combo: boolean;
@@ -41,6 +46,9 @@ export function ScoutTable({
   isHost = false,
   onRematch,
   freshDealOnMount = false,
+  turnClock,
+  clockOffsetMs = 0,
+  connected = true,
 }: ScoutTableProps) {
   const [selection, setSelection] = useState<Selection>(null),
     [flipped, setFlipped] = useState(false),
@@ -283,13 +291,17 @@ export function ScoutTable({
         </section>
       ) : (
         <>
-          <section className="sc-hand-section">
+          <section
+            className={`sc-hand-section${turn ? " is-my-turn" : ""}`}
+            aria-label={turn ? "你的手牌，轮到你出牌" : "你的手牌"}
+          >
             <div className="sc-hand-heading">
               <div>
                 <span className="sc-eyebrow">YOUR TROUPE</span>
                 <h2>
                   你的手牌 <span>{hand.length}</span>
                 </h2>
+                {turn && <span className="sc-hand-turn-badge">轮到你出牌</span>}
               </div>
               <span className="sc-order-note">顺序固定 · 不能重排</span>
             </div>
@@ -397,7 +409,21 @@ export function ScoutTable({
               </div>
             )}
           </section>
-          <section className="sc-action-dock" aria-label="回合操作">
+          <section
+            className={`sc-action-dock${turn ? " is-my-turn" : ""}`}
+            aria-label="回合操作"
+          >
+            {game.phase === "playing" &&
+              turnClock &&
+              turnClock.actorId === game.turnId && (
+                <TurnTimer
+                  clock={turnClock}
+                  clockOffsetMs={clockOffsetMs}
+                  connected={connected}
+                  mine={turn}
+                  name={name(game.turnId)}
+                />
+              )}
             {game.phase === "orienting" ? (
               <>
                 <div className="sc-action-copy">

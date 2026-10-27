@@ -889,7 +889,35 @@ p {
 }
 .sc-hand-section {
   min-width: 0;
+  padding:14px;
+  border:1px solid #697b9040;
+  border-radius:12px;
+  background:#15243880;
+  transition:background-color .25s ease,border-color .25s ease,box-shadow .25s ease;
 }
+.sc-hand-section.is-my-turn { background:linear-gradient(135deg,#344d63f2,#263d50f2); border-color:#ebcb87; box-shadow:inset 0 0 0 1px #ebcb8733,0 0 22px #dcb77622; }
+.sc-hand-turn-badge { display:inline-block; margin-top:8px; padding:4px 9px; border-radius:6px; background:#f0ce8d; color:#172638; font-size:12px; font-weight:800; }
+.sc-action-dock.is-my-turn { background:#30485b; border-color:#e4c383; box-shadow:0 0 0 1px #e4c38344,0 7px 24px #0005; }
+.sc-turn-settings { margin:12px 0; border:1px solid #a7b5c633; border-radius:9px; background:#172638; color:#d7e0e8; font-size:12px; }
+.sc-turn-settings summary { cursor:pointer; padding:12px 14px; }
+.sc-turn-settings >div { padding:0 14px 12px; }
+.sc-turn-settings label { display:flex; align-items:center; gap:12px; }
+.sc-turn-settings select { color:#f4e9d0; background:#263c51; border:1px solid #a6b8cb66; border-radius:7px; padding:9px; min-height:42px; font:inherit; }
+.sc-turn-settings p { color:#b5c5d4; line-height:1.8; margin-bottom:0; }
+.sc-timeout-notice { padding:12px 14px; background:#513b26; border:1px solid #d3a15f; color:#ffe1af; border-radius:9px; font-size:13px; line-height:1.8; }
+.sc-turn-timer { flex:0 0 100%; min-width:0; color:#e1e9ed; }
+.sc-turn-timer-label { display:flex; justify-content:space-between; align-items:center; gap:10px; font-size:12px; }
+.sc-turn-timer-label >span { font-size:21px; font-weight:800; font-variant-numeric:tabular-nums; }
+.sc-turn-timer-track { height:5px; margin:7px 0 5px; border-radius:4px; background:#ffffff20; overflow:hidden; }
+.sc-turn-timer-track i { display:block; height:100%; background:#b9dce8; transform-origin:left center; transition:transform .25s linear; }
+.sc-turn-timer small { font-size:11px; line-height:1.6; color:#bacbd7; }
+.sc-turn-timer.is-final small { color:#ffcf88; }
+.sc-turn-timer.is-urgent { color:#ffcd80; animation:sc-clock-alert 1s ease-in-out infinite; }
+.sc-turn-timer.is-urgent .sc-turn-timer-track i { background:#ffb85c; }
+.sc-turn-timer.is-final.is-urgent { color:#ffb5a3; }
+.sc-turn-timer.is-final.is-urgent .sc-turn-timer-track i { background:#ff9d85; }
+@keyframes sc-clock-alert { 50% { filter:brightness(1.3); } }
+@media(prefers-reduced-motion:reduce) { .sc-turn-timer { animation:none !important; } }
 .sc-hand-heading {
   display: flex;
   justify-content: space-between;

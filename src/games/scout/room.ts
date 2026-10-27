@@ -3,6 +3,13 @@ import type { ScoutAction, ScoutState, ScoutView } from "./types.ts";
 import { cleanChatText } from "./chat-model.ts";
 import type { ChatMessage } from "./chat-model.ts";
 import {
+  automaticAction,
+  makeTurnClock,
+  readTurnClock,
+  validTurnLimit,
+} from "./turn-clock.ts";
+import type { TurnClock, TimeoutNotice } from "./turn-clock.ts";
+import {
   createIdentity,
   restoreIdentity,
   fingerprint,
@@ -33,6 +40,10 @@ interface Receipt {
   error: string;
 }
 interface SavedRoom {
+  turnLimitSeconds?: number;
+  turnClock?: TurnClock | null;
+  clockSeq?: number;
+  timeoutNotice?: TimeoutNotice | null;
   version: 1;
   admitted?: boolean;
   chat?: ChatMessage[];
@@ -52,6 +63,11 @@ interface SavedRoom {
   receipts: Record<string, Receipt[]>;
 }
 export interface RoomSnapshot {
+  turnLimitSeconds: number;
+  turnClock: TurnClock | null;
+  clockSeq: number;
+  clockOffsetMs: number;
+  timeoutNotice: TimeoutNotice | null;
   chat: ChatMessage[];
   matchId: string;
   code: string;
@@ -68,6 +84,7 @@ export interface RoomSnapshot {
   pending: boolean;
 }
 type Command =
+  | { type: "turnLimit"; seconds: number }
   | { type: "chat"; text: string }
   | { type: "join" | "ping" | "start" | "rematch" | "leave" }
   | { type: "ready"; value: boolean }
@@ -142,6 +159,7 @@ export class ScoutRoom {
   private stopped = true;
   private connected = false;
   private connecting = false;
+  private clockOffsetMs?: number;
   private reconnectAt = 0;
   private warning = "";
   private error = "";
@@ -164,6 +182,11 @@ export class ScoutRoom {
     this.now = options.now ?? Date.now;
     this.tickMs = options.tickMs ?? 2000;
     this.snapshot = {
+      turnLimitSeconds: saved.turnLimitSeconds ?? 0,
+      turnClock: readTurnClock(saved.turnClock),
+      clockSeq: saved.clockSeq ?? 0,
+      clockOffsetMs: 0,
+      timeoutNotice: saved.timeoutNotice ?? null,
       chat: structuredClone(saved.chat ?? []),
       matchId: saved.matchId ?? "",
       code: saved.code,
@@ -229,7 +252,8 @@ export class ScoutRoom {
       return;
     }
     if (raw !== this.lastWritten) {
-      this.error = "本机房间记录已变化，可能已在其他页面开启新房间，请刷新后继续。";
+      this.error =
+        "本机房间记录已变化，可能已在其他页面开启新房间，请刷新后继续。";
       this.stop();
       this.emit("closed");
       throw Error(this.error);
@@ -265,6 +289,11 @@ export class ScoutRoom {
   private updateHost() {
     this.snapshot = {
       ...this.snapshot,
+      turnLimitSeconds: this.saved.turnLimitSeconds ?? 0,
+      turnClock: readTurnClock(this.saved.turnClock),
+      clockSeq: this.saved.clockSeq ?? 0,
+      clockOffsetMs: 0,
+      timeoutNotice: this.saved.timeoutNotice ?? null,
       revision: this.saved.revision,
       peers: this.publicPeers(),
       game: this.saved.game
@@ -308,6 +337,11 @@ export class ScoutRoom {
       if (p.id !== this.identity.id) {
         await this.sendTo(p.id, p.publicKey, {
           kind: "snapshot",
+          turnLimitSeconds: this.saved.turnLimitSeconds ?? 0,
+          turnClock: this.saved.turnClock ?? null,
+          clockSeq: this.saved.clockSeq ?? 0,
+          hostNow: this.now(),
+          timeoutNotice: this.saved.timeoutNotice ?? null,
           matchId: this.saved.matchId ?? "",
           revision: this.saved.revision,
           peers: this.publicPeers(),
@@ -328,6 +362,7 @@ export class ScoutRoom {
   private async open() {
     if (this.connecting || this.stopped) return;
     this.connecting = true;
+    this.clockOffsetMs = undefined;
     this.emit("connecting");
     try {
       await this.transport.connect();
@@ -371,8 +406,10 @@ export class ScoutRoom {
       return;
     }
     await this.enqueue(async () => {
-      if (this.isHost) await this.publish();
-      else {
+      if (this.isHost) {
+        this.advanceTurnClock();
+        await this.publish();
+      } else {
         if (this.now() - this.hostSeen > 10000) this.emit("waiting");
         await this.sendRequest(
           this.pending ??
@@ -398,6 +435,63 @@ export class ScoutRoom {
       name: this.saved.name,
       command,
     };
+  }
+  private resetTurnClock() {
+    this.saved.turnClock = makeTurnClock(
+      this.saved.game,
+      this.saved.turnLimitSeconds ?? 0,
+      this.now(),
+    );
+    this.saved.clockSeq = (this.saved.clockSeq ?? 0) + 1;
+    this.saved.timeoutNotice = null;
+  }
+  private advanceTurnClock() {
+    if (!this.isHost || !this.connected || this.stopped || this.probing) return;
+    const clock = this.saved.turnClock;
+    const game = this.saved.game;
+    if (
+      !clock ||
+      !game ||
+      game.phase !== "playing" ||
+      this.now() < clock.deadline
+    )
+      return;
+    this.assertCurrent();
+    const name =
+      game.players.find((p) => p.id === clock.actorId)?.name ?? "团员";
+    if (clock.stage === 0) {
+      this.saved.turnClock = {
+        ...clock,
+        stage: 1,
+        deadline: this.now() + clock.seconds * 1000,
+      };
+      this.saved.clockSeq = (this.saved.clockSeq ?? 0) + 1;
+      this.saved.timeoutNotice = {
+        id: `${clock.key}:warning`,
+        text: `${name}首次超时，已重新计时；再次超时将自动操作。`,
+      };
+    } else {
+      const action = automaticAction(game);
+      if (!action) {
+        this.saved.turnClock = null;
+        this.saved.clockSeq = (this.saved.clockSeq ?? 0) + 1;
+        this.saved.timeoutNotice = {
+          id: `${clock.key}:unavailable`,
+          text: "自动操作暂不可用，请房主检查桌面。",
+        };
+      } else {
+        this.saved.game = reduceScout(game, clock.actorId, action);
+        this.saved.playing = this.saved.game.phase !== "finished";
+        this.saved.revision++;
+        this.resetTurnClock();
+        this.saved.timeoutNotice = {
+          id: `${clock.key}:auto`,
+          text: `${name}连续两次超时，系统已自动${action.type === "show" ? `演出${action.count}张牌` : "普通挖角"}。`,
+        };
+      }
+    }
+    this.persist();
+    this.updateHost();
   }
   private async sendRequest(request: Request) {
     if (this.hostKey)
@@ -493,6 +587,36 @@ export class ScoutRoom {
             ? payload.chat.slice(-50)
             : this.snapshot.chat,
       };
+      if (
+        Number.isInteger(payload.clockSeq) &&
+        payload.clockSeq >= this.snapshot.clockSeq &&
+        validTurnLimit(payload.turnLimitSeconds)
+      ) {
+        if (Number.isFinite(payload.hostNow)) {
+          const sample = this.now() - payload.hostNow;
+          this.clockOffsetMs =
+            this.clockOffsetMs === undefined
+              ? sample
+              : Math.min(this.clockOffsetMs, sample);
+        }
+        this.snapshot = {
+          ...this.snapshot,
+          turnLimitSeconds: payload.turnLimitSeconds,
+          turnClock: readTurnClock(payload.turnClock),
+          clockSeq: payload.clockSeq,
+          clockOffsetMs: this.clockOffsetMs ?? this.snapshot.clockOffsetMs,
+          timeoutNotice:
+            payload.timeoutNotice &&
+            typeof payload.timeoutNotice.id === "string" &&
+            typeof payload.timeoutNotice.text === "string"
+              ? payload.timeoutNotice
+              : null,
+        };
+        this.saved.turnLimitSeconds = this.snapshot.turnLimitSeconds;
+        this.saved.turnClock = this.snapshot.turnClock;
+        this.saved.clockSeq = this.snapshot.clockSeq;
+        this.saved.timeoutNotice = this.snapshot.timeoutNotice;
+      }
       this.saved.playing = !!payload.game && payload.game.phase !== "finished";
       this.saved.admitted = payload.peers.some(
         (p: { id: string }) => p.id === this.identity.id,
@@ -624,6 +748,12 @@ export class ScoutRoom {
       } else {
         this.apply(id, command);
         this.saved.revision++;
+        if (
+          command.type === "action" ||
+          command.type === "start" ||
+          command.type === "rematch"
+        )
+          this.resetTurnClock();
       }
     } catch (e) {
       error = e instanceof Error ? e.message : "操作未生效，请重试。";
@@ -641,7 +771,13 @@ export class ScoutRoom {
     if (id === this.identity.id && error) throw Error(error);
   }
   private apply(id: string, command: Command) {
-    if (command.type === "ready") {
+    if (command.type === "turnLimit") {
+      if (id !== this.saved.hostId) throw Error("只有房主可以设置出牌时长。");
+      if (!validTurnLimit(command.seconds))
+        throw Error("每段时长应为5–300秒，或选择不限时。");
+      this.saved.turnLimitSeconds = command.seconds;
+      this.resetTurnClock();
+    } else if (command.type === "ready") {
       if (this.saved.game || typeof command.value !== "boolean")
         throw Error("已经开桌，无法更改准备状态。");
       this.saved.peers.find((p) => p.id === id)!.ready = command.value;
@@ -741,6 +877,9 @@ export class ScoutRoom {
   }
   startGame() {
     return this.request({ type: "start" });
+  }
+  setTurnLimit(seconds: number) {
+    return this.request({ type: "turnLimit", seconds });
   }
   act(action: ScoutAction) {
     return this.request({ type: "action", action });
@@ -943,7 +1082,11 @@ export async function restoreRoom(
       !Array.isArray(saved.peers) ||
       !Number.isInteger(saved.revision) ||
       !saved.receipts ||
-      !Array.isArray(saved.blocked)
+      !Array.isArray(saved.blocked) ||
+      !validTurnLimit(saved.turnLimitSeconds ?? 0) ||
+      (saved.clockSeq !== undefined &&
+        (!Number.isInteger(saved.clockSeq) || saved.clockSeq < 0)) ||
+      (saved.turnClock != null && !readTurnClock(saved.turnClock))
     )
       throw Error();
     return new ScoutRoom(

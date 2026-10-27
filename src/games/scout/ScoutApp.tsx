@@ -451,6 +451,53 @@ export default function ScoutApp() {
                   )}
                 </div>
               )}
+              <details className="sc-turn-settings">
+                <summary>
+                  出牌限时 ·{" "}
+                  {snapshot.turnLimitSeconds
+                    ? `每段${snapshot.turnLimitSeconds}秒，两段`
+                    : "不限时"}
+                </summary>
+                <div>
+                  <label>
+                    每段出牌时长
+                    <select
+                      aria-label="每段出牌时长"
+                      value={snapshot.turnLimitSeconds}
+                      disabled={!snapshot.host || blocked}
+                      onChange={(e) =>
+                        void perform(() =>
+                          controller.current!.setTurnLimit(
+                            Number(e.target.value),
+                          ),
+                        )
+                      }
+                    >
+                      {[0, 15, 30, 45, 60, 90, 120, 180].map((seconds) => (
+                        <option key={seconds} value={seconds}>
+                          {seconds ? `${seconds}秒` : "不限时"}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                  <p>
+                    首次超时提醒并重新计时，再次超时由系统执行合法操作。
+                    {snapshot.host
+                      ? "修改后，当前行动重新计时。"
+                      : "由房主设置。"}
+                    方向确认阶段不计时。
+                  </p>
+                </div>
+              </details>
+              {snapshot.timeoutNotice && (
+                <p
+                  className="sc-timeout-notice"
+                  role="status"
+                  key={snapshot.timeoutNotice.id}
+                >
+                  {snapshot.timeoutNotice.text}
+                </p>
+              )}
               {snapshot.game ? (
                 <>
                   {snapshot.peers.some((p) => !p.online) &&
@@ -476,6 +523,9 @@ export default function ScoutApp() {
                     pending={blocked}
                     isHost={snapshot.host}
                     freshDealOnMount={fresh}
+                    turnClock={snapshot.turnClock}
+                    clockOffsetMs={snapshot.clockOffsetMs}
+                    connected={snapshot.status === "online"}
                     onAction={(action) =>
                       void perform(() => controller.current!.act(action))
                     }

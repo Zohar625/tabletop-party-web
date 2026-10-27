@@ -20,6 +20,114 @@ import { canBeat } from "../src/games/scout/engine.ts";
 import type { ScoutAction } from "../src/games/scout/types.ts";
 
 const SAVE = "tabletop.scout.room.v1";
+test("timer settings are host-only and delayed same-version snapshots cannot undo first warning", async () => {
+  let now = 100000;
+  const t = await table(2, { now: () => now });
+  try {
+    await t.host.setTurnLimit(15);
+    await synced(t.rooms);
+    await t.rooms[1].setTurnLimit(30);
+    await until(() => !t.rooms[1].getSnapshot().pending);
+    assert.match(t.rooms[1].getSnapshot().error, /房主/);
+    assert.equal(t.host.getSnapshot().turnLimitSeconds, 15);
+    await start(t.rooms);
+    await orient(t.rooms);
+    const old = t.wire.packets
+      .filter(
+        (p) =>
+          p.type === "cipher" &&
+          p.from === t.host.getSnapshot().meId &&
+          p.to === t.rooms[1].getSnapshot().meId,
+      )
+      .at(-1);
+    const first = t.host.getSnapshot().turnClock!,
+      rev = t.host.getSnapshot().revision;
+    now = first.deadline;
+    await until(() => t.rooms[1].getSnapshot().turnClock?.stage === 1);
+    const seq = t.rooms[1].getSnapshot().clockSeq;
+    t.wire.broadcast(t.host.getSnapshot().code, old);
+    await new Promise((resolve) => setTimeout(resolve, 60));
+    assert.equal(t.rooms[1].getSnapshot().clockSeq, seq);
+    assert.equal(t.rooms[1].getSnapshot().turnClock!.stage, 1);
+    assert.equal(t.host.getSnapshot().revision, rev);
+    const warningFrame = t.wire.packets
+      .filter(
+        (p) =>
+          p.type === "cipher" &&
+          p.from === t.host.getSnapshot().meId &&
+          p.to === t.rooms[1].getSnapshot().meId,
+      )
+      .at(-1);
+    const offset = t.rooms[1].getSnapshot().clockOffsetMs;
+    t.wire.drop = (p) =>
+      p.type === "cipher" && p.from === t.host.getSnapshot().meId;
+    now += 1000;
+    t.wire.broadcast(t.host.getSnapshot().code, warningFrame);
+    await new Promise((resolve) => setTimeout(resolve, 60));
+    assert.equal(
+      t.rooms[1].getSnapshot().clockOffsetMs,
+      offset,
+      "a delayed heartbeat must not move countdown backwards",
+    );
+    t.wire.drop = null;
+    const actor = t.rooms.find((r) => r.getSnapshot().meId === first.actorId)!;
+    await until(
+      () =>
+        actor.getSnapshot().status === "online" && !actor.getSnapshot().pending,
+    );
+    await actor.act({ type: "show", start: 0, count: 1 });
+    await until(() => t.host.getSnapshot().revision === rev + 1);
+    assert.equal(t.host.getSnapshot().turnClock?.stage, 0);
+    assert.equal(t.host.getSnapshot().timeoutNotice, null);
+    await t.host.setTurnLimit(30);
+    assert.equal(t.host.getSnapshot().turnClock?.deadline, now + 30000);
+  } finally {
+    t.rooms.forEach((r) => r.stop());
+  }
+});
+test("host controls a persisted two-stage timer: warn once, then one legal automatic action", async () => {
+  let now = 100000;
+  const t = await table(2, { now: () => now });
+  try {
+    assert.equal(typeof t.host.setTurnLimit, "function");
+    assert.equal(t.host.getSnapshot().turnLimitSeconds, 0);
+    await assert.rejects(t.host.setTurnLimit(2), /时长|秒/);
+    await t.host.setTurnLimit(15);
+    await synced(t.rooms);
+    await start(t.rooms);
+    assert.equal(t.host.getSnapshot().turnClock, null);
+    await orient(t.rooms);
+    const first = t.host.getSnapshot().turnClock!;
+    const revision = t.host.getSnapshot().revision,
+      gameRevision = t.host.getSnapshot().game!.revision;
+    await t.host.chat("计时不应被聊天重置");
+    assert.equal(t.host.getSnapshot().turnClock!.deadline, first.deadline);
+    t.host.stop();
+    const restored = await restoreRoom(t.options(0));
+    assert(restored);
+    t.rooms[0] = restored;
+    await restored.connect();
+    assert.equal(restored.getSnapshot().turnClock!.deadline, first.deadline);
+    now = first.deadline;
+    await until(() => restored.getSnapshot().turnClock?.stage === 1);
+    assert.equal(restored.getSnapshot().revision, revision);
+    assert.equal(restored.getSnapshot().game!.revision, gameRevision);
+    assert.equal(restored.getSnapshot().turnClock!.deadline, now + 15000);
+    assert.match(restored.getSnapshot().timeoutNotice!.text, /首次超时/);
+    now += 15000;
+    await until(
+      () => restored.getSnapshot().game!.revision === gameRevision + 1,
+    );
+    assert.equal(restored.getSnapshot().revision, revision + 1);
+    assert.match(restored.getSnapshot().timeoutNotice!.text, /自动/);
+    await new Promise((resolve) => setTimeout(resolve, 100));
+    assert.equal(restored.getSnapshot().game!.revision, gameRevision + 1);
+    await restored.setTurnLimit(0);
+    assert.equal(restored.getSnapshot().turnClock, null);
+  } finally {
+    t.rooms.forEach((r) => r.stop());
+  }
+});
 test("an offline guest does not block online orientation or turns, and nobody may play their turn for them", async () => {
   let now = 100000;
   const t = await table(3, { now: () => now });
