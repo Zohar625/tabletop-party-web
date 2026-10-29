@@ -1009,7 +1009,7 @@ test("room invitation helpers reject malformed codes and protect an existing con
 
 test("next round can deal while a guest is offline and the guest restores their new private hand", async () => {
   let now = 100000;
-  const { rooms, stores, options, host } = await table(2, {
+  const { rooms, stores, options, host, wire } = await table(2, {
     now: () => now,
     tickMs: 10000,
   });
@@ -1036,9 +1036,27 @@ test("next round can deal while a guest is offline and the guest restores their 
     const guest = await restoreRoom(options(1));
     assert(guest);
     rooms[1] = guest;
+    // Presence may arrive before the encrypted private snapshot. Reproduce that
+    // ordering explicitly so an empty peers.every(...) cannot pass the wait.
+    wire.drop = (frame) =>
+      frame.type === "cipher" && frame.from === restored.getSnapshot().meId;
     await guest.connect();
+    await until(() => restored.getSnapshot().peers.every((p) => p.online));
+    assert.equal(guest.getSnapshot().game, null);
+    setTimeout(() => {
+      wire.drop = null;
+    }, 120);
     await until(() =>
-      rooms.every((r) => r.getSnapshot().peers.every((p) => p.online)),
+      rooms.every((r) => {
+        const snapshot = r.getSnapshot();
+        return (
+          snapshot.status === "online" &&
+          snapshot.peers.length === 2 &&
+          snapshot.peers.every((p) => p.online) &&
+          snapshot.revision === restored.getSnapshot().revision &&
+          snapshot.game?.round === 2
+        );
+      }),
     );
     assert.equal(guest.getSnapshot().game!.me.hand.length, 11);
     assert.equal(guest.getSnapshot().game!.round, 2);
