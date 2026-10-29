@@ -18,4 +18,6 @@
 
 ## 发布
 
-沿用现有GitHub Pages工作流，发布后核对新模式HTML、JS、CSS及首页入口，记录最终发布结果。
+最终代码提交 `f01e95f`，GitHub Pages工作流 [40899722884](https://github.com/Zohar625/tabletop-party-web/actions/runs/40899722884) 构建、247项测试、Python检查与部署成功。首页及新模式HTML、`index-r7Vo0tgi.js`、`index-BOwT-aff.css` 的线上SHA256均与本地构建匹配；重新打开线上页面、教学及入口正常。五项生命周期回归及旧读卡包回归共6项，另行连续10轮全部通过（60次）。
+
+试玩地址：https://zohar625.github.io/tabletop-party-web/bluff-classic/index.html
