@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "tsc --noEmit && vite build && vite build --config vite.super.config.ts && vite build --config vite.dinner.config.ts && vite build --config vite.cartographers.config.ts && vite build --config vite.scout.config.ts",
+    "build": "tsc --noEmit && vite build && vite build --config vite.super.config.ts && vite build --config vite.dinner.config.ts && vite build --config vite.cartographers.config.ts && vite build --config vite.scout.config.ts && vite build --config vite.classic.config.ts",
     "test": "node --experimental-strip-types --test tests/*.test.ts",
     "test:ci": "node --experimental-strip-types --test --test-reporter=spec --test-reporter-destination=stdout --test-reporter=./scripts/test-ci-reporter.mjs --test-reporter-destination=stdout tests/*.test.ts",
     "preview": "vite preview --host 127.0.0.1",

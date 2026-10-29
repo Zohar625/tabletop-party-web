@@ -66,3 +66,11 @@ for (const [, asset] of scoutPage.matchAll(/(?:src|href)="([^"]+)"/g)) {
 }
 assert(lobby.includes("https://zohar625.github.io/tabletop-party-web/scout/index.html"));
 console.log("SCOUT联机入口资源及大厅跳转检查通过。");
+const classicFolder = resolve(root, "dist/bluff-classic");
+const classicPage = await readFile(resolve(classicFolder, "index.html"), "utf8");
+for (const [, asset] of classicPage.matchAll(/(?:src|href)="([^"]+)"/g)) {
+  assert(asset.startsWith("./"), `原版瞎掰王资源必须使用相对路径：${asset}`);
+  await access(resolve(classicFolder, asset));
+}
+assert(lobby.includes("https://zohar625.github.io/tabletop-party-web/bluff-classic/index.html"));
+console.log("原版瞎掰王联机入口资源及大厅跳转检查通过。");

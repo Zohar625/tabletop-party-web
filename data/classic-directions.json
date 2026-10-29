@@ -1,0 +1,1626 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-29",
+  "cards": [
+    {
+      "id": "outrageous-ornamental-hermit",
+      "conceptId": "ornamental-hermit",
+      "direction": "一种人物职业",
+      "decoys": ["一种植物", "一种人造实物"]
+    },
+    {
+      "id": "outrageous-groom-of-stool",
+      "conceptId": "groom-of-stool",
+      "direction": "一种人物职业",
+      "decoys": ["一种植物", "一种人造实物"]
+    },
+    {
+      "id": "outrageous-knocker-upper",
+      "conceptId": "knocker-upper",
+      "direction": "一种人物职业",
+      "decoys": ["一种植物", "一种人造实物"]
+    },
+    {
+      "id": "outrageous-tobacco-resuscitator",
+      "conceptId": "tobacco-resuscitator",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-safety-coffin",
+      "conceptId": "safety-coffin",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-moustache-cup",
+      "conceptId": "moustache-cup",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-lovers-eye",
+      "conceptId": "lovers-eye",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-pearlfish-sea-cucumber",
+      "conceptId": "pearlfish-sea-cucumber",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-ceratothoa-tongue-parasite",
+      "conceptId": "ceratothoa-tongue-parasite",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-hagfish-knot",
+      "conceptId": "hagfish-knot",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-snapping-shrimp",
+      "conceptId": "snapping-shrimp",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-sea-slug-extreme-autotomy",
+      "conceptId": "sea-slug-extreme-autotomy",
+      "direction": "一种生物行为或生理变化",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-ophiocordyceps-unilateralis",
+      "conceptId": "ophiocordyceps-unilateralis",
+      "direction": "一种真菌",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-colobopsis-autothysis",
+      "conceptId": "colobopsis-autothysis",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-whale-earplug",
+      "conceptId": "whale-earplug",
+      "direction": "一种动物产生的物质",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-prince-ruperts-drop",
+      "conceptId": "prince-ruperts-drop",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-leidenfrost-effect",
+      "conceptId": "leidenfrost-effect",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-pitch-drop-experiment",
+      "conceptId": "pitch-drop-experiment",
+      "direction": "一项科学实验",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-eukonkanto",
+      "conceptId": "eukonkanto",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-coopers-hill-cheese-rolling",
+      "conceptId": "coopers-hill-cheese-rolling",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-objects-portable-baby-cage",
+      "conceptId": "outrageous-objects-portable-baby-cage",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-nose-shaping-frame",
+      "conceptId": "outrageous-objects-nose-shaping-frame",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-water-walking-shoes",
+      "conceptId": "outrageous-objects-water-walking-shoes",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-automatic-hat-saluter",
+      "conceptId": "outrageous-objects-automatic-hat-saluter",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-time-alarm-tipping-bed",
+      "conceptId": "outrageous-objects-time-alarm-tipping-bed",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-self-kicking-amusement",
+      "conceptId": "outrageous-objects-self-kicking-amusement",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-puzzle-jug",
+      "conceptId": "outrageous-objects-puzzle-jug",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-bourdalou-chamber-pot",
+      "conceptId": "outrageous-objects-bourdalou-chamber-pot",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-shoe-fitting-fluoroscope",
+      "conceptId": "outrageous-objects-shoe-fitting-fluoroscope",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-chandelier-perm-machine",
+      "conceptId": "outrageous-objects-chandelier-perm-machine",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-vigorzone-electric-belt",
+      "conceptId": "outrageous-objects-vigorzone-electric-belt",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-revigator-radioactive-water-jar",
+      "conceptId": "outrageous-objects-revigator-radioactive-water-jar",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-violet-ray-apparatus",
+      "conceptId": "outrageous-objects-violet-ray-apparatus",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-macaura-blood-circulator",
+      "conceptId": "outrageous-objects-macaura-blood-circulator",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-phrenological-skull-head",
+      "conceptId": "outrageous-objects-phrenological-skull-head",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-beerbrella",
+      "conceptId": "outrageous-objects-beerbrella",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-three-section-combover",
+      "conceptId": "outrageous-objects-three-section-combover",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-objects-rocking-bathtub",
+      "conceptId": "outrageous-objects-rocking-bathtub",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-fan-and-uv-spoon",
+      "conceptId": "outrageous-objects-fan-and-uv-spoon",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-high-five-simulator",
+      "conceptId": "outrageous-objects-high-five-simulator",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-pat-on-back-apparatus",
+      "conceptId": "outrageous-objects-pat-on-back-apparatus",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-motorized-ice-cream-cone",
+      "conceptId": "outrageous-objects-motorized-ice-cream-cone",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-anti-eating-face-mask",
+      "conceptId": "outrageous-objects-anti-eating-face-mask",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-wearable-table",
+      "conceptId": "outrageous-objects-wearable-table",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-nature-vampire-squid",
+      "conceptId": "nature-vampire-squid",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-nature-osedax",
+      "conceptId": "nature-osedax",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-nature-barreleye",
+      "conceptId": "nature-barreleye",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-nature-bloody-belly-comb-jelly",
+      "conceptId": "nature-bloody-belly-comb-jelly",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-nature-nudibranch-stolen-stings",
+      "conceptId": "nature-nudibranch-stolen-stings",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-nature-nepenthes-lowii",
+      "conceptId": "nature-nepenthes-lowii",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "outrageous-nature-nepenthes-hemsleyana",
+      "conceptId": "nature-nepenthes-hemsleyana",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "outrageous-nature-velvet-worm",
+      "conceptId": "nature-velvet-worm",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-nature-coconut-octopus",
+      "conceptId": "nature-coconut-octopus",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-nature-sacculina",
+      "conceptId": "nature-sacculina",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-nature-texas-horned-lizard",
+      "conceptId": "nature-texas-horned-lizard",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "cw-wombat",
+      "conceptId": "wildlife-wombat",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-nature-bombardier-beetle",
+      "conceptId": "nature-bombardier-beetle",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-nature-bolas-spider",
+      "conceptId": "nature-bolas-spider",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-nature-hammer-orchid",
+      "conceptId": "nature-hammer-orchid",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "outrageous-nature-surinam-toad",
+      "conceptId": "nature-surinam-toad",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-nature-anglerfish-sexual-parasitism",
+      "conceptId": "nature-anglerfish-sexual-parasitism",
+      "direction": "一种生物行为或生理变化",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-nature-diving-bell-spider",
+      "conceptId": "nature-diving-bell-spider",
+      "direction": "一种动物建造的结构",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-nature-immortal-jellyfish",
+      "conceptId": "nature-immortal-jellyfish",
+      "direction": "一种生物行为或生理变化",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-nature-squirting-cucumber",
+      "conceptId": "nature-squirting-cucumber",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "outrageous-nature-icefish",
+      "conceptId": "nature-icefish",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-nature-wood-frog",
+      "conceptId": "nature-wood-frog",
+      "direction": "一种生物行为或生理变化",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-nature-sea-spider",
+      "conceptId": "nature-sea-spider",
+      "direction": "一种动物身体结构",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-nature-rafflesia-arnoldii",
+      "conceptId": "nature-rafflesia-arnoldii",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "outrageous-customs-namahage",
+      "conceptId": "outrageous-customs-namahage",
+      "direction": "一种民俗角色",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-customs-scissors-dance",
+      "conceptId": "outrageous-customs-scissors-dance",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "wc-echternach-hopping",
+      "conceptId": "custom-echternach-hopping",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "wc-mesir-macunu",
+      "conceptId": "custom-mesir-macunu",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-customs-air-guitar",
+      "conceptId": "outrageous-customs-air-guitar",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-customs-bog-snorkelling",
+      "conceptId": "outrageous-customs-bog-snorkelling",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-customs-pancake-race",
+      "conceptId": "outrageous-customs-pancake-race",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-customs-woolsack-race",
+      "conceptId": "outrageous-customs-woolsack-race",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-customs-conker-championship",
+      "conceptId": "outrageous-customs-conker-championship",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-customs-gravy-wrestling",
+      "conceptId": "outrageous-customs-gravy-wrestling",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-customs-kirkpinar-oil-wrestling",
+      "conceptId": "outrageous-customs-kirkpinar-oil-wrestling",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-science-oobleck",
+      "conceptId": "outrageous-science-oobleck",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-science-supercooled-water",
+      "conceptId": "outrageous-science-supercooled-water",
+      "direction": "一种化学物质或物态",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-science-hot-ice",
+      "conceptId": "outrageous-science-hot-ice",
+      "direction": "一种化学物质或物态",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-science-magnetic-liquid-oxygen",
+      "conceptId": "outrageous-science-magnetic-liquid-oxygen",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-science-superfluid-helium",
+      "conceptId": "outrageous-science-superfluid-helium",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-science-ferrofluid",
+      "conceptId": "outrageous-science-ferrofluid",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-science-triboluminescence",
+      "conceptId": "outrageous-science-triboluminescence",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-science-gallium-melting",
+      "conceptId": "outrageous-science-gallium-melting",
+      "direction": "一种金属元素",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-science-boiling-freezing",
+      "conceptId": "outrageous-science-boiling-freezing",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-science-bz-reaction",
+      "conceptId": "outrageous-science-bz-reaction",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-science-acoustic-levitation",
+      "conceptId": "outrageous-science-acoustic-levitation",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-180-nature-sea-pig",
+      "conceptId": "nature-sea-pig",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-angler-siphonophore",
+      "conceptId": "nature-angler-siphonophore",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-decorator-crab",
+      "conceptId": "nature-decorator-crab",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-peacock-mantis-shrimp",
+      "conceptId": "nature-peacock-mantis-shrimp",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-hoatzin",
+      "conceptId": "nature-hoatzin",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-harp-sponge",
+      "conceptId": "nature-harp-sponge",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-bomber-worm",
+      "conceptId": "nature-bomber-worm",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-pigbutt-worm",
+      "conceptId": "nature-pigbutt-worm",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-barrel-amphipod",
+      "conceptId": "nature-barrel-amphipod",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-strawberry-squid",
+      "conceptId": "nature-strawberry-squid",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-giant-tubeworm",
+      "conceptId": "nature-giant-tubeworm",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-predatory-tunicate",
+      "conceptId": "nature-predatory-tunicate",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-satin-bowerbird",
+      "conceptId": "nature-satin-bowerbird",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-hydnora-africana",
+      "conceptId": "nature-hydnora-africana",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "outrageous-180-nature-fiveangled-dodder",
+      "conceptId": "nature-fiveangled-dodder",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "outrageous-180-nature-fulmar",
+      "conceptId": "nature-fulmar",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-loggerhead-shrike",
+      "conceptId": "nature-loggerhead-shrike",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-emerald-cockroach-wasp",
+      "conceptId": "nature-emerald-cockroach-wasp",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-antlion",
+      "conceptId": "nature-antlion",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-welwitschia",
+      "conceptId": "nature-welwitschia",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "outrageous-180-nature-dracula-orchid",
+      "conceptId": "nature-dracula-orchid",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "outrageous-180-nature-artillery-fungus",
+      "conceptId": "nature-artillery-fungus",
+      "direction": "一种真菌",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-180-nature-massospora-cicadina",
+      "conceptId": "nature-massospora-cicadina",
+      "direction": "一种真菌",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-180-nature-tardigrade",
+      "conceptId": "nature-tardigrade",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-stinkhorn",
+      "conceptId": "nature-stinkhorn",
+      "direction": "一种真菌",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-180-nature-aye-aye",
+      "conceptId": "nature-aye-aye",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-star-nosed-mole",
+      "conceptId": "nature-star-nosed-mole",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-vampire-bat",
+      "conceptId": "nature-vampire-bat",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-fleischmann-glassfrog",
+      "conceptId": "nature-fleischmann-glassfrog",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-180-nature-darwin-frog",
+      "conceptId": "nature-darwin-frog",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-objects-pigeon-camera",
+      "conceptId": "outrageous-objects-pigeon-camera",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-bontems-songbird",
+      "conceptId": "outrageous-objects-bontems-songbird",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-tipus-tiger",
+      "conceptId": "outrageous-objects-tipus-tiger",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-clockwork-monk",
+      "conceptId": "outrageous-objects-clockwork-monk",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-chopines",
+      "conceptId": "outrageous-objects-chopines",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-flea-trap-pendant",
+      "conceptId": "outrageous-objects-flea-trap-pendant",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-spring-scarificator",
+      "conceptId": "outrageous-objects-spring-scarificator",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-wooden-iron-lung",
+      "conceptId": "outrageous-objects-wooden-iron-lung",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-animal-ear-protectors",
+      "conceptId": "outrageous-objects-animal-ear-protectors",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-banana-protective-device",
+      "conceptId": "outrageous-objects-banana-protective-device",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-glass-armonica",
+      "conceptId": "outrageous-objects-glass-armonica",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-bleeding-crash-dummy",
+      "conceptId": "outrageous-objects-bleeding-crash-dummy",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-stitched-merman",
+      "conceptId": "outrageous-objects-stitched-merman",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-pharmacy-leech-jar",
+      "conceptId": "outrageous-objects-pharmacy-leech-jar",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-kissing-shield",
+      "conceptId": "outrageous-objects-kissing-shield",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-helmet-pillow",
+      "conceptId": "outrageous-objects-helmet-pillow",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-sideways-swing-patent",
+      "conceptId": "outrageous-objects-sideways-swing-patent",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-objects-automatic-petting-hand",
+      "conceptId": "outrageous-objects-automatic-petting-hand",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-laser-cat-exercise-patent",
+      "conceptId": "outrageous-objects-laser-cat-exercise-patent",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-objects-chicken-eye-protectors",
+      "conceptId": "outrageous-objects-chicken-eye-protectors",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-edison-talking-doll",
+      "conceptId": "outrageous-objects-edison-talking-doll",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-elektro-smoking-robot",
+      "conceptId": "outrageous-objects-elektro-smoking-robot",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-heron-holy-water-dispenser",
+      "conceptId": "outrageous-objects-heron-holy-water-dispenser",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-galalith-chessmen",
+      "conceptId": "outrageous-objects-galalith-chessmen",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-motorized-pasta-fork",
+      "conceptId": "outrageous-objects-motorized-pasta-fork",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-vacuum-hair-cutter",
+      "conceptId": "outrageous-objects-vacuum-hair-cutter",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-ankle-shoe-umbrella",
+      "conceptId": "outrageous-objects-ankle-shoe-umbrella",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-bird-diaper",
+      "conceptId": "outrageous-objects-bird-diaper",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-ramelli-bookwheel",
+      "conceptId": "outrageous-objects-ramelli-bookwheel",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-objects-helium-sunshade",
+      "conceptId": "outrageous-objects-helium-sunshade",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-nature-abyssal-comb-jelly",
+      "conceptId": "nature-abyssal-comb-jelly",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-balloon-worm",
+      "conceptId": "nature-balloon-worm",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-basket-star",
+      "conceptId": "nature-basket-star",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-green-elf-cup",
+      "conceptId": "nature-green-elf-cup",
+      "direction": "一种真菌",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-nature-bigfin-squid",
+      "conceptId": "nature-bigfin-squid",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-crystal-amphipod",
+      "conceptId": "nature-crystal-amphipod",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-deep-sea-crown-jelly",
+      "conceptId": "nature-deep-sea-crown-jelly",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-giant-phantom-jelly",
+      "conceptId": "nature-giant-phantom-jelly",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-glass-squid",
+      "conceptId": "nature-glass-squid",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-gossamer-worm",
+      "conceptId": "nature-gossamer-worm",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-midwater-octopus",
+      "conceptId": "nature-midwater-octopus",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-mystery-mollusc",
+      "conceptId": "nature-mystery-mollusc",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-octopus-squid",
+      "conceptId": "nature-octopus-squid",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-pearl-octopus",
+      "conceptId": "nature-pearl-octopus",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-pompeii-worm",
+      "conceptId": "nature-pompeii-worm",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-warty-deep-sea-octopus",
+      "conceptId": "nature-warty-deep-sea-octopus",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-seven-arm-octopus",
+      "conceptId": "nature-seven-arm-octopus",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-silky-jelly",
+      "conceptId": "nature-silky-jelly",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-whalefish",
+      "conceptId": "nature-whalefish",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-whiptail-gulper-eel",
+      "conceptId": "nature-whiptail-gulper-eel",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-redhead-larvacean",
+      "conceptId": "nature-redhead-larvacean",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-pom-pom-anemone",
+      "conceptId": "nature-pom-pom-anemone",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-psychedelic-jelly",
+      "conceptId": "nature-psychedelic-jelly",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "outrageous-270-nature-acorn-worm",
+      "conceptId": "nature-acorn-worm",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "cw-binturong",
+      "conceptId": "wildlife-binturong",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "cw-echidna",
+      "conceptId": "wildlife-echidna",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "cw-platypus",
+      "conceptId": "wildlife-platypus",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "cw-banded-archer-fish",
+      "conceptId": "wildlife-banded-archer-fish",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "cw-dung-beetle",
+      "conceptId": "wildlife-dung-beetle",
+      "direction": "一种动物",
+      "decoys": ["一种植物", "一种真菌"]
+    },
+    {
+      "id": "cw-venus-flytrap",
+      "conceptId": "wildlife-venus-flytrap",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "cw-utricularia",
+      "conceptId": "wildlife-utricularia",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "cw-cornus-canadensis",
+      "conceptId": "wildlife-cornus-canadensis",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "cw-kalanchoe-daigremontiana",
+      "conceptId": "wildlife-kalanchoe-daigremontiana",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "cw-victoria-amazonica",
+      "conceptId": "wildlife-victoria-amazonica",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "cw-arisaema-triphyllum",
+      "conceptId": "wildlife-arisaema-triphyllum",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "cw-symplocarpus-foetidus",
+      "conceptId": "wildlife-symplocarpus-foetidus",
+      "direction": "一种植物",
+      "decoys": ["一种动物", "一种人物职业"]
+    },
+    {
+      "id": "outrageous-270-nature-birds-nest-fungi",
+      "conceptId": "nature-birds-nest-fungi",
+      "direction": "一种真菌",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-nature-cedar-apple-rust",
+      "conceptId": "nature-cedar-apple-rust",
+      "direction": "一种真菌",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-nature-shaggy-mane",
+      "conceptId": "nature-shaggy-mane",
+      "direction": "一种真菌",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-nature-oyster-mushroom-predation",
+      "conceptId": "nature-oyster-mushroom-predation",
+      "direction": "一种生物行为或生理变化",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-objects-mudlark",
+      "conceptId": "objects-mudlark",
+      "direction": "一种人物职业",
+      "decoys": ["一种植物", "一种人造实物"]
+    },
+    {
+      "id": "outrageous-270-objects-cucumber-straightener",
+      "conceptId": "objects-cucumber-straightener",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-mortsafe",
+      "conceptId": "objects-mortsafe",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-waterloo-teeth",
+      "conceptId": "objects-waterloo-teeth",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-scolds-bridle",
+      "conceptId": "objects-scolds-bridle",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-dental-key",
+      "conceptId": "objects-dental-key",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-climbing-boys",
+      "conceptId": "objects-climbing-boys",
+      "direction": "一种人物职业",
+      "decoys": ["一种植物", "一种人造实物"]
+    },
+    {
+      "id": "outrageous-270-objects-resurrection-men",
+      "conceptId": "objects-resurrection-men",
+      "direction": "一种人物职业",
+      "decoys": ["一种植物", "一种人造实物"]
+    },
+    {
+      "id": "outrageous-270-objects-turnspit-dog-wheel",
+      "conceptId": "objects-turnspit-dog-wheel",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-human-hair-jewellery",
+      "conceptId": "objects-human-hair-jewellery",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-pure-finder",
+      "conceptId": "objects-pure-finder",
+      "direction": "一种人物职业",
+      "decoys": ["一种植物", "一种人造实物"]
+    },
+    {
+      "id": "outrageous-270-objects-sewer-hunter",
+      "conceptId": "objects-sewer-hunter",
+      "direction": "一种人物职业",
+      "decoys": ["一种植物", "一种人造实物"]
+    },
+    {
+      "id": "outrageous-270-objects-cigar-end-finder",
+      "conceptId": "objects-cigar-end-finder",
+      "direction": "一种人物职业",
+      "decoys": ["一种植物", "一种人造实物"]
+    },
+    {
+      "id": "outrageous-270-objects-drunkards-cloak",
+      "conceptId": "objects-drunkards-cloak",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-punishment-crank",
+      "conceptId": "objects-punishment-crank",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-sundial-cannon",
+      "conceptId": "objects-sundial-cannon",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-bathing-machine",
+      "conceptId": "objects-bathing-machine",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-monowheel",
+      "conceptId": "objects-monowheel",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-fuddling-cup",
+      "conceptId": "objects-fuddling-cup",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-self-enema-syringe",
+      "conceptId": "objects-self-enema-syringe",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-helicron",
+      "conceptId": "objects-helicron",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-valmobile",
+      "conceptId": "objects-valmobile",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-nail-violin",
+      "conceptId": "objects-nail-violin",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-pyrophone",
+      "conceptId": "objects-pyrophone",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-cane-violin",
+      "conceptId": "objects-cane-violin",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-octobass",
+      "conceptId": "objects-octobass",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-tiger-dropping-sensor",
+      "conceptId": "objects-tiger-dropping-sensor",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-pigeon-whistle",
+      "conceptId": "objects-pigeon-whistle",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-perkins-tractors",
+      "conceptId": "objects-perkins-tractors",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-antimony-cup",
+      "conceptId": "objects-antimony-cup",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-insectothopter",
+      "conceptId": "objects-insectothopter",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-robot-catfish",
+      "conceptId": "objects-robot-catfish",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-dead-drop-rat",
+      "conceptId": "objects-dead-drop-rat",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-tree-stump-bug",
+      "conceptId": "objects-tree-stump-bug",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-hollow-nickel",
+      "conceptId": "objects-hollow-nickel",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-winslow-soothing-syrup",
+      "conceptId": "objects-winslow-soothing-syrup",
+      "direction": "一种历史药品",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-objects-stroh-violin",
+      "conceptId": "objects-stroh-violin",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-kleroterion",
+      "conceptId": "objects-kleroterion",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-prison-face-cap",
+      "conceptId": "objects-prison-face-cap",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-objects-tantalus",
+      "conceptId": "objects-tantalus",
+      "direction": "一种人造实物",
+      "decoys": ["一种植物", "一种动物"]
+    },
+    {
+      "id": "outrageous-270-customs-worm-charming",
+      "conceptId": "outrageous-customs-worm-charming",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-customs-snail-racing",
+      "conceptId": "outrageous-customs-snail-racing",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-customs-orange-battle",
+      "conceptId": "outrageous-customs-orange-battle",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-customs-sardine-burial",
+      "conceptId": "outrageous-customs-sardine-burial",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "wc-oostduinkerke-horse-shrimp",
+      "conceptId": "custom-oostduinkerke-horse-shrimp",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-sailing-stones",
+      "conceptId": "outrageous-science-sailing-stones",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-blood-falls",
+      "conceptId": "outrageous-science-blood-falls",
+      "direction": "一种自然地貌或景观",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-underwater-waterfall",
+      "conceptId": "outrageous-science-underwater-waterfall",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-mars-blue-sunset",
+      "conceptId": "outrageous-science-mars-blue-sunset",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-ijen-blue-fire",
+      "conceptId": "outrageous-science-ijen-blue-fire",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-singing-sand",
+      "conceptId": "outrageous-science-singing-sand",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-lake-nyos",
+      "conceptId": "outrageous-science-lake-nyos",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-penitentes",
+      "conceptId": "outrageous-science-penitentes",
+      "direction": "一种自然地貌或景观",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-snow-rollers",
+      "conceptId": "outrageous-science-snow-rollers",
+      "direction": "一种自然地貌或景观",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-hair-ice",
+      "conceptId": "outrageous-science-hair-ice",
+      "direction": "一种自然地貌或景观",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-customs-shin-kicking",
+      "conceptId": "outrageous-customs-shin-kicking",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-customs-nettle-eating",
+      "conceptId": "outrageous-customs-nettle-eating",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-customs-peashooting",
+      "conceptId": "outrageous-customs-peashooting",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-customs-stone-skimming",
+      "conceptId": "outrageous-customs-stone-skimming",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-customs-egg-throwing",
+      "conceptId": "outrageous-customs-egg-throwing",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-customs-el-colacho",
+      "conceptId": "outrageous-customs-el-colacho",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-customs-tomatina",
+      "conceptId": "outrageous-customs-tomatina",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-customs-gurning",
+      "conceptId": "outrageous-customs-gurning",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "wc-qeswachaka-renewal",
+      "conceptId": "custom-qeswachaka-renewal",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "wc-voladores",
+      "conceptId": "custom-voladores",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-customs-toe-wrestling",
+      "conceptId": "outrageous-customs-toe-wrestling",
+      "direction": "一种人类活动或方法",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-mercury-double-sunrise",
+      "conceptId": "outrageous-science-mercury-double-sunrise",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-saturn-hexagon",
+      "conceptId": "outrageous-science-saturn-hexagon",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-titan-methane-rain",
+      "conceptId": "outrageous-science-titan-methane-rain",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-enceladus-geysers",
+      "conceptId": "outrageous-science-enceladus-geysers",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-brocken-spectre",
+      "conceptId": "outrageous-science-brocken-spectre",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-light-pillars",
+      "conceptId": "outrageous-science-light-pillars",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-fallstreak-hole",
+      "conceptId": "outrageous-science-fallstreak-hole",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-green-flash",
+      "conceptId": "outrageous-science-green-flash",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-red-sprites",
+      "conceptId": "outrageous-science-red-sprites",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-brine-lakes",
+      "conceptId": "outrageous-science-brine-lakes",
+      "direction": "一种自然地貌或景观",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-black-smokers",
+      "conceptId": "outrageous-science-black-smokers",
+      "direction": "一种自然地貌或景观",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-devils-kettle",
+      "conceptId": "outrageous-science-devils-kettle",
+      "direction": "一种自然地貌或景观",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-mars-spiders",
+      "conceptId": "outrageous-science-mars-spiders",
+      "direction": "一种自然地貌或景观",
+      "decoys": ["一种人物职业", "一种植物"]
+    },
+    {
+      "id": "outrageous-270-science-dry-ice-snow",
+      "conceptId": "outrageous-science-dry-ice-snow",
+      "direction": "一种物理或化学现象",
+      "decoys": ["一种人物职业", "一种植物"]
+    }
+  ]
+}

@@ -33,4 +33,11 @@ export const games = [
     available: true,
     href: "./scout/index.html",
   },
+  {
+    id: "bluff-classic",
+    title: "瞎掰王 · 原版联机",
+    subtitle: "同一个词，一桌故事。找出唯一的老实人。",
+    available: true,
+    href: "./bluff-classic/index.html",
+  },
 ];

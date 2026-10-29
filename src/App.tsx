@@ -368,7 +368,7 @@ export default function App() {
                 <p className="hero-description">
                   不用下载，不用注册。
                   <br />
-                  召集你的朋友，一部手机就能开一桌。
+                  召集你的朋友，同屏传阅或各自手机入桌。
                 </p>
                 <button
                   className="primary hero-button"
@@ -421,6 +421,15 @@ export default function App() {
                   </div>
                 </div>
               </button>
+              <a className="game-tile" href="./bluff-classic/index.html">
+                <div className="tile-art" aria-hidden="true"><span>真</span><span>？</span><i>9</i></div>
+                <div className="tile-copy">
+                  <div className="tile-top"><span className="tag">诈唬 · 推理 · 找老实人</span><span className="available">原版联机</span></div>
+                  <h3>瞎掰王<span>同一个词，谁在说真话？</span></h3>
+                  <p>一位想想，一位老实人，其余人即兴瞎掰。各自看身份，限时读答案。</p>
+                  <div className="tile-bottom"><span>3–9 人 · 各拿手机入桌</span><span className="circle-arrow"><Icon name="arrow" size={20}/></span></div>
+                </div>
+              </a>
               <a className="game-tile chess-tile" href={games[1]!.href}>
                 <div className="tile-art chess-art" aria-hidden="true">
                   <div>
