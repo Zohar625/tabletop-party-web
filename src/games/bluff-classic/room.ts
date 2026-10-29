@@ -158,6 +158,7 @@ export class ClassicRoom {
   private acknowledgedLeaveId = "";
   private tail: Promise<unknown> = Promise.resolve();
   private stopped = true;
+  private connectionGeneration = 0;
   private connected = false;
   private connecting = false;
   private clockOffsetMs?: number;
@@ -214,7 +215,11 @@ export class ClassicRoom {
       pending: false,
     };
     this.transport.onMessage = (value) => {
-      void this.enqueue(() => this.receive(value)).catch(() => {});
+      const generation = this.connectionGeneration;
+      void this.enqueue(() => {
+        if (this.stopped || generation !== this.connectionGeneration) return;
+        return this.receive(value);
+      }).catch(() => {});
     };
     this.transport.onOffline = () => {
       if (!this.stopped) {
@@ -330,6 +335,7 @@ export class ClassicRoom {
     return this.keys.get(id)!;
   }
   private async sendTo(id: string, publicKey: JsonWebKey, value: unknown) {
+    const generation = this.connectionGeneration;
     const from = this.identity.id;
     const key = await this.key(id, publicKey);
     let payload = typeof value === "function" ? value() : value;
@@ -345,7 +351,11 @@ export class ClassicRoom {
       payload = value();
       body = await seal(key, payload, `${this.saved.code}:${from}:${id}`);
     }
-    if (!this.stopped && this.connected)
+    if (
+      !this.stopped &&
+      this.connected &&
+      generation === this.connectionGeneration
+    )
       this.transport.send({
         v: 1,
         type: "cipher",
@@ -383,6 +393,7 @@ export class ClassicRoom {
   async connect() {
     if (!this.stopped) return;
     this.stopped = false;
+    this.connectionGeneration++;
     this.timer = setInterval(() => {
       void this.pulse().catch(() => {});
     }, this.tickMs);
@@ -391,10 +402,11 @@ export class ClassicRoom {
   private async open() {
     if (this.connecting || this.stopped) return;
     this.connecting = true;
+    const generation = this.connectionGeneration;
     this.emit("connecting");
     try {
       await this.transport.connect();
-      if (this.stopped) {
+      if (this.stopped || generation !== this.connectionGeneration) {
         this.transport.close();
         return;
       }
@@ -405,7 +417,7 @@ export class ClassicRoom {
         this.transport.send({ v: 1, type: "probe" });
         await new Promise((resolve) => setTimeout(resolve, 1200));
         this.probing = false;
-        if (this.stopped) return;
+        if (this.stopped || generation !== this.connectionGeneration) return;
         this.assertCurrent();
         this.saved.claimed = true;
         this.persist();
@@ -417,6 +429,7 @@ export class ClassicRoom {
           : this.sendRequest(this.makeRequest({ type: "join" })),
       );
     } catch (error) {
+      if (this.stopped || generation !== this.connectionGeneration) return;
       this.connected = false;
       this.error =
         error instanceof Error ? error.message : "暂时无法连接，请稍后重试。";
@@ -429,11 +442,13 @@ export class ClassicRoom {
   }
   private async pulse() {
     if (this.stopped) return;
+    const generation = this.connectionGeneration;
     if (!this.connected) {
       if (!this.connecting && this.now() >= this.reconnectAt) await this.open();
       return;
     }
     await this.enqueue(async () => {
+      if (this.stopped || generation !== this.connectionGeneration) return;
       if (this.isHost) {
         this.advanceReading();
         await this.publish();
@@ -498,6 +513,7 @@ export class ClassicRoom {
   }
   private async receive(value: unknown) {
     if (this.stopped || !value || typeof value !== "object") return;
+    const generation = this.connectionGeneration;
     const frame = value as Frame & { type: string };
     if (frame.v !== 1) return;
     if (String(frame.type) === "probe") {
@@ -506,6 +522,7 @@ export class ClassicRoom {
     }
     if (String(frame.type) === "host") {
       const id = await fingerprint(frame.publicKey);
+      if (this.stopped || generation !== this.connectionGeneration) return;
       if (this.isHost) {
         if (id === this.identity.id) return;
         // Only an unclaimed new room may be rejected by a public announcement.
@@ -552,6 +569,7 @@ export class ClassicRoom {
       frame.body,
       `${this.saved.code}:${frame.from}:${frame.to}`,
     )) as Record<string, any>;
+    if (this.stopped || generation !== this.connectionGeneration) return;
     if (this.isHost) {
       if (
         payload.kind !== "request" ||
@@ -645,6 +663,8 @@ export class ClassicRoom {
     }
   }
   private async handle(id: string, publicKey: JsonWebKey, request: Request) {
+    if (this.stopped) return;
+    const generation = this.connectionGeneration;
     this.assertCurrent();
     const command = request.command;
     const peer = this.saved.peers.find((p) => p.id === id);
@@ -759,11 +779,13 @@ export class ClassicRoom {
         }
       } else {
         await this.apply(id, command);
+        if (this.stopped || generation !== this.connectionGeneration) return;
         this.saved.revision++;
       }
     } catch (e) {
       error = e instanceof Error ? e.message : "操作未生效，请重试。";
     }
+    if (this.stopped || generation !== this.connectionGeneration) return;
     this.saved.receipts[id] = [...receipts, { id: request.id, error }].slice(
       -20,
     );
@@ -803,9 +825,12 @@ export class ClassicRoom {
         this.saved.peers.some((p) => !this.online(p.id) || !p.ready)
       )
         throw Error("需要3–9位玩家全部在线并准备好。");
+      const generation = this.connectionGeneration;
+      const cards = await this.loadCards(structuredClone(this.saved.settings));
+      if (this.stopped || generation !== this.connectionGeneration) return;
       this.saved.game = createClassic(
         this.saved.peers.map((p) => ({ id: p.id, name: p.name, score: 3 })),
-        await this.loadCards(structuredClone(this.saved.settings)),
+        cards,
         this.saved.settings,
         crypto.randomUUID(),
         this.timestamp(),
@@ -853,13 +878,19 @@ export class ClassicRoom {
       throw Error("正在等连接恢复，请稍候。");
     if (this.pending) throw Error("上一操作正在确认，请稍候。");
     this.error = "";
+    const generation = this.connectionGeneration;
     if (this.isHost)
-      return this.enqueue(() =>
-        this.handle(this.identity.id, this.identity.publicKey, request),
-      );
+      return this.enqueue(() => {
+        if (this.stopped || generation !== this.connectionGeneration)
+          throw Error("连接已停止，请重新连接后再操作。");
+        return this.handle(this.identity.id, this.identity.publicKey, request);
+      });
     this.pending = request;
     this.emit();
-    await this.enqueue(() => this.sendRequest(request));
+    await this.enqueue(() => {
+      if (this.stopped || generation !== this.connectionGeneration) return;
+      return this.sendRequest(request);
+    });
   }
   ready(value: boolean) {
     return this.request({ type: "ready", value });
@@ -909,6 +940,7 @@ export class ClassicRoom {
     return this.request({ type: "kick", playerId });
   }
   stop() {
+    this.connectionGeneration++;
     this.stopped = true;
     this.connected = false;
     clearInterval(this.timer);

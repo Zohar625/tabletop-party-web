@@ -572,3 +572,162 @@ test("explicit corrupt-record recovery compares the captured value before remova
   clearSavedRoom({ store });
   assert.equal(store.getItem(SAVE), null);
 });
+test("stopping a guest cancels an already decrypting snapshot before it can write storage", async () => {
+  const t = await table();
+  let release!: () => void;
+  try {
+    await start(t.rooms);
+    const guest = t.rooms[1];
+    const packet = t.wire.packets
+      .filter(
+        (p) =>
+          p.type === "cipher" &&
+          p.from === t.host.getSnapshot().meId &&
+          p.to === guest.getSnapshot().meId,
+      )
+      .at(-1);
+    t.wire.drop = (p) => p.from === t.host.getSnapshot().meId;
+    const internals = guest as unknown as {
+      key: (...args: any[]) => Promise<CryptoKey>;
+      tail: Promise<unknown>;
+    };
+    const originalKey = internals.key.bind(guest);
+    let entered = false;
+    const gate = new Promise<void>((resolve) => {
+      release = resolve;
+    });
+    internals.key = async (...args) => {
+      entered = true;
+      await gate;
+      return originalKey(...args);
+    };
+    t.wire.broadcast(packet);
+    await until(() => entered);
+    guest.stop();
+    const stoppedRecord = t.stores[1].getItem(SAVE);
+    t.advance(120000);
+    release();
+    await internals.tail;
+    assert(
+      t.stores[1].getItem(SAVE) === stoppedRecord,
+      "a stopped receiver must not rewrite the saved time floor during restoration",
+    );
+  } finally {
+    release?.();
+    t.rooms.forEach((room) => room.stop());
+  }
+});
+
+test("reconnecting the same guest cannot revive an old decrypting snapshot", async () => {
+  const t = await table();
+  let release!: () => void;
+  try {
+    await start(t.rooms);
+    const guest = t.rooms[1];
+    const packet = t.wire.packets
+      .filter(
+        (p) =>
+          p.type === "cipher" &&
+          p.from === t.host.getSnapshot().meId &&
+          p.to === guest.getSnapshot().meId,
+      )
+      .at(-1);
+    t.wire.drop = (p) => p.from === t.host.getSnapshot().meId;
+    const internals = guest as unknown as {
+      key: (...args: any[]) => Promise<CryptoKey>;
+      tail: Promise<unknown>;
+    };
+    const originalKey = internals.key.bind(guest);
+    let entered = false;
+    const gate = new Promise<void>((resolve) => {
+      release = resolve;
+    });
+    internals.key = async (...args) => {
+      entered = true;
+      await gate;
+      return originalKey(...args);
+    };
+    t.wire.broadcast(packet);
+    await until(() => entered);
+    guest.stop();
+    const stoppedRecord = t.stores[1].getItem(SAVE);
+    t.advance(120000);
+    const reconnecting = guest.connect();
+    release();
+    await reconnecting;
+    await internals.tail;
+    assert(
+      t.stores[1].getItem(SAVE) === stoppedRecord,
+      "a stopped receiver must not rewrite the saved time floor during restoration",
+    );
+  } finally {
+    release?.();
+    t.rooms.forEach((room) => room.stop());
+  }
+});
+test("a host pulse queued before stop cannot advance or save the reading phase", async () => {
+  const t = await table();
+  let release!: () => void;
+  try {
+    await start(t.rooms);
+    await Promise.all(t.rooms.map((r) => r.act({ type: "confirmRole" })));
+    await sync(t.rooms);
+    await t.host.act({ type: "beginRead" });
+    await sync(t.rooms);
+    const internals = t.host as unknown as {
+      tail: Promise<unknown>;
+      pulse: () => Promise<void>;
+    };
+    await internals.tail;
+    internals.tail = new Promise<void>((resolve) => {
+      release = resolve;
+    });
+    t.advance(9000);
+    const pulse = internals.pulse();
+    t.host.stop();
+    const raw = t.stores[0].getItem(SAVE);
+    release();
+    await pulse;
+    assert(
+      t.stores[0].getItem(SAVE) === raw,
+      "stopped queued pulse changed storage",
+    );
+    assert.equal(t.host.getSnapshot().game!.phase, "reading");
+  } finally {
+    release?.();
+    t.rooms.forEach((r) => r.stop());
+  }
+});
+for (const reconnect of [false, true])
+  test(`queued host commands are cancelled when stopped${reconnect ? " and reconnected" : ""}`, async () => {
+    const t = await table();
+    let release!: () => void;
+    try {
+      const internals = t.host as unknown as { tail: Promise<unknown> };
+      await internals.tail;
+      internals.tail = new Promise<void>((resolve) => {
+        release = resolve;
+      });
+      const command = t.host
+        .configure({ ...t.host.getSnapshot().settings, readSeconds: 15 })
+        .then(
+          () => null,
+          (error) => error,
+        );
+      t.host.stop();
+      const raw = t.stores[0].getItem(SAVE);
+      const connecting = reconnect ? t.host.connect() : Promise.resolve();
+      release();
+      const error = await command;
+      await connecting;
+      assert(error instanceof Error, "stopped queued command should reject");
+      assert(
+        t.stores[0].getItem(SAVE) === raw,
+        "stopped queued command changed storage",
+      );
+      assert.equal(t.host.getSnapshot().settings.readSeconds, 9);
+    } finally {
+      release?.();
+      t.rooms.forEach((r) => r.stop());
+    }
+  });

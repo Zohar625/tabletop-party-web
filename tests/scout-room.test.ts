@@ -206,7 +206,22 @@ test("an offline guest does not block online orientation or turns, and nobody ma
   const t = await table(3, { now: () => now });
   try {
     await start(t.rooms);
+    // Reproduce a request already in flight when the guest stops.
+    const inFlight = t.wire.packets
+      .filter(
+        (packet) =>
+          packet.type === "cipher" &&
+          packet.from === t.rooms[2].getSnapshot().meId,
+      )
+      .at(-1);
+    assert(inFlight);
+    t.wire.broadcast(t.host.getSnapshot().code, inFlight);
     t.rooms[2].stop();
+    // Deliver queued Wire callbacks, then wait for a host command queued after
+    // those encrypted requests. Otherwise a delayed old ping is processed at
+    // the advanced fake time and keeps the stopped seat online forever.
+    await Promise.resolve();
+    await t.host.chat("第一次断线前请求已处理");
     now += 11000;
     await until(
       () =>
@@ -238,6 +253,8 @@ test("an offline guest does not block online orientation or turns, and nobody ma
       (r) => r !== t.host && r.getSnapshot().meId !== turnId,
     )!;
     offline.stop();
+    await Promise.resolve();
+    await t.host.chat("第二次断线前请求已处理");
     now += 11000;
     await until(() =>
       t.host
