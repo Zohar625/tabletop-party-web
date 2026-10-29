@@ -387,7 +387,10 @@ export default function ClassicApp() {
                 </span>
               </div>
               <div className="bc-actions">
-                <button onClick={share} disabled={busy}>
+                <button
+                  onClick={share}
+                  disabled={busy || snapshot.status === "closed"}
+                >
                   邀请朋友
                 </button>
                 <button onClick={() => setExit(true)}>退出房间</button>
@@ -401,14 +404,22 @@ export default function ClassicApp() {
             {snapshot.status !== "online" && (
               <div className="bc-panel">
                 <p>
-                  房主需要保持网页打开。你可以等待恢复，也可以直接退出，放弃这个座位。
+                  {snapshot.status === "closed"
+                    ? "这一桌已经结束。退出旧座位后，就能创建或加入新房间。"
+                    : "房主需要保持网页打开。你可以等待恢复，也可以直接退出，放弃这个座位。"}
                 </p>
-                <button
-                  disabled={busy}
-                  onClick={() => perform(() => roomRef.current!.connect())}
-                >
-                  尝试重连
-                </button>
+                {snapshot.status === "closed" ? (
+                  <button onClick={() => abandon(true)} disabled={busy}>
+                    退出旧座位
+                  </button>
+                ) : (
+                  <button
+                    disabled={busy}
+                    onClick={() => perform(() => roomRef.current!.connect())}
+                  >
+                    尝试重连
+                  </button>
+                )}
               </div>
             )}
             <section className="bc-seats" aria-label="玩家与状态">
