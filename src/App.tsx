@@ -14,6 +14,7 @@ import type { Store } from "./session/localSession";
 import type { SessionAdapter } from "./session/types";
 import { startReadingClock } from "./session/readingClock";
 import { games } from "./games/registry";
+import { FeaturedGames } from "./components/FeaturedGames";
 import { MapIllustration } from "./games/cartographers/TerrainArt";
 function getStore(): Store {
   try {
@@ -323,7 +324,7 @@ export default function App() {
         <div className="header-right">
           <span className="mode-label">
             <i />
-            一部手机，一桌朋友
+            好玩的桌游，随时开桌
           </span>
           <button
             className="text-button"
@@ -354,41 +355,7 @@ export default function App() {
         )}
         {screen === "lobby" && (
           <>
-            <section className="hero">
-              <div className="hero-copy">
-                <p className="eyebrow">
-                  <span />
-                  今晚，玩点不一样的
-                </p>
-                <h1>
-                  把手机放桌上，
-                  <br />
-                  好戏<span className="underline">开场。</span>
-                </h1>
-                <p className="hero-description">
-                  不用下载，不用注册。
-                  <br />
-                  召集你的朋友，同屏传阅或各自手机入桌。
-                </p>
-                <button
-                  className="primary hero-button"
-                  onClick={() => setScreen("setup")}
-                >
-                  来一局瞎掰王
-                  <Icon name="arrow" size={21} />
-                </button>
-                <div className="hero-meta">
-                  <span>
-                    <Icon name="people" size={16} />
-                    3–9 位朋友
-                  </span>
-                  <span>
-                    <Icon name="clock" size={16} />约 15–30 分钟
-                  </span>
-                </div>
-              </div>
-              <CardArt />
-            </section>
+            <FeaturedGames onBluff={() => setScreen("setup")} bluffArt={<CardArt />} />
             <section className="shelf">
               <div className="section-title">
                 <div>
@@ -557,25 +524,25 @@ export default function App() {
               <div>
                 <b>01</b>
                 <span>
-                  传手机
+                  挑个游戏
                   <br />
-                  <small>每人偷偷读自己的卡</small>
+                  <small>一个人慢慢玩，或邀朋友入桌</small>
                 </span>
               </div>
               <div>
                 <b>02</b>
                 <span>
-                  讲故事
+                  选种玩法
                   <br />
-                  <small>一个人在一本正经地编</small>
+                  <small>同屏轮流玩，或各拿手机联机</small>
                 </span>
               </div>
               <div>
                 <b>03</b>
                 <span>
-                  找瞎掰人
+                  好戏开场
                   <br />
-                  <small>投出你最怀疑的那一位</small>
+                  <small>看好规则，尽情享受这一局</small>
                 </span>
               </div>
             </section>
